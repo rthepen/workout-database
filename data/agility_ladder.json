@@ -251,17 +251,16 @@
     "media": {
       "videos": [
         {
-          "youtube_id": "-3kmbF30YYE",
+          "youtube_id": "QFSdjLw93sA",
           "type": "standard",
           "priority": 1,
-          "language": "en",
-          "start_seconds": 0
+          "language": "en"
         }
       ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T15:58:09.557Z"
+      "updated_at": "2026-08-29"
     }
   },
   {
@@ -1588,7 +1587,8 @@
       "difficulty": "beginner",
       "mechanics": "isometric",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1617,7 +1617,15 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "vrnEN4mZl-0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
