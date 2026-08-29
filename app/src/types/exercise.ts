@@ -37,11 +37,22 @@ export interface VideoMedia {
   type: 'standard' | 'short';
   priority: number;
   start_seconds?: number;
+  thumbnail_seconds?: number;
   language: 'en' | 'nl' | 'none';
+  rating?: number; // Video rating (1..5 stars)
+  thumbnail_rating?: number; // Thumbnail rating (1..5 stars)
+  custom_thumbnail_url?: string;
+}
+
+export interface ImageMedia {
+  url: string;
+  type?: 'thumbnail' | 'diagram' | 'photo';
+  rating?: number;
 }
 
 export interface Media {
   videos: VideoMedia[];
+  images?: ImageMedia[];
 }
 
 export interface Meta {

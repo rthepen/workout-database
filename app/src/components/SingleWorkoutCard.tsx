@@ -6,7 +6,6 @@ import {
   ChevronRight, 
   SlidersHorizontal, 
   Clock, 
-  Layers, 
   Info,
   Tv,
   BookOpen,
@@ -317,6 +316,12 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                     <Clock className="w-3 h-3" /> Missing start time
                   </span>
                 )}
+                
+                {exercise.media?.videos?.[0]?.thumbnail_seconds !== undefined && exercise.media.videos[0].thumbnail_seconds > 0 && (
+                  <span className="px-2.5 py-1 rounded-full bg-sky-500/10 text-sky-400 border border-sky-500/30 font-semibold flex items-center gap-1">
+                    🖼️ Frame: {exercise.media.videos[0].thumbnail_seconds}s
+                  </span>
+                )}
               </div>
             </div>
 
@@ -360,7 +365,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
             </div>
           </div>
 
-          {/* Tab Content Display */}
+          {/* Active Tab Panel */}
           <div className="p-4 sm:p-5 pt-0">
             {activeTab === 'video' ? (
               <VideoInspector
@@ -369,12 +374,9 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
               />
             ) : activeTab === 'overview' ? (
               <div className="space-y-4 text-xs">
-                {/* Muscles targeted */}
-                <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 space-y-3">
-                  <div className="flex items-center gap-2 text-white font-bold text-sm">
-                    <Layers className="w-4 h-4 text-brand-400" />
-                    <span>Target Muscles</span>
-                  </div>
+                {/* Equipment & Muscle Groups */}
+                <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 space-y-3">
+                  <h3 className="font-bold text-white text-sm">Target Anatomical Muscles</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
@@ -459,8 +461,8 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
             )}
           </div>
 
-          {/* Sticky Action Bar (Approve / Direct 1-Click PR / Edit) */}
-          <div className="sticky bottom-0 z-20 p-4 bg-[#0E131F]/95 backdrop-blur-md border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
+          {/* Sticky Action Bar (Approve / Direct 1-Click PR / Edit) ALWAYS Visible */}
+          <div className="sticky bottom-0 z-30 p-3 sm:p-4 bg-[#0E131F]/95 backdrop-blur-md border-t border-slate-800 flex flex-wrap items-center justify-between gap-2.5 shadow-[0_-10px_25px_rgba(0,0,0,0.8)]">
             <button
               onClick={() => setIsEditing(true)}
               className="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-bold text-xs rounded-xl border border-slate-700 flex items-center justify-center gap-2 transition transform active:scale-95"

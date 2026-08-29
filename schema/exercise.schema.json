@@ -240,13 +240,48 @@
               "start_seconds": {
                 "type": "integer",
                 "minimum": 0,
-                "description": "Optional timestamp to begin playback."
+                "description": "Optional timestamp to begin movement playback."
+              },
+              "thumbnail_seconds": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Timestamp for the best visual frame of the exercise for app thumbnail creation."
               },
               "language": {
                 "type": "string",
                 "enum": ["en", "nl", "none"],
                 "description": "Audio or caption language code."
+              },
+              "rating": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5,
+                "description": "Quality assessment rating score (1-5 stars) for this video demonstration."
+              },
+              "thumbnail_rating": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5,
+                "description": "Quality assessment rating score (1-5 stars) for this thumbnail frame."
+              },
+              "custom_thumbnail_url": {
+                "type": "string",
+                "description": "Optional custom thumbnail image URL."
               }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "description": "Optional image assets or custom diagrams.",
+          "items": {
+            "type": "object",
+            "required": ["url"],
+            "additionalProperties": false,
+            "properties": {
+              "url": { "type": "string" },
+              "type": { "type": "string", "enum": ["thumbnail", "diagram", "photo"] },
+              "rating": { "type": "integer", "minimum": 1, "maximum": 5 }
             }
           }
         }
