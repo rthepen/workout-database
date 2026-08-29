@@ -11,10 +11,15 @@ import {
   Check, 
   ArrowUp, 
   ArrowDown, 
-  Tv,
-  Image as ImageIcon,
-  Copy,
-  Film
+  Tv, 
+  Image as ImageIcon, 
+  Copy, 
+  Film,
+  Volume2,
+  VolumeX,
+  FastForward,
+  Rewind,
+  Flame
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { searchYouTubeTutorials, parseYouTubeId } from '../services/youtubeService';
@@ -38,7 +43,8 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
 }) => {
   const videos = exercise.media?.videos || [];
   const [selectedVideoIndex, setSelectedVideoIndex] = useState<number>(0);
-  const [isPlaying, setIsPlaying] = useState<boolean>(false);
+  const [isPlaying, setIsPlaying] = useState<boolean>(true);
+  const [isMuted, setIsMuted] = useState<boolean>(true);
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [duration, setDuration] = useState<number>(0);
   const [newVideoInput, setNewVideoInput] = useState<string>('');
@@ -68,7 +74,7 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
     }
   }, []);
 
-  // Instantiate or update player when active video changes
+  // Instantiate or update player when active video changes (with instant autoplay)
   useEffect(() => {
     if (!activeVideo?.youtube_id) return;
 
@@ -81,6 +87,8 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
         playerRef.current = new window.YT.Player('yt-player-target', {
           videoId: activeVideo.youtube_id,
           playerVars: {
+            autoplay: 1,
+            mute: 1, // Browser policy requires muted for automatic playback
             playsinline: 1,
             controls: 1,
             rel: 0,
@@ -89,6 +97,13 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
           events: {
             onReady: (event: any) => {
               setDuration(event.target.getDuration() || 0);
+              try {
+                event.target.playVideo();
+                setIsPlaying(true);
+                setIsMuted(true);
+              } catch {
+                // Autoplay fallback
+              }
             },
             onStateChange: (event: any) => {
               setIsPlaying(event.data === window.YT?.PlayerState?.PLAYING);
@@ -118,16 +133,16 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
           setCurrentTime(Math.round(time));
         }
       }
-    }, 400);
+    }, 300);
 
     return () => clearInterval(intervalRef.current);
   }, []);
 
-  // Fetch YouTube discovery suggestions
+  // Fetch YouTube discovery suggestions tailored to exercise and material
   useEffect(() => {
     let isMounted = true;
     setIsLoadingSuggestions(true);
-    searchYouTubeTutorials(exercise.exercise_name?.en || '', exercise.material?.name?.en || '')
+    searchYouTubeTutorials(exercise.exercise_name?.en || '', exercise.material?.id || exercise.material?.name?.en || '')
       .then(res => {
         if (isMounted) {
           setSuggestions(res);
@@ -141,22 +156,29 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
     return () => {
       isMounted = false;
     };
-  }, [exercise.id, exercise.exercise_name?.en]);
+  }, [exercise.id, exercise.exercise_name?.en, exercise.material?.id]);
 
   // Capture current playback time as start_seconds
-  const handleCaptureTimestamp = () => {
+  const handleCaptureTimestamp = (explicitSeconds?: number) => {
     if (!activeVideo) return;
-    let timeToSet = currentTime;
-    if (playerRef.current && typeof playerRef.current.getCurrentTime === 'function') {
+    let timeToSet = explicitSeconds !== undefined ? explicitSeconds : currentTime;
+    if (explicitSeconds === undefined && playerRef.current && typeof playerRef.current.getCurrentTime === 'function') {
       timeToSet = Math.round(playerRef.current.getCurrentTime());
     }
 
     const updated = [...videos];
     updated[selectedVideoIndex] = {
       ...activeVideo,
-      start_seconds: timeToSet,
+      start_seconds: Math.max(0, timeToSet),
     };
     onUpdateVideos(updated);
+  };
+
+  const handleAdjustTimestamp = (delta: number) => {
+    if (!activeVideo) return;
+    const currentStart = activeVideo.start_seconds || 0;
+    const newStart = Math.max(0, currentStart + delta);
+    handleCaptureTimestamp(newStart);
   };
 
   const handleTogglePlay = () => {
@@ -168,13 +190,24 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
     }
   };
 
+  const handleToggleMute = () => {
+    if (!playerRef.current) return;
+    if (isMuted) {
+      playerRef.current.unMute();
+      setIsMuted(false);
+    } else {
+      playerRef.current.mute();
+      setIsMuted(true);
+    }
+  };
+
   const handleSeek = (seconds: number) => {
     if (!playerRef.current || typeof playerRef.current.seekTo !== 'function') return;
     const target = Math.max(0, Math.min(duration || 9999, currentTime + seconds));
     playerRef.current.seekTo(target, true);
   };
 
-  const handleAddVideo = (idToAdd?: string, type?: 'standard' | 'short') => {
+  const handleAddVideo = (idToAdd?: string, type?: 'standard' | 'short', startSeconds: number = 0) => {
     const rawId = idToAdd || newVideoInput;
     const parsedId = parseYouTubeId(rawId);
     if (!parsedId) {
@@ -182,9 +215,15 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
       return;
     }
 
-    // Check if already exists
-    if (videos.some(v => v.youtube_id === parsedId)) {
-      alert('This video is already in the list.');
+    // If already exists, select it and update start time if specified
+    const existingIndex = videos.findIndex(v => v.youtube_id === parsedId);
+    if (existingIndex !== -1) {
+      if (startSeconds > 0) {
+        const updated = [...videos];
+        updated[existingIndex] = { ...updated[existingIndex], start_seconds: startSeconds };
+        onUpdateVideos(updated);
+      }
+      setSelectedVideoIndex(existingIndex);
       return;
     }
 
@@ -193,7 +232,7 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
       type: type || 'standard',
       priority: videos.length + 1,
       language: 'en',
-      start_seconds: 0,
+      start_seconds: startSeconds,
     };
 
     const updated = [...videos, newEntry];
@@ -241,22 +280,27 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
     return `${m}:${s < 10 ? '0' : ''}${s}`;
   };
 
+  const hasStartTimestamp = activeVideo?.start_seconds !== undefined && activeVideo.start_seconds > 0;
+
   return (
     <div className="space-y-6">
-      {/* 1. Main Active Video Inspector & Embedded Player */}
+      {/* 1. Main Active Video Inspector & Autoplay Embedded Player */}
       <div className="bg-[#111827] border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-3">
           <div className="flex items-center gap-2">
             <Tv className="w-5 h-5 text-rose-500" />
             <h2 className="text-sm font-bold text-white tracking-wide">
-              Active Video Inspector & Timestamp Engine
+              Video Inspector & Autoplay Player
             </h2>
+            <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-semibold flex items-center gap-1">
+              <Flame className="w-3 h-3" /> Autoplay Active
+            </span>
           </div>
 
           {activeVideo && (
             <div className="flex items-center gap-2 text-xs">
               <span className="text-slate-400">Video ID:</span>
-              <code className="px-2 py-0.5 rounded bg-slate-900 text-brand-400 border border-slate-700 font-mono">
+              <code className="px-2 py-0.5 rounded bg-slate-900 text-brand-400 border border-slate-700 font-mono font-bold">
                 {activeVideo.youtube_id}
               </code>
               <a
@@ -279,10 +323,10 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
               <div id="yt-player-target" className="w-full h-full" />
             </div>
 
-            {/* Playback Controls & Timestamp Action Setting */}
+            {/* Playback Controls Bar */}
             <div className="flex flex-wrap items-center justify-between gap-3 p-3 bg-slate-900/90 border border-slate-800 rounded-xl">
-              {/* Play / Seek buttons */}
               <div className="flex items-center gap-2">
+                {/* Play/Pause */}
                 <button
                   onClick={handleTogglePlay}
                   className="px-3.5 py-1.5 bg-brand-600 hover:bg-brand-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 shadow-sm transition active:scale-95"
@@ -291,49 +335,39 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                   <span>{isPlaying ? 'Pause' : 'Play'}</span>
                 </button>
 
+                {/* Mute/Unmute */}
+                <button
+                  onClick={handleToggleMute}
+                  className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-lg transition"
+                  title={isMuted ? "Unmute Audio" : "Mute Audio"}
+                >
+                  {isMuted ? <VolumeX className="w-3.5 h-3.5 text-amber-400" /> : <Volume2 className="w-3.5 h-3.5 text-emerald-400" />}
+                </button>
+
+                {/* Seek Rewind/Forward */}
                 <button
                   onClick={() => handleSeek(-5)}
-                  className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-lg transition"
+                  className="px-2 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-lg flex items-center gap-1 transition"
                   title="Rewind 5 seconds"
                 >
-                  -5s
+                  <Rewind className="w-3 h-3" />
+                  <span>-5s</span>
                 </button>
                 <button
                   onClick={() => handleSeek(5)}
-                  className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-lg transition"
+                  className="px-2 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-lg flex items-center gap-1 transition"
                   title="Forward 5 seconds"
                 >
-                  +5s
-                </button>
-
-                <button
-                  onClick={() => {
-                    if (playerRef.current && activeVideo.start_seconds !== undefined) {
-                      playerRef.current.seekTo(activeVideo.start_seconds, true);
-                    }
-                  }}
-                  className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-amber-300 text-xs rounded-lg flex items-center gap-1 transition"
-                  title="Jump to defined action start time"
-                >
-                  <RotateCcw className="w-3 h-3" />
-                  <span>Start ({activeVideo.start_seconds || 0}s)</span>
+                  <span>+5s</span>
+                  <FastForward className="w-3 h-3" />
                 </button>
               </div>
 
-              {/* Time display & Capture Action Button */}
-              <div className="flex items-center gap-3">
-                <div className="text-xs font-mono text-slate-300 bg-slate-950 px-2.5 py-1.5 rounded-lg border border-slate-800">
-                  <span className="text-brand-400 font-bold">{formatSeconds(currentTime)}</span>
-                  <span className="text-slate-500"> / {formatSeconds(duration)}</span>
-                </div>
-
-                <button
-                  onClick={handleCaptureTimestamp}
-                  className="px-3.5 py-1.5 bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-slate-950 font-bold text-xs rounded-lg shadow-md shadow-amber-600/20 flex items-center gap-1.5 transition transform active:scale-95"
-                >
-                  <Clock className="w-3.5 h-3.5 text-slate-950 fill-current" />
-                  <span>Set Start Time ({currentTime}s)</span>
-                </button>
+              {/* Current Playback Counter */}
+              <div className="flex items-center gap-2 text-xs font-mono bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
+                <span className="text-slate-400">Current Position:</span>
+                <span className="text-brand-400 font-bold text-sm">{formatSeconds(currentTime)}</span>
+                <span className="text-slate-500"> / {formatSeconds(duration)}</span>
               </div>
             </div>
           </div>
@@ -344,110 +378,134 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
             <p className="text-xs text-slate-500">Add a video below or choose from the suggested tutorials.</p>
           </div>
         )}
-
-        {/* Existing Video Media Array / Priority Order */}
-        <div className="space-y-2 pt-3 border-t border-slate-800/80">
-          <div className="flex items-center justify-between">
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-              Media Priority & Fallbacks ({videos.length})
-            </h3>
-          </div>
-
-          <div className="space-y-2">
-            {videos.map((vid, idx) => {
-              const isSelected = idx === selectedVideoIndex;
-              return (
-                <div
-                  key={vid.youtube_id}
-                  className={`flex flex-wrap items-center justify-between gap-3 p-2.5 rounded-xl border transition ${
-                    isSelected
-                      ? 'bg-slate-800/90 border-brand-500/40 shadow-sm'
-                      : 'bg-slate-900/60 border-slate-800 hover:border-slate-700'
-                  }`}
-                >
-                  <div
-                    onClick={() => setSelectedVideoIndex(idx)}
-                    className="flex items-center gap-3 cursor-pointer flex-1 min-w-[200px]"
-                  >
-                    <span className="w-6 h-6 rounded-full bg-slate-800 text-slate-300 font-mono text-xs flex items-center justify-center font-bold">
-                      {vid.priority}
-                    </span>
-                    <img 
-                      src={`https://img.youtube.com/vi/${vid.youtube_id}/default.jpg`} 
-                      alt="thumbnail" 
-                      className="w-14 h-10 object-cover rounded-lg bg-slate-950 border border-slate-800 flex-shrink-0"
-                    />
-                    <div>
-                      <div className="text-xs font-medium text-white flex items-center gap-2">
-                        <span className="font-mono">{vid.youtube_id}</span>
-                        <span className={`text-[10px] px-1.5 py-0.2 rounded font-mono uppercase ${
-                          vid.type === 'short' ? 'bg-purple-500/20 text-purple-300' : 'bg-blue-500/20 text-blue-300'
-                        }`}>
-                          {vid.type}
-                        </span>
-                        <span className="text-[10px] text-slate-400 font-mono">
-                          [{vid.language}]
-                        </span>
-                      </div>
-                      <div className="text-[11px] text-slate-400 flex items-center gap-2 mt-0.5">
-                        <Clock className="w-3 h-3 text-amber-400" />
-                        <span>Action start: <strong>{vid.start_seconds ?? 0}s</strong></span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Priority and delete controls */}
-                  <div className="flex items-center gap-1">
-                    <button
-                      onClick={() => handleMovePriority(idx, 'up')}
-                      disabled={idx === 0}
-                      className="p-1.5 hover:bg-slate-700 text-slate-400 hover:text-white rounded-lg disabled:opacity-30"
-                      title="Move Priority Up"
-                    >
-                      <ArrowUp className="w-3.5 h-3.5" />
-                    </button>
-                    <button
-                      onClick={() => handleMovePriority(idx, 'down')}
-                      disabled={idx === videos.length - 1}
-                      className="p-1.5 hover:bg-slate-700 text-slate-400 hover:text-white rounded-lg disabled:opacity-30"
-                      title="Move Priority Down"
-                    >
-                      <ArrowDown className="w-3.5 h-3.5" />
-                    </button>
-                    <button
-                      onClick={() => handleRemoveVideo(idx)}
-                      className="p-1.5 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 rounded-lg transition ml-1"
-                      title="Remove Video"
-                    >
-                      <Trash2 className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          {/* Add custom video input */}
-          <div className="flex gap-2 pt-2">
-            <input
-              type="text"
-              placeholder="Paste YouTube Video URL or 11-char ID..."
-              value={newVideoInput}
-              onChange={(e) => setNewVideoInput(e.target.value)}
-              className="flex-1 px-3.5 py-2 bg-slate-900 text-xs text-white placeholder-slate-500 border border-slate-700 rounded-xl focus:outline-none focus:border-brand-500"
-            />
-            <button
-              onClick={() => handleAddVideo()}
-              className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-brand-400 hover:text-brand-300 text-xs font-semibold rounded-xl border border-slate-700 flex items-center gap-1.5 transition"
-            >
-              <Plus className="w-3.5 h-3.5" />
-              <span>Add</span>
-            </button>
-          </div>
-        </div>
       </div>
 
-      {/* 2. DEDICATED THUMBNAIL DISPLAY PANEL (Separately Visualized) */}
+      {/* 2. DEDICATED ACTION TIMESTAMP & TIMELINE PANEL (Clearly Separated) */}
+      {activeVideo && (
+        <div className="bg-gradient-to-br from-slate-900 via-[#111827] to-slate-900 border-2 border-brand-500/40 rounded-2xl p-4 sm:p-5 shadow-2xl space-y-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-3">
+            <div className="flex items-center gap-2">
+              <Clock className="w-5 h-5 text-amber-400" />
+              <div>
+                <h3 className="text-sm font-black tracking-wide text-white flex items-center gap-2">
+                  <span>Action Start Timestamp Inspector</span>
+                  {hasStartTimestamp ? (
+                    <span className="px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] uppercase font-mono font-bold">
+                      Timestamp Configured
+                    </span>
+                  ) : (
+                    <span className="px-2 py-0.5 rounded-md bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] uppercase font-mono font-bold">
+                      Missing Start Time (0s)
+                    </span>
+                  )}
+                </h3>
+                <p className="text-[11px] text-slate-400">
+                  Set the precise second when the movement execution actually begins, skipping intros.
+                </p>
+              </div>
+            </div>
+
+            {/* Big Action Button: Add/Update Timestamp at Current Playback Moment */}
+            <button
+              onClick={() => handleCaptureTimestamp()}
+              className="px-4 py-2.5 bg-gradient-to-r from-amber-500 via-amber-600 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-slate-950 font-black text-xs rounded-xl shadow-lg shadow-amber-500/25 flex items-center gap-2 transition transform active:scale-95 whitespace-nowrap"
+            >
+              <Clock className="w-4 h-4 fill-current text-slate-950" />
+              <span>⚡ Capture Current Playback Time ({currentTime}s)</span>
+            </button>
+          </div>
+
+          {/* Timeline Visualizer & Start Point Badge */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center bg-slate-950/80 p-4 rounded-xl border border-slate-800">
+            {/* Big Highlighted Badge */}
+            <div className="text-center md:text-left p-3 bg-slate-900 rounded-xl border border-slate-700 space-y-1">
+              <div className="text-[10px] uppercase font-bold text-slate-400">Configured Action Start Point</div>
+              <div className="text-2xl font-black font-mono text-amber-400 flex items-center justify-center md:justify-start gap-2">
+                <span>{formatSeconds(activeVideo.start_seconds || 0)}</span>
+                <span className="text-xs text-slate-500 font-normal">({activeVideo.start_seconds || 0} seconds)</span>
+              </div>
+            </div>
+
+            {/* Timeline Bar representation */}
+            <div className="space-y-1.5 md:col-span-2">
+              <div className="flex justify-between text-[11px] text-slate-400 font-mono">
+                <span>0:00 (Intro Start)</span>
+                <span className="text-amber-300 font-bold">Action Start: {formatSeconds(activeVideo.start_seconds || 0)}</span>
+                <span>End: {formatSeconds(duration)}</span>
+              </div>
+              <div className="relative h-3 w-full bg-slate-800 rounded-full overflow-hidden border border-slate-700">
+                <div 
+                  className="absolute top-0 bottom-0 left-0 bg-slate-700/60"
+                  style={{ width: `${duration > 0 ? Math.min(100, ((activeVideo.start_seconds || 0) / duration) * 100) : 0}%` }}
+                />
+                <div 
+                  className="absolute top-0 bottom-0 bg-gradient-to-r from-emerald-500 to-teal-400"
+                  style={{ 
+                    left: `${duration > 0 ? Math.min(100, ((activeVideo.start_seconds || 0) / duration) * 100) : 0}%`,
+                    width: `${duration > 0 ? Math.max(0, 100 - (((activeVideo.start_seconds || 0) / duration) * 100)) : 100}%` 
+                  }}
+                />
+              </div>
+
+              {/* Fine-Tuning Action Buttons */}
+              <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
+                <div className="flex items-center gap-1">
+                  <span className="text-[10px] text-slate-400 uppercase font-semibold mr-1">Fine-tune:</span>
+                  <button
+                    onClick={() => handleAdjustTimestamp(-5)}
+                    className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs rounded-lg font-mono font-bold"
+                  >
+                    -5s
+                  </button>
+                  <button
+                    onClick={() => handleAdjustTimestamp(-1)}
+                    className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs rounded-lg font-mono font-bold"
+                  >
+                    -1s
+                  </button>
+                  <button
+                    onClick={() => handleAdjustTimestamp(1)}
+                    className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs rounded-lg font-mono font-bold"
+                  >
+                    +1s
+                  </button>
+                  <button
+                    onClick={() => handleAdjustTimestamp(5)}
+                    className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs rounded-lg font-mono font-bold"
+                  >
+                    +5s
+                  </button>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => {
+                      if (playerRef.current && activeVideo.start_seconds !== undefined) {
+                        playerRef.current.seekTo(activeVideo.start_seconds, true);
+                        playerRef.current.playVideo();
+                      }
+                    }}
+                    className="px-3 py-1 bg-brand-900/80 hover:bg-brand-800 text-brand-300 border border-brand-600/50 rounded-lg text-xs font-semibold flex items-center gap-1 transition"
+                  >
+                    <RotateCcw className="w-3 h-3" />
+                    <span>Replay From Action Start</span>
+                  </button>
+
+                  <button
+                    onClick={() => handleCaptureTimestamp(0)}
+                    className="px-2 py-1 bg-slate-800 hover:bg-rose-900/40 text-slate-400 hover:text-rose-300 text-xs rounded-lg transition"
+                    title="Reset start time to 0s"
+                  >
+                    Reset (0s)
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 3. DEDICATED THUMBNAIL DISPLAY PANEL (Separately Visualized) */}
       {activeVideo && activeThumbnailUrl && (
         <div className="bg-[#111827] border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl space-y-3">
           <div className="flex items-center justify-between border-b border-slate-800/80 pb-3">
@@ -470,7 +528,6 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                 alt={`${exercise.exercise_name?.en} thumbnail`}
                 className="w-full h-full object-cover transition duration-300 group-hover:scale-105"
                 onError={(e) => {
-                  // Fallback to hqdefault if maxres is not generated
                   (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${activeVideo.youtube_id}/hqdefault.jpg`;
                 }}
               />
@@ -523,22 +580,129 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
         </div>
       )}
 
-      {/* 3. SUGGESTED TUTORIAL VIDEOS (WITH INLINE EMBEDDED PLAYBACK) */}
+      {/* 4. MEDIA LIST & PRIORITY QUEUE */}
+      <div className="bg-[#111827] border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl space-y-3">
+        <div className="flex items-center justify-between border-b border-slate-800/80 pb-3">
+          <h3 className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+            Configured Videos & Timestamps ({videos.length})
+          </h3>
+        </div>
+
+        <div className="space-y-2">
+          {videos.map((vid, idx) => {
+            const isSelected = idx === selectedVideoIndex;
+            return (
+              <div
+                key={vid.youtube_id}
+                className={`flex flex-wrap items-center justify-between gap-3 p-3 rounded-xl border transition ${
+                  isSelected
+                    ? 'bg-slate-800/90 border-brand-500/60 ring-1 ring-brand-500/40 shadow-sm'
+                    : 'bg-slate-900/60 border-slate-800 hover:border-slate-700'
+                }`}
+              >
+                <div
+                  onClick={() => setSelectedVideoIndex(idx)}
+                  className="flex items-center gap-3 cursor-pointer flex-1 min-w-[200px]"
+                >
+                  <span className="w-6 h-6 rounded-full bg-slate-800 text-slate-300 font-mono text-xs flex items-center justify-center font-bold">
+                    {vid.priority}
+                  </span>
+                  <img 
+                    src={`https://img.youtube.com/vi/${vid.youtube_id}/default.jpg`} 
+                    alt="thumbnail" 
+                    className="w-14 h-10 object-cover rounded-lg bg-slate-950 border border-slate-800 flex-shrink-0"
+                  />
+                  <div>
+                    <div className="text-xs font-medium text-white flex items-center gap-2">
+                      <span className="font-mono font-bold">{vid.youtube_id}</span>
+                      <span className={`text-[10px] px-1.5 py-0.2 rounded font-mono uppercase ${
+                        vid.type === 'short' ? 'bg-purple-500/20 text-purple-300' : 'bg-blue-500/20 text-blue-300'
+                      }`}>
+                        {vid.type}
+                      </span>
+                      <span className="text-[10px] text-slate-400 font-mono">
+                        [{vid.language}]
+                      </span>
+                    </div>
+                    <div className="text-[11px] flex items-center gap-2 mt-0.5">
+                      <span className="text-amber-400 font-semibold flex items-center gap-1 bg-amber-950/60 px-2 py-0.5 rounded border border-amber-800/60">
+                        <Clock className="w-3 h-3" /> Start: {vid.start_seconds ?? 0}s
+                      </span>
+                      {isSelected && (
+                        <span className="text-[10px] text-brand-400 font-bold bg-brand-950 px-1.5 py-0.5 rounded border border-brand-800">
+                          Active In Player
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Priority and delete controls */}
+                <div className="flex items-center gap-1">
+                  <button
+                    onClick={() => handleMovePriority(idx, 'up')}
+                    disabled={idx === 0}
+                    className="p-1.5 hover:bg-slate-700 text-slate-400 hover:text-white rounded-lg disabled:opacity-30"
+                    title="Move Priority Up"
+                  >
+                    <ArrowUp className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    onClick={() => handleMovePriority(idx, 'down')}
+                    disabled={idx === videos.length - 1}
+                    className="p-1.5 hover:bg-slate-700 text-slate-400 hover:text-white rounded-lg disabled:opacity-30"
+                    title="Move Priority Down"
+                  >
+                    <ArrowDown className="w-3.5 h-3.5" />
+                  </button>
+                  <button
+                    onClick={() => handleRemoveVideo(idx)}
+                    className="p-1.5 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 rounded-lg transition ml-1"
+                    title="Remove Video"
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Add custom video input */}
+        <div className="flex gap-2 pt-2">
+          <input
+            type="text"
+            placeholder="Paste YouTube Video URL or 11-char ID..."
+            value={newVideoInput}
+            onChange={(e) => setNewVideoInput(e.target.value)}
+            className="flex-1 px-3.5 py-2 bg-slate-900 text-xs text-white placeholder-slate-500 border border-slate-700 rounded-xl focus:outline-none focus:border-brand-500"
+          />
+          <button
+            onClick={() => handleAddVideo()}
+            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-brand-400 hover:text-brand-300 text-xs font-semibold rounded-xl border border-slate-700 flex items-center gap-1.5 transition"
+          >
+            <Plus className="w-3.5 h-3.5" />
+            <span>Add</span>
+          </button>
+        </div>
+      </div>
+
+      {/* 5. SUGGESTED TUTORIAL VIDEOS (WITH INLINE EMBEDDED PLAYBACK & DIRECT TIMESTAMP CAPTURE) */}
       <div className="bg-[#111827] border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl space-y-4">
         <div className="flex items-center justify-between border-b border-slate-800/80 pb-3">
           <div className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-brand-400" />
             <h3 className="text-xs font-bold uppercase tracking-wider text-white">
-              Suggested Tutorial Videos
+              Suggested Tutorial Videos ({exercise.material?.name?.en || exercise.material?.id})
             </h3>
           </div>
           <span className="text-[11px] text-slate-400 italic">
-            Query: &ldquo;{exercise.exercise_name?.en} {exercise.material?.name?.en} tutorial&rdquo;
+            Query: &ldquo;{exercise.exercise_name?.en} tutorial&rdquo;
           </span>
         </div>
 
         {isLoadingSuggestions ? (
-          <div className="p-6 text-center text-xs text-slate-400">Searching tutorials...</div>
+          <div className="p-6 text-center text-xs text-slate-400">Searching tailored tutorials...</div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {suggestions.map((item) => {
@@ -562,21 +726,30 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                           allowFullScreen
                         />
                       </div>
-                      <div className="flex items-center justify-between text-xs">
+                      <div className="flex items-center justify-between text-xs pt-1">
                         <span className="text-[11px] font-semibold text-brand-400">Playing Embedded Preview</span>
-                        <button
-                          onClick={() => setEmbeddedPreviewId(null)}
-                          className="text-xs text-slate-400 hover:text-white px-2 py-0.5 bg-slate-800 rounded"
-                        >
-                          Close Player
-                        </button>
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() => handleAddVideo(item.id, item.type, 0)}
+                            className="px-2.5 py-1 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 rounded-lg text-xs font-semibold flex items-center gap-1"
+                          >
+                            <Plus className="w-3 h-3" />
+                            <span>Add & Inspect in Main Player</span>
+                          </button>
+                          <button
+                            onClick={() => setEmbeddedPreviewId(null)}
+                            className="text-xs text-slate-400 hover:text-white px-2 py-1 bg-slate-800 rounded-lg"
+                          >
+                            Close
+                          </button>
+                        </div>
                       </div>
                     </div>
                   ) : (
                     /* Thumbnail & Metadata */
                     <div className="flex gap-3">
                       <div 
-                        className="relative w-24 h-16 rounded-lg overflow-hidden bg-slate-950 border border-slate-800 flex-shrink-0 cursor-pointer group"
+                        className="relative w-28 h-18 rounded-lg overflow-hidden bg-slate-950 border border-slate-800 flex-shrink-0 cursor-pointer group"
                         onClick={() => setEmbeddedPreviewId(item.id)}
                         title="Click to play embedded preview"
                       >
@@ -611,7 +784,7 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                     </div>
                   )}
 
-                  {/* Actions: Embedded Preview Toggle, Add, External */}
+                  {/* Actions: Embedded Preview Toggle, Add with Timestamp, External */}
                   <div className="flex items-center justify-between pt-2 border-t border-slate-800/80">
                     <div className="flex items-center gap-2">
                       <button
@@ -638,7 +811,7 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                     </div>
 
                     <button
-                      onClick={() => handleAddVideo(item.id, item.type)}
+                      onClick={() => handleAddVideo(item.id, item.type, 0)}
                       disabled={isAlreadyAdded}
                       className={`px-3 py-1 text-xs rounded-lg font-medium flex items-center gap-1 transition ${
                         isAlreadyAdded
@@ -654,7 +827,7 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                       ) : (
                         <>
                           <Plus className="w-3 h-3" />
-                          <span>Add to Exercise</span>
+                          <span>Add Exercise Video</span>
                         </>
                       )}
                     </button>
