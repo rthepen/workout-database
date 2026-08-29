@@ -5,6 +5,7 @@ import { getSavedGitHubToken } from '../services/githubService';
 
 interface HeaderProps {
   exercises: Exercise[];
+  modifiedCount: number;
   isLive: boolean;
   onRefresh: () => void;
   onOpenPRModal: () => void;
@@ -16,6 +17,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({
   exercises,
+  modifiedCount,
   isLive,
   onRefresh,
   onOpenPRModal,
@@ -130,7 +132,11 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <GitPullRequest className="w-3.5 h-3.5" />
-              <span>{hasToken ? '⚡ 1-Click Commit' : 'Export & PR'}</span>
+              <span>
+                {hasToken
+                  ? (modifiedCount > 0 ? `⚡ 1-Click Commit (${modifiedCount})` : '⚡ 1-Click Commit')
+                  : 'Export & PR'}
+              </span>
             </button>
           </div>
         </div>
@@ -241,7 +247,11 @@ export const Header: React.FC<HeaderProps> = ({
               }`}
             >
               <GitPullRequest className="w-3.5 h-3.5" />
-              <span>{hasToken ? '⚡ 1-Click Commit' : 'Export & PR'}</span>
+              <span>
+                {hasToken
+                  ? (modifiedCount > 0 ? `⚡ 1-Click Commit (${modifiedCount})` : '⚡ 1-Click Commit')
+                  : 'Export & PR'}
+              </span>
             </button>
           </div>
         </div>

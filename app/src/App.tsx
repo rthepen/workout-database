@@ -289,6 +289,15 @@ export function App() {
     setCurrentIndex(0);
   };
 
+  const modifiedExercises = useMemo(() => {
+    const origMap = new Map(originalExercises.map(e => [e.id, JSON.stringify(e)]));
+    return exercises.filter(e => {
+      const orig = origMap.get(e.id);
+      if (!orig) return true; // new exercise created!
+      return orig !== JSON.stringify(e);
+    });
+  }, [exercises, originalExercises]);
+
   const originalSelected = originalExercises.find(e => e.id === currentExercise?.id) || null;
 
   if (isLoading) {
@@ -307,6 +316,7 @@ export function App() {
       {/* Top Application Header */}
       <Header
         exercises={exercises}
+        modifiedCount={modifiedExercises.length}
         isLive={isLive}
         onRefresh={() => loadData(true)}
         onOpenPRModal={() => setIsContributionModalOpen(true)}
@@ -381,12 +391,14 @@ export function App() {
         onClose={() => setIsTokenSettingsOpen(false)}
       />
 
-      {/* Contribution & PR Modal */}
+      {/* Contribution & Batch PR Modal */}
       <ContributionModal
         isOpen={isContributionModalOpen}
         onClose={() => setIsContributionModalOpen(false)}
         exercises={exercises}
-        modifiedExercise={currentExercise}
+        modifiedExercises={modifiedExercises}
+        onResetEdits={handleResetEdits}
+        onRefreshData={() => loadData(true)}
       />
 
       {/* Side-by-Side Diff Modal */}
