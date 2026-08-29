@@ -56,6 +56,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   const [activeTab, setActiveTab] = useState<'video' | 'overview' | 'instructions'>('video');
   const [prLoading, setPrLoading] = useState<boolean>(false);
   const [prSuccessUrl, setPrSuccessUrl] = useState<string | null>(null);
+  const [isDirectCommit, setIsDirectCommit] = useState<boolean>(false);
   const [prError, setPrError] = useState<string | null>(null);
   const [copiedTitle, setCopiedTitle] = useState<boolean>(false);
 
@@ -117,10 +118,11 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
     setPrLoading(false);
 
     if (result.success && result.prUrl) {
+      setIsDirectCommit(!!result.isDirectCommit);
       setPrSuccessUrl(result.prUrl);
       onApprove(exercise);
     } else {
-      setPrError(result.error || 'Failed to submit Pull Request.');
+      setPrError(result.error || 'Failed to submit changes to GitHub.');
     }
   };
 
@@ -131,7 +133,11 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
         <div className="p-3.5 bg-emerald-950/90 border border-emerald-500/50 rounded-2xl flex items-center justify-between gap-3 text-xs text-emerald-200 shadow-xl animate-in fade-in">
           <div className="flex items-center gap-2 font-medium">
             <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-            <span>Pull Request created successfully on GitHub!</span>
+            <span>
+              {isDirectCommit
+                ? "⚡ Committed directly to main branch! No PR review required."
+                : "Pull Request created successfully on GitHub!"}
+            </span>
           </div>
           <div className="flex items-center gap-2">
             <a
@@ -140,7 +146,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
               rel="noreferrer"
               className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg flex items-center gap-1 shadow transition"
             >
-              <span>View PR on GitHub</span>
+              <span>{isDirectCommit ? "View Commit on GitHub" : "View PR on GitHub"}</span>
               <ExternalLink className="w-3 h-3" />
             </a>
             <button

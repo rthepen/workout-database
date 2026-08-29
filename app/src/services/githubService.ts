@@ -24,8 +24,10 @@ export function removeGitHubToken(): void {
 export interface PRResult {
   success: boolean;
   prUrl?: string;
+  commitUrl?: string;
   prNumber?: number;
   branchName?: string;
+  isDirectCommit?: boolean;
   error?: string;
 }
 
@@ -44,11 +46,119 @@ export async function submitDirectPullRequest(
 
   const repo = `${REPO_OWNER}/${REPO_NAME}`;
   const timestamp = Date.now();
-  const branchName = modifiedExercise 
-    ? `audit-${modifiedExercise.id}-${timestamp}`
-    : `audit-batch-${timestamp}`;
 
   try {
+    // ----------------------------------------------------
+    // STRATEGY 1: Direct Commit to 'main' branch
+    // ----------------------------------------------------
+    const materialId = modifiedExercise?.material?.id;
+
+    // Prepare content for category data file or all_exercises.json
+    let fileContentToCommit = JSON.stringify(exercises, null, 2);
+    let filePathToCommit = 'dist/all_exercises.json';
+
+    if (materialId && modifiedExercise) {
+      filePathToCommit = `data/${materialId}.json`;
+      const dataFileRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePathToCommit}?ref=main`, {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github+json',
+        },
+      });
+
+      if (dataFileRes.ok) {
+        const dataFileData = await dataFileRes.json();
+        const rawContent = decodeURIComponent(escape(atob(dataFileData.content.replace(/\n/g, ''))));
+        try {
+          const categoryExercises: Exercise[] = JSON.parse(rawContent);
+          const updatedCategory = categoryExercises.map(e => e.id === modifiedExercise.id ? modifiedExercise : e);
+          if (!updatedCategory.some(e => e.id === modifiedExercise.id)) {
+            updatedCategory.push(modifiedExercise);
+          }
+          fileContentToCommit = JSON.stringify(updatedCategory, null, 2);
+        } catch {
+          // fallback
+        }
+      }
+    }
+
+    // Read current main branch file SHA
+    const mainFileRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePathToCommit}?ref=main`, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+      },
+    });
+
+    if (mainFileRes.ok) {
+      const mainFileData = await mainFileRes.json();
+      const contentBase64 = btoa(unescape(encodeURIComponent(fileContentToCommit)));
+
+      const commitRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePathToCommit}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github+json',
+        },
+        body: JSON.stringify({
+          message: `data(${modifiedExercise?.id || 'audit'}): verify & update exercise timestamps`,
+          content: contentBase64,
+          sha: mainFileData.sha,
+          branch: 'main',
+        }),
+      });
+
+      if (commitRes.ok) {
+        const commitResult = await commitRes.json();
+        const commitUrl = commitResult.commit?.html_url || `https://github.com/${repo}/commits/main`;
+
+        // Optionally also update dist/all_exercises.json directly on main
+        if (filePathToCommit !== 'dist/all_exercises.json') {
+          try {
+            const distRes = await fetch(`https://api.github.com/repos/${repo}/contents/dist/all_exercises.json?ref=main`, {
+              headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github+json',
+              },
+            });
+            if (distRes.ok) {
+              const distData = await distRes.json();
+              const distContentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(exercises, null, 2))));
+              await fetch(`https://api.github.com/repos/${repo}/contents/dist/all_exercises.json`, {
+                method: 'PUT',
+                headers: {
+                  'Authorization': `Bearer ${token}`,
+                  'Accept': 'application/vnd.github+json',
+                },
+                body: JSON.stringify({
+                  message: `chore(data): rebuild all_exercises.json index for ${modifiedExercise?.id || 'exercise'}`,
+                  content: distContentBase64,
+                  sha: distData.sha,
+                  branch: 'main',
+                }),
+              });
+            }
+          } catch {
+            // Ignore optional dist update error
+          }
+        }
+
+        return {
+          success: true,
+          isDirectCommit: true,
+          commitUrl,
+          prUrl: commitUrl,
+        };
+      }
+    }
+
+    // ----------------------------------------------------
+    // STRATEGY 2: Fallback to Branch + Pull Request Flow
+    // ----------------------------------------------------
+    const branchName = modifiedExercise 
+      ? `audit-${modifiedExercise.id}-${timestamp}`
+      : `audit-batch-${timestamp}`;
+
     // 1. Get default branch ('main') reference SHA
     const refRes = await fetch(`https://api.github.com/repos/${repo}/git/ref/heads/main`, {
       headers: {
@@ -85,39 +195,7 @@ export async function submitDirectPullRequest(
     }
 
     // 3. Update the exercise file on the new branch
-    // If single modified exercise, update data/${material}.json if possible, or dist/all_exercises.json
-    let filePath = 'dist/all_exercises.json';
-    let fileContent = JSON.stringify(exercises, null, 2);
-
-    const materialId = modifiedExercise?.material?.id;
-    if (materialId && modifiedExercise) {
-      const dataFilePath = `data/${materialId}.json`;
-      const dataFileRes = await fetch(`https://api.github.com/repos/${repo}/contents/${dataFilePath}?ref=${branchName}`, {
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/vnd.github+json',
-        },
-      });
-
-      if (dataFileRes.ok) {
-        const dataFileData = await dataFileRes.json();
-        const rawContent = decodeURIComponent(escape(atob(dataFileData.content.replace(/\n/g, ''))));
-        try {
-          const categoryExercises: Exercise[] = JSON.parse(rawContent);
-          const updatedCategory = categoryExercises.map(e => e.id === modifiedExercise.id ? modifiedExercise : e);
-          if (!updatedCategory.some(e => e.id === modifiedExercise.id)) {
-            updatedCategory.push(modifiedExercise);
-          }
-          filePath = dataFilePath;
-          fileContent = JSON.stringify(updatedCategory, null, 2);
-        } catch {
-          // fallback to all_exercises.json
-        }
-      }
-    }
-
-    // Get current SHA of target file on the new branch
-    const fileRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}?ref=${branchName}`, {
+    const fileRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePathToCommit}?ref=${branchName}`, {
       headers: {
         'Authorization': `Bearer ${token}`,
         'Accept': 'application/vnd.github+json',
@@ -125,13 +203,13 @@ export async function submitDirectPullRequest(
     });
 
     if (!fileRes.ok) {
-      throw new Error(`Failed to read file ${filePath} from repository.`);
+      throw new Error(`Failed to read file ${filePathToCommit} from repository.`);
     }
 
     const fileData = await fileRes.json();
-    const contentBase64 = btoa(unescape(encodeURIComponent(fileContent)));
+    const contentBase64 = btoa(unescape(encodeURIComponent(fileContentToCommit)));
 
-    const updateRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, {
+    const updateRes = await fetch(`https://api.github.com/repos/${repo}/contents/${filePathToCommit}`, {
       method: 'PUT',
       headers: {
         'Authorization': `Bearer ${token}`,
@@ -157,13 +235,13 @@ export async function submitDirectPullRequest(
     const prBody = `### 🏋️ Automated Exercise Verification & Audit Contribution
 
 **Target Repository:** \`${repo}\`
-**Target File:** \`${filePath}\`
+**Target File:** \`${filePathToCommit}\`
 **Exercise ID:** \`${modifiedExercise?.id || 'Batch'}\`
 **Exercise Name:** \`${modifiedExercise?.exercise_name?.en || 'Multiple'}\`
 **Timestamp:** \`${new Date().toISOString()}\`
 
 ---
-*Generated automatically via Workout Database Verification & Audit Web App (1-Click PR Flow).*`;
+*Generated automatically via Workout Database Verification & Audit Web App.*`;
 
     const prRes = await fetch(`https://api.github.com/repos/${repo}/pulls`, {
       method: 'POST',
@@ -193,7 +271,7 @@ export async function submitDirectPullRequest(
   } catch (err: any) {
     return {
       success: false,
-      error: err.message || 'An error occurred during PR creation.',
+      error: err.message || 'An error occurred during commit/PR creation.',
     };
   }
 }
