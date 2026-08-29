@@ -27,6 +27,7 @@ export function App() {
   const [selectedMuscle, setSelectedMuscle] = useState<string>('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
   const [sortOrder, setSortOrder] = useState<SortOrderType>('oldest_first');
+  const [activeExerciseId, setActiveExerciseId] = useState<string | null>(null);
 
   // Modals & Drawers
   const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState<boolean>(false);
@@ -42,6 +43,7 @@ export function App() {
     setOriginalExercises(res.exercises);
     setIsLive(res.isLive);
     setCurrentIndex(0);
+    setActiveExerciseId(null);
     setIsLoading(false);
   };
 
@@ -129,8 +131,28 @@ export function App() {
     });
   }, [exercises, searchQuery, auditFilter, selectedMaterial, selectedMuscle, selectedDifficulty, sortOrder]);
 
-  // Bound index safely
-  const currentExercise = filteredAndSortedExercises[currentIndex] || filteredAndSortedExercises[0] || null;
+  // Pinned active exercise (keeps user on current exercise during live editing)
+  const currentExercise = useMemo(() => {
+    if (activeExerciseId) {
+      const found = exercises.find(e => e.id === activeExerciseId);
+      if (found) return found;
+    }
+    return filteredAndSortedExercises[currentIndex] || filteredAndSortedExercises[0] || null;
+  }, [exercises, activeExerciseId, filteredAndSortedExercises, currentIndex]);
+
+  // Sync active exercise ID if unset
+  useEffect(() => {
+    if (!activeExerciseId && filteredAndSortedExercises.length > 0) {
+      setActiveExerciseId(filteredAndSortedExercises[0].id);
+    }
+  }, [filteredAndSortedExercises, activeExerciseId]);
+
+  // Calculate position index of current exercise in current filtered selection
+  const computedCurrentIndex = useMemo(() => {
+    if (!currentExercise) return 0;
+    const idx = filteredAndSortedExercises.findIndex(e => e.id === currentExercise.id);
+    return idx >= 0 ? idx : currentIndex;
+  }, [filteredAndSortedExercises, currentExercise, currentIndex]);
 
   // Save exercise changes
   const handleSaveExercise = (updated: Exercise) => {
@@ -163,11 +185,39 @@ export function App() {
     };
     handleSaveExercise(updated);
 
-    // Advance to next workout in queue
-    if (currentIndex < filteredAndSortedExercises.length - 1) {
-      setCurrentIndex(prev => prev + 1);
+    // Explicitly advance to next workout in current selection
+    const currentPos = filteredAndSortedExercises.findIndex(e => e.id === approvedExercise.id);
+    if (currentPos >= 0 && currentPos < filteredAndSortedExercises.length - 1) {
+      const nextEx = filteredAndSortedExercises[currentPos + 1];
+      setActiveExerciseId(nextEx.id);
+      setCurrentIndex(currentPos + 1);
     } else {
-      alert('🎉 Congratulations! You have reviewed all exercises in this audit selection!');
+      const remaining = filteredAndSortedExercises.filter(e => e.id !== approvedExercise.id);
+      if (remaining.length > 0) {
+        setActiveExerciseId(remaining[0].id);
+        setCurrentIndex(0);
+      } else {
+        alert('🎉 Congratulations! You have reviewed all exercises in this audit selection!');
+      }
+    }
+  };
+
+  // Navigation Handlers
+  const handleNext = () => {
+    const currentPos = filteredAndSortedExercises.findIndex(e => e.id === currentExercise?.id);
+    if (currentPos >= 0 && currentPos < filteredAndSortedExercises.length - 1) {
+      const nextEx = filteredAndSortedExercises[currentPos + 1];
+      setActiveExerciseId(nextEx.id);
+      setCurrentIndex(currentPos + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    const currentPos = filteredAndSortedExercises.findIndex(e => e.id === currentExercise?.id);
+    if (currentPos > 0) {
+      const prevEx = filteredAndSortedExercises[currentPos - 1];
+      setActiveExerciseId(prevEx.id);
+      setCurrentIndex(currentPos - 1);
     }
   };
 
@@ -204,6 +254,7 @@ export function App() {
     setSelectedDifficulty('all');
     setSortOrder('oldest_first');
     setSearchQuery('');
+    setActiveExerciseId(null);
     setCurrentIndex(0);
   };
 
@@ -250,10 +301,10 @@ export function App() {
         ) : currentExercise ? (
           <SingleWorkoutCard
             exercise={currentExercise}
-            currentIndex={currentIndex}
+            currentIndex={computedCurrentIndex}
             totalExercises={filteredAndSortedExercises.length}
-            onNext={() => setCurrentIndex(prev => Math.min(filteredAndSortedExercises.length - 1, prev + 1))}
-            onPrev={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
+            onNext={handleNext}
+            onPrev={handlePrev}
             onApprove={handleApproveExercise}
             onSaveEdits={handleSaveExercise}
             onOpenDiff={() => setIsDiffModalOpen(true)}
@@ -270,15 +321,15 @@ export function App() {
         isOpen={isFilterDrawerOpen}
         onClose={() => setIsFilterDrawerOpen(false)}
         auditFilter={auditFilter}
-        onAuditFilterChange={(f) => { setAuditFilter(f); setCurrentIndex(0); }}
+        onAuditFilterChange={(f) => { setAuditFilter(f); setActiveExerciseId(null); setCurrentIndex(0); }}
         selectedMaterial={selectedMaterial}
-        onMaterialChange={(m) => { setSelectedMaterial(m); setCurrentIndex(0); }}
+        onMaterialChange={(m) => { setSelectedMaterial(m); setActiveExerciseId(null); setCurrentIndex(0); }}
         selectedMuscle={selectedMuscle}
-        onMuscleChange={(m) => { setSelectedMuscle(m); setCurrentIndex(0); }}
+        onMuscleChange={(m) => { setSelectedMuscle(m); setActiveExerciseId(null); setCurrentIndex(0); }}
         selectedDifficulty={selectedDifficulty}
-        onDifficultyChange={(d) => { setSelectedDifficulty(d); setCurrentIndex(0); }}
+        onDifficultyChange={(d) => { setSelectedDifficulty(d); setActiveExerciseId(null); setCurrentIndex(0); }}
         sortOrder={sortOrder}
-        onSortOrderChange={(s) => { setSortOrder(s); setCurrentIndex(0); }}
+        onSortOrderChange={(s) => { setSortOrder(s); setActiveExerciseId(null); setCurrentIndex(0); }}
         materials={materials}
         totalFilteredCount={filteredAndSortedExercises.length}
         onResetFilters={handleResetFilters}
