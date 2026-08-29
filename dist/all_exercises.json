@@ -2719,7 +2719,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T16:01:14.292Z"
+      "updated_at": "2026-08-29T16:01:32.969Z"
     }
   },
   {
@@ -2764,7 +2764,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "tracking_type": "reps_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2795,11 +2796,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "9LS7LKSjoK0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T16:02:29.804Z"
     }
   },
   {
@@ -2840,7 +2849,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "tracking_type": "reps_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
