@@ -1565,13 +1565,13 @@
           "type": "standard",
           "priority": 1,
           "language": "en",
-          "start_seconds": 7
+          "start_seconds": 0
         }
       ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T17:12:36.574Z"
+      "updated_at": "2026-08-29T16:52:29.855Z"
     }
   },
   {
@@ -2224,8 +2224,7 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 4
+      "tracking_type": "reps_only"
     },
     "instructions": {
       "en": [
@@ -2753,7 +2752,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "tracking_type": "reps_only",
+      "rating": 4
     },
     "instructions": {
       "en": [
@@ -2784,11 +2784,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "9LS7LKSjoK0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T17:14:10.229Z"
     }
   },
   {
@@ -19527,7 +19535,8 @@
       "difficulty": "beginner",
       "mechanics": "isometric",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -19558,11 +19567,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "uW4zt7R9rvo",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T17:14:44.248Z"
     }
   },
   {
@@ -19638,11 +19655,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "mzr0RYNDzzI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T17:15:44.281Z"
     }
   },
   {
@@ -19716,11 +19741,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "faxyKm4lwI8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T17:16:13.840Z"
     }
   },
   {
