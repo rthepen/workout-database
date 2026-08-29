@@ -1,11 +1,15 @@
 # 🏋️‍♂️ Open-Source Workout Database
 
 [![Database Validation & Distribution Pipeline](https://github.com/rthepen/workout-database/actions/workflows/database-pipeline.yml/badge.svg)](https://github.com/rthepen/workout-database/actions/workflows/database-pipeline.yml)
+[![Deploy Curation App to GitHub Pages](https://github.com/rthepen/workout-database/actions/workflows/deploy-app.yml/badge.svg)](https://github.com/rthepen/workout-database/actions/workflows/deploy-app.yml)
+[![Live Web App](https://img.shields.io/badge/Live%20App-GitHub%20Pages-22c55e.svg)](https://rthepen.github.io/workout-database/)
 [![Schema Version](https://img.shields.io/badge/schema-1.1.0-blue.svg)](schema/exercise.schema.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Exercises Count](https://img.shields.io/badge/exercises-630-green.svg)](dist/all_exercises.json)
 
 An open-source, multi-language, strictly typed workout and exercise database designed for developers building fitness applications, training platforms, wearables, and coaching systems.
+
+👉 **[Launch Live Verification & Curation Web App](https://rthepen.github.io/workout-database/)**
 
 ---
 
