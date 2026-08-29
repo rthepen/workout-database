@@ -38,9 +38,13 @@ export function App() {
   const [isAddExerciseModalOpen, setIsAddExerciseModalOpen] = useState<boolean>(false);
 
   // Initial Data Load
-  const loadData = async () => {
+  const loadData = async (forceLive: boolean = false) => {
     setIsLoading(true);
-    const res = await fetchAllExercises();
+    if (forceLive) {
+      resetLocalEdits();
+      setHasLocalEdits(false);
+    }
+    const res = await fetchAllExercises(forceLive);
     setExercises(res.exercises);
     setOriginalExercises(res.exercises);
     setIsLive(res.isLive);
@@ -304,7 +308,7 @@ export function App() {
       <Header
         exercises={exercises}
         isLive={isLive}
-        onRefresh={loadData}
+        onRefresh={() => loadData(true)}
         onOpenPRModal={() => setIsContributionModalOpen(true)}
         onOpenTokenSettings={() => setIsTokenSettingsOpen(true)}
         onOpenAddExerciseModal={() => setIsAddExerciseModalOpen(true)}

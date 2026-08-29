@@ -22,6 +22,7 @@ import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
 import { ExerciseEditor } from './ExerciseEditor';
 import { submitDirectPullRequest, getSavedGitHubToken } from '../services/githubService';
+import { resetLocalEdits } from '../services/exerciseService';
 
 interface SingleWorkoutCardProps {
   exercise: Exercise;
@@ -119,6 +120,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
     setPrLoading(false);
 
     if (result.success && result.prUrl) {
+      resetLocalEdits();
       setIsDirectCommit(!!result.isDirectCommit);
       setPrSuccessUrl(result.prUrl);
       onApprove(exercise);
