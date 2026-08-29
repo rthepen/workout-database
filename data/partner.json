@@ -1,0 +1,3239 @@
+[
+  {
+    "id": "partner_help_ups",
+    "exercise_name": {
+      "en": "Partner Help Ups",
+      "nl": "Partner Help Ups"
+    },
+    "aliases": [
+      "Partner Help Ups"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Partner Core & Abs",
+      "nl": "Buikspieren / Team"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A ligt and doet a sit-up.",
+        "Partner B staat and trekt A the laatste stukje upward (handje klap/hulp)."
+      ],
+      "nl": [
+        "Partner A ligt en doet een sit-up.",
+        "Partner B staat en trekt A het laatste stukje omhoog (handje klap/hulp)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "GssdjwoKAiM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_squat_hold",
+    "exercise_name": {
+      "en": "Partner Squat Hold",
+      "nl": "Partner Squat Hold"
+    },
+    "aliases": [
+      "Partner Squat Hold"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Partner Lower Body",
+      "nl": "Onderlichaam / Team"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Back tegen back, zakken in the squat and tegen elkaar at leunen for balans."
+      ],
+      "nl": [
+        "Rug tegen rug, zakken in de squat en tegen elkaar aan leunen voor balans."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_help_ups"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "hjk-GPk1Acc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_1_leg_partner_push_overs",
+    "exercise_name": {
+      "en": "1 Leg Partner Push Overs",
+      "nl": "1 Leg Partner Push Overs"
+    },
+    "aliases": [
+      "1 Leg Partner Push Overs"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta tegenover elkaar on één leg.",
+        "Probeer the partner out balans to duwen (tegen hands or shoulders) zonder zelf the ground to raken."
+      ],
+      "nl": [
+        "Sta tegenover elkaar op één been.",
+        "Probeer de partner uit balans te duwen (tegen handen of schouders) zonder zelf de grond te raken"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "AyYbnV_GjRo",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_back_squat",
+    "exercise_name": {
+      "en": "Partner Back-to-Back Squat",
+      "nl": "Partner Back-to-Back Squat"
+    },
+    "aliases": [
+      "Partner Back-to-Back Squat"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Ga with the ruggen tegen elkaar staan and haak the arms in elkaar.",
+        "Lower gelijktijdig downward until 90 graden (squat positie) and push elkaar again upward."
+      ],
+      "nl": [
+        "Ga met de ruggen tegen elkaar staan en haak de armen in elkaar.",
+        "Zak gelijktijdig omlaag tot 90 graden (squat positie) en duw elkaar weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "fSNyYDX5K2A",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_situp_high_five",
+    "exercise_name": {
+      "en": "Partner Sit-up High Five",
+      "nl": "Partner Sit-up High Five"
+    },
+    "aliases": [
+      "Partner Sit-up High Five"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lig tegenover elkaar and haak the feet in elkaar.",
+        "Kom simultaneously upward in a sit-up and geef elkaar bovenin a high-five."
+      ],
+      "nl": [
+        "Lig tegenover elkaar en haak de voeten in elkaar.",
+        "Kom tegelijk omhoog in een sit-up en geef elkaar bovenin een high-five."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "V5niWNCFO-o",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_wheelbarrow_pushup",
+    "exercise_name": {
+      "en": "Wheelbarrow Push-up",
+      "nl": "Wheelbarrow Push-up"
+    },
+    "aliases": [
+      "Wheelbarrow Push-up"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A neemt the push-up posture at.",
+        "Partner B pakt the enkels of A vast and tilt this on.",
+        "A doet push-ups while B the legs stabiel houdt."
+      ],
+      "nl": [
+        "Partner A neemt de push-up houding aan.",
+        "Partner B pakt de enkels van A vast en tilt deze op.",
+        "A doet push-ups terwijl B de benen stabiel houdt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "KfkFDZVfYhQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_leg_throws",
+    "exercise_name": {
+      "en": "Leg Throws",
+      "nl": "Leg Throws"
+    },
+    "aliases": [
+      "Leg Throws"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A ligt on the back and houdt the enkels of the staande partner B vast.",
+        "A brengt the legs upward, B duwt ze powerfully terug.",
+        "A remt af and raakt the ground net not."
+      ],
+      "nl": [
+        "Partner A ligt op de rug en houdt de enkels van de staande partner B vast.",
+        "A brengt de benen omhoog, B duwt ze krachtig terug.",
+        "A remt af en raakt de grond net niet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "cuHr8bsn8H8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_nordic_hamstring_curl",
+    "exercise_name": {
+      "en": "Nordic Hamstring Curl",
+      "nl": "Nordic Hamstring Curl"
+    },
+    "aliases": [
+      "Nordic Hamstring Curl"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Kneel on the floor or exercise mat.",
+        "Partner houdt your enkels stevig tegen the ground.",
+        "Laat your lichaam slowly and controlled forward vallen (rem with hamstrings).",
+        "Push yourself terug upward."
+      ],
+      "nl": [
+        "Zit op je knieën.",
+        "Partner houdt je enkels stevig tegen de grond.",
+        "Laat je lichaam langzaam en gecontroleerd naar voren vallen (rem met hamstrings).",
+        "Duw jezelf terug omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ehxvDjvCwHw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_towel_row",
+    "exercise_name": {
+      "en": "Partner Towel Row",
+      "nl": "Partner Towel Row"
+    },
+    "aliases": [
+      "Partner Towel Row"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Back",
+      "nl": "Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta tegenover elkaar and keep samen één handdoek vast.",
+        "Partner A trekt the handdoek to zich toe (roeien) while partner B resistance biedt (but wel meebeweegt).",
+        "Wissel af."
+      ],
+      "nl": [
+        "Sta tegenover elkaar en houd samen één handdoek vast.",
+        "Partner A trekt de handdoek naar zich toe (roeien) terwijl partner B weerstand biedt (maar wel meebeweegt).",
+        "Wissel af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "KHvwWvOwpZw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_assisted_pistol_squat",
+    "exercise_name": {
+      "en": "Assisted Partner Pistol Squat",
+      "nl": "Assisted Partner Pistol Squat"
+    },
+    "aliases": [
+      "Assisted Partner Pistol Squat"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta tegenover elkaar and keep elkaars rechterhand vast (gekruist).",
+        "Lower beiden through the rechterbeen (pistol squat) while your elkaar in balans houdt.",
+        "Wissel of leg."
+      ],
+      "nl": [
+        "Sta tegenover elkaar en houd elkaars rechterhand vast (gekruist).",
+        "Zak beiden door het rechterbeen (pistol squat) terwijl je elkaar in balans houdt.",
+        "Wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "partner_help_ups"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9v4n_HJJKz4",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_russian_twist",
+    "exercise_name": {
+      "en": "Partner Russian Twist",
+      "nl": "Partner Russian Twist"
+    },
+    "aliases": [
+      "Partner Russian Twist"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Zit back at back with the feet of the floor.",
+        "Geef a weight or bal at the zijkant at elkaar through.",
+        "Rotate volledig with your romp mee."
+      ],
+      "nl": [
+        "Zit rug aan rug met de voeten van de vloer.",
+        "Geef een gewicht of bal aan de zijkant aan elkaar door.",
+        "Draai volledig met je romp mee."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "6qp3K8lJ60c",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_plank_high_five",
+    "exercise_name": {
+      "en": "Partner Plank High Five",
+      "nl": "Partner Plank High Five"
+    },
+    "aliases": [
+      "Partner Plank High Five"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Neem beide the plankpositie at, with the gezichten to elkaar toe.",
+        "Lift in an alternating rhythm the tegenovergestelde hand on and tik the hand of your partner at zonder your hips to draaien."
+      ],
+      "nl": [
+        "Neem beide de plankpositie aan, met de gezichten naar elkaar toe.",
+        "Til om en om de tegenovergestelde hand op en tik de hand van je partner aan zonder je heupen te draaien."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "evQI4zk-eZs",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_plank_jump_overs",
+    "exercise_name": {
+      "en": "Partner Plank Jump Overs",
+      "nl": "Partner Plank Jump Overs"
+    },
+    "aliases": [
+      "Partner Plank Jump Overs"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Cardio & Core",
+      "nl": "Cardio / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A houdt a lage plank vast.",
+        "Partner B springt laterally over the legs/hips of A heen and again.",
+        "Wissel na 30 seconden."
+      ],
+      "nl": [
+        "Partner A houdt een lage plank vast.",
+        "Partner B springt zijwaarts over de benen/heupen van A heen en weer.",
+        "Wissel na 30 seconden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_wheelbarrow_walk",
+    "exercise_name": {
+      "en": "Wheelbarrow Walk",
+      "nl": "Wheelbarrow Walk"
+    },
+    "aliases": [
+      "Wheelbarrow Walk"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Upper Body & Core",
+      "nl": "Bovenlichaam / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A loopt on hands, Partner B houdt the enkels of A vast and loopt erachteraan.",
+        "Keep the core strak, geen hangende back."
+      ],
+      "nl": [
+        "Partner A loopt op handen, Partner B houdt de enkels van A vast en loopt erachteraan.",
+        "Houd de core strak, geen hangende rug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_help_ups"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_resistance_sprint",
+    "exercise_name": {
+      "en": "Partner Resistance Sprint",
+      "nl": "Partner Resistance Sprint"
+    },
+    "aliases": [
+      "Partner Resistance Sprint"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Cardio & Strength",
+      "nl": "Cardio / Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Partner A probeert to rennen.",
+        "Partner B staat erachter and houdt A tegen (at shoulders, hips or with a resistance band).",
+        "A moet vechten for every meter."
+      ],
+      "nl": [
+        "Partner A probeert te rennen.",
+        "Partner B staat erachter en houdt A tegen (aan schouders, heupen of met een band).",
+        "A moet vechten voor elke meter."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_leg_press",
+    "exercise_name": {
+      "en": "Partner Leg Press",
+      "nl": "Partner Leg Press"
+    },
+    "aliases": [
+      "Partner Leg Press"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A ligt on the back with legs in the lucht (voetzolen upward).",
+        "Partner B leunt with zijn chest/weight on the feet of A.",
+        "A buigt and strekt the legs."
+      ],
+      "nl": [
+        "Partner A ligt op de rug met benen in de lucht (voetzolen omhoog).",
+        "Partner B leunt met zijn borst/gewicht op de voeten van A.",
+        "A buigt en strekt de benen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_wall_sit_pass",
+    "exercise_name": {
+      "en": "Partner Wall Sit Pass",
+      "nl": "Partner Wall Sit Pass"
+    },
+    "aliases": [
+      "Partner Wall Sit Pass"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Legs & Core",
+      "nl": "Benen / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Ga naast elkaar in the Wall Sit (back tegen wall, knees 90 graden).",
+        "Geef a medicijnbal or weight at elkaar through with a twist."
+      ],
+      "nl": [
+        "Ga naast elkaar in de Wall Sit (rug tegen muur, knieën 90 graden).",
+        "Geef een medicijnbal of gewicht aan elkaar door met een twist."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_help_ups"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_situp_pass",
+    "exercise_name": {
+      "en": "Partner Sit-up Ball Pass",
+      "nl": "Partner Sit-up Ball Pass"
+    },
+    "aliases": [
+      "Partner Sit-up Ball Pass"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lig tegenover elkaar with feet in elkaar gehaakt.",
+        "Partner A heeft a bal, maakt sit-up and gooit/geeft bal to B.",
+        "B zakt with bal and komt again upward."
+      ],
+      "nl": [
+        "Lig tegenover elkaar met voeten in elkaar gehaakt.",
+        "Partner A heeft een bal, maakt sit-up en gooit/geeft bal naar B.",
+        "B zakt met bal en komt weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "V5niWNCFO-o",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_towel_bicep_curl",
+    "exercise_name": {
+      "en": "Partner Towel Bicep Curl",
+      "nl": "Partner Towel Bicep Curl"
+    },
+    "aliases": [
+      "Partner Towel Bicep Curl"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Arms",
+      "nl": "Armen"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "brachialis",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A staat and houdt the handdoek in the midden vast (curls).",
+        "Partner B zit/knielt and trekt at the uiteinden for resistance.",
+        "A curlt tegen the kracht of B in."
+      ],
+      "nl": [
+        "Partner A staat en houdt de handdoek in het midden vast (curls).",
+        "Partner B zit/knielt en trekt aan de uiteinden voor weerstand.",
+        "A curlt tegen de kracht van B in."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_piggyback_run",
+    "exercise_name": {
+      "en": "Piggyback Run",
+      "nl": "Piggyback Run"
+    },
+    "aliases": [
+      "Piggyback Run"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Cardio & Strength",
+      "nl": "Cardio / Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Neem your partner on the back (Piggyback).",
+        "Ren (or snelwandel) a bepaald parcours.",
+        "Wissel halverwege to."
+      ],
+      "nl": [
+        "Neem je partner op de rug (Piggyback).",
+        "Ren (of snelwandel) een bepaald parcours.",
+        "Wissel halverwege om."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_piggyback_squat",
+    "exercise_name": {
+      "en": "Piggyback Squat",
+      "nl": "Piggyback Squat"
+    },
+    "aliases": [
+      "Piggyback Squat"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Neem your partner on the back.",
+        "Zet your feet iets breder dan heupbreedte.",
+        "Maak gecontroleerde squats with your partner as levend weight."
+      ],
+      "nl": [
+        "Neem je partner op de rug.",
+        "Zet je voeten iets breder dan heupbreedte.",
+        "Maak gecontroleerde squats met je partner als levend gewicht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_firemans_carry",
+    "exercise_name": {
+      "en": "Fireman's Carry",
+      "nl": "Fireman's Carry"
+    },
+    "aliases": [
+      "Fireman's Carry"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lift your partner on in the 'brandweergreep' (over the shoulders).",
+        "Walk a afstand while your your core stabiel houdt.",
+        "Wissel of kant and persoon."
+      ],
+      "nl": [
+        "Til je partner op in de 'brandweergreep' (over de schouders).",
+        "Loop een afstand terwijl je je core stabiel houdt.",
+        "Wissel van kant en persoon."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Fkzk_RqlYig",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_mirror_drill",
+    "exercise_name": {
+      "en": "Mirror Drill",
+      "nl": "Mirror Drill"
+    },
+    "aliases": [
+      "Mirror Drill"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Pionnen on 5m afstand.",
+        "Partners staan tegenover elkaar.",
+        "Partner A beweegt laterally (shuffle), B moet spiegelen and recht tegenover A blijven.",
+        "A probeert B af to schudden."
+      ],
+      "nl": [
+        "Pionnen op 5m afstand.",
+        "Partners staan tegenover elkaar.",
+        "Partner A beweegt zijwaarts (shuffle), B moet spiegelen en recht tegenover A blijven.",
+        "A probeert B af te schudden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_decline_pushup",
+    "exercise_name": {
+      "en": "Partner Decline Push-up",
+      "nl": "Partner Decline Push-up"
+    },
+    "aliases": [
+      "Partner Decline Push-up"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Chest",
+      "nl": "Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A ligt in plank or zit on knees (schildpad).",
+        "Partner B zet feet on the back of A and maakt push-ups (hands on the ground)."
+      ],
+      "nl": [
+        "Partner A ligt in plank of zit op knieën (schildpad).",
+        "Partner B zet voeten op de rug van A en maakt push-ups (handen op de grond)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_band_pallof",
+    "exercise_name": {
+      "en": "Partner Pallof Press",
+      "nl": "Partner Pallof Press"
+    },
+    "aliases": [
+      "Partner Pallof Press"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Anti-Rotation Core",
+      "nl": "Core / Anti-rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta naast elkaar, gezicht dezelfde kant on, with één elastiek tussen jullie in.",
+        "Beide houden the vast and duwen the forward.",
+        "The elastiek wil jullie to elkaar toe trekken; weersta this."
+      ],
+      "nl": [
+        "Sta naast elkaar, gezicht dezelfde kant op, met één elastiek tussen jullie in.",
+        "Beide houden het vast en duwen het naar voren.",
+        "Het elastiek wil jullie naar elkaar toe trekken; weersta dit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_medball_chest_pass",
+    "exercise_name": {
+      "en": "Partner Medball Chest Pass",
+      "nl": "Partner Medball Chest Pass"
+    },
+    "aliases": [
+      "Partner Medball Chest Pass"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta 3-5 meter out elkaar.",
+        "Throw the medicijnbal with twee hands vanaf the chest powerfully to your partner.",
+        "Stap in for extra kracht."
+      ],
+      "nl": [
+        "Sta 3-5 meter uit elkaar.",
+        "Gooi de medicijnbal met twee handen vanaf de borst krachtig naar je partner.",
+        "Stap in voor extra kracht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "LS75csmzdAE",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_medball_rotational",
+    "exercise_name": {
+      "en": "Partner Rotational Throw",
+      "nl": "Partner Rotational Throw"
+    },
+    "aliases": [
+      "Partner Rotational Throw"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta zij at zij (3m afstand).",
+        "Throw the bal with a draaibeweging (vanuit the hip) to the partner.",
+        "Partner vangt and draait mee, and gooit terug."
+      ],
+      "nl": [
+        "Sta zij aan zij (3m afstand).",
+        "Gooi de bal met een draaibeweging (vanuit de heup) naar de partner.",
+        "Partner vangt en draait mee, en gooit terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "vwTAhRIhY58",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_medball_overhead",
+    "exercise_name": {
+      "en": "Partner Overhead Throw",
+      "nl": "Partner Overhead Throw"
+    },
+    "aliases": [
+      "Partner Overhead Throw"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Zoals a ingooi at voetbal.",
+        "Bal achter the head, stap forward and throw hard to the feet of the partner (so that hij stuitert) or on borsthoogte."
+      ],
+      "nl": [
+        "Zoals een ingooi bij voetbal.",
+        "Bal achter het hoofd, stap naar voren en gooi hard naar de voeten van de partner (zodat hij stuitert) of op borsthoogte."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "2FBzImUe3rw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_leap_frog",
+    "exercise_name": {
+      "en": "Leap Frog",
+      "nl": "Leap Frog"
+    },
+    "aliases": [
+      "Leap Frog"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Plyometrics",
+      "nl": "Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A hurkt and maakt zich klein (hands on knees, head downward).",
+        "Partner B springt wijdbeens over A heen, hands steunend on A's back."
+      ],
+      "nl": [
+        "Partner A hurkt en maakt zich klein (handen op knieën, hoofd omlaag).",
+        "Partner B springt wijdbeens over A heen, handen steunend op A's rug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_bear_crawl_resist",
+    "exercise_name": {
+      "en": "Resisted Bear Crawl",
+      "nl": "Resisted Bear Crawl"
+    },
+    "aliases": [
+      "Resisted Bear Crawl"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Strength",
+      "nl": "Core / Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A doet a bear crawl.",
+        "Partner B houdt a elastiek to A's hips vast and biedt resistance through backward to leunen/trekken."
+      ],
+      "nl": [
+        "Partner A doet een bear crawl.",
+        "Partner B houdt een elastiek om A's heupen vast en biedt weerstand door naar achteren te leunen/trekken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_standing_row",
+    "exercise_name": {
+      "en": "Partner Standing Row",
+      "nl": "Partner Standing Row"
+    },
+    "aliases": [
+      "Partner Standing Row"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Back & Biceps",
+      "nl": "Rug / Biceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta tegenover elkaar and pak elkaars rechterhand (or onderarm) vast.",
+        "Leun beiden backward.",
+        "Pull yourself to the partner toe and laat again zakken.",
+        "Wissel of arm."
+      ],
+      "nl": [
+        "Sta tegenover elkaar en pak elkaars rechterhand (of onderarm) vast.",
+        "Leun beiden naar achteren.",
+        "Trek jezelf naar de partner toe en laat weer zakken.",
+        "Wissel van arm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_single_leg_rdl",
+    "exercise_name": {
+      "en": "Partner Supported Single Leg RDL",
+      "nl": "Partner Supported Single Leg RDL"
+    },
+    "aliases": [
+      "Partner Supported Single Leg RDL"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Hamstrings",
+      "nl": "Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta tegenover elkaar and keep elkaars hands vast for balans.",
+        "Maak beiden simultaneously a Single Leg Deadlift (leg backward zwaaien, romp forward)."
+      ],
+      "nl": [
+        "Sta tegenover elkaar en houd elkaars handen vast voor balans.",
+        "Maak beiden tegelijk een Single Leg Deadlift (been naar achteren zwaaien, romp naar voren)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_manual_shoulder_press",
+    "exercise_name": {
+      "en": "Manual Shoulder Press",
+      "nl": "Manual Shoulder Press"
+    },
+    "aliases": [
+      "Manual Shoulder Press"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A zit on knees, hands at shoulders.",
+        "Partner B staat erachter and duwt on the hands of A.",
+        "A probeert upward to duwen (press) tegen the resistance of B."
+      ],
+      "nl": [
+        "Partner A zit op knieën, handen bij schouders.",
+        "Partner B staat erachter en duwt op de handen van A.",
+        "A probeert omhoog te duwen (press) tegen de weerstand van B."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_plank_claps",
+    "exercise_name": {
+      "en": "Partner Plank Claps",
+      "nl": "Partner Plank Claps"
+    },
+    "aliases": [
+      "Partner Plank Claps"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Plank tegenover elkaar (head at head).",
+        "Klap diagonaal elkaars hand (right tikt right).",
+        "Keep hips stil."
+      ],
+      "nl": [
+        "Plank tegenover elkaar (hoofd bij hoofd).",
+        "Klap diagonaal elkaars hand (Rechts tikt Rechts).",
+        "Houd heupen stil."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "evQI4zk-eZs",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_manual_hamstring",
+    "exercise_name": {
+      "en": "Partner Manual Hamstring Curl",
+      "nl": "Partner Manual Hamstring Curl"
+    },
+    "aliases": [
+      "Partner Manual Hamstring Curl"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Hamstrings",
+      "nl": "Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A ligt on abdominals.",
+        "Partner B duwt tegen the heels/enkels.",
+        "A probeert the hakken to the glutes to brengen (curlen) while B tegenwerkt."
+      ],
+      "nl": [
+        "Partner A ligt op buik.",
+        "Partner B duwt tegen de hielen/enkels.",
+        "A probeert de hakken naar de billen te brengen (curlen) terwijl B tegenwerkt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_burpee_broad_jump",
+    "exercise_name": {
+      "en": "Partner Burpee Broad Jump",
+      "nl": "Partner Burpee Broad Jump"
+    },
+    "aliases": [
+      "Partner Burpee Broad Jump"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A maakt a burpee.",
+        "While A on the ground ligt, springt Partner B with a brede sprong (Broad Jump) over A heen.",
+        "Wissel rollen or doe the in estafettevorm."
+      ],
+      "nl": [
+        "Partner A maakt een burpee.",
+        "Terwijl A op de grond ligt, springt Partner B met een brede sprong (Broad Jump) over A heen.",
+        "Wissel rollen of doe het in estafettevorm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_dragon_flag_assist",
+    "exercise_name": {
+      "en": "Partner Dragon Flag",
+      "nl": "Partner Dragon Flag"
+    },
+    "aliases": [
+      "Partner Dragon Flag"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Advanced Core",
+      "nl": "Core (Advanced)"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A ligt on back and houdt the enkels of staande Partner B vast.",
+        "A tilt the hele lichaam (kaarsrecht) on vanaf the shoulders.",
+        "B helpt or controleert the beweging."
+      ],
+      "nl": [
+        "Partner A ligt op rug en houdt de enkels van staande Partner B vast.",
+        "A tilt het hele lichaam (kaarsrecht) op vanaf de schouders.",
+        "B helpt of controleert de beweging."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "partner_help_ups"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_band_reverse_fly",
+    "exercise_name": {
+      "en": "Partner Band Reverse Fly",
+      "nl": "Partner Band Reverse Fly"
+    },
+    "aliases": [
+      "Partner Band Reverse Fly"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Back",
+      "nl": "Schouders / Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sta tegenover elkaar, each houdt a uiteinde of a (lang) elastiek vast (gekruist or recht).",
+        "Maak simultaneously a reverse fly beweging (arms wijd)."
+      ],
+      "nl": [
+        "Sta tegenover elkaar, elk houdt een uiteinde van een (lang) elastiek vast (gekruist of recht).",
+        "Maak tegelijk een reverse fly beweging (armen wijd)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_pushup_tunnel",
+    "exercise_name": {
+      "en": "Push-up Tunnel",
+      "nl": "Push-up Tunnel"
+    },
+    "aliases": [
+      "Push-up Tunnel"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Partner & Team Drills",
+      "nl": "Team / Fun"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Alle partners staan in a hoge plank/push-up posture achter elkaar.",
+        "The achterste persoon kruipt onder the anderen through forward and sluit at in the plank."
+      ],
+      "nl": [
+        "Alle partners staan in een hoge plank/push-up houding achter elkaar.",
+        "De achterste persoon kruipt onder de anderen door naar voren en sluit aan in de plank."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "partner_wall_ball_relay",
+    "exercise_name": {
+      "en": "Wall Ball Relay",
+      "nl": "Wall Ball Relay"
+    },
+    "aliases": [
+      "Wall Ball Relay"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Partner A gooit the Wall Ball.",
+        "Partner B vangt the bal (na the stuit or direct), maakt a squat and gooit hem again tegen the wall.",
+        "Blijf rouleren."
+      ],
+      "nl": [
+        "Partner A gooit de Wall Ball.",
+        "Partner B vangt de bal (na de stuit of direct), maakt een squat en gooit hem weer tegen de muur.",
+        "Blijf rouleren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_help_ups"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "WGM7FjbDJUA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  }
+]

@@ -1,0 +1,463 @@
+{
+  "repository": "rthepen/workout-database",
+  "schema_version": "1.1.0",
+  "last_updated_utc": "2026-08-29T09:19:36.729193+00:00",
+  "total_exercises": 630,
+  "total_equipment_types": 25,
+  "available_materials": {
+    "ab_wheel": {
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "agility_ladder": {
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "barbell": {
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "battle_rope": {
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "bodyweight": {
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "bosu_ball": {
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "cardio_equipment": {
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "cones": {
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "core_sliders": {
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "deadball": {
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "dumbbells": {
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "jump_rope": {
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "kettlebell": {
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "medicine_ball": {
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "monkey_bars": {
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "parallettes": {
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "partner": {
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "plyo_box": {
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "resistance_band": {
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "sandbag": {
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "spinning_bike": {
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "sprint_track": {
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "standing_punching_bag": {
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "tractor_tire": {
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "trx_suspension": {
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    }
+  },
+  "available_muscles": [
+    "anterior_deltoid",
+    "biceps_brachii",
+    "brachialis",
+    "calves",
+    "cardiovascular_system",
+    "deltoids",
+    "erector_spinae",
+    "forearms",
+    "gluteus_maximus",
+    "hamstrings",
+    "iliopsoas",
+    "latissimus_dorsi",
+    "obliques",
+    "pectorals",
+    "posterior_deltoid",
+    "quadriceps",
+    "rectus_abdominis",
+    "rhomboids",
+    "transverse_abdominis",
+    "trapezius",
+    "triceps_brachii"
+  ],
+  "available_categories": [
+    "Abs & Combat Conditioning",
+    "Abs & Core",
+    "Advanced Cardio",
+    "Advanced Coordination",
+    "Advanced Core",
+    "Advanced Hamstrings",
+    "Advanced Strength & Mobility",
+    "Agility",
+    "Agility & Coordination",
+    "Agility & Cornering",
+    "Agility & Footwork",
+    "Agility & Hips",
+    "Agility & Rotation",
+    "Agility & Speed",
+    "Anti-Rotation Core",
+    "Arms",
+    "Arms & Core",
+    "Back",
+    "Back & Biceps",
+    "Back & Chest",
+    "Back & Legs",
+    "Back & Rear Deltoids",
+    "Back (Latissimus Dorsi)",
+    "Balance",
+    "Balance & Shoulders",
+    "Biceps",
+    "Biceps & Forearms",
+    "Boxing",
+    "Boxing & Groundwork",
+    "Calves & Foot Technique",
+    "Cardio & Agility",
+    "Cardio & Boxing",
+    "Cardio & Coordination",
+    "Cardio & Core",
+    "Cardio & Endurance",
+    "Cardio & Glutes",
+    "Cardio & HIIT",
+    "Cardio & Legs",
+    "Cardio & Plyometrics",
+    "Cardio & Shoulders",
+    "Cardio & Speed",
+    "Cardio & Strength",
+    "Cardio & Upper Body",
+    "Cardio Technique",
+    "Chest",
+    "Chest & Back",
+    "Chest & Core",
+    "Chest & Shoulders",
+    "Chest & Triceps",
+    "Chest & Upper Body",
+    "Chest (Full ROM)",
+    "Cool-Down & Recovery",
+    "Coordination",
+    "Core & Abs",
+    "Core & Balance",
+    "Core & Cardio",
+    "Core & Flexibility",
+    "Core & Grip Strength",
+    "Core & Hips",
+    "Core & Mobility",
+    "Core & Obliques",
+    "Core & Posterior Chain",
+    "Core & Shoulders",
+    "Core & Upper Body",
+    "Core (Anti-Lateral Flexion)",
+    "Core Conditioning",
+    "Core Mobility",
+    "Core Stability",
+    "Core Strength",
+    "Core Technique",
+    "Endurance Cardio",
+    "Explosive Power",
+    "Footwork & Agility",
+    "Footwork & Cardio",
+    "Freestyle & Skills",
+    "Freestyle Skills & Coordination",
+    "Full Body",
+    "Full Body & Back",
+    "Full Body & Coordination",
+    "Full Body & Core",
+    "Full Body Cardio",
+    "Full Body Core",
+    "Full Body HIIT",
+    "Full Body Mobility",
+    "Full Body Power",
+    "Full Body Strength",
+    "Glutes",
+    "Glutes & Hamstrings",
+    "Grip & Core",
+    "Grip & Shoulders",
+    "Grip, Stability & Legs",
+    "Hamstrings",
+    "Hamstrings & Back",
+    "Hamstrings & Balance",
+    "Hamstrings & Glutes",
+    "Hamstrings & Lower Back",
+    "High Intensity Interval Training",
+    "Hip Mobility & Speed",
+    "Kickboxing",
+    "Kickboxing & Muay Thai",
+    "Lateral Cardio",
+    "Lateral Speed",
+    "Lateral Speed & Agility",
+    "Leg Mobility",
+    "Legs",
+    "Legs & Back",
+    "Legs & Balance",
+    "Legs & Cardio",
+    "Legs & Coordination",
+    "Legs & Core",
+    "Legs & Glutes",
+    "Legs & Hamstrings",
+    "Legs & Lateral Chain",
+    "Legs & Mobility",
+    "Legs & Plyometrics",
+    "Legs (Quadriceps)",
+    "Legs (Unilateral)",
+    "Lower Back & Core",
+    "Lower Back & Hamstrings",
+    "Lower Body",
+    "Lower Body & Balance",
+    "Lower Body & Glutes",
+    "MMA & Kickboxing",
+    "MMA Conditioning",
+    "Movement & Mobility",
+    "Movement Technique",
+    "Muay Thai Striking",
+    "Obliques & Core",
+    "Partner & Team Drills",
+    "Partner Core & Abs",
+    "Partner Lower Body",
+    "Plyometrics",
+    "Postural Alignment",
+    "Power & Balance",
+    "Power & Cardio",
+    "Reaction & Agility",
+    "Reaction & Reflexes",
+    "Reaction & Speed",
+    "Recovery & Coordination",
+    "Rhythmic Cardio",
+    "Rhythmic HIIT",
+    "Rhythmic Plyometrics",
+    "Rhythmic Training",
+    "Rotation & Back",
+    "Rotational Core",
+    "Running Mechanics",
+    "Shoulder Mobility",
+    "Shoulder Stability",
+    "Shoulder Stability & Core",
+    "Shoulder Strength",
+    "Shoulders",
+    "Shoulders & Back",
+    "Shoulders & Chest",
+    "Shoulders & Coordination",
+    "Shoulders & Core",
+    "Shoulders & Full Body",
+    "Shoulders & Power",
+    "Shoulders & Trapezius",
+    "Speed & Cardio",
+    "Speed & Cornering",
+    "Speed & Sprinting",
+    "Strength",
+    "Strength & Balance",
+    "Strength & Conditioning",
+    "Strength & Core",
+    "Strength & Power",
+    "Trapezius & Upper Back",
+    "Triceps",
+    "Triceps & Chest",
+    "Upper Body",
+    "Upper Body & Core",
+    "Upper Body & Triceps",
+    "Upper Body Strength",
+    "Upper Chest",
+    "Warm-Up & Core"
+  ],
+  "distribution_files": {
+    "all_exercises": "https://raw.githubusercontent.com/rthepen/workout-database/main/dist/all_exercises.json",
+    "index": "https://raw.githubusercontent.com/rthepen/workout-database/main/dist/index.json"
+  }
+}

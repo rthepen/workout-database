@@ -1,0 +1,2971 @@
+[
+  {
+    "id": "barbell_bench_press",
+    "exercise_name": {
+      "en": "Bench Press",
+      "nl": "Bench Press"
+    },
+    "aliases": [
+      "Bench Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Chest & Upper Body",
+      "nl": "Borst / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on the bench.",
+        "Grip the barbell slightly wider than shoulder-width.",
+        "Lower the barbell in a controlled descent down to the midpoint or your chest.",
+        "Press forcefully upward until your arms reach full extension."
+      ],
+      "nl": [
+        "Ga op de bank liggen.",
+        "Pak de stang iets breder dan schouderbreedte.",
+        "Laat de stang gecontroleerd zakken tot het midden van je borst.",
+        "Duw krachtig uit tot je armen gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "gBZkSn-zsD0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_back_squat",
+    "exercise_name": {
+      "en": "Back Squat",
+      "nl": "Back Squat"
+    },
+    "aliases": [
+      "Back Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rest the barbell across your upper trapezius (on your trapezius).",
+        "Stand with feet hip-width apart.",
+        "Hinge at your hips and bend your knees as if sitting into a chair.",
+        "Keep your spine flat and neutral and kom again upward."
+      ],
+      "nl": [
+        "Leg de stang in je nek (op je trapezius).",
+        "Sta op heupbreedte.",
+        "Zak door je knieën en heupen alsof je gaat zitten.",
+        "Houd je rug recht en kom weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ultWZbUMPL8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_deadlift",
+    "exercise_name": {
+      "en": "Deadlift (Conventional)",
+      "nl": "Deadlift (Conventional)"
+    },
+    "aliases": [
+      "Conventional",
+      "Deadlift",
+      "Deadlift Conventional"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back & Legs",
+      "nl": "Rug / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand with your shins touching the barbell.",
+        "Grip the barbell firmly, lower through your hips and keep your spine flat and neutral.",
+        "Lift the bar by extending your legs and driving your hips forward into full lockout."
+      ],
+      "nl": [
+        "Sta met je schenen tegen de stang.",
+        "Pak de stang vast, zak door je heupen en houd je rug recht.",
+        "Til de stang op door je benen te strekken en je heupen naar voren te duwen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "yPqv3ejnZvc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_overhead_press",
+    "exercise_name": {
+      "en": "Overhead Press (Military Press)",
+      "nl": "Overhead Press (Military Press)"
+    },
+    "aliases": [
+      "Military Press",
+      "Overhead Press",
+      "Overhead Press Military Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with good posture.",
+        "Hold the barbell at shoulder/collarbone height.",
+        "Press the barbell straight overhead to full extension.",
+        "Brace your core and avoid arching your lower back."
+      ],
+      "nl": [
+        "Sta rechtop.",
+        "Houd de stang op borsthoogte.",
+        "Duw de stang recht omhoog tot boven je hoofd.",
+        "Span je buikspieren aan en leun niet te ver naar achteren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "5yWaNOvgFCM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_bent_over_row",
+    "exercise_name": {
+      "en": "Bent Over Row",
+      "nl": "Bent Over Row"
+    },
+    "aliases": [
+      "Bent Over Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back",
+      "nl": "Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sta with bent knees and buig voorover (back recht).",
+        "Row the barbell toward your belly button toe through your elbows backward to bewegen and your schouderbladen samen to knijpen."
+      ],
+      "nl": [
+        "Sta met gebogen knieën en buig voorover (rug recht).",
+        "Trek de stang naar je navel toe door je ellebogen naar achteren te bewegen en je schouderbladen samen te knijpen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ZathOyxYZ3M",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_romanian_deadlift",
+    "exercise_name": {
+      "en": "Romanian Deadlift (RDL)",
+      "nl": "Romanian Deadlift (RDL)"
+    },
+    "aliases": [
+      "RDL",
+      "Romanian Deadlift",
+      "Romanian Deadlift RDL"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs & Hamstrings",
+      "nl": "Benen / Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell vast with gestrekte arms.",
+        "Buig licht through your knees and push your hips ver backward while your the barbell langs your legs laat zakken.",
+        "Voel the rek in your hamstrings."
+      ],
+      "nl": [
+        "Houd de stang vast met gestrekte armen.",
+        "Buig licht door je knieën en duw je heupen ver naar achteren terwijl je de stang langs je benen laat zakken.",
+        "Voel de rek in je hamstrings."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ZEnWV4kguKc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_incline_bench_press",
+    "exercise_name": {
+      "en": "Incline Bench Press",
+      "nl": "Incline Bench Press"
+    },
+    "aliases": [
+      "Incline Bench Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Chest",
+      "nl": "Borst (Bovenkant)"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Zet the bankje schuin upward (ca.",
+        "30-45 graden).",
+        "Voer the bench press out.",
+        "This legt meer nadruk on the bovenkant of your borstspieren."
+      ],
+      "nl": [
+        "Zet het bankje schuin omhoog (ca.",
+        "30-45 graden).",
+        "Voer de bench press uit.",
+        "Dit legt meer nadruk op de bovenkant van je borstspieren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "hChjZQhX1Ls",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_front_squat",
+    "exercise_name": {
+      "en": "Front Squat",
+      "nl": "Front Squat"
+    },
+    "aliases": [
+      "Front Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs (Quadriceps)",
+      "nl": "Benen (Quadriceps)"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Laat the barbell on the voorkant of your shoulders rusten (elbows hoog).",
+        "Lower recht to beneden.",
+        "This vergt meer balans and core-stabiliteit dan the Back Squat."
+      ],
+      "nl": [
+        "Laat de stang op de voorkant van je schouders rusten (ellebogen hoog).",
+        "Zak recht naar beneden.",
+        "Dit vergt meer balans en core-stabiliteit dan de Back Squat."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "351pU36mT-o",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_lunges",
+    "exercise_name": {
+      "en": "Barbell Lunges",
+      "nl": "Barbell Lunges"
+    },
+    "aliases": [
+      "Barbell Lunges"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rest the barbell across your upper trapezius.",
+        "Stap with één leg ver out and lower through your knees until your achterste knee bijna the ground raakt.",
+        "Stap terug and wissel of leg."
+      ],
+      "nl": [
+        "Leg de stang in je nek.",
+        "Stap met één been ver uit en zak door je knieën tot je achterste knie bijna de grond raakt.",
+        "Stap terug en wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ci4rsmlOk24",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_hip_thrust",
+    "exercise_name": {
+      "en": "Barbell Hip Thrust",
+      "nl": "Barbell Hip Thrust"
+    },
+    "aliases": [
+      "Barbell Hip Thrust"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Glutes",
+      "nl": "Billen (Glutes)"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Ga with your bovenrug tegen the zijkant of the bankje zitten.",
+        "Rol the barbell over your hips.",
+        "Push your hips upward until your lichaam a brug vormt.",
+        "Brace your glutes hard at."
+      ],
+      "nl": [
+        "Ga met je bovenrug tegen de zijkant van het bankje zitten.",
+        "Rol de stang over je heupen.",
+        "Duw je heupen omhoog tot je lichaam een brug vormt.",
+        "Span je billen hard aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "3ENrRyaAFEQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_skull_crushers",
+    "exercise_name": {
+      "en": "Skull Crushers (Triceps Extension)",
+      "nl": "Skull Crushers (Triceps Extension)"
+    },
+    "aliases": [
+      "Skull Crushers",
+      "Skull Crushers Triceps Extension",
+      "Triceps Extension"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Triceps",
+      "nl": "Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lig on the bankje.",
+        "Keep the barbell boven your chest.",
+        "Buig alleen your elbows and laat the barbell zakken richting your voorhoofd.",
+        "Strek your arms again out."
+      ],
+      "nl": [
+        "Lig op het bankje.",
+        "Houd de stang boven je borst.",
+        "Buig alleen je ellebogen en laat de stang zakken richting je voorhoofd.",
+        "Strek je armen weer uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "d_KZxkY_0cM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_bicep_curl",
+    "exercise_name": {
+      "en": "Barbell Bicep Curl",
+      "nl": "Barbell Bicep Curl"
+    },
+    "aliases": [
+      "Barbell Bicep Curl"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Biceps",
+      "nl": "Biceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "brachialis",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with good posture.",
+        "Pak the barbell onderhands vast.",
+        "Buig your arms and bring the barbell to your chest.",
+        "Keep your elbows stil naast your lichaam (not zwaaien)."
+      ],
+      "nl": [
+        "Sta rechtop.",
+        "Pak de stang onderhands vast.",
+        "Buig je armen en breng de stang naar je borst.",
+        "Houd je ellebogen stil naast je lichaam (niet zwaaien)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "QciWGMjD-nM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_sumo_deadlift",
+    "exercise_name": {
+      "en": "Sumo Deadlift",
+      "nl": "Sumo Deadlift"
+    },
+    "aliases": [
+      "Sumo Deadlift"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs & Glutes",
+      "nl": "Benen / Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Zet your feet heel breed (breder dan shoulders).",
+        "Pak the barbell smal vast (tussen your legs).",
+        "Keep your spine flat and neutral and lift the barbell on vanuit your legs."
+      ],
+      "nl": [
+        "Zet je voeten heel breed (breder dan schouders).",
+        "Pak de stang smal vast (tussen je benen).",
+        "Houd je rug recht en til de stang op vanuit je benen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "fQcM0pZSVgQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_push_press",
+    "exercise_name": {
+      "en": "Push Press",
+      "nl": "Push Press"
+    },
+    "aliases": [
+      "Push Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Full Body",
+      "nl": "Schouders / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Zelfde starting position as Overhead Press.",
+        "Lower iets through your knees (dip) and gebruik that impuls to the barbell explosively boven your head to duwen."
+      ],
+      "nl": [
+        "Zelfde startpositie als Overhead Press.",
+        "Zak iets door je knieën (dip) en gebruik die impuls om de stang explosief boven je hoofd te duwen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "4tCaD42ghlc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_close_grip_bench_press",
+    "exercise_name": {
+      "en": "Close Grip Bench Press",
+      "nl": "Close Grip Bench Press"
+    },
+    "aliases": [
+      "Close Grip Bench Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Triceps & Chest",
+      "nl": "Triceps / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Doe a Bench Press, but pak the barbell smal vast (hands on schouderbreedte).",
+        "Keep your elbows strak langs your lichaam.",
+        "This traint vooral your triceps."
+      ],
+      "nl": [
+        "Doe een Bench Press, maar pak de stang smal vast (handen op schouderbreedte).",
+        "Houd je ellebogen strak langs je lichaam.",
+        "Dit traint vooral je triceps."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "a3s2tZZENGI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_good_morning",
+    "exercise_name": {
+      "en": "Good Morning",
+      "nl": "Good Morning"
+    },
+    "aliases": [
+      "Good Morning"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Lower Back & Hamstrings",
+      "nl": "Onderrug / Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Barbell in your nek.",
+        "Keep your legs bijna extended (lichte buiging).",
+        "Buig voorover vanuit your hips until your back horizontaal is.",
+        "Keep your back kaarsrecht."
+      ],
+      "nl": [
+        "Stang in je nek.",
+        "Houd je benen bijna gestrekt (lichte buiging).",
+        "Buig voorover vanuit je heupen tot je rug horizontaal is.",
+        "Houd je rug kaarsrecht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "nWyx81AfTos",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_upright_row",
+    "exercise_name": {
+      "en": "Upright Row",
+      "nl": "Upright Row"
+    },
+    "aliases": [
+      "Upright Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Trapezius",
+      "nl": "Schouders / Trapezius"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with good posture.",
+        "Pak the barbell smal vast for your hips.",
+        "Pull the barbell recht upward langs your lichaam until onder your chin.",
+        "Elbows wijzen outward and upward."
+      ],
+      "nl": [
+        "Sta rechtop.",
+        "Pak de stang smal vast voor je heupen.",
+        "Trek de stang recht omhoog langs je lichaam tot onder je kin.",
+        "Ellebogen wijzen naar buiten en omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "nIJGvsdNtFE",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_bulgarian_split_squat",
+    "exercise_name": {
+      "en": "Barbell Bulgarian Split Squat",
+      "nl": "Barbell Bulgarian Split Squat"
+    },
+    "aliases": [
+      "Barbell Bulgarian Split Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs (Unilateral)",
+      "nl": "Benen (Unilateraal)"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Leg één foot achter your on the bankje.",
+        "Rest the barbell across your upper trapezius.",
+        "Lower through your voorste leg until your dijbeen parallel is at the ground."
+      ],
+      "nl": [
+        "Leg één voet achter je op het bankje.",
+        "Leg de stang in je nek.",
+        "Zak door je voorste been tot je dijbeen parallel is aan de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "b3fA9xqg258",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_pullover",
+    "exercise_name": {
+      "en": "Barbell Pullover",
+      "nl": "Barbell Pullover"
+    },
+    "aliases": [
+      "Barbell Pullover"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back & Chest",
+      "nl": "Rug / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lig dwars or recht on the bankje.",
+        "Keep the barbell boven your chest with licht bent arms.",
+        "Laat the barbell slowly achter your head zakken richting the ground."
+      ],
+      "nl": [
+        "Lig dwars of recht op het bankje.",
+        "Houd de stang boven je borst met licht gebogen armen.",
+        "Laat de stang langzaam achter je hoofd zakken richting de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "3QiBnN2r51I",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_shrugs",
+    "exercise_name": {
+      "en": "Barbell Shrugs",
+      "nl": "Barbell Shrugs"
+    },
+    "aliases": [
+      "Barbell Shrugs"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Trapezius & Upper Back",
+      "nl": "Trapezius (Nek)"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with good posture with the barbell in your hands (gestrekte arms).",
+        "Pull puur your shoulders so hoog mogelijk on richting your oren.",
+        "Keep even vast and laat zakken."
+      ],
+      "nl": [
+        "Sta rechtop met de stang in je handen (gestrekte armen).",
+        "Trek puur je schouders zo hoog mogelijk op richting je oren.",
+        "Houd even vast en laat zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9xGqgGFAtiM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_press_standing",
+    "exercise_name": {
+      "en": "Landmine Press (Standing)",
+      "nl": "Landmine Press (Standing)"
+    },
+    "aliases": [
+      "Landmine Press",
+      "Landmine Press Standing",
+      "Standing"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Chest",
+      "nl": "Schouders / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with good posture, feet positioned shoulder-width apart.",
+        "Keep the uiteinde of the barbell with één hand at your shoulder.",
+        "Push the barbell schuin upward and forward until your arm extended is.",
+        "Leun lichtjes in the beweging."
+      ],
+      "nl": [
+        "Sta rechtop, voeten op schouderbreedte.",
+        "Houd het uiteinde van de stang met één hand bij je schouder.",
+        "Duw de stang schuin omhoog en naar voren tot je arm gestrekt is.",
+        "Leun lichtjes in de beweging."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "n1NSt-h-tHA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_row_single_arm",
+    "exercise_name": {
+      "en": "Landmine Single Arm Row",
+      "nl": "Landmine Single Arm Row"
+    },
+    "aliases": [
+      "Landmine Single Arm Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back",
+      "nl": "Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sta naast the barbell.",
+        "Buig voorover with a rechte back.",
+        "Pak the barbell vlakbij the schijven vast.",
+        "Pull your elbow upward and backward.",
+        "Laat smoothly zakken."
+      ],
+      "nl": [
+        "Sta naast de stang.",
+        "Buig voorover met een rechte rug.",
+        "Pak de stang vlakbij de schijven vast.",
+        "Trek je elleboog omhoog en naar achteren.",
+        "Laat rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "barbell_bench_press"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "tiETx7VNDf0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_twist",
+    "exercise_name": {
+      "en": "Landmine Twist (Rotations)",
+      "nl": "Landmine Twist (Rotations)"
+    },
+    "aliases": [
+      "Landmine Twist",
+      "Landmine Twist Rotations",
+      "Rotations"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Core & Obliques",
+      "nl": "Core / Schuine Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell with twee hands vast on ooghoogte (arms licht bent).",
+        "Rotate the barbell with your romp controlled to your linkerheup, terug to the midden, and dan to your rechterheup.",
+        "Keep your hips so stil mogelijk."
+      ],
+      "nl": [
+        "Houd de stang met twee handen vast op ooghoogte (armen licht gebogen).",
+        "Draai de stang met je romp gecontroleerd naar je linkerheup, terug naar het midden, en dan naar je rechterheup.",
+        "Houd je heupen zo stil mogelijk."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "_m8acGihKzE",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_squat",
+    "exercise_name": {
+      "en": "Landmine Squat (Goblet)",
+      "nl": "Landmine Squat (Goblet)"
+    },
+    "aliases": [
+      "Goblet",
+      "Landmine Squat",
+      "Landmine Squat Goblet"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the uiteinde of the barbell with twee hands tegen your chest.",
+        "Zet your feet positioned shoulder-width apart.",
+        "Lower in a squat and leun iets tegen the barbell at.",
+        "Push yourself again upward."
+      ],
+      "nl": [
+        "Houd het uiteinde van de stang met twee handen tegen je borst.",
+        "Zet je voeten op schouderbreedte.",
+        "Zak in een squat en leun iets tegen de stang aan.",
+        "Duw jezelf weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "YxaXaZxVcDU",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_reverse_lunge",
+    "exercise_name": {
+      "en": "Landmine Reverse Lunge",
+      "nl": "Landmine Reverse Lunge"
+    },
+    "aliases": [
+      "Landmine Reverse Lunge"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs & Glutes",
+      "nl": "Benen / Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell in één hand (at the kant of the leg that backward stapt) or with twee hands for the chest.",
+        "Stap backward in a lunge and kom terug."
+      ],
+      "nl": [
+        "Houd de stang in één hand (aan de kant van het been dat naar achteren stapt) of met twee handen voor de borst.",
+        "Stap naar achteren in een lunge en kom terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dHsQrYcrO6g",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_t_bar_row",
+    "exercise_name": {
+      "en": "Landmine T-Bar Row",
+      "nl": "Landmine T-Bar Row"
+    },
+    "aliases": [
+      "Landmine T-Bar Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back",
+      "nl": "Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Ga schrijlings over the barbell staan.",
+        "Gebruik a V-handle (or pak the barbell direct vast).",
+        "Buig voorover, back recht.",
+        "Pull the barbell to your chest/abdominals."
+      ],
+      "nl": [
+        "Ga schrijlings over de stang staan.",
+        "Gebruik een V-handle (of pak de stang direct vast).",
+        "Buig voorover, rug recht.",
+        "Trek de stang naar je borst/buik."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "KDEl3AmZbVE",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_single_leg_rdl",
+    "exercise_name": {
+      "en": "Landmine Single Leg RDL",
+      "nl": "Landmine Single Leg RDL"
+    },
+    "aliases": [
+      "Landmine Single Leg RDL"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Hamstrings & Balance",
+      "nl": "Hamstrings / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sta on één leg.",
+        "Keep the barbell vast in the hand tegenover your standbeen.",
+        "Buig voorover vanuit your hip while your your vrije leg backward strekt.",
+        "Keep your spine flat and neutral."
+      ],
+      "nl": [
+        "Sta op één been.",
+        "Houd de stang vast in de hand tegenover je standbeen.",
+        "Buig voorover vanuit je heup terwijl je je vrije been naar achteren strekt.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "F81BrVhUCNk",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_thruster",
+    "exercise_name": {
+      "en": "Landmine Thruster",
+      "nl": "Landmine Thruster"
+    },
+    "aliases": [
+      "Landmine Thruster"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body Cardio",
+      "nl": "Full Body / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell with twee hands for the chest.",
+        "Maak a diepe squat.",
+        "Kom explosively upward and push the barbell direct through until boven your head (gestrekte arms)."
+      ],
+      "nl": [
+        "Houd de stang met twee handen voor de borst.",
+        "Maak een diepe squat.",
+        "Kom explosief omhoog en duw de stang direct door tot boven je hoofd (gestrekte armen)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "OkXU8sd4tHI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_lateral_lunge",
+    "exercise_name": {
+      "en": "Landmine Lateral Lunge",
+      "nl": "Landmine Lateral Lunge"
+    },
+    "aliases": [
+      "Landmine Lateral Lunge"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs & Lateral Chain",
+      "nl": "Benen / Zijkant"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell for the chest.",
+        "Stap wijd out to the zijkant and lower through één knee (the andere leg blijft extended).",
+        "Push yourself powerfully terug to the midden."
+      ],
+      "nl": [
+        "Houd de stang voor de borst.",
+        "Stap wijd uit naar de zijkant en zak door één knie (het andere been blijft gestrekt).",
+        "Duw jezelf krachtig terug naar het midden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "VTtLrBvHoJ8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_180_rainbows",
+    "exercise_name": {
+      "en": "Landmine 180s (Rainbows)",
+      "nl": "Landmine 180s (Rainbows)"
+    },
+    "aliases": [
+      "Landmine 180s",
+      "Landmine 180s Rainbows",
+      "Rainbows"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell with gestrekte arms boven your head.",
+        "Rotate your hele lichaam and zwaai the barbell with a grote boog to your linkerheup.",
+        "Rotate via the boog (rainbow) to your rechterheup.",
+        "Rotate your feet mee."
+      ],
+      "nl": [
+        "Houd de stang met gestrekte armen boven je hoofd.",
+        "Draai je hele lichaam en zwaai de stang met een grote boog naar je linkerheup.",
+        "Draai via de boog (rainbow) naar je rechterheup.",
+        "Draai je voeten mee."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "0Njim4THoqA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_hack_squat",
+    "exercise_name": {
+      "en": "Landmine Hack Squat",
+      "nl": "Landmine Hack Squat"
+    },
+    "aliases": [
+      "Landmine Hack Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs (Quadriceps)",
+      "nl": "Benen (Quadriceps)"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rotate your back to the landmine toe.",
+        "Leg the barbell on één shoulder.",
+        "Leun flink backward tegen the barbell at and lower in a squat.",
+        "This isoleert the voorkant of the legs."
+      ],
+      "nl": [
+        "Draai je rug naar de landmine toe.",
+        "Leg de stang op één schouder.",
+        "Leun flink naar achteren tegen de stang aan en zak in een squat.",
+        "Dit isoleert de voorkant van de benen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9VSQomFgQnM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_floor_press",
+    "exercise_name": {
+      "en": "Landmine Floor Press",
+      "nl": "Landmine Floor Press"
+    },
+    "aliases": [
+      "Landmine Floor Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Chest & Triceps",
+      "nl": "Borst / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Ga on your back on the ground liggen naast the barbell.",
+        "Pak the uiteinde with één hand vast.",
+        "Push the barbell upward until your arm extended is and laat zakken until your elbow the ground raakt."
+      ],
+      "nl": [
+        "Ga op je rug op de grond liggen naast de stang.",
+        "Pak het uiteinde met één hand vast.",
+        "Duw de stang omhoog tot je arm gestrekt is en laat zakken tot je elleboog de grond raakt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "tw1p4MXoG50",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_clean_and_press",
+    "exercise_name": {
+      "en": "Landmine Clean & Press",
+      "nl": "Landmine Clean & Press"
+    },
+    "aliases": [
+      "Landmine Clean & Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body Power",
+      "nl": "Full Body / Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Start with the barbell laag.",
+        "Pull hem explosively upward to your shoulder (clean) and push hem direct through to boven (press).",
+        "Wissel of arm."
+      ],
+      "nl": [
+        "Start met de stang laag.",
+        "Trek hem explosief omhoog naar je schouder (clean) en duw hem direct door naar boven (press).",
+        "Wissel van arm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "CHNldeu0YUs",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_shoulder_to_shoulder",
+    "exercise_name": {
+      "en": "Landmine Shoulder-to-Shoulder Press",
+      "nl": "Landmine Shoulder-to-Shoulder Press"
+    },
+    "aliases": [
+      "Landmine Shoulder-to-Shoulder Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Keep the barbell with twee hands vast at your linkerschouder.",
+        "Push out to the midden and laat zakken to your rechterschouder.",
+        "Wissel continu af."
+      ],
+      "nl": [
+        "Houd de stang met twee handen vast bij je linkerschouder.",
+        "Duw uit naar het midden en laat zakken naar je rechterschouder.",
+        "Wissel continu af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "AuwW7fGoIA8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "barbell_landmine_meadows_row",
+    "exercise_name": {
+      "en": "Landmine Meadows Row",
+      "nl": "Landmine Meadows Row"
+    },
+    "aliases": [
+      "Landmine Meadows Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back (Latissimus Dorsi)",
+      "nl": "Rug (Lats)"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sta haaks on the barbell with één leg for.",
+        "Pak the dikke uiteinde of the barbell vast (overhands).",
+        "Pull your elbow wijd outward and upward for a specifieke belasting of the bovenrug."
+      ],
+      "nl": [
+        "Sta haaks op de stang met één been voor.",
+        "Pak het dikke uiteinde van de stang vast (overhands).",
+        "Trek je elleboog wijd naar buiten en omhoog voor een specifieke belasting van de bovenrug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "tiETx7VNDf0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  }
+]

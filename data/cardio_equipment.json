@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "cardio_equipment_skierg_double_pole",
+    "exercise_name": {
+      "en": "SkiErg Double Pole",
+      "nl": "SkiErg Double Pole"
+    },
+    "aliases": [
+      "SkiErg Double Pole"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Upper Body",
+      "nl": "Cardio / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Ga on heupbreedte staan.",
+        "Pak the handvatten hoog vast.",
+        "Pull with gestrekte arms to beneden through your abdominals at to spannen and through your knees to buigen (crunch beweging).",
+        "Zwaai your arms smoothly terug upward."
+      ],
+      "nl": [
+        "Ga op heupbreedte staan.",
+        "Pak de handvatten hoog vast.",
+        "Trek met gestrekte armen naar beneden door je buikspieren aan te spannen en door je knieën te buigen (crunch beweging).",
+        "Zwaai je armen rustig terug omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "B0lIgT5PHc8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_skierg_alternating",
+    "exercise_name": {
+      "en": "SkiErg Alternating Arms",
+      "nl": "SkiErg Alternating Arms"
+    },
+    "aliases": [
+      "SkiErg Alternating Arms"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Upper Body",
+      "nl": "Cardio / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Pull the kabels in an alternating rhythm to beneden (zoals at klassiek langlaufen).",
+        "Keep your core strak and ensure for a ritmische beweging waarbij één arm upward gaat while the ander downward trekt."
+      ],
+      "nl": [
+        "Trek de kabels om en om naar beneden (zoals bij klassiek langlaufen).",
+        "Houd je core strak en zorg voor een ritmische beweging waarbij één arm omhoog gaat terwijl de ander omlaag trekt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "n2b_qwZyuSI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_sled_push",
+    "exercise_name": {
+      "en": "Sled Push (Slee Duwen)",
+      "nl": "Sled Push (Slee Duwen)"
+    },
+    "aliases": [
+      "Sled Push",
+      "Sled Push Slee Duwen",
+      "Slee Duwen"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Zet the resistance hoog.",
+        "Pak the lage or hoge handgrepen vast.",
+        "Leun ver voorover and push the resistance band with krachtige stappen backward weg.",
+        "Keep your spine flat and neutral."
+      ],
+      "nl": [
+        "Zet de weerstand hoog.",
+        "Pak de lage of hoge handgrepen vast.",
+        "Leun ver voorover en duw de band met krachtige stappen naar achteren weg.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jIctEZ9qH-U",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_parachute_run",
+    "exercise_name": {
+      "en": "Parachute Run",
+      "nl": "Parachute Run"
+    },
+    "aliases": [
+      "Parachute Run"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Speed",
+      "nl": "Cardio / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Doe the heupriem/harnas to (indien aanwezig) or selecteer the parachute-stand.",
+        "Ren so hard mogelijk tegen the toenemende luchtweerstand in.",
+        "Hoe harder your rent, hoe zwaarder the wordt."
+      ],
+      "nl": [
+        "Doe de heupriem/harnas om (indien aanwezig) of selecteer de parachute-stand.",
+        "Ren zo hard mogelijk tegen de toenemende luchtweerstand in.",
+        "Hoe harder je rent, hoe zwaarder het wordt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dJhUohKGhkA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_backward_walk",
+    "exercise_name": {
+      "en": "Backward Walk (Achteruit Lopen)",
+      "nl": "Backward Walk (Achteruit Lopen)"
+    },
+    "aliases": [
+      "Achteruit Lopen",
+      "Backward Walk",
+      "Backward Walk Achteruit Lopen"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Rotate your to and walk achteruit on the resistance band.",
+        "Keep eventueel the reling vast for balans.",
+        "Zet the resistance on a gemiddeld niveau.",
+        "Goed for knee-stabiliteit and quadriceps."
+      ],
+      "nl": [
+        "Draai je om en loop achteruit op de band.",
+        "Houd eventueel de reling vast voor balans.",
+        "Zet de weerstand op een gemiddeld niveau.",
+        "Goed voor knie-stabiliteit en quadriceps."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "cardio_equipment_skierg_double_pole"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "x19d9ArkhDc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_lateral_shuffle",
+    "exercise_name": {
+      "en": "Lateral Shuffle (Zijwaarts)",
+      "nl": "Lateral Shuffle (Zijwaarts)"
+    },
+    "aliases": [
+      "Lateral Shuffle",
+      "Lateral Shuffle Zijwaarts",
+      "Zijwaarts"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Agility",
+      "nl": "Cardio / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Ga laterally on the resistance band staan.",
+        "Blijf laag in your hips (squat posture) and shuffle laterally zonder your feet to kruisen.",
+        "Wissel na a tijdje of kant."
+      ],
+      "nl": [
+        "Ga zijwaarts op de band staan.",
+        "Blijf laag in je heupen (squat houding) en shuffle zijwaarts zonder je voeten te kruisen.",
+        "Wissel na een tijdje van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JzLyPUEKhBc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_rower_basic_stroke",
+    "exercise_name": {
+      "en": "Rowing (Basis Techniek)",
+      "nl": "Rowing (Basis Techniek)"
+    },
+    "aliases": [
+      "Basis Techniek",
+      "Rowing",
+      "Rowing Basis Techniek"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Full Body Cardio",
+      "nl": "Cardio / Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Volgorde is legs-back-arms.",
+        "Push out your legs, leun iets backward and pull the hendel to your chest.",
+        "Terugweg: arms strekken, back forward, legs buigen."
+      ],
+      "nl": [
+        "Volgorde is Benen-Rug-Armen.",
+        "Duw uit je benen, leun iets naar achteren en trek de hendel naar je borst.",
+        "Terugweg: Armen strekken, rug naar voren, benen buigen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "cardio_equipment_skierg_double_pole"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "4zWu1yuJ0_g",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_rower_power_sprints",
+    "exercise_name": {
+      "en": "Power Sprints (100m)",
+      "nl": "Power Sprints (100m)"
+    },
+    "aliases": [
+      "100m",
+      "Power Sprints",
+      "Power Sprints 100m"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & HIIT",
+      "nl": "Cardio / HIIT"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Zet the resistance hoog.",
+        "Maak korte, explosieve slagen with maximale kracht.",
+        "Focus on a extreem harde afzet with the legs.",
+        "Probeer 100 meter so quickly mogelijk to roeien."
+      ],
+      "nl": [
+        "Zet de weerstand hoog.",
+        "Maak korte, explosieve slagen met maximale kracht.",
+        "Focus op een extreem harde afzet met de benen.",
+        "Probeer 100 meter zo snel mogelijk te roeien."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "6T66NKGAi3E",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_airbike_sprint",
+    "exercise_name": {
+      "en": "Airbike Sprint",
+      "nl": "Airbike Sprint"
+    },
+    "aliases": [
+      "Airbike Sprint"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & HIIT",
+      "nl": "Cardio / HIIT"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Gebruik zowel your arms as your legs.",
+        "Push and pull powerfully at the handvatten while your fietst.",
+        "Probeer a bepaald aantal calorieën or seconden (bijv.",
+        "20 sec) maximaal to gaan."
+      ],
+      "nl": [
+        "Gebruik zowel je armen als je benen.",
+        "Duw en trek krachtig aan de handvatten terwijl je fietst.",
+        "Probeer een bepaald aantal calorieën of seconden (bijv.",
+        "20 sec) maximaal te gaan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "PHReR7tC_tw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_airbike_arms_only",
+    "exercise_name": {
+      "en": "Airbike Upper Body Only",
+      "nl": "Airbike Upper Body Only"
+    },
+    "aliases": [
+      "Airbike Upper Body Only"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Upper Body",
+      "nl": "Cardio / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Zet your feet on the steuntjes (not on the pedalen).",
+        "Gebruik alleen your arms to the ventilator in beweging to houden.",
+        "Focus on duwen and trekken vanuit your chest and back."
+      ],
+      "nl": [
+        "Zet je voeten op de steuntjes (niet op de pedalen).",
+        "Gebruik alleen je armen om de ventilator in beweging te houden.",
+        "Focus op duwen en trekken vanuit je borst en rug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Mx7IfSgzI50",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_airbike_legs_only",
+    "exercise_name": {
+      "en": "Airbike Legs Only",
+      "nl": "Airbike Legs Only"
+    },
+    "aliases": [
+      "Airbike Legs Only"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Laat the handvatten los (or leg your hands on your schoot/stuur middenin).",
+        "Fiets alleen with your legs.",
+        "This isoleert the quadriceps and haalt the hulp of the bovenlichaam weg."
+      ],
+      "nl": [
+        "Laat de handvatten los (of leg je handen op je schoot/stuur middenin).",
+        "Fiets alleen met je benen.",
+        "Dit isoleert de quadriceps en haalt de hulp van het bovenlichaam weg."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Sg3Id7Lu8XU",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_sprint",
+    "exercise_name": {
+      "en": "Curved Treadmill Sprint",
+      "nl": "Curved Treadmill Sprint"
+    },
+    "aliases": [
+      "Curved Treadmill Sprint"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Speed",
+      "nl": "Cardio / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Zet the resistance laag.",
+        "Begin to rennen; omdat the resistance band bent is, bepaal your zelf the tempo.",
+        "Ren voorop the curve to to versnellen.",
+        "Sprint voluit for 15-30 seconden."
+      ],
+      "nl": [
+        "Zet de weerstand laag.",
+        "Begin te rennen; omdat de band gebogen is, bepaal je zelf het tempo.",
+        "Ren voorop de curve om te versnellen.",
+        "Sprint voluit voor 15-30 seconden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "U_mHdPk3amw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  }
+]
