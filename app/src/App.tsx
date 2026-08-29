@@ -6,6 +6,7 @@ import type { SortOrderType } from './components/MobileAuditFilterDrawer';
 import type { AuditFilterType } from './components/AuditQueue';
 import { ContributionModal } from './components/ContributionModal';
 import { DiffModal } from './components/DiffModal';
+import { GitHubSettingsModal } from './components/GitHubSettingsModal';
 import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits } from './services/exerciseService';
 import type { Exercise, VideoMedia } from './types/exercise';
 import confetti from 'canvas-confetti';
@@ -31,6 +32,7 @@ export function App() {
   const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState<boolean>(false);
   const [isContributionModalOpen, setIsContributionModalOpen] = useState<boolean>(false);
   const [isDiffModalOpen, setIsDiffModalOpen] = useState<boolean>(false);
+  const [isTokenSettingsOpen, setIsTokenSettingsOpen] = useState<boolean>(false);
 
   // Initial Data Load
   const loadData = async () => {
@@ -226,6 +228,7 @@ export function App() {
         isLive={isLive}
         onRefresh={loadData}
         onOpenPRModal={() => setIsContributionModalOpen(true)}
+        onOpenTokenSettings={() => setIsTokenSettingsOpen(true)}
         onResetEdits={handleResetEdits}
         hasLocalEdits={hasLocalEdits}
       />
@@ -255,6 +258,7 @@ export function App() {
             onSaveEdits={handleSaveExercise}
             onOpenDiff={() => setIsDiffModalOpen(true)}
             onOpenFilterDrawer={() => setIsFilterDrawerOpen(true)}
+            onOpenTokenSettings={() => setIsTokenSettingsOpen(true)}
             onUpdateVideos={handleUpdateVideos}
             allExercises={exercises}
           />
@@ -280,6 +284,12 @@ export function App() {
         onResetFilters={handleResetFilters}
       />
 
+      {/* GitHub Token Settings Modal */}
+      <GitHubSettingsModal
+        isOpen={isTokenSettingsOpen}
+        onClose={() => setIsTokenSettingsOpen(false)}
+      />
+
       {/* Contribution & PR Modal */}
       <ContributionModal
         isOpen={isContributionModalOpen}
@@ -299,3 +309,4 @@ export function App() {
   );
 }
 export default App;
+

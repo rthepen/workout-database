@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { X, Copy, Check, GitPullRequest, AlertCircle, ExternalLink } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { X, Copy, Check, GitPullRequest, AlertCircle, ExternalLink, Key } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
+import { getSavedGitHubToken, saveGitHubToken, submitDirectPullRequest } from '../services/githubService';
 
 interface ContributionModalProps {
   isOpen: boolean;
@@ -20,6 +21,14 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
   const [prStatus, setPrStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [prError, setPrError] = useState<string>('');
   const [prUrl, setPrUrl] = useState<string>('');
+
+  useEffect(() => {
+    if (isOpen) {
+      setGithubToken(getSavedGitHubToken());
+      setPrStatus('idle');
+      setPrError('');
+    }
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -55,102 +64,24 @@ ${currentPayload}
     return `https://github.com/rthepen/workout-database/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
   };
 
-  // Direct GitHub PR Submission
+  // Direct GitHub PR Submission using githubService
   const handleDirectPR = async () => {
     if (!githubToken.trim()) {
       alert('Please enter a GitHub Personal Access Token with repo scope.');
       return;
     }
 
+    saveGitHubToken(githubToken);
     setPrStatus('submitting');
     setPrError('');
 
-    try {
-      // Direct PR using GitHub REST API
-      const branchName = `audit-update-${Date.now()}`;
-      const repo = 'rthepen/workout-database';
+    const res = await submitDirectPullRequest(exercises, modifiedExercise, githubToken);
 
-      // 1. Get default branch SHA
-      const refRes = await fetch(`https://api.github.com/repos/${repo}/git/ref/heads/main`, {
-        headers: {
-          'Authorization': `Bearer ${githubToken}`,
-          'Accept': 'application/vnd.github+json',
-        },
-      });
-
-      if (!refRes.ok) {
-        throw new Error(`Failed to read repository ref: ${refRes.statusText}`);
-      }
-      const refData = await refRes.json();
-      const baseSha = refData.object.sha;
-
-      // 2. Create new branch
-      const branchRes = await fetch(`https://api.github.com/repos/${repo}/git/refs`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${githubToken}`,
-          'Accept': 'application/vnd.github+json',
-        },
-        body: JSON.stringify({
-          ref: `refs/heads/${branchName}`,
-          sha: baseSha,
-        }),
-      });
-
-      if (!branchRes.ok) {
-        throw new Error(`Failed to create branch: ${branchRes.statusText}`);
-      }
-
-      // 3. Update file content (all_exercises.json)
-      const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(exercises, null, 2))));
-      
-      // Get current file sha
-      const fileRes = await fetch(`https://api.github.com/repos/${repo}/contents/dist/all_exercises.json?ref=main`, {
-        headers: {
-          'Authorization': `Bearer ${githubToken}`,
-          'Accept': 'application/vnd.github+json',
-        },
-      });
-      const fileData = await fileRes.json();
-
-      await fetch(`https://api.github.com/repos/${repo}/contents/dist/all_exercises.json`, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${githubToken}`,
-          'Accept': 'application/vnd.github+json',
-        },
-        body: JSON.stringify({
-          message: `chore(data): verify and update exercise ${modifiedExercise?.id || 'dataset'}`,
-          content: contentBase64,
-          sha: fileData.sha,
-          branch: branchName,
-        }),
-      });
-
-      // 4. Open Pull Request
-      const prRes = await fetch(`https://api.github.com/repos/${repo}/pulls`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${githubToken}`,
-          'Accept': 'application/vnd.github+json',
-        },
-        body: JSON.stringify({
-          title: `data(audit): update ${modifiedExercise?.id || 'exercises'} with validated timestamps & media`,
-          head: branchName,
-          base: 'main',
-          body: `Verified and updated via the Workout Database Contributor & Audit Web App.\n\nTarget Exercise: \`${modifiedExercise?.id || 'all'}\``,
-        }),
-      });
-
-      if (!prRes.ok) {
-        throw new Error(`Failed to create PR: ${prRes.statusText}`);
-      }
-
-      const prResult = await prRes.json();
-      setPrUrl(prResult.html_url);
+    if (res.success && res.prUrl) {
+      setPrUrl(res.prUrl);
       setPrStatus('success');
-    } catch (err: any) {
-      setPrError(err.message || 'An error occurred during PR creation.');
+    } else {
+      setPrError(res.error || 'Failed to create Pull Request.');
       setPrStatus('error');
     }
   };
@@ -177,42 +108,19 @@ ${currentPayload}
           </button>
         </div>
 
-        {/* Option 1: Zero-Login GitHub Issue */}
+        {/* Option 1: Direct GitHub PR Flow (Instant when token saved) */}
         <div className="p-4 bg-slate-900/90 border border-slate-800 rounded-xl space-y-3">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-brand-400">
-              Method 1 • Zero-Login Contribution (Recommended for non-devs)
-            </span>
-            <span className="text-[11px] px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">
-              1-Click
-            </span>
-          </div>
-          <p className="text-xs text-slate-300">
-            Open a pre-filled GitHub Issue on the official repository. The schema-validated exercise payload will be automatically populated.
-          </p>
-          <a
-            href={generateIssueUrl()}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-brand-600 hover:bg-brand-500 text-white text-xs font-bold rounded-lg shadow-md shadow-brand-600/20 transition"
-          >
-            <ExternalLink className="w-4 h-4" />
-            <span>Open Pre-filled GitHub Issue</span>
-          </a>
-        </div>
-
-        {/* Option 2: Direct GitHub PR Flow */}
-        <div className="p-4 bg-slate-900/90 border border-slate-800 rounded-xl space-y-3">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-sky-400">
-              Method 2 • Direct Pull Request (Authenticated)
+            <span className="text-xs font-bold uppercase tracking-wider text-sky-400 flex items-center gap-1.5">
+              <Key className="w-3.5 h-3.5" />
+              Method 1 • Direct Automated Pull Request (Saved in Browser)
             </span>
             <span className="text-[11px] px-2 py-0.5 rounded bg-sky-500/10 text-sky-300 border border-sky-500/30">
-              Automated PR
+              Instant 1-Click
             </span>
           </div>
           <p className="text-xs text-slate-300">
-            Provide a GitHub Personal Access Token (PAT) with <code className="text-sky-300 font-mono">repo</code> scope to create a branch and open a PR automatically.
+            Provide a GitHub Personal Access Token (PAT) with <code className="text-sky-300 font-mono">repo</code> scope once. It is stored safely in your browser so you can submit PRs in 1 click without opening this menu.
           </p>
 
           <div className="space-y-2">
@@ -221,7 +129,10 @@ ${currentPayload}
                 type="password"
                 placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
                 value={githubToken}
-                onChange={(e) => setGithubToken(e.target.value)}
+                onChange={(e) => {
+                  setGithubToken(e.target.value);
+                  saveGitHubToken(e.target.value);
+                }}
                 className="flex-1 px-3 py-1.5 bg-slate-950 border border-slate-800 text-xs text-white rounded focus:outline-none focus:border-brand-500 font-mono"
               />
               <a
@@ -240,9 +151,10 @@ ${currentPayload}
               <button
                 onClick={handleDirectPR}
                 disabled={prStatus === 'submitting'}
-                className="px-4 py-1.5 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded shadow transition disabled:opacity-50"
+                className="px-4 py-1.5 bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold rounded shadow transition disabled:opacity-50 flex items-center gap-1.5"
               >
-                {prStatus === 'submitting' ? 'Creating Branch & PR...' : 'Submit Direct Pull Request'}
+                <GitPullRequest className="w-3.5 h-3.5" />
+                <span>{prStatus === 'submitting' ? 'Creating Branch & PR...' : 'Submit Direct Pull Request'}</span>
               </button>
 
               {prStatus === 'success' && (
@@ -264,6 +176,30 @@ ${currentPayload}
               </div>
             )}
           </div>
+        </div>
+
+        {/* Option 2: Zero-Login GitHub Issue */}
+        <div className="p-4 bg-slate-900/90 border border-slate-800 rounded-xl space-y-3">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold uppercase tracking-wider text-brand-400">
+              Method 2 • Zero-Login Issue Submission (Alternative)
+            </span>
+            <span className="text-[11px] px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">
+              No Token Required
+            </span>
+          </div>
+          <p className="text-xs text-slate-300">
+            Open a pre-filled GitHub Issue on the official repository without needing any personal access token.
+          </p>
+          <a
+            href={generateIssueUrl()}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold rounded-lg border border-slate-700 transition"
+          >
+            <ExternalLink className="w-4 h-4" />
+            <span>Open Pre-filled GitHub Issue</span>
+          </a>
         </div>
 
         {/* Option 3: Raw JSON Copy */}

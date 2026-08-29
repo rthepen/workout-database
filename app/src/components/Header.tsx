@@ -1,12 +1,14 @@
 import React from 'react';
-import { Database, CheckCircle2, Clock, Video, GitPullRequest, RefreshCw } from 'lucide-react';
+import { Database, CheckCircle2, Clock, Video, GitPullRequest, RefreshCw, Key } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
+import { getSavedGitHubToken } from '../services/githubService';
 
 interface HeaderProps {
   exercises: Exercise[];
   isLive: boolean;
   onRefresh: () => void;
   onOpenPRModal: () => void;
+  onOpenTokenSettings: () => void;
   onResetEdits: () => void;
   hasLocalEdits: boolean;
 }
@@ -16,6 +18,7 @@ export const Header: React.FC<HeaderProps> = ({
   isLive,
   onRefresh,
   onOpenPRModal,
+  onOpenTokenSettings,
   onResetEdits,
   hasLocalEdits,
 }) => {
@@ -27,6 +30,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   const timestampPercent = total > 0 ? Math.round((withTimestamps / total) * 100) : 0;
   const videoCoveragePercent = total > 0 ? Math.round((withVideos / total) * 100) : 0;
+  const hasToken = !!getSavedGitHubToken();
 
   return (
     <header className="sticky top-0 z-30 border-b border-slate-800 bg-[#0B0F17]/90 backdrop-blur-md px-4 lg:px-8 py-3.5">
@@ -83,6 +87,21 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Actions */}
           <div className="flex items-center gap-2 ml-auto lg:ml-2">
+            {/* GitHub Token quick setting */}
+            <button
+              onClick={onOpenTokenSettings}
+              title={hasToken ? "GitHub Token saved in browser" : "Configure GitHub Token for 1-click PRs"}
+              className={`flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg border transition ${
+                hasToken
+                  ? 'bg-emerald-950/40 text-emerald-300 border-emerald-500/40 hover:bg-emerald-900/50'
+                  : 'bg-slate-900 text-slate-400 hover:text-white border-slate-700 hover:bg-slate-800'
+              }`}
+            >
+              <Key className="w-3.5 h-3.5" />
+              <span>{hasToken ? "Token Configured" : "Set GitHub Token"}</span>
+              {hasToken && <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />}
+            </button>
+
             {hasLocalEdits && (
               <button
                 onClick={onResetEdits}

@@ -9,11 +9,16 @@ import {
   Layers, 
   Info,
   Tv,
-  BookOpen
+  BookOpen,
+  GitPullRequest,
+  ExternalLink,
+  Loader2,
+  AlertCircle
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
 import { ExerciseEditor } from './ExerciseEditor';
+import { submitDirectPullRequest, getSavedGitHubToken } from '../services/githubService';
 
 interface SingleWorkoutCardProps {
   exercise: Exercise;
@@ -25,6 +30,7 @@ interface SingleWorkoutCardProps {
   onSaveEdits: (updated: Exercise) => void;
   onOpenDiff: () => void;
   onOpenFilterDrawer: () => void;
+  onOpenTokenSettings: () => void;
   onUpdateVideos: (videos: VideoMedia[]) => void;
   allExercises: Exercise[];
 }
@@ -39,12 +45,15 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   onSaveEdits,
   onOpenDiff,
   onOpenFilterDrawer,
+  onOpenTokenSettings,
   onUpdateVideos,
   allExercises,
 }) => {
   const [isEditing, setIsEditing] = useState<boolean>(false);
-  // Default to Video tab as requested
   const [activeTab, setActiveTab] = useState<'video' | 'overview' | 'instructions'>('video');
+  const [prLoading, setPrLoading] = useState<boolean>(false);
+  const [prSuccessUrl, setPrSuccessUrl] = useState<string | null>(null);
+  const [prError, setPrError] = useState<string | null>(null);
 
   const videoCount = exercise.media?.videos?.length || 0;
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
@@ -53,49 +62,116 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
     onApprove(exercise);
   };
 
+  const handleDirect1ClickPR = async () => {
+    const token = getSavedGitHubToken();
+    if (!token) {
+      onOpenTokenSettings();
+      return;
+    }
+
+    setPrLoading(true);
+    setPrError(null);
+    setPrSuccessUrl(null);
+
+    const result = await submitDirectPullRequest(allExercises, exercise);
+    setPrLoading(false);
+
+    if (result.success && result.prUrl) {
+      setPrSuccessUrl(result.prUrl);
+      onApprove(exercise);
+    } else {
+      setPrError(result.error || 'Failed to submit Pull Request.');
+    }
+  };
+
   return (
-    <div className="flex flex-col h-full max-w-4xl mx-auto space-y-4 pb-20 sm:pb-6">
-      {/* Top Pagination Bar & Audit Filter Trigger */}
-      <div className="flex items-center justify-between bg-slate-900/90 border border-slate-800 rounded-2xl p-3 shadow-lg">
-        {/* Previous Button */}
-        <button
-          onClick={onPrev}
-          disabled={currentIndex === 0}
-          className="p-2 bg-slate-800 hover:bg-slate-700 disabled:opacity-30 text-white rounded-xl flex items-center gap-1 text-xs font-semibold transition"
-          title="Previous Exercise"
-        >
-          <ChevronLeft className="w-4 h-4" />
-          <span className="hidden sm:inline">Previous</span>
-        </button>
-
-        {/* Counter Badge & Filter Menu button */}
-        <div className="flex items-center gap-2">
-          <div className="text-center">
-            <div className="text-[11px] font-mono text-brand-400 font-bold">
-              Exercise {currentIndex + 1} / {totalExercises}
-            </div>
-            <div className="text-[10px] text-slate-500 font-mono">{exercise.id}</div>
+    <div className="max-w-4xl mx-auto space-y-4">
+      {/* Direct PR Success or Error Toast Banner */}
+      {prSuccessUrl && (
+        <div className="p-3.5 bg-emerald-950/90 border border-emerald-500/50 rounded-2xl flex items-center justify-between gap-3 text-xs text-emerald-200 shadow-xl animate-in fade-in">
+          <div className="flex items-center gap-2 font-medium">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+            <span>Pull Request created successfully on GitHub!</span>
           </div>
+          <div className="flex items-center gap-2">
+            <a
+              href={prSuccessUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg flex items-center gap-1 shadow transition"
+            >
+              <span>View PR on GitHub</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
+            <button
+              onClick={() => setPrSuccessUrl(null)}
+              className="text-emerald-400 hover:text-white px-2 py-1"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
 
+      {prError && (
+        <div className="p-3.5 bg-rose-950/90 border border-rose-500/50 rounded-2xl flex items-center justify-between gap-3 text-xs text-rose-200 shadow-xl animate-in fade-in">
+          <div className="flex items-center gap-2 font-medium">
+            <AlertCircle className="w-4 h-4 text-rose-400" />
+            <span>{prError}</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={onOpenTokenSettings}
+              className="px-2.5 py-1 bg-rose-800 hover:bg-rose-700 text-white rounded-lg font-semibold"
+            >
+              Update Token
+            </button>
+            <button
+              onClick={() => setPrError(null)}
+              className="text-rose-400 hover:text-white px-2 py-1"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Navigation & Progress Bar */}
+      <div className="flex items-center justify-between bg-slate-900/80 border border-slate-800/80 rounded-2xl px-4 py-2.5 shadow-sm">
+        <div className="flex items-center gap-2">
           <button
             onClick={onOpenFilterDrawer}
-            className="p-2 bg-slate-800 hover:bg-slate-700 text-brand-400 border border-brand-500/30 rounded-xl flex items-center gap-1.5 text-xs font-bold transition ml-2 shadow-sm"
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold rounded-xl border border-slate-700/80 transition"
           >
-            <SlidersHorizontal className="w-3.5 h-3.5" />
-            <span>Filter & Queue</span>
+            <SlidersHorizontal className="w-3.5 h-3.5 text-brand-400" />
+            <span>Filter Queue</span>
           </button>
+          <span className="text-xs font-mono text-slate-400 hidden sm:inline">
+            Exercise {currentIndex + 1} of {totalExercises}
+          </span>
         </div>
 
-        {/* Next Button */}
-        <button
-          onClick={onNext}
-          disabled={currentIndex === totalExercises - 1}
-          className="p-2 bg-slate-800 hover:bg-slate-700 disabled:opacity-30 text-white rounded-xl flex items-center gap-1 text-xs font-semibold transition"
-          title="Next Exercise"
-        >
-          <span className="hidden sm:inline">Next</span>
-          <ChevronRight className="w-4 h-4" />
-        </button>
+        <div className="flex items-center gap-1.5">
+          <button
+            onClick={onPrev}
+            disabled={currentIndex === 0}
+            className="p-2 bg-slate-800 hover:bg-slate-700 text-slate-200 disabled:opacity-30 rounded-xl border border-slate-700/80 transition"
+            title="Previous Workout"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+          <span className="text-xs font-mono font-bold text-white px-2 sm:hidden">
+            {currentIndex + 1}/{totalExercises}
+          </span>
+          <button
+            onClick={onNext}
+            disabled={currentIndex >= totalExercises - 1}
+            className="p-2 bg-slate-800 hover:bg-slate-700 text-slate-200 disabled:opacity-30 rounded-xl border border-slate-700/80 transition"
+            title="Next Workout"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
       </div>
 
       {/* Mode View: Standard Review or Full Inline Editor */}
@@ -180,36 +256,38 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
               </div>
             </div>
 
-            {/* Tab Switcher - VIDEO TAB FIRST */}
-            <div className="flex border-b border-slate-800 text-xs font-semibold mt-4 space-x-2">
+            {/* Navigation Tabs */}
+            <div className="flex items-center gap-1.5 mt-4 pt-3 border-t border-slate-800/60 text-xs font-semibold">
               <button
                 onClick={() => setActiveTab('video')}
-                className={`pb-2 px-3 border-b-2 flex items-center gap-1.5 transition ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition ${
                   activeTab === 'video'
-                    ? 'border-brand-500 text-brand-400'
-                    : 'border-transparent text-slate-400 hover:text-white'
+                    ? 'bg-brand-600 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
                 }`}
               >
                 <Tv className="w-3.5 h-3.5" />
                 <span>Video & Timestamps</span>
               </button>
+
               <button
                 onClick={() => setActiveTab('overview')}
-                className={`pb-2 px-3 border-b-2 flex items-center gap-1.5 transition ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition ${
                   activeTab === 'overview'
-                    ? 'border-brand-500 text-brand-400'
-                    : 'border-transparent text-slate-400 hover:text-white'
+                    ? 'bg-brand-600 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
                 }`}
               >
                 <Info className="w-3.5 h-3.5" />
                 <span>Overview & Anatomy</span>
               </button>
+
               <button
                 onClick={() => setActiveTab('instructions')}
-                className={`pb-2 px-3 border-b-2 flex items-center gap-1.5 transition ${
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition ${
                   activeTab === 'instructions'
-                    ? 'border-brand-500 text-brand-400'
-                    : 'border-transparent text-slate-400 hover:text-white'
+                    ? 'bg-brand-600 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
                 }`}
               >
                 <BookOpen className="w-3.5 h-3.5" />
@@ -218,85 +296,71 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
             </div>
           </div>
 
-          {/* Card Body by Selected Tab */}
-          <div className="p-4 sm:p-5 pt-0 space-y-5">
-            {/* TAB 1: Video & Timestamps (FIRST) */}
-            {activeTab === 'video' && (
-              <div className="space-y-4">
-                <VideoInspector
-                  exercise={exercise}
-                  onUpdateVideos={onUpdateVideos}
-                />
-              </div>
-            )}
-
-            {/* TAB 2: Overview & Anatomy */}
-            {activeTab === 'overview' && (
-              <div className="space-y-4">
-                {/* Target Muscles */}
-                <div className="space-y-2">
-                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
-                    <Layers className="w-3.5 h-3.5 text-brand-400" />
+          {/* Tab Content Display */}
+          <div className="p-4 sm:p-5 pt-0">
+            {activeTab === 'video' ? (
+              <VideoInspector
+                exercise={exercise}
+                onUpdateVideos={onUpdateVideos}
+              />
+            ) : activeTab === 'overview' ? (
+              <div className="space-y-4 text-xs">
+                {/* Muscles targeted */}
+                <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 space-y-3">
+                  <div className="flex items-center gap-2 text-white font-bold text-sm">
+                    <Layers className="w-4 h-4 text-brand-400" />
                     <span>Target Muscles</span>
-                  </h3>
-                  <div className="flex flex-wrap gap-1.5">
-                    {exercise.target_muscles?.primary?.map((m) => (
-                      <span
-                        key={m}
-                        className="px-2.5 py-1 bg-brand-950 text-brand-300 rounded-lg border border-brand-700/60 text-xs font-semibold capitalize"
-                      >
-                        {m.replace(/_/g, ' ')} (Primary)
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div>
+                      <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
+                        Primary Muscles
                       </span>
-                    ))}
-                    {exercise.target_muscles?.secondary?.map((m) => (
-                      <span
-                        key={m}
-                        className="px-2.5 py-1 bg-slate-800 text-slate-300 rounded-lg border border-slate-700 text-xs capitalize"
-                      >
-                        {m.replace(/_/g, ' ')} (Secondary)
+                      <div className="flex flex-wrap gap-1.5">
+                        {exercise.target_muscles?.primary?.map(m => (
+                          <span key={m} className="px-2 py-0.5 rounded bg-brand-950 text-brand-300 border border-brand-800 font-mono">
+                            {m.replace(/_/g, ' ')}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div>
+                      <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
+                        Secondary Muscles
                       </span>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Attributes Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2 text-xs">
-                  <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
-                    <div className="text-slate-500 text-[10px] uppercase font-bold">Mechanics</div>
-                    <div className="font-semibold text-white capitalize mt-0.5">{exercise.attributes?.mechanics}</div>
-                  </div>
-                  <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
-                    <div className="text-slate-500 text-[10px] uppercase font-bold">Force Type</div>
-                    <div className="font-semibold text-white capitalize mt-0.5">{exercise.attributes?.force_type}</div>
-                  </div>
-                  <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
-                    <div className="text-slate-500 text-[10px] uppercase font-bold">Tracking Mode</div>
-                    <div className="font-semibold text-white capitalize mt-0.5">{exercise.attributes?.tracking_type?.replace(/_/g, ' ')}</div>
-                  </div>
-                  <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
-                    <div className="text-slate-500 text-[10px] uppercase font-bold">Last Updated</div>
-                    <div className="font-mono text-brand-400 mt-0.5">{exercise.meta?.updated_at}</div>
-                  </div>
-                </div>
-
-                {/* Aliases */}
-                {exercise.aliases && exercise.aliases.length > 0 && (
-                  <div className="space-y-1.5 pt-2">
-                    <div className="text-xs font-bold text-slate-400">Search Aliases:</div>
-                    <div className="flex flex-wrap gap-1">
-                      {exercise.aliases.map((a, i) => (
-                        <span key={i} className="px-2 py-0.5 bg-slate-900 text-slate-400 rounded text-[11px]">
-                          {a}
-                        </span>
-                      ))}
+                      <div className="flex flex-wrap gap-1.5">
+                        {exercise.target_muscles?.secondary?.map(m => (
+                          <span key={m} className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
+                            {m.replace(/_/g, ' ')}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                )}
-              </div>
-            )}
+                </div>
 
-            {/* TAB 3: Instructions & Cues */}
-            {activeTab === 'instructions' && (
+                {/* Attributes breakdown */}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
+                    <div className="text-[10px] uppercase text-slate-500 font-bold">Category</div>
+                    <div className="text-white font-semibold mt-0.5">{exercise.category?.en}</div>
+                  </div>
+                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
+                    <div className="text-[10px] uppercase text-slate-500 font-bold">Mechanics</div>
+                    <div className="text-white font-semibold mt-0.5">{exercise.attributes?.mechanics}</div>
+                  </div>
+                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
+                    <div className="text-[10px] uppercase text-slate-500 font-bold">Force Type</div>
+                    <div className="text-white font-semibold mt-0.5">{exercise.attributes?.force_type}</div>
+                  </div>
+                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
+                    <div className="text-[10px] uppercase text-slate-500 font-bold">Tracking</div>
+                    <div className="text-white font-semibold mt-0.5">{exercise.attributes?.tracking_type}</div>
+                  </div>
+                </div>
+              </div>
+            ) : (
               <div className="space-y-4 text-xs">
                 <div className="space-y-2">
                   <h3 className="font-bold text-white text-sm">Step-by-Step Instructions</h3>
@@ -331,14 +395,34 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
             )}
           </div>
 
-          {/* Sticky Action Bar (Approve / Edit / Next) */}
+          {/* Sticky Action Bar (Approve / Direct 1-Click PR / Edit) */}
           <div className="sticky bottom-0 z-20 p-4 bg-[#0E131F]/95 backdrop-blur-md border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
             <button
               onClick={() => setIsEditing(true)}
-              className="flex-1 sm:flex-none px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-bold text-xs rounded-xl border border-slate-700 flex items-center justify-center gap-2 transition transform active:scale-95"
+              className="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-bold text-xs rounded-xl border border-slate-700 flex items-center justify-center gap-2 transition transform active:scale-95"
             >
               <Edit3 className="w-4 h-4 text-brand-400" />
-              <span>Edit / Modify</span>
+              <span>Edit</span>
+            </button>
+
+            {/* Direct 1-Click PR Button (Bypasses Contribution Modal) */}
+            <button
+              onClick={handleDirect1ClickPR}
+              disabled={prLoading}
+              title="Instantly create a GitHub branch & open a Pull Request using your saved token"
+              className="flex-1 sm:flex-none px-5 py-3 bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-500 hover:to-blue-500 text-white font-black text-xs rounded-xl shadow-lg shadow-sky-600/25 flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-50"
+            >
+              {prLoading ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <span>Opening PR on GitHub...</span>
+                </>
+              ) : (
+                <>
+                  <GitPullRequest className="w-4 h-4" />
+                  <span>⚡ 1-Click Pull Request</span>
+                </>
+              )}
             </button>
 
             <button
