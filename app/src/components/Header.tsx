@@ -106,10 +106,12 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={() => { onOpenPRModal(); setIsMobileMenuOpen(false); }}
-              className="flex-1 py-2 text-xs text-white bg-gradient-to-r from-brand-600 to-emerald-600 rounded-lg font-bold flex items-center justify-center gap-1 shadow"
+              className={`flex-1 py-2 text-xs text-white font-bold flex items-center justify-center gap-1 shadow rounded-lg ${
+                hasToken ? 'bg-gradient-to-r from-emerald-600 to-teal-600' : 'bg-gradient-to-r from-brand-600 to-emerald-600'
+              }`}
             >
               <GitPullRequest className="w-3.5 h-3.5" />
-              <span>Export & PR</span>
+              <span>{hasToken ? '⚡ 1-Click Commit' : 'Export & PR'}</span>
             </button>
           </div>
         </div>
@@ -204,10 +206,14 @@ export const Header: React.FC<HeaderProps> = ({
 
             <button
               onClick={onOpenPRModal}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 text-white font-medium bg-gradient-to-r from-brand-600 to-emerald-600 hover:from-brand-500 hover:to-emerald-500 rounded-lg shadow-md shadow-brand-600/20 border border-brand-400/30 transition transform active:scale-95"
+              className={`flex items-center gap-1.5 px-3.5 py-1.5 text-white font-semibold rounded-lg shadow-md transition transform active:scale-95 ${
+                hasToken 
+                  ? 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 border border-emerald-400/40 shadow-emerald-600/20'
+                  : 'bg-gradient-to-r from-brand-600 to-emerald-600 hover:from-brand-500 hover:to-emerald-500 border border-brand-400/30 shadow-brand-600/20'
+              }`}
             >
               <GitPullRequest className="w-3.5 h-3.5" />
-              <span>Export & PR</span>
+              <span>{hasToken ? '⚡ 1-Click Commit' : 'Export & PR'}</span>
             </button>
           </div>
         </div>

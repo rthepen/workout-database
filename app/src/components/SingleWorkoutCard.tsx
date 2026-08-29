@@ -62,6 +62,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
 
   const videoCount = exercise.media?.videos?.length || 0;
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
+  const hasToken = !!getSavedGitHubToken();
 
   const handleCopyTitle = () => {
     const materialName = exercise.material?.name?.en || '';
@@ -509,22 +510,27 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 <span>Edit</span>
               </button>
 
-              {/* Direct 1-Click PR Button (Bypasses Contribution Modal) */}
+              {/* Direct 1-Click Commit Button (Commits directly to main branch when token is configured) */}
               <button
                 onClick={handleDirect1ClickPR}
                 disabled={prLoading}
-                title="Instantly create a GitHub branch & open a Pull Request using your saved token"
-                className="flex-1 sm:flex-none px-4 sm:px-5 py-2.5 sm:py-3 bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-500 hover:to-blue-500 text-white font-black text-xs rounded-xl shadow-lg shadow-sky-600/25 flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap"
+                title={hasToken ? "Instantly commit changes directly to the main branch" : "Configure GitHub Token to commit directly"}
+                className={`flex-1 sm:flex-none px-4 sm:px-5 py-2.5 sm:py-3 text-white font-black text-xs rounded-xl shadow-lg flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap ${
+                  hasToken
+                    ? 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/25 ring-1 ring-emerald-400/40'
+                    : 'bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-500 hover:to-blue-500 shadow-sky-600/25'
+                }`}
               >
                 {prLoading ? (
                   <>
                     <Loader2 className="w-4 h-4 animate-spin" />
-                    <span>Opening PR...</span>
+                    <span>{hasToken ? 'Committing to main...' : 'Opening PR...'}</span>
                   </>
                 ) : (
                   <>
                     <GitPullRequest className="w-4 h-4" />
-                    <span>⚡ 1-Click PR</span>
+                    <span>{hasToken ? '⚡ 1-Click Commit' : '🔑 Set Token & Commit'}</span>
+                    {hasToken && <span className="w-2 h-2 rounded-full bg-emerald-300 animate-pulse ml-0.5" />}
                   </>
                 )}
               </button>
