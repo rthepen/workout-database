@@ -234,7 +234,7 @@ export function App() {
       />
 
       {/* Main Single Workout View (Responsive Mobile & Desktop) */}
-      <main className="flex-1 p-3 sm:p-6 overflow-y-auto">
+      <main className="flex-1 p-3 sm:p-6 pb-24 overflow-y-auto">
         {filteredAndSortedExercises.length === 0 ? (
           <div className="max-w-md mx-auto my-12 p-8 text-center bg-slate-900 border border-slate-800 rounded-2xl space-y-4">
             <Filter className="w-10 h-10 text-slate-600 mx-auto" />

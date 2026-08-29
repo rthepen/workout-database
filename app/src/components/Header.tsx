@@ -41,10 +41,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-500 to-emerald-700 flex items-center justify-center shadow-md shadow-brand-500/20 ring-1 ring-white/20">
             <Database className="w-4 h-4 text-white" />
           </div>
-          <div>
-            <h1 className="font-bold text-sm text-white tracking-tight leading-none">Workout Database</h1>
-            <span className="text-[10px] text-slate-400 font-mono">rthepen/workout-database</span>
-          </div>
+          <h1 className="font-bold text-sm text-white tracking-tight leading-none">Workout Database</h1>
         </div>
 
         <div className="flex items-center gap-1.5">

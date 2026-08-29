@@ -15,7 +15,8 @@ import {
   AlertCircle,
   Copy,
   Check,
-  Star
+  Star,
+  Tv as YoutubeIcon
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
@@ -66,6 +67,12 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
     navigator.clipboard.writeText(titleToCopy);
     setCopiedTitle(true);
     setTimeout(() => setCopiedTitle(false), 2000);
+  };
+
+  const handleSearchYouTube = () => {
+    const titleToSearch = exercise.exercise_name?.en || exercise.id;
+    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(titleToSearch + ' exercise tutorial')}`;
+    window.open(searchUrl, '_blank');
   };
 
   const handleSetRating = (rating: number) => {
@@ -264,28 +271,40 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                   </div>
                 </div>
 
-                {/* Workout Title & Copy Button */}
-                <div className="flex items-center gap-2">
+                {/* Workout Title & Copy / Search Buttons */}
+                <div className="flex flex-wrap items-center gap-2">
                   <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
                     {exercise.exercise_name?.en}
                   </h1>
-                  <button
-                    onClick={handleCopyTitle}
-                    className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-lg border border-slate-700 text-xs flex items-center gap-1 transition shadow-sm"
-                    title="Copy workout name to clipboard for YouTube search"
-                  >
-                    {copiedTitle ? (
-                      <>
-                        <Check className="w-3.5 h-3.5 text-emerald-400" />
-                        <span className="text-emerald-400 font-semibold text-[11px]">Copied!</span>
-                      </>
-                    ) : (
-                      <>
-                        <Copy className="w-3.5 h-3.5 text-slate-400" />
-                        <span className="text-[11px] text-slate-300">Copy Name</span>
-                      </>
-                    )}
-                  </button>
+                  <div className="flex items-center gap-1.5">
+                    <button
+                      onClick={handleCopyTitle}
+                      className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-lg border border-slate-700 text-xs flex items-center gap-1 transition shadow-sm"
+                      title="Copy workout name to clipboard"
+                    >
+                      {copiedTitle ? (
+                        <>
+                          <Check className="w-3.5 h-3.5 text-emerald-400" />
+                          <span className="text-emerald-400 font-semibold text-[11px]">Copied!</span>
+                        </>
+                      ) : (
+                        <>
+                          <Copy className="w-3.5 h-3.5 text-slate-400" />
+                          <span className="text-[11px] text-slate-300">Copy Name</span>
+                        </>
+                      )}
+                    </button>
+
+                    <button
+                      onClick={handleSearchYouTube}
+                      className="px-2.5 py-1 bg-rose-950/80 hover:bg-rose-900 text-rose-300 hover:text-white rounded-lg border border-rose-800/80 text-xs flex items-center gap-1.5 transition shadow-sm font-semibold"
+                      title="Open YouTube search with this exact exercise name"
+                    >
+                      <YoutubeIcon className="w-3.5 h-3.5 text-rose-400" />
+                      <span className="text-[11px]">Search YouTube</span>
+                      <ExternalLink className="w-3 h-3 opacity-70" />
+                    </button>
+                  </div>
                 </div>
 
                 {exercise.exercise_name?.nl && (
@@ -461,43 +480,45 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
             )}
           </div>
 
-          {/* Sticky Action Bar (Approve / Direct 1-Click PR / Edit) ALWAYS Visible */}
-          <div className="sticky bottom-0 z-30 p-3 sm:p-4 bg-[#0E131F]/95 backdrop-blur-md border-t border-slate-800 flex flex-wrap items-center justify-between gap-2.5 shadow-[0_-10px_25px_rgba(0,0,0,0.8)]">
-            <button
-              onClick={() => setIsEditing(true)}
-              className="px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-bold text-xs rounded-xl border border-slate-700 flex items-center justify-center gap-2 transition transform active:scale-95"
-            >
-              <Edit3 className="w-4 h-4 text-brand-400" />
-              <span>Edit</span>
-            </button>
+          {/* Fixed Floating Action Bar (Approve / Direct 1-Click PR / Edit) ALWAYS Floating at Screen Bottom */}
+          <div className="fixed bottom-0 left-0 right-0 z-40 p-3 sm:p-4 bg-[#0B0F17]/95 backdrop-blur-xl border-t border-slate-800 flex items-center justify-center shadow-[0_-12px_30px_rgba(0,0,0,0.9)]">
+            <div className="max-w-4xl w-full flex items-center justify-between gap-2 sm:gap-3">
+              <button
+                onClick={() => setIsEditing(true)}
+                className="px-3.5 sm:px-4 py-2.5 sm:py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-bold text-xs rounded-xl border border-slate-700 flex items-center justify-center gap-1.5 transition transform active:scale-95 whitespace-nowrap"
+              >
+                <Edit3 className="w-4 h-4 text-brand-400" />
+                <span>Edit</span>
+              </button>
 
-            {/* Direct 1-Click PR Button (Bypasses Contribution Modal) */}
-            <button
-              onClick={handleDirect1ClickPR}
-              disabled={prLoading}
-              title="Instantly create a GitHub branch & open a Pull Request using your saved token"
-              className="flex-1 sm:flex-none px-5 py-3 bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-500 hover:to-blue-500 text-white font-black text-xs rounded-xl shadow-lg shadow-sky-600/25 flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-50"
-            >
-              {prLoading ? (
-                <>
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                  <span>Opening PR on GitHub...</span>
-                </>
-              ) : (
-                <>
-                  <GitPullRequest className="w-4 h-4" />
-                  <span>⚡ 1-Click Pull Request</span>
-                </>
-              )}
-            </button>
+              {/* Direct 1-Click PR Button (Bypasses Contribution Modal) */}
+              <button
+                onClick={handleDirect1ClickPR}
+                disabled={prLoading}
+                title="Instantly create a GitHub branch & open a Pull Request using your saved token"
+                className="flex-1 sm:flex-none px-4 sm:px-5 py-2.5 sm:py-3 bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-500 hover:to-blue-500 text-white font-black text-xs rounded-xl shadow-lg shadow-sky-600/25 flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap"
+              >
+                {prLoading ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <span>Opening PR...</span>
+                  </>
+                ) : (
+                  <>
+                    <GitPullRequest className="w-4 h-4" />
+                    <span>⚡ 1-Click PR</span>
+                  </>
+                )}
+              </button>
 
-            <button
-              onClick={handleApproveAndNext}
-              className="flex-1 px-6 py-3 bg-gradient-to-r from-brand-600 via-emerald-600 to-teal-600 hover:from-brand-500 hover:to-emerald-500 text-white font-black text-sm rounded-xl shadow-lg shadow-brand-600/30 flex items-center justify-center gap-2 transition transform active:scale-95"
-            >
-              <CheckCircle2 className="w-5 h-5 text-white" />
-              <span>Approve & Next →</span>
-            </button>
+              <button
+                onClick={handleApproveAndNext}
+                className="flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-brand-600 via-emerald-600 to-teal-600 hover:from-brand-500 hover:to-emerald-500 text-white font-black text-xs sm:text-sm rounded-xl shadow-lg shadow-brand-600/30 flex items-center justify-center gap-1.5 transition transform active:scale-95 whitespace-nowrap"
+              >
+                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                <span>Approve & Next →</span>
+              </button>
+            </div>
           </div>
         </div>
       )}
