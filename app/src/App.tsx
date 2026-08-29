@@ -139,8 +139,14 @@ export function App() {
       const dateB = b.meta?.updated_at || '1970-01-01';
       
       switch (sortOrder) {
-        case 'oldest_first':
-          return dateA.localeCompare(dateB) || a.id.localeCompare(b.id);
+        case 'oldest_first': {
+          const cmpDate = dateA.localeCompare(dateB);
+          if (cmpDate !== 0) return cmpDate;
+          const vA = a.media?.videos?.length || 0;
+          const vB = b.media?.videos?.length || 0;
+          if (vA !== vB) return vA - vB;
+          return a.id.localeCompare(b.id);
+        }
         case 'newest_first':
           return dateB.localeCompare(dateA) || a.id.localeCompare(b.id);
         case 'name_asc':
