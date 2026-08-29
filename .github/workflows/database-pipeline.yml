@@ -56,7 +56,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in distribution artifacts to commit."
           else
-            git commit -m "chore(dist): auto-compile distribution files and index [skip ci]"
+            git commit -m "chore(dist): auto-compile distribution files and index [skip ci]" || echo "No changes to commit"
             git pull --rebase origin main || true
-            git push origin main
+            git push origin main || echo "Distribution already up-to-date on main."
           fi
