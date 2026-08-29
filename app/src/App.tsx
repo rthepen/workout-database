@@ -149,7 +149,7 @@ export function App() {
     }
   };
 
-  // Action: Goedkeuren & Ga direct naar de volgende
+  // Action: Approve & Advance to next workout in queue
   const handleApproveExercise = (approvedExercise: Exercise) => {
     const today = new Date().toISOString().split('T')[0];
     const updated: Exercise = {
@@ -165,7 +165,7 @@ export function App() {
     if (currentIndex < filteredAndSortedExercises.length - 1) {
       setCurrentIndex(prev => prev + 1);
     } else {
-      alert('🎉 Gefeliciteerd! Je hebt alle workouts in deze audit-selectie gecontroleerd!');
+      alert('🎉 Congratulations! You have reviewed all exercises in this audit selection!');
     }
   };
 
@@ -188,7 +188,7 @@ export function App() {
   };
 
   const handleResetEdits = () => {
-    if (confirm('Weet je zeker dat je alle lokale wijzigingen wilt wissen?')) {
+    if (confirm('Are you sure you want to discard all local modifications?')) {
       resetLocalEdits();
       setHasLocalEdits(false);
       loadData();
@@ -212,7 +212,7 @@ export function App() {
       <div className="flex items-center justify-center min-h-screen bg-[#0B0F17] text-white">
         <div className="text-center space-y-3">
           <div className="w-10 h-10 border-4 border-brand-500 border-t-transparent rounded-full animate-spin mx-auto" />
-          <p className="text-sm text-slate-400 font-medium">Laden van Workout Database...</p>
+          <p className="text-sm text-slate-400 font-medium">Loading Workout Database & Schema Engine...</p>
         </div>
       </div>
     );
@@ -235,13 +235,13 @@ export function App() {
         {filteredAndSortedExercises.length === 0 ? (
           <div className="max-w-md mx-auto my-12 p-8 text-center bg-slate-900 border border-slate-800 rounded-2xl space-y-4">
             <Filter className="w-10 h-10 text-slate-600 mx-auto" />
-            <h2 className="text-base font-bold text-white">Geen workouts gevonden</h2>
-            <p className="text-xs text-slate-400">Er zijn geen workouts die voldoen aan de huidige filtercriteria.</p>
+            <h2 className="text-base font-bold text-white">No exercises found</h2>
+            <p className="text-xs text-slate-400">There are no exercises matching your current filter criteria.</p>
             <button
               onClick={handleResetFilters}
-              className="px-4 py-2 bg-brand-600 text-white text-xs font-bold rounded-xl shadow transition"
+              className="px-4 py-2 bg-brand-600 hover:bg-brand-500 text-white text-xs font-bold rounded-xl shadow transition"
             >
-              Reset alle filters
+              Reset all filters
             </button>
           </div>
         ) : currentExercise ? (

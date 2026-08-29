@@ -63,8 +63,8 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
               <Filter className="w-4 h-4" />
             </div>
             <div>
-              <h2 className="font-bold text-sm text-white">Audit & Filter Instellingen</h2>
-              <p className="text-[11px] text-slate-400">Bepaal welke workouts in beeld komen en in welke volgorde</p>
+              <h2 className="font-bold text-sm text-white">Audit & Filter Settings</h2>
+              <p className="text-[11px] text-slate-400">Configure audit queue criteria and exercise display order</p>
             </div>
           </div>
           <button
@@ -81,7 +81,7 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
           <div className="space-y-1.5">
             <label className="text-slate-300 font-semibold flex items-center gap-1.5">
               <ShieldAlert className="w-3.5 h-3.5 text-brand-400" />
-              <span>Audit Focus Categorie</span>
+              <span>Audit Focus Category</span>
             </label>
             <div className="grid grid-cols-2 gap-2">
               <button
@@ -92,8 +92,8 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
                     : 'bg-slate-900/80 border-slate-800 text-slate-300'
                 }`}
               >
-                <div className="font-bold">Alle Workouts</div>
-                <div className="text-[10px] text-slate-400">Volledige database (630)</div>
+                <div className="font-bold">All Exercises</div>
+                <div className="text-[10px] text-slate-400">Full database (630)</div>
               </button>
 
               <button
@@ -107,7 +107,7 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
                 <div className="font-bold flex items-center gap-1">
                   <ShieldAlert className="w-3 h-3 text-amber-400" /> Needs Review
                 </div>
-                <div className="text-[10px] text-slate-400">Verouderd of onvolledig</div>
+                <div className="text-[10px] text-slate-400">Missing timestamps / cues</div>
               </button>
 
               <button
@@ -119,9 +119,9 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
                 }`}
               >
                 <div className="font-bold flex items-center gap-1">
-                  <Video className="w-3 h-3 text-rose-400" /> Zonder Video
+                  <Video className="w-3 h-3 text-rose-400" /> Missing Video
                 </div>
-                <div className="text-[10px] text-slate-400">Nog 0 demonstraties</div>
+                <div className="text-[10px] text-slate-400">0 demonstration videos</div>
               </button>
 
               <button
@@ -133,63 +133,63 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
                 }`}
               >
                 <div className="font-bold flex items-center gap-1">
-                  <Clock className="w-3 h-3 text-sky-400" /> Zonder Timestamp
+                  <Clock className="w-3 h-3 text-sky-400" /> Missing Timestamp
                 </div>
-                <div className="text-[10px] text-slate-400">Starttijd ontbreekt (0s)</div>
+                <div className="text-[10px] text-slate-400">Start time not captured (0s)</div>
               </button>
             </div>
           </div>
 
-          {/* 2. Sorteervolgorde */}
+          {/* 2. Sort Order */}
           <div className="space-y-1.5">
             <label className="text-slate-300 font-semibold flex items-center gap-1.5">
               <ArrowUpDown className="w-3.5 h-3.5 text-brand-400" />
-              <span>Volgorde van Workouts</span>
+              <span>Queue Sort Order</span>
             </label>
             <select
               value={sortOrder}
               onChange={(e) => onSortOrderChange(e.target.value as SortOrderType)}
               className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-xl px-3 py-2 text-xs font-medium focus:outline-none focus:border-brand-500"
             >
-              <option value="oldest_first">⏳ Oudste update eerst (Aanbevolen voor audit)</option>
-              <option value="newest_first">✨ Recentst bijgewerkt eerst</option>
-              <option value="name_asc">🔤 Alfabetisch op naam (A - Z)</option>
-              <option value="fewest_videos">🎬 Minste video's eerst</option>
-              <option value="difficulty">⚡ Op moeilijkheidsgraad (Beginner → Advanced)</option>
+              <option value="oldest_first">⏳ Oldest updated first (Recommended for audit)</option>
+              <option value="newest_first">✨ Most recently updated first</option>
+              <option value="name_asc">🔤 Alphabetical by name (A - Z)</option>
+              <option value="fewest_videos">🎬 Fewest videos first</option>
+              <option value="difficulty">⚡ By difficulty level (Beginner → Advanced)</option>
             </select>
           </div>
 
-          {/* 3. Materiaal / Equipment */}
+          {/* 3. Material / Equipment */}
           <div className="space-y-1.5">
             <label className="text-slate-300 font-semibold flex items-center gap-1.5">
               <Dumbbell className="w-3.5 h-3.5 text-brand-400" />
-              <span>Materiaal / Equipment ({materials.length})</span>
+              <span>Equipment & Material ({materials.length})</span>
             </label>
             <select
               value={selectedMaterial}
               onChange={(e) => onMaterialChange(e.target.value)}
               className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-brand-500"
             >
-              <option value="all">Alle materialen</option>
+              <option value="all">All equipment</option>
               {materials.map(m => (
                 <option key={m} value={m}>{m.replace(/_/g, ' ')}</option>
               ))}
             </select>
           </div>
 
-          {/* 4. Doelspier & Moeilijkheidsgraad */}
+          {/* 4. Target Muscle & Difficulty Level */}
           <div className="grid grid-cols-2 gap-2">
             <div className="space-y-1.5">
               <label className="text-slate-300 font-semibold flex items-center gap-1.5">
                 <Layers className="w-3.5 h-3.5 text-brand-400" />
-                <span>Spiergroep</span>
+                <span>Target Muscle</span>
               </label>
               <select
                 value={selectedMuscle}
                 onChange={(e) => onMuscleChange(e.target.value)}
                 className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-xl px-2.5 py-2 text-xs focus:outline-none focus:border-brand-500"
               >
-                <option value="all">Alle spieren</option>
+                <option value="all">All muscles</option>
                 {ANATOMICAL_MUSCLES.map(m => (
                   <option key={m} value={m}>{m.replace(/_/g, ' ')}</option>
                 ))}
@@ -199,14 +199,14 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
             <div className="space-y-1.5">
               <label className="text-slate-300 font-semibold flex items-center gap-1.5">
                 <ListOrdered className="w-3.5 h-3.5 text-brand-400" />
-                <span>Niveau</span>
+                <span>Difficulty Level</span>
               </label>
               <select
                 value={selectedDifficulty}
                 onChange={(e) => onDifficultyChange(e.target.value)}
                 className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-xl px-2.5 py-2 text-xs focus:outline-none focus:border-brand-500"
               >
-                <option value="all">Alle niveaus</option>
+                <option value="all">All levels</option>
                 <option value="beginner">Beginner</option>
                 <option value="intermediate">Intermediate</option>
                 <option value="advanced">Advanced</option>
@@ -229,7 +229,7 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
             onClick={onClose}
             className="flex-1 py-2.5 bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs rounded-xl shadow-lg shadow-brand-600/30 transition text-center"
           >
-            Bekijk {totalFilteredCount} Workouts
+            View {totalFilteredCount} Exercises
           </button>
         </div>
       </div>
