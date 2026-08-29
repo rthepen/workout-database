@@ -37,7 +37,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 1
     },
     "instructions": {
       "en": [
@@ -76,8 +77,7 @@
           "type": "standard",
           "priority": 1,
           "language": "en",
-          "start_seconds": 52,
-          "thumbnail_seconds": 69
+          "start_seconds": 50
         }
       ]
     },
@@ -1415,7 +1415,15 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "oOGhcHmJvW4",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -1578,7 +1586,15 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "X4borDKF1Pw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -2004,7 +2020,15 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "qzrDnjnk6N8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -2256,7 +2280,15 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "mMjN9BPUbCk",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -2417,7 +2449,15 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "vrnEN4mZl-0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -2596,7 +2636,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T17:23:00Z"
+      "updated_at": "2026-08-29"
     }
   },
   {
