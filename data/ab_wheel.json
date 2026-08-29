@@ -1117,7 +1117,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 1
     },
     "instructions": {
       "en": [
@@ -1156,8 +1157,7 @@
           "type": "standard",
           "priority": 1,
           "language": "en",
-          "start_seconds": 52,
-          "thumbnail_seconds": 69
+          "start_seconds": 50
         }
       ]
     },
