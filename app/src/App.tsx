@@ -7,6 +7,7 @@ import type { AuditFilterType } from './components/AuditQueue';
 import { ContributionModal } from './components/ContributionModal';
 import { DiffModal } from './components/DiffModal';
 import { GitHubSettingsModal } from './components/GitHubSettingsModal';
+import { AddNewExerciseModal } from './components/AddNewExerciseModal';
 import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits } from './services/exerciseService';
 import type { Exercise, VideoMedia } from './types/exercise';
 import confetti from 'canvas-confetti';
@@ -34,6 +35,7 @@ export function App() {
   const [isContributionModalOpen, setIsContributionModalOpen] = useState<boolean>(false);
   const [isDiffModalOpen, setIsDiffModalOpen] = useState<boolean>(false);
   const [isTokenSettingsOpen, setIsTokenSettingsOpen] = useState<boolean>(false);
+  const [isAddExerciseModalOpen, setIsAddExerciseModalOpen] = useState<boolean>(false);
 
   // Initial Data Load
   const loadData = async () => {
@@ -55,6 +57,31 @@ export function App() {
   const materials = useMemo(() => {
     return Array.from(new Set(exercises.map(e => e.material?.id || 'other'))).sort();
   }, [exercises]);
+
+  const materialsList = useMemo(() => {
+    const map = new Map<string, { id: string; name: { en: string; nl: string } }>();
+    exercises.forEach(e => {
+      if (e.material?.id && !map.has(e.material.id)) {
+        map.set(e.material.id, {
+          id: e.material.id,
+          name: {
+            en: e.material.name?.en || e.material.id,
+            nl: e.material.name?.nl || e.material.name?.en || e.material.id,
+          },
+        });
+      }
+    });
+    return Array.from(map.values()).sort((a, b) => a.name.en.localeCompare(b.name.en));
+  }, [exercises]);
+
+  const handleAddNewExercise = (newEx: Exercise) => {
+    const updatedList = [newEx, ...exercises];
+    setExercises(updatedList);
+    saveExercisesToLocal(updatedList);
+    setHasLocalEdits(true);
+    setActiveExerciseId(newEx.id);
+    setCurrentIndex(0);
+  };
 
   // Filter & Sort Logic
   const filteredAndSortedExercises = useMemo(() => {
@@ -280,6 +307,7 @@ export function App() {
         onRefresh={loadData}
         onOpenPRModal={() => setIsContributionModalOpen(true)}
         onOpenTokenSettings={() => setIsTokenSettingsOpen(true)}
+        onOpenAddExerciseModal={() => setIsAddExerciseModalOpen(true)}
         onResetEdits={handleResetEdits}
         hasLocalEdits={hasLocalEdits}
       />
@@ -333,6 +361,14 @@ export function App() {
         materials={materials}
         totalFilteredCount={filteredAndSortedExercises.length}
         onResetFilters={handleResetFilters}
+      />
+
+      {/* Add New Exercise Modal */}
+      <AddNewExerciseModal
+        isOpen={isAddExerciseModalOpen}
+        onClose={() => setIsAddExerciseModalOpen(false)}
+        onAddExercise={handleAddNewExercise}
+        materialsList={materialsList}
       />
 
       {/* GitHub Token Settings Modal */}
