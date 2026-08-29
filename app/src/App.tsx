@@ -175,7 +175,7 @@ export function App() {
 
   // Action: Approve & Advance to next workout in queue
   const handleApproveExercise = (approvedExercise: Exercise) => {
-    const today = new Date().toISOString().split('T')[0];
+    const today = new Date().toISOString();
     const updated: Exercise = {
       ...approvedExercise,
       meta: {
@@ -224,7 +224,7 @@ export function App() {
   // Video updates from Inspector
   const handleUpdateVideos = (videos: VideoMedia[]) => {
     if (!currentExercise) return;
-    const today = new Date().toISOString().split('T')[0];
+    const today = new Date().toISOString();
     const updated: Exercise = {
       ...currentExercise,
       media: {
