@@ -16,6 +16,27 @@ An open-source, multi-language, strictly typed workout and exercise database des
 - **Multi-Video Fallback Engine**: Every exercise supports structured video links with fallback priority (`priority: 1`, `priority: 2`), duration start offsets, and format tagging (`standard` vs `short`).
 - **Anatomical & Biomechanical Indexing**: Categorized by primary/secondary standardized anatomical muscles, difficulty level, mechanics (`compound`, `isolation`, `isometric`), force types (`push`, `pull`, `isometric`, `dynamic`), and tracking modes (`reps_only`, `reps_and_weight`, `time_only`, `distance`).
 - **Automated CI/CD**: Pull request validation and automatic compilation of global distribution files upon merges to `main`.
+- **Interactive Verification & Curation Web App**: Embedded curation workspace with YouTube IFrame timestamp capture, auto tutorial discovery, schema validation, and zero-login GitHub Issue & PR export.
+
+---
+
+## 🛠️ Contributor & Verification Web App
+
+The repository includes a dedicated modern web workspace in `/app` for verifying workout entries, capturing action timestamps, and curating YouTube video tutorials.
+
+```bash
+# Launch the Curation App locally
+cd app
+npm install
+npm run dev
+```
+
+**Key Features:**
+- **Verification Audit Queue:** Priority sorting (oldest entries first) with filters for *Needs Review*, *Missing Video*, and *Missing Timestamps*.
+- **YouTube Inspector & 1-Click Timestamp Capture:** Real-time YouTube player with precise start-second capture.
+- **Tutorial Discovery:** Automated YouTube exercise demonstration suggestions.
+- **Schema-Compliant Editor:** 29 anatomical muscles picker, multilingual instruction & form cues editor, and graph relations linker.
+- **Zero-Login Export & Direct PR:** Submit single-exercise contributions via pre-filled GitHub issues or automated direct Pull Requests.
 
 ---
 
