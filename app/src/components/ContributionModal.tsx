@@ -212,18 +212,31 @@ ${currentPayload}
             </span>
           </div>
           <p className="text-xs text-slate-300">
-            Provide a GitHub Personal Access Token (PAT) with repo scope to create a branch and open a PR automatically.
+            Provide a GitHub Personal Access Token (PAT) with <code className="text-sky-300 font-mono">repo</code> scope to create a branch and open a PR automatically.
           </p>
 
           <div className="space-y-2">
-            <input
-              type="password"
-              placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
-              value={githubToken}
-              onChange={(e) => setGithubToken(e.target.value)}
-              className="w-full px-3 py-1.5 bg-slate-950 border border-slate-800 text-xs text-white rounded focus:outline-none focus:border-brand-500 font-mono"
-            />
-            <div className="flex items-center justify-between">
+            <div className="flex gap-2">
+              <input
+                type="password"
+                placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+                value={githubToken}
+                onChange={(e) => setGithubToken(e.target.value)}
+                className="flex-1 px-3 py-1.5 bg-slate-950 border border-slate-800 text-xs text-white rounded focus:outline-none focus:border-brand-500 font-mono"
+              />
+              <a
+                href="https://github.com/settings/tokens/new?description=Workout+Database+Web+App&scopes=repo"
+                target="_blank"
+                rel="noreferrer"
+                className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-sky-300 text-xs rounded border border-slate-700 flex items-center gap-1 whitespace-nowrap transition"
+                title="Create a new token on GitHub in 1 click"
+              >
+                <ExternalLink className="w-3 h-3" />
+                <span>Create Token on GitHub</span>
+              </a>
+            </div>
+
+            <div className="flex items-center justify-between pt-1">
               <button
                 onClick={handleDirectPR}
                 disabled={prStatus === 'submitting'}
