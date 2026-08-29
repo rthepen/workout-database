@@ -13,7 +13,10 @@ import {
   GitPullRequest,
   ExternalLink,
   Loader2,
-  AlertCircle
+  AlertCircle,
+  Copy,
+  Check,
+  Star
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
@@ -54,9 +57,28 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   const [prLoading, setPrLoading] = useState<boolean>(false);
   const [prSuccessUrl, setPrSuccessUrl] = useState<string | null>(null);
   const [prError, setPrError] = useState<string | null>(null);
+  const [copiedTitle, setCopiedTitle] = useState<boolean>(false);
 
   const videoCount = exercise.media?.videos?.length || 0;
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
+
+  const handleCopyTitle = () => {
+    const titleToCopy = exercise.exercise_name?.en || exercise.id;
+    navigator.clipboard.writeText(titleToCopy);
+    setCopiedTitle(true);
+    setTimeout(() => setCopiedTitle(false), 2000);
+  };
+
+  const handleSetRating = (rating: number) => {
+    const updated: Exercise = {
+      ...exercise,
+      attributes: {
+        ...exercise.attributes,
+        rating,
+      },
+    };
+    onSaveEdits(updated);
+  };
 
   const handleApproveAndNext = () => {
     onApprove(exercise);
@@ -207,7 +229,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
           <div className="p-4 sm:p-5 border-b border-slate-800/80 bg-gradient-to-r from-slate-900/90 to-[#111827]">
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
               <div>
-                <div className="flex items-center gap-2 mb-1">
+                <div className="flex flex-wrap items-center gap-2 mb-1.5">
                   <span className="text-[11px] font-mono text-brand-400 bg-brand-950/80 px-2 py-0.5 rounded border border-brand-800/80">
                     {exercise.material?.name?.en || exercise.material?.id}
                   </span>
@@ -220,13 +242,55 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                   }`}>
                     {exercise.attributes?.difficulty}
                   </span>
+
+                  {/* 5-Star Rating Assessment Component */}
+                  <div className="flex items-center gap-1 bg-slate-900/90 px-2 py-0.5 rounded-lg border border-slate-800 ml-auto sm:ml-2">
+                    <span className="text-[10px] text-slate-400 font-semibold mr-0.5">Rating:</span>
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <button
+                        key={star}
+                        onClick={() => handleSetRating(star)}
+                        className="p-0.5 hover:scale-110 transition focus:outline-none"
+                        title={`Set rating: ${star} star${star > 1 ? 's' : ''}`}
+                      >
+                        <Star
+                          className={`w-3.5 h-3.5 ${
+                            star <= (exercise.attributes?.rating || 0)
+                              ? 'text-amber-400 fill-amber-400'
+                              : 'text-slate-600 hover:text-amber-300'
+                          }`}
+                        />
+                      </button>
+                    ))}
+                  </div>
                 </div>
 
-                <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-                  {exercise.exercise_name?.en}
-                </h1>
+                {/* Workout Title & Copy Button */}
+                <div className="flex items-center gap-2">
+                  <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
+                    {exercise.exercise_name?.en}
+                  </h1>
+                  <button
+                    onClick={handleCopyTitle}
+                    className="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-lg border border-slate-700 text-xs flex items-center gap-1 transition shadow-sm"
+                    title="Copy workout name to clipboard for YouTube search"
+                  >
+                    {copiedTitle ? (
+                      <>
+                        <Check className="w-3.5 h-3.5 text-emerald-400" />
+                        <span className="text-emerald-400 font-semibold text-[11px]">Copied!</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="w-3.5 h-3.5 text-slate-400" />
+                        <span className="text-[11px] text-slate-300">Copy Name</span>
+                      </>
+                    )}
+                  </button>
+                </div>
+
                 {exercise.exercise_name?.nl && (
-                  <div className="text-sm text-slate-400 italic font-medium">
+                  <div className="text-sm text-slate-400 italic font-medium mt-0.5">
                     {exercise.exercise_name.nl}
                   </div>
                 )}

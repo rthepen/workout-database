@@ -133,6 +133,12 @@
         "tracking_type": {
           "type": "string",
           "enum": ["reps_only", "reps_and_weight", "time_only", "distance"]
+        },
+        "rating": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "Quality assessment rating score from 1 to 5 stars."
         }
       }
     },

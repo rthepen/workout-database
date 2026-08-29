@@ -280,6 +280,7 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
     return `${m}:${s < 10 ? '0' : ''}${s}`;
   };
 
+  const activeSuggestion = suggestions.find(s => s.id === activeVideo?.youtube_id);
   const hasStartTimestamp = activeVideo?.start_seconds !== undefined && activeVideo.start_seconds > 0;
 
   return (
@@ -315,6 +316,21 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
             </div>
           )}
         </div>
+
+        {/* Video Title Header Banner */}
+        {activeVideo && (
+          <div className="p-3 bg-slate-900/90 border border-slate-800 rounded-xl space-y-1">
+            <div className="text-[10px] uppercase font-bold text-slate-400">Active Video Title & Channel</div>
+            <div className="text-sm font-bold text-white flex flex-wrap items-center gap-2">
+              <span>{activeSuggestion?.title || `${exercise.exercise_name?.en} Demonstration Video`}</span>
+              {activeSuggestion?.channelTitle && (
+                <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-normal">
+                  by {activeSuggestion.channelTitle}
+                </span>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Embedded Video Player Display */}
         {activeVideo ? (

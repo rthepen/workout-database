@@ -19,6 +19,7 @@ export interface Attributes {
   mechanics: 'compound' | 'isolation' | 'isometric';
   force_type: 'push' | 'pull' | 'isometric' | 'dynamic';
   tracking_type: 'reps_only' | 'reps_and_weight' | 'time_only' | 'distance';
+  rating?: number;
 }
 
 export interface LocalizedArray {
