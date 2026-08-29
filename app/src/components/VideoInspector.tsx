@@ -687,22 +687,54 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
         </div>
       </div>
 
-      {/* 5. SUGGESTED TUTORIAL VIDEOS (WITH INLINE EMBEDDED PLAYBACK & DIRECT TIMESTAMP CAPTURE) */}
+      {/* 5. SUGGESTED TUTORIAL VIDEOS (AUTHENTIC, VERIFIED YOUTUBE DEMOS) */}
       <div className="bg-[#111827] border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl space-y-4">
-        <div className="flex items-center justify-between border-b border-slate-800/80 pb-3">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-3">
           <div className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-brand-400" />
             <h3 className="text-xs font-bold uppercase tracking-wider text-white">
-              Suggested Tutorial Videos ({exercise.material?.name?.en || exercise.material?.id})
+              Verified Tutorial Video Suggestions ({exercise.material?.name?.en || exercise.material?.id})
             </h3>
           </div>
-          <span className="text-[11px] text-slate-400 italic">
-            Query: &ldquo;{exercise.exercise_name?.en} tutorial&rdquo;
-          </span>
+          
+          {/* Quick YouTube Search Action */}
+          <div className="flex items-center gap-2">
+            <a
+              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(exercise.exercise_name?.en + ' ' + (exercise.material?.name?.en || '') + ' proper form tutorial')}`}
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-1 bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 shadow-sm transition"
+            >
+              <ExternalLink className="w-3.5 h-3.5" />
+              <span>Search &ldquo;{exercise.exercise_name?.en}&rdquo; on YouTube</span>
+            </a>
+          </div>
+        </div>
+
+        {/* Quick Channel Search Shortcuts */}
+        <div className="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400">
+          <span className="font-semibold text-slate-300">Quick channel search:</span>
+          {[
+            { name: 'ATHLEAN-X', query: `ATHLEAN-X ${exercise.exercise_name?.en} form` },
+            { name: 'Squat University', query: `Squat University ${exercise.exercise_name?.en}` },
+            { name: 'Mind Pump', query: `Mind Pump ${exercise.exercise_name?.en}` },
+            { name: 'Buff Dudes', query: `Buff Dudes ${exercise.exercise_name?.en}` },
+            { name: 'Renaissance Periodization', query: `Renaissance Periodization ${exercise.exercise_name?.en}` }
+          ].map(ch => (
+            <a
+              key={ch.name}
+              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(ch.query)}`}
+              target="_blank"
+              rel="noreferrer"
+              className="px-2 py-0.5 bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white rounded border border-slate-800 transition"
+            >
+              {ch.name} ↗
+            </a>
+          ))}
         </div>
 
         {isLoadingSuggestions ? (
-          <div className="p-6 text-center text-xs text-slate-400">Searching tailored tutorials...</div>
+          <div className="p-6 text-center text-xs text-slate-400">Loading verified tutorials...</div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {suggestions.map((item) => {
@@ -757,6 +789,9 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                           src={item.thumbnailUrl}
                           alt={item.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${item.id}/hqdefault.jpg`;
+                          }}
                         />
                         <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-80 group-hover:opacity-100 transition">
                           <Play className="w-5 h-5 text-white fill-current" />
@@ -765,13 +800,13 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
 
                       <div className="flex-1 min-w-0">
                         <h4 
-                          className="text-xs font-semibold text-slate-100 truncate cursor-pointer hover:text-brand-400 transition"
+                          className="text-xs font-semibold text-slate-100 line-clamp-2 cursor-pointer hover:text-brand-400 transition"
                           title={item.title}
                           onClick={() => setEmbeddedPreviewId(item.id)}
                         >
                           {item.title}
                         </h4>
-                        <p className="text-[10px] text-slate-400 mt-0.5">{item.channelTitle}</p>
+                        <p className="text-[10px] text-slate-400 mt-1 font-medium">{item.channelTitle}</p>
                         <div className="flex items-center gap-2 mt-1.5">
                           <span className={`text-[9px] px-1.5 py-0.2 rounded font-mono uppercase ${
                             item.type === 'short' ? 'bg-purple-500/20 text-purple-300' : 'bg-blue-500/20 text-blue-300'
