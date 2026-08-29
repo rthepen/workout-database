@@ -63,15 +63,27 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
 
   const handleCopyTitle = () => {
-    const titleToCopy = exercise.exercise_name?.en || exercise.id;
-    navigator.clipboard.writeText(titleToCopy);
+    const materialName = exercise.material?.name?.en || '';
+    const exerciseName = exercise.exercise_name?.en || exercise.id;
+    let fullTitle = exerciseName;
+    if (materialName && !exerciseName.toLowerCase().startsWith(materialName.toLowerCase())) {
+      fullTitle = `${materialName} ${exerciseName}`;
+    }
+
+    navigator.clipboard.writeText(fullTitle);
     setCopiedTitle(true);
     setTimeout(() => setCopiedTitle(false), 2000);
   };
 
   const handleSearchYouTube = () => {
-    const titleToSearch = exercise.exercise_name?.en || exercise.id;
-    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(titleToSearch + ' exercise tutorial')}`;
+    const materialName = exercise.material?.name?.en || '';
+    const exerciseName = exercise.exercise_name?.en || exercise.id;
+    let fullQuery = exerciseName;
+    if (materialName && !exerciseName.toLowerCase().startsWith(materialName.toLowerCase())) {
+      fullQuery = `${materialName} ${exerciseName}`;
+    }
+
+    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(fullQuery + ' exercise tutorial')}`;
     window.open(searchUrl, '_blank');
   };
 
