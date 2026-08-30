@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Plus, Sparkles, Code2, FormInput, Copy, Check, AlertCircle } from 'lucide-react';
+import { X, Plus, Sparkles, Code2, Copy, Check, AlertCircle, ClipboardPaste } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
 
 interface AddNewExerciseModalProps {
@@ -15,7 +15,6 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
   onAddExercise,
   materialsList,
 }) => {
-  const [activeTab, setActiveTab] = useState<'form' | 'json'>('form');
   const [nameEn, setNameEn] = useState<string>('');
   const [nameNl, setNameNl] = useState<string>('');
   const [selectedMaterialId, setSelectedMaterialId] = useState<string>(materialsList[0]?.id || 'bodyweight');
@@ -31,6 +30,7 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
   const [rawJsonText, setRawJsonText] = useState<string>('');
   const [jsonError, setJsonError] = useState<string | null>(null);
   const [copiedJson, setCopiedJson] = useState<boolean>(false);
+  const [pastedJsonSuccess, setPastedJsonSuccess] = useState<boolean>(false);
 
   const extractYoutubeId = (urlOrId: string): string => {
     const clean = urlOrId.trim();
@@ -113,7 +113,7 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
     };
   };
 
-  // Synchronize JSON string when form updates (unless user is manually typing JSON)
+  // Synchronize JSON string when form updates
   useEffect(() => {
     if (isOpen) {
       const generated = buildExerciseFromForm();
@@ -131,7 +131,7 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
       const parsed = JSON.parse(text);
       setJsonError(null);
 
-      // Optionally sync form back if valid
+      // Sync form fields back if valid JSON object
       if (parsed.exercise_name?.en) setNameEn(parsed.exercise_name.en);
       if (parsed.exercise_name?.nl) setNameNl(parsed.exercise_name.nl);
       if (parsed.material?.id) setSelectedMaterialId(parsed.material.id);
@@ -149,23 +149,38 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
     setTimeout(() => setCopiedJson(false), 2000);
   };
 
+  const handlePasteJson = async () => {
+    try {
+      const text = await navigator.clipboard.readText();
+      if (!text.trim()) {
+        alert('Clipboard is empty.');
+        return;
+      }
+      handleRawJsonChange(text);
+      setPastedJsonSuccess(true);
+      setTimeout(() => setPastedJsonSuccess(false), 2000);
+    } catch {
+      alert('Could not read clipboard automatically. Please paste directly into the JSON field using Ctrl+V or Cmd+V.');
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     let exerciseToCreate: Exercise;
 
-    if (activeTab === 'json') {
-      try {
-        exerciseToCreate = JSON.parse(rawJsonText);
-        if (!exerciseToCreate.id || !exerciseToCreate.exercise_name?.en) {
-          alert('Invalid Exercise JSON: Missing id or exercise_name.en');
-          return;
-        }
-      } catch {
-        alert('Cannot create exercise: Invalid JSON syntax in editor.');
+    if (jsonError) {
+      alert(`Cannot create exercise due to JSON syntax error: ${jsonError}`);
+      return;
+    }
+
+    try {
+      exerciseToCreate = JSON.parse(rawJsonText);
+      if (!exerciseToCreate.id || !exerciseToCreate.exercise_name?.en) {
+        alert('Invalid Exercise JSON: Missing id or exercise_name.en');
         return;
       }
-    } else {
+    } catch {
       if (!nameEn.trim()) {
         alert('Please enter an exercise name in English.');
         return;
@@ -179,7 +194,7 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in">
-      <div className="bg-[#0E131F] border border-slate-800 rounded-3xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
+      <div className="bg-[#0E131F] border border-slate-800 rounded-3xl max-w-2xl w-full max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
         {/* Header */}
         <div className="p-4 sm:p-5 border-b border-slate-800 flex items-center justify-between bg-slate-900/60">
           <div className="flex items-center gap-3">
@@ -188,7 +203,7 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
             </div>
             <div>
               <h3 className="font-extrabold text-white text-base">Add New Exercise</h3>
-              <p className="text-xs text-slate-400">Create & edit live JSON payload for audit & commit</p>
+              <p className="text-xs text-slate-400">Fill out fields or paste/edit live JSON below</p>
             </div>
           </div>
           <button
@@ -199,207 +214,186 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
           </button>
         </div>
 
-        {/* Mode Switcher Tabs (Form Builder vs Live JSON Editor) */}
-        <div className="flex items-center justify-between px-6 pt-3 pb-1 border-b border-slate-800/80 bg-slate-950/40 text-xs">
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => setActiveTab('form')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-bold transition ${
-                activeTab === 'form'
-                  ? 'bg-brand-600 text-white shadow-sm'
-                  : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'
-              }`}
-            >
-              <FormInput className="w-3.5 h-3.5" />
-              <span>Form Builder</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setActiveTab('json')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-bold transition ${
-                activeTab === 'json'
-                  ? 'bg-brand-600 text-white shadow-sm'
-                  : 'bg-slate-900 text-slate-400 hover:text-white border border-slate-800'
-              }`}
-            >
-              <Code2 className="w-3.5 h-3.5 text-emerald-400" />
-              <span>Live JSON & Editor</span>
-            </button>
-          </div>
-
-          <div className="flex items-center gap-2">
-            {activeTab === 'json' && (
-              <button
-                type="button"
-                onClick={handleCopyJson}
-                className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] font-semibold rounded-lg border border-slate-700 flex items-center gap-1 transition"
-              >
-                {copiedJson ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
-                <span>{copiedJson ? 'Copied!' : 'Copy JSON'}</span>
-              </button>
-            )}
-            <span className="text-[10px] font-mono text-slate-500">v1.1.0 Schema</span>
-          </div>
-        </div>
-
-        {/* Modal Body */}
-        <form onSubmit={handleSubmit} className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 text-xs flex flex-col">
-          {activeTab === 'form' ? (
-            <div className="space-y-4">
-              {/* Exercise Name (EN & NL) */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-slate-300 font-bold mb-1">Exercise Name (English) *</label>
-                  <input
-                    type="text"
-                    required
-                    value={nameEn}
-                    onChange={e => setNameEn(e.target.value)}
-                    placeholder="e.g. Nordic Hamstring Curl"
-                    className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
-                  />
-                </div>
-                <div>
-                  <label className="block text-slate-300 font-bold mb-1">Exercise Name (Dutch)</label>
-                  <input
-                    type="text"
-                    value={nameNl}
-                    onChange={e => setNameNl(e.target.value)}
-                    placeholder="bijv. Nordic Hamstring Curl"
-                    className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
-                  />
-                </div>
-              </div>
-
-              {/* Material / Equipment & Category */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-slate-300 font-bold mb-1">Equipment / Material *</label>
-                  <select
-                    value={selectedMaterialId}
-                    onChange={e => setSelectedMaterialId(e.target.value)}
-                    className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
-                  >
-                    {materialsList.map(m => (
-                      <option key={m.id} value={m.id}>
-                        {m.name.en} ({m.id})
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-slate-300 font-bold mb-1">Difficulty *</label>
-                  <select
-                    value={difficulty}
-                    onChange={e => setDifficulty(e.target.value as any)}
-                    className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
-                  >
-                    <option value="beginner">Beginner</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="advanced">Advanced</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* Primary & Secondary Muscle */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-slate-300 font-bold mb-1">Primary Target Muscle</label>
-                  <select
-                    value={primaryMuscle}
-                    onChange={e => setPrimaryMuscle(e.target.value)}
-                    className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
-                  >
-                    <option value="quadriceps">Quadriceps</option>
-                    <option value="hamstrings">Hamstrings</option>
-                    <option value="gluteus_maximus">Gluteus Maximus</option>
-                    <option value="rectus_abdominis">Rectus Abdominis (Abs)</option>
-                    <option value="biceps_brachii">Biceps</option>
-                    <option value="triceps_brachii">Triceps</option>
-                    <option value="pectoralis_major">Chest (Pectoralis)</option>
-                    <option value="latissimus_dorsi">Back (Lats)</option>
-                    <option value="deltoids_anterior">Shoulders (Deltoids)</option>
-                    <option value="cardiovascular_system">Cardio System</option>
-                    <option value="calves">Calves</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-slate-300 font-bold mb-1">Secondary Target Muscle</label>
-                  <select
-                    value={secondaryMuscle}
-                    onChange={e => setSecondaryMuscle(e.target.value)}
-                    className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
-                  >
-                    <option value="">None</option>
-                    <option value="gluteus_maximus">Gluteus Maximus</option>
-                    <option value="hamstrings">Hamstrings</option>
-                    <option value="calves">Calves</option>
-                    <option value="rectus_abdominis">Abs (Core)</option>
-                    <option value="erector_spinae">Lower Back</option>
-                    <option value="triceps_brachii">Triceps</option>
-                    <option value="forearms">Forearms</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* YouTube Video Link */}
-              <div>
-                <label className="block text-slate-300 font-bold mb-1">YouTube Demonstration Video (Link or ID)</label>
-                <input
-                  type="text"
-                  value={youtubeUrl}
-                  onChange={e => setYoutubeUrl(e.target.value)}
-                  placeholder="e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-mono text-[11px]"
-                />
-              </div>
-
-              {/* Instructions */}
-              <div>
-                <label className="block text-slate-300 font-bold mb-1">Instructions (English - 1 step per line)</label>
-                <textarea
-                  rows={2}
-                  value={instructionEn}
-                  onChange={e => setInstructionEn(e.target.value)}
-                  placeholder="Step 1: Position your feet...&#10;Step 2: Lower slowly..."
-                  className="w-full px-3.5 py-2 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium resize-none"
-                />
-              </div>
-            </div>
-          ) : (
-            /* Live JSON Code & Interactive Editor */
-            <div className="flex-1 flex flex-col space-y-3">
-              <div className="flex items-center justify-between text-xs">
-                <span className="font-bold text-slate-300 flex items-center gap-1.5">
-                  <Code2 className="w-4 h-4 text-emerald-400" />
-                  Live JSON Payload Editor
-                </span>
-                {jsonError ? (
-                  <span className="text-rose-400 font-semibold flex items-center gap-1 text-[11px]">
-                    <AlertCircle className="w-3.5 h-3.5" />
-                    Invalid JSON Syntax
-                  </span>
-                ) : (
-                  <span className="text-emerald-400 font-semibold flex items-center gap-1 text-[11px]">
-                    <Check className="w-3.5 h-3.5" />
-                    Valid JSON Schema Payload 🟢
-                  </span>
-                )}
-              </div>
-
-              <textarea
-                value={rawJsonText}
-                onChange={e => handleRawJsonChange(e.target.value)}
-                rows={16}
-                className="w-full flex-1 p-3.5 bg-slate-950 border border-slate-800 rounded-xl text-emerald-400 font-mono text-[11px] leading-relaxed focus:outline-none focus:border-brand-500 shadow-inner"
+        {/* Modal Form Body */}
+        <form onSubmit={handleSubmit} className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 text-xs">
+          {/* Exercise Name (EN & NL) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">Exercise Name (English) *</label>
+              <input
+                type="text"
+                required
+                value={nameEn}
+                onChange={e => setNameEn(e.target.value)}
+                placeholder="e.g. Nordic Hamstring Curl"
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
               />
             </div>
-          )}
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">Exercise Name (Dutch)</label>
+              <input
+                type="text"
+                value={nameNl}
+                onChange={e => setNameNl(e.target.value)}
+                placeholder="bijv. Nordic Hamstring Curl"
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
+              />
+            </div>
+          </div>
 
+          {/* Material / Equipment & Category */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">Equipment / Material *</label>
+              <select
+                value={selectedMaterialId}
+                onChange={e => setSelectedMaterialId(e.target.value)}
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
+              >
+                {materialsList.map(m => (
+                  <option key={m.id} value={m.id}>
+                    {m.name.en} ({m.id})
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">Difficulty *</label>
+              <select
+                value={difficulty}
+                onChange={e => setDifficulty(e.target.value as any)}
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
+              >
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
+            </div>
+          </div>
+
+          {/* Primary & Secondary Muscle */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">Primary Target Muscle</label>
+              <select
+                value={primaryMuscle}
+                onChange={e => setPrimaryMuscle(e.target.value)}
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
+              >
+                <option value="quadriceps">Quadriceps</option>
+                <option value="hamstrings">Hamstrings</option>
+                <option value="gluteus_maximus">Gluteus Maximus</option>
+                <option value="rectus_abdominis">Rectus Abdominis (Abs)</option>
+                <option value="biceps_brachii">Biceps</option>
+                <option value="triceps_brachii">Triceps</option>
+                <option value="pectoralis_major">Chest (Pectoralis)</option>
+                <option value="latissimus_dorsi">Back (Lats)</option>
+                <option value="deltoids_anterior">Shoulders (Deltoids)</option>
+                <option value="cardiovascular_system">Cardio System</option>
+                <option value="calves">Calves</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">Secondary Target Muscle</label>
+              <select
+                value={secondaryMuscle}
+                onChange={e => setSecondaryMuscle(e.target.value)}
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium"
+              >
+                <option value="">None</option>
+                <option value="gluteus_maximus">Gluteus Maximus</option>
+                <option value="hamstrings">Hamstrings</option>
+                <option value="calves">Calves</option>
+                <option value="rectus_abdominis">Abs (Core)</option>
+                <option value="erector_spinae">Lower Back</option>
+                <option value="triceps_brachii">Triceps</option>
+                <option value="forearms">Forearms</option>
+              </select>
+            </div>
+          </div>
+
+          {/* YouTube Video Link */}
+          <div>
+            <label className="block text-slate-300 font-bold mb-1">YouTube Demonstration Video (Link or ID)</label>
+            <input
+              type="text"
+              value={youtubeUrl}
+              onChange={e => setYoutubeUrl(e.target.value)}
+              placeholder="e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-mono text-[11px]"
+            />
+          </div>
+
+          {/* Instructions */}
+          <div>
+            <label className="block text-slate-300 font-bold mb-1">Instructions (English - 1 step per line)</label>
+            <textarea
+              rows={2}
+              value={instructionEn}
+              onChange={e => setInstructionEn(e.target.value)}
+              placeholder="Step 1: Position your feet...&#10;Step 2: Lower slowly..."
+              className="w-full px-3.5 py-2 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-medium resize-none"
+            />
+          </div>
+
+          {/* Live JSON Payload Container (Stacked directly below form fields) */}
+          <div className="pt-3 border-t border-slate-800 space-y-2">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-slate-200">
+                <Code2 className="w-4 h-4 text-emerald-400" />
+                <span>Live JSON Payload (Editable & Syncs Live)</span>
+              </div>
+
+              <div className="flex items-center gap-2">
+                {/* Copy JSON Button */}
+                <button
+                  type="button"
+                  onClick={handleCopyJson}
+                  className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-[11px] font-semibold rounded-lg border border-slate-700 flex items-center gap-1 transition shadow-sm"
+                  title="Copy JSON payload to clipboard"
+                >
+                  {copiedJson ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
+                  <span>{copiedJson ? 'Copied!' : 'Copy JSON'}</span>
+                </button>
+
+                {/* Paste JSON Button */}
+                <button
+                  type="button"
+                  onClick={handlePasteJson}
+                  className="px-2.5 py-1 bg-emerald-950/80 hover:bg-emerald-900 text-emerald-300 hover:text-white text-[11px] font-semibold rounded-lg border border-emerald-800/80 flex items-center gap-1 transition shadow-sm"
+                  title="Paste JSON from clipboard into editor"
+                >
+                  {pastedJsonSuccess ? <Check className="w-3 h-3 text-emerald-400" /> : <ClipboardPaste className="w-3 h-3" />}
+                  <span>{pastedJsonSuccess ? 'Pasted!' : 'Paste JSON'}</span>
+                </button>
+              </div>
+            </div>
+
+            <textarea
+              value={rawJsonText}
+              onChange={e => handleRawJsonChange(e.target.value)}
+              rows={7}
+              className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-emerald-400 font-mono text-[11px] leading-relaxed focus:outline-none focus:border-brand-500 shadow-inner"
+              placeholder="Paste or type exercise JSON payload here..."
+            />
+
+            <div className="flex items-center justify-between text-[10px] font-mono">
+              {jsonError ? (
+                <span className="text-rose-400 font-semibold flex items-center gap-1">
+                  <AlertCircle className="w-3 h-3" /> Syntax Error: {jsonError}
+                </span>
+              ) : (
+                <span className="text-emerald-400 font-semibold flex items-center gap-1">
+                  <Check className="w-3 h-3" /> Valid JSON Payload 🟢
+                </span>
+              )}
+              <span className="text-slate-500">Schema v1.1.0</span>
+            </div>
+          </div>
+
+          {/* Modal Action Buttons */}
           <div className="pt-3 flex items-center justify-end gap-3 border-t border-slate-800">
             <button
               type="button"
