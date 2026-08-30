@@ -3,6 +3,7 @@ import { X, Copy, Check, GitPullRequest, AlertCircle, ExternalLink, Key, CheckCi
 import type { Exercise } from '../types/exercise';
 import { getSavedGitHubToken, saveGitHubToken, submitDirectPullRequest } from '../services/githubService';
 import { resetLocalEdits } from '../services/exerciseService';
+import { sendExerciseBackupToGoogleSheet } from '../services/googleSheetService';
 
 interface ContributionModalProps {
   isOpen: boolean;
@@ -63,6 +64,7 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
     const res = await submitDirectPullRequest(exercises, targetSingle, token);
 
     if (res.success && res.prUrl) {
+      sendExerciseBackupToGoogleSheet(modifiedExercises.length > 0 ? modifiedExercises : exercises);
       resetLocalEdits();
       setIsDirectCommit(!!res.isDirectCommit);
       setPrUrl(res.prUrl);

@@ -9,6 +9,7 @@ import { DiffModal } from './components/DiffModal';
 import { GitHubSettingsModal } from './components/GitHubSettingsModal';
 import { AddNewExerciseModal } from './components/AddNewExerciseModal';
 import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits } from './services/exerciseService';
+import { sendExerciseBackupToGoogleSheet } from './services/googleSheetService';
 import type { Exercise, VideoMedia } from './types/exercise';
 import confetti from 'canvas-confetti';
 import { Filter } from 'lucide-react';
@@ -197,6 +198,9 @@ export function App() {
     setExercises(updatedList);
     saveExercisesToLocal(updatedList);
     setHasLocalEdits(true);
+
+    // Fire background backup to Google Sheet
+    sendExerciseBackupToGoogleSheet(updated);
 
     // Trigger celebratory particle effect
     try {
