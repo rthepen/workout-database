@@ -165,6 +165,24 @@ const CATEGORY_TUTORIAL_REGISTRY: Record<string, YouTubeSuggestion[]> = {
       thumbnailUrl: "https://img.youtube.com/vi/Pti9UqnkbTc/hqdefault.jpg"
     }
   ],
+  agility_ladder: [
+    {
+      id: "788xG9QZ_o4",
+      title: "Agility Ladder Drills for Beginners | Footwork & Speed",
+      channelTitle: "Become Elite",
+      type: "standard",
+      duration: "4:15",
+      thumbnailUrl: "https://img.youtube.com/vi/788xG9QZ_o4/hqdefault.jpg"
+    },
+    {
+      id: "q_r8470aY2w",
+      title: "Agility Ladder Footwork Drills | Backward Run & 2-Ins",
+      channelTitle: "Perform Better",
+      type: "standard",
+      duration: "3:30",
+      thumbnailUrl: "https://img.youtube.com/vi/q_r8470aY2w/hqdefault.jpg"
+    }
+  ],
   battle_rope: [
     {
       id: "c5aYq1uD5P0",

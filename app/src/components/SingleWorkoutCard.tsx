@@ -101,8 +101,13 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
     onSaveEdits(updated);
   };
 
-  const handleApproveAndNext = () => {
-    onApprove(exercise);
+  const handleApproveAndNext = async () => {
+    const token = getSavedGitHubToken();
+    if (token) {
+      await handleDirect1ClickPR();
+    } else {
+      onApprove(exercise);
+    }
   };
 
   const handleDirect1ClickPR = async () => {
