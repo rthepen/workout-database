@@ -85,7 +85,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
       fullQuery = `${materialName} ${exerciseName}`;
     }
 
-    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(fullQuery + ' short exercise tutorial')}`;
+    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(fullQuery + ' short')}`;
     window.open(searchUrl, '_blank');
   };
 
@@ -323,10 +323,10 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                     <button
                       onClick={handleSearchYouTube}
                       className="px-2.5 py-1 bg-rose-950/80 hover:bg-rose-900 text-rose-300 hover:text-white rounded-lg border border-rose-800/80 text-xs flex items-center gap-1.5 transition shadow-sm font-semibold"
-                      title="Open YouTube search with this exact exercise name"
+                      title="Open YouTube Shorts search for this exercise"
                     >
                       <YoutubeIcon className="w-3.5 h-3.5 text-rose-400" />
-                      <span className="text-[11px]">Search YouTube</span>
+                      <span className="text-[11px]">Search YouTube Shorts</span>
                       <ExternalLink className="w-3 h-3 opacity-70" />
                     </button>
                   </div>
