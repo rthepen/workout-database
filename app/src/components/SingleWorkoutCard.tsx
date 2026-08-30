@@ -73,7 +73,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
       fullTitle = `${materialName} ${exerciseName}`;
     }
 
-    navigator.clipboard.writeText(fullTitle);
+    navigator.clipboard.writeText(`${fullTitle} short`);
     setCopiedTitle(true);
     setTimeout(() => setCopiedTitle(false), 2000);
   };
@@ -86,7 +86,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
       fullQuery = `${materialName} ${exerciseName}`;
     }
 
-    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(fullQuery + ' exercise tutorial')}`;
+    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(fullQuery + ' short exercise tutorial')}`;
     window.open(searchUrl, '_blank');
   };
 

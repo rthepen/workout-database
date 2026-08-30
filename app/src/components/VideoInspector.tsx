@@ -821,13 +821,13 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
           {/* Quick YouTube Search Action */}
           <div className="flex items-center gap-2">
             <a
-              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(exercise.exercise_name?.en + ' ' + (exercise.material?.name?.en || '') + ' proper form tutorial')}`}
+              href={`https://www.youtube.com/results?search_query=${encodeURIComponent((exercise.material?.name?.en ? exercise.material.name.en + ' ' : '') + exercise.exercise_name?.en + ' short exercise tutorial')}`}
               target="_blank"
               rel="noreferrer"
               className="px-3 py-1 bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 shadow-sm transition"
             >
               <ExternalLink className="w-3.5 h-3.5" />
-              <span>Search &ldquo;{exercise.exercise_name?.en}&rdquo; on YouTube</span>
+              <span>Search &ldquo;{exercise.exercise_name?.en}&rdquo; Shorts on YouTube</span>
             </a>
           </div>
         </div>
