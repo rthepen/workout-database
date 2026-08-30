@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Plus, Sparkles, Code2, Copy, Check, AlertCircle, ClipboardPaste } from 'lucide-react';
+import { X, Plus, Sparkles, Code2, Copy, Check, AlertCircle, ClipboardPaste, Clock, Image as ImageIcon } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
 
 interface AddNewExerciseModalProps {
@@ -24,6 +24,8 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
   const [primaryMuscle, setPrimaryMuscle] = useState<string>('quadriceps');
   const [secondaryMuscle, setSecondaryMuscle] = useState<string>('gluteus_maximus');
   const [youtubeUrl, setYoutubeUrl] = useState<string>('');
+  const [startSeconds, setStartSeconds] = useState<number>(0);
+  const [thumbnailSeconds, setThumbnailSeconds] = useState<number>(0);
   const [instructionEn, setInstructionEn] = useState<string>('');
 
   // Raw JSON editing state
@@ -99,8 +101,8 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
             type: 'standard',
             priority: 1,
             language: 'en',
-            start_seconds: 0,
-            thumbnail_seconds: 0,
+            start_seconds: startSeconds,
+            thumbnail_seconds: thumbnailSeconds,
             rating: 5,
             thumbnail_rating: 5,
           }
@@ -120,7 +122,7 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
       setRawJsonText(JSON.stringify(generated, null, 2));
       setJsonError(null);
     }
-  }, [isOpen, nameEn, nameNl, selectedMaterialId, difficulty, primaryMuscle, secondaryMuscle, youtubeUrl, instructionEn]);
+  }, [isOpen, nameEn, nameNl, selectedMaterialId, difficulty, primaryMuscle, secondaryMuscle, youtubeUrl, startSeconds, thumbnailSeconds, instructionEn]);
 
   if (!isOpen) return null;
 
@@ -138,6 +140,8 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
       if (parsed.attributes?.difficulty) setDifficulty(parsed.attributes.difficulty);
       if (parsed.target_muscles?.primary?.[0]) setPrimaryMuscle(parsed.target_muscles.primary[0]);
       if (parsed.media?.videos?.[0]?.youtube_id) setYoutubeUrl(parsed.media.videos[0].youtube_id);
+      if (parsed.media?.videos?.[0]?.start_seconds !== undefined) setStartSeconds(parsed.media.videos[0].start_seconds);
+      if (parsed.media?.videos?.[0]?.thumbnail_seconds !== undefined) setThumbnailSeconds(parsed.media.videos[0].thumbnail_seconds);
     } catch (err: any) {
       setJsonError(err.message);
     }
@@ -314,16 +318,58 @@ export const AddNewExerciseModal: React.FC<AddNewExerciseModalProps> = ({
             </div>
           </div>
 
-          {/* YouTube Video Link */}
-          <div>
-            <label className="block text-slate-300 font-bold mb-1">YouTube Demonstration Video (Link or ID)</label>
-            <input
-              type="text"
-              value={youtubeUrl}
-              onChange={e => setYoutubeUrl(e.target.value)}
-              placeholder="e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-mono text-[11px]"
-            />
+          {/* YouTube Video Link & Timestamps */}
+          <div className="space-y-3 p-3 bg-slate-950/60 border border-slate-800 rounded-2xl">
+            <div>
+              <label className="block text-slate-300 font-bold mb-1">YouTube Demonstration Video (Link or 11-char ID)</label>
+              <input
+                type="text"
+                value={youtubeUrl}
+                onChange={e => setYoutubeUrl(e.target.value)}
+                placeholder="e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                className="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-mono text-[11px]"
+              />
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label className="block text-slate-300 font-bold mb-1 flex items-center gap-1.5">
+                  <Clock className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Action Start Timestamp (<code className="text-amber-400 font-mono">start_seconds</code>)</span>
+                </label>
+                <div className="relative">
+                  <input
+                    type="number"
+                    min={0}
+                    value={startSeconds}
+                    onChange={e => setStartSeconds(Math.max(0, parseInt(e.target.value) || 0))}
+                    placeholder="0"
+                    className="w-full px-3.5 py-2 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-mono text-xs"
+                  />
+                  <span className="absolute right-3 top-2 text-[10px] text-slate-500 font-mono">seconds</span>
+                </div>
+                <p className="text-[10px] text-slate-400 mt-1">Second when action execution begins</p>
+              </div>
+
+              <div>
+                <label className="block text-slate-300 font-bold mb-1 flex items-center gap-1.5">
+                  <ImageIcon className="w-3.5 h-3.5 text-sky-400" />
+                  <span>App Thumbnail Frame (<code className="text-sky-400 font-mono">thumbnail_seconds</code>)</span>
+                </label>
+                <div className="relative">
+                  <input
+                    type="number"
+                    min={0}
+                    value={thumbnailSeconds}
+                    onChange={e => setThumbnailSeconds(Math.max(0, parseInt(e.target.value) || 0))}
+                    placeholder="0"
+                    className="w-full px-3.5 py-2 bg-slate-900 border border-slate-700/80 rounded-xl text-white focus:outline-none focus:border-brand-500 font-mono text-xs"
+                  />
+                  <span className="absolute right-3 top-2 text-[10px] text-slate-500 font-mono">seconds</span>
+                </div>
+                <p className="text-[10px] text-slate-400 mt-1">Second for app thumbnail frame</p>
+              </div>
+            </div>
           </div>
 
           {/* Instructions */}
