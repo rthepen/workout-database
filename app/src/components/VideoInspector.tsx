@@ -7,7 +7,6 @@ import {
   Plus, 
   Trash2, 
   ExternalLink, 
-  Sparkles, 
   Check, 
   ArrowUp, 
   ArrowDown, 
@@ -23,8 +22,7 @@ import {
   Star
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
-import { searchYouTubeTutorials, parseYouTubeId } from '../services/youtubeService';
-import type { YouTubeSuggestion } from '../services/youtubeService';
+import { parseYouTubeId } from '../services/youtubeService';
 
 interface VideoInspectorProps {
   exercise: Exercise;
@@ -49,11 +47,6 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [duration, setDuration] = useState<number>(0);
   const [newVideoInput, setNewVideoInput] = useState<string>('');
-  const [suggestions, setSuggestions] = useState<YouTubeSuggestion[]>([]);
-  const [isLoadingSuggestions, setIsLoadingSuggestions] = useState<boolean>(false);
-  
-  // State for embedded preview of suggestions
-  const [embeddedPreviewId, setEmbeddedPreviewId] = useState<string | null>(null);
   const [copiedThumbUrl, setCopiedThumbUrl] = useState<boolean>(false);
 
   const activeVideo = videos[selectedVideoIndex] || videos[0];
@@ -138,26 +131,6 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
 
     return () => clearInterval(intervalRef.current);
   }, []);
-
-  // Fetch YouTube discovery suggestions tailored to exercise and material
-  useEffect(() => {
-    let isMounted = true;
-    setIsLoadingSuggestions(true);
-    searchYouTubeTutorials(exercise.exercise_name?.en || '', exercise.material?.id || exercise.material?.name?.en || '')
-      .then(res => {
-        if (isMounted) {
-          setSuggestions(res);
-          setIsLoadingSuggestions(false);
-        }
-      })
-      .catch(() => {
-        if (isMounted) setIsLoadingSuggestions(false);
-      });
-
-    return () => {
-      isMounted = false;
-    };
-  }, [exercise.id, exercise.exercise_name?.en, exercise.material?.id]);
 
   // Capture current playback time as start_seconds
   const handleCaptureTimestamp = (explicitSeconds?: number) => {
@@ -328,7 +301,6 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
     return `${m}:${s < 10 ? '0' : ''}${s}`;
   };
 
-  const activeSuggestion = suggestions.find(s => s.id === activeVideo?.youtube_id);
   const hasStartTimestamp = activeVideo?.start_seconds !== undefined && activeVideo.start_seconds > 0;
 
   return (
@@ -368,14 +340,9 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
         {/* Video Title Header Banner */}
         {activeVideo && (
           <div className="p-3 bg-slate-900/90 border border-slate-800 rounded-xl space-y-1">
-            <div className="text-[10px] uppercase font-bold text-slate-400">Active Video Title & Channel</div>
-            <div className="text-sm font-bold text-white flex flex-wrap items-center gap-2">
-              <span>{activeSuggestion?.title || `${exercise.exercise_name?.en} Demonstration Video`}</span>
-              {activeSuggestion?.channelTitle && (
-                <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-normal">
-                  by {activeSuggestion.channelTitle}
-                </span>
-              )}
+            <div className="text-[10px] uppercase font-bold text-slate-400">Active Video Title</div>
+            <div className="text-sm font-bold text-white">
+              <span>{exercise.exercise_name?.en} Demonstration Video</span>
             </div>
           </div>
         )}
@@ -806,193 +773,6 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
             <span>Add</span>
           </button>
         </div>
-      </div>
-
-      {/* 5. SUGGESTED TUTORIAL VIDEOS (AUTHENTIC, VERIFIED YOUTUBE DEMOS) */}
-      <div className="bg-[#111827] border border-slate-800 rounded-2xl p-4 sm:p-5 shadow-xl space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-3">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-brand-400" />
-            <h3 className="text-xs font-bold uppercase tracking-wider text-white">
-              Verified Tutorial Video Suggestions ({exercise.material?.name?.en || exercise.material?.id})
-            </h3>
-          </div>
-          
-          {/* Quick YouTube Search Action */}
-          <div className="flex items-center gap-2">
-            <a
-              href={`https://www.youtube.com/results?search_query=${encodeURIComponent((exercise.material?.name?.en ? exercise.material.name.en + ' ' : '') + exercise.exercise_name?.en + ' short exercise tutorial')}`}
-              target="_blank"
-              rel="noreferrer"
-              className="px-3 py-1 bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 shadow-sm transition"
-            >
-              <ExternalLink className="w-3.5 h-3.5" />
-              <span>Search &ldquo;{exercise.exercise_name?.en}&rdquo; Shorts on YouTube</span>
-            </a>
-          </div>
-        </div>
-
-        {/* Quick Channel Search Shortcuts */}
-        <div className="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400">
-          <span className="font-semibold text-slate-300">Quick channel search:</span>
-          {[
-            { name: 'ATHLEAN-X', query: `ATHLEAN-X ${exercise.exercise_name?.en} form` },
-            { name: 'Squat University', query: `Squat University ${exercise.exercise_name?.en}` },
-            { name: 'Mind Pump', query: `Mind Pump ${exercise.exercise_name?.en}` },
-            { name: 'Buff Dudes', query: `Buff Dudes ${exercise.exercise_name?.en}` },
-            { name: 'Renaissance Periodization', query: `Renaissance Periodization ${exercise.exercise_name?.en}` }
-          ].map(ch => (
-            <a
-              key={ch.name}
-              href={`https://www.youtube.com/results?search_query=${encodeURIComponent(ch.query)}`}
-              target="_blank"
-              rel="noreferrer"
-              className="px-2 py-0.5 bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white rounded border border-slate-800 transition"
-            >
-              {ch.name} ↗
-            </a>
-          ))}
-        </div>
-
-        {isLoadingSuggestions ? (
-          <div className="p-6 text-center text-xs text-slate-400">Loading verified tutorials...</div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {suggestions.map((item) => {
-              const isAlreadyAdded = videos.some(v => v.youtube_id === item.id);
-              const isPreviewOpen = embeddedPreviewId === item.id;
-
-              return (
-                <div
-                  key={item.id}
-                  className="p-3 bg-slate-900/90 border border-slate-800 rounded-xl flex flex-col justify-between gap-3 hover:border-slate-700 transition shadow-sm"
-                >
-                  {/* Embedded Iframe Player Preview if toggled */}
-                  {isPreviewOpen ? (
-                    <div className="space-y-2">
-                      <div className="relative aspect-video bg-black rounded-lg overflow-hidden border border-slate-700 shadow-md">
-                        <iframe
-                          src={`https://www.youtube-nocookie.com/embed/${item.id}?autoplay=1&rel=0&playsinline=1`}
-                          title={item.title}
-                          className="w-full h-full"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                        />
-                      </div>
-                      <div className="flex items-center justify-between text-xs pt-1">
-                        <span className="text-[11px] font-semibold text-brand-400">Playing Embedded Preview</span>
-                        <div className="flex items-center gap-2">
-                          <button
-                            onClick={() => handleAddVideo(item.id, item.type, 0)}
-                            className="px-2.5 py-1 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 rounded-lg text-xs font-semibold flex items-center gap-1"
-                          >
-                            <Plus className="w-3 h-3" />
-                            <span>Add & Inspect in Main Player</span>
-                          </button>
-                          <button
-                            onClick={() => setEmbeddedPreviewId(null)}
-                            className="text-xs text-slate-400 hover:text-white px-2 py-1 bg-slate-800 rounded-lg"
-                          >
-                            Close
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
-                    /* Thumbnail & Metadata */
-                    <div className="flex gap-3">
-                      <div 
-                        className="relative w-28 h-18 rounded-lg overflow-hidden bg-slate-950 border border-slate-800 flex-shrink-0 cursor-pointer group"
-                        onClick={() => setEmbeddedPreviewId(item.id)}
-                        title="Click to play embedded preview"
-                      >
-                        <img
-                          src={item.thumbnailUrl}
-                          alt={item.title}
-                          className="w-full h-full object-cover group-hover:scale-105 transition"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${item.id}/hqdefault.jpg`;
-                          }}
-                        />
-                        <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-80 group-hover:opacity-100 transition">
-                          <Play className="w-5 h-5 text-white fill-current" />
-                        </div>
-                      </div>
-
-                      <div className="flex-1 min-w-0">
-                        <h4 
-                          className="text-xs font-semibold text-slate-100 line-clamp-2 cursor-pointer hover:text-brand-400 transition"
-                          title={item.title}
-                          onClick={() => setEmbeddedPreviewId(item.id)}
-                        >
-                          {item.title}
-                        </h4>
-                        <p className="text-[10px] text-slate-400 mt-1 font-medium">{item.channelTitle}</p>
-                        <div className="flex items-center gap-2 mt-1.5">
-                          <span className={`text-[9px] px-1.5 py-0.2 rounded font-mono uppercase ${
-                            item.type === 'short' ? 'bg-purple-500/20 text-purple-300' : 'bg-blue-500/20 text-blue-300'
-                          }`}>
-                            {item.type}
-                          </span>
-                          <span className="text-[10px] text-slate-500">{item.duration}</span>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Actions: Embedded Preview Toggle, Add with Timestamp, External */}
-                  <div className="flex items-center justify-between pt-2 border-t border-slate-800/80">
-                    <div className="flex items-center gap-2">
-                      <button
-                        onClick={() => setEmbeddedPreviewId(isPreviewOpen ? null : item.id)}
-                        className={`text-[11px] font-semibold flex items-center gap-1 px-2.5 py-1 rounded-lg transition ${
-                          isPreviewOpen 
-                            ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30'
-                            : 'bg-slate-800 hover:bg-slate-700 text-brand-300'
-                        }`}
-                      >
-                        <Film className="w-3 h-3" />
-                        <span>{isPreviewOpen ? 'Hide Player' : 'Play Embedded'}</span>
-                      </button>
-
-                      <a
-                        href={`https://www.youtube.com/watch?v=${item.id}`}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-[11px] text-slate-400 hover:text-white flex items-center gap-1 p-1"
-                        title="Open on YouTube"
-                      >
-                        <ExternalLink className="w-3 h-3" />
-                      </a>
-                    </div>
-
-                    <button
-                      onClick={() => handleAddVideo(item.id, item.type, 0)}
-                      disabled={isAlreadyAdded}
-                      className={`px-3 py-1 text-xs rounded-lg font-medium flex items-center gap-1 transition ${
-                        isAlreadyAdded
-                          ? 'bg-slate-800 text-slate-500 cursor-not-allowed'
-                          : 'bg-brand-600 hover:bg-brand-500 text-white shadow-sm active:scale-95'
-                      }`}
-                    >
-                      {isAlreadyAdded ? (
-                        <>
-                          <Check className="w-3 h-3 text-emerald-400" />
-                          <span>In Media List</span>
-                        </>
-                      ) : (
-                        <>
-                          <Plus className="w-3 h-3" />
-                          <span>Add Exercise Video</span>
-                        </>
-                      )}
-                    </button>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        )}
       </div>
     </div>
   );
