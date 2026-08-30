@@ -54,7 +54,6 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   allExercises,
 }) => {
   const [isEditing, setIsEditing] = useState<boolean>(false);
-  const [activeTab, setActiveTab] = useState<'video' | 'overview' | 'instructions'>('video');
   const [prLoading, setPrLoading] = useState<boolean>(false);
   const [prSuccessUrl, setPrSuccessUrl] = useState<string | null>(null);
   const [isDirectCommit, setIsDirectCommit] = useState<boolean>(false);
@@ -369,141 +368,136 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 )}
               </div>
             </div>
-
-            {/* Navigation Tabs */}
-            <div className="flex items-center gap-1.5 mt-4 pt-3 border-t border-slate-800/60 text-xs font-semibold">
-              <button
-                onClick={() => setActiveTab('video')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition ${
-                  activeTab === 'video'
-                    ? 'bg-brand-600 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
-                }`}
-              >
-                <Tv className="w-3.5 h-3.5" />
-                <span>Video & Timestamps</span>
-              </button>
-
-              <button
-                onClick={() => setActiveTab('overview')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition ${
-                  activeTab === 'overview'
-                    ? 'bg-brand-600 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
-                }`}
-              >
-                <Info className="w-3.5 h-3.5" />
-                <span>Overview & Anatomy</span>
-              </button>
-
-              <button
-                onClick={() => setActiveTab('instructions')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition ${
-                  activeTab === 'instructions'
-                    ? 'bg-brand-600 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white hover:bg-slate-800'
-                }`}
-              >
-                <BookOpen className="w-3.5 h-3.5" />
-                <span>Instructions & Cues</span>
-              </button>
-            </div>
           </div>
 
-          {/* Active Tab Panel */}
-          <div className="p-4 sm:p-5 pt-0">
-            {activeTab === 'video' ? (
+          {/* Continuous Stacked Sections (No Tabs) */}
+          <div className="p-4 sm:p-5 space-y-6">
+            {/* 1. Video & Timestamps Section */}
+            <div>
+              <h2 className="text-xs font-extrabold uppercase tracking-wider text-rose-400 mb-3 flex items-center gap-1.5">
+                <Tv className="w-4 h-4 text-rose-400" />
+                <span>Video & Timestamps</span>
+              </h2>
               <VideoInspector
                 exercise={exercise}
                 onUpdateVideos={onUpdateVideos}
               />
-            ) : activeTab === 'overview' ? (
-              <div className="space-y-4 text-xs">
-                {/* Equipment & Muscle Groups */}
-                <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 space-y-3">
-                  <h3 className="font-bold text-white text-sm">Target Anatomical Muscles</h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <div>
-                      <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
-                        Primary Muscles
-                      </span>
-                      <div className="flex flex-wrap gap-1.5">
-                        {exercise.target_muscles?.primary?.map(m => (
-                          <span key={m} className="px-2 py-0.5 rounded bg-brand-950 text-brand-300 border border-brand-800 font-mono">
-                            {m.replace(/_/g, ' ')}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
+            </div>
 
-                    <div>
-                      <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
-                        Secondary Muscles
-                      </span>
-                      <div className="flex flex-wrap gap-1.5">
-                        {exercise.target_muscles?.secondary?.map(m => (
-                          <span key={m} className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
-                            {m.replace(/_/g, ' ')}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            {/* 2. Instructions & Form Cues Section */}
+            <div className="p-4 bg-slate-900/60 rounded-2xl border border-slate-800 space-y-4 text-xs">
+              <h2 className="text-xs font-extrabold uppercase tracking-wider text-amber-400 flex items-center gap-1.5 border-b border-slate-800/80 pb-2.5">
+                <BookOpen className="w-4 h-4 text-amber-400" />
+                <span>Instructions & Form Cues</span>
+              </h2>
 
-                {/* Attributes breakdown */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
-                    <div className="text-[10px] uppercase text-slate-500 font-bold">Category</div>
-                    <div className="text-white font-semibold mt-0.5">{exercise.category?.en}</div>
-                  </div>
-                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
-                    <div className="text-[10px] uppercase text-slate-500 font-bold">Mechanics</div>
-                    <div className="text-white font-semibold mt-0.5">{exercise.attributes?.mechanics}</div>
-                  </div>
-                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
-                    <div className="text-[10px] uppercase text-slate-500 font-bold">Force Type</div>
-                    <div className="text-white font-semibold mt-0.5">{exercise.attributes?.force_type}</div>
-                  </div>
-                  <div className="p-3 bg-slate-900/60 rounded-xl border border-slate-800">
-                    <div className="text-[10px] uppercase text-slate-500 font-bold">Tracking</div>
-                    <div className="text-white font-semibold mt-0.5">{exercise.attributes?.tracking_type}</div>
-                  </div>
-                </div>
-              </div>
-            ) : (
-              <div className="space-y-4 text-xs">
+              <div className="space-y-2">
+                <h3 className="font-bold text-white text-xs">Step-by-Step Instructions</h3>
                 <div className="space-y-2">
-                  <h3 className="font-bold text-white text-sm">Step-by-Step Instructions</h3>
-                  <div className="space-y-2">
-                    {exercise.instructions?.en?.map((stepEn, idx) => (
-                      <div key={idx} className="p-3 bg-slate-900/80 rounded-xl border border-slate-800 space-y-1">
-                        <div className="text-[10px] font-mono text-brand-400 font-bold">Step #{idx + 1}</div>
-                        <div className="text-slate-100">{stepEn}</div>
-                        {exercise.instructions?.nl?.[idx] && (
-                          <div className="text-slate-400 italic text-[11px] pt-1 border-t border-slate-800/40">
-                            {exercise.instructions.nl[idx]}
-                          </div>
-                        )}
-                      </div>
+                  {exercise.instructions?.en?.map((stepEn, idx) => (
+                    <div key={idx} className="p-3 bg-slate-950/80 rounded-xl border border-slate-800 space-y-1">
+                      <div className="text-[10px] font-mono text-brand-400 font-bold">Step #{idx + 1}</div>
+                      <div className="text-slate-100">{stepEn}</div>
+                      {exercise.instructions?.nl?.[idx] && (
+                        <div className="text-slate-400 italic text-[11px] pt-1 border-t border-slate-800/40">
+                          {exercise.instructions.nl[idx]}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {exercise.form_cues?.en && exercise.form_cues.en.length > 0 && (
+                <div className="space-y-2 pt-2">
+                  <h3 className="font-bold text-white text-xs">Key Form Cues</h3>
+                  <ul className="space-y-1.5">
+                    {exercise.form_cues.en.map((cue, idx) => (
+                      <li key={idx} className="p-2.5 bg-slate-950/60 border border-slate-800 rounded-lg text-slate-300">
+                        {cue}
+                      </li>
                     ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+
+            {/* 3. Overview & Anatomy Section */}
+            <div className="p-4 bg-slate-900/60 rounded-2xl border border-slate-800 space-y-4 text-xs">
+              <h2 className="text-xs font-extrabold uppercase tracking-wider text-sky-400 flex items-center gap-1.5 border-b border-slate-800/80 pb-2.5">
+                <Info className="w-4 h-4 text-sky-400" />
+                <span>Overview & Anatomy</span>
+              </h2>
+
+              {/* Equipment & Muscle Groups */}
+              <div className="space-y-3">
+                <h3 className="font-bold text-white text-xs">Target Anatomical Muscles</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <div>
+                    <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
+                      Primary Muscles
+                    </span>
+                    <div className="flex flex-wrap gap-1.5">
+                      {exercise.target_muscles?.primary?.map(m => (
+                        <span key={m} className="px-2 py-0.5 rounded bg-brand-950 text-brand-300 border border-brand-800 font-mono">
+                          {m.replace(/_/g, ' ')}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="text-slate-400 font-semibold uppercase text-[10px] block mb-1">
+                      Secondary Muscles
+                    </span>
+                    <div className="flex flex-wrap gap-1.5">
+                      {exercise.target_muscles?.secondary?.map(m => (
+                        <span key={m} className="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
+                          {m.replace(/_/g, ' ')}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
-
-                {exercise.form_cues?.en && exercise.form_cues.en.length > 0 && (
-                  <div className="space-y-2 pt-2">
-                    <h3 className="font-bold text-white text-sm">Key Form Cues</h3>
-                    <ul className="space-y-1.5">
-                      {exercise.form_cues.en.map((cue, idx) => (
-                        <li key={idx} className="p-2.5 bg-slate-900/50 border border-slate-800 rounded-lg text-slate-300">
-                          {cue}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
               </div>
-            )}
+
+              {/* Attributes breakdown */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+                <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
+                  <div className="text-[10px] uppercase text-slate-500 font-bold">Category</div>
+                  <div className="text-white font-semibold mt-0.5">{exercise.category?.en}</div>
+                </div>
+                <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
+                  <div className="text-[10px] uppercase text-slate-500 font-bold">Mechanics</div>
+                  <div className="text-white font-semibold mt-0.5">{exercise.attributes?.mechanics}</div>
+                </div>
+                <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
+                  <div className="text-[10px] uppercase text-slate-500 font-bold">Force Type</div>
+                  <div className="text-white font-semibold mt-0.5">{exercise.attributes?.force_type}</div>
+                </div>
+                <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
+                  <div className="text-[10px] uppercase text-slate-500 font-bold">Tracking</div>
+                  <div className="text-white font-semibold mt-0.5">{exercise.attributes?.tracking_type}</div>
+                </div>
+              </div>
+            </div>
+
+            {/* 4. Metadata & Schema Version Info Footer */}
+            <div className="p-3 bg-slate-950/80 border border-slate-800/80 rounded-xl flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-400 font-mono shadow-sm">
+              <div className="flex items-center gap-2">
+                <span className="text-slate-500">Schema Version:</span>
+                <span className="px-2 py-0.5 bg-slate-900 text-slate-200 border border-slate-800 rounded font-bold">
+                  {exercise.meta?.schema_version || '1.1.0'}
+                </span>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <span className="text-slate-500">Updated At:</span>
+                <span className="px-2 py-0.5 bg-slate-900 text-emerald-400 border border-slate-800 rounded font-bold">
+                  {exercise.meta?.updated_at || '1970-01-01'}
+                </span>
+              </div>
+            </div>
           </div>
 
           {/* Fixed Floating Action Bar (Approve / Direct 1-Click PR / Edit) ALWAYS Floating at Screen Bottom */}
