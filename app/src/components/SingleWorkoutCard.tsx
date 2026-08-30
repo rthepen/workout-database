@@ -23,6 +23,7 @@ import { VideoInspector } from './VideoInspector';
 import { ExerciseEditor } from './ExerciseEditor';
 import { submitDirectPullRequest, getSavedGitHubToken } from '../services/githubService';
 import { resetLocalEdits } from '../services/exerciseService';
+import { sendExerciseBackupToGoogleSheet } from '../services/googleSheetService';
 
 interface SingleWorkoutCardProps {
   exercise: Exercise;
@@ -101,6 +102,9 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   };
 
   const handleApproveAndNext = async () => {
+    // Always trigger Google Sheets backup with user fingerprint
+    sendExerciseBackupToGoogleSheet(exercise);
+
     const token = getSavedGitHubToken();
     if (token) {
       await handleDirect1ClickPR();
@@ -511,37 +515,38 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 <span>Edit</span>
               </button>
 
-              {/* Direct 1-Click Commit Button (Commits directly to main branch when token is configured) */}
+              {/* Single Dynamic Primary Action Button (Changes behavior & style based on Token presence) */}
               <button
-                onClick={handleDirect1ClickPR}
+                onClick={handleApproveAndNext}
                 disabled={prLoading}
-                title={hasToken ? "Instantly commit changes directly to the main branch" : "Configure GitHub Token to commit directly"}
-                className={`flex-1 sm:flex-none px-4 sm:px-5 py-2.5 sm:py-3 text-white font-black text-xs rounded-xl shadow-lg flex items-center justify-center gap-1.5 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap ${
+                title={hasToken ? "Instantly commit directly to main branch on GitHub & advance" : "Approve exercise & advance to next"}
+                className={`flex-1 px-5 sm:px-8 py-2.5 sm:py-3.5 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap ${
                   hasToken
-                    ? 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/25 ring-1 ring-emerald-400/40'
-                    : 'bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 hover:from-sky-500 hover:to-blue-500 shadow-sky-600/25'
+                    ? 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30 ring-1 ring-emerald-400/40'
+                    : 'bg-gradient-to-r from-brand-600 via-emerald-600 to-teal-600 hover:from-brand-500 hover:to-emerald-500 shadow-brand-600/30'
                 }`}
               >
                 {prLoading ? (
                   <>
-                    <Loader2 className="w-4 h-4 animate-spin" />
-                    <span>{hasToken ? 'Committing to main...' : 'Opening PR...'}</span>
+                    <Loader2 className="w-4 h-4 sm:w-5 sm:h-5 animate-spin text-white" />
+                    <span>Committing to main branch...</span>
                   </>
                 ) : (
                   <>
-                    <GitPullRequest className="w-4 h-4" />
-                    <span>{hasToken ? '⚡ 1-Click Commit' : '🔑 Set Token & Commit'}</span>
-                    {hasToken && <span className="w-2 h-2 rounded-full bg-emerald-300 animate-pulse ml-0.5" />}
+                    {hasToken ? (
+                      <>
+                        <GitPullRequest className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-300" />
+                        <span>⚡ 1-Click Commit & Next →</span>
+                        <span className="w-2 h-2 rounded-full bg-emerald-300 animate-pulse ml-0.5" />
+                      </>
+                    ) : (
+                      <>
+                        <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                        <span>Approve & Next →</span>
+                      </>
+                    )}
                   </>
                 )}
-              </button>
-
-              <button
-                onClick={handleApproveAndNext}
-                className="flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-brand-600 via-emerald-600 to-teal-600 hover:from-brand-500 hover:to-emerald-500 text-white font-black text-xs sm:text-sm rounded-xl shadow-lg shadow-brand-600/30 flex items-center justify-center gap-1.5 transition transform active:scale-95 whitespace-nowrap"
-              >
-                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
-                <span>Approve & Next →</span>
               </button>
             </div>
           </div>
