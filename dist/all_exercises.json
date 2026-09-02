@@ -1360,7 +1360,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -1405,7 +1406,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T10:06:24.669Z"
+      "updated_at": "2026-08-29T20:27:41.658Z"
     }
   },
   {
@@ -1577,7 +1578,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T09:29:34.681Z"
+      "updated_at": "2026-08-29T20:29:24.457Z"
     }
   },
   {
@@ -1666,7 +1667,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:16:23.470Z"
     }
   },
   {
@@ -1752,7 +1753,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:16:43.659Z"
     }
   },
   {
@@ -1840,7 +1841,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:16:53.576Z"
     }
   },
   {
@@ -1883,7 +1884,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "tracking_type": "reps_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1929,7 +1931,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:17:14.993Z"
     }
   },
   {
@@ -2264,11 +2266,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "glfBNGNQ9jQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:30:44.275Z"
     }
   },
   {
@@ -2438,7 +2448,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T10:03:12.991Z"
+      "updated_at": "2026-08-29T20:31:27.754Z"
     }
   },
   {
@@ -2481,7 +2491,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "tracking_type": "reps_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2783,7 +2794,7 @@
     "media": {
       "videos": [
         {
-          "youtube_id": "uFghD-UC9-c",
+          "youtube_id": "9LS7LKSjoK0",
           "type": "standard",
           "priority": 1,
           "language": "en",
@@ -2793,7 +2804,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T10:04:55.405Z"
+      "updated_at": "2026-08-29T20:32:28.734Z"
     }
   },
   {
@@ -19563,11 +19574,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "uW4zt7R9rvo",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:33:22.326Z"
     }
   },
   {
@@ -19643,11 +19662,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "ixwiplXKMKI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:36:25.088Z"
     }
   },
   {
@@ -19721,11 +19748,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "faxyKm4lwI8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:36:58.424Z"
     }
   },
   {
@@ -19809,7 +19844,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T20:49:22.084Z"
+      "updated_at": "2026-08-29T20:49:30.444Z"
     }
   },
   {
@@ -19895,7 +19930,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T19:35:20.176Z"
+      "updated_at": "2026-08-30T19:35:27.277Z"
     }
   },
   {
@@ -19965,11 +20000,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "GViXaD5rgqM",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-30T19:36:02.400Z"
     }
   },
   {
@@ -20045,7 +20088,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T19:39:37.667Z"
+      "updated_at": "2026-08-30T19:40:49.327Z"
     }
   },
   {
@@ -20291,11 +20334,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "_FhWOyZpyn0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-30T19:41:30.800Z"
     }
   },
   {
@@ -20455,11 +20506,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "j1sFxkMRf1U",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:09:57.361Z"
     }
   },
   {
@@ -20500,7 +20559,8 @@
       "difficulty": "intermediate",
       "mechanics": "isometric",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -20531,11 +20591,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "R-lpWn5gfjA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:11:02.308Z"
     }
   },
   {
@@ -20576,7 +20644,8 @@
       "difficulty": "intermediate",
       "mechanics": "isometric",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -20609,11 +20678,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "n4UStE3lBFw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-29T20:11:57.499Z"
     }
   },
   {
@@ -20787,7 +20864,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T19:43:16.205Z"
+      "updated_at": "2026-08-30T19:43:39.927Z"
     }
   },
   {
@@ -20863,7 +20940,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-30T19:44:29.798Z"
     }
   },
   {
@@ -20948,7 +21025,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:31:02.023Z"
+      "updated_at": "2026-08-31T21:31:16.573Z"
     }
   },
   {
@@ -21034,7 +21111,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:32:25.267Z"
+      "updated_at": "2026-08-31T21:32:33.923Z"
     }
   },
   {
@@ -21120,7 +21197,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:34:53.333Z"
+      "updated_at": "2026-08-31T21:34:59.433Z"
     }
   },
   {
@@ -21287,7 +21364,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:35:47.637Z"
+      "updated_at": "2026-08-31T21:39:11.643Z"
     }
   },
   {
@@ -26236,7 +26313,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:40:21.060Z"
+      "updated_at": "2026-08-31T21:40:29.113Z"
     }
   },
   {
@@ -26312,11 +26389,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "3ov_PLcZ0G4",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-31T21:41:29.372Z"
     }
   },
   {
@@ -26486,7 +26571,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:42:16.372Z"
+      "updated_at": "2026-08-31T21:42:23.876Z"
     }
   },
   {
@@ -26572,7 +26657,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:45:54.891Z"
+      "updated_at": "2026-08-31T21:46:00.663Z"
     }
   },
   {
@@ -26829,7 +26914,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:47:13.884Z"
+      "updated_at": "2026-08-31T21:47:19.890Z"
     }
   },
   {
@@ -27072,11 +27157,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "alelIf-0MiI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-31T21:48:13.549Z"
     }
   },
   {
@@ -27163,7 +27256,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:49:03.358Z"
+      "updated_at": "2026-08-31T21:49:09.968Z"
     }
   },
   {
@@ -27501,7 +27594,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:50:18.851Z"
+      "updated_at": "2026-08-31T21:50:23.806Z"
     }
   },
   {
@@ -27578,11 +27671,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "ULl7xM2yWgo",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-31T21:51:19.198Z"
     }
   },
   {
@@ -27757,7 +27858,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:51:55.525Z"
+      "updated_at": "2026-08-31T21:52:01.389Z"
     }
   },
   {
@@ -27929,7 +28030,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:54:20.277Z"
+      "updated_at": "2026-08-31T21:54:26.284Z"
     }
   },
   {
@@ -28102,7 +28203,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:55:41.130Z"
+      "updated_at": "2026-08-31T21:56:08.710Z"
     }
   },
   {
@@ -28272,7 +28373,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:57:35.171Z"
+      "updated_at": "2026-08-31T21:57:42.071Z"
     }
   },
   {
@@ -28530,7 +28631,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:58:46.345Z"
+      "updated_at": "2026-08-31T21:59:00.203Z"
     }
   },
   {
@@ -28614,7 +28715,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:59:49.255Z"
+      "updated_at": "2026-08-31T22:00:01.611Z"
     }
   },
   {
@@ -28698,7 +28799,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T22:01:20.758Z"
+      "updated_at": "2026-08-31T22:01:27.453Z"
     }
   },
   {
@@ -28783,7 +28884,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T22:02:53.209Z"
+      "updated_at": "2026-08-31T22:03:00.737Z"
     }
   },
   {
@@ -28953,7 +29054,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:21:37.127Z"
+      "updated_at": "2026-09-01T17:21:50.421Z"
     }
   },
   {
@@ -29109,11 +29210,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "ehkNRbkekz4",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T17:22:40.905Z"
     }
   },
   {
@@ -29204,7 +29313,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:23:31.503Z"
+      "updated_at": "2026-09-01T17:23:36.611Z"
     }
   },
   {
@@ -29280,11 +29389,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "Q9T--tNg04M",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T17:24:37.310Z"
     }
   },
   {
@@ -29539,7 +29656,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:25:23.427Z"
+      "updated_at": "2026-09-01T17:25:32.784Z"
     }
   },
   {
@@ -29868,11 +29985,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "-oBz6Er7JKY",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T17:26:30.352Z"
     }
   },
   {
@@ -29957,7 +30082,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:27:40.558Z"
+      "updated_at": "2026-09-01T17:28:12.135Z"
     }
   },
   {
@@ -30030,11 +30155,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "RvPRg5JieeA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T17:28:58.727Z"
     }
   },
   {
@@ -30290,7 +30423,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:30:07.625Z"
+      "updated_at": "2026-09-01T17:30:13.578Z"
     }
   },
   {
@@ -35619,7 +35752,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:32:30.830Z"
+      "updated_at": "2026-09-01T17:32:55.575Z"
     }
   },
   {
@@ -35695,7 +35828,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T17:35:13.098Z"
     }
   },
   {
@@ -35779,7 +35912,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:35:44.834Z"
+      "updated_at": "2026-09-01T17:35:54.238Z"
     }
   },
   {
@@ -35866,7 +35999,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:38:07.273Z"
+      "updated_at": "2026-09-01T17:38:17.619Z"
     }
   },
   {
@@ -35950,7 +36083,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:45:50.018Z"
+      "updated_at": "2026-09-01T17:46:04.373Z"
     }
   },
   {
@@ -36034,7 +36167,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:38:19.273Z"
+      "updated_at": "2026-09-01T18:38:32.086Z"
     }
   },
   {
@@ -36286,7 +36419,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:40:36.361Z"
+      "updated_at": "2026-09-01T18:40:42.651Z"
     }
   },
   {
@@ -36373,7 +36506,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:42:42.795Z"
+      "updated_at": "2026-09-01T18:42:51.056Z"
     }
   },
   {
@@ -36534,11 +36667,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "pJ_ZqM-Yhvk",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T18:43:38.878Z"
     }
   },
   {
@@ -36617,7 +36758,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T18:44:33.359Z"
     }
   },
   {
@@ -36960,7 +37101,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:45:40.225Z"
+      "updated_at": "2026-09-01T18:45:47.902Z"
     }
   },
   {
@@ -37136,7 +37277,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:47:52.093Z"
+      "updated_at": "2026-09-01T18:47:57.848Z"
     }
   },
   {
@@ -37223,7 +37364,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:49:45.825Z"
+      "updated_at": "2026-09-01T18:49:53.292Z"
     }
   },
   {
@@ -37478,7 +37619,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:50:54.728Z"
+      "updated_at": "2026-09-01T18:51:01.963Z"
     }
   },
   {
@@ -37554,7 +37695,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T18:53:12.218Z"
     }
   },
   {
@@ -37642,7 +37783,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:54:07.098Z"
+      "updated_at": "2026-09-01T18:54:14.580Z"
     }
   },
   {
@@ -37804,7 +37945,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T18:55:03.834Z"
     }
   },
   {
@@ -38141,7 +38282,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:56:46.246Z"
+      "updated_at": "2026-09-01T18:56:52.481Z"
     }
   },
   {
@@ -38226,7 +38367,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:58:03.286Z"
+      "updated_at": "2026-09-01T18:58:17.883Z"
     }
   },
   {
@@ -38479,7 +38620,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T18:59:56.943Z"
+      "updated_at": "2026-09-01T19:00:08.885Z"
     }
   },
   {
@@ -38635,11 +38776,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "TLcXufXF55M",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:00:48.574Z"
     }
   },
   {
@@ -38974,7 +39123,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:01:32.641Z"
+      "updated_at": "2026-09-01T19:01:41.475Z"
     }
   },
   {
@@ -39725,7 +39874,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:02:14.326Z"
     }
   },
   {
@@ -39972,7 +40121,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:03:30.812Z"
+      "updated_at": "2026-09-01T19:03:37.445Z"
     }
   },
   {
@@ -40047,11 +40196,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "K_Cx3L9kyQY",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:04:24.548Z"
     }
   },
   {
@@ -40136,7 +40293,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:05:28.153Z"
+      "updated_at": "2026-09-01T19:05:34.028Z"
     }
   },
   {
@@ -40209,11 +40366,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "02LYBWRpuJc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:06:16.344Z"
     }
   },
   {
@@ -43685,7 +43850,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:08:17.104Z"
+      "updated_at": "2026-09-01T19:08:24.468Z"
     }
   },
   {
@@ -43761,7 +43926,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:10:14.681Z"
     }
   },
   {
@@ -43835,7 +44000,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:15:07.593Z"
     }
   },
   {
@@ -43909,7 +44074,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:15:32.596Z"
     }
   },
   {
@@ -43985,7 +44150,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:15:55.808Z"
     }
   },
   {
@@ -44065,7 +44230,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:22.566Z"
     }
   },
   {
@@ -44137,7 +44302,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:30.582Z"
     }
   },
   {
@@ -44221,7 +44386,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:36.548Z"
     }
   },
   {
@@ -44301,7 +44466,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:41.017Z"
     }
   },
   {
@@ -44465,7 +44630,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:45.457Z"
     }
   },
   {
@@ -44546,7 +44711,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:49.601Z"
     }
   },
   {
@@ -44625,7 +44790,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:53.380Z"
     }
   },
   {
@@ -44703,7 +44868,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:56.459Z"
     }
   },
   {
@@ -44777,7 +44942,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:16:59.838Z"
     }
   },
   {
@@ -44853,7 +45018,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:03.421Z"
     }
   },
   {
@@ -44931,7 +45096,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:07.725Z"
     }
   },
   {
@@ -45009,7 +45174,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:11.513Z"
     }
   },
   {
@@ -45090,7 +45255,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:16.141Z"
     }
   },
   {
@@ -45168,7 +45333,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:22.571Z"
     }
   },
   {
@@ -45244,7 +45409,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:28.413Z"
     }
   },
   {
@@ -45324,7 +45489,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:31.788Z"
     }
   },
   {
@@ -45492,7 +45657,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:36.070Z"
     }
   },
   {
@@ -45577,7 +45742,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:42.130Z"
     }
   },
   {
@@ -45657,7 +45822,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:53.335Z"
     }
   },
   {
@@ -45737,7 +45902,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:17:58.207Z"
     }
   },
   {
@@ -46078,7 +46243,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:18:23.856Z"
+      "updated_at": "2026-09-01T19:18:33.391Z"
     }
   },
   {
@@ -46155,11 +46320,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "v0yrBWA3eEs",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:19:26.122Z"
     }
   },
   {
@@ -46245,7 +46418,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:20:24.252Z"
+      "updated_at": "2026-09-01T19:20:31.089Z"
     }
   },
   {
@@ -46335,7 +46508,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:22:06.788Z"
+      "updated_at": "2026-09-01T19:22:36.631Z"
     }
   },
   {
@@ -46679,7 +46852,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:23:40.115Z"
+      "updated_at": "2026-09-01T19:23:51.585Z"
     }
   },
   {
@@ -46755,11 +46928,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "7jeW4v_oaes",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:24:28.656Z"
     }
   },
   {
@@ -46846,7 +47027,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:25:17.792Z"
+      "updated_at": "2026-09-01T19:25:23.231Z"
     }
   },
   {
@@ -47094,11 +47275,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "HbGnxqSzExI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:26:19.168Z"
     }
   },
   {
@@ -47185,7 +47374,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:26:53.192Z"
+      "updated_at": "2026-09-01T19:26:59.186Z"
     }
   },
   {
@@ -47262,11 +47451,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "e7-4Z3TSrhQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:27:56.166Z"
     }
   },
   {
@@ -47440,7 +47637,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:29:31.446Z"
+      "updated_at": "2026-09-01T19:29:42.095Z"
     }
   },
   {
@@ -47774,7 +47971,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T20:10:14.035Z"
+      "updated_at": "2026-09-01T20:10:20.653Z"
     }
   },
   {
@@ -48525,7 +48722,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:25:08.602Z"
+      "updated_at": "2026-09-02T06:25:23.522Z"
     }
   },
   {
@@ -48852,7 +49049,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:28:13.914Z"
+      "updated_at": "2026-09-02T06:28:21.469Z"
     }
   },
   {
@@ -49259,7 +49456,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:29:16.292Z"
+      "updated_at": "2026-09-02T06:29:22.613Z"
     }
   },
   {
@@ -50163,7 +50360,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T06:30:49.870Z"
     }
   },
   {
@@ -50814,7 +51011,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:31:51.825Z"
+      "updated_at": "2026-09-02T06:31:57.382Z"
     }
   },
   {
@@ -50897,7 +51094,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:52:43.860Z"
+      "updated_at": "2026-09-02T06:52:55.362Z"
     }
   },
   {
@@ -50982,7 +51179,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:53:50.547Z"
+      "updated_at": "2026-09-02T06:54:01.197Z"
     }
   },
   {
@@ -51055,11 +51252,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "tBQFbKmkm_0",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T06:54:42.166Z"
     }
   },
   {
@@ -51223,7 +51428,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:55:07.864Z"
+      "updated_at": "2026-09-02T06:55:13.292Z"
     }
   },
   {
@@ -51294,11 +51499,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "etHva65zwlI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T06:55:51.586Z"
     }
   },
   {
@@ -51380,7 +51593,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:56:41.817Z"
+      "updated_at": "2026-09-02T06:57:23.026Z"
     }
   },
   {
@@ -51462,7 +51675,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:58:08.167Z"
+      "updated_at": "2026-09-02T06:59:11.778Z"
     }
   },
   {
@@ -51616,11 +51829,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "HR7f8CGZ40M",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T06:59:56.427Z"
     }
   },
   {
@@ -51871,7 +52092,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:02:52.608Z"
+      "updated_at": "2026-09-02T07:03:16.935Z"
     }
   },
   {
@@ -51943,11 +52164,19 @@
       "regressions": []
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "CzdXmfMj0qc",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:04:07.503Z"
     }
   },
   {
@@ -52032,7 +52261,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:04:54.940Z"
+      "updated_at": "2026-09-02T07:05:04.246Z"
     }
   },
   {
@@ -52116,7 +52345,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:08:27.945Z"
+      "updated_at": "2026-09-02T07:08:37.450Z"
     }
   },
   {
@@ -52202,7 +52431,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:10:05.050Z"
+      "updated_at": "2026-09-02T07:10:17.188Z"
     }
   },
   {
@@ -52285,7 +52514,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:15:38.259Z"
+      "updated_at": "2026-09-02T07:15:45.482Z"
     }
   },
   {
