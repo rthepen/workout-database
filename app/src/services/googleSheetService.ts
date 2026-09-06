@@ -1,6 +1,6 @@
 import type { Exercise } from '../types/exercise';
 
-export const DEFAULT_SHEET_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxIFilU31NyoVkXw1Xhpn4SxCKe7g60FV1sUgtB2Poxj_iqUo8seM_4BSq-UlAZ1GJa/exec';
+export const DEFAULT_SHEET_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbz9vMJVgR4F2Uyb_uP9ZtvBxWPXqZt-0ILqKgvAHo1wKW8OzPbdjj4IKK0pN4VLvlJ4/exec';
 const SHEET_STORAGE_KEY = 'workout_db_google_sheet_url';
 const FINGERPRINT_KEY = 'workout_db_user_fingerprint';
 
