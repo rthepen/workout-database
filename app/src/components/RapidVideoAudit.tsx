@@ -7,7 +7,6 @@ import {
   Filter, 
   ExternalLink, 
   Send, 
-  Play, 
   Tv, 
   RotateCcw, 
   CheckCheck,
@@ -29,6 +28,7 @@ import {
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed } from '../services/youtubeService';
+import { SmartAuditVideoPlayer } from './SmartAuditVideoPlayer';
 import confetti from 'canvas-confetti';
 
 interface RapidVideoAuditProps {
@@ -76,7 +76,6 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   const [replacements, setReplacements] = useState<Record<string, ReplacementData>>({});
 
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
-  const [playingVideoId, setPlayingVideoId] = useState<string | null>(null);
 
   // Valid replacements list & map
   const validReplacements = useMemo(() => {
@@ -430,12 +429,12 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               <span>Snelle Video Audit & Vervanging</span>
             </h2>
             <p className="text-xs text-slate-400 mt-0.5">
-              Video's spelen automatisch af. Beoordeel met <span className="text-emerald-400 font-bold">Ja</span> of <span className="text-rose-400 font-bold">Nee</span>, of plak direct een <span className="text-cyan-400 font-bold">vervangende YouTube URL/ID</span> met metadata.
+              <span className="text-cyan-300 font-semibold">⚡ Slimme Videolader:</span> laadt video's alvast vooruit in de achtergrond en start pas met afspelen zodra ze in beeld scrollen.
             </p>
           </div>
 
           <div className="flex items-center gap-2 self-stretch sm:self-auto flex-wrap">
-            {/* Autoplay Toggle Button */}
+            {/* Smart Preload & Autoplay Toggle Button */}
             <button
               onClick={() => setAutoplayEnabled(!autoplayEnabled)}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 transition ${
@@ -443,7 +442,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                   ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-500/50 shadow-sm'
                   : 'bg-slate-800/80 text-slate-400 border border-slate-700 hover:text-white'
               }`}
-              title="Schakel automatisch afspelen van video's in of uit"
+              title="Slimme Videolader: laadt vooruit en speelt alleen af wanneer in beeld"
             >
               {autoplayEnabled ? (
                 <>
@@ -452,12 +451,12 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                   </span>
                   <Volume2 className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>Autoplay: AAN</span>
+                  <span>Slimme Lader: AAN</span>
                 </>
               ) : (
                 <>
                   <VolumeX className="w-3.5 h-3.5 text-slate-500" />
-                  <span>Autoplay: UIT</span>
+                  <span>Slimme Lader: UIT</span>
                 </>
               )}
             </button>
@@ -745,8 +744,6 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             const instructionsEn = ex.instructions?.en || [];
             const instructions = instructionsNl.length > 0 ? instructionsNl : instructionsEn;
 
-            const shouldAutoplay = autoplayEnabled || playingVideoId === ex.id;
-
             return (
               <div
                 key={ex.id}
@@ -885,52 +882,23 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     )}
                   </div>
 
-                  {/* Center/Right Column: Video Player with Autoplay */}
+                  {/* Center/Right Column: Video Player with Smart Preload and In-View Autoplay */}
                   <div className="flex items-center gap-3 w-full lg:w-auto justify-between lg:justify-end flex-shrink-0 border-t lg:border-t-0 border-slate-800/80 pt-2 lg:pt-0">
                     {displayVideoId ? (
                       <div className="flex items-center gap-2.5">
-                        <div className={`relative rounded-xl overflow-hidden shadow-lg border bg-black flex-shrink-0 ${
-                          hasValidReplacement ? 'border-cyan-500 ring-1 ring-cyan-500/50' : 'border-slate-800'
-                        } ${
-                          (hasValidReplacement ? rep.type === 'short' : primaryVideo?.type === 'short')
-                            ? 'w-24 sm:w-28 h-40 sm:h-44'
-                            : 'w-44 sm:w-52 h-26 sm:h-30'
-                        }`}>
-                          {shouldAutoplay ? (
-                            <iframe
-                              src={`https://www.youtube.com/embed/${displayVideoId}?autoplay=1&mute=1&loop=1&playlist=${displayVideoId}&start=${displayStartSec}&rel=0&playsinline=1`}
-                              title={ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
-                              className="w-full h-full border-0"
-                              loading="lazy"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              referrerPolicy="origin-when-cross-origin"
-                              allowFullScreen
-                            />
-                          ) : (
-                            <div 
-                              onClick={() => setPlayingVideoId(ex.id)}
-                              className="w-full h-full cursor-pointer relative group"
-                            >
-                              <img
-                                src={`https://img.youtube.com/vi/${displayVideoId}/mqdefault.jpg`}
-                                alt="Thumbnail"
-                                className="w-full h-full object-cover group-hover:scale-105 transition duration-300 opacity-80 group-hover:opacity-100"
-                                loading="lazy"
-                              />
-                              <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/10 transition">
-                                <div className="w-8 h-8 rounded-full bg-rose-600/90 text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition">
-                                  <Play className="w-4 h-4 ml-0.5" />
-                                </div>
-                              </div>
-                            </div>
-                          )}
-
-                          {displayStartSec > 0 && (
-                            <div className="absolute bottom-1 right-1 px-1 py-0.5 rounded bg-black/80 text-[9px] font-mono text-emerald-300 font-bold pointer-events-none">
-                              {displayStartSec}s
-                            </div>
-                          )}
-                        </div>
+                        <SmartAuditVideoPlayer
+                          exerciseId={ex.id}
+                          videoId={displayVideoId}
+                          startSeconds={displayStartSec}
+                          isShort={
+                            hasValidReplacement
+                              ? rep.type === 'short' || rep.aspectRatio === '9:16'
+                              : primaryVideo?.type === 'short' || primaryVideo?.aspect_ratio === '9:16'
+                          }
+                          hasValidReplacement={hasValidReplacement}
+                          title={ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
+                          autoplayEnabled={autoplayEnabled}
+                        />
 
                         <div className="flex flex-col gap-1 text-[11px]">
                           <a
