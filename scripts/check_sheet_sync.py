@@ -348,7 +348,8 @@ def apply_sync(results, file_map):
         build_database(validate_only=False)
     except Exception as e:
         log_warn(f"Build pipeline import waarschuwing ({e}), fallback naar subprocess:")
-        os.system(f"python3 {os.path.join(BASE_DIR, 'scripts', 'build_database.py')}")
+        build_py = os.path.join(BASE_DIR, 'scripts', 'build_database.py')
+        os.system(f'python3 "{build_py}"')
 
     # Synchronize app/src/data/all_exercises.json
     dist_all = os.path.join(DIST_DIR, "all_exercises.json")

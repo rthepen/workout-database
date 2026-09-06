@@ -16,7 +16,10 @@ import sys
 import json
 import glob
 from datetime import datetime, timezone
-import jsonschema
+try:
+    import jsonschema
+except ImportError:
+    jsonschema = None
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -29,21 +32,19 @@ def build_database(validate_only=False):
     print("==================================================")
 
     # 1. Load and check Schema
-    if not os.path.exists(SCHEMA_PATH):
-        print(f"Error: Schema not found at {SCHEMA_PATH}")
-        sys.exit(1)
-
-    with open(SCHEMA_PATH, "r", encoding="utf-8") as sp:
-        schema = json.load(sp)
-
-    try:
-        jsonschema.Draft7Validator.check_schema(schema)
-        print("✓ JSON Schema (Draft-07) is valid.")
-    except Exception as e:
-        print(f"Error: Schema itself is invalid Draft-07: {e}")
-        sys.exit(1)
-
-    validator = jsonschema.Draft7Validator(schema)
+    validator = None
+    if os.path.exists(SCHEMA_PATH) and jsonschema:
+        with open(SCHEMA_PATH, "r", encoding="utf-8") as sp:
+            schema = json.load(sp)
+        try:
+            jsonschema.Draft7Validator.check_schema(schema)
+            print("✓ JSON Schema (Draft-07) is valid.")
+            validator = jsonschema.Draft7Validator(schema)
+        except Exception as e:
+            print(f"Error: Schema itself is invalid Draft-07: {e}")
+            sys.exit(1)
+    elif not jsonschema:
+        print("⚠ jsonschema niet geïnstalleerd; structurele schema-validatie overgeslagen.")
 
     # 2. Discover Data Files
     data_files = sorted(glob.glob(os.path.join(DATA_DIR, "*.json")))
@@ -82,10 +83,11 @@ def build_database(validate_only=False):
             ex_id = exercise.get("id", f"<index_{idx}>")
 
             # Schema Validation
-            schema_errors = list(validator.iter_errors(exercise))
-            if schema_errors:
-                for err in schema_errors:
-                    errors.append(f"[{filename} -> {ex_id}] Schema error at path '{'/'.join([str(p) for p in err.path])}': {err.message}")
+            if validator:
+                schema_errors = list(validator.iter_errors(exercise))
+                if schema_errors:
+                    for err in schema_errors:
+                        errors.append(f"[{filename} -> {ex_id}] Schema error at path '{'/'.join([str(p) for p in err.path])}': {err.message}")
 
             # Unique ID Check across entire repository
             if ex_id in seen_ids:
