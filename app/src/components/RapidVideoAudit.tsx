@@ -446,6 +446,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         onUpdateReplacementMetadata={handleUpdateReplacementMetadata}
         onSaveBatch={onSaveBatch}
         onSwitchToListView={() => handleSetLayout('list')}
+        onResetDecisions={handleResetDecisions}
         materialsList={materialsList}
       />
     );

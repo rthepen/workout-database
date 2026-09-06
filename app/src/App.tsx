@@ -217,15 +217,17 @@ export function App() {
   };
 
   // Batch Save changes (from Rapid Video Audit or bulk operations)
-  const handleSaveBatch = async (updatedExercises: Exercise[]) => {
-    const updateMap = new Map(updatedExercises.map(e => [e.id, e]));
+  const handleSaveBatch = async (changedExercises: Exercise[]) => {
+    if (!changedExercises || changedExercises.length === 0) return;
+
+    const updateMap = new Map(changedExercises.map(e => [e.id, e]));
     const updatedList = exercises.map(e => updateMap.get(e.id) || e);
     setExercises(updatedList);
     saveExercisesToLocal(updatedList);
     setHasLocalEdits(true);
 
-    // Fire backup to Google Sheet webhook
-    const res = await sendExerciseBackupToGoogleSheet(updatedExercises);
+    // Fire backup to Google Sheet webhook - ONLY for the modified exercises!
+    const res = await sendExerciseBackupToGoogleSheet(changedExercises);
     if (!res.success) {
       console.warn('Batch backup warning:', res.error);
     }

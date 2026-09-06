@@ -50,6 +50,7 @@ interface SwipeVideoAuditProps {
   onUpdateReplacementMetadata: (exerciseId: string, updates: Partial<ReplacementData>) => void;
   onSaveBatch: (updatedExercises: Exercise[]) => Promise<void>;
   onSwitchToListView: () => void;
+  onResetDecisions?: () => void;
   materialsList: { id: string; name: { en: string; nl: string } }[];
 }
 
@@ -63,6 +64,7 @@ export const SwipeVideoAudit: React.FC<SwipeVideoAuditProps> = ({
   onUpdateReplacementMetadata,
   onSaveBatch,
   onSwitchToListView,
+  onResetDecisions,
   materialsList,
 }) => {
   // Local filter states
@@ -218,16 +220,19 @@ export const SwipeVideoAudit: React.FC<SwipeVideoAuditProps> = ({
     return Object.keys(decisions).length + replacementMap.size;
   }, [decisions, replacementMap]);
 
-  // Batch Save handler
+  // Batch Save handler (sends ONLY modified exercises)
   const handleTriggerSave = async () => {
     if (totalModifications === 0) return;
     setIsSubmitting(true);
     try {
-      const updatedExercises = exercises.map((ex) => {
+      const updatedExercises: Exercise[] = [];
+      const now = new Date().toISOString();
+
+      exercises.forEach((ex) => {
         const hasDecision = decisions[ex.id];
         const rep = replacements[ex.id];
 
-        // Replacement takes priority
+        // 1. Replacement takes priority
         if (rep && rep.youtubeId && rep.youtubeId.length === 11) {
           const newVideo: VideoMedia = {
             youtube_id: rep.youtubeId,
@@ -240,49 +245,57 @@ export const SwipeVideoAudit: React.FC<SwipeVideoAuditProps> = ({
             channel: rep.channel,
             likes: rep.likes,
           };
-          return {
+          updatedExercises.push({
             ...ex,
             media: {
               ...ex.media,
               videos: [newVideo, ...(ex.media?.videos?.slice(1) || [])],
             },
-          };
+            meta: {
+              ...ex.meta,
+              updated_at: now,
+            },
+          });
         }
-
-        // Removal decision
-        if (hasDecision === 'remove') {
-          return {
+        // 2. Removal decision
+        else if (hasDecision === 'remove') {
+          updatedExercises.push({
             ...ex,
             media: {
               ...ex.media,
               videos: [],
             },
-          };
+            meta: {
+              ...ex.meta,
+              updated_at: now,
+            },
+          });
         }
-
-        // OK decision
-        if (hasDecision === 'ok') {
+        // 3. OK decision
+        else if (hasDecision === 'ok') {
           const primary = ex.media?.videos?.[0];
           if (primary) {
-            return {
+            updatedExercises.push({
               ...ex,
-              media: {
-                ...ex.media,
-                videos: [
-                  {
-                    ...primary,
-                  },
-                  ...(ex.media?.videos?.slice(1) || []),
-                ],
+              meta: {
+                ...ex.meta,
+                updated_at: now,
               },
-            };
+            });
           }
         }
-
-        return ex;
       });
 
+      if (updatedExercises.length === 0) return;
+
+      // Send ONLY the modified exercises
       await onSaveBatch(updatedExercises);
+
+      // Reset decisions & replacements so they are not repeatedly resent
+      if (onResetDecisions) {
+        onResetDecisions();
+      }
+
       confetti({
         particleCount: 80,
         spread: 70,
