@@ -150,10 +150,14 @@
       "videos": [
         {
           "youtube_id": "uoS-ZzKthpY",
-          "type": "standard",
+          "type": "short",
           "priority": 1,
           "language": "en",
-          "start_seconds": 0
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 12,
+          "channel": "WE ARE ATHLETIC TV",
+          "likes": 4
         }
       ]
     },
@@ -235,10 +239,14 @@
       "videos": [
         {
           "youtube_id": "AxN3fojxUxc",
-          "type": "standard",
+          "type": "short",
           "priority": 1,
           "language": "en",
-          "start_seconds": 0
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 22,
+          "channel": "Functional Fitness Workouts",
+          "likes": 1
         }
       ]
     },
@@ -551,7 +559,11 @@
           "youtube_id": "_yeYZZZEfx0",
           "type": "standard",
           "priority": 1,
-          "language": "en"
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 806,
+          "channel": "Ironboy Experience",
+          "likes": 363
         }
       ]
     },
@@ -782,10 +794,14 @@
       "videos": [
         {
           "youtube_id": "KxTcx7G4QQ0",
-          "type": "standard",
+          "type": "short",
           "priority": 1,
           "language": "en",
-          "start_seconds": 0
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 15,
+          "channel": "Martial Lee - Vegan Roundhouse Kicks",
+          "likes": 788
         }
       ]
     },
@@ -1389,7 +1405,11 @@
           "youtube_id": "UP_n0X_An2Q",
           "type": "standard",
           "priority": 1,
-          "language": "en"
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 686,
+          "channel": "UFC FIGHT STATS",
+          "likes": 1201
         }
       ]
     },
@@ -1468,7 +1488,9 @@
           "youtube_id": "y6lW-GmjhvQ",
           "type": "standard",
           "priority": 1,
-          "language": "en"
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "channel": "DAREBEE"
         }
       ]
     },
