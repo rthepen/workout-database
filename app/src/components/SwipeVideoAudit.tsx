@@ -39,7 +39,7 @@ export interface ReplacementData {
 
 export type VideoStatusDecision = 'ok' | 'remove';
 
-interface TikTokVideoAuditProps {
+interface SwipeVideoAuditProps {
   exercises: Exercise[];
   decisions: Record<string, VideoStatusDecision>;
   onSetDecision: (exerciseId: string, decision: VideoStatusDecision) => void;
@@ -52,7 +52,7 @@ interface TikTokVideoAuditProps {
   materialsList: { id: string; name: { en: string; nl: string } }[];
 }
 
-export const TikTokVideoAudit: React.FC<TikTokVideoAuditProps> = ({
+export const SwipeVideoAudit: React.FC<SwipeVideoAuditProps> = ({
   exercises,
   decisions,
   onSetDecision,
@@ -336,7 +336,7 @@ export const TikTokVideoAudit: React.FC<TikTokVideoAuditProps> = ({
 
             <div className="flex items-center gap-1.5 px-2 py-1 rounded-xl bg-purple-950/80 border border-purple-500/50 text-purple-200 text-xs font-bold">
               <Smartphone className="w-3.5 h-3.5 text-purple-400" />
-              <span>📱 TikTok Audit</span>
+              <span>📱 Swipe Audit</span>
             </div>
           </div>
 
@@ -537,7 +537,7 @@ export const TikTokVideoAudit: React.FC<TikTokVideoAuditProps> = ({
                   )}
                 </div>
 
-                {/* 3. Right Floating Action Bar (ALWAYS VISIBLE IN TIKTOK STYLE) */}
+                {/* 3. Right Floating Action Bar (ALWAYS VISIBLE) */}
                 <div className="absolute right-3 sm:right-6 bottom-32 sm:bottom-28 z-30 flex flex-col items-center gap-3.5 pointer-events-auto">
                   {/* Approve Checkmark Button */}
                   <div className="flex flex-col items-center gap-1">

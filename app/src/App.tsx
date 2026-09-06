@@ -357,7 +357,7 @@ export function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 p-3 sm:p-6 pb-24 overflow-y-auto">
-        {viewMode === 'rapid_audit' || viewMode === 'tiktok_audit' ? (
+        {viewMode === 'rapid_audit' || viewMode === 'swipe_audit' ? (
           <RapidVideoAudit
             exercises={exercises}
             onSaveBatch={handleSaveBatch}
@@ -366,9 +366,9 @@ export function App() {
               setViewMode('single');
             }}
             materialsList={materialsList}
-            initialLayout={viewMode === 'tiktok_audit' ? 'tiktok' : 'list'}
+            initialLayout={viewMode === 'swipe_audit' ? 'swipe' : 'list'}
             onLayoutChange={(layout) => {
-              setViewMode(layout === 'tiktok' ? 'tiktok_audit' : 'rapid_audit');
+              setViewMode(layout === 'swipe' ? 'swipe_audit' : 'rapid_audit');
             }}
           />
         ) : filteredAndSortedExercises.length === 0 ? (

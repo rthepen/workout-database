@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Database, CheckCircle2, Clock, Video, RefreshCw, FileSpreadsheet, Menu, X, Plus, Send, Zap, Layers, Smartphone } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
 
-export type ViewMode = 'single' | 'rapid_audit' | 'tiktok_audit';
+export type ViewMode = 'single' | 'rapid_audit' | 'swipe_audit';
 
 interface HeaderProps {
   exercises: Exercise[];
@@ -72,15 +72,15 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Audit</span>
             </button>
             <button
-              onClick={() => onViewModeChange('tiktok_audit')}
+              onClick={() => onViewModeChange('swipe_audit')}
               className={`px-2 py-1 rounded font-medium flex items-center gap-1 transition ${
-                viewMode === 'tiktok_audit'
+                viewMode === 'swipe_audit'
                   ? 'bg-purple-600/30 text-purple-300 border border-purple-500/50 shadow-sm'
                   : 'text-slate-400 hover:text-purple-300'
               }`}
             >
               <Smartphone className="w-3 h-3 text-purple-400" />
-              <span>TikTok</span>
+              <span>Swipe</span>
             </button>
           </div>
         </div>
@@ -218,16 +218,16 @@ export const Header: React.FC<HeaderProps> = ({
             <span>⚡ Snelle Video Audit</span>
           </button>
           <button
-            onClick={() => onViewModeChange('tiktok_audit')}
+            onClick={() => onViewModeChange('swipe_audit')}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition ${
-              viewMode === 'tiktok_audit'
+              viewMode === 'swipe_audit'
                 ? 'bg-purple-600/30 text-purple-300 border border-purple-500/50 shadow-sm'
                 : 'text-slate-400 hover:text-purple-300'
             }`}
-            title="Mobiele TikTok / Reels swipe-weergave met altijd zichtbare actieknoppen"
+            title="Mobiele swipe-weergave met altijd zichtbare actieknoppen"
           >
             <Smartphone className="w-3.5 h-3.5 text-purple-400" />
-            <span>📱 TikTok Feed</span>
+            <span>📱 Swipe Feed</span>
           </button>
         </div>
 
