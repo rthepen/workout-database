@@ -287,8 +287,8 @@ export async function fetchYouTubeOEmbed(idOrUrl: string): Promise<YouTubeOEmbed
 }
 
 /**
- * Opens the native YouTube app directly on mobile (iOS/Android) without opening a new browser tab first.
- * Falls back to web URL on desktop or if native app is not installed.
+ * Opens the native YouTube app directly on mobile (iOS/Android) without opening a new browser tab
+ * and WITHOUT replacing the current webapp tab when switching back.
  */
 export function openYouTubeSearchApp(query: string): void {
   const cleanQuery = query.trim();
@@ -298,29 +298,30 @@ export function openYouTubeSearchApp(query: string): void {
   const isAndroid = /android/i.test(userAgent);
 
   if (isIOS) {
-    // Direct iOS YouTube App URL scheme (no new tab opened)
+    // Direct iOS YouTube App URL scheme.
+    // Trigger via a temporary anchor element so Safari opens the app without navigating the current web page.
     const appUrl = `youtube://www.youtube.com/results?search_query=${encodedQuery}`;
-    const webUrl = `https://www.youtube.com/results?search_query=${encodedQuery}`;
-
-    window.location.href = appUrl;
-
-    const start = Date.now();
-    setTimeout(() => {
-      // If user remained in browser (app didn't take focus), fallback to web
-      if (Date.now() - start < 1500) {
-        window.location.href = webUrl;
-      }
-    }, 700);
+    const link = document.createElement('a');
+    link.href = appUrl;
+    link.rel = 'noreferrer';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     return;
   }
 
   if (isAndroid) {
-    // Direct Android Intent to open the YouTube native app
+    // Direct Android Intent to open the YouTube native app without navigating away
     const intentUrl = `intent://www.youtube.com/results?search_query=${encodedQuery}#Intent;package=com.google.android.youtube;scheme=https;end`;
-    window.location.href = intentUrl;
+    const link = document.createElement('a');
+    link.href = intentUrl;
+    link.rel = 'noreferrer';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     return;
   }
 
-  // Desktop or fallback
+  // Desktop: open in a new tab so current webapp workspace is untouched
   window.open(`https://www.youtube.com/results?search_query=${encodedQuery}`, '_blank', 'noreferrer');
 }
