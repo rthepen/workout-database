@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Header } from './components/Header';
 import { SingleWorkoutCard } from './components/SingleWorkoutCard';
+import { RapidVideoAudit } from './components/RapidVideoAudit';
 import { MobileAuditFilterDrawer } from './components/MobileAuditFilterDrawer';
 import type { SortOrderType } from './components/MobileAuditFilterDrawer';
 import type { AuditFilterType } from './components/AuditQueue';
@@ -21,6 +22,7 @@ export function App() {
   const [isLive, setIsLive] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [hasLocalEdits, setHasLocalEdits] = useState<boolean>(false);
+  const [viewMode, setViewMode] = useState<'single' | 'rapid_audit'>('single');
 
   // Filter & Queue State
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -214,6 +216,21 @@ export function App() {
     }
   };
 
+  // Batch Save changes (from Rapid Video Audit or bulk operations)
+  const handleSaveBatch = async (updatedExercises: Exercise[]) => {
+    const updateMap = new Map(updatedExercises.map(e => [e.id, e]));
+    const updatedList = exercises.map(e => updateMap.get(e.id) || e);
+    setExercises(updatedList);
+    saveExercisesToLocal(updatedList);
+    setHasLocalEdits(true);
+
+    // Fire backup to Google Sheet webhook
+    const res = await sendExerciseBackupToGoogleSheet(updatedExercises);
+    if (!res.success) {
+      console.warn('Batch backup warning:', res.error);
+    }
+  };
+
   // Action: Approve & Advance to next workout in queue
   const handleApproveExercise = (approvedExercise: Exercise) => {
     const today = new Date().toISOString();
@@ -328,6 +345,8 @@ export function App() {
         exercises={exercises}
         modifiedCount={modifiedExercises.length}
         isLive={isLive}
+        viewMode={viewMode}
+        onViewModeChange={setViewMode}
         onRefresh={() => loadData(true)}
         onOpenBatchModal={() => setIsContributionModalOpen(true)}
         onOpenSheetSettings={() => setIsSheetSettingsOpen(true)}
@@ -336,9 +355,19 @@ export function App() {
         hasLocalEdits={hasLocalEdits}
       />
 
-      {/* Main Single Workout View (Responsive Mobile & Desktop) */}
+      {/* Main Content Area */}
       <main className="flex-1 p-3 sm:p-6 pb-24 overflow-y-auto">
-        {filteredAndSortedExercises.length === 0 ? (
+        {viewMode === 'rapid_audit' ? (
+          <RapidVideoAudit
+            exercises={exercises}
+            onSaveBatch={handleSaveBatch}
+            onSelectExerciseToView={(exerciseId) => {
+              setActiveExerciseId(exerciseId);
+              setViewMode('single');
+            }}
+            materialsList={materialsList}
+          />
+        ) : filteredAndSortedExercises.length === 0 ? (
           <div className="max-w-md mx-auto my-12 p-8 text-center bg-slate-900 border border-slate-800 rounded-2xl space-y-4">
             <Filter className="w-10 h-10 text-slate-600 mx-auto" />
             <h2 className="text-base font-bold text-white">No exercises found</h2>

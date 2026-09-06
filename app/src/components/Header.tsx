@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Database, CheckCircle2, Clock, Video, RefreshCw, FileSpreadsheet, Menu, X, Plus, Send } from 'lucide-react';
+import { Database, CheckCircle2, Clock, Video, RefreshCw, FileSpreadsheet, Menu, X, Plus, Send, Zap, Layers } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
 
 interface HeaderProps {
   exercises: Exercise[];
   modifiedCount: number;
   isLive: boolean;
+  viewMode: 'single' | 'rapid_audit';
+  onViewModeChange: (mode: 'single' | 'rapid_audit') => void;
   onRefresh: () => void;
   onOpenBatchModal: () => void;
   onOpenSheetSettings: () => void;
@@ -18,6 +20,8 @@ export const Header: React.FC<HeaderProps> = ({
   exercises,
   modifiedCount,
   isLive,
+  viewMode,
+  onViewModeChange,
   onRefresh,
   onOpenBatchModal,
   onOpenSheetSettings,
@@ -39,11 +43,33 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="sticky top-0 z-30 border-b border-slate-800 bg-[#0B0F17]/95 backdrop-blur-md px-3 sm:px-6 py-2.5">
       {/* Mobile Ultra-Compact Header Row */}
       <div className="flex items-center justify-between lg:hidden">
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-500 to-emerald-700 flex items-center justify-center shadow-md shadow-brand-500/20 ring-1 ring-white/20">
             <Database className="w-4 h-4 text-white" />
           </div>
-          <h1 className="font-bold text-sm text-white tracking-tight leading-none">Workout Database</h1>
+          <div className="flex items-center bg-slate-900 border border-slate-800 rounded-lg p-0.5 text-[11px]">
+            <button
+              onClick={() => onViewModeChange('single')}
+              className={`px-2 py-1 rounded font-medium transition ${
+                viewMode === 'single'
+                  ? 'bg-slate-700 text-white shadow-sm'
+                  : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              Kaart
+            </button>
+            <button
+              onClick={() => onViewModeChange('rapid_audit')}
+              className={`px-2 py-1 rounded font-medium flex items-center gap-1 transition ${
+                viewMode === 'rapid_audit'
+                  ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
+                  : 'text-slate-400 hover:text-amber-300'
+              }`}
+            >
+              <Zap className="w-3 h-3 text-amber-400" />
+              <span>Audit</span>
+            </button>
+          </div>
         </div>
 
         <div className="flex items-center gap-1.5">
@@ -150,6 +176,34 @@ export const Header: React.FC<HeaderProps> = ({
               Audit & Beheer Workspace • Alle bewerkingen gaan direct naar de centrale Google Sheet
             </p>
           </div>
+        </div>
+
+        {/* View Switcher Pill */}
+        <div className="flex items-center bg-slate-900/90 border border-slate-800 p-1 rounded-xl shadow-inner">
+          <button
+            onClick={() => onViewModeChange('single')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition ${
+              viewMode === 'single'
+                ? 'bg-slate-700 text-white shadow-sm'
+                : 'text-slate-400 hover:text-slate-200'
+            }`}
+            title="Individuele kaart per workout"
+          >
+            <Layers className="w-3.5 h-3.5" />
+            <span>Kaart Weergave</span>
+          </button>
+          <button
+            onClick={() => onViewModeChange('rapid_audit')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition ${
+              viewMode === 'rapid_audit'
+                ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm'
+                : 'text-slate-400 hover:text-amber-300'
+            }`}
+            title="Snelle auditlijst om massaal foute video's te verwijderen"
+          >
+            <Zap className="w-3.5 h-3.5 text-amber-400" />
+            <span>⚡ Snelle Video Audit</span>
+          </button>
         </div>
 
         {/* Real-time stats & controls */}
