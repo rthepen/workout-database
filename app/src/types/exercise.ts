@@ -42,6 +42,12 @@ export interface VideoMedia {
   rating?: number; // Video rating (1..5 stars)
   thumbnail_rating?: number; // Thumbnail rating (1..5 stars)
   custom_thumbnail_url?: string;
+  // Extended video metadata
+  aspect_ratio?: '16:9' | '9:16' | '1:1' | '4:3' | string;
+  duration_seconds?: number;
+  channel?: string;
+  likes?: number;
+  view_count?: number;
 }
 
 export interface ImageMedia {

@@ -226,3 +226,62 @@ export function parseYouTubeId(input: string): string | null {
   const match = trimmed.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=|shorts\/))([a-zA-Z0-9_-]{11})/);
   return match ? match[1] : null;
 }
+
+export function isYouTubeShort(input: string): boolean {
+  return input.includes('/shorts/');
+}
+
+export interface YouTubeOEmbedResult {
+  title?: string;
+  channelTitle?: string;
+  thumbnailUrl?: string;
+  aspectRatio?: '16:9' | '9:16' | string;
+  isShort?: boolean;
+}
+
+export async function fetchYouTubeOEmbed(idOrUrl: string): Promise<YouTubeOEmbedResult | null> {
+  const id = parseYouTubeId(idOrUrl);
+  if (!id) return null;
+  const isShort = isYouTubeShort(idOrUrl);
+
+  // Try noembed.com first (CORS friendly)
+  try {
+    const res = await fetch(`https://noembed.com/embed?url=https://www.youtube.com/watch?v=${id}`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data && data.author_name) {
+        return {
+          title: data.title,
+          channelTitle: data.author_name,
+          thumbnailUrl: data.thumbnail_url,
+          isShort,
+          aspectRatio: isShort ? '9:16' : '16:9',
+        };
+      }
+    }
+  } catch {
+    // Ignore and proceed to fallback
+  }
+
+  // Fallback to youtube oembed
+  try {
+    const res = await fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${id}&format=json`);
+    if (res.ok) {
+      const data = await res.json();
+      return {
+        title: data.title,
+        channelTitle: data.author_name,
+        thumbnailUrl: data.thumbnail_url,
+        isShort,
+        aspectRatio: isShort ? '9:16' : '16:9',
+      };
+    }
+  } catch {
+    // Fallback
+  }
+
+  return {
+    isShort,
+    aspectRatio: isShort ? '9:16' : '16:9',
+  };
+}

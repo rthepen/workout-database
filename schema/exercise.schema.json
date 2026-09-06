@@ -267,6 +267,30 @@
               "custom_thumbnail_url": {
                 "type": "string",
                 "description": "Optional custom thumbnail image URL."
+              },
+              "aspect_ratio": {
+                "type": "string",
+                "enum": ["16:9", "9:16", "1:1", "4:3"],
+                "description": "Video display aspect ratio (e.g. 16:9 for standard widescreen, 9:16 for vertical Shorts)."
+              },
+              "duration_seconds": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Total playback runtime duration in seconds."
+              },
+              "channel": {
+                "type": "string",
+                "description": "YouTube channel or creator name."
+              },
+              "likes": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Number of public YouTube likes."
+              },
+              "view_count": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Total public YouTube view count."
               }
             }
           }

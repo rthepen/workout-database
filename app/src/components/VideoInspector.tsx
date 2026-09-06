@@ -19,7 +19,10 @@ import {
   FastForward,
   Rewind,
   Flame,
-  Star
+  Star,
+  User,
+  ThumbsUp,
+  Smartphone
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId } from '../services/youtubeService';
@@ -197,6 +200,17 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
       updated[videoIndex] = {
         ...updated[videoIndex],
         thumbnail_rating: rating,
+      };
+      onUpdateVideos(updated);
+    }
+  };
+
+  const handleUpdateActiveVideoField = (field: keyof VideoMedia, value: any) => {
+    const updated = [...videos];
+    if (updated[selectedVideoIndex]) {
+      updated[selectedVideoIndex] = {
+        ...updated[selectedVideoIndex],
+        [field]: value,
       };
       onUpdateVideos(updated);
     }
@@ -586,6 +600,82 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
                       />
                     </button>
                   ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Extended Video Metadata (Short/Standard, Duration, Channel, Likes) */}
+            <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 space-y-2.5">
+              <div className="text-xs font-bold text-white flex items-center justify-between">
+                <span className="flex items-center gap-1">
+                  <Smartphone className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>Video Specificaties & Metadata</span>
+                </span>
+                <span className="text-[10px] text-slate-500 font-mono">
+                  {activeVideo.type === 'short' ? 'Vertical 9:16' : 'Widescreen 16:9'}
+                </span>
+              </div>
+
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+                <div>
+                  <label className="text-[10px] text-slate-400 uppercase font-semibold block mb-0.5">
+                    Formaat
+                  </label>
+                  <select
+                    value={activeVideo.type || 'standard'}
+                    onChange={(e) => {
+                      const newType = e.target.value as 'standard' | 'short';
+                      handleUpdateActiveVideoField('type', newType);
+                      handleUpdateActiveVideoField('aspect_ratio', newType === 'short' ? '9:16' : '16:9');
+                    }}
+                    className="w-full bg-slate-950 border border-slate-700 text-white rounded-lg px-2 py-1 text-xs"
+                  >
+                    <option value="standard">📺 16:9 Standaard</option>
+                    <option value="short">📱 9:16 Short</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="text-[10px] text-slate-400 uppercase font-semibold block mb-0.5">
+                    Afspeelduur (s)
+                  </label>
+                  <input
+                    type="number"
+                    min="0"
+                    value={activeVideo.duration_seconds || ''}
+                    onChange={(e) => handleUpdateActiveVideoField('duration_seconds', e.target.value ? parseInt(e.target.value) : undefined)}
+                    placeholder="bijv. 45"
+                    className="w-full bg-slate-950 border border-slate-700 text-white rounded-lg px-2 py-1 text-xs"
+                  />
+                </div>
+
+                <div>
+                  <label className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1 mb-0.5">
+                    <User className="w-3 h-3 text-sky-400" />
+                    <span>Kanaal</span>
+                  </label>
+                  <input
+                    type="text"
+                    value={activeVideo.channel || ''}
+                    onChange={(e) => handleUpdateActiveVideoField('channel', e.target.value)}
+                    placeholder="Creator / Kanaal"
+                    className="w-full bg-slate-950 border border-slate-700 text-white rounded-lg px-2 py-1 text-xs"
+                  />
+                </div>
+
+                <div>
+                  <label className="text-[10px] text-slate-400 uppercase font-semibold flex items-center gap-1 mb-0.5">
+                    <ThumbsUp className="w-3 h-3 text-emerald-400" />
+                    <span>Aantal Likes</span>
+                  </label>
+                  <input
+                    type="number"
+                    min="0"
+                    value={activeVideo.likes || ''}
+                    onChange={(e) => handleUpdateActiveVideoField('likes', e.target.value ? parseInt(e.target.value) : undefined)}
+                    placeholder="bijv. 2500"
+                    className="w-full bg-slate-950 border border-slate-700 text-white rounded-lg px-2 py-1 text-xs"
+                  />
                 </div>
               </div>
             </div>
