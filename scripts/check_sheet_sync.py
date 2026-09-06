@@ -76,23 +76,38 @@ def fetch_sheet_rows(webhook_url=DEFAULT_WEBHOOK_URL, input_file=None):
                         "start_seconds": r[8] if len(r) > 8 else "",
                         "rating": r[9] if len(r) > 9 else "",
                         "user_fingerprint": r[10] if len(r) > 10 else "",
-                        "raw_payload": r[11] if len(r) > 11 else (r[10] if len(r) > 10 else "")
+                        "raw_payload": r[12] if len(r) > 12 else (r[11] if len(r) > 11 else (r[10] if len(r) > 10 else ""))
                     })
                 return rows
 
     log_info(f"Live verbinding maken met Google Sheet via Webhook URL...")
-    req = urllib.request.Request(webhook_url, headers={"User-Agent": "WorkoutDB-Sync-Tool/1.0"})
+    # Fetch CSV format to guarantee full 13-column access including raw_payload in column 12
+    csv_url = webhook_url if "format=csv" in webhook_url else (webhook_url + ("&" if "?" in webhook_url else "?") + "format=csv")
+    req = urllib.request.Request(csv_url, headers={"User-Agent": "WorkoutDB-Sync-Tool/1.0"})
     try:
-        with urllib.request.urlopen(req, timeout=20) as response:
-            res_body = response.read().decode("utf-8")
-            data = json.loads(res_body)
-            if data.get("success"):
-                rows = data.get("rows", [])
-                log_success(f"{len(rows)} rijen succesvol opgehaald uit de Google Sheet.")
-                return rows
-            else:
-                log_error(f"Fout gerapporteerd door webhook: {data}")
-                sys.exit(1)
+        with urllib.request.urlopen(req, timeout=25) as response:
+            import csv
+            content = response.read().decode("utf-8")
+            reader = csv.reader(content.splitlines())
+            header = next(reader, [])
+            rows = []
+            for r in reader:
+                rows.append({
+                    "timestamp": r[0] if len(r) > 0 else "",
+                    "id": r[1] if len(r) > 1 else "",
+                    "name": r[2] if len(r) > 2 else "",
+                    "material": r[3] if len(r) > 3 else "",
+                    "category": r[4] if len(r) > 4 else "",
+                    "difficulty": r[5] if len(r) > 5 else "",
+                    "video_count": r[6] if len(r) > 6 else "",
+                    "video_id": r[7] if len(r) > 7 else "",
+                    "start_seconds": r[8] if len(r) > 8 else "",
+                    "rating": r[9] if len(r) > 9 else "",
+                    "user_fingerprint": r[10] if len(r) > 10 else "",
+                    "raw_payload": r[12] if len(r) > 12 else (r[11] if len(r) > 11 else (r[10] if len(r) > 10 else ""))
+                })
+            log_success(f"{len(rows)} rijen succesvol opgehaald uit de Google Sheet.")
+            return rows
     except Exception as e:
         log_error(f"Kon Google Sheet niet bereiken via webhook: {e}")
         log_info("Tip: Controleer je internetverbinding of gebruik --file <pad/naar/export.csv>")
@@ -107,8 +122,17 @@ def parse_sheet_exercises(rows):
         if isinstance(raw_payload, str) and raw_payload.strip().startswith("{"):
             try:
                 payload_data = json.loads(raw_payload.strip())
-                if "exercises" in payload_data and isinstance(payload_data["exercises"], list) and len(payload_data["exercises"]) > 0:
-                    exercise_obj = payload_data["exercises"][0]
+                # If batch payload containing multiple exercises, unpack all of them!
+                if "exercises" in payload_data and isinstance(payload_data["exercises"], list):
+                    for ex_item in payload_data["exercises"]:
+                        ex_id = ex_item.get("id")
+                        if ex_id and not ex_id.startswith("test"):
+                            latest_by_id[ex_id] = {
+                                "exercise": ex_item,
+                                "timestamp": r.get("timestamp") or payload_data.get("timestamp") or "",
+                                "raw_row": r
+                            }
+                    continue
                 elif "id" in payload_data:
                     exercise_obj = payload_data
             except Exception:
