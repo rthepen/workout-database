@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import { 
   CheckCircle2, 
   XCircle, 
@@ -23,7 +23,9 @@ import {
   Clock,
   User,
   VolumeX,
-  Volume2
+  Volume2,
+  Dumbbell,
+  Film
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed } from '../services/youtubeService';
@@ -37,6 +39,9 @@ interface RapidVideoAuditProps {
 }
 
 type VideoStatusDecision = 'ok' | 'remove';
+
+export type VideoFormatFilter = 'all' | 'normal' | 'short' | 'no_video';
+export type AuditStatusFilter = 'all' | 'pending' | 'ok' | 'remove' | 'replaced';
 
 interface ReplacementData {
   rawInput: string;
@@ -59,7 +64,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   // Filters & Global Settings
   const [selectedMaterial, setSelectedMaterial] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [videoFilter, setVideoFilter] = useState<'with_videos' | 'all' | 'no_videos'>('with_videos');
+  const [videoFormatFilter, setVideoFormatFilter] = useState<VideoFormatFilter>('all');
+  const [statusFilter, setStatusFilter] = useState<AuditStatusFilter>('all');
   const [expandedInstructions, setExpandedInstructions] = useState<Record<string, boolean>>({});
   const [autoplayEnabled, setAutoplayEnabled] = useState<boolean>(true);
 
@@ -72,37 +78,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [playingVideoId, setPlayingVideoId] = useState<string | null>(null);
 
-  // Filtered Exercises
-  const filteredExercises = useMemo(() => {
-    return exercises.filter((ex) => {
-      // 1. Video presence filter
-      const videoCount = ex.media?.videos?.length || 0;
-      if (videoFilter === 'with_videos' && videoCount === 0) return false;
-      if (videoFilter === 'no_videos' && videoCount > 0) return false;
-
-      // 2. Material filter
-      if (selectedMaterial !== 'all') {
-        const matId = ex.material?.id;
-        if (matId !== selectedMaterial) return false;
-      }
-
-      // 3. Search query
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
-        const nameEn = ex.exercise_name?.en?.toLowerCase() || '';
-        const nameNl = ex.exercise_name?.nl?.toLowerCase() || '';
-        const cat = ((ex.category as any)?.nl || (ex.category as any)?.en || '').toLowerCase();
-        const id = ex.id.toLowerCase();
-        if (!nameEn.includes(q) && !nameNl.includes(q) && !cat.includes(q) && !id.includes(q)) {
-          return false;
-        }
-      }
-
-      return true;
-    });
-  }, [exercises, selectedMaterial, searchQuery, videoFilter]);
-
-  // Valid replacements list
+  // Valid replacements list & map
   const validReplacements = useMemo(() => {
     return Object.entries(replacements).filter(([, rep]) => rep.youtubeId && rep.youtubeId.length === 11);
   }, [replacements]);
@@ -110,6 +86,112 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   const replacementMap = useMemo(() => {
     return new Map(validReplacements);
   }, [validReplacements]);
+
+  // Helper to resolve active video format for any exercise
+  const getExerciseVideoFormat = useCallback((ex: Exercise): 'normal' | 'short' | 'no_video' => {
+    const rep = replacements[ex.id];
+    if (rep && rep.youtubeId && rep.youtubeId.length === 11) {
+      return (rep.type === 'short' || rep.aspectRatio === '9:16') ? 'short' : 'normal';
+    }
+    const primary = ex.media?.videos?.[0];
+    if (!primary || !primary.youtube_id) {
+      return 'no_video';
+    }
+    if (primary.type === 'short' || primary.aspect_ratio === '9:16') {
+      return 'short';
+    }
+    return 'normal';
+  }, [replacements]);
+
+  // Materials sorted by exercise count
+  const sortedMaterials = useMemo(() => {
+    const countMap = new Map<string, number>();
+    exercises.forEach(e => {
+      const id = e.material?.id || 'unknown';
+      countMap.set(id, (countMap.get(id) || 0) + 1);
+    });
+
+    return [...materialsList].sort((a, b) => {
+      const countA = countMap.get(a.id) || 0;
+      const countB = countMap.get(b.id) || 0;
+      return countB - countA;
+    });
+  }, [exercises, materialsList]);
+
+  // Live video format counts
+  const formatCounts = useMemo(() => {
+    let normal = 0;
+    let short = 0;
+    let no_video = 0;
+
+    exercises.forEach((ex) => {
+      if (selectedMaterial !== 'all' && ex.material?.id !== selectedMaterial) return;
+      const fmt = getExerciseVideoFormat(ex);
+      if (fmt === 'normal') normal++;
+      else if (fmt === 'short') short++;
+      else no_video++;
+    });
+
+    return {
+      all: normal + short + no_video,
+      normal,
+      short,
+      no_video,
+    };
+  }, [exercises, selectedMaterial, getExerciseVideoFormat]);
+
+  // Filtered Exercises
+  const filteredExercises = useMemo(() => {
+    return exercises.filter((ex) => {
+      // 1. Video format filter (normal vs short vs no_video vs all)
+      const fmt = getExerciseVideoFormat(ex);
+      if (videoFormatFilter === 'normal' && fmt !== 'normal') return false;
+      if (videoFormatFilter === 'short' && fmt !== 'short') return false;
+      if (videoFormatFilter === 'no_video' && fmt !== 'no_video') return false;
+
+      // 2. Status filter
+      if (statusFilter !== 'all') {
+        const hasRep = replacementMap.has(ex.id);
+        const dec = decisions[ex.id];
+        if (statusFilter === 'replaced' && !hasRep) return false;
+        if (statusFilter === 'ok' && (hasRep || dec !== 'ok')) return false;
+        if (statusFilter === 'remove' && (hasRep || dec !== 'remove')) return false;
+        if (statusFilter === 'pending' && (hasRep || dec === 'ok' || dec === 'remove')) return false;
+      }
+
+      // 3. Material / Equipment filter
+      if (selectedMaterial !== 'all') {
+        const matId = ex.material?.id;
+        if (matId !== selectedMaterial) return false;
+      }
+
+      // 4. Search query (matches exercise name, category, ID, and equipment name)
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase();
+        const nameEn = ex.exercise_name?.en?.toLowerCase() || '';
+        const nameNl = ex.exercise_name?.nl?.toLowerCase() || '';
+        const cat = ((ex.category as any)?.nl || (ex.category as any)?.en || '').toLowerCase();
+        const id = ex.id.toLowerCase();
+        const matNameEn = ex.material?.name?.en?.toLowerCase() || '';
+        const matNameNl = ex.material?.name?.nl?.toLowerCase() || '';
+        const matId = ex.material?.id?.toLowerCase() || '';
+
+        if (
+          !nameEn.includes(q) && 
+          !nameNl.includes(q) && 
+          !cat.includes(q) && 
+          !id.includes(q) &&
+          !matNameEn.includes(q) &&
+          !matNameNl.includes(q) &&
+          !matId.includes(q)
+        ) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  }, [exercises, selectedMaterial, searchQuery, videoFormatFilter, statusFilter, getExerciseVideoFormat, decisions, replacementMap]);
 
   // Decision counts
   const removeList = useMemo(() => {
@@ -402,87 +484,221 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
           </div>
         </div>
 
-        {/* Filter Bar */}
-        <div className="grid grid-cols-1 sm:grid-cols-12 gap-3">
-          {/* Live Search */}
-          <div className="sm:col-span-5 relative">
-            <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Zoek op oefening, categorie of ID..."
-              className="w-full pl-9 pr-3 py-2 bg-slate-950 border border-slate-800 text-xs text-slate-200 rounded-xl placeholder:text-slate-500 focus:outline-none focus:border-brand-500 transition"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery('')}
-                className="absolute right-2.5 top-2.5 text-xs text-slate-500 hover:text-white"
+        {/* Filter Controls */}
+        <div className="space-y-3">
+          {/* Row 1: Search, Equipment Dropdown, and Status Filter */}
+          <div className="grid grid-cols-1 sm:grid-cols-12 gap-2.5">
+            {/* Live Search */}
+            <div className="sm:col-span-5 relative">
+              <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Zoek op oefening, apparaat, categorie..."
+                className="w-full pl-9 pr-8 py-2 bg-slate-950 border border-slate-800 text-xs text-slate-200 rounded-xl placeholder:text-slate-500 focus:outline-none focus:border-brand-500 transition"
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-2.5 top-2.5 text-xs text-slate-500 hover:text-white"
+                  title="Wis zoekopdracht"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* Equipment / Apparatus Dropdown */}
+            <div className="sm:col-span-4 relative flex items-center">
+              <Dumbbell className="w-3.5 h-3.5 text-slate-500 absolute left-3 pointer-events-none" />
+              <select
+                value={selectedMaterial}
+                onChange={(e) => setSelectedMaterial(e.target.value)}
+                className={`w-full pl-8 pr-7 py-2 bg-slate-950 border text-xs rounded-xl focus:outline-none focus:border-brand-500 transition ${
+                  selectedMaterial !== 'all' ? 'border-brand-500/70 text-brand-300 font-semibold' : 'border-slate-800 text-slate-200'
+                }`}
               >
-                ✕
+                <option value="all">Alle Apparatuur ({exercises.length})</option>
+                {sortedMaterials.map((m) => {
+                  const count = exercises.filter(e => e.material?.id === m.id).length;
+                  return (
+                    <option key={m.id} value={m.id}>
+                      {m.name.nl || m.name.en} ({count})
+                    </option>
+                  );
+                })}
+              </select>
+              {selectedMaterial !== 'all' && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedMaterial('all')}
+                  className="absolute right-2 text-slate-400 hover:text-white text-xs"
+                  title="Reset apparaat filter"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* Audit Status Filter */}
+            <div className="sm:col-span-3">
+              <select
+                value={statusFilter}
+                onChange={(e) => setStatusFilter(e.target.value as AuditStatusFilter)}
+                className={`w-full px-3 py-2 bg-slate-950 border text-xs rounded-xl focus:outline-none focus:border-brand-500 transition ${
+                  statusFilter !== 'all' ? 'border-amber-500/70 text-amber-300 font-semibold' : 'border-slate-800 text-slate-200'
+                }`}
+              >
+                <option value="all">Alle Statussen ({exercises.length})</option>
+                <option value="pending">⏳ Nog te beoordelen</option>
+                <option value="ok">✔ Beoordeeld als OK ({okCount})</option>
+                <option value="remove">❌ Te verwijderen ({removeList.length})</option>
+                <option value="replaced">🔄 Vervangen ({validReplacements.length})</option>
+              </select>
+            </div>
+          </div>
+
+          {/* Row 2: Video Format Segmented Control (Normal 16:9 vs Shorts 9:16 vs Zonder vs Alles) */}
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 bg-slate-950/90 border border-slate-800/90 rounded-2xl p-1.5 shadow-inner">
+            <span className="text-[10px] font-extrabold tracking-wider uppercase text-slate-400 px-2 sm:border-r sm:border-slate-800 flex items-center gap-1">
+              <Film className="w-3 h-3 text-cyan-400 inline" />
+              <span>Video Type:</span>
+            </span>
+
+            <div className="flex items-center gap-1 flex-1 overflow-x-auto no-scrollbar">
+              <button
+                type="button"
+                onClick={() => setVideoFormatFilter('all')}
+                className={`flex-1 min-w-[90px] py-1.5 px-2.5 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition ${
+                  videoFormatFilter === 'all'
+                    ? 'bg-slate-800 text-white shadow-md border border-slate-600'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/60'
+                }`}
+              >
+                <span>🌐 Alles</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-900/80 font-mono text-slate-300">
+                  {formatCounts.all}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setVideoFormatFilter('normal')}
+                className={`flex-1 min-w-[125px] py-1.5 px-2.5 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition ${
+                  videoFormatFilter === 'normal'
+                    ? 'bg-sky-600 text-white shadow-md shadow-sky-600/30 border border-sky-400/50'
+                    : 'text-slate-400 hover:text-sky-300 hover:bg-sky-950/30'
+                }`}
+              >
+                <Tv className="w-3.5 h-3.5" />
+                <span>Normaal (16:9)</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-sky-950 font-mono text-sky-200 border border-sky-500/40">
+                  {formatCounts.normal}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setVideoFormatFilter('short')}
+                className={`flex-1 min-w-[110px] py-1.5 px-2.5 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition ${
+                  videoFormatFilter === 'short'
+                    ? 'bg-purple-600 text-white shadow-md shadow-purple-600/30 border border-purple-400/50'
+                    : 'text-slate-400 hover:text-purple-300 hover:bg-purple-950/30'
+                }`}
+              >
+                <Smartphone className="w-3.5 h-3.5" />
+                <span>Shorts (9:16)</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-purple-950 font-mono text-purple-200 border border-purple-500/40">
+                  {formatCounts.short}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setVideoFormatFilter('no_video')}
+                className={`flex-1 min-w-[110px] py-1.5 px-2.5 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 transition ${
+                  videoFormatFilter === 'no_video'
+                    ? 'bg-amber-600 text-white shadow-md shadow-amber-600/30 border border-amber-400/50'
+                    : 'text-slate-400 hover:text-amber-300 hover:bg-amber-950/30'
+                }`}
+              >
+                <span>🚫 Zonder Video</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-amber-950 font-mono text-amber-200 border border-amber-500/40">
+                  {formatCounts.no_video}
+                </span>
+              </button>
+            </div>
+          </div>
+
+          {/* Row 3: Quick Apparatus / Equipment Chips */}
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 text-xs no-scrollbar pt-0.5">
+            <span className="text-[10px] font-bold text-slate-500 uppercase tracking-wider flex-shrink-0 mr-1 flex items-center gap-1">
+              <Dumbbell className="w-3 h-3 text-slate-400" />
+              <span>Apparaat:</span>
+            </span>
+
+            <button
+              type="button"
+              onClick={() => setSelectedMaterial('all')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold transition flex-shrink-0 flex items-center gap-1 ${
+                selectedMaterial === 'all'
+                  ? 'bg-brand-500 text-white shadow-sm'
+                  : 'bg-slate-900/80 text-slate-400 hover:text-white hover:bg-slate-800 border border-slate-800'
+              }`}
+            >
+              <span>Alle</span>
+              <span className="text-[10px] opacity-75 font-mono">({exercises.length})</span>
+            </button>
+
+            {sortedMaterials.slice(0, 16).map((m) => {
+              const count = exercises.filter(e => e.material?.id === m.id).length;
+              const isSelected = selectedMaterial === m.id;
+              return (
+                <button
+                  key={m.id}
+                  type="button"
+                  onClick={() => setSelectedMaterial(isSelected ? 'all' : m.id)}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition flex-shrink-0 flex items-center gap-1 ${
+                    isSelected
+                      ? 'bg-cyan-500 text-slate-950 font-black shadow-md shadow-cyan-500/20 ring-1 ring-cyan-400'
+                      : 'bg-slate-900/80 text-slate-400 hover:text-slate-200 hover:bg-slate-800 border border-slate-800'
+                  }`}
+                >
+                  <span>{m.name.nl || m.name.en}</span>
+                  <span className={`text-[10px] font-mono px-1 rounded ${isSelected ? 'bg-black/20 text-slate-950 font-bold' : 'text-slate-500'}`}>
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Counter Info & Active Filter Tags */}
+        <div className="flex flex-wrap items-center justify-between text-[11px] text-slate-400 pt-1 gap-2 border-t border-slate-850">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="font-semibold text-slate-300">
+              {filteredExercises.length} van de {exercises.length} workout(s) getoond
+            </span>
+            {(selectedMaterial !== 'all' || videoFormatFilter !== 'all' || statusFilter !== 'all' || searchQuery.trim() !== '') && (
+              <button
+                type="button"
+                onClick={() => {
+                  setSelectedMaterial('all');
+                  setVideoFormatFilter('all');
+                  setStatusFilter('all');
+                  setSearchQuery('');
+                }}
+                className="px-2 py-0.5 rounded bg-rose-950/60 hover:bg-rose-900 border border-rose-700/50 text-rose-300 text-[10px] font-bold transition flex items-center gap-1"
+                title="Herstel alle filters"
+              >
+                <span>Wis alle filters</span>
+                <span>✕</span>
               </button>
             )}
           </div>
 
-          {/* Equipment / Material Dropdown */}
-          <div className="sm:col-span-4">
-            <select
-              value={selectedMaterial}
-              onChange={(e) => setSelectedMaterial(e.target.value)}
-              className="w-full px-3 py-2 bg-slate-950 border border-slate-800 text-xs text-slate-200 rounded-xl focus:outline-none focus:border-brand-500"
-            >
-              <option value="all">Alle Apparatuur ({exercises.length})</option>
-              {materialsList.map((m) => {
-                const count = exercises.filter(e => e.material?.id === m.id).length;
-                return (
-                  <option key={m.id} value={m.id}>
-                    {m.name.nl || m.name.en} ({count})
-                  </option>
-                );
-              })}
-            </select>
-          </div>
-
-          {/* Video Filter Toggle */}
-          <div className="sm:col-span-3 flex items-center bg-slate-950 border border-slate-800 rounded-xl p-0.5">
-            <button
-              onClick={() => setVideoFilter('with_videos')}
-              className={`flex-1 py-1.5 px-2 rounded-lg font-semibold text-[11px] transition ${
-                videoFilter === 'with_videos'
-                  ? 'bg-sky-600 text-white shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              Met video
-            </button>
-            <button
-              onClick={() => setVideoFilter('all')}
-              className={`flex-1 py-1.5 px-2 rounded-lg font-semibold text-[11px] transition ${
-                videoFilter === 'all'
-                  ? 'bg-slate-700 text-white shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              Alles
-            </button>
-            <button
-              onClick={() => setVideoFilter('no_videos')}
-              className={`flex-1 py-1.5 px-2 rounded-lg font-semibold text-[11px] transition ${
-                videoFilter === 'no_videos'
-                  ? 'bg-amber-600 text-white shadow'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
-            >
-              Zonder
-            </button>
-          </div>
-        </div>
-
-        {/* Counter Info */}
-        <div className="flex flex-wrap items-center justify-between text-[11px] text-slate-400 pt-1 gap-2">
-          <span>
-            {filteredExercises.length} workout(s) getoond
-          </span>
           <div className="flex items-center gap-3">
             {validReplacements.length > 0 && (
               <span className="text-cyan-400 font-semibold">
@@ -561,9 +777,19 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                       )}
 
                       {/* Equipment / Material Badge */}
-                      <span className="px-2 py-0.5 rounded-lg bg-slate-800 border border-slate-700 text-[10px] font-mono text-slate-300 font-medium">
-                        {ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}
-                      </span>
+                      <button
+                        type="button"
+                        onClick={() => setSelectedMaterial(selectedMaterial === ex.material?.id ? 'all' : (ex.material?.id || 'all'))}
+                        title={`Filter op apparaat: ${ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}`}
+                        className={`px-2 py-0.5 rounded-lg border text-[10px] font-mono font-medium flex items-center gap-1 transition ${
+                          selectedMaterial === ex.material?.id
+                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300 font-bold'
+                            : 'bg-slate-800 hover:bg-slate-700 border-slate-700 text-slate-300'
+                        }`}
+                      >
+                        <Dumbbell className="w-2.5 h-2.5 text-slate-400" />
+                        <span>{ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}</span>
+                      </button>
 
                       {/* Category Badge */}
                       {ex.category && (
@@ -589,25 +815,43 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                       )}
                     </div>
 
-                    {/* Metadata Badges for existing video if present */}
-                    {hasExistingVideo && !hasValidReplacement && (
+                    {/* Metadata Badges for active video */}
+                    {displayVideoId && (
                       <div className="flex flex-wrap items-center gap-2 text-[10px] text-slate-400 pt-0.5">
-                        <span className="px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-300">
-                          {primaryVideo.type === 'short' || primaryVideo.aspect_ratio === '9:16' ? '📱 Short (9:16)' : '📺 Standaard (16:9)'}
+                        <span className={`px-1.5 py-0.5 rounded border font-semibold flex items-center gap-1 ${
+                          (hasValidReplacement ? rep.type === 'short' : primaryVideo?.type === 'short' || primaryVideo?.aspect_ratio === '9:16')
+                            ? 'bg-purple-950/80 border-purple-500/40 text-purple-300'
+                            : 'bg-sky-950/80 border-sky-500/40 text-sky-300'
+                        }`}>
+                          {(hasValidReplacement ? rep.type === 'short' : primaryVideo?.type === 'short' || primaryVideo?.aspect_ratio === '9:16') ? (
+                            <>
+                              <Smartphone className="w-2.5 h-2.5 text-purple-400" />
+                              <span>Short (9:16)</span>
+                            </>
+                          ) : (
+                            <>
+                              <Tv className="w-2.5 h-2.5 text-sky-400" />
+                              <span>Normaal (16:9)</span>
+                            </>
+                          )}
                         </span>
-                        {primaryVideo.channel && (
+
+                        {(hasValidReplacement ? rep.channel : primaryVideo?.channel) && (
                           <span className="flex items-center gap-1 text-slate-300">
                             <User className="w-3 h-3 text-slate-400" />
-                            <span>{primaryVideo.channel}</span>
+                            <span>{hasValidReplacement ? rep.channel : primaryVideo?.channel}</span>
                           </span>
                         )}
-                        {primaryVideo.duration_seconds !== undefined && primaryVideo.duration_seconds > 0 && (
+
+                        {((hasValidReplacement ? rep.durationSeconds : primaryVideo?.duration_seconds) !== undefined &&
+                          ((hasValidReplacement ? rep.durationSeconds : primaryVideo?.duration_seconds) || 0) > 0) && (
                           <span className="flex items-center gap-1 text-slate-300">
                             <Clock className="w-3 h-3 text-amber-400" />
-                            <span>{primaryVideo.duration_seconds}s</span>
+                            <span>{(hasValidReplacement ? rep.durationSeconds : primaryVideo?.duration_seconds)}s</span>
                           </span>
                         )}
-                        {primaryVideo.likes !== undefined && primaryVideo.likes > 0 && (
+
+                        {(!hasValidReplacement && primaryVideo?.likes !== undefined && primaryVideo.likes > 0) && (
                           <span className="flex items-center gap-1 text-slate-300">
                             <ThumbsUp className="w-3 h-3 text-sky-400" />
                             <span>{primaryVideo.likes.toLocaleString()} likes</span>
@@ -654,11 +898,12 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                         }`}>
                           {shouldAutoplay ? (
                             <iframe
-                              src={`https://www.youtube-nocookie.com/embed/${displayVideoId}?autoplay=1&mute=1&loop=1&playlist=${displayVideoId}&start=${displayStartSec}&rel=0&playsinline=1`}
-                              title={ex.exercise_name?.en || ex.id}
+                              src={`https://www.youtube.com/embed/${displayVideoId}?autoplay=1&mute=1&loop=1&playlist=${displayVideoId}&start=${displayStartSec}&rel=0&playsinline=1`}
+                              title={ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
                               className="w-full h-full border-0"
                               loading="lazy"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              referrerPolicy="origin-when-cross-origin"
                               allowFullScreen
                             />
                           ) : (
