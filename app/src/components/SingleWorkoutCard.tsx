@@ -18,6 +18,7 @@ import {
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
 import { ExerciseEditor } from './ExerciseEditor';
+import { openYouTubeSearchApp } from '../services/youtubeService';
 import { sendExerciseBackupToGoogleSheet } from '../services/googleSheetService';
 
 interface SingleWorkoutCardProps {
@@ -74,8 +75,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
       fullQuery = `${materialName} ${exerciseName}`;
     }
 
-    const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(fullQuery + ' short')}`;
-    window.open(searchUrl, '_blank');
+    openYouTubeSearchApp(`${fullQuery} short`);
   };
 
   const handleSetRating = (rating: number) => {

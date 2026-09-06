@@ -20,6 +20,7 @@ import {
   VolumeX,
 } from 'lucide-react';
 import { SmartAuditVideoPlayer } from './SmartAuditVideoPlayer';
+import { openYouTubeSearchApp } from '../services/youtubeService';
 import confetti from 'canvas-confetti';
 
 export type VideoFormatFilter = 'all' | 'normal' | 'short' | 'no_video';
@@ -294,13 +295,12 @@ export const SwipeVideoAudit: React.FC<SwipeVideoAuditProps> = ({
     }
   };
 
-  // Helper to open YouTube search
+  // Helper to open YouTube search directly in app
   const openYouTubeSearch = (ex: Exercise) => {
     const name = ex.exercise_name?.en || ex.exercise_name?.nl || '';
     const mat = ex.material?.name?.en || ex.material?.name?.nl || '';
     const query = `${name} ${mat} workout exercise form short`;
-    const url = `https://www.youtube.com/results?search_query=${encodeURIComponent(query.trim())}`;
-    window.open(url, '_blank', 'noreferrer');
+    openYouTubeSearchApp(query);
   };
 
   // Paste from clipboard helper
