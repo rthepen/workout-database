@@ -29,6 +29,7 @@ import {
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed } from '../services/youtubeService';
 import { SmartAuditVideoPlayer } from './SmartAuditVideoPlayer';
+import { TikTokVideoAudit } from './TikTokVideoAudit';
 import confetti from 'canvas-confetti';
 
 interface RapidVideoAuditProps {
@@ -36,6 +37,8 @@ interface RapidVideoAuditProps {
   onSaveBatch: (updatedExercises: Exercise[]) => Promise<void>;
   onSelectExerciseToView: (exerciseId: string) => void;
   materialsList: { id: string; name: { en: string; nl: string } }[];
+  initialLayout?: 'list' | 'tiktok';
+  onLayoutChange?: (layout: 'list' | 'tiktok') => void;
 }
 
 type VideoStatusDecision = 'ok' | 'remove';
@@ -60,7 +63,22 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   onSaveBatch,
   onSelectExerciseToView,
   materialsList,
+  initialLayout = 'list',
+  onLayoutChange,
 }) => {
+  const [auditLayout, setAuditLayout] = useState<'list' | 'tiktok'>(initialLayout);
+
+  const handleSetLayout = (layout: 'list' | 'tiktok') => {
+    setAuditLayout(layout);
+    if (onLayoutChange) onLayoutChange(layout);
+  };
+
+  // Sync if initialLayout prop changes
+  React.useEffect(() => {
+    if (initialLayout) {
+      setAuditLayout(initialLayout);
+    }
+  }, [initialLayout]);
   // Filters & Global Settings
   const [selectedMaterial, setSelectedMaterial] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -416,6 +434,23 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     }
   };
 
+  if (auditLayout === 'tiktok') {
+    return (
+      <TikTokVideoAudit
+        exercises={exercises}
+        decisions={decisions}
+        onSetDecision={handleSetDecision}
+        replacements={replacements}
+        onReplacementInputChange={handleReplacementInputChange}
+        onClearReplacement={handleClearReplacement}
+        onUpdateReplacementMetadata={handleUpdateReplacementMetadata}
+        onSaveBatch={onSaveBatch}
+        onSwitchToListView={() => handleSetLayout('list')}
+        materialsList={materialsList}
+      />
+    );
+  }
+
   return (
     <div className="max-w-5xl mx-auto space-y-4 pb-36">
       {/* Top Banner & Filter Controls */}
@@ -434,6 +469,16 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
           </div>
 
           <div className="flex items-center gap-2 self-stretch sm:self-auto flex-wrap">
+            {/* Switch to TikTok Mobile View */}
+            <button
+              type="button"
+              onClick={() => handleSetLayout('tiktok')}
+              className="px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-lg shadow-purple-600/30 transition border border-purple-400/40"
+              title="Wissel naar mobiele TikTok / Reels swipe-weergave"
+            >
+              <Smartphone className="w-3.5 h-3.5 text-white" />
+              <span>📱 TikTok Feed</span>
+            </button>
             {/* Smart Preload & Autoplay Toggle Button */}
             <button
               onClick={() => setAutoplayEnabled(!autoplayEnabled)}

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Header } from './components/Header';
+import { Header, type ViewMode } from './components/Header';
 import { SingleWorkoutCard } from './components/SingleWorkoutCard';
 import { RapidVideoAudit } from './components/RapidVideoAudit';
 import { MobileAuditFilterDrawer } from './components/MobileAuditFilterDrawer';
@@ -22,7 +22,7 @@ export function App() {
   const [isLive, setIsLive] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [hasLocalEdits, setHasLocalEdits] = useState<boolean>(false);
-  const [viewMode, setViewMode] = useState<'single' | 'rapid_audit'>('single');
+  const [viewMode, setViewMode] = useState<ViewMode>('single');
 
   // Filter & Queue State
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -357,7 +357,7 @@ export function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 p-3 sm:p-6 pb-24 overflow-y-auto">
-        {viewMode === 'rapid_audit' ? (
+        {viewMode === 'rapid_audit' || viewMode === 'tiktok_audit' ? (
           <RapidVideoAudit
             exercises={exercises}
             onSaveBatch={handleSaveBatch}
@@ -366,6 +366,10 @@ export function App() {
               setViewMode('single');
             }}
             materialsList={materialsList}
+            initialLayout={viewMode === 'tiktok_audit' ? 'tiktok' : 'list'}
+            onLayoutChange={(layout) => {
+              setViewMode(layout === 'tiktok' ? 'tiktok_audit' : 'rapid_audit');
+            }}
           />
         ) : filteredAndSortedExercises.length === 0 ? (
           <div className="max-w-md mx-auto my-12 p-8 text-center bg-slate-900 border border-slate-800 rounded-2xl space-y-4">

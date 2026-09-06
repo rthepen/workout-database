@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import { Database, CheckCircle2, Clock, Video, RefreshCw, FileSpreadsheet, Menu, X, Plus, Send, Zap, Layers } from 'lucide-react';
+import { Database, CheckCircle2, Clock, Video, RefreshCw, FileSpreadsheet, Menu, X, Plus, Send, Zap, Layers, Smartphone } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
+
+export type ViewMode = 'single' | 'rapid_audit' | 'tiktok_audit';
 
 interface HeaderProps {
   exercises: Exercise[];
   modifiedCount: number;
   isLive: boolean;
-  viewMode: 'single' | 'rapid_audit';
-  onViewModeChange: (mode: 'single' | 'rapid_audit') => void;
+  viewMode: ViewMode;
+  onViewModeChange: (mode: ViewMode) => void;
   onRefresh: () => void;
   onOpenBatchModal: () => void;
   onOpenSheetSettings: () => void;
@@ -68,6 +70,17 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <Zap className="w-3 h-3 text-amber-400" />
               <span>Audit</span>
+            </button>
+            <button
+              onClick={() => onViewModeChange('tiktok_audit')}
+              className={`px-2 py-1 rounded font-medium flex items-center gap-1 transition ${
+                viewMode === 'tiktok_audit'
+                  ? 'bg-purple-600/30 text-purple-300 border border-purple-500/50 shadow-sm'
+                  : 'text-slate-400 hover:text-purple-300'
+              }`}
+            >
+              <Smartphone className="w-3 h-3 text-purple-400" />
+              <span>TikTok</span>
             </button>
           </div>
         </div>
@@ -203,6 +216,18 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Zap className="w-3.5 h-3.5 text-amber-400" />
             <span>⚡ Snelle Video Audit</span>
+          </button>
+          <button
+            onClick={() => onViewModeChange('tiktok_audit')}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition ${
+              viewMode === 'tiktok_audit'
+                ? 'bg-purple-600/30 text-purple-300 border border-purple-500/50 shadow-sm'
+                : 'text-slate-400 hover:text-purple-300'
+            }`}
+            title="Mobiele TikTok / Reels swipe-weergave met altijd zichtbare actieknoppen"
+          >
+            <Smartphone className="w-3.5 h-3.5 text-purple-400" />
+            <span>📱 TikTok Feed</span>
           </button>
         </div>
 
