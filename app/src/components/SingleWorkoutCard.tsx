@@ -102,13 +102,16 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   };
 
   const handleApproveAndNext = async () => {
-    // Always trigger Google Sheets backup with user fingerprint
-    sendExerciseBackupToGoogleSheet(exercise);
-
     const token = getSavedGitHubToken();
+    const toBeReviewed = !token;
+
+    // Always trigger Google Sheets backup (marked as To Be Reviewed if no token)
+    sendExerciseBackupToGoogleSheet(exercise, toBeReviewed);
+
     if (token) {
       await handleDirect1ClickPR();
     } else {
+      // Public review mode without token: Only saved to Google Sheet review queue & advanced
       onApprove(exercise);
     }
   };
@@ -519,11 +522,11 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
               <button
                 onClick={handleApproveAndNext}
                 disabled={prLoading}
-                title={hasToken ? "Instantly commit directly to main branch on GitHub & advance" : "Approve exercise & advance to next"}
+                title={hasToken ? "Instantly commit directly to main branch on GitHub & advance" : "Submit exercise to Google Sheet review queue & advance"}
                 className={`flex-1 px-5 sm:px-8 py-2.5 sm:py-3.5 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap ${
                   hasToken
                     ? 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30 ring-1 ring-emerald-400/40'
-                    : 'bg-gradient-to-r from-brand-600 via-emerald-600 to-teal-600 hover:from-brand-500 hover:to-emerald-500 shadow-brand-600/30'
+                    : 'bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-500 hover:to-purple-500 shadow-purple-600/30'
                 }`}
               >
                 {prLoading ? (
@@ -541,8 +544,8 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                       </>
                     ) : (
                       <>
-                        <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
-                        <span>Approve & Next →</span>
+                        <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-purple-200" />
+                        <span>📥 Add to Review List & Next →</span>
                       </>
                     )}
                   </>

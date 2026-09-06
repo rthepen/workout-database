@@ -60,7 +60,7 @@ export const GitHubSettingsModal: React.FC<GitHubSettingsModalProps> = ({
       meta: { updated_at: new Date().toISOString() }
     };
 
-    const res = await sendExerciseBackupToGoogleSheet(testSample as any, sheetWebhookInput);
+    const res = await sendExerciseBackupToGoogleSheet(testSample as any, false, sheetWebhookInput);
     if (res.success) {
       setTestStatus('✅ Test row sent to Google Sheet!');
     } else {

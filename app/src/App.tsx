@@ -10,6 +10,7 @@ import { GitHubSettingsModal } from './components/GitHubSettingsModal';
 import { AddNewExerciseModal } from './components/AddNewExerciseModal';
 import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits } from './services/exerciseService';
 import { sendExerciseBackupToGoogleSheet } from './services/googleSheetService';
+import { getSavedGitHubToken } from './services/githubService';
 import type { Exercise, VideoMedia } from './types/exercise';
 import confetti from 'canvas-confetti';
 import { Filter } from 'lucide-react';
@@ -199,8 +200,8 @@ export function App() {
     saveExercisesToLocal(updatedList);
     setHasLocalEdits(true);
 
-    // Fire background backup to Google Sheet
-    sendExerciseBackupToGoogleSheet(updated);
+    // Fire background backup to Google Sheet (marked as To Be Reviewed if no token)
+    sendExerciseBackupToGoogleSheet(updated, !getSavedGitHubToken());
 
     // Trigger celebratory particle effect
     try {

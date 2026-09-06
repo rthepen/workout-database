@@ -37,10 +37,11 @@ export function saveGoogleSheetWebhook(url: string) {
 
 /**
  * Send an exercise or batch of exercises to Google Sheets backup webhook asynchronously
- * Always includes user_fingerprint and timestamp.
+ * Always includes user_fingerprint, timestamp, and to_be_reviewed status.
  */
 export async function sendExerciseBackupToGoogleSheet(
   data: Exercise | Exercise[],
+  toBeReviewed: boolean = true,
   customWebhookUrl?: string
 ): Promise<{ success: boolean; error?: string }> {
   const webhookUrl = customWebhookUrl || getSavedGoogleSheetWebhook();
@@ -51,14 +52,17 @@ export async function sendExerciseBackupToGoogleSheet(
   const fingerprint = getUserFingerprint();
   const exercisesList = Array.isArray(data) ? data : [data];
 
-  // Wrap payload with metadata & user fingerprint while embedding user_fingerprint on each exercise
+  // Wrap payload with metadata, user fingerprint and to_be_reviewed status
   const payloadData = {
     user_fingerprint: fingerprint,
+    to_be_reviewed: toBeReviewed,
+    status: toBeReviewed ? 'To Be Reviewed' : 'Committed Direct to Main',
     timestamp: new Date().toISOString(),
     count: exercisesList.length,
     exercises: exercisesList.map(ex => ({
       ...ex,
       _user_fingerprint: fingerprint,
+      _to_be_reviewed: toBeReviewed,
     })),
   };
 

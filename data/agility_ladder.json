@@ -39,7 +39,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "tracking_type": "reps_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -85,7 +86,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:17:14.993Z"
     }
   },
   {
@@ -440,7 +441,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:16:53.576Z"
     }
   },
   {
@@ -616,7 +617,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:17:54.299Z"
     }
   },
   {
@@ -752,7 +753,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -796,7 +798,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:18:40.332Z"
     }
   },
   {
@@ -880,7 +882,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:18:27.683Z"
     }
   },
   {
@@ -969,7 +971,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:16:23.470Z"
     }
   },
   {
@@ -1142,7 +1144,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:16:43.659Z"
     }
   },
   {
@@ -1232,7 +1234,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T10:06:24.669Z"
+      "updated_at": "2026-08-30T10:06:29.876Z"
     }
   },
   {
@@ -1308,11 +1310,19 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "6Eyer7ZiByI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-08-30T09:59:51.815Z"
     }
   },
   {
@@ -1401,7 +1411,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:18:14.664Z"
     }
   },
   {
@@ -1569,7 +1579,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T09:29:34.681Z"
+      "updated_at": "2026-08-30T09:29:49.300Z"
     }
   },
   {
@@ -1651,7 +1661,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T10:03:12.991Z"
+      "updated_at": "2026-08-30T10:03:31.804Z"
     }
   },
   {
@@ -1739,7 +1749,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T10:04:55.405Z"
+      "updated_at": "2026-08-30T10:05:01.403Z"
     }
   }
 ]

@@ -170,7 +170,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:18:57.177Z"
     }
   },
   {
@@ -257,7 +257,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:19:09.563Z"
     }
   },
   {
@@ -301,7 +301,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -345,7 +346,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:54:33.765Z"
     }
   },
   {
@@ -516,7 +517,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:15:45.641Z"
+      "updated_at": "2026-09-02T19:15:56.222Z"
     }
   },
   {
@@ -602,7 +603,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:21:38.151Z"
+      "updated_at": "2026-09-02T07:21:59.861Z"
     }
   },
   {
@@ -688,7 +689,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:20:17.989Z"
+      "updated_at": "2026-09-02T07:20:30.136Z"
     }
   },
   {
@@ -773,7 +774,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:54:12.438Z"
+      "updated_at": "2026-09-02T07:54:17.484Z"
     }
   },
   {
@@ -815,7 +816,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 4
     },
     "instructions": {
       "en": [
@@ -859,7 +861,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:20:56.906Z"
     }
   },
   {
@@ -952,7 +954,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:18:33.755Z"
+      "updated_at": "2026-09-02T19:19:31.978Z"
     }
   },
   {
@@ -1129,7 +1131,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:20:32.878Z"
+      "updated_at": "2026-09-02T19:20:40.175Z"
     }
   },
   {
@@ -1210,7 +1212,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T08:23:17.034Z"
     }
   },
   {
@@ -1337,7 +1339,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 4
     },
     "instructions": {
       "en": [
@@ -1381,7 +1384,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:20:44.352Z"
     }
   },
   {
@@ -1458,16 +1461,17 @@
     "media": {
       "videos": [
         {
-          "youtube_id": "nIJGvsdNtFE",
+          "youtube_id": "AWsGWt-VMl8",
           "type": "standard",
           "priority": 1,
-          "language": "en"
+          "language": "en",
+          "start_seconds": 0
         }
       ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T19:21:38.671Z"
     }
   },
   {
@@ -1638,7 +1642,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:55:55.135Z"
+      "updated_at": "2026-09-02T07:56:06.437Z"
     }
   },
   {
@@ -1722,7 +1726,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:16:58.877Z"
+      "updated_at": "2026-09-02T19:17:07.799Z"
     }
   },
   {
@@ -1800,16 +1804,17 @@
     "media": {
       "videos": [
         {
-          "youtube_id": "n1NSt-h-tHA",
+          "youtube_id": "-GUJ96jviWo",
           "type": "standard",
           "priority": 1,
-          "language": "en"
+          "language": "en",
+          "start_seconds": 0
         }
       ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:47:26.919Z"
     }
   },
   {
@@ -1851,7 +1856,8 @@
       "difficulty": "advanced",
       "mechanics": "compound",
       "force_type": "pull",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1897,7 +1903,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:48:19.835Z"
     }
   },
   {
@@ -1983,7 +1989,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:52:48.740Z"
+      "updated_at": "2026-09-02T07:52:53.616Z"
     }
   },
   {
@@ -2072,7 +2078,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:49:01.474Z"
     }
   },
   {
@@ -2155,7 +2161,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:47:52.866Z"
     }
   },
   {
@@ -2243,7 +2249,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:50:10.760Z"
+      "updated_at": "2026-09-02T07:50:32.918Z"
     }
   },
   {
@@ -2285,7 +2291,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2329,7 +2336,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:48:50.416Z"
     }
   },
   {
@@ -2415,7 +2422,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:51:23.321Z"
+      "updated_at": "2026-09-02T07:51:40.094Z"
     }
   },
   {
@@ -2457,7 +2464,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2499,7 +2507,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:25:11.354Z"
     }
   },
   {
@@ -2588,7 +2596,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:23:01.577Z"
+      "updated_at": "2026-09-02T07:23:06.824Z"
     }
   },
   {
@@ -2630,7 +2638,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2674,7 +2683,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:24:56.011Z"
     }
   },
   {
@@ -2714,7 +2723,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2756,7 +2766,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:24:42.573Z"
     }
   },
   {
@@ -2842,7 +2852,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:24:19.796Z"
+      "updated_at": "2026-09-02T07:24:29.672Z"
     }
   },
   {
@@ -2884,7 +2894,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight"
+      "tracking_type": "reps_and_weight",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2926,7 +2937,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-02T07:48:36.234Z"
     }
   },
   {
@@ -3011,7 +3022,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:46:18.651Z"
+      "updated_at": "2026-09-02T07:46:32.371Z"
     }
   }
 ]
