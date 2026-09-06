@@ -36,33 +36,30 @@ export function saveGoogleSheetWebhook(url: string) {
 }
 
 /**
- * Send an exercise or batch of exercises to Google Sheets backup webhook asynchronously
- * Always includes user_fingerprint, timestamp, and to_be_reviewed status.
+ * Send an exercise or batch of exercises to Google Sheets backup webhook asynchronously.
+ * Directly logs user fingerprint, timestamp, and exercise data without requiring tokens or logins.
  */
 export async function sendExerciseBackupToGoogleSheet(
   data: Exercise | Exercise[],
-  toBeReviewed: boolean = true,
   customWebhookUrl?: string
 ): Promise<{ success: boolean; error?: string }> {
   const webhookUrl = customWebhookUrl || getSavedGoogleSheetWebhook();
   if (!webhookUrl) {
-    return { success: false, error: 'No Google Sheet webhook URL configured.' };
+    return { success: false, error: 'Geen Google Sheet webhook URL geconfigureerd.' };
   }
 
   const fingerprint = getUserFingerprint();
   const exercisesList = Array.isArray(data) ? data : [data];
 
-  // Wrap payload with metadata, user fingerprint and to_be_reviewed status
+  // Wrap payload with metadata and user fingerprint
   const payloadData = {
     user_fingerprint: fingerprint,
-    to_be_reviewed: toBeReviewed,
-    status: toBeReviewed ? 'To Be Reviewed' : 'Committed Direct to Main',
+    status: 'Submitted to Google Sheet',
     timestamp: new Date().toISOString(),
     count: exercisesList.length,
     exercises: exercisesList.map(ex => ({
       ...ex,
       _user_fingerprint: fingerprint,
-      _to_be_reviewed: toBeReviewed,
     })),
   };
 
@@ -79,6 +76,6 @@ export async function sendExerciseBackupToGoogleSheet(
     return { success: true };
   } catch (err: any) {
     console.warn('Google Sheet backup fetch warning:', err);
-    return { success: false, error: err?.toString() || 'Failed to send backup payload.' };
+    return { success: false, error: err?.toString() || 'Kon niet verzenden naar Google Sheet.' };
   }
 }

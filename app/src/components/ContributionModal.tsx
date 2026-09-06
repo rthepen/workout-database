@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { X, Copy, Check, GitPullRequest, AlertCircle, ExternalLink, Key, CheckCircle2, Trash2, Layers } from 'lucide-react';
+import React, { useState } from 'react';
+import { X, Copy, Check, CheckCircle2, Trash2, FileSpreadsheet, ExternalLink, Send } from 'lucide-react';
 import type { Exercise } from '../types/exercise';
-import { getSavedGitHubToken, saveGitHubToken, submitDirectPullRequest } from '../services/githubService';
 import { resetLocalEdits } from '../services/exerciseService';
 import { sendExerciseBackupToGoogleSheet } from '../services/googleSheetService';
 
@@ -23,19 +22,8 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
   onRefreshData,
 }) => {
   const [copiedJSON, setCopiedJSON] = useState<boolean>(false);
-  const [githubToken, setGithubToken] = useState<string>('');
-  const [prStatus, setPrStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
-  const [prError, setPrError] = useState<string>('');
-  const [prUrl, setPrUrl] = useState<string>('');
-  const [isDirectCommit, setIsDirectCommit] = useState<boolean>(false);
-
-  useEffect(() => {
-    if (isOpen) {
-      setGithubToken(getSavedGitHubToken());
-      setPrStatus('idle');
-      setPrError('');
-    }
-  }, [isOpen]);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState<string>('');
 
   if (!isOpen) return null;
 
@@ -47,34 +35,22 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
     setTimeout(() => setCopiedJSON(false), 2000);
   };
 
-  // Direct GitHub Batch Commit / PR Submission using githubService
-  const handleBatchCommit = async () => {
-    const token = githubToken.trim() || getSavedGitHubToken();
-    if (!token) {
-      alert('Please enter a GitHub Personal Access Token with repo scope.');
-      return;
-    }
+  const handleBatchSubmitToSheet = async () => {
+    setSubmitStatus('submitting');
+    setErrorMessage('');
 
-    saveGitHubToken(token);
-    setPrStatus('submitting');
-    setPrError('');
+    const payload = modifiedExercises.length > 0 ? modifiedExercises : exercises;
+    const res = await sendExerciseBackupToGoogleSheet(payload);
 
-    // If only 1 modified exercise, pass it specifically; if multiple, submit batch
-    const targetSingle = modifiedExercises.length === 1 ? modifiedExercises[0] : null;
-    const res = await submitDirectPullRequest(exercises, targetSingle, token);
-
-    if (res.success && res.prUrl) {
-      sendExerciseBackupToGoogleSheet(modifiedExercises.length > 0 ? modifiedExercises : exercises);
+    if (res.success) {
       resetLocalEdits();
-      setIsDirectCommit(!!res.isDirectCommit);
-      setPrUrl(res.prUrl);
-      setPrStatus('success');
+      setSubmitStatus('success');
       setTimeout(() => {
         onRefreshData();
       }, 1500);
     } else {
-      setPrError(res.error || 'Failed to submit changes to GitHub.');
-      setPrStatus('error');
+      setErrorMessage(res.error || 'Kon niet verzenden naar Google Sheet.');
+      setSubmitStatus('error');
     }
   };
 
@@ -84,12 +60,12 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
         {/* Modal Header */}
         <div className="flex items-center justify-between border-b border-slate-800 pb-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-600 via-blue-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-sky-600/20 ring-1 ring-white/20">
-              <Layers className="w-5 h-5 text-white" />
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-600 flex items-center justify-center shadow-lg shadow-emerald-600/20 ring-1 ring-white/20">
+              <FileSpreadsheet className="w-5 h-5 text-white" />
             </div>
             <div>
-              <h2 className="font-extrabold text-base text-white">Batch Review & Commit Engine</h2>
-              <p className="text-xs text-slate-400">Review pending modifications and commit in a single batch to GitHub</p>
+              <h2 className="font-extrabold text-base text-white">Batch Naar Google Sheet Sturen</h2>
+              <p className="text-xs text-slate-400">Verstuur al je lokale wijzigingen in één keer direct naar de centrale Google Sheet</p>
             </div>
           </div>
           <button
@@ -101,27 +77,25 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
         </div>
 
         {/* Success Banner */}
-        {prStatus === 'success' && (
+        {submitStatus === 'success' && (
           <div className="p-4 bg-emerald-950/90 border border-emerald-500/50 rounded-2xl space-y-2 text-emerald-200 animate-in fade-in">
             <div className="flex items-center gap-2 font-bold text-sm text-emerald-300">
               <CheckCircle2 className="w-5 h-5 text-emerald-400" />
               <span>
-                {isDirectCommit
-                  ? `⚡ Successfully committed ${modifiedExercises.length || 1} exercise(s) directly to main!`
-                  : `Pull Request created successfully on GitHub!`}
+                ✅ {modifiedExercises.length || 1} oefening(en) succesvol verzonden naar de Google Sheet!
               </span>
             </div>
             <p className="text-xs text-emerald-300/80">
-              Your modifications are live in the repository. Local session cache has been synchronized.
+              De gegevens zijn live opgeslagen in de Google Sheet.
             </p>
             <div className="pt-1">
               <a
-                href={prUrl}
+                href="https://docs.google.com/spreadsheets/d/1EGBY7OwZZMAe3GBAwz0p_hSRX8zyCLn1mAxRvGBal8c/edit#gid=0"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs shadow transition"
               >
-                <span>{isDirectCommit ? 'View Commit on GitHub' : 'View Pull Request'}</span>
+                <span>Open Google Sheet</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
@@ -135,7 +109,7 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 font-extrabold text-white text-xs uppercase tracking-wider">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>Pending Modified Exercises ({modifiedExercises.length})</span>
+                <span>Openstaande Lokale Wijzigingen ({modifiedExercises.length})</span>
               </div>
               {modifiedExercises.length > 0 && (
                 <button
@@ -143,15 +117,15 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
                   className="px-2.5 py-1 bg-rose-950/80 hover:bg-rose-900 text-rose-300 rounded-lg border border-rose-800/60 font-semibold flex items-center gap-1 transition text-[11px]"
                 >
                   <Trash2 className="w-3 h-3" />
-                  <span>Discard Edits</span>
+                  <span>Wis Wijzigingen</span>
                 </button>
               )}
             </div>
 
             {modifiedExercises.length === 0 ? (
               <div className="p-4 text-center text-slate-400 bg-slate-950/60 rounded-xl border border-slate-800/80">
-                <p className="font-semibold text-slate-300">No pending uncommitted edits in session</p>
-                <p className="text-[11px] text-slate-500 mt-0.5">All exercises in your current view are up to date with GitHub main branch.</p>
+                <p className="font-semibold text-slate-300">Geen openstaande wijzigingen</p>
+                <p className="text-[11px] text-slate-500 mt-0.5">Alle oefeningen in je huidige weergave zijn gesynchroniseerd.</p>
               </div>
             ) : (
               <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
@@ -169,10 +143,10 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
                       <div className="space-y-0.5 min-w-0">
                         <div className="flex items-center gap-2">
                           <span className="font-bold text-white text-xs truncate">
-                            {idx + 1}. {ex.exercise_name?.en || ex.id}
+                            {idx + 1}. {ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
                           </span>
                           <span className="px-2 py-0.5 rounded bg-brand-500/10 text-brand-300 font-mono text-[10px] border border-brand-500/30">
-                            {ex.material?.name?.en || ex.material?.id || 'equipment'}
+                            {ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id || 'materiaal'}
                           </span>
                         </div>
                         <div className="text-[11px] text-slate-400 font-mono">ID: {ex.id}</div>
@@ -186,7 +160,7 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
                           </span>
                         ) : (
                           <span className="px-2 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800 font-medium text-[10px]">
-                            No Video
+                            Geen Video
                           </span>
                         )}
 
@@ -215,60 +189,51 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
             )}
           </div>
 
-          {/* Section: Direct 1-Click Batch Commit Action */}
-          <div className="p-4 bg-gradient-to-br from-slate-900 via-slate-900 to-[#0A1224] border border-slate-800 rounded-2xl space-y-3">
+          {/* Section: Batch Send Button */}
+          <div className="p-4 bg-gradient-to-br from-slate-900 via-slate-900 to-[#0A1A18] border border-slate-800 rounded-2xl space-y-3">
             <div className="flex items-center justify-between">
               <span className="text-xs font-extrabold uppercase tracking-wider text-emerald-400 flex items-center gap-1.5">
-                <Key className="w-4 h-4 text-emerald-400" />
-                <span>⚡ 1-Click Batch Commit to GitHub Main</span>
+                <FileSpreadsheet className="w-4 h-4 text-emerald-400" />
+                <span>Google Sheet Live Sync</span>
               </span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">
-                Direct Sync
-              </span>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1EGBY7OwZZMAe3GBAwz0p_hSRX8zyCLn1mAxRvGBal8c/edit#gid=0"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[11px] text-emerald-400 hover:text-emerald-300 flex items-center gap-1 font-medium"
+              >
+                <span>Bekijk Sheet</span>
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </div>
 
             <p className="text-slate-400 text-[11px]">
-              {githubToken
-                ? `Saved Personal Access Token ready. Clicking below will instantly commit all ${modifiedExercises.length || 1} modified exercise(s) directly to main branch.`
-                : `Enter your GitHub Personal Access Token with repo scope to commit directly without Pull Request review.`}
+              Geen account of tokens nodig. Met één klik worden alle gewijzigde oefeningen direct doorgestuurd naar de Google Sheet back-up.
             </p>
 
-            {!githubToken && (
-              <div>
-                <input
-                  type="password"
-                  value={githubToken}
-                  onChange={e => setGithubToken(e.target.value)}
-                  placeholder="ghp_xxxxxxxxxxxxxxxxxxxx (GitHub Personal Access Token)"
-                  className="w-full px-3.5 py-2 bg-slate-950 border border-slate-700/80 rounded-xl text-white font-mono text-xs focus:outline-none focus:border-brand-500"
-                />
-              </div>
-            )}
-
-            {prError && (
-              <div className="p-3 bg-rose-950/80 border border-rose-500/50 rounded-xl text-rose-200 flex items-center gap-2">
-                <AlertCircle className="w-4 h-4 text-rose-400 flex-shrink-0" />
-                <span>{prError}</span>
+            {errorMessage && (
+              <div className="p-3 bg-rose-950/80 border border-rose-500/50 rounded-xl text-rose-200">
+                {errorMessage}
               </div>
             )}
 
             <button
-              onClick={handleBatchCommit}
-              disabled={prStatus === 'submitting'}
+              onClick={handleBatchSubmitToSheet}
+              disabled={submitStatus === 'submitting'}
               className="w-full py-3 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-50"
             >
-              {prStatus === 'submitting' ? (
+              {submitStatus === 'submitting' ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                  <span>Committing {modifiedExercises.length || 1} Exercise(s) directly to GitHub...</span>
+                  <span>Verzenden naar Google Sheet...</span>
                 </>
               ) : (
                 <>
-                  <GitPullRequest className="w-4 h-4" />
+                  <Send className="w-4 h-4" />
                   <span>
                     {modifiedExercises.length > 0
-                      ? `⚡ 1-Click Batch Commit All (${modifiedExercises.length} Modified)`
-                      : `⚡ 1-Click Commit Active Exercise`}
+                      ? `📤 Verstuur alle ${modifiedExercises.length} gewijzigde oefeningen naar Google Sheet`
+                      : `📤 Verstuur actieve oefening naar Google Sheet`}
                   </span>
                 </>
               )}
@@ -278,13 +243,13 @@ export const ContributionModal: React.FC<ContributionModalProps> = ({
           {/* Section: Manual Export Payload */}
           <div className="p-4 bg-slate-900/60 border border-slate-800 rounded-2xl space-y-2">
             <div className="flex items-center justify-between">
-              <span className="font-bold text-slate-300 text-xs">Manual JSON Export Payload</span>
+              <span className="font-bold text-slate-300 text-xs">Handmatige JSON Export</span>
               <button
                 onClick={handleCopyJSON}
                 className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-lg text-[11px] font-bold flex items-center gap-1 transition"
               >
                 {copiedJSON ? <Check className="w-3 h-3 text-emerald-400" /> : <Copy className="w-3 h-3" />}
-                <span>{copiedJSON ? 'Copied!' : 'Copy JSON'}</span>
+                <span>{copiedJSON ? 'Gekopieerd!' : 'Kopieer JSON'}</span>
               </button>
             </div>
             <pre className="p-3 bg-slate-950 rounded-xl text-[10px] text-slate-400 font-mono max-h-32 overflow-y-auto border border-slate-800/80">

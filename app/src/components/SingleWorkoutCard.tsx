@@ -6,23 +6,18 @@ import {
   ChevronRight, 
   SlidersHorizontal, 
   Clock, 
-  Info,
-  Tv,
-  BookOpen,
-  GitPullRequest,
-  ExternalLink,
-  Loader2,
-  AlertCircle,
-  Copy,
-  Check,
-  Star,
-  Tv as YoutubeIcon
+  Info, 
+  Tv, 
+  BookOpen, 
+  ExternalLink, 
+  Copy, 
+  Check, 
+  Star, 
+  Tv as YoutubeIcon 
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
 import { ExerciseEditor } from './ExerciseEditor';
-import { submitDirectPullRequest, getSavedGitHubToken } from '../services/githubService';
-import { resetLocalEdits } from '../services/exerciseService';
 import { sendExerciseBackupToGoogleSheet } from '../services/googleSheetService';
 
 interface SingleWorkoutCardProps {
@@ -35,7 +30,6 @@ interface SingleWorkoutCardProps {
   onSaveEdits: (updated: Exercise) => void;
   onOpenDiff: () => void;
   onOpenFilterDrawer: () => void;
-  onOpenTokenSettings: () => void;
   onUpdateVideos: (videos: VideoMedia[]) => void;
   allExercises: Exercise[];
 }
@@ -50,20 +44,14 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   onSaveEdits,
   onOpenDiff,
   onOpenFilterDrawer,
-  onOpenTokenSettings,
   onUpdateVideos,
   allExercises,
 }) => {
   const [isEditing, setIsEditing] = useState<boolean>(false);
-  const [prLoading, setPrLoading] = useState<boolean>(false);
-  const [prSuccessUrl, setPrSuccessUrl] = useState<string | null>(null);
-  const [isDirectCommit, setIsDirectCommit] = useState<boolean>(false);
-  const [prError, setPrError] = useState<string | null>(null);
   const [copiedTitle, setCopiedTitle] = useState<boolean>(false);
 
   const videoCount = exercise.media?.videos?.length || 0;
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
-  const hasToken = !!getSavedGitHubToken();
 
   const handleCopyTitle = () => {
     const materialName = exercise.material?.name?.en || '';
@@ -101,101 +89,14 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
     onSaveEdits(updated);
   };
 
-  const handleApproveAndNext = async () => {
-    const token = getSavedGitHubToken();
-    const toBeReviewed = !token;
-
-    // Always trigger Google Sheets backup (marked as To Be Reviewed if no token)
-    sendExerciseBackupToGoogleSheet(exercise, toBeReviewed);
-
-    if (token) {
-      await handleDirect1ClickPR();
-    } else {
-      // Public review mode without token: Only saved to Google Sheet review queue & advanced
-      onApprove(exercise);
-    }
-  };
-
-  const handleDirect1ClickPR = async () => {
-    const token = getSavedGitHubToken();
-    if (!token) {
-      onOpenTokenSettings();
-      return;
-    }
-
-    setPrLoading(true);
-    setPrError(null);
-    setPrSuccessUrl(null);
-
-    const result = await submitDirectPullRequest(allExercises, exercise);
-    setPrLoading(false);
-
-    if (result.success && result.prUrl) {
-      resetLocalEdits();
-      setIsDirectCommit(!!result.isDirectCommit);
-      setPrSuccessUrl(result.prUrl);
-      onApprove(exercise);
-    } else {
-      setPrError(result.error || 'Failed to submit changes to GitHub.');
-    }
+  const handleApproveAndNext = () => {
+    // Verstuur wijzigingen direct naar de centrale Google Sheet
+    sendExerciseBackupToGoogleSheet(exercise);
+    onApprove(exercise);
   };
 
   return (
     <div className="max-w-4xl mx-auto space-y-4">
-      {/* Direct PR Success or Error Toast Banner */}
-      {prSuccessUrl && (
-        <div className="p-3.5 bg-emerald-950/90 border border-emerald-500/50 rounded-2xl flex items-center justify-between gap-3 text-xs text-emerald-200 shadow-xl animate-in fade-in">
-          <div className="flex items-center gap-2 font-medium">
-            <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-            <span>
-              {isDirectCommit
-                ? "⚡ Committed directly to main branch! No PR review required."
-                : "Pull Request created successfully on GitHub!"}
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            <a
-              href={prSuccessUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg flex items-center gap-1 shadow transition"
-            >
-              <span>{isDirectCommit ? "View Commit on GitHub" : "View PR on GitHub"}</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
-            <button
-              onClick={() => setPrSuccessUrl(null)}
-              className="text-emerald-400 hover:text-white px-2 py-1"
-            >
-              ✕
-            </button>
-          </div>
-        </div>
-      )}
-
-      {prError && (
-        <div className="p-3.5 bg-rose-950/90 border border-rose-500/50 rounded-2xl flex items-center justify-between gap-3 text-xs text-rose-200 shadow-xl animate-in fade-in">
-          <div className="flex items-center gap-2 font-medium">
-            <AlertCircle className="w-4 h-4 text-rose-400" />
-            <span>{prError}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={onOpenTokenSettings}
-              className="px-2.5 py-1 bg-rose-800 hover:bg-rose-700 text-white rounded-lg font-semibold"
-            >
-              Update Token
-            </button>
-            <button
-              onClick={() => setPrError(null)}
-              className="text-rose-400 hover:text-white px-2 py-1"
-            >
-              ✕
-            </button>
-          </div>
-        </div>
-      )}
-
       {/* Navigation & Progress Bar */}
       <div className="flex items-center justify-between bg-slate-900/80 border border-slate-800/80 rounded-2xl px-4 py-2.5 shadow-sm">
         <div className="flex items-center gap-2">
@@ -518,38 +419,14 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 <span>Edit</span>
               </button>
 
-              {/* Single Dynamic Primary Action Button (Changes behavior & style based on Token presence) */}
+              {/* Primary Action Button: Approve & Submit to Google Sheet */}
               <button
                 onClick={handleApproveAndNext}
-                disabled={prLoading}
-                title={hasToken ? "Instantly commit directly to main branch on GitHub & advance" : "Submit exercise to Google Sheet review queue & advance"}
-                className={`flex-1 px-5 sm:px-8 py-2.5 sm:py-3.5 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-50 whitespace-nowrap ${
-                  hasToken
-                    ? 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30 ring-1 ring-emerald-400/40'
-                    : 'bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:from-indigo-500 hover:to-purple-500 shadow-purple-600/30'
-                }`}
+                title="Goedkeuren en direct opslaan in Google Sheet"
+                className="flex-1 px-5 sm:px-8 py-2.5 sm:py-3.5 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30 ring-1 ring-emerald-400/40 whitespace-nowrap"
               >
-                {prLoading ? (
-                  <>
-                    <Loader2 className="w-4 h-4 sm:w-5 sm:h-5 animate-spin text-white" />
-                    <span>Committing to main branch...</span>
-                  </>
-                ) : (
-                  <>
-                    {hasToken ? (
-                      <>
-                        <GitPullRequest className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-300" />
-                        <span>⚡ 1-Click Commit & Next →</span>
-                        <span className="w-2 h-2 rounded-full bg-emerald-300 animate-pulse ml-0.5" />
-                      </>
-                    ) : (
-                      <>
-                        <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-purple-200" />
-                        <span>📥 Add to Review List & Next →</span>
-                      </>
-                    )}
-                  </>
-                )}
+                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-200" />
+                <span>✔ Goedkeuren & Volgende →</span>
               </button>
             </div>
           </div>

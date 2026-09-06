@@ -6,11 +6,10 @@ import type { SortOrderType } from './components/MobileAuditFilterDrawer';
 import type { AuditFilterType } from './components/AuditQueue';
 import { ContributionModal } from './components/ContributionModal';
 import { DiffModal } from './components/DiffModal';
-import { GitHubSettingsModal } from './components/GitHubSettingsModal';
+import { SheetSettingsModal } from './components/SheetSettingsModal';
 import { AddNewExerciseModal } from './components/AddNewExerciseModal';
 import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits } from './services/exerciseService';
 import { sendExerciseBackupToGoogleSheet } from './services/googleSheetService';
-import { getSavedGitHubToken } from './services/githubService';
 import type { Exercise, VideoMedia } from './types/exercise';
 import confetti from 'canvas-confetti';
 import { Filter } from 'lucide-react';
@@ -36,7 +35,7 @@ export function App() {
   const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState<boolean>(false);
   const [isContributionModalOpen, setIsContributionModalOpen] = useState<boolean>(false);
   const [isDiffModalOpen, setIsDiffModalOpen] = useState<boolean>(false);
-  const [isTokenSettingsOpen, setIsTokenSettingsOpen] = useState<boolean>(false);
+  const [isSheetSettingsOpen, setIsSheetSettingsOpen] = useState<boolean>(false);
   const [isAddExerciseModalOpen, setIsAddExerciseModalOpen] = useState<boolean>(false);
 
   // Initial Data Load
@@ -200,8 +199,8 @@ export function App() {
     saveExercisesToLocal(updatedList);
     setHasLocalEdits(true);
 
-    // Fire background backup to Google Sheet (marked as To Be Reviewed if no token)
-    sendExerciseBackupToGoogleSheet(updated, !getSavedGitHubToken());
+    // Fire background backup to Google Sheet
+    sendExerciseBackupToGoogleSheet(updated);
 
     // Trigger celebratory particle effect
     try {
@@ -330,8 +329,8 @@ export function App() {
         modifiedCount={modifiedExercises.length}
         isLive={isLive}
         onRefresh={() => loadData(true)}
-        onOpenPRModal={() => setIsContributionModalOpen(true)}
-        onOpenTokenSettings={() => setIsTokenSettingsOpen(true)}
+        onOpenBatchModal={() => setIsContributionModalOpen(true)}
+        onOpenSheetSettings={() => setIsSheetSettingsOpen(true)}
         onOpenAddExerciseModal={() => setIsAddExerciseModalOpen(true)}
         onResetEdits={handleResetEdits}
         hasLocalEdits={hasLocalEdits}
@@ -362,7 +361,6 @@ export function App() {
             onSaveEdits={handleSaveExercise}
             onOpenDiff={() => setIsDiffModalOpen(true)}
             onOpenFilterDrawer={() => setIsFilterDrawerOpen(true)}
-            onOpenTokenSettings={() => setIsTokenSettingsOpen(true)}
             onUpdateVideos={handleUpdateVideos}
             allExercises={exercises}
           />
@@ -396,10 +394,10 @@ export function App() {
         materialsList={materialsList}
       />
 
-      {/* GitHub Token Settings Modal */}
-      <GitHubSettingsModal
-        isOpen={isTokenSettingsOpen}
-        onClose={() => setIsTokenSettingsOpen(false)}
+      {/* Google Sheet Settings Modal */}
+      <SheetSettingsModal
+        isOpen={isSheetSettingsOpen}
+        onClose={() => setIsSheetSettingsOpen(false)}
       />
 
       {/* Contribution & Batch PR Modal */}
