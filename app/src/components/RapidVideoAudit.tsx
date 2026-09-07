@@ -25,7 +25,8 @@ import {
   Volume2,
   Dumbbell,
   Film,
-  Star
+  Star,
+  ArrowUpDown
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed, openYouTubeSearchApp } from '../services/youtubeService';
@@ -43,6 +44,45 @@ type VideoStatusDecision = 'ok' | 'remove';
 
 export type VideoFormatFilter = 'all' | 'normal' | 'short' | 'no_video';
 export type AuditStatusFilter = 'all' | 'pending' | 'ok' | 'remove' | 'replaced';
+export type AuditSortOption = 'modified' | 'name' | 'muscle_group' | 'material';
+
+export const MUSCLE_NAME_DUTCH: Record<string, string> = {
+  abductors: 'Abductoren (Buitenkant heup/dij)',
+  adductors: 'Adductoren (Binnenkant dij)',
+  anterior_deltoid: 'Voorkant schouder (Anterior Deltoid)',
+  biceps_brachii: 'Biceps (Armbuigers)',
+  brachialis: 'Brachialis (Bovenarm)',
+  calves: 'Kuiten',
+  cardiovascular_system: 'Cardio / Conditie',
+  deltoids: 'Schouders (Deltoids)',
+  erector_spinae: 'Onderrug (Erector Spinae)',
+  forearms: 'Onderarmen',
+  full_body: 'Heel Lichaam (Full Body)',
+  gluteus_maximus: 'Grote Bilspier (Gluteus Maximus)',
+  gluteus_medius: 'Middelste Bilspier (Gluteus Medius)',
+  glutes: 'Billen (Glutes)',
+  hamstrings: 'Hamstrings (Achterkant dij)',
+  iliopsoas: 'Heupbuigers (Iliopsoas)',
+  latissimus_dorsi: 'Brede Rugspier (Lats)',
+  lateral_deltoid: 'Zijkant schouder (Lateral Deltoid)',
+  obliques: 'Schuine Buikspieren (Obliques)',
+  pectorals: 'Borstspieren (Pecs)',
+  posterior_deltoid: 'Achterkant schouder (Rear Deltoid)',
+  quadriceps: 'Bovenbenen (Quadriceps)',
+  rectus_abdominis: 'Rechte Buikspieren (Core)',
+  rhomboids: 'Ruitspier (Bovenrug)',
+  rotator_cuff: 'Rotator Cuff (Schouders)',
+  tibialis_anterior: 'Scheenbeenspier',
+  transverse_abdominis: 'Diepe Buikspier',
+  trapezius: 'Trapezius (Nek & Bovenrug)',
+  triceps_brachii: 'Triceps (Armstrekkers)',
+};
+
+export const getPrimaryMuscleDisplay = (ex: Exercise): string => {
+  const m = ex.target_muscles?.primary?.[0] || ex.target_muscles?.secondary?.[0] || '';
+  if (!m) return 'Overig';
+  return MUSCLE_NAME_DUTCH[m] || m.replace(/_/g, ' ');
+};
 
 interface ReplacementData {
   rawInput: string;
@@ -62,6 +102,10 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   onSelectExerciseToView,
   materialsList,
 }) => {
+  // Sorteren & gewijzigde achteraan
+  const [sortBy, setSortBy] = useState<AuditSortOption>('modified');
+  const [pushModifiedToEnd, setPushModifiedToEnd] = useState<boolean>(true);
+
   // Ratings map: exerciseId -> number (1..5)
   const [ratings, setRatings] = useState<Record<string, number>>({});
 
@@ -208,6 +252,63 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       return true;
     });
   }, [exercises, selectedMaterial, searchQuery, videoFormatFilter, statusFilter, getExerciseVideoFormat, decisions, replacementMap]);
+
+  // Helper to determine if an exercise has any modifications in this audit session
+  const isExerciseModified = useCallback((ex: Exercise): boolean => {
+    if (decisions[ex.id]) return true;
+    if (replacements[ex.id]?.youtubeId || replacements[ex.id]?.rawInput) return true;
+    if (ratings[ex.id] !== undefined) return true;
+    return false;
+  }, [decisions, replacements, ratings]);
+
+  // Sorted and Filtered Exercises
+  const displayedExercises = useMemo(() => {
+    const list = [...filteredExercises];
+
+    list.sort((a, b) => {
+      const isModA = isExerciseModified(a);
+      const isModB = isExerciseModified(b);
+
+      // If pushing modified to end is enabled (or in 'modified' sort mode)
+      if (pushModifiedToEnd || sortBy === 'modified') {
+        if (isModA !== isModB) {
+          return isModA ? 1 : -1; // non-modified (0) comes first, modified (1) comes last!
+        }
+      }
+
+      // Secondary / chosen sort criteria:
+      if (sortBy === 'name') {
+        const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
+        const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
+        return nameA.localeCompare(nameB, 'nl');
+      }
+
+      if (sortBy === 'muscle_group') {
+        const muscleA = getPrimaryMuscleDisplay(a).toLowerCase();
+        const muscleB = getPrimaryMuscleDisplay(b).toLowerCase();
+        const comp = muscleA.localeCompare(muscleB, 'nl');
+        if (comp !== 0) return comp;
+        const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
+        const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
+        return nameA.localeCompare(nameB, 'nl');
+      }
+
+      if (sortBy === 'material') {
+        const matA = (a.material?.name?.nl || a.material?.name?.en || a.material?.id || '').toLowerCase();
+        const matB = (b.material?.name?.nl || b.material?.name?.en || b.material?.id || '').toLowerCase();
+        const comp = matA.localeCompare(matB, 'nl');
+        if (comp !== 0) return comp;
+        const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
+        const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
+        return nameA.localeCompare(nameB, 'nl');
+      }
+
+      // Default 'modified': keep original order within non-modified and within modified
+      return 0;
+    });
+
+    return list;
+  }, [filteredExercises, sortBy, pushModifiedToEnd, isExerciseModified]);
 
   // Decision counts
   const removeList = useMemo(() => {
@@ -529,10 +630,10 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
         {/* Filter Controls */}
         <div className="space-y-3">
-          {/* Row 1: Search, Equipment Dropdown, and Status Filter */}
+          {/* Row 1: Search, Sort Dropdown, Equipment Dropdown, and Status Filter */}
           <div className="grid grid-cols-1 sm:grid-cols-12 gap-2.5">
             {/* Live Search */}
-            <div className="sm:col-span-5 relative">
+            <div className="sm:col-span-4 relative">
               <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
               <input
                 type="text"
@@ -552,8 +653,24 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               )}
             </div>
 
+            {/* Sorteer Dropdown */}
+            <div className="sm:col-span-3 relative flex items-center">
+              <ArrowUpDown className="w-3.5 h-3.5 text-amber-400 absolute left-3 pointer-events-none" />
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as AuditSortOption)}
+                className="w-full pl-8 pr-3 py-2 bg-slate-950 border border-slate-800 text-xs text-slate-200 rounded-xl focus:outline-none focus:border-amber-500 transition font-medium"
+                title="Sorteer volgorde van de audit"
+              >
+                <option value="modified">⚡ Sorteren: Gewijzigd (Onderaan)</option>
+                <option value="name">🔤 Sorteren: Naam (A - Z)</option>
+                <option value="muscle_group">💪 Sorteren: Spiergroepen (A - Z)</option>
+                <option value="material">🏋️ Sorteren: Materiaal (A - Z)</option>
+              </select>
+            </div>
+
             {/* Equipment / Apparatus Dropdown */}
-            <div className="sm:col-span-4 relative flex items-center">
+            <div className="sm:col-span-3 relative flex items-center">
               <Dumbbell className="w-3.5 h-3.5 text-slate-500 absolute left-3 pointer-events-none" />
               <select
                 value={selectedMaterial}
@@ -585,19 +702,19 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             </div>
 
             {/* Audit Status Filter */}
-            <div className="sm:col-span-3">
+            <div className="sm:col-span-2">
               <select
                 value={statusFilter}
                 onChange={(e) => setStatusFilter(e.target.value as AuditStatusFilter)}
-                className={`w-full px-3 py-2 bg-slate-950 border text-xs rounded-xl focus:outline-none focus:border-brand-500 transition ${
+                className={`w-full px-2.5 py-2 bg-slate-950 border text-xs rounded-xl focus:outline-none focus:border-brand-500 transition ${
                   statusFilter !== 'all' ? 'border-amber-500/70 text-amber-300 font-semibold' : 'border-slate-800 text-slate-200'
                 }`}
               >
-                <option value="all">Alle Statussen ({exercises.length})</option>
-                <option value="pending">⏳ Nog te beoordelen</option>
-                <option value="ok">✔ Beoordeeld als OK ({okCount})</option>
-                <option value="remove">❌ Te verwijderen ({removeList.length})</option>
-                <option value="replaced">🔄 Vervangen ({validReplacements.length})</option>
+                <option value="all">Alle ({exercises.length})</option>
+                <option value="pending">⏳ Te doen</option>
+                <option value="ok">✔ OK ({okCount})</option>
+                <option value="remove">❌ Weg ({removeList.length})</option>
+                <option value="replaced">🔄 Nieuw ({validReplacements.length})</option>
               </select>
             </div>
           </div>
@@ -722,9 +839,27 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         <div className="flex flex-wrap items-center justify-between text-[11px] text-slate-400 pt-1 gap-2 border-t border-slate-850">
           <div className="flex items-center gap-2 flex-wrap">
             <span className="font-semibold text-slate-300">
-              {filteredExercises.length} van de {exercises.length} workout(s) getoond
+              {displayedExercises.length} van de {exercises.length} workout(s) getoond
             </span>
-            {(selectedMaterial !== 'all' || videoFormatFilter !== 'all' || statusFilter !== 'all' || searchQuery.trim() !== '') && (
+
+            {/* Toggle Push Modified to End */}
+            <button
+              type="button"
+              onClick={() => setPushModifiedToEnd(!pushModifiedToEnd)}
+              className={`px-2.5 py-0.5 rounded-lg text-[10px] font-bold transition flex items-center gap-1 border ${
+                pushModifiedToEnd
+                  ? 'bg-amber-950/70 border-amber-500/50 text-amber-300 shadow-sm'
+                  : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
+              }`}
+              title="Wanneer actief gaan gewijzigde oefeningen automatisch naar het einde van de lijst"
+            >
+              <span>⚡ Gewijzigde achteraan:</span>
+              <span className={pushModifiedToEnd ? 'text-amber-400 font-black' : 'text-slate-500'}>
+                {pushModifiedToEnd ? 'AAN' : 'UIT'}
+              </span>
+            </button>
+
+            {(selectedMaterial !== 'all' || videoFormatFilter !== 'all' || statusFilter !== 'all' || searchQuery.trim() !== '' || sortBy !== 'modified') && (
               <button
                 type="button"
                 onClick={() => {
@@ -732,9 +867,11 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                   setVideoFormatFilter('all');
                   setStatusFilter('all');
                   setSearchQuery('');
+                  setSortBy('modified');
+                  setPushModifiedToEnd(true);
                 }}
                 className="px-2 py-0.5 rounded bg-rose-950/60 hover:bg-rose-900 border border-rose-700/50 text-rose-300 text-[10px] font-bold transition flex items-center gap-1"
-                title="Herstel alle filters"
+                title="Herstel alle filters en sortering"
               >
                 <span>Wis alle filters</span>
                 <span>✕</span>
@@ -765,14 +902,14 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
       {/* Workout Rows List */}
       <div className="space-y-3">
-        {filteredExercises.length === 0 ? (
+        {displayedExercises.length === 0 ? (
           <div className="p-12 text-center bg-slate-900/60 border border-slate-800 rounded-2xl space-y-2">
             <Filter className="w-8 h-8 text-slate-600 mx-auto" />
             <h3 className="text-sm font-bold text-slate-300">Geen workouts gevonden</h3>
             <p className="text-xs text-slate-500">Pas je filters of zoekopdracht aan.</p>
           </div>
         ) : (
-          filteredExercises.map((ex, idx) => {
+          displayedExercises.map((ex, idx) => {
             const decision = decisions[ex.id];
             const rep = replacements[ex.id];
             const hasValidReplacement = !!(rep && rep.youtubeId && rep.youtubeId.length === 11);
@@ -843,6 +980,14 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     {ex.category && (
                       <span className="px-2 py-0.5 rounded-lg bg-sky-950/80 border border-sky-800 text-[10px] text-sky-300 font-medium">
                         {typeof ex.category === 'string' ? ex.category : (ex.category.nl || ex.category.en)}
+                      </span>
+                    )}
+
+                    {/* Target Muscle Group Badge */}
+                    {(ex.target_muscles?.primary?.[0] || ex.target_muscles?.secondary?.[0]) && (
+                      <span className="px-2 py-0.5 rounded-lg bg-emerald-950/80 border border-emerald-800 text-[10px] text-emerald-300 font-medium flex items-center gap-1">
+                        <span>💪</span>
+                        <span>{getPrimaryMuscleDisplay(ex)}</span>
                       </span>
                     )}
 
