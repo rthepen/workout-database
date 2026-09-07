@@ -22,7 +22,8 @@ import {
   Star,
   User,
   ThumbsUp,
-  Smartphone
+  Smartphone,
+  ClipboardPaste
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId } from '../services/youtubeService';
@@ -855,6 +856,24 @@ export const VideoInspector: React.FC<VideoInspectorProps> = ({
             onChange={(e) => setNewVideoInput(e.target.value)}
             className="flex-1 px-3.5 py-2 bg-slate-900 text-xs text-white placeholder-slate-500 border border-slate-700 rounded-xl focus:outline-none focus:border-brand-500"
           />
+          <button
+            type="button"
+            onClick={async () => {
+              try {
+                const text = await navigator.clipboard.readText();
+                if (text && text.trim()) {
+                  setNewVideoInput(text.trim());
+                }
+              } catch {
+                alert('Kon niet automatisch van klembord lezen. Geef browser-toestemming of plak met Ctrl+V / Cmd+V.');
+              }
+            }}
+            className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-300 hover:text-white text-xs font-semibold rounded-xl border border-slate-700 flex items-center gap-1.5 transition shadow-sm"
+            title="Plak rechtstreeks vanaf klembord"
+          >
+            <ClipboardPaste className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Plak</span>
+          </button>
           <button
             onClick={() => handleAddVideo()}
             className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-brand-400 hover:text-brand-300 text-xs font-semibold rounded-xl border border-slate-700 flex items-center gap-1.5 transition"

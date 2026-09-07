@@ -22,7 +22,7 @@ export function App() {
   const [isLive, setIsLive] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [hasLocalEdits, setHasLocalEdits] = useState<boolean>(false);
-  const [viewMode, setViewMode] = useState<ViewMode>('single');
+  const [viewMode, setViewMode] = useState<ViewMode>('rapid_audit');
 
   // Filter & Queue State
   const [searchQuery, setSearchQuery] = useState<string>('');

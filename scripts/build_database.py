@@ -157,6 +157,9 @@ def build_database(validate_only=False, modified_ids=None):
     all_exercises_path = os.path.join(DIST_DIR, "all_exercises.json")
     index_path = os.path.join(DIST_DIR, "index.json")
 
+    # Order exercises chronologically by updated_at so unaudited/older exercises come first,
+    # and recently audited/updated exercises appear at the end of the compiled database.
+    all_exercises.sort(key=lambda x: x.get("meta", {}).get("updated_at", ""))
     if modified_ids:
         unmodified = [e for e in all_exercises if e["id"] not in modified_ids]
         modified = [e for e in all_exercises if e["id"] in modified_ids]

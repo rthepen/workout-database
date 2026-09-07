@@ -417,80 +417,6 @@
     }
   },
   {
-    "id": "sandbag_shouldering",
-    "exercise_name": {
-      "en": "Sandbag Shouldering",
-      "nl": "Sandbag Shouldering"
-    },
-    "aliases": [
-      "Sandbag Shouldering"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Full Body Power",
-      "nl": "Hele Lichaam / Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Shoulder the sandbag in one explosive movement from the floor onto your shoulder.",
-        "Extend your hips forcefully into full lockout.",
-        "Drop in a controlled manner and switch sides."
-      ],
-      "nl": [
-        "Til de zak explosief vanaf de grond in één beweging naar één schouder.",
-        "Strek je heupen krachtig.",
-        "Laat gecontroleerd vallen en wissel van kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "sandbag_bent_over_row",
     "exercise_name": {
       "en": "Sandbag Bent Over Row",
@@ -657,6 +583,506 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "sandbag_overhead_press",
+    "exercise_name": {
+      "en": "Sandbag Overhead Press",
+      "nl": "Sandbag Overhead Press"
+    },
+    "aliases": [
+      "Sandbag Overhead Press"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Establish a strong, grounded athletic stance.",
+        "Press the sandbag straight overhead from chest level.",
+        "Push your head forward through the window formed by your arms as the sandbag clears your face."
+      ],
+      "nl": [
+        "Sta stevig.",
+        "Duw de zak vanaf borsthoogte recht omhoog.",
+        "Steek je hoofd door het 'raam' als de zak voorbij je gezicht is."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Y4sfLqqbpVs",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 39,
+          "channel": "Steph Gaudreau - Fuel Your Strength"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "sandbag_deadlift",
+    "exercise_name": {
+      "en": "Sandbag Deadlift",
+      "nl": "Sandbag Deadlift"
+    },
+    "aliases": [
+      "Sandbag Deadlift"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Legs & Back",
+      "nl": "Benen / Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Bend your knees and hips and grab the handles (or fabric).",
+        "Keep your back straight and your chest proud.",
+        "Lift the sandbag by driving through your legs with a flat spine."
+      ],
+      "nl": [
+        "Zak door je knieën en heupen, pak de handvatten (of stof) vast.",
+        "Houd je rug recht en borst op.",
+        "Til de zak op door je benen te strekken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-3rL-8vMb1U",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 31,
+          "channel": "Steph Gaudreau - Fuel Your Strength",
+          "likes": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "sandbag_russian_twist",
+    "exercise_name": {
+      "en": "Sandbag Russian Twist",
+      "nl": "Sandbag Russian Twist"
+    },
+    "aliases": [
+      "Sandbag Russian Twist"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit down, feet off the floor.",
+        "Hold the bag and rotate your upper body from left to right.",
+        "Tap the ground next to you with the bag."
+      ],
+      "nl": [
+        "Ga zitten, voeten van de vloer.",
+        "Houd de zak vast en draai je bovenlichaam van links naar rechts.",
+        "Tik de grond naast je aan met de zak."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "desrQRtMcQY",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 44,
+          "channel": "WeStrive App",
+          "likes": 2
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "sandbag_step_up",
+    "exercise_name": {
+      "en": "Sandbag Step Up",
+      "nl": "Sandbag Step Up"
+    },
+    "aliases": [
+      "Sandbag Step Up"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rest the sandbag across your upper back or over one shoulder.",
+        "Step onto a plyo box or bench and drive yourself upward.",
+        "Switch legs."
+      ],
+      "nl": [
+        "Leg de zak in je nek of op één schouder.",
+        "Stap op een kist of bankje en duw jezelf omhoog.",
+        "Wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "zXrqsRxQS34",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "channel": "RPM Training Co"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "sandbag_high_pull",
+    "exercise_name": {
+      "en": "Sandbag High Pull",
+      "nl": "Sandbag High Pull"
+    },
+    "aliases": [
+      "Sandbag High Pull"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Power",
+      "nl": "Schouders / Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Start in deadlift position.",
+        "Explosively pull the bag up along your body to chin height.",
+        "Keep your elbows pointing high and flared out."
+      ],
+      "nl": [
+        "Begin in deadlift positie.",
+        "Trek de zak explosief omhoog langs je lichaam tot kinhoogte.",
+        "Ellebogen wijzen hoog naar buiten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "hAJYE81lBdQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 14,
+          "channel": "Dingo Sandbags",
+          "likes": 2
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "sandbag_shouldering",
+    "exercise_name": {
+      "en": "Sandbag Shouldering",
+      "nl": "Sandbag Shouldering"
+    },
+    "aliases": [
+      "Sandbag Shouldering"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Full Body Power",
+      "nl": "Hele Lichaam / Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Shoulder the sandbag in one explosive movement from the floor onto your shoulder.",
+        "Extend your hips forcefully into full lockout.",
+        "Drop in a controlled manner and switch sides."
+      ],
+      "nl": [
+        "Til de zak explosief vanaf de grond in één beweging naar één schouder.",
+        "Strek je heupen krachtig.",
+        "Laat gecontroleerd vallen en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
     }
   },
   {
@@ -1108,262 +1534,6 @@
     }
   },
   {
-    "id": "sandbag_overhead_press",
-    "exercise_name": {
-      "en": "Sandbag Overhead Press",
-      "nl": "Sandbag Overhead Press"
-    },
-    "aliases": [
-      "Sandbag Overhead Press"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "trapezius",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Establish a strong, grounded athletic stance.",
-        "Press the sandbag straight overhead from chest level.",
-        "Push your head forward through the window formed by your arms as the sandbag clears your face."
-      ],
-      "nl": [
-        "Sta stevig.",
-        "Duw de zak vanaf borsthoogte recht omhoog.",
-        "Steek je hoofd door het 'raam' als de zak voorbij je gezicht is."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Y4sfLqqbpVs",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 39,
-          "channel": "Steph Gaudreau - Fuel Your Strength"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sandbag_deadlift",
-    "exercise_name": {
-      "en": "Sandbag Deadlift",
-      "nl": "Sandbag Deadlift"
-    },
-    "aliases": [
-      "Sandbag Deadlift"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Legs & Back",
-      "nl": "Benen / Rug"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Bend your knees and hips and grab the handles (or fabric).",
-        "Keep your back straight and your chest proud.",
-        "Lift the sandbag by driving through your legs with a flat spine."
-      ],
-      "nl": [
-        "Zak door je knieën en heupen, pak de handvatten (of stof) vast.",
-        "Houd je rug recht en borst op.",
-        "Til de zak op door je benen te strekken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-3rL-8vMb1U",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 31,
-          "channel": "Steph Gaudreau - Fuel Your Strength",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sandbag_russian_twist",
-    "exercise_name": {
-      "en": "Sandbag Russian Twist",
-      "nl": "Sandbag Russian Twist"
-    },
-    "aliases": [
-      "Sandbag Russian Twist"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Sit down, feet off the floor.",
-        "Hold the bag and rotate your upper body from left to right.",
-        "Tap the ground next to you with the bag."
-      ],
-      "nl": [
-        "Ga zitten, voeten van de vloer.",
-        "Houd de zak vast en draai je bovenlichaam van links naar rechts.",
-        "Tik de grond naast je aan met de zak."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "desrQRtMcQY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 44,
-          "channel": "WeStrive App",
-          "likes": 2
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "sandbag_glute_bridge",
     "exercise_name": {
       "en": "Sandbag Glute Bridge",
@@ -1438,176 +1608,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "sandbag_step_up",
-    "exercise_name": {
-      "en": "Sandbag Step Up",
-      "nl": "Sandbag Step Up"
-    },
-    "aliases": [
-      "Sandbag Step Up"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Rest the sandbag across your upper back or over one shoulder.",
-        "Step onto a plyo box or bench and drive yourself upward.",
-        "Switch legs."
-      ],
-      "nl": [
-        "Leg de zak in je nek of op één schouder.",
-        "Stap op een kist of bankje en duw jezelf omhoog.",
-        "Wissel van been."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "zXrqsRxQS34",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "RPM Training Co"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sandbag_high_pull",
-    "exercise_name": {
-      "en": "Sandbag High Pull",
-      "nl": "Sandbag High Pull"
-    },
-    "aliases": [
-      "Sandbag High Pull"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Power",
-      "nl": "Schouders / Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Start in deadlift position.",
-        "Explosively pull the bag up along your body to chin height.",
-        "Keep your elbows pointing high and flared out."
-      ],
-      "nl": [
-        "Begin in deadlift positie.",
-        "Trek de zak explosief omhoog langs je lichaam tot kinhoogte.",
-        "Ellebogen wijzen hoog naar buiten."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "hAJYE81lBdQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 14,
-          "channel": "Dingo Sandbags",
-          "likes": 2
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
     }
   }
 ]

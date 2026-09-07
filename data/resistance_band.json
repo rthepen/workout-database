@@ -961,84 +961,6 @@
     }
   },
   {
-    "id": "resistance_band_standing_anti_rotation_hold",
-    "exercise_name": {
-      "en": "Standing Anti Rotation Hold",
-      "nl": "Standing Anti Rotation Hold"
-    },
-    "aliases": [
-      "Standing Anti Rotation Hold"
-    ],
-    "material": {
-      "id": "resistance_band",
-      "name": {
-        "en": "Resistance Band",
-        "nl": "Weerstandsband"
-      },
-      "description": {
-        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand perpendicular to the target or anchor.",
-        "the anchor point.",
-        "Hold the band straight out in front of you with your arms extended.",
-        "Brace against the rotational pull to keep your shoulders and hips square."
-      ],
-      "nl": [
-        "Sta zijwaarts t.o.v.",
-        "het ankerpunt.",
-        "Houd de band met gestrekte armen recht voor je uit.",
-        "Weersta de trekkracht die je wil laten draaien."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "resistance_band_band_push_press"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "resistance_band_tricep_pushdown",
     "exercise_name": {
       "en": "Tricep Pushdown",
@@ -1384,6 +1306,84 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "resistance_band_standing_anti_rotation_hold",
+    "exercise_name": {
+      "en": "Standing Anti Rotation Hold",
+      "nl": "Standing Anti Rotation Hold"
+    },
+    "aliases": [
+      "Standing Anti Rotation Hold"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand perpendicular to the target or anchor.",
+        "the anchor point.",
+        "Hold the band straight out in front of you with your arms extended.",
+        "Brace against the rotational pull to keep your shoulders and hips square."
+      ],
+      "nl": [
+        "Sta zijwaarts t.o.v.",
+        "het ankerpunt.",
+        "Houd de band met gestrekte armen recht voor je uit.",
+        "Weersta de trekkracht die je wil laten draaien."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "resistance_band_band_push_press"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
     }
   },
   {

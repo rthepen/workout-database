@@ -350,82 +350,6 @@
     }
   },
   {
-    "id": "cones_slalom_run",
-    "exercise_name": {
-      "en": "Slalom Run",
-      "nl": "Slalom Run"
-    },
-    "aliases": [
-      "Slalom Run"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility & Footwork",
-      "nl": "Behendigheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Place pawns in a straight line behind each other (1m apart).",
-        "Weave rapidly between the cones in a zigzag pattern without contacting them.",
-        "Keep your center of gravity low in an athletic stance."
-      ],
-      "nl": [
-        "Zet pionnen in een rechte lijn achter elkaar (1m tussenruimte).",
-        "Ren er zo snel mogelijk zigzaggend tussendoor zonder ze aan te raken.",
-        "Houd je zwaartepunt laag."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "cones_zig_zag_sprint",
     "exercise_name": {
       "en": "Zig-Zag Sprint",
@@ -512,6 +436,420 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cones_l_drill",
+    "exercise_name": {
+      "en": "L-Drill (3 Cone Drill)",
+      "nl": "L-Drill (3 Cone Drill)"
+    },
+    "aliases": [
+      "3 Cone Drill",
+      "L-Drill",
+      "L-Drill 3 Cone Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Speed & Cornering",
+      "nl": "Snelheid / Bochten"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Sprint 5m forward, touch line, sprint back.",
+        "Sprint forward again, go around the second cone, turn around the third cone (walk the bend) and sprint back to the start."
+      ],
+      "nl": [
+        "Sprint 5m vooruit, raak lijn aan, sprint terug.",
+        "Sprint weer vooruit, ga buitenom de tweede pion, draai om de derde pion heen (loop de bocht) en sprint terug naar start."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xwdaIrxFgxQ",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "channel": "Rich Sadiv"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cones_m_drill",
+    "exercise_name": {
+      "en": "M-Drill",
+      "nl": "M-Drill"
+    },
+    "aliases": [
+      "M-Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Sprint forward, diagonally backpedal, sprint to the next marker, and backpedal to finish.",
+        "Forms the letter M."
+      ],
+      "nl": [
+        "Sprint vooruit, backpedal diagonaal terug, sprint vooruit naar de volgende punt, backpedal recht achteruit.",
+        "Vormt de letter M."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "RIptNUg9fY8",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 26,
+          "channel": "Waikato Rugby Union",
+          "likes": 108
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cones_lateral_cone_hops",
+    "exercise_name": {
+      "en": "Lateral Cone Hops",
+      "nl": "Lateral Cone Hops"
+    },
+    "aliases": [
+      "Lateral Cone Hops"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Plyometrics",
+      "nl": "Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand next to a pawn.",
+        "Jump sideways over the pawn with two feet at the same time and immediately back again.",
+        "Minimize ground contact time with quick, elastic bounces."
+      ],
+      "nl": [
+        "Ga naast een pion staan.",
+        "Spring met twee voeten tegelijk zijwaarts over de pion en direct weer terug.",
+        "Houd het contact met de grond kort."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xgYngqkGM64",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 12,
+          "channel": "The Physical Performance Hub"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cones_hourglass_drill",
+    "exercise_name": {
+      "en": "Hourglass Drill",
+      "nl": "Hourglass Drill"
+    },
+    "aliases": [
+      "Hourglass Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Start at a corner, sprint diagonally to the center hub, shuffle laterally, and sprint diagonally to the far corner.",
+        "Trace the diagonal boundary lines of an hourglass cone drill."
+      ],
+      "nl": [
+        "Start in een hoek, sprint diagonaal naar het midden, shuffle opzij, sprint diagonaal naar de verre hoek.",
+        "Volg de lijnen van de zandloper."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Ljd45MyHKbA",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 21,
+          "channel": "CoachThem"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "cones_slalom_run",
+    "exercise_name": {
+      "en": "Slalom Run",
+      "nl": "Slalom Run"
+    },
+    "aliases": [
+      "Slalom Run"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility & Footwork",
+      "nl": "Behendigheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Place pawns in a straight line behind each other (1m apart).",
+        "Weave rapidly between the cones in a zigzag pattern without contacting them.",
+        "Keep your center of gravity low in an athletic stance."
+      ],
+      "nl": [
+        "Zet pionnen in een rechte lijn achter elkaar (1m tussenruimte).",
+        "Ren er zo snel mogelijk zigzaggend tussendoor zonder ze aan te raken.",
+        "Houd je zwaartepunt laag."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
     }
   },
   {
@@ -668,91 +1006,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_l_drill",
-    "exercise_name": {
-      "en": "L-Drill (3 Cone Drill)",
-      "nl": "L-Drill (3 Cone Drill)"
-    },
-    "aliases": [
-      "3 Cone Drill",
-      "L-Drill",
-      "L-Drill 3 Cone Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Speed & Cornering",
-      "nl": "Snelheid / Bochten"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sprint 5m forward, touch line, sprint back.",
-        "Sprint forward again, go around the second cone, turn around the third cone (walk the bend) and sprint back to the start."
-      ],
-      "nl": [
-        "Sprint 5m vooruit, raak lijn aan, sprint terug.",
-        "Sprint weer vooruit, ga buitenom de tweede pion, draai om de derde pion heen (loop de bocht) en sprint terug naar start."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xwdaIrxFgxQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "Rich Sadiv"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
     }
   },
   {
@@ -1136,91 +1389,6 @@
     }
   },
   {
-    "id": "cones_m_drill",
-    "exercise_name": {
-      "en": "M-Drill",
-      "nl": "M-Drill"
-    },
-    "aliases": [
-      "M-Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sprint forward, diagonally backpedal, sprint to the next marker, and backpedal to finish.",
-        "Forms the letter M."
-      ],
-      "nl": [
-        "Sprint vooruit, backpedal diagonaal terug, sprint vooruit naar de volgende punt, backpedal recht achteruit.",
-        "Vormt de letter M."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "RIptNUg9fY8",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 26,
-          "channel": "Waikato Rugby Union",
-          "likes": 108
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "cones_reactive_box",
     "exercise_name": {
       "en": "Reactive 4 Cone Drill",
@@ -1290,90 +1458,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_lateral_cone_hops",
-    "exercise_name": {
-      "en": "Lateral Cone Hops",
-      "nl": "Lateral Cone Hops"
-    },
-    "aliases": [
-      "Lateral Cone Hops"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Plyometrics",
-      "nl": "Plyometrics"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand next to a pawn.",
-        "Jump sideways over the pawn with two feet at the same time and immediately back again.",
-        "Minimize ground contact time with quick, elastic bounces."
-      ],
-      "nl": [
-        "Ga naast een pion staan.",
-        "Spring met twee voeten tegelijk zijwaarts over de pion en direct weer terug.",
-        "Houd het contact met de grond kort."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xgYngqkGM64",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 12,
-          "channel": "The Physical Performance Hub"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
     }
   },
   {
@@ -1517,90 +1601,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_hourglass_drill",
-    "exercise_name": {
-      "en": "Hourglass Drill",
-      "nl": "Hourglass Drill"
-    },
-    "aliases": [
-      "Hourglass Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Start at a corner, sprint diagonally to the center hub, shuffle laterally, and sprint diagonally to the far corner.",
-        "Trace the diagonal boundary lines of an hourglass cone drill."
-      ],
-      "nl": [
-        "Start in een hoek, sprint diagonaal naar het midden, shuffle opzij, sprint diagonaal naar de verre hoek.",
-        "Volg de lijnen van de zandloper."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Ljd45MyHKbA",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 21,
-          "channel": "CoachThem"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
     }
   }
 ]

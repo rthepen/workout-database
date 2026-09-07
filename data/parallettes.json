@@ -85,82 +85,6 @@
     }
   },
   {
-    "id": "parallettes_parallette_dips",
-    "exercise_name": {
-      "en": "Parallette Dips",
-      "nl": "Parallette Dips"
-    },
-    "aliases": [
-      "Parallette Dips"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body & Triceps",
-      "nl": "Bovenlichaam / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Support your body above the parallettes with arms locked out.",
-        "Bend your elbows to 90 degrees (or slightly below if shoulder mobility permits) and press up to lockout.",
-        "Legs can be stretched out in front of you or with feet on the ground for support."
-      ],
-      "nl": [
-        "Steun op de stangen met gestrekte armen.",
-        "Zak door je armen tot 90 graden (of iets dieper als mobiliteit het toelaat) en duw uit.",
-        "Benen kunnen voor je uit gestrekt zijn of met voeten op de grond voor support."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "parallettes_tuck_planche"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "parallettes_parallette_l_sit",
     "exercise_name": {
       "en": "L-Sit",
@@ -511,80 +435,6 @@
     }
   },
   {
-    "id": "parallettes_parallette_pass_through",
-    "exercise_name": {
-      "en": "Pass Through / Shoot Through",
-      "nl": "Pass Through / Shoot Through"
-    },
-    "aliases": [
-      "Pass Through / Shoot Through"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Core & Mobility",
-      "nl": "Core / Mobiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "hamstrings",
-        "calves"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Start in a standard push-up position.",
-        "Swing your legs forward under your body (L-sit position) without touching the ground, and swing back again."
-      ],
-      "nl": [
-        "Start in push-up positie.",
-        "Zwaai je benen onder je lichaam door naar voren (L-sit positie) zonder de grond te raken, en zwaai weer terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "parallettes_tuck_planche"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "parallettes_parallette_mountain_climbers",
     "exercise_name": {
       "en": "Parallette Mountain Climbers",
@@ -754,82 +604,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "parallettes_pike_push_up",
-    "exercise_name": {
-      "en": "Pike Push Up",
-      "nl": "Pike Push Up"
-    },
-    "aliases": [
-      "Pike Push Up"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Keep feet on the floor and hands gripping the parallette bars.",
-        "Drive your hips high into the air to form an inverted V-shape.",
-        "Lower your head towards the ground between your hands."
-      ],
-      "nl": [
-        "Voeten op de grond, handen op de parallettes.",
-        "Breng je heupen hoog zodat je een V-vorm bent.",
-        "Zak met je hoofd richting de grond tussen je handen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "parallettes_tuck_planche"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
     }
   },
   {
@@ -1348,6 +1122,318 @@
     }
   },
   {
+    "id": "parallettes_archer_push_up",
+    "exercise_name": {
+      "en": "Archer Push Up",
+      "nl": "Archer Push Up"
+    },
+    "aliases": [
+      "Archer Push Up"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Chest & Shoulders",
+      "nl": "Borst / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Set the parallettes wide.",
+        "Sink to one side (one arm bends, the other stays straight).",
+        "Press up and switch over to the opposite side."
+      ],
+      "nl": [
+        "Zet de parallettes breed.",
+        "Zak naar één kant (één arm buigt, de andere blijft gestrekt).",
+        "Duw omhoog en wissel naar de andere kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "parallettes_tuck_planche"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "TCixva0UscI",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 94,
+          "channel": "Pullup & Dip"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-08-29"
+    }
+  },
+  {
+    "id": "parallettes_parallette_dips",
+    "exercise_name": {
+      "en": "Parallette Dips",
+      "nl": "Parallette Dips"
+    },
+    "aliases": [
+      "Parallette Dips"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body & Triceps",
+      "nl": "Bovenlichaam / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Support your body above the parallettes with arms locked out.",
+        "Bend your elbows to 90 degrees (or slightly below if shoulder mobility permits) and press up to lockout.",
+        "Legs can be stretched out in front of you or with feet on the ground for support."
+      ],
+      "nl": [
+        "Steun op de stangen met gestrekte armen.",
+        "Zak door je armen tot 90 graden (of iets dieper als mobiliteit het toelaat) en duw uit.",
+        "Benen kunnen voor je uit gestrekt zijn of met voeten op de grond voor support."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "parallettes_tuck_planche"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "parallettes_parallette_pass_through",
+    "exercise_name": {
+      "en": "Pass Through / Shoot Through",
+      "nl": "Pass Through / Shoot Through"
+    },
+    "aliases": [
+      "Pass Through / Shoot Through"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Core & Mobility",
+      "nl": "Core / Mobiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "hamstrings",
+        "calves"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start in a standard push-up position.",
+        "Swing your legs forward under your body (L-sit position) without touching the ground, and swing back again."
+      ],
+      "nl": [
+        "Start in push-up positie.",
+        "Zwaai je benen onder je lichaam door naar voren (L-sit positie) zonder de grond te raken, en zwaai weer terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "parallettes_tuck_planche"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "parallettes_pike_push_up",
+    "exercise_name": {
+      "en": "Pike Push Up",
+      "nl": "Pike Push Up"
+    },
+    "aliases": [
+      "Pike Push Up"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Keep feet on the floor and hands gripping the parallette bars.",
+        "Drive your hips high into the air to form an inverted V-shape.",
+        "Lower your head towards the ground between your hands."
+      ],
+      "nl": [
+        "Voeten op de grond, handen op de parallettes.",
+        "Breng je heupen hoog zodat je een V-vorm bent.",
+        "Zak met je hoofd richting de grond tussen je handen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "parallettes_tuck_planche"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
     "id": "parallettes_bodyweight_tricep_extension",
     "exercise_name": {
       "en": "Bodyweight Tricep Extension",
@@ -1493,92 +1579,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "parallettes_archer_push_up",
-    "exercise_name": {
-      "en": "Archer Push Up",
-      "nl": "Archer Push Up"
-    },
-    "aliases": [
-      "Archer Push Up"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Chest & Shoulders",
-      "nl": "Borst / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Set the parallettes wide.",
-        "Sink to one side (one arm bends, the other stays straight).",
-        "Press up and switch over to the opposite side."
-      ],
-      "nl": [
-        "Zet de parallettes breed.",
-        "Zak naar één kant (één arm buigt, de andere blijft gestrekt).",
-        "Duw omhoog en wissel naar de andere kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "parallettes_tuck_planche"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "TCixva0UscI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 94,
-          "channel": "Pullup & Dip"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
     }
   },
   {

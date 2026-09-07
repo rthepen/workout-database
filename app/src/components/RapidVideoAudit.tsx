@@ -26,7 +26,8 @@ import {
   Dumbbell,
   Film,
   Star,
-  ArrowUpDown
+  ArrowUpDown,
+  ClipboardPaste
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed, openYouTubeSearchApp } from '../services/youtubeService';
@@ -1186,28 +1187,49 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 {/* Bottom Row: Replacement Video URL/ID Input & Metadata */}
                 <div className="mt-3 pt-2.5 border-t border-slate-800/80 space-y-2">
                   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">
-                    <div className="relative flex-1 w-full">
-                      <input
-                        type="text"
-                        value={rep?.rawInput || ''}
-                        onChange={(e) => handleReplacementInputChange(ex.id, e.target.value)}
-                        placeholder="🔗 Plak alternatieve YouTube URL of ID (bijv. https://youtu.be/... of Short)..."
-                        className={`w-full pl-8 pr-8 py-1.5 bg-slate-950/90 border rounded-xl text-xs text-white placeholder:text-slate-500 focus:outline-none transition ${
-                          hasValidReplacement
-                            ? 'border-emerald-500 ring-1 ring-emerald-500/40 bg-emerald-950/20'
-                            : 'border-slate-800 focus:border-cyan-500'
-                        }`}
-                      />
-                      <Link2 className="w-3.5 h-3.5 text-slate-500 absolute left-2.5 top-2.5" />
-                      {rep?.rawInput && (
-                        <button
-                          onClick={() => handleClearReplacement(ex.id)}
-                          className="absolute right-2.5 top-2 text-slate-500 hover:text-white text-xs font-bold"
-                          title="Wis alternatieve video"
-                        >
-                          ✕
-                        </button>
-                      )}
+                    <div className="relative flex-1 w-full flex items-center gap-1.5">
+                      <div className="relative flex-1">
+                        <input
+                          type="text"
+                          value={rep?.rawInput || ''}
+                          onChange={(e) => handleReplacementInputChange(ex.id, e.target.value)}
+                          placeholder="🔗 Plak alternatieve YouTube URL of ID (bijv. https://youtu.be/... of Short)..."
+                          className={`w-full pl-8 pr-8 py-1.5 bg-slate-950/90 border rounded-xl text-xs text-white placeholder:text-slate-500 focus:outline-none transition ${
+                            hasValidReplacement
+                              ? 'border-emerald-500 ring-1 ring-emerald-500/40 bg-emerald-950/20'
+                              : 'border-slate-800 focus:border-cyan-500'
+                          }`}
+                        />
+                        <Link2 className="w-3.5 h-3.5 text-slate-500 absolute left-2.5 top-2.5" />
+                        {rep?.rawInput && (
+                          <button
+                            onClick={() => handleClearReplacement(ex.id)}
+                            className="absolute right-2.5 top-2 text-slate-500 hover:text-white text-xs font-bold"
+                            title="Wis alternatieve video"
+                          >
+                            ✕
+                          </button>
+                        )}
+                      </div>
+
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          try {
+                            const text = await navigator.clipboard.readText();
+                            if (text && text.trim()) {
+                              handleReplacementInputChange(ex.id, text.trim());
+                            }
+                          } catch {
+                            alert('Kon niet automatisch van klembord lezen. Geef browser-toestemming of plak met Ctrl+V / Cmd+V.');
+                          }
+                        }}
+                        className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 hover:text-white border border-slate-700 hover:border-cyan-500/50 rounded-xl text-xs font-bold flex items-center gap-1 transition shadow-sm flex-shrink-0"
+                        title="Plak rechtstreeks vanaf klembord"
+                      >
+                        <ClipboardPaste className="w-3.5 h-3.5 text-cyan-400" />
+                        <span>Plak</span>
+                      </button>
                     </div>
 
                     {/* Valid / Invalid Feedback Badge */}

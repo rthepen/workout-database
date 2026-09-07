@@ -956,97 +956,6 @@
     }
   },
   {
-    "id": "plyo_box_lateral_step_up",
-    "exercise_name": {
-      "en": "Lateral Step Up",
-      "nl": "Lateral Step Up"
-    },
-    "aliases": [
-      "Lateral Step Up"
-    ],
-    "material": {
-      "id": "plyo_box",
-      "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
-      },
-      "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
-      }
-    },
-    "category": {
-      "en": "Legs & Lateral Chain",
-      "nl": "Benen / Zijkant"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand sideways next to the box.",
-        "Step onto the box with your inside foot and drive up to standing.",
-        "Return in a controlled manner."
-      ],
-      "nl": [
-        "Ga zijwaarts naast de box staan.",
-        "Stap met je binnenste been op de box en duw jezelf omhoog tot stand.",
-        "Zak gecontroleerd terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "plyo_box_elevated_pistol_squat"
-      ],
-      "regressions": [
-        "plyo_box_incline_push_ups"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "K_Cx3L9kyQY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 6,
-          "channel": "Solid Rock Personal Training",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:04:24.548Z"
-    }
-  },
-  {
     "id": "plyo_box_burpee_box_jump",
     "exercise_name": {
       "en": "Burpee Box Jump",
@@ -1137,13 +1046,13 @@
     }
   },
   {
-    "id": "plyo_box_seated_box_jump",
+    "id": "plyo_box_decline_mountain_climbers",
     "exercise_name": {
-      "en": "Seated Box Jump",
-      "nl": "Seated Box Jump"
+      "en": "Decline Mountain Climbers",
+      "nl": "Decline Mountain Climbers"
     },
     "aliases": [
-      "Seated Box Jump"
+      "Decline Mountain Climbers"
     ],
     "material": {
       "id": "plyo_box",
@@ -1157,44 +1066,45 @@
       }
     },
     "category": {
-      "en": "Explosive Power",
-      "nl": "Explosiviteit"
+      "en": "Core & Cardio",
+      "nl": "Core / Cardio"
     },
     "target_muscles": {
       "primary": [
-        "quadriceps",
-        "gluteus_maximus"
+        "rectus_abdominis",
+        "cardiovascular_system"
       ],
       "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
+        "gluteus_maximus",
+        "deltoids"
       ]
     },
     "attributes": {
       "difficulty": "intermediate",
       "mechanics": "compound",
-      "force_type": "dynamic",
+      "force_type": "pull",
       "tracking_type": "reps_only"
     },
     "instructions": {
       "en": [
-        "Start sitting on the box (or a lower box/bench).",
-        "Lean forward slightly and jump explosively up (or onto a higher box in front of you)."
+        "Hands on the ground, feet on the box.",
+        "Pull your knees alternately toward your chest.",
+        "Heavier for shoulders and core."
       ],
       "nl": [
-        "Begin zittend op de box (of een lagere box/bankje).",
-        "Leun iets naar voren en spring explosief omhoog (of op een hogere box voor je)."
+        "Handen op de grond, voeten op de box.",
+        "Trek om en om je knieën naar je borst.",
+        "Zwaarder voor schouders en core."
       ]
     },
     "form_cues": {
       "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
       ],
       "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
       ]
     },
     "relations": {
@@ -1208,21 +1118,20 @@
     "media": {
       "videos": [
         {
-          "youtube_id": "BeiH9z9frqE",
+          "youtube_id": "ji49pH_O0HI",
           "type": "short",
           "priority": 1,
           "language": "en",
-          "start_seconds": 0,
           "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "Jeremy Clements",
-          "likes": 8
+          "duration_seconds": 7,
+          "channel": "Weapon X Fitness",
+          "likes": 6
         }
       ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:05:34.028Z"
+      "updated_at": "2026-08-29"
     }
   },
   {
@@ -1315,6 +1224,83 @@
     }
   },
   {
+    "id": "plyo_box_elevated_pistol_squat",
+    "exercise_name": {
+      "en": "Elevated Pistol Squat",
+      "nl": "Elevated Pistol Squat"
+    },
+    "aliases": [
+      "Elevated Pistol Squat"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "category": {
+      "en": "Legs & Balance",
+      "nl": "Benen / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand on the edge of the plyo box balancing on one leg.",
+        "Squat down on your support leg letting your free leg dangle alongside the box in a skater squat.",
+        "Push up again."
+      ],
+      "nl": [
+        "Sta op de rand van de box op één been.",
+        "Zak door dat been terwijl je het vrije been langs de box naar beneden laat hangen.",
+        "Duw weer op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "plyo_box_box_jumps"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-01T19:02:14.326Z"
+    }
+  },
+  {
     "id": "plyo_box_lateral_box_jump",
     "exercise_name": {
       "en": "Lateral Box Jump",
@@ -1404,13 +1390,13 @@
     }
   },
   {
-    "id": "plyo_box_decline_mountain_climbers",
+    "id": "plyo_box_lateral_step_up",
     "exercise_name": {
-      "en": "Decline Mountain Climbers",
-      "nl": "Decline Mountain Climbers"
+      "en": "Lateral Step Up",
+      "nl": "Lateral Step Up"
     },
     "aliases": [
-      "Decline Mountain Climbers"
+      "Lateral Step Up"
     ],
     "material": {
       "id": "plyo_box",
@@ -1424,45 +1410,46 @@
       }
     },
     "category": {
-      "en": "Core & Cardio",
-      "nl": "Core / Cardio"
+      "en": "Legs & Lateral Chain",
+      "nl": "Benen / Zijkant"
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "quadriceps",
+        "gluteus_maximus"
       ],
       "secondary": [
-        "gluteus_maximus",
-        "deltoids"
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
       ]
     },
     "attributes": {
       "difficulty": "intermediate",
       "mechanics": "compound",
-      "force_type": "pull",
+      "force_type": "dynamic",
       "tracking_type": "reps_only"
     },
     "instructions": {
       "en": [
-        "Hands on the ground, feet on the box.",
-        "Pull your knees alternately toward your chest.",
-        "Heavier for shoulders and core."
+        "Stand sideways next to the box.",
+        "Step onto the box with your inside foot and drive up to standing.",
+        "Return in a controlled manner."
       ],
       "nl": [
-        "Handen op de grond, voeten op de box.",
-        "Trek om en om je knieën naar je borst.",
-        "Zwaarder voor schouders en core."
+        "Ga zijwaarts naast de box staan.",
+        "Stap met je binnenste been op de box en duw jezelf omhoog tot stand.",
+        "Zak gecontroleerd terug."
       ]
     },
     "form_cues": {
       "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
       ],
       "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
       ]
     },
     "relations": {
@@ -1476,20 +1463,110 @@
     "media": {
       "videos": [
         {
-          "youtube_id": "ji49pH_O0HI",
+          "youtube_id": "K_Cx3L9kyQY",
           "type": "short",
           "priority": 1,
           "language": "en",
+          "start_seconds": 0,
           "aspect_ratio": "9:16",
-          "duration_seconds": 7,
-          "channel": "Weapon X Fitness",
-          "likes": 6
+          "duration_seconds": 6,
+          "channel": "Solid Rock Personal Training",
+          "likes": 4
         }
       ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
+      "updated_at": "2026-09-01T19:04:24.548Z"
+    }
+  },
+  {
+    "id": "plyo_box_seated_box_jump",
+    "exercise_name": {
+      "en": "Seated Box Jump",
+      "nl": "Seated Box Jump"
+    },
+    "aliases": [
+      "Seated Box Jump"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start sitting on the box (or a lower box/bench).",
+        "Lean forward slightly and jump explosively up (or onto a higher box in front of you)."
+      ],
+      "nl": [
+        "Begin zittend op de box (of een lagere box/bankje).",
+        "Leun iets naar voren en spring explosief omhoog (of op een hogere box voor je)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "plyo_box_elevated_pistol_squat"
+      ],
+      "regressions": [
+        "plyo_box_incline_push_ups"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "BeiH9z9frqE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 16,
+          "channel": "Jeremy Clements",
+          "likes": 8
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-01T19:05:34.028Z"
     }
   },
   {
@@ -1657,83 +1734,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "plyo_box_elevated_pistol_squat",
-    "exercise_name": {
-      "en": "Elevated Pistol Squat",
-      "nl": "Elevated Pistol Squat"
-    },
-    "aliases": [
-      "Elevated Pistol Squat"
-    ],
-    "material": {
-      "id": "plyo_box",
-      "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
-      },
-      "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
-      }
-    },
-    "category": {
-      "en": "Legs & Balance",
-      "nl": "Benen / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand on the edge of the plyo box balancing on one leg.",
-        "Squat down on your support leg letting your free leg dangle alongside the box in a skater squat.",
-        "Push up again."
-      ],
-      "nl": [
-        "Sta op de rand van de box op één been.",
-        "Zak door dat been terwijl je het vrije been langs de box naar beneden laat hangen.",
-        "Duw weer op."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "plyo_box_box_jumps"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:02:14.326Z"
     }
   }
 ]

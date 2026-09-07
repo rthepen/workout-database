@@ -5,19 +5,8 @@ const LIVE_DATA_URL = 'https://raw.githubusercontent.com/rthepen/workout-databas
 const STORAGE_KEY = 'workout_db_custom_edits_v2';
 
 export async function fetchAllExercises(forceLive: boolean = false): Promise<{ exercises: Exercise[]; isLive: boolean }> {
-  // In development, prioritize local bundled data
+  // In development, prioritize local bundled data directly so file/database updates are immediately active
   if (import.meta.env.DEV && !forceLive) {
-    const cachedEdits = localStorage.getItem(STORAGE_KEY);
-    if (cachedEdits) {
-      try {
-        const parsed = JSON.parse(cachedEdits);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          return { exercises: parsed, isLive: false };
-        }
-      } catch {
-        // Fallback
-      }
-    }
     return { exercises: bundledData as unknown as Exercise[], isLive: true };
   }
 
