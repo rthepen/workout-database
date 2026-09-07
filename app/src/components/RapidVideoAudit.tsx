@@ -24,12 +24,12 @@ import {
   VolumeX,
   Volume2,
   Dumbbell,
-  Film
+  Film,
+  Star
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
-import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed } from '../services/youtubeService';
+import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed, openYouTubeSearchApp } from '../services/youtubeService';
 import { SmartAuditVideoPlayer } from './SmartAuditVideoPlayer';
-import { SwipeVideoAudit } from './SwipeVideoAudit';
 import confetti from 'canvas-confetti';
 
 interface RapidVideoAuditProps {
@@ -37,8 +37,6 @@ interface RapidVideoAuditProps {
   onSaveBatch: (updatedExercises: Exercise[]) => Promise<void>;
   onSelectExerciseToView: (exerciseId: string) => void;
   materialsList: { id: string; name: { en: string; nl: string } }[];
-  initialLayout?: 'list' | 'swipe';
-  onLayoutChange?: (layout: 'list' | 'swipe') => void;
 }
 
 type VideoStatusDecision = 'ok' | 'remove';
@@ -63,22 +61,23 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   onSaveBatch,
   onSelectExerciseToView,
   materialsList,
-  initialLayout = 'list',
-  onLayoutChange,
 }) => {
-  const [auditLayout, setAuditLayout] = useState<'list' | 'swipe'>(initialLayout);
+  // Ratings map: exerciseId -> number (1..5)
+  const [ratings, setRatings] = useState<Record<string, number>>({});
 
-  const handleSetLayout = (layout: 'list' | 'swipe') => {
-    setAuditLayout(layout);
-    if (onLayoutChange) onLayoutChange(layout);
+  const handleSetRating = (exerciseId: string, star: number) => {
+    setRatings(prev => {
+      const current = prev[exerciseId] !== undefined
+        ? prev[exerciseId]
+        : (exercises.find(e => e.id === exerciseId)?.attributes?.rating || 0);
+      const nextVal = current === star ? 0 : star;
+      return {
+        ...prev,
+        [exerciseId]: nextVal,
+      };
+    });
   };
 
-  // Sync if initialLayout prop changes
-  React.useEffect(() => {
-    if (initialLayout) {
-      setAuditLayout(initialLayout);
-    }
-  }, [initialLayout]);
   // Filters & Global Settings
   const [selectedMaterial, setSelectedMaterial] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -222,6 +221,10 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       .filter(([id, status]) => status === 'ok' && !replacementMap.has(id)).length;
   }, [decisions, replacementMap]);
 
+  const ratedCount = useMemo(() => {
+    return Object.keys(ratings).length;
+  }, [ratings]);
+
   const handleSetDecision = (exerciseId: string, decision: VideoStatusDecision) => {
     setDecisions(prev => {
       if (prev[exerciseId] === decision) {
@@ -251,6 +254,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   const handleResetDecisions = () => {
     setDecisions({});
     setReplacements({});
+    setRatings({});
   };
 
   const toggleInstructions = (id: string) => {
@@ -348,8 +352,14 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         .map(([id]) => id)
     );
 
-    if (replacementEntries.length === 0 && toRemoveIds.size === 0 && toOkIds.size === 0) {
-      alert('Er zijn nog geen beoordelingen of video-vervangingen klaargezet.');
+    const ratingChanges = Object.entries(ratings).filter(([id, star]) => {
+      const origEx = exercises.find(e => e.id === id);
+      return origEx && (origEx.attributes?.rating || 0) !== star;
+    });
+    const ratingChangeIds = new Set(ratingChanges.map(([id]) => id));
+
+    if (replacementEntries.length === 0 && toRemoveIds.size === 0 && toOkIds.size === 0 && ratingChangeIds.size === 0) {
+      alert('Er zijn nog geen beoordelingen, video-vervangingen of sterren klaargezet.');
       return;
     }
 
@@ -360,56 +370,71 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       const updatedList: Exercise[] = [];
 
       exercises.forEach(ex => {
-        // 1. If replacement provided: REPLACE OLD VIDEO
-        if (replacementMap.has(ex.id)) {
-          const rep = replacementMap.get(ex.id)!;
-          const newVideo: VideoMedia = {
-            youtube_id: rep.youtubeId,
-            type: rep.type,
-            priority: 1,
-            language: 'en',
-            start_seconds: rep.startSeconds || 0,
-            aspect_ratio: rep.aspectRatio,
-            duration_seconds: rep.durationSeconds,
-            channel: rep.channel,
-            likes: rep.likes,
-            rating: 5,
-          };
-          updatedList.push({
-            ...ex,
-            media: {
-              ...ex.media,
-              videos: [newVideo], // Replaces old video!
-            },
-            meta: {
-              ...ex.meta,
-              updated_at: now,
-            },
-          });
-        }
-        // 2. If marked as remove: REMOVE VIDEO FROM DATABASE
-        else if (toRemoveIds.has(ex.id)) {
-          updatedList.push({
-            ...ex,
-            media: {
-              ...ex.media,
-              videos: [],
-            },
-            meta: {
-              ...ex.meta,
-              updated_at: now,
-            },
-          });
-        }
-        // 3. If marked as ok: CONFIRMED
-        else if (toOkIds.has(ex.id)) {
-          updatedList.push({
-            ...ex,
-            meta: {
-              ...ex.meta,
-              updated_at: now,
-            },
-          });
+        const hasRep = replacementMap.has(ex.id);
+        const isRemove = toRemoveIds.has(ex.id);
+        const isOk = toOkIds.has(ex.id);
+        const hasRatingChange = ratingChangeIds.has(ex.id);
+
+        if (hasRep || isRemove || isOk || hasRatingChange) {
+          const targetRating = ratings[ex.id] !== undefined ? ratings[ex.id] : ex.attributes?.rating;
+          const updatedAttributes = targetRating !== undefined
+            ? { ...ex.attributes, rating: targetRating }
+            : ex.attributes;
+
+          // 1. If replacement provided: REPLACE OLD VIDEO
+          if (hasRep) {
+            const rep = replacementMap.get(ex.id)!;
+            const newVideo: VideoMedia = {
+              youtube_id: rep.youtubeId,
+              type: rep.type,
+              priority: 1,
+              language: 'en',
+              start_seconds: rep.startSeconds || 0,
+              aspect_ratio: rep.aspectRatio,
+              duration_seconds: rep.durationSeconds,
+              channel: rep.channel,
+              likes: rep.likes,
+              rating: targetRating || 5,
+            };
+            updatedList.push({
+              ...ex,
+              attributes: updatedAttributes,
+              media: {
+                ...ex.media,
+                videos: [newVideo], // Replaces old video!
+              },
+              meta: {
+                ...ex.meta,
+                updated_at: now,
+              },
+            });
+          }
+          // 2. If marked as remove: REMOVE VIDEO FROM DATABASE
+          else if (isRemove) {
+            updatedList.push({
+              ...ex,
+              attributes: updatedAttributes,
+              media: {
+                ...ex.media,
+                videos: [],
+              },
+              meta: {
+                ...ex.meta,
+                updated_at: now,
+              },
+            });
+          }
+          // 3. If marked as ok or rating updated
+          else {
+            updatedList.push({
+              ...ex,
+              attributes: updatedAttributes,
+              meta: {
+                ...ex.meta,
+                updated_at: now,
+              },
+            });
+          }
         }
       });
 
@@ -418,6 +443,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       // Reset state on success
       setDecisions({});
       setReplacements({});
+      setRatings({});
       try {
         confetti({
           particleCount: 60,
@@ -433,24 +459,6 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       setIsSubmitting(false);
     }
   };
-
-  if (auditLayout === 'swipe') {
-    return (
-      <SwipeVideoAudit
-        exercises={exercises}
-        decisions={decisions}
-        onSetDecision={handleSetDecision}
-        replacements={replacements}
-        onReplacementInputChange={handleReplacementInputChange}
-        onClearReplacement={handleClearReplacement}
-        onUpdateReplacementMetadata={handleUpdateReplacementMetadata}
-        onSaveBatch={onSaveBatch}
-        onSwitchToListView={() => handleSetLayout('list')}
-        onResetDecisions={handleResetDecisions}
-        materialsList={materialsList}
-      />
-    );
-  }
 
   return (
     <div className="max-w-5xl mx-auto space-y-4 pb-36">
@@ -470,16 +478,6 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
           </div>
 
           <div className="flex items-center gap-2 self-stretch sm:self-auto flex-wrap">
-            {/* Switch to Swipe Mobile View */}
-            <button
-              type="button"
-              onClick={() => handleSetLayout('swipe')}
-              className="px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white shadow-lg shadow-purple-600/30 transition border border-purple-400/40"
-              title="Wissel naar mobiele swipe-weergave"
-            >
-              <Smartphone className="w-3.5 h-3.5 text-white" />
-              <span>📱 Swipe Feed</span>
-            </button>
             {/* Smart Preload & Autoplay Toggle Button */}
             <button
               onClick={() => setAutoplayEnabled(!autoplayEnabled)}
@@ -756,6 +754,11 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             <span className="text-rose-400 font-semibold">
               ❌ {removeList.length} te verwijderen
             </span>
+            {ratedCount > 0 && (
+              <span className="text-amber-400 font-semibold">
+                ⭐ {ratedCount} ster-rating(s)
+              </span>
+            )}
           </div>
         </div>
       </div>
@@ -790,10 +793,13 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             const instructionsEn = ex.instructions?.en || [];
             const instructions = instructionsNl.length > 0 ? instructionsNl : instructionsEn;
 
+            const activeRating = ratings[ex.id] !== undefined ? ratings[ex.id] : (ex.attributes?.rating || 0);
+            const ytSearchQuery = `${ex.exercise_name?.nl || ex.exercise_name?.en || ''} ${ex.material?.name?.nl || ex.material?.name?.en || ''} workout exercise form short`.trim();
+
             return (
               <div
                 key={ex.id}
-                className={`bg-[#101626] border rounded-2xl p-3 sm:p-4 transition shadow-md ${
+                className={`bg-[#101626] border rounded-2xl p-3.5 sm:p-4 transition shadow-md ${
                   hasValidReplacement
                     ? 'border-cyan-500/70 bg-cyan-950/20 ring-1 ring-cyan-500/40'
                     : isRemove
@@ -803,64 +809,105 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     : 'border-slate-800/80 hover:border-slate-700'
                 }`}
               >
-                <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-3.5">
-                  {/* Left Column: Title, Equipment, & Instructions */}
-                  <div className="flex-1 min-w-0 space-y-1.5 w-full">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <span className="text-xs font-mono text-slate-500 font-bold">
-                        #{idx + 1}
+                {/* Card Top Header: Title, Equipment, Category & 5-Star Rating */}
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5 pb-2.5 border-b border-slate-800/80">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-mono text-slate-500 font-bold">
+                      #{idx + 1}
+                    </span>
+                    <h3 className="font-bold text-sm sm:text-base text-white tracking-tight">
+                      {ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
+                    </h3>
+                    {ex.exercise_name?.en && ex.exercise_name.en !== ex.exercise_name.nl && (
+                      <span className="text-xs text-slate-400 italic">
+                        ({ex.exercise_name.en})
                       </span>
-                      <h3 className="font-bold text-sm sm:text-base text-white tracking-tight">
-                        {ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
-                      </h3>
-                      {ex.exercise_name?.en && ex.exercise_name.en !== ex.exercise_name.nl && (
-                        <span className="text-xs text-slate-400 italic">
-                          ({ex.exercise_name.en})
-                        </span>
-                      )}
+                    )}
 
-                      {/* Equipment / Material Badge */}
-                      <button
-                        type="button"
-                        onClick={() => setSelectedMaterial(selectedMaterial === ex.material?.id ? 'all' : (ex.material?.id || 'all'))}
-                        title={`Filter op apparaat: ${ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}`}
-                        className={`px-2 py-0.5 rounded-lg border text-[10px] font-mono font-medium flex items-center gap-1 transition ${
-                          selectedMaterial === ex.material?.id
-                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300 font-bold'
-                            : 'bg-slate-800 hover:bg-slate-700 border-slate-700 text-slate-300'
-                        }`}
-                      >
-                        <Dumbbell className="w-2.5 h-2.5 text-slate-400" />
-                        <span>{ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}</span>
-                      </button>
+                    {/* Equipment / Material Badge */}
+                    <button
+                      type="button"
+                      onClick={() => setSelectedMaterial(selectedMaterial === ex.material?.id ? 'all' : (ex.material?.id || 'all'))}
+                      title={`Filter op apparaat: ${ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}`}
+                      className={`px-2 py-0.5 rounded-lg border text-[10px] font-mono font-medium flex items-center gap-1 transition ${
+                        selectedMaterial === ex.material?.id
+                          ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300 font-bold'
+                          : 'bg-slate-800 hover:bg-slate-700 border-slate-700 text-slate-300'
+                      }`}
+                    >
+                      <Dumbbell className="w-2.5 h-2.5 text-slate-400" />
+                      <span>{ex.material?.name?.nl || ex.material?.name?.en || ex.material?.id}</span>
+                    </button>
 
-                      {/* Category Badge */}
-                      {ex.category && (
-                        <span className="px-2 py-0.5 rounded-lg bg-sky-950/80 border border-sky-800 text-[10px] text-sky-300 font-medium">
-                          {typeof ex.category === 'string' ? ex.category : (ex.category.nl || ex.category.en)}
-                        </span>
-                      )}
+                    {/* Category Badge */}
+                    {ex.category && (
+                      <span className="px-2 py-0.5 rounded-lg bg-sky-950/80 border border-sky-800 text-[10px] text-sky-300 font-medium">
+                        {typeof ex.category === 'string' ? ex.category : (ex.category.nl || ex.category.en)}
+                      </span>
+                    )}
 
-                      {/* Replacement Status Badge */}
-                      {hasValidReplacement && (
-                        <span className="px-2 py-0.5 rounded-lg bg-cyan-950 text-cyan-300 border border-cyan-500 font-bold text-[10px] flex items-center gap-1 animate-pulse">
-                          <Sparkles className="w-3 h-3 text-cyan-400" />
-                          <span>Vervangt Oude Video</span>
-                        </span>
-                      )}
+                    {/* Replacement Status Badge */}
+                    {hasValidReplacement && (
+                      <span className="px-2 py-0.5 rounded-lg bg-cyan-950 text-cyan-300 border border-cyan-500 font-bold text-[10px] flex items-center gap-1 animate-pulse">
+                        <Sparkles className="w-3 h-3 text-cyan-400" />
+                        <span>Vervangt Oude Video</span>
+                      </span>
+                    )}
 
-                      {/* Removal Status Badge */}
-                      {isRemove && (
-                        <span className="px-2 py-0.5 rounded-lg bg-rose-950 text-rose-300 border border-rose-600 font-bold text-[10px] flex items-center gap-1 animate-pulse">
-                          <Trash2 className="w-3 h-3" />
-                          <span>Video Wordt Verwijderd</span>
-                        </span>
-                      )}
+                    {/* Removal Status Badge */}
+                    {isRemove && (
+                      <span className="px-2 py-0.5 rounded-lg bg-rose-950 text-rose-300 border border-rose-600 font-bold text-[10px] flex items-center gap-1 animate-pulse">
+                        <Trash2 className="w-3 h-3" />
+                        <span>Video Wordt Verwijderd</span>
+                      </span>
+                    )}
+
+                    {/* Confirmed OK Badge */}
+                    {isOk && (
+                      <span className="px-2 py-0.5 rounded-lg bg-emerald-950 text-emerald-300 border border-emerald-600 font-bold text-[10px] flex items-center gap-1">
+                        <CheckCircle2 className="w-3 h-3" />
+                        <span>Video OK</span>
+                      </span>
+                    )}
+                  </div>
+
+                  {/* 5-Star Rating Component */}
+                  <div className="flex items-center gap-1 bg-slate-950/90 px-2.5 py-1 rounded-xl border border-slate-800 shadow-inner self-stretch sm:self-auto justify-between sm:justify-start">
+                    <span className="text-[10px] text-slate-400 font-semibold mr-1">Sterren:</span>
+                    <div className="flex items-center gap-0.5">
+                      {[1, 2, 3, 4, 5].map((star) => (
+                        <button
+                          key={star}
+                          type="button"
+                          onClick={() => handleSetRating(ex.id, star)}
+                          className="p-1 hover:scale-125 transition focus:outline-none touch-manipulation"
+                          title={`Geef ${star} ster${star > 1 ? 'ren' : ''}`}
+                        >
+                          <Star
+                            className={`w-4 h-4 sm:w-3.5 sm:h-3.5 transition ${
+                              star <= activeRating
+                                ? 'text-amber-400 fill-amber-400 filter drop-shadow-[0_0_3px_rgba(251,191,36,0.6)]'
+                                : 'text-slate-600 hover:text-amber-300'
+                            }`}
+                          />
+                        </button>
+                      ))}
                     </div>
+                    {activeRating > 0 && (
+                      <span className="text-[10px] font-mono font-bold text-amber-400 ml-1">
+                        {activeRating}/5
+                      </span>
+                    )}
+                  </div>
+                </div>
 
+                {/* Card Main: Details & Video with Mobile-Friendly Controls */}
+                <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-3.5 pt-2.5">
+                  {/* Left Column: Metadata & Instructions */}
+                  <div className="flex-1 min-w-0 space-y-2 w-full">
                     {/* Metadata Badges for active video */}
                     {displayVideoId && (
-                      <div className="flex flex-wrap items-center gap-2 text-[10px] text-slate-400 pt-0.5">
+                      <div className="flex flex-wrap items-center gap-2 text-[10px] text-slate-400">
                         <span className={`px-1.5 py-0.5 rounded border font-semibold flex items-center gap-1 ${
                           (hasValidReplacement ? rep.type === 'short' : primaryVideo?.type === 'short' || primaryVideo?.aspect_ratio === '9:16')
                             ? 'bg-purple-950/80 border-purple-500/40 text-purple-300'
@@ -928,10 +975,10 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     )}
                   </div>
 
-                  {/* Center/Right Column: Video Player with Smart Preload and In-View Autoplay */}
-                  <div className="flex items-center gap-3 w-full lg:w-auto justify-between lg:justify-end flex-shrink-0 border-t lg:border-t-0 border-slate-800/80 pt-2 lg:pt-0">
-                    {displayVideoId ? (
-                      <div className="flex items-center gap-2.5">
+                  {/* Right Column: Video Player + Action Buttons (Zoek op YouTube) + Video OK? Switch */}
+                  <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full lg:w-auto justify-between lg:justify-end flex-shrink-0 border-t lg:border-t-0 border-slate-800/80 pt-2.5 lg:pt-0">
+                    <div className="flex items-center gap-2.5 justify-start">
+                      {displayVideoId ? (
                         <SmartAuditVideoPlayer
                           exerciseId={ex.id}
                           videoId={displayVideoId}
@@ -945,38 +992,54 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           title={ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
                           autoplayEnabled={autoplayEnabled}
                         />
+                      ) : (
+                        <div className="w-28 sm:w-36 h-24 sm:h-28 rounded-xl bg-slate-950/80 border border-dashed border-slate-800 flex flex-col items-center justify-center text-slate-500 text-[11px] gap-1 flex-shrink-0">
+                          <Tv className="w-5 h-5 opacity-40" />
+                          <span>Geen Video</span>
+                        </div>
+                      )}
 
-                        <div className="flex flex-col gap-1 text-[11px]">
+                      {/* Action Buttons Column: Zoek op YouTube, YouTube Link, Details */}
+                      <div className="flex flex-col gap-1.5 flex-1 sm:flex-initial">
+                        {/* Dedicated "Zoek op YouTube" button */}
+                        <button
+                          type="button"
+                          onClick={() => openYouTubeSearchApp(ytSearchQuery)}
+                          className="px-2.5 py-1.5 bg-rose-600 hover:bg-rose-500 text-white rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 shadow-md shadow-rose-600/30 transition transform active:scale-95 whitespace-nowrap min-h-[36px]"
+                          title={`Zoek '${ex.exercise_name?.nl || ex.exercise_name?.en}' direct in de YouTube app`}
+                        >
+                          <Film className="w-3.5 h-3.5 text-white" />
+                          <span>Zoek op YouTube</span>
+                        </button>
+
+                        {displayVideoId && (
                           <a
                             href={`https://www.youtube.com/watch?v=${displayVideoId}&t=${displayStartSec}`}
                             target="_blank"
                             rel="noreferrer"
-                            className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-lg border border-slate-700 flex items-center gap-1 font-medium transition"
-                            title="Open in YouTube"
+                            className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-xl border border-slate-700 flex items-center justify-center gap-1.5 font-medium text-xs transition min-h-[30px]"
+                            title="Open huidige video in YouTube"
                           >
                             <ExternalLink className="w-3 h-3 text-rose-400" />
-                            <span className="hidden sm:inline">YouTube</span>
+                            <span>Huidige Video</span>
                           </a>
-                          <button
-                            onClick={() => onSelectExerciseToView(ex.id)}
-                            className="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-lg border border-slate-700 flex items-center gap-1 font-medium transition"
-                            title="Open in Card View"
-                          >
-                            <SlidersHorizontal className="w-3 h-3 text-sky-400" />
-                            <span className="hidden sm:inline">Details</span>
-                          </button>
-                        </div>
+                        )}
+
+                        <button
+                          type="button"
+                          onClick={() => onSelectExerciseToView(ex.id)}
+                          className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-xl border border-slate-700 flex items-center justify-center gap-1.5 font-medium text-xs transition min-h-[30px]"
+                          title="Open alle oefeningdetails"
+                        >
+                          <SlidersHorizontal className="w-3 h-3 text-sky-400" />
+                          <span>Details</span>
+                        </button>
                       </div>
-                    ) : (
-                      <div className="w-44 h-26 rounded-xl bg-slate-950/80 border border-dashed border-slate-800 flex flex-col items-center justify-center text-slate-500 text-[11px] gap-1">
-                        <Tv className="w-4 h-4 opacity-50" />
-                        <span>Geen Video</span>
-                      </div>
-                    )}
+                    </div>
 
                     {/* Far Right: Video OK? Yes / No Switch */}
-                    <div className="flex flex-col items-center gap-1 pl-2 border-l border-slate-800/80">
-                      <span className="text-[10px] uppercase tracking-wider font-extrabold text-slate-400">
+                    <div className="flex sm:flex-col items-center justify-between sm:justify-center gap-2 p-2 sm:p-0 bg-slate-950/60 sm:bg-transparent rounded-xl border sm:border-0 border-slate-800/80 sm:pl-3 sm:border-l sm:border-slate-800/80">
+                      <span className="text-[11px] sm:text-[10px] uppercase tracking-wider font-extrabold text-slate-400">
                         Video OK?
                       </span>
                       <div className="flex items-center bg-slate-950 border border-slate-800 rounded-xl p-0.5 shadow-inner">
@@ -986,13 +1049,13 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           onClick={() => handleSetDecision(ex.id, 'ok')}
                           disabled={!hasExistingVideo && !hasValidReplacement}
                           title="Video is juist (behouden)"
-                          className={`px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-black flex items-center gap-1 transition disabled:opacity-30 ${
+                          className={`min-h-[42px] sm:min-h-[34px] px-4 sm:px-3 py-1.5 rounded-lg text-xs font-black flex items-center gap-1.5 transition disabled:opacity-30 ${
                             isOk
                               ? 'bg-emerald-600 text-white shadow-md shadow-emerald-600/30'
                               : 'text-slate-400 hover:text-emerald-300 hover:bg-emerald-950/40'
                           }`}
                         >
-                          <CheckCircle2 className="w-3.5 h-3.5" />
+                          <CheckCircle2 className="w-4 h-4 sm:w-3.5 sm:h-3.5" />
                           <span>Ja</span>
                         </button>
 
@@ -1002,13 +1065,13 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           onClick={() => handleSetDecision(ex.id, 'remove')}
                           disabled={!hasExistingVideo && !hasValidReplacement}
                           title="Video is FOUT: verwijder video uit database"
-                          className={`px-3 sm:px-3.5 py-1.5 rounded-lg text-xs font-black flex items-center gap-1 transition disabled:opacity-30 ${
+                          className={`min-h-[42px] sm:min-h-[34px] px-4 sm:px-3 py-1.5 rounded-lg text-xs font-black flex items-center gap-1.5 transition disabled:opacity-30 ${
                             isRemove
                               ? 'bg-rose-600 text-white shadow-md shadow-rose-600/30 ring-1 ring-white/20'
                               : 'text-slate-400 hover:text-rose-300 hover:bg-rose-950/40'
                           }`}
                         >
-                          <XCircle className="w-3.5 h-3.5" />
+                          <XCircle className="w-4 h-4 sm:w-3.5 sm:h-3.5" />
                           <span>Nee</span>
                         </button>
                       </div>
@@ -1176,13 +1239,21 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 <strong className="text-rose-200 font-bold">{removeList.length}</strong> foute video('s) te verwijderen
               </span>
             </div>
+            {ratedCount > 0 && (
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
+                <span className="text-amber-300">
+                  <strong className="text-amber-200 font-bold">{ratedCount}</strong> ster-rating(s)
+                </span>
+              </div>
+            )}
           </div>
 
           <div className="flex items-center gap-2 self-stretch sm:self-auto">
             <button
               onClick={handleSubmitAll}
-              disabled={isSubmitting || (removeList.length === 0 && okCount === 0 && validReplacements.length === 0)}
-              className={`flex-1 sm:flex-initial px-6 py-2.5 sm:py-3 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-40 whitespace-nowrap ${
+              disabled={isSubmitting || (removeList.length === 0 && okCount === 0 && validReplacements.length === 0 && ratedCount === 0)}
+              className={`flex-1 sm:flex-initial px-6 py-2.5 sm:py-3 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-40 whitespace-nowrap min-h-[44px] ${
                 validReplacements.length > 0
                   ? 'bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 hover:from-cyan-500 hover:to-blue-500 shadow-cyan-600/30'
                   : removeList.length > 0
@@ -1205,7 +1276,9 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                       ? `Vervang ${validReplacements.length} Video('s) & Stuur naar Sheet`
                       : removeList.length > 0
                       ? `Verwijder ${removeList.length} Foute Video('s) & Stuur naar Sheet`
-                      : `Verstuur ${okCount} Beoordelingen naar Google Sheet`}
+                      : okCount > 0
+                      ? `Verstuur ${okCount} Beoordelingen naar Google Sheet`
+                      : `Verstuur ${ratedCount} Beoordeling(en) naar Google Sheet`}
                   </span>
                 </>
               )}

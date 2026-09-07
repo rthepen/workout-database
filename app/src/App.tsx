@@ -359,7 +359,7 @@ export function App() {
 
       {/* Main Content Area */}
       <main className="flex-1 p-3 sm:p-6 pb-24 overflow-y-auto">
-        {viewMode === 'rapid_audit' || viewMode === 'swipe_audit' ? (
+        {viewMode === 'rapid_audit' ? (
           <RapidVideoAudit
             exercises={exercises}
             onSaveBatch={handleSaveBatch}
@@ -368,10 +368,6 @@ export function App() {
               setViewMode('single');
             }}
             materialsList={materialsList}
-            initialLayout={viewMode === 'swipe_audit' ? 'swipe' : 'list'}
-            onLayoutChange={(layout) => {
-              setViewMode(layout === 'swipe' ? 'swipe_audit' : 'rapid_audit');
-            }}
           />
         ) : filteredAndSortedExercises.length === 0 ? (
           <div className="max-w-md mx-auto my-12 p-8 text-center bg-slate-900 border border-slate-800 rounded-2xl space-y-4">
