@@ -789,6 +789,478 @@
     }
   },
   {
+    "id": "ab_wheel_v_rollout",
+    "exercise_name": {
+      "en": "V-Rollout",
+      "nl": "V-Rollout"
+    },
+    "aliases": [
+      "V-Rollout"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Obliques & Core",
+      "nl": "Buikspieren / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Start on your knees and roll the wheel out diagonally, alternating between left and right in a 'V' shape."
+      ],
+      "nl": [
+        "Start op je knieën en rol het wiel diagonaal naar buiten, wisselend tussen links en rechts in een 'V' vorm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "ab_wheel_knee_tucks",
+    "exercise_name": {
+      "en": "Ab Wheel Knee Tucks",
+      "nl": "Ab Wheel Knee Tucks"
+    },
+    "aliases": [
+      "Ab Wheel Knee Tucks"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place your feet into the wheel foot cradles or foot straps.",
+        "From a plank position, pull your knees toward your chest."
+      ],
+      "nl": [
+        "Plaats je voeten op de handvatten (hiervoor zijn speciale wielen of elastieken nodig).",
+        "Trek vanuit een plankpositie je knieën naar je borst."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "sJUdi5nKODY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "start_seconds": 0,
+          "channel": "Andy Jones Fitness"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "ab_wheel_pikes",
+    "exercise_name": {
+      "en": "Ab Wheel Pikes",
+      "nl": "Ab Wheel Pikes"
+    },
+    "aliases": [
+      "Ab Wheel Pikes"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Buikspieren / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "With feet on the ab wheel, keep legs straight and drive hips high into a sharp pike V-shape.",
+        "Roll back to plank in a controlled manner."
+      ],
+      "nl": [
+        "Met je voeten op het wiel, houd je benen gestrekt en breng je heupen zo hoog mogelijk de lucht in (V-vorm).",
+        "Rol gecontroleerd terug naar plank."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "ab_wheel_ramp_rollout",
+    "exercise_name": {
+      "en": "Ramp Rollout",
+      "nl": "Ramp Rollout"
+    },
+    "aliases": [
+      "Ramp Rollout"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Buikspieren / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Roll out on an incline (up).",
+        "This makes the return journey more difficult and is a good intermediate step towards the standing rollout."
+      ],
+      "nl": [
+        "Rol uit op een helling (omhoog).",
+        "Dit maakt de terugweg zwaarder en is een goede tussenstap naar de standing rollout."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "ab_wheel_crawls",
+    "exercise_name": {
+      "en": "Ab Wheel Crawls",
+      "nl": "Ab Wheel Crawls"
+    },
+    "aliases": [
+      "Ab Wheel Crawls"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Shoulders",
+      "nl": "Core / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "With your feet on the wheel, walk forward on your hands.",
+        "The ab wheel rolls smoothly behind following your foot movement.",
+        "This requires enormous stabilization of the core."
+      ],
+      "nl": [
+        "Met je voeten op het wiel, loop je op je handen naar voren.",
+        "Het wiel volgt je voeten.",
+        "Dit vergt enorme stabilisatie van de core."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "ab_wheel_narrow_to_wide",
+    "exercise_name": {
+      "en": "Narrow to Wide Rollout",
+      "nl": "Narrow to Wide Rollout"
+    },
+    "aliases": [
+      "Narrow to Wide Rollout"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Start with a normal rollout.",
+        "On the next repetition, place your knees wider and roll out at an angle.",
+        "Vary the width of your knee base between reps."
+      ],
+      "nl": [
+        "Begin met een normale rollout.",
+        "Bij de volgende herhaling plaats je je knieën wijder en rol je schuin uit.",
+        "Wissel de breedte van je basis af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_oblique_rollout"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
     "id": "agility_ladder_in_out",
     "exercise_name": {
       "en": "Agility Ladder In Out (Straddle Hops)",
@@ -2157,6 +2629,459 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-30T10:05:01.403Z"
+    }
+  },
+  {
+    "id": "agility_ladder_ick_shuffle",
+    "exercise_name": {
+      "en": "Agility Ladder Icky Shuffle",
+      "nl": "Agility Ladder Icky Shuffle"
+    },
+    "aliases": [
+      "Agility Ladder Icky Shuffle"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Coordination",
+      "nl": "Cardio / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Follow a continuous 3-count footwork rhythm.",
+        "Step one foot in the ladder rung (1), trail foot in (2), lead foot out (3) in an Icky Shuffle rhythm.",
+        "Move forward diagonally.",
+        "In-In-Out, In-In-Out."
+      ],
+      "nl": [
+        "Een 3-tellen ritme.",
+        "Stap met één voet in het vak (1), de andere erbij (2), en de eerste voet naar buiten (3).",
+        "Beweeg diagonaal vooruit.",
+        "In-In-Uit, In-In-Uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "miV1LdY01Ng",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Trifecta Therapeutics: Sports Rehab & Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "agility_ladder_hop_scotch",
+    "exercise_name": {
+      "en": "Hop Scotch",
+      "nl": "Hop Scotch"
+    },
+    "aliases": [
+      "Hop Scotch"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Rhythmic Plyometrics",
+      "nl": "Plyometrics / Ritme"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Jump into the box on one leg, then jump with both legs wide (outside the box).",
+        "Jump into the next box with the other leg.",
+        "1-2-1-2 rhythm."
+      ],
+      "nl": [
+        "Spring op één been in het vakje, spring vervolgens met twee benen wijd (buiten het vakje).",
+        "Spring met het andere been in het volgende vakje.",
+        "1-2-1-2 ritme."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Nt9sLH38G20",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "start_seconds": 0,
+          "channel": "iaN Yuliyanto"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T22:10:34.771Z"
+    }
+  },
+  {
+    "id": "agility_ladder_carioca",
+    "exercise_name": {
+      "en": "Carioca / Crossover",
+      "nl": "Carioca / Crossover"
+    },
+    "aliases": [
+      "Carioca / Crossover"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Hip Mobility & Speed",
+      "nl": "Heupmobiliteit / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Move sideways.",
+        "Cross your back leg alternately in front of and behind your front leg in the boxes.",
+        "Rotate your hips smoothly."
+      ],
+      "nl": [
+        "Beweeg zijwaarts.",
+        "Kruis je achterste been afwisselend vóór en áchter je voorste been langs in de vakjes.",
+        "Draai je heupen soepel in."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "470Ljl7z3iM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "start_seconds": 0,
+          "channel": "iaN Yuliyanto"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T22:10:34.771Z"
+    }
+  },
+  {
+    "id": "agility_ladder_river_dance",
+    "exercise_name": {
+      "en": "River Dance",
+      "nl": "River Dance"
+    },
+    "aliases": [
+      "River Dance"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Coordination",
+      "nl": "Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "A variation on the Icky Shuffle.",
+        "Jump and tap the ground in the box with your heel, while crossing your other leg behind it.",
+        "Requires refined cadence and rhythm."
+      ],
+      "nl": [
+        "Een variant op de Icky Shuffle.",
+        "Spring en tik met je hiel de grond aan in het vakje, terwijl je andere been erachter kruist.",
+        "Vraagt veel ritmegevoel."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Jfo_J_4jU6U",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "PE 2021",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "agility_ladder_hip_twist",
+    "exercise_name": {
+      "en": "Hip Twist",
+      "nl": "Hip Twist"
+    },
+    "aliases": [
+      "Hip Twist"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Core & Hips",
+      "nl": "Core / Heupen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Jump into the box with both feet while rotating your hips so that your feet land at an angle.",
+        "Jump to the next square and rotate your hips the other way."
+      ],
+      "nl": [
+        "Spring met twee voeten in het vakje terwijl je je heupen draait zodat je voeten schuin landen.",
+        "Spring naar het volgende vakje en draai je heupen de andere kant op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Fm8pBNgTsWc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "start_seconds": 0,
+          "channel": "Flight Performance & Fitness"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-06T22:10:34.771Z"
     }
   },
   {
@@ -5030,6 +5955,97 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "barbell_back_squat",
+    "exercise_name": {
+      "en": "Back Squat",
+      "nl": "Back Squat"
+    },
+    "aliases": [
+      "Back Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Place the bar on your neck (on your trapezius).",
+        "Stand tall with feet hip-width apart.",
+        "Bend your knees and hips as if you were going to sit down.",
+        "Keep your spine neutral as you drive back up to standing."
+      ],
+      "nl": [
+        "Leg de stang in je nek (op je trapezius).",
+        "Sta op heupbreedte.",
+        "Zak door je knieën en heupen alsof je gaat zitten.",
+        "Houd je rug recht en kom weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dW3zj79xfrc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
     }
   },
   {
@@ -52319,1022 +53335,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T07:10:17.188Z"
-    }
-  },
-  {
-    "id": "ab_wheel_v_rollout",
-    "exercise_name": {
-      "en": "V-Rollout",
-      "nl": "V-Rollout"
-    },
-    "aliases": [
-      "V-Rollout"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Obliques & Core",
-      "nl": "Buikspieren / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Start on your knees and roll the wheel out diagonally, alternating between left and right in a 'V' shape."
-      ],
-      "nl": [
-        "Start op je knieën en rol het wiel diagonaal naar buiten, wisselend tussen links en rechts in een 'V' vorm."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "ab_wheel_knee_tucks",
-    "exercise_name": {
-      "en": "Ab Wheel Knee Tucks",
-      "nl": "Ab Wheel Knee Tucks"
-    },
-    "aliases": [
-      "Ab Wheel Knee Tucks"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place your feet into the wheel foot cradles or foot straps.",
-        "From a plank position, pull your knees toward your chest."
-      ],
-      "nl": [
-        "Plaats je voeten op de handvatten (hiervoor zijn speciale wielen of elastieken nodig).",
-        "Trek vanuit een plankpositie je knieën naar je borst."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "sJUdi5nKODY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "start_seconds": 0,
-          "channel": "Andy Jones Fitness"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "ab_wheel_pikes",
-    "exercise_name": {
-      "en": "Ab Wheel Pikes",
-      "nl": "Ab Wheel Pikes"
-    },
-    "aliases": [
-      "Ab Wheel Pikes"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Buikspieren / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "With feet on the ab wheel, keep legs straight and drive hips high into a sharp pike V-shape.",
-        "Roll back to plank in a controlled manner."
-      ],
-      "nl": [
-        "Met je voeten op het wiel, houd je benen gestrekt en breng je heupen zo hoog mogelijk de lucht in (V-vorm).",
-        "Rol gecontroleerd terug naar plank."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "ab_wheel_ramp_rollout",
-    "exercise_name": {
-      "en": "Ramp Rollout",
-      "nl": "Ramp Rollout"
-    },
-    "aliases": [
-      "Ramp Rollout"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Buikspieren / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Roll out on an incline (up).",
-        "This makes the return journey more difficult and is a good intermediate step towards the standing rollout."
-      ],
-      "nl": [
-        "Rol uit op een helling (omhoog).",
-        "Dit maakt de terugweg zwaarder en is een goede tussenstap naar de standing rollout."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "ab_wheel_crawls",
-    "exercise_name": {
-      "en": "Ab Wheel Crawls",
-      "nl": "Ab Wheel Crawls"
-    },
-    "aliases": [
-      "Ab Wheel Crawls"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Shoulders",
-      "nl": "Core / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "With your feet on the wheel, walk forward on your hands.",
-        "The ab wheel rolls smoothly behind following your foot movement.",
-        "This requires enormous stabilization of the core."
-      ],
-      "nl": [
-        "Met je voeten op het wiel, loop je op je handen naar voren.",
-        "Het wiel volgt je voeten.",
-        "Dit vergt enorme stabilisatie van de core."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "ab_wheel_narrow_to_wide",
-    "exercise_name": {
-      "en": "Narrow to Wide Rollout",
-      "nl": "Narrow to Wide Rollout"
-    },
-    "aliases": [
-      "Narrow to Wide Rollout"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Start with a normal rollout.",
-        "On the next repetition, place your knees wider and roll out at an angle.",
-        "Vary the width of your knee base between reps."
-      ],
-      "nl": [
-        "Begin met een normale rollout.",
-        "Bij de volgende herhaling plaats je je knieën wijder en rol je schuin uit.",
-        "Wissel de breedte van je basis af."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_oblique_rollout"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "agility_ladder_ick_shuffle",
-    "exercise_name": {
-      "en": "Agility Ladder Icky Shuffle",
-      "nl": "Agility Ladder Icky Shuffle"
-    },
-    "aliases": [
-      "Agility Ladder Icky Shuffle"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Coordination",
-      "nl": "Cardio / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Follow a continuous 3-count footwork rhythm.",
-        "Step one foot in the ladder rung (1), trail foot in (2), lead foot out (3) in an Icky Shuffle rhythm.",
-        "Move forward diagonally.",
-        "In-In-Out, In-In-Out."
-      ],
-      "nl": [
-        "Een 3-tellen ritme.",
-        "Stap met één voet in het vak (1), de andere erbij (2), en de eerste voet naar buiten (3).",
-        "Beweeg diagonaal vooruit.",
-        "In-In-Uit, In-In-Uit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "miV1LdY01Ng",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Trifecta Therapeutics: Sports Rehab & Performance",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "agility_ladder_hop_scotch",
-    "exercise_name": {
-      "en": "Hop Scotch",
-      "nl": "Hop Scotch"
-    },
-    "aliases": [
-      "Hop Scotch"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Rhythmic Plyometrics",
-      "nl": "Plyometrics / Ritme"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 4
-    },
-    "instructions": {
-      "en": [
-        "Jump into the box on one leg, then jump with both legs wide (outside the box).",
-        "Jump into the next box with the other leg.",
-        "1-2-1-2 rhythm."
-      ],
-      "nl": [
-        "Spring op één been in het vakje, spring vervolgens met twee benen wijd (buiten het vakje).",
-        "Spring met het andere been in het volgende vakje.",
-        "1-2-1-2 ritme."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Nt9sLH38G20",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "start_seconds": 0,
-          "channel": "iaN Yuliyanto"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T22:10:34.771Z"
-    }
-  },
-  {
-    "id": "agility_ladder_carioca",
-    "exercise_name": {
-      "en": "Carioca / Crossover",
-      "nl": "Carioca / Crossover"
-    },
-    "aliases": [
-      "Carioca / Crossover"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Hip Mobility & Speed",
-      "nl": "Heupmobiliteit / Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Move sideways.",
-        "Cross your back leg alternately in front of and behind your front leg in the boxes.",
-        "Rotate your hips smoothly."
-      ],
-      "nl": [
-        "Beweeg zijwaarts.",
-        "Kruis je achterste been afwisselend vóór en áchter je voorste been langs in de vakjes.",
-        "Draai je heupen soepel in."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "470Ljl7z3iM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "start_seconds": 0,
-          "channel": "iaN Yuliyanto"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T22:10:34.771Z"
-    }
-  },
-  {
-    "id": "agility_ladder_river_dance",
-    "exercise_name": {
-      "en": "River Dance",
-      "nl": "River Dance"
-    },
-    "aliases": [
-      "River Dance"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Coordination",
-      "nl": "Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "A variation on the Icky Shuffle.",
-        "Jump and tap the ground in the box with your heel, while crossing your other leg behind it.",
-        "Requires refined cadence and rhythm."
-      ],
-      "nl": [
-        "Een variant op de Icky Shuffle.",
-        "Spring en tik met je hiel de grond aan in het vakje, terwijl je andere been erachter kruist.",
-        "Vraagt veel ritmegevoel."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Jfo_J_4jU6U",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "PE 2021",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "agility_ladder_hip_twist",
-    "exercise_name": {
-      "en": "Hip Twist",
-      "nl": "Hip Twist"
-    },
-    "aliases": [
-      "Hip Twist"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Core & Hips",
-      "nl": "Core / Heupen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Jump into the box with both feet while rotating your hips so that your feet land at an angle.",
-        "Jump to the next square and rotate your hips the other way."
-      ],
-      "nl": [
-        "Spring met twee voeten in het vakje terwijl je je heupen draait zodat je voeten schuin landen.",
-        "Spring naar het volgende vakje en draai je heupen de andere kant op."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Fm8pBNgTsWc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "start_seconds": 0,
-          "channel": "Flight Performance & Fitness"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T22:10:34.771Z"
-    }
-  },
-  {
-    "id": "barbell_back_squat",
-    "exercise_name": {
-      "en": "Back Squat",
-      "nl": "Back Squat"
-    },
-    "aliases": [
-      "Back Squat"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Place the bar on your neck (on your trapezius).",
-        "Stand tall with feet hip-width apart.",
-        "Bend your knees and hips as if you were going to sit down.",
-        "Keep your spine neutral as you drive back up to standing."
-      ],
-      "nl": [
-        "Leg de stang in je nek (op je trapezius).",
-        "Sta op heupbreedte.",
-        "Zak door je knieën en heupen alsof je gaat zitten.",
-        "Houd je rug recht en kom weer omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "dW3zj79xfrc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 3
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
     }
   }
 ]
