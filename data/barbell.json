@@ -78,86 +78,6 @@
     }
   },
   {
-    "id": "barbell_back_squat",
-    "exercise_name": {
-      "en": "Back Squat",
-      "nl": "Back Squat"
-    },
-    "aliases": [
-      "Back Squat"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Place the bar on your neck (on your trapezius).",
-        "Stand tall with feet hip-width apart.",
-        "Bend your knees and hips as if you were going to sit down.",
-        "Keep your spine neutral as you drive back up to standing."
-      ],
-      "nl": [
-        "Leg de stang in je nek (op je trapezius).",
-        "Sta op heupbreedte.",
-        "Zak door je knieën en heupen alsof je gaat zitten.",
-        "Houd je rug recht en kom weer omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T07:59:17.907Z"
-    }
-  },
-  {
     "id": "barbell_deadlift",
     "exercise_name": {
       "en": "Deadlift (Conventional)",
@@ -2950,6 +2870,97 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "barbell_back_squat",
+    "exercise_name": {
+      "en": "Back Squat",
+      "nl": "Back Squat"
+    },
+    "aliases": [
+      "Back Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Place the bar on your neck (on your trapezius).",
+        "Stand tall with feet hip-width apart.",
+        "Bend your knees and hips as if you were going to sit down.",
+        "Keep your spine neutral as you drive back up to standing."
+      ],
+      "nl": [
+        "Leg de stang in je nek (op je trapezius).",
+        "Sta op heupbreedte.",
+        "Zak door je knieën en heupen alsof je gaat zitten.",
+        "Houd je rug recht en kom weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dW3zj79xfrc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:00:20.122Z"
     }
   }
 ]

@@ -26,7 +26,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 SCHEMA_PATH = os.path.join(BASE_DIR, "schema", "exercise.schema.json")
 DIST_DIR = os.path.join(BASE_DIR, "dist")
 
-def build_database(validate_only=False):
+def build_database(validate_only=False, modified_ids=None):
     print("==================================================")
     print("      Open-Source Workout Database Build Pipeline ")
     print("==================================================")
@@ -157,8 +157,11 @@ def build_database(validate_only=False):
     all_exercises_path = os.path.join(DIST_DIR, "all_exercises.json")
     index_path = os.path.join(DIST_DIR, "index.json")
 
-    # Sort exercises deterministically by ID
-    all_exercises.sort(key=lambda x: x["id"])
+    if modified_ids:
+        unmodified = [e for e in all_exercises if e["id"] not in modified_ids]
+        modified = [e for e in all_exercises if e["id"] in modified_ids]
+        all_exercises = unmodified + modified
+        print(f"✓ {len(modified)} gewijzigde oefeningen achteraan geplaatst in all_exercises.json.")
 
     with open(all_exercises_path, "w", encoding="utf-8") as fp:
         json.dump(all_exercises, fp, indent=2, ensure_ascii=False)

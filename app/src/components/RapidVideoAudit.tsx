@@ -44,7 +44,7 @@ type VideoStatusDecision = 'ok' | 'remove';
 
 export type VideoFormatFilter = 'all' | 'normal' | 'short' | 'no_video';
 export type AuditStatusFilter = 'all' | 'pending' | 'ok' | 'remove' | 'replaced';
-export type AuditSortOption = 'modified' | 'name' | 'muscle_group' | 'material';
+export type AuditSortOption = 'default' | 'name' | 'muscle_group' | 'material';
 
 export const MUSCLE_NAME_DUTCH: Record<string, string> = {
   abductors: 'Abductoren (Buitenkant heup/dij)',
@@ -102,9 +102,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   onSelectExerciseToView,
   materialsList,
 }) => {
-  // Sorteren & gewijzigde achteraan
-  const [sortBy, setSortBy] = useState<AuditSortOption>('modified');
-  const [pushModifiedToEnd, setPushModifiedToEnd] = useState<boolean>(true);
+  // Sorteren
+  const [sortBy, setSortBy] = useState<AuditSortOption>('default');
 
   // Ratings map: exerciseId -> number (1..5)
   const [ratings, setRatings] = useState<Record<string, number>>({});
@@ -253,37 +252,18 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     });
   }, [exercises, selectedMaterial, searchQuery, videoFormatFilter, statusFilter, getExerciseVideoFormat, decisions, replacementMap]);
 
-  // Helper to determine if an exercise has any modifications in this audit session
-  const isExerciseModified = useCallback((ex: Exercise): boolean => {
-    if (decisions[ex.id]) return true;
-    if (replacements[ex.id]?.youtubeId || replacements[ex.id]?.rawInput) return true;
-    if (ratings[ex.id] !== undefined) return true;
-    return false;
-  }, [decisions, replacements, ratings]);
-
-  // Sorted and Filtered Exercises
+  // Sorted and Filtered Exercises (geen verspringing tijdens rating/auditing)
   const displayedExercises = useMemo(() => {
     const list = [...filteredExercises];
 
-    list.sort((a, b) => {
-      const isModA = isExerciseModified(a);
-      const isModB = isExerciseModified(b);
-
-      // If pushing modified to end is enabled (or in 'modified' sort mode)
-      if (pushModifiedToEnd || sortBy === 'modified') {
-        if (isModA !== isModB) {
-          return isModA ? 1 : -1; // non-modified (0) comes first, modified (1) comes last!
-        }
-      }
-
-      // Secondary / chosen sort criteria:
-      if (sortBy === 'name') {
+    if (sortBy === 'name') {
+      list.sort((a, b) => {
         const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
         return nameA.localeCompare(nameB, 'nl');
-      }
-
-      if (sortBy === 'muscle_group') {
+      });
+    } else if (sortBy === 'muscle_group') {
+      list.sort((a, b) => {
         const muscleA = getPrimaryMuscleDisplay(a).toLowerCase();
         const muscleB = getPrimaryMuscleDisplay(b).toLowerCase();
         const comp = muscleA.localeCompare(muscleB, 'nl');
@@ -291,9 +271,9 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
         return nameA.localeCompare(nameB, 'nl');
-      }
-
-      if (sortBy === 'material') {
+      });
+    } else if (sortBy === 'material') {
+      list.sort((a, b) => {
         const matA = (a.material?.name?.nl || a.material?.name?.en || a.material?.id || '').toLowerCase();
         const matB = (b.material?.name?.nl || b.material?.name?.en || b.material?.id || '').toLowerCase();
         const comp = matA.localeCompare(matB, 'nl');
@@ -301,14 +281,11 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
         return nameA.localeCompare(nameB, 'nl');
-      }
-
-      // Default 'modified': keep original order within non-modified and within modified
-      return 0;
-    });
+      });
+    }
 
     return list;
-  }, [filteredExercises, sortBy, pushModifiedToEnd, isExerciseModified]);
+  }, [filteredExercises, sortBy]);
 
   // Decision counts
   const removeList = useMemo(() => {
@@ -662,7 +639,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 className="w-full pl-8 pr-3 py-2 bg-slate-950 border border-slate-800 text-xs text-slate-200 rounded-xl focus:outline-none focus:border-amber-500 transition font-medium"
                 title="Sorteer volgorde van de audit"
               >
-                <option value="modified">⚡ Sorteren: Gewijzigd (Onderaan)</option>
+                <option value="default">📋 Sorteren: Standaard (Database)</option>
                 <option value="name">🔤 Sorteren: Naam (A - Z)</option>
                 <option value="muscle_group">💪 Sorteren: Spiergroepen (A - Z)</option>
                 <option value="material">🏋️ Sorteren: Materiaal (A - Z)</option>
@@ -842,24 +819,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               {displayedExercises.length} van de {exercises.length} workout(s) getoond
             </span>
 
-            {/* Toggle Push Modified to End */}
-            <button
-              type="button"
-              onClick={() => setPushModifiedToEnd(!pushModifiedToEnd)}
-              className={`px-2.5 py-0.5 rounded-lg text-[10px] font-bold transition flex items-center gap-1 border ${
-                pushModifiedToEnd
-                  ? 'bg-amber-950/70 border-amber-500/50 text-amber-300 shadow-sm'
-                  : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
-              }`}
-              title="Wanneer actief gaan gewijzigde oefeningen automatisch naar het einde van de lijst"
-            >
-              <span>⚡ Gewijzigde achteraan:</span>
-              <span className={pushModifiedToEnd ? 'text-amber-400 font-black' : 'text-slate-500'}>
-                {pushModifiedToEnd ? 'AAN' : 'UIT'}
-              </span>
-            </button>
-
-            {(selectedMaterial !== 'all' || videoFormatFilter !== 'all' || statusFilter !== 'all' || searchQuery.trim() !== '' || sortBy !== 'modified') && (
+            {(selectedMaterial !== 'all' || videoFormatFilter !== 'all' || statusFilter !== 'all' || searchQuery.trim() !== '' || sortBy !== 'default') && (
               <button
                 type="button"
                 onClick={() => {
@@ -867,8 +827,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                   setVideoFormatFilter('all');
                   setStatusFilter('all');
                   setSearchQuery('');
-                  setSortBy('modified');
-                  setPushModifiedToEnd(true);
+                  setSortBy('default');
                 }}
                 className="px-2 py-0.5 rounded bg-rose-950/60 hover:bg-rose-900 border border-rose-700/50 text-rose-300 text-[10px] font-bold transition flex items-center gap-1"
                 title="Herstel alle filters en sortering"

@@ -329,23 +329,25 @@ def apply_sync(results, file_map):
     for file_path, exercises_dict in updates_by_file.items():
         with open(file_path, "r", encoding="utf-8") as fp:
             records = json.load(fp)
-        new_records = []
+        unmodified_records = []
+        modified_records = []
         for r in records:
             r_id = r.get("id")
             if r_id in exercises_dict:
-                new_records.append(exercises_dict[r_id])
+                modified_records.append(exercises_dict[r_id])
             else:
-                new_records.append(r)
+                unmodified_records.append(r)
+        new_records = unmodified_records + modified_records
         with open(file_path, "w", encoding="utf-8") as fp:
             json.dump(new_records, fp, indent=2, ensure_ascii=False)
             fp.write("\n")
-        log_success(f"Bijgewerkt: {os.path.basename(file_path)} ({len(exercises_dict)} oefeningen)")
+        log_success(f"Bijgewerkt: {os.path.basename(file_path)} ({len(exercises_dict)} gewijzigde oefening(en) achteraan geplaatst)")
 
     # Run build database script
-    log_info("Build pipeline draaien (validatie & compilatie dist/)...")
+    log_info("Build pipeline draaien (validatie & compilatie dist/ met gewijzigde achteraan)...")
     try:
         from build_database import build_database
-        build_database(validate_only=False)
+        build_database(validate_only=False, modified_ids=set(to_update.keys()))
     except Exception as e:
         log_warn(f"Build pipeline import waarschuwing ({e}), fallback naar subprocess:")
         build_py = os.path.join(BASE_DIR, 'scripts', 'build_database.py')
