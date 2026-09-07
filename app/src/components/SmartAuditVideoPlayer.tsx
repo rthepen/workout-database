@@ -23,10 +23,18 @@ export const SmartAuditVideoPlayer: React.FC<SmartAuditVideoPlayerProps> = ({
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   // States
-  const [isPreloaded, setIsPreloaded] = useState<boolean>(false);
-  const [isInView, setIsInView] = useState<boolean>(false);
-  const [isManuallyPlaying, setIsManuallyPlaying] = useState<boolean>(false);
+  const [isPreloaded, setIsPreloaded] = useState<boolean>(hasValidReplacement || false);
+  const [isInView, setIsInView] = useState<boolean>(hasValidReplacement || false);
+  const [isManuallyPlaying, setIsManuallyPlaying] = useState<boolean>(hasValidReplacement || false);
   const [iframeReady, setIframeReady] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (hasValidReplacement) {
+      setIsPreloaded(true);
+      setIsInView(true);
+      setIsManuallyPlaying(true);
+    }
+  }, [hasValidReplacement, videoId]);
 
   // IntersectionObserver setup
   useEffect(() => {
@@ -119,7 +127,7 @@ export const SmartAuditVideoPlayer: React.FC<SmartAuditVideoPlayerProps> = ({
   };
 
   const origin = typeof window !== 'undefined' ? window.location.origin : '';
-  const shouldAutoplayInitial = (isInView || isManuallyPlaying) && (autoplayEnabled || isManuallyPlaying);
+  const shouldAutoplayInitial = (isInView || isManuallyPlaying || hasValidReplacement) && (autoplayEnabled || isManuallyPlaying || hasValidReplacement);
 
   const embedUrl = `https://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=${encodeURIComponent(
     origin

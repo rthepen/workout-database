@@ -147,12 +147,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     return new Map(validReplacements);
   }, [validReplacements]);
 
-  // Helper to resolve active video format for any exercise
-  const getExerciseVideoFormat = useCallback((ex: Exercise): 'normal' | 'short' | 'no_video' => {
-    const rep = replacements[ex.id];
-    if (rep && rep.youtubeId && rep.youtubeId.length === 11) {
-      return (rep.type === 'short' || rep.aspectRatio === '9:16') ? 'short' : 'normal';
-    }
+  // Base video format according to database dataset
+  const getExerciseBaseVideoFormat = useCallback((ex: Exercise): 'normal' | 'short' | 'no_video' => {
     const primary = ex.media?.videos?.[0];
     if (!primary || !primary.youtube_id) {
       return 'no_video';
@@ -161,7 +157,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       return 'short';
     }
     return 'normal';
-  }, [replacements]);
+  }, []);
 
   // Materials sorted by exercise count
   const sortedMaterials = useMemo(() => {
@@ -178,7 +174,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     });
   }, [exercises, materialsList]);
 
-  // Live video format counts
+  // Live video format counts based on original exercise format
   const formatCounts = useMemo(() => {
     let normal = 0;
     let short = 0;
@@ -186,7 +182,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
     exercises.forEach((ex) => {
       if (selectedMaterial !== 'all' && ex.material?.id !== selectedMaterial) return;
-      const fmt = getExerciseVideoFormat(ex);
+      const fmt = getExerciseBaseVideoFormat(ex);
       if (fmt === 'normal') normal++;
       else if (fmt === 'short') short++;
       else no_video++;
@@ -198,25 +194,31 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       short,
       no_video,
     };
-  }, [exercises, selectedMaterial, getExerciseVideoFormat]);
+  }, [exercises, selectedMaterial, getExerciseBaseVideoFormat]);
 
   // Filtered Exercises
   const filteredExercises = useMemo(() => {
     return exercises.filter((ex) => {
-      // 1. Video format filter (normal vs short vs no_video vs all)
-      const fmt = getExerciseVideoFormat(ex);
-      if (videoFormatFilter === 'normal' && fmt !== 'normal') return false;
-      if (videoFormatFilter === 'short' && fmt !== 'short') return false;
-      if (videoFormatFilter === 'no_video' && fmt !== 'no_video') return false;
+      // 1. Video format filter based on original database video format
+      // (Pasting or replacing a video will NEVER kick the exercise off-screen or cause it to jump!)
+      const baseFmt = getExerciseBaseVideoFormat(ex);
+      if (videoFormatFilter === 'normal' && baseFmt !== 'normal') return false;
+      if (videoFormatFilter === 'short' && baseFmt !== 'short') return false;
+      if (videoFormatFilter === 'no_video' && baseFmt !== 'no_video') return false;
 
       // 2. Status filter
       if (statusFilter !== 'all') {
         const hasRep = replacementMap.has(ex.id);
         const dec = decisions[ex.id];
-        if (statusFilter === 'replaced' && !hasRep) return false;
-        if (statusFilter === 'ok' && (hasRep || dec !== 'ok')) return false;
-        if (statusFilter === 'remove' && (hasRep || dec !== 'remove')) return false;
-        if (statusFilter === 'pending' && (hasRep || dec === 'ok' || dec === 'remove')) return false;
+        // If an item is actively edited in this session, keep it stably in view!
+        if (hasRep || dec) {
+          // keep visible
+        } else {
+          if (statusFilter === 'replaced' && !hasRep) return false;
+          if (statusFilter === 'ok' && (hasRep || dec !== 'ok')) return false;
+          if (statusFilter === 'remove' && (hasRep || dec !== 'remove')) return false;
+          if (statusFilter === 'pending' && (hasRep || dec === 'ok' || dec === 'remove')) return false;
+        }
       }
 
       // 3. Material / Equipment filter
@@ -251,7 +253,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
       return true;
     });
-  }, [exercises, selectedMaterial, searchQuery, videoFormatFilter, statusFilter, getExerciseVideoFormat, decisions, replacementMap]);
+  }, [exercises, selectedMaterial, searchQuery, videoFormatFilter, statusFilter, getExerciseBaseVideoFormat, decisions, replacementMap]);
 
   // Sorted and Filtered Exercises (geen verspringing tijdens rating/auditing)
   const displayedExercises = useMemo(() => {
@@ -371,6 +373,12 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         aspectRatio: isShort ? '9:16' : '16:9',
         isLoadingOEmbed: true,
       },
+    }));
+
+    // Auto-mark decision as approved
+    setDecisions(prev => ({
+      ...prev,
+      [exerciseId]: 'ok',
     }));
 
     // Auto-fetch oEmbed metadata (channel title, etc.)
@@ -955,7 +963,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     {hasValidReplacement && (
                       <span className="px-2 py-0.5 rounded-lg bg-cyan-950 text-cyan-300 border border-cyan-500 font-bold text-[10px] flex items-center gap-1 animate-pulse">
                         <Sparkles className="w-3 h-3 text-cyan-400" />
-                        <span>Vervangt Oude Video</span>
+                        <span>{hasExistingVideo ? 'Vervangt Oude Video' : 'Nieuwe Video Toegevoegd'}</span>
                       </span>
                     )}
 
