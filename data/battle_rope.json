@@ -1123,82 +1123,6 @@
     }
   },
   {
-    "id": "battle_rope_seated_slams",
-    "exercise_name": {
-      "en": "Seated Slams",
-      "nl": "Seated Slams"
-    },
-    "aliases": [
-      "Seated Slams"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Upper Body & Core",
-      "nl": "Bovenlichaam / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Sit on the floor with your legs extended or cross-legged.",
-        "Perform Rope Slams purely from your upper body."
-      ],
-      "nl": [
-        "Ga op de grond zitten met benen gestrekt of kleermakerszit.",
-        "Maak Rope Slams puur vanuit je bovenlichaam."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T07:43:33.113Z"
-    }
-  },
-  {
     "id": "battle_rope_outside_circles",
     "exercise_name": {
       "en": "Outside Circles",
@@ -1649,6 +1573,93 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "battle_rope_seated_slams",
+    "exercise_name": {
+      "en": "Seated Slams",
+      "nl": "Seated Slams"
+    },
+    "aliases": [
+      "Seated Slams"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Upper Body & Core",
+      "nl": "Bovenlichaam / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with your legs extended or cross-legged.",
+        "Perform Rope Slams purely from your upper body."
+      ],
+      "nl": [
+        "Ga op de grond zitten met benen gestrekt of kleermakerszit.",
+        "Maak Rope Slams puur vanuit je bovenlichaam."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "p-UStWVx0BY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Inline Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   }
 ]

@@ -1224,83 +1224,6 @@
     }
   },
   {
-    "id": "plyo_box_elevated_pistol_squat",
-    "exercise_name": {
-      "en": "Elevated Pistol Squat",
-      "nl": "Elevated Pistol Squat"
-    },
-    "aliases": [
-      "Elevated Pistol Squat"
-    ],
-    "material": {
-      "id": "plyo_box",
-      "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
-      },
-      "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
-      }
-    },
-    "category": {
-      "en": "Legs & Balance",
-      "nl": "Benen / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand on the edge of the plyo box balancing on one leg.",
-        "Squat down on your support leg letting your free leg dangle alongside the box in a skater squat.",
-        "Push up again."
-      ],
-      "nl": [
-        "Sta op de rand van de box op één been.",
-        "Zak door dat been terwijl je het vrije been langs de box naar beneden laat hangen.",
-        "Duw weer op."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "plyo_box_box_jumps"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:02:14.326Z"
-    }
-  },
-  {
     "id": "plyo_box_lateral_box_jump",
     "exercise_name": {
       "en": "Lateral Box Jump",
@@ -1734,6 +1657,94 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "plyo_box_elevated_pistol_squat",
+    "exercise_name": {
+      "en": "Elevated Pistol Squat",
+      "nl": "Elevated Pistol Squat"
+    },
+    "aliases": [
+      "Elevated Pistol Squat"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "category": {
+      "en": "Legs & Balance",
+      "nl": "Benen / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand on the edge of the plyo box balancing on one leg.",
+        "Squat down on your support leg letting your free leg dangle alongside the box in a skater squat.",
+        "Push up again."
+      ],
+      "nl": [
+        "Sta op de rand van de box op één been.",
+        "Zak door dat been terwijl je het vrije been langs de box naar beneden laat hangen.",
+        "Duw weer op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "plyo_box_box_jumps"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-7Q0gciwNpU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "APE Fitness & Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   }
 ]

@@ -90,82 +90,6 @@
     }
   },
   {
-    "id": "spinning_bike_calf_pumps",
-    "exercise_name": {
-      "en": "Calf Pumps",
-      "nl": "Calf Pumps"
-    },
-    "aliases": [
-      "Calf Pumps"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Calves & Foot Technique",
-      "nl": "Techniek / Kuiten"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Focus on smooth ankle dorsiflexion and plantarflexion throughout the pedal stroke.",
-        "Point toes down slightly on the push stroke and pull up through the heel on the recovery."
-      ],
-      "nl": [
-        "Tijdens het fietsen focus je extreem op de enkels.",
-        "Wijs met je tenen naar beneden bij de neerwaartse slag en trek je hiel ver omhoog bij de opwaartse slag."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "spinning_bike_stand_sit_rapid",
     "exercise_name": {
       "en": "Rapid Fire Jumps (2 Tellen)",
@@ -350,6 +274,83 @@
     }
   },
   {
+    "id": "spinning_bike_calf_pumps",
+    "exercise_name": {
+      "en": "Calf Pumps",
+      "nl": "Calf Pumps"
+    },
+    "aliases": [
+      "Calf Pumps"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Calves & Foot Technique",
+      "nl": "Techniek / Kuiten"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "Focus on smooth ankle dorsiflexion and plantarflexion throughout the pedal stroke.",
+        "Point toes down slightly on the push stroke and pull up through the heel on the recovery."
+      ],
+      "nl": [
+        "Tijdens het fietsen focus je extreem op de enkels.",
+        "Wijs met je tenen naar beneden bij de neerwaartse slag en trek je hiel ver omhoog bij de opwaartse slag."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
     "id": "spinning_bike_climb_hand_switch",
     "exercise_name": {
       "en": "Climb Hand Switch",
@@ -389,7 +390,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "pull",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -420,7 +422,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:15:07.593Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -463,7 +465,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -494,7 +497,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:15:32.596Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -537,7 +540,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -570,7 +574,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:15:55.808Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -615,7 +619,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -650,7 +655,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:22.566Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -691,7 +696,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -722,7 +728,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:30.582Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -767,7 +773,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "pull",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -806,7 +813,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:36.548Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -851,7 +858,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -886,7 +894,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:41.017Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -929,7 +937,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -964,7 +973,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:45.457Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1008,7 +1017,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1045,7 +1055,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:49.601Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1089,7 +1099,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1124,7 +1135,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:53.380Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1169,7 +1180,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1202,7 +1214,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:56.459Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1245,7 +1257,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "pull",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1276,7 +1289,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:16:59.838Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1321,7 +1334,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -1352,7 +1366,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:03.421Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1395,7 +1409,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1430,7 +1445,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:07.725Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1473,7 +1488,8 @@
       "difficulty": "intermediate",
       "mechanics": "isometric",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1508,7 +1524,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:11.513Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1552,7 +1568,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1589,7 +1606,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:16.141Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1634,7 +1651,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1667,7 +1685,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:22.571Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1710,7 +1728,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -1743,7 +1762,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:28.413Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1786,7 +1805,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1823,7 +1843,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:31.788Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1868,7 +1888,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -1905,7 +1926,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:36.070Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -1947,7 +1968,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -1990,7 +2012,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:42.130Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -2035,7 +2057,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2070,7 +2093,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:53.335Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   },
   {
@@ -2113,7 +2136,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "dynamic",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 3
     },
     "instructions": {
       "en": [
@@ -2150,7 +2174,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:17:58.207Z"
+      "updated_at": "2026-09-07T07:58:46.971Z"
     }
   }
 ]

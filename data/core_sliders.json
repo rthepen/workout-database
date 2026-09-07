@@ -1,237 +1,5 @@
 [
   {
-    "id": "core_sliders_slider_mountain_climbers",
-    "exercise_name": {
-      "en": "Slider Mountain Climbers",
-      "nl": "Slider Mountain Climbers"
-    },
-    "aliases": [
-      "Slider Mountain Climbers"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Cardio & Core",
-      "nl": "Cardio / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High plank, feet on the sliders.",
-        "Pull your knees alternately toward your chest in a smooth, gliding motion.",
-        "Keep your hips low."
-      ],
-      "nl": [
-        "Hoge plank, voeten op de sliders.",
-        "Trek om en om je knieën naar je borst in een vloeiende, glijdende beweging.",
-        "Houd je heupen laag."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "core_sliders_slider_pikes",
-    "exercise_name": {
-      "en": "Slider Pikes",
-      "nl": "Slider Pikes"
-    },
-    "aliases": [
-      "Slider Pikes"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Buikspieren / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High plank, feet on the sliders.",
-        "Keep your legs straight and pull your feet toward your hands as you push your hips as high into the air as possible (V-shape)."
-      ],
-      "nl": [
-        "Hoge plank, voeten op de sliders.",
-        "Houd je benen gestrekt en trek je voeten richting je handen terwijl je je heupen zo hoog mogelijk de lucht in duwt (V-vorm)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "core_sliders_slider_plank_jacks",
-    "exercise_name": {
-      "en": "Slider Plank Jacks",
-      "nl": "Slider Plank Jacks"
-    },
-    "aliases": [
-      "Slider Plank Jacks"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Cardio",
-      "nl": "Core / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High plank, both feet on the sliders.",
-        "Glide both feet wide out and back in at the same time.",
-        "Keep your upper body as still as possible."
-      ],
-      "nl": [
-        "Hoge plank, beide voeten op de sliders.",
-        "Glij beide voeten tegelijkertijd wijd naar buiten en weer naar binnen.",
-        "Houd je bovenlichaam zo stil mogelijk."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "core_sliders_slider_curtsy_lunge",
     "exercise_name": {
       "en": "Slider Curtsy Lunge",
@@ -314,164 +82,6 @@
           "channel": "Bootcamp Ideas"
         }
       ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "core_sliders_slider_arm_circles",
-    "exercise_name": {
-      "en": "Slider Arm Circles",
-      "nl": "Slider Arm Circles"
-    },
-    "aliases": [
-      "Slider Arm Circles"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Shoulders",
-      "nl": "Core / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High plank, both hands on the sliders.",
-        "Glide across the floor in a circular motion with one hand while the other hand stabilizes you.",
-        "Switch arms."
-      ],
-      "nl": [
-        "Hoge plank, beide handen op de sliders.",
-        "Glij met één hand in een cirkelbeweging over de vloer terwijl de andere hand je stabiliseert.",
-        "Wissel van arm."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "core_sliders_slider_archer_pushups",
-    "exercise_name": {
-      "en": "Slider Archer Push Ups",
-      "nl": "Slider Archer Push Ups"
-    },
-    "aliases": [
-      "Slider Archer Push Ups"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Chest & Shoulders",
-      "nl": "Borst / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hands on the sliders.",
-        "As you lower into a push-up, slide one arm out wide to the side (extended).",
-        "The other arm partially bends.",
-        "Pull the weight back in as you return to standing."
-      ],
-      "nl": [
-        "Handen op de sliders.",
-        "Terwijl je zakt voor een push-up, glij je één arm wijd naar de zijkant (gestrekt).",
-        "De andere arm buigt deels.",
-        "Trek weer terug bij het omhoog komen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -926,82 +536,6 @@
     }
   },
   {
-    "id": "core_sliders_slider_corkscrew",
-    "exercise_name": {
-      "en": "Slider Corkscrew",
-      "nl": "Slider Corkscrew"
-    },
-    "aliases": [
-      "Slider Corkscrew"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Obliques & Core",
-      "nl": "Buikspieren / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High plank, feet on sliders.",
-        "Tuck both knees simultaneously to your left elbow, push back to plank, then tuck to your right elbow."
-      ],
-      "nl": [
-        "Hoge plank, voeten op sliders.",
-        "Trek beide knieën tegelijkertijd naar je linkerelleboog, duw ze terug, en trek ze daarna naar je rechterelleboog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T19:40:49.327Z"
-    }
-  },
-  {
     "id": "core_sliders_slider_knee_tucks",
     "exercise_name": {
       "en": "Slider Knee Tucks",
@@ -1178,82 +712,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-30T19:43:39.927Z"
-    }
-  },
-  {
-    "id": "core_sliders_slider_side_plank_tuck",
-    "exercise_name": {
-      "en": "Slider Side Plank Tuck",
-      "nl": "Slider Side Plank Tuck"
-    },
-    "aliases": [
-      "Slider Side Plank Tuck"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Obliques",
-      "nl": "Core / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand in a side plank on your elbow with your feet on a slider.",
-        "Pull your knees toward your chest and push them out while remaining in side plank."
-      ],
-      "nl": [
-        "Ga in een zijwaartse plank op je elleboog staan met je voeten op een slider.",
-        "Trek je knieën naar je borst en duw ze weer uit terwijl je in de zijwaartse plank blijft."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T19:44:29.798Z"
     }
   },
   {
@@ -1690,6 +1148,618 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_mountain_climbers",
+    "exercise_name": {
+      "en": "Slider Mountain Climbers",
+      "nl": "Slider Mountain Climbers"
+    },
+    "aliases": [
+      "Slider Mountain Climbers"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Core",
+      "nl": "Cardio / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "High plank, feet on the sliders.",
+        "Pull your knees alternately toward your chest in a smooth, gliding motion.",
+        "Keep your hips low."
+      ],
+      "nl": [
+        "Hoge plank, voeten op de sliders.",
+        "Trek om en om je knieën naar je borst in een vloeiende, glijdende beweging.",
+        "Houd je heupen laag."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Eg2LnOsE4js",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SweatwithSarah ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:38:59.805Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_pikes",
+    "exercise_name": {
+      "en": "Slider Pikes",
+      "nl": "Slider Pikes"
+    },
+    "aliases": [
+      "Slider Pikes"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Buikspieren / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "High plank, feet on the sliders.",
+        "Keep your legs straight and pull your feet toward your hands as you push your hips as high into the air as possible (V-shape)."
+      ],
+      "nl": [
+        "Hoge plank, voeten op de sliders.",
+        "Houd je benen gestrekt en trek je voeten richting je handen terwijl je je heupen zo hoog mogelijk de lucht in duwt (V-vorm)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Eg2LnOsE4js",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SweatwithSarah ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:38:59.805Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_plank_jacks",
+    "exercise_name": {
+      "en": "Slider Plank Jacks",
+      "nl": "Slider Plank Jacks"
+    },
+    "aliases": [
+      "Slider Plank Jacks"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Cardio",
+      "nl": "Core / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "High plank, both feet on the sliders.",
+        "Glide both feet wide out and back in at the same time.",
+        "Keep your upper body as still as possible."
+      ],
+      "nl": [
+        "Hoge plank, beide voeten op de sliders.",
+        "Glij beide voeten tegelijkertijd wijd naar buiten en weer naar binnen.",
+        "Houd je bovenlichaam zo stil mogelijk."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "n4UStE3lBFw",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Carrie Jones",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_arm_circles",
+    "exercise_name": {
+      "en": "Slider Arm Circles",
+      "nl": "Slider Arm Circles"
+    },
+    "aliases": [
+      "Slider Arm Circles"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Shoulders",
+      "nl": "Core / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "High plank, both hands on the sliders.",
+        "Glide across the floor in a circular motion with one hand while the other hand stabilizes you.",
+        "Switch arms."
+      ],
+      "nl": [
+        "Hoge plank, beide handen op de sliders.",
+        "Glij met één hand in een cirkelbeweging over de vloer terwijl de andere hand je stabiliseert.",
+        "Wissel van arm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "faxyKm4lwI8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "MissAA",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:38:59.805Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_archer_pushups",
+    "exercise_name": {
+      "en": "Slider Archer Push Ups",
+      "nl": "Slider Archer Push Ups"
+    },
+    "aliases": [
+      "Slider Archer Push Ups"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Chest & Shoulders",
+      "nl": "Borst / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Hands on the sliders.",
+        "As you lower into a push-up, slide one arm out wide to the side (extended).",
+        "The other arm partially bends.",
+        "Pull the weight back in as you return to standing."
+      ],
+      "nl": [
+        "Handen op de sliders.",
+        "Terwijl je zakt voor een push-up, glij je één arm wijd naar de zijkant (gestrekt).",
+        "De andere arm buigt deels.",
+        "Trek weer terug bij het omhoog komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ixwiplXKMKI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Lifestyle -Not-Fads",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_corkscrew",
+    "exercise_name": {
+      "en": "Slider Corkscrew",
+      "nl": "Slider Corkscrew"
+    },
+    "aliases": [
+      "Slider Corkscrew"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Obliques & Core",
+      "nl": "Buikspieren / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 0
+    },
+    "instructions": {
+      "en": [
+        "High plank, feet on sliders.",
+        "Tuck both knees simultaneously to your left elbow, push back to plank, then tuck to your right elbow."
+      ],
+      "nl": [
+        "Hoge plank, voeten op sliders.",
+        "Trek beide knieën tegelijkertijd naar je linkerelleboog, duw ze terug, en trek ze daarna naar je rechterelleboog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_side_plank_tuck",
+    "exercise_name": {
+      "en": "Slider Side Plank Tuck",
+      "nl": "Slider Side Plank Tuck"
+    },
+    "aliases": [
+      "Slider Side Plank Tuck"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Obliques",
+      "nl": "Core / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Stand in a side plank on your elbow with your feet on a slider.",
+        "Pull your knees toward your chest and push them out while remaining in side plank."
+      ],
+      "nl": [
+        "Ga in een zijwaartse plank op je elleboog staan met je voeten op een slider.",
+        "Trek je knieën naar je borst en duw ze weer uit terwijl je in de zijwaartse plank blijft."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "EVWKqu8oA0Q",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "PERFORM Athlete",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-07T07:38:59.805Z"
     }
   }
 ]
