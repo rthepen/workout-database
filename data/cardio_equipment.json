@@ -442,165 +442,6 @@
     }
   },
   {
-    "id": "cardio_equipment_skierg_double_pole",
-    "exercise_name": {
-      "en": "SkiErg Double Pole",
-      "nl": "SkiErg Double Pole"
-    },
-    "aliases": [
-      "SkiErg Double Pole"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Upper Body",
-      "nl": "Cardio / Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Stand hip-width apart.",
-        "Grip the high handles firmly.",
-        "Pull down with your arms straight by tightening your abdominal muscles and bending your knees (crunch movement).",
-        "Smoothly swing your arms back up to the top starting position."
-      ],
-      "nl": [
-        "Ga op heupbreedte staan.",
-        "Pak de handvatten hoog vast.",
-        "Trek met gestrekte armen naar beneden door je buikspieren aan te spannen en door je knieën te buigen (crunch beweging).",
-        "Zwaai je armen rustig terug omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cardio_equipment_skillmill_sled_push",
-    "exercise_name": {
-      "en": "Sled Push (Slee Duwen)",
-      "nl": "Sled Push (Slee Duwen)"
-    },
-    "aliases": [
-      "Sled Push",
-      "Sled Push Slee Duwen",
-      "Slee Duwen"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Legs",
-      "nl": "Cardio / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Set the resistance high.",
-        "Grip either the low or high handles based on preferred leverage.",
-        "Lean far forward and push the tire backwards with strong steps.",
-        "Keep your back flat and neutral."
-      ],
-      "nl": [
-        "Zet de weerstand hoog.",
-        "Pak de lage of hoge handgrepen vast.",
-        "Leun ver voorover en duw de band met krachtige stappen naar achteren weg.",
-        "Houd je rug recht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "cardio_equipment_skillmill_parachute_run",
     "exercise_name": {
       "en": "Parachute Run",
@@ -679,6 +520,187 @@
     }
   },
   {
+    "id": "cardio_equipment_skierg_double_pole",
+    "exercise_name": {
+      "en": "SkiErg Double Pole",
+      "nl": "SkiErg Double Pole"
+    },
+    "aliases": [
+      "SkiErg Double Pole"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Upper Body",
+      "nl": "Cardio / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Stand hip-width apart.",
+        "Grip the high handles firmly.",
+        "Pull down with your arms straight by tightening your abdominal muscles and bending your knees (crunch movement).",
+        "Smoothly swing your arms back up to the top starting position."
+      ],
+      "nl": [
+        "Ga op heupbreedte staan.",
+        "Pak de handvatten hoog vast.",
+        "Trek met gestrekte armen naar beneden door je buikspieren aan te spannen en door je knieën te buigen (crunch beweging).",
+        "Zwaai je armen rustig terug omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "a7jTvJLNN0w",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "The Masters of Strength",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_sled_push",
+    "exercise_name": {
+      "en": "Sled Push (Slee Duwen)",
+      "nl": "Sled Push (Slee Duwen)"
+    },
+    "aliases": [
+      "Sled Push",
+      "Sled Push Slee Duwen",
+      "Slee Duwen"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Set the resistance high.",
+        "Grip either the low or high handles based on preferred leverage.",
+        "Lean far forward and push the tire backwards with strong steps.",
+        "Keep your back flat and neutral."
+      ],
+      "nl": [
+        "Zet de weerstand hoog.",
+        "Pak de lage of hoge handgrepen vast.",
+        "Leun ver voorover en duw de band met krachtige stappen naar achteren weg.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "e7-4Z3TSrhQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Henricho Bruintjies",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
     "id": "cardio_equipment_skillmill_lateral_shuffle",
     "exercise_name": {
       "en": "Lateral Shuffle (Zijwaarts)",
@@ -750,11 +772,22 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "jZyUO7N-Tz0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "David K",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
+      "updated_at": "2026-09-08T09:14:04.210Z"
     }
   },
   {
@@ -831,11 +864,22 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "jZyUO7N-Tz0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "David K",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
+      "updated_at": "2026-09-08T09:14:04.210Z"
     }
   },
   {
@@ -908,11 +952,22 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "_tno3lzAOuY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Abbey Mill",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
+      "updated_at": "2026-09-08T09:14:04.210Z"
     }
   },
   {
@@ -988,11 +1043,22 @@
       ]
     },
     "media": {
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "plLPYWiNovo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Kinetic Impact",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
+      "updated_at": "2026-09-08T09:14:04.210Z"
     }
   }
 ]

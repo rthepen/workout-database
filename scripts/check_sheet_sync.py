@@ -156,11 +156,24 @@ def parse_sheet_exercises(rows):
             continue
         c = json.loads(json.dumps(obj))
         c.pop("_user_fingerprint", None)
+        # Clean invalid ratings (schema allows integer 1-5 only)
+        if "attributes" in c and isinstance(c["attributes"], dict):
+            r = c["attributes"].get("rating")
+            if r is not None and (not isinstance(r, int) or r < 1 or r > 5):
+                c["attributes"].pop("rating", None)
+        if "media" in c and isinstance(c["media"], dict):
+            for vid in c["media"].get("videos", []):
+                if isinstance(vid, dict):
+                    vr = vid.get("rating")
+                    if vr is not None and (not isinstance(vr, int) or vr < 1 or vr > 5):
+                        vid.pop("rating", None)
+
         c.pop("_to_be_reviewed", None)
         if "meta" not in c:
             c["meta"] = {}
         if "schema_version" not in c["meta"]:
             c["meta"]["schema_version"] = "1.1.0"
+
         cleaned_by_id[ex_id] = {
             "exercise": c,
             "timestamp": item["timestamp"]

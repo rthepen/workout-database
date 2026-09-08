@@ -38889,165 +38889,6 @@
     }
   },
   {
-    "id": "cardio_equipment_skierg_double_pole",
-    "exercise_name": {
-      "en": "SkiErg Double Pole",
-      "nl": "SkiErg Double Pole"
-    },
-    "aliases": [
-      "SkiErg Double Pole"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Upper Body",
-      "nl": "Cardio / Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Stand hip-width apart.",
-        "Grip the high handles firmly.",
-        "Pull down with your arms straight by tightening your abdominal muscles and bending your knees (crunch movement).",
-        "Smoothly swing your arms back up to the top starting position."
-      ],
-      "nl": [
-        "Ga op heupbreedte staan.",
-        "Pak de handvatten hoog vast.",
-        "Trek met gestrekte armen naar beneden door je buikspieren aan te spannen en door je knieën te buigen (crunch beweging).",
-        "Zwaai je armen rustig terug omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cardio_equipment_skillmill_sled_push",
-    "exercise_name": {
-      "en": "Sled Push (Slee Duwen)",
-      "nl": "Sled Push (Slee Duwen)"
-    },
-    "aliases": [
-      "Sled Push",
-      "Sled Push Slee Duwen",
-      "Slee Duwen"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Legs",
-      "nl": "Cardio / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Set the resistance high.",
-        "Grip either the low or high handles based on preferred leverage.",
-        "Lean far forward and push the tire backwards with strong steps.",
-        "Keep your back flat and neutral."
-      ],
-      "nl": [
-        "Zet de weerstand hoog.",
-        "Pak de lage of hoge handgrepen vast.",
-        "Leun ver voorover en duw de band met krachtige stappen naar achteren weg.",
-        "Houd je rug recht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "cardio_equipment_skillmill_parachute_run",
     "exercise_name": {
       "en": "Parachute Run",
@@ -39116,2929 +38957,6 @@
       "regressions": [
         "cardio_equipment_skillmill_backward_walk"
       ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cardio_equipment_skillmill_lateral_shuffle",
-    "exercise_name": {
-      "en": "Lateral Shuffle (Zijwaarts)",
-      "nl": "Lateral Shuffle (Zijwaarts)"
-    },
-    "aliases": [
-      "Lateral Shuffle",
-      "Lateral Shuffle Zijwaarts",
-      "Zijwaarts"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Agility",
-      "nl": "Cardio / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand sideways on the band.",
-        "Stay low in your hips (squat position) and shuffle sideways without crossing your feet.",
-        "Switch sides after a brief interval."
-      ],
-      "nl": [
-        "Ga zijwaarts op de band staan.",
-        "Blijf laag in je heupen (squat houding) en shuffle zijwaarts zonder je voeten te kruisen.",
-        "Wissel na een tijdje van kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cardio_equipment_rower_power_sprints",
-    "exercise_name": {
-      "en": "Power Sprints (100m)",
-      "nl": "Power Sprints (100m)"
-    },
-    "aliases": [
-      "100m",
-      "Power Sprints",
-      "Power Sprints 100m"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & HIIT",
-      "nl": "Cardio / HIIT"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Set the resistance high.",
-        "Execute short, explosive rowing strokes pulling with maximum force.",
-        "Focus on an extremely hard push-off with the legs.",
-        "Try to row 100 meters as fast as possible."
-      ],
-      "nl": [
-        "Zet de weerstand hoog.",
-        "Maak korte, explosieve slagen met maximale kracht.",
-        "Focus op een extreem harde afzet met de benen.",
-        "Probeer 100 meter zo snel mogelijk te roeien."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cardio_equipment_airbike_legs_only",
-    "exercise_name": {
-      "en": "Airbike Legs Only",
-      "nl": "Airbike Legs Only"
-    },
-    "aliases": [
-      "Airbike Legs Only"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Legs",
-      "nl": "Cardio / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Let go of the handles (or place your hands on your lap/handlebar in the middle).",
-        "Only cycle with your legs.",
-        "This isolates the quadriceps and takes help away from the upper body."
-      ],
-      "nl": [
-        "Laat de handvatten los (of leg je handen op je schoot/stuur middenin).",
-        "Fiets alleen met je benen.",
-        "Dit isoleert de quadriceps en haalt de hulp van het bovenlichaam weg."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cardio_equipment_skillmill_sprint",
-    "exercise_name": {
-      "en": "Curved Treadmill Sprint",
-      "nl": "Curved Treadmill Sprint"
-    },
-    "aliases": [
-      "Curved Treadmill Sprint"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Speed",
-      "nl": "Cardio / Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Set the resistance low.",
-        "Start running; because the band is curved, you determine the pace yourself.",
-        "Run toward the front curve of the curved treadmill belt to accelerate.",
-        "Sprint flat out for 15-30 seconds."
-      ],
-      "nl": [
-        "Zet de weerstand laag.",
-        "Begin te rennen; omdat de band gebogen is, bepaal je zelf het tempo.",
-        "Ren voorop de curve om te versnellen.",
-        "Sprint voluit voor 15-30 seconden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_slalom_run",
-    "exercise_name": {
-      "en": "Slalom Run",
-      "nl": "Slalom Run"
-    },
-    "aliases": [
-      "Slalom Run"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility & Footwork",
-      "nl": "Behendigheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Place pawns in a straight line behind each other (1m apart).",
-        "Weave rapidly between the cones in a zigzag pattern without contacting them.",
-        "Keep your center of gravity low in an athletic stance."
-      ],
-      "nl": [
-        "Zet pionnen in een rechte lijn achter elkaar (1m tussenruimte).",
-        "Ren er zo snel mogelijk zigzaggend tussendoor zonder ze aan te raken.",
-        "Houd je zwaartepunt laag."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_w_drill",
-    "exercise_name": {
-      "en": "W-Drill",
-      "nl": "W-Drill"
-    },
-    "aliases": [
-      "W-Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Place pawns in a 'W'.",
-        "Sprint forward to the first apex, then backpedal diagonally to the next depth point.",
-        "Repeat this pattern throughout the entire W."
-      ],
-      "nl": [
-        "Zet pionnen in een 'W'.",
-        "Sprint vooruit naar de eerste punt, ren achteruit (backpedal) naar de volgende diepe punt.",
-        "Herhaal dit patroon door de hele W."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_x_drill",
-    "exercise_name": {
-      "en": "X-Drill",
-      "nl": "X-Drill"
-    },
-    "aliases": [
-      "X-Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Start at the bottom-left marker.",
-        "Sprint diagonally to the top right.",
-        "Shuffle sideways to the top left.",
-        "Sprint diagonally to the bottom right.",
-        "Lateral shuffle back to the starting marker."
-      ],
-      "nl": [
-        "Start linksonder.",
-        "Sprint diagonaal naar rechtsboven.",
-        "Shuffle zijwaarts naar linksboven.",
-        "Sprint diagonaal naar rechtsonder.",
-        "Shuffle terug naar start."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_pro_agility_shuttle",
-    "exercise_name": {
-      "en": "Pro Agility Shuttle (5-10-5)",
-      "nl": "Pro Agility Shuttle (5-10-5)"
-    },
-    "aliases": [
-      "5-10-5",
-      "Pro Agility Shuttle",
-      "Pro Agility Shuttle 5-10-5"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Speed & Sprinting",
-      "nl": "Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Start stationed in the center.",
-        "Sprint 5m to the right, tap the line.",
-        "Sprint 10 meters to the left and touch the boundary line.",
-        "Sprint 5m back through the middle."
-      ],
-      "nl": [
-        "Start in het midden.",
-        "Sprint 5m naar rechts, tik lijn aan.",
-        "Sprint 10m naar links (helemaal naar de andere kant), tik lijn aan.",
-        "Sprint 5m terug door het midden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_four_corner_drill",
-    "exercise_name": {
-      "en": "4 Corner Drill",
-      "nl": "4 Corner Drill"
-    },
-    "aliases": [
-      "4 Corner Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Start stationed in the center.",
-        "Sprint to a corner cone, round the marker, and sprint back to the central hub.",
-        "Turn around the center pawn and go to the next corner."
-      ],
-      "nl": [
-        "Start in het midden.",
-        "Sprint naar een hoek, draai om de pion en sprint terug naar het midden.",
-        "Draai om de middenpion en ga naar de volgende hoek."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_figure_8",
-    "exercise_name": {
-      "en": "Figure 8",
-      "nl": "Figure 8"
-    },
-    "aliases": [
-      "Figure 8"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility & Cornering",
-      "nl": "Bochtenwerk"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place two pawns 5m apart.",
-        "Run around the cones in a figure of 8.",
-        "Stay low in the corners and accelerate on the straights."
-      ],
-      "nl": [
-        "Zet twee pionnen 5m uit elkaar.",
-        "Ren in een 8-vorm om de pionnen heen.",
-        "Blijf laag in de bochten en versnel op de rechte stukken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_nebraska_drill",
-    "exercise_name": {
-      "en": "Nebraska Agility Drill",
-      "nl": "Nebraska Agility Drill"
-    },
-    "aliases": [
-      "Nebraska Agility Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Speed & Sprinting",
-      "nl": "Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sprint forward, plant and pivot 180 degrees, sprint back, and accelerate into a long sprint.",
-        "Focus on braking and turning quickly (turn-and-go)."
-      ],
-      "nl": [
-        "Sprint vooruit, draai 180 graden, sprint terug, draai weer en sprint een langer stuk.",
-        "Focus op het snel afremmen en draaien (turn-and-go)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_y_drill",
-    "exercise_name": {
-      "en": "Y-Drill",
-      "nl": "Y-Drill"
-    },
-    "aliases": [
-      "Y-Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Reaction & Reflexes",
-      "nl": "Reactie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sprint 5-10 meters forward to the fork marker.",
-        "React to an auditory or visual cue and sprint diagonally toward the indicated cone.",
-        "(Without signal: choose a side yourself)."
-      ],
-      "nl": [
-        "Sprint 5-10m vooruit naar de splitsing.",
-        "Reageer op een signaal (links of rechts) en sprint diagonaal naar de betreffende pion.",
-        "(Zonder signaal: kies zelf een kant)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_reactive_box",
-    "exercise_name": {
-      "en": "Reactive 4 Cone Drill",
-      "nl": "Reactive 4 Cone Drill"
-    },
-    "aliases": [
-      "Reactive 4 Cone Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Reaction & Agility",
-      "nl": "Reactie / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand in the center of a cone square with 4 colored/numbered markers.",
-        "Your partner calls out a color or number; sprint and tap the designated cone before returning to center."
-      ],
-      "nl": [
-        "Sta in het midden van een vierkant met 4 gekleurde/genummerde pionnen.",
-        "Partner roept een kleur/nummer, tik deze zo snel mogelijk aan en keer terug naar het midden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_circle_drill",
-    "exercise_name": {
-      "en": "Circle Drill",
-      "nl": "Circle Drill"
-    },
-    "aliases": [
-      "Circle Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Footwork & Agility",
-      "nl": "Voetenwerk"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Sprint at top speed navigating around the circular cone perimeter.",
-        "Try to stay as close to the cones as possible and lean in."
-      ],
-      "nl": [
-        "Ren zo snel mogelijk om de cirkel van pionnen heen.",
-        "Probeer zo dicht mogelijk langs de pionnen te blijven en leun naar binnen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "cones_arrow_drill",
-    "exercise_name": {
-      "en": "Arrow Drill",
-      "nl": "Arrow Drill"
-    },
-    "aliases": [
-      "Arrow Drill"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Run to the point of the arrow, shuffle diagonally back to one side, run to the point again and shuffle to the other side."
-      ],
-      "nl": [
-        "Ren naar de punt van de pijl, shuffle diagonaal terug naar een zijkant, ren weer naar de punt en shuffle naar de andere kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "core_sliders_slider_lateral_lunge",
-    "exercise_name": {
-      "en": "Slider Lateral Lunge",
-      "nl": "Slider Lateral Lunge"
-    },
-    "aliases": [
-      "Slider Lateral Lunge"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Lower Body & Glutes",
-      "nl": "Onderlichaam / Billen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand up straight with one foot on a slider.",
-        "Slide that foot out wide to the side as your supporting leg bends.",
-        "Keep the sliding leg straight and pull it back."
-      ],
-      "nl": [
-        "Sta rechtop met één voet op een slider.",
-        "Glij met die voet wijd naar de zijkant terwijl je standbeen buigt.",
-        "Houd het glijdende been gestrekt en trek het weer terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_rainbow_slam",
-    "exercise_name": {
-      "en": "Rainbow Slams",
-      "nl": "Rainbow Slams"
-    },
-    "aliases": [
-      "Rainbow Slams"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Rotational Core",
-      "nl": "Core / Rotatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lift the ball, rotate your torso, and slam the ball into the floor beside your left foot.",
-        "Lift it over your head in a large arc (rainbow) and slam next to your right foot."
-      ],
-      "nl": [
-        "Til de bal op, draai je lichaam en slam de bal naast je linkervoet.",
-        "Til hem met een grote boog (regenboog) over je hoofd en slam naast je rechtervoet."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_glute_bridge",
-    "exercise_name": {
-      "en": "Dead Ball Glute Bridge",
-      "nl": "Dead Ball Glute Bridge"
-    },
-    "aliases": [
-      "Dead Ball Glute Bridge"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Glutes",
-      "nl": "Billen"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back, knees bent.",
-        "Place the heavy ball on your hips.",
-        "Push hips up and squeeze buttocks."
-      ],
-      "nl": [
-        "Lig op rug, knieën gebogen.",
-        "Leg de zware bal op je heupen.",
-        "Duw heupen omhoog en knijp billen samen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_plank_pull_through",
-    "exercise_name": {
-      "en": "Plank Pull Through",
-      "nl": "Plank Pull Through"
-    },
-    "aliases": [
-      "Plank Pull Through"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Start in a high plank with the medicine ball resting beside your torso.",
-        "Reach underneath your torso with your far hand to drag the medicine ball across to the opposite side.",
-        "Keep hips still."
-      ],
-      "nl": [
-        "In hoge plank met bal naast je.",
-        "Pak met je verste hand de bal onder je door en sleep hem naar de andere kant.",
-        "Heupen stil houden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "dumbbells_overhead_press",
-    "exercise_name": {
-      "en": "Overhead Press",
-      "nl": "Overhead Press"
-    },
-    "aliases": [
-      "Overhead Press"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "trapezius",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Establish a strong, grounded athletic stance.",
-        "Push the weights straight up from the shoulders.",
-        "Tighten your buttocks and stomach to avoid sagging in your back."
-      ],
-      "nl": [
-        "Sta stevig.",
-        "Duw de gewichten vanaf de schouders recht omhoog.",
-        "Span billen en buik aan om niet in de rug te hangen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "dumbbells_db_floor_press",
-    "exercise_name": {
-      "en": "Dumbbell Floor Press",
-      "nl": "Dumbbell Floor Press"
-    },
-    "aliases": [
-      "Dumbbell Floor Press"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Chest & Triceps",
-      "nl": "Borst / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on the ground.",
-        "Hold the dumbbells directly above your chest.",
-        "Lower until your triceps lightly touch the floor, then press back up.",
-        "Good alternative to bench press."
-      ],
-      "nl": [
-        "Lig op de grond.",
-        "Houd dumbbells boven je borst.",
-        "Laat zakken tot je bovenarmen de vloer raken en duw weer omhoog.",
-        "Goed alternatief voor bench press."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "dumbbells_db_arnold_press",
-    "exercise_name": {
-      "en": "Arnold Press",
-      "nl": "Arnold Press"
-    },
-    "aliases": [
-      "Arnold Press"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Start with dumbbells held in front of your shoulders, palms facing toward your body in an Arnold press setup.",
-        "Push up and simultaneously rotate your hands open (forward).",
-        "Turn back when lowering."
-      ],
-      "nl": [
-        "Start met dumbbells voor je schouders, handpalmen naar je toe.",
-        "Duw omhoog en draai tegelijkertijd je handen open (naar voren).",
-        "Draai terug bij het zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "dumbbells_db_single_arm_snatch",
-    "exercise_name": {
-      "en": "Single Arm Dumbbell Snatch",
-      "nl": "Single Arm Dumbbell Snatch"
-    },
-    "aliases": [
-      "Single Arm Dumbbell Snatch"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Full Body Power",
-      "nl": "Full Body / Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Dumbbell on the ground.",
-        "Lower into squat, grab with one hand.",
-        "In one explosive movement, pull the dumbbell up along your body above your head."
-      ],
-      "nl": [
-        "Dumbbell op de grond.",
-        "Zak in squat, pak met één hand.",
-        "Trek in één explosieve beweging de dumbbell langs je lichaam omhoog tot boven je hoofd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "dumbbells_bent_over_row"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "dumbbells_db_hammer_curl",
-    "exercise_name": {
-      "en": "Hammer Curls",
-      "nl": "Hammer Curls"
-    },
-    "aliases": [
-      "Hammer Curls"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Biceps & Forearms",
-      "nl": "Biceps / Onderarmen"
-    },
-    "target_muscles": {
-      "primary": [
-        "biceps_brachii"
-      ],
-      "secondary": [
-        "brachialis",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold dumbbells with palms facing each other (neutral grip).",
-        "Curl up without moving the elbows.",
-        "Good for biceps and forearms."
-      ],
-      "nl": [
-        "Houd dumbbells vast met handpalmen naar elkaar toe (neutrale grip).",
-        "Curl omhoog zonder de ellebogen te bewegen.",
-        "Goed voor biceps en onderarmen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_butt_kicks",
-    "exercise_name": {
-      "en": "Butt Kicks",
-      "nl": "Butt Kicks"
-    },
-    "aliases": [
-      "Butt Kicks"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Cardio & Legs",
-      "nl": "Cardio / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Run in place and kick your butt with your heels on each jump.",
-        "Keep your knees pointing straight down."
-      ],
-      "nl": [
-        "Ren op je plaats en schop met je hakken naar je billen bij elke sprong.",
-        "Houd je knieën naar beneden gericht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_criss_cross",
-    "exercise_name": {
-      "en": "Criss Cross / Crossover",
-      "nl": "Criss Cross / Crossover"
-    },
-    "aliases": [
-      "Criss Cross / Crossover"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Coordination",
-      "nl": "Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Cross your arms in front of your body on the downward swing and jump through the rope loop.",
-        "Separate your arms again for the next jump."
-      ],
-      "nl": [
-        "Kruis je armen voor je lichaam tijdens de zwaai en spring door de lus.",
-        "Haal je armen weer uit elkaar voor de volgende sprong."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_side_swings",
-    "exercise_name": {
-      "en": "Side Swings",
-      "nl": "Side Swings"
-    },
-    "aliases": [
-      "Side Swings"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Recovery & Coordination",
-      "nl": "Herstel / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Keep your feet anchored or perform light rhythmic hops.",
-        "Swing the rope along the side of your body (left and right) without jumping over it."
-      ],
-      "nl": [
-        "Houd voeten aan de grond of huppel lichtjes.",
-        "Zwaai het touw langs de zijkant van je lichaam (links en rechts) zonder eroverheen te springen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_running_in_place",
-    "exercise_name": {
-      "en": "Running in Place",
-      "nl": "Running in Place"
-    },
-    "aliases": [
-      "Running in Place"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Run in place.",
-        "The jump rope clears under one foot at a time in a boxer step.",
-        "Work on increasing your pedal stroke cadence."
-      ],
-      "nl": [
-        "Ren op de plaats.",
-        "Het touw gaat onder één voet tegelijk door.",
-        "Probeer je cadans te verhogen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_double_side_swing",
-    "exercise_name": {
-      "en": "Double Side Swing",
-      "nl": "Double Side Swing"
-    },
-    "aliases": [
-      "Double Side Swing"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Freestyle & Skills",
-      "nl": "Trucjes"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Make two side swings (left-right) and then jump through the rope.",
-        "Good for rhythm control."
-      ],
-      "nl": [
-        "Maak twee side swings (links-rechts) en spring dan pas door het touw.",
-        "Goed voor ritmebeheersing."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_mummy_kicks",
-    "exercise_name": {
-      "en": "Mummy Kicks",
-      "nl": "Mummy Kicks"
-    },
-    "aliases": [
-      "Mummy Kicks"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Footwork & Agility",
-      "nl": "Voetenwerk"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Kick your legs straight forward (small kicks) with each jump.",
-        "Land softly on the balls of your feet."
-      ],
-      "nl": [
-        "Schop je benen gestrekt naar voren (kleine schopjes) bij elke sprong.",
-        "Land op je tenen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "jump_rope_skier_jumps",
-    "exercise_name": {
-      "en": "Skier Jumps",
-      "nl": "Skier Jumps"
-    },
-    "aliases": [
-      "Skier Jumps"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Keep feet together and jump side-to-side in a slalom skier pattern."
-      ],
-      "nl": [
-        "Houd voeten bij elkaar en spring zijwaarts van links naar rechts (als een skiër)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_clean",
-    "exercise_name": {
-      "en": "Kettlebell Clean",
-      "nl": "Kettlebell Clean"
-    },
-    "aliases": [
-      "Kettlebell Clean"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Clean the kettlebell in one smooth trajectory from the floor or swing into the rack position.",
-        "Rotate your wrist smoothly so the kettlebell lands gently without slamming your forearm."
-      ],
-      "nl": [
-        "Trek de kettlebell vanaf de grond (of swing) in één beweging naar de 'rack position' (tegen de borst/schouder).",
-        "Voorkom dat de kogel hard op de onderarm klapt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_goblet_squat",
-    "exercise_name": {
-      "en": "Kettlebell Goblet Squat",
-      "nl": "Kettlebell Goblet Squat"
-    },
-    "aliases": [
-      "Kettlebell Goblet Squat"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the kettlebell by the 'horns' (side handle) in front of the chest.",
-        "Descend into a full, deep squat.",
-        "Elbows track downward inside your knees."
-      ],
-      "nl": [
-        "Houd de kettlebell aan de 'hoorns' (zijkant handvat) vast voor de borst.",
-        "Zak diep in de squat.",
-        "Ellebogen wijzen naar beneden (binnenkant knieën)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_farmers_carry",
-    "exercise_name": {
-      "en": "Farmers Carry",
-      "nl": "Farmers Carry"
-    },
-    "aliases": [
-      "Farmers Carry"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Grip & Core",
-      "nl": "Grip / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Hold a heavy kettlebell in each hand by the handles.",
-        "Walk upright using quick, short, controlled strides.",
-        "Squeeze the handles hard and keep your shoulders low and back."
-      ],
-      "nl": [
-        "Pak in elke hand een zware kettlebell.",
-        "Loop rechtop met kleine, snelle stappen.",
-        "Knijp hard in de handvatten en houd je schouders laag en naar achteren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_h2h_swing",
-    "exercise_name": {
-      "en": "Hand-to-Hand Swing",
-      "nl": "Hand-to-Hand Swing"
-    },
-    "aliases": [
-      "Hand-to-Hand Swing"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body & Coordination",
-      "nl": "Hele Lichaam / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Perform a single-arm kettlebell swing.",
-        "Switch the kettlebell to the opposite hand at the weightless apex float of the swing.",
-        "Keep your shoulders square and brace your core during the hand switch."
-      ],
-      "nl": [
-        "Voer een eenarmige swing uit.",
-        "Wissel de kettlebell van hand op het hoogste punt ('float') van de swing.",
-        "Houd je schouders recht en span je core aan bij de wissel."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_bent_press",
-    "exercise_name": {
-      "en": "Kettlebell Bent Press",
-      "nl": "Kettlebell Bent Press"
-    },
-    "aliases": [
-      "Kettlebell Bent Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Advanced Strength & Mobility",
-      "nl": "Kracht / Mobiliteit (Advanced)"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "A classic strongman movement building brutal full-body power.",
-        "Bring the kettlebell up to the side of your shoulder into the rack position.",
-        "Lean sideways and forward (\"away from the weight\") as you straighten your arm.",
-        "Then stand up straight."
-      ],
-      "nl": [
-        "Een klassieke strongman move.",
-        "Breng de KB naar de zijkant van je schouder.",
-        "Leun zijwaarts en naar voren ('weg van het gewicht') terwijl je je arm strekt.",
-        "Kom daarna rechtop."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "kettlebell_clean"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_seesaw_press",
-    "exercise_name": {
-      "en": "Seesaw Kettlebell Press",
-      "nl": "Seesaw Kettlebell Press"
-    },
-    "aliases": [
-      "Seesaw Kettlebell Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Shoulder Strength",
-      "nl": "Schouders / Kracht"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold two kettlebells secured in the front rack position against your chest.",
-        "While one arm pushes up, the other arm comes down in a controlled manner.",
-        "Both arms are in constant motion like a see-saw."
-      ],
-      "nl": [
-        "Houd twee KB's in de rack-positie.",
-        "Terwijl de ene arm omhoog duwt, komt de andere arm gecontroleerd naar beneden.",
-        "Beide armen zijn constant in beweging als een wipwap."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_waiter_walk",
-    "exercise_name": {
-      "en": "Kettlebell Waiter Walk",
-      "nl": "Kettlebell Waiter Walk"
-    },
-    "aliases": [
-      "Kettlebell Waiter Walk"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Shoulder Stability & Core",
-      "nl": "Schouderstabiliteit / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the kettlebell by the ball itself (not the handle) on top of your palm near your shoulder, or with an extended arm above your head.",
-        "Walk smoothly for the designated distance."
-      ],
-      "nl": [
-        "Houd de kettlebell bij de kogel zelf vast (niet het handvat) bovenop je handpalm bij je schouder, of met een gestrekte arm boven je hoofd.",
-        "Loop rustig een afstand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_clean"
-      ],
-      "regressions": []
     },
     "media": {
       "videos": []
@@ -48514,8 +45432,7 @@
       "difficulty": "intermediate",
       "mechanics": "isometric",
       "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 0
+      "tracking_type": "time_only"
     },
     "instructions": {
       "en": [
@@ -53835,6 +50752,3518 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T12:33:01.746Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_skierg_double_pole",
+    "exercise_name": {
+      "en": "SkiErg Double Pole",
+      "nl": "SkiErg Double Pole"
+    },
+    "aliases": [
+      "SkiErg Double Pole"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Upper Body",
+      "nl": "Cardio / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Stand hip-width apart.",
+        "Grip the high handles firmly.",
+        "Pull down with your arms straight by tightening your abdominal muscles and bending your knees (crunch movement).",
+        "Smoothly swing your arms back up to the top starting position."
+      ],
+      "nl": [
+        "Ga op heupbreedte staan.",
+        "Pak de handvatten hoog vast.",
+        "Trek met gestrekte armen naar beneden door je buikspieren aan te spannen en door je knieën te buigen (crunch beweging).",
+        "Zwaai je armen rustig terug omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "a7jTvJLNN0w",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "The Masters of Strength",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_sled_push",
+    "exercise_name": {
+      "en": "Sled Push (Slee Duwen)",
+      "nl": "Sled Push (Slee Duwen)"
+    },
+    "aliases": [
+      "Sled Push",
+      "Sled Push Slee Duwen",
+      "Slee Duwen"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Set the resistance high.",
+        "Grip either the low or high handles based on preferred leverage.",
+        "Lean far forward and push the tire backwards with strong steps.",
+        "Keep your back flat and neutral."
+      ],
+      "nl": [
+        "Zet de weerstand hoog.",
+        "Pak de lage of hoge handgrepen vast.",
+        "Leun ver voorover en duw de band met krachtige stappen naar achteren weg.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "e7-4Z3TSrhQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Henricho Bruintjies",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_lateral_shuffle",
+    "exercise_name": {
+      "en": "Lateral Shuffle (Zijwaarts)",
+      "nl": "Lateral Shuffle (Zijwaarts)"
+    },
+    "aliases": [
+      "Lateral Shuffle",
+      "Lateral Shuffle Zijwaarts",
+      "Zijwaarts"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Agility",
+      "nl": "Cardio / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand sideways on the band.",
+        "Stay low in your hips (squat position) and shuffle sideways without crossing your feet.",
+        "Switch sides after a brief interval."
+      ],
+      "nl": [
+        "Ga zijwaarts op de band staan.",
+        "Blijf laag in je heupen (squat houding) en shuffle zijwaarts zonder je voeten te kruisen.",
+        "Wissel na een tijdje van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jZyUO7N-Tz0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "David K",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_rower_power_sprints",
+    "exercise_name": {
+      "en": "Power Sprints (100m)",
+      "nl": "Power Sprints (100m)"
+    },
+    "aliases": [
+      "100m",
+      "Power Sprints",
+      "Power Sprints 100m"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & HIIT",
+      "nl": "Cardio / HIIT"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Set the resistance high.",
+        "Execute short, explosive rowing strokes pulling with maximum force.",
+        "Focus on an extremely hard push-off with the legs.",
+        "Try to row 100 meters as fast as possible."
+      ],
+      "nl": [
+        "Zet de weerstand hoog.",
+        "Maak korte, explosieve slagen met maximale kracht.",
+        "Focus op een extreem harde afzet met de benen.",
+        "Probeer 100 meter zo snel mogelijk te roeien."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jZyUO7N-Tz0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "David K",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_airbike_legs_only",
+    "exercise_name": {
+      "en": "Airbike Legs Only",
+      "nl": "Airbike Legs Only"
+    },
+    "aliases": [
+      "Airbike Legs Only"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Let go of the handles (or place your hands on your lap/handlebar in the middle).",
+        "Only cycle with your legs.",
+        "This isolates the quadriceps and takes help away from the upper body."
+      ],
+      "nl": [
+        "Laat de handvatten los (of leg je handen op je schoot/stuur middenin).",
+        "Fiets alleen met je benen.",
+        "Dit isoleert de quadriceps en haalt de hulp van het bovenlichaam weg."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "_tno3lzAOuY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Abbey Mill",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_sprint",
+    "exercise_name": {
+      "en": "Curved Treadmill Sprint",
+      "nl": "Curved Treadmill Sprint"
+    },
+    "aliases": [
+      "Curved Treadmill Sprint"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Speed",
+      "nl": "Cardio / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Set the resistance low.",
+        "Start running; because the band is curved, you determine the pace yourself.",
+        "Run toward the front curve of the curved treadmill belt to accelerate.",
+        "Sprint flat out for 15-30 seconds."
+      ],
+      "nl": [
+        "Zet de weerstand laag.",
+        "Begin te rennen; omdat de band gebogen is, bepaal je zelf het tempo.",
+        "Ren voorop de curve om te versnellen.",
+        "Sprint voluit voor 15-30 seconden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "plLPYWiNovo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Kinetic Impact",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_slalom_run",
+    "exercise_name": {
+      "en": "Slalom Run",
+      "nl": "Slalom Run"
+    },
+    "aliases": [
+      "Slalom Run"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility & Footwork",
+      "nl": "Behendigheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Place pawns in a straight line behind each other (1m apart).",
+        "Weave rapidly between the cones in a zigzag pattern without contacting them.",
+        "Keep your center of gravity low in an athletic stance."
+      ],
+      "nl": [
+        "Zet pionnen in een rechte lijn achter elkaar (1m tussenruimte).",
+        "Ren er zo snel mogelijk zigzaggend tussendoor zonder ze aan te raken.",
+        "Houd je zwaartepunt laag."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "qkBNofn8K4c",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Enhance Physiotherapy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_w_drill",
+    "exercise_name": {
+      "en": "W-Drill",
+      "nl": "W-Drill"
+    },
+    "aliases": [
+      "W-Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Place pawns in a 'W'.",
+        "Sprint forward to the first apex, then backpedal diagonally to the next depth point.",
+        "Repeat this pattern throughout the entire W."
+      ],
+      "nl": [
+        "Zet pionnen in een 'W'.",
+        "Sprint vooruit naar de eerste punt, ren achteruit (backpedal) naar de volgende diepe punt.",
+        "Herhaal dit patroon door de hele W."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "VrIwPKknoTY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "nick r",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_x_drill",
+    "exercise_name": {
+      "en": "X-Drill",
+      "nl": "X-Drill"
+    },
+    "aliases": [
+      "X-Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Start at the bottom-left marker.",
+        "Sprint diagonally to the top right.",
+        "Shuffle sideways to the top left.",
+        "Sprint diagonally to the bottom right.",
+        "Lateral shuffle back to the starting marker."
+      ],
+      "nl": [
+        "Start linksonder.",
+        "Sprint diagonaal naar rechtsboven.",
+        "Shuffle zijwaarts naar linksboven.",
+        "Sprint diagonaal naar rechtsonder.",
+        "Shuffle terug naar start."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dUioA3OT9ec",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "CoachThem",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_pro_agility_shuttle",
+    "exercise_name": {
+      "en": "Pro Agility Shuttle (5-10-5)",
+      "nl": "Pro Agility Shuttle (5-10-5)"
+    },
+    "aliases": [
+      "5-10-5",
+      "Pro Agility Shuttle",
+      "Pro Agility Shuttle 5-10-5"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Speed & Sprinting",
+      "nl": "Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Start stationed in the center.",
+        "Sprint 5m to the right, tap the line.",
+        "Sprint 10 meters to the left and touch the boundary line.",
+        "Sprint 5m back through the middle."
+      ],
+      "nl": [
+        "Start in het midden.",
+        "Sprint 5m naar rechts, tik lijn aan.",
+        "Sprint 10m naar links (helemaal naar de andere kant), tik lijn aan.",
+        "Sprint 5m terug door het midden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Afj6M8chZWE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Top-Tier Performance Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_four_corner_drill",
+    "exercise_name": {
+      "en": "4 Corner Drill",
+      "nl": "4 Corner Drill"
+    },
+    "aliases": [
+      "4 Corner Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Start stationed in the center.",
+        "Sprint to a corner cone, round the marker, and sprint back to the central hub.",
+        "Turn around the center pawn and go to the next corner."
+      ],
+      "nl": [
+        "Start in het midden.",
+        "Sprint naar een hoek, draai om de pion en sprint terug naar het midden.",
+        "Draai om de middenpion en ga naar de volgende hoek."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "djSd6wLdJZU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Level 10 Fitness ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_figure_8",
+    "exercise_name": {
+      "en": "Figure 8",
+      "nl": "Figure 8"
+    },
+    "aliases": [
+      "Figure 8"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility & Cornering",
+      "nl": "Bochtenwerk"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Place two pawns 5m apart.",
+        "Run around the cones in a figure of 8.",
+        "Stay low in the corners and accelerate on the straights."
+      ],
+      "nl": [
+        "Zet twee pionnen 5m uit elkaar.",
+        "Ren in een 8-vorm om de pionnen heen.",
+        "Blijf laag in de bochten en versnel op de rechte stukken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "gTh68cEGY2A",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Athlete Farm Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_nebraska_drill",
+    "exercise_name": {
+      "en": "Nebraska Agility Drill",
+      "nl": "Nebraska Agility Drill"
+    },
+    "aliases": [
+      "Nebraska Agility Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Speed & Sprinting",
+      "nl": "Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Sprint forward, plant and pivot 180 degrees, sprint back, and accelerate into a long sprint.",
+        "Focus on braking and turning quickly (turn-and-go)."
+      ],
+      "nl": [
+        "Sprint vooruit, draai 180 graden, sprint terug, draai weer en sprint een langer stuk.",
+        "Focus op het snel afremmen en draaien (turn-and-go)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "XPM5_dD6iVY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "NSP Soccer",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_y_drill",
+    "exercise_name": {
+      "en": "Y-Drill",
+      "nl": "Y-Drill"
+    },
+    "aliases": [
+      "Y-Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Reaction & Reflexes",
+      "nl": "Reactie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Sprint 5-10 meters forward to the fork marker.",
+        "React to an auditory or visual cue and sprint diagonally toward the indicated cone.",
+        "(Without signal: choose a side yourself)."
+      ],
+      "nl": [
+        "Sprint 5-10m vooruit naar de splitsing.",
+        "Reageer op een signaal (links of rechts) en sprint diagonaal naar de betreffende pion.",
+        "(Zonder signaal: kies zelf een kant)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "CWTu5Y231Ew",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Coach Keil",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_reactive_box",
+    "exercise_name": {
+      "en": "Reactive 4 Cone Drill",
+      "nl": "Reactive 4 Cone Drill"
+    },
+    "aliases": [
+      "Reactive 4 Cone Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Reaction & Agility",
+      "nl": "Reactie / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand in the center of a cone square with 4 colored/numbered markers.",
+        "Your partner calls out a color or number; sprint and tap the designated cone before returning to center."
+      ],
+      "nl": [
+        "Sta in het midden van een vierkant met 4 gekleurde/genummerde pionnen.",
+        "Partner roept een kleur/nummer, tik deze zo snel mogelijk aan en keer terug naar het midden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xcGtXMsa3f0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Jeff Dube",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_circle_drill",
+    "exercise_name": {
+      "en": "Circle Drill",
+      "nl": "Circle Drill"
+    },
+    "aliases": [
+      "Circle Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Footwork & Agility",
+      "nl": "Voetenwerk"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sprint at top speed navigating around the circular cone perimeter.",
+        "Try to stay as close to the cones as possible and lean in."
+      ],
+      "nl": [
+        "Ren zo snel mogelijk om de cirkel van pionnen heen.",
+        "Probeer zo dicht mogelijk langs de pionnen te blijven en leun naar binnen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Ov9sWlaJy4Y",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Jeff Dube",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cones_arrow_drill",
+    "exercise_name": {
+      "en": "Arrow Drill",
+      "nl": "Arrow Drill"
+    },
+    "aliases": [
+      "Arrow Drill"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Run to the point of the arrow, shuffle diagonally back to one side, run to the point again and shuffle to the other side."
+      ],
+      "nl": [
+        "Ren naar de punt van de pijl, shuffle diagonaal terug naar een zijkant, ren weer naar de punt en shuffle naar de andere kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Uc59i94cuig",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "TheQuickBoard",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_lateral_lunge",
+    "exercise_name": {
+      "en": "Slider Lateral Lunge",
+      "nl": "Slider Lateral Lunge"
+    },
+    "aliases": [
+      "Slider Lateral Lunge"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Lower Body & Glutes",
+      "nl": "Onderlichaam / Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand up straight with one foot on a slider.",
+        "Slide that foot out wide to the side as your supporting leg bends.",
+        "Keep the sliding leg straight and pull it back."
+      ],
+      "nl": [
+        "Sta rechtop met één voet op een slider.",
+        "Glij met die voet wijd naar de zijkant terwijl je standbeen buigt.",
+        "Houd het glijdende been gestrekt en trek het weer terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "tEC3OjzMUHk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Explore Movement ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_rainbow_slam",
+    "exercise_name": {
+      "en": "Rainbow Slams",
+      "nl": "Rainbow Slams"
+    },
+    "aliases": [
+      "Rainbow Slams"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lift the ball, rotate your torso, and slam the ball into the floor beside your left foot.",
+        "Lift it over your head in a large arc (rainbow) and slam next to your right foot."
+      ],
+      "nl": [
+        "Til de bal op, draai je lichaam en slam de bal naast je linkervoet.",
+        "Til hem met een grote boog (regenboog) over je hoofd en slam naast je rechtervoet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-wSFkV1mGRc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Solid Rock Personal Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_glute_bridge",
+    "exercise_name": {
+      "en": "Dead Ball Glute Bridge",
+      "nl": "Dead Ball Glute Bridge"
+    },
+    "aliases": [
+      "Dead Ball Glute Bridge"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Glutes",
+      "nl": "Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, knees bent.",
+        "Place the heavy ball on your hips.",
+        "Push hips up and squeeze buttocks."
+      ],
+      "nl": [
+        "Lig op rug, knieën gebogen.",
+        "Leg de zware bal op je heupen.",
+        "Duw heupen omhoog en knijp billen samen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "RrU4zx4ysnI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Go with JO FITNESS",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_plank_pull_through",
+    "exercise_name": {
+      "en": "Plank Pull Through",
+      "nl": "Plank Pull Through"
+    },
+    "aliases": [
+      "Plank Pull Through"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Start in a high plank with the medicine ball resting beside your torso.",
+        "Reach underneath your torso with your far hand to drag the medicine ball across to the opposite side.",
+        "Keep hips still."
+      ],
+      "nl": [
+        "In hoge plank met bal naast je.",
+        "Pak met je verste hand de bal onder je door en sleep hem naar de andere kant.",
+        "Heupen stil houden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "DL_1qrOBzdc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Coach Brett of AveryFitLife",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "dumbbells_overhead_press",
+    "exercise_name": {
+      "en": "Overhead Press",
+      "nl": "Overhead Press"
+    },
+    "aliases": [
+      "Overhead Press"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Establish a strong, grounded athletic stance.",
+        "Push the weights straight up from the shoulders.",
+        "Tighten your buttocks and stomach to avoid sagging in your back."
+      ],
+      "nl": [
+        "Sta stevig.",
+        "Duw de gewichten vanaf de schouders recht omhoog.",
+        "Span billen en buik aan om niet in de rug te hangen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "zoN5EH50Dro",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_floor_press",
+    "exercise_name": {
+      "en": "Dumbbell Floor Press",
+      "nl": "Dumbbell Floor Press"
+    },
+    "aliases": [
+      "Dumbbell Floor Press"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Chest & Triceps",
+      "nl": "Borst / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on the ground.",
+        "Hold the dumbbells directly above your chest.",
+        "Lower until your triceps lightly touch the floor, then press back up.",
+        "Good alternative to bench press."
+      ],
+      "nl": [
+        "Lig op de grond.",
+        "Houd dumbbells boven je borst.",
+        "Laat zakken tot je bovenarmen de vloer raken en duw weer omhoog.",
+        "Goed alternatief voor bench press."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "O1x7AoUf5Vs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Clans Master",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_arnold_press",
+    "exercise_name": {
+      "en": "Arnold Press",
+      "nl": "Arnold Press"
+    },
+    "aliases": [
+      "Arnold Press"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Start with dumbbells held in front of your shoulders, palms facing toward your body in an Arnold press setup.",
+        "Push up and simultaneously rotate your hands open (forward).",
+        "Turn back when lowering."
+      ],
+      "nl": [
+        "Start met dumbbells voor je schouders, handpalmen naar je toe.",
+        "Duw omhoog en draai tegelijkertijd je handen open (naar voren).",
+        "Draai terug bij het zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "AjB-UXErljM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_single_arm_snatch",
+    "exercise_name": {
+      "en": "Single Arm Dumbbell Snatch",
+      "nl": "Single Arm Dumbbell Snatch"
+    },
+    "aliases": [
+      "Single Arm Dumbbell Snatch"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body Power",
+      "nl": "Full Body / Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Dumbbell on the ground.",
+        "Lower into squat, grab with one hand.",
+        "In one explosive movement, pull the dumbbell up along your body above your head."
+      ],
+      "nl": [
+        "Dumbbell op de grond.",
+        "Zak in squat, pak met één hand.",
+        "Trek in één explosieve beweging de dumbbell langs je lichaam omhoog tot boven je hoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "dumbbells_bent_over_row"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "PCwOb4tyrv0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Movement Physio",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_hammer_curl",
+    "exercise_name": {
+      "en": "Hammer Curls",
+      "nl": "Hammer Curls"
+    },
+    "aliases": [
+      "Hammer Curls"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Biceps & Forearms",
+      "nl": "Biceps / Onderarmen"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "brachialis",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold dumbbells with palms facing each other (neutral grip).",
+        "Curl up without moving the elbows.",
+        "Good for biceps and forearms."
+      ],
+      "nl": [
+        "Houd dumbbells vast met handpalmen naar elkaar toe (neutrale grip).",
+        "Curl omhoog zonder de ellebogen te bewegen.",
+        "Goed voor biceps en onderarmen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "IEuVnX7nZN8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "KC FITNESS",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_butt_kicks",
+    "exercise_name": {
+      "en": "Butt Kicks",
+      "nl": "Butt Kicks"
+    },
+    "aliases": [
+      "Butt Kicks"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Cardio & Legs",
+      "nl": "Cardio / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Run in place and kick your butt with your heels on each jump.",
+        "Keep your knees pointing straight down."
+      ],
+      "nl": [
+        "Ren op je plaats en schop met je hakken naar je billen bij elke sprong.",
+        "Houd je knieën naar beneden gericht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "gklWPfdkkzE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Always Ghadi",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_criss_cross",
+    "exercise_name": {
+      "en": "Criss Cross / Crossover",
+      "nl": "Criss Cross / Crossover"
+    },
+    "aliases": [
+      "Criss Cross / Crossover"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Coordination",
+      "nl": "Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Cross your arms in front of your body on the downward swing and jump through the rope loop.",
+        "Separate your arms again for the next jump."
+      ],
+      "nl": [
+        "Kruis je armen voor je lichaam tijdens de zwaai en spring door de lus.",
+        "Haal je armen weer uit elkaar voor de volgende sprong."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "qdW1h5jmriY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Lauren Jumps",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_side_swings",
+    "exercise_name": {
+      "en": "Side Swings",
+      "nl": "Side Swings"
+    },
+    "aliases": [
+      "Side Swings"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Recovery & Coordination",
+      "nl": "Herstel / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Keep your feet anchored or perform light rhythmic hops.",
+        "Swing the rope along the side of your body (left and right) without jumping over it."
+      ],
+      "nl": [
+        "Houd voeten aan de grond of huppel lichtjes.",
+        "Zwaai het touw langs de zijkant van je lichaam (links en rechts) zonder eroverheen te springen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "MP1fAiOVi_k",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Scotty Skippin",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_running_in_place",
+    "exercise_name": {
+      "en": "Running in Place",
+      "nl": "Running in Place"
+    },
+    "aliases": [
+      "Running in Place"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Run in place.",
+        "The jump rope clears under one foot at a time in a boxer step.",
+        "Work on increasing your pedal stroke cadence."
+      ],
+      "nl": [
+        "Ren op de plaats.",
+        "Het touw gaat onder één voet tegelijk door.",
+        "Probeer je cadans te verhogen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jAoU-4M6nk4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "JUMPING AND BEYOND",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_double_side_swing",
+    "exercise_name": {
+      "en": "Double Side Swing",
+      "nl": "Double Side Swing"
+    },
+    "aliases": [
+      "Double Side Swing"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Freestyle & Skills",
+      "nl": "Trucjes"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Make two side swings (left-right) and then jump through the rope.",
+        "Good for rhythm control."
+      ],
+      "nl": [
+        "Maak twee side swings (links-rechts) en spring dan pas door het touw.",
+        "Goed voor ritmebeheersing."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "6j8G044oF6w",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Jump Rope Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_mummy_kicks",
+    "exercise_name": {
+      "en": "Mummy Kicks",
+      "nl": "Mummy Kicks"
+    },
+    "aliases": [
+      "Mummy Kicks"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Footwork & Agility",
+      "nl": "Voetenwerk"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Kick your legs straight forward (small kicks) with each jump.",
+        "Land softly on the balls of your feet."
+      ],
+      "nl": [
+        "Schop je benen gestrekt naar voren (kleine schopjes) bij elke sprong.",
+        "Land op je tenen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "XIe825trlrg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Muscles by Marcell",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "jump_rope_skier_jumps",
+    "exercise_name": {
+      "en": "Skier Jumps",
+      "nl": "Skier Jumps"
+    },
+    "aliases": [
+      "Skier Jumps"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Keep feet together and jump side-to-side in a slalom skier pattern."
+      ],
+      "nl": [
+        "Houd voeten bij elkaar en spring zijwaarts van links naar rechts (als een skiër)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_clean",
+    "exercise_name": {
+      "en": "Kettlebell Clean",
+      "nl": "Kettlebell Clean"
+    },
+    "aliases": [
+      "Kettlebell Clean"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Clean the kettlebell in one smooth trajectory from the floor or swing into the rack position.",
+        "Rotate your wrist smoothly so the kettlebell lands gently without slamming your forearm."
+      ],
+      "nl": [
+        "Trek de kettlebell vanaf de grond (of swing) in één beweging naar de 'rack position' (tegen de borst/schouder).",
+        "Voorkom dat de kogel hard op de onderarm klapt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "h4KafmF7Xwc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "The Gym Hong Kong",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_goblet_squat",
+    "exercise_name": {
+      "en": "Kettlebell Goblet Squat",
+      "nl": "Kettlebell Goblet Squat"
+    },
+    "aliases": [
+      "Kettlebell Goblet Squat"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold the kettlebell by the 'horns' (side handle) in front of the chest.",
+        "Descend into a full, deep squat.",
+        "Elbows track downward inside your knees."
+      ],
+      "nl": [
+        "Houd de kettlebell aan de 'hoorns' (zijkant handvat) vast voor de borst.",
+        "Zak diep in de squat.",
+        "Ellebogen wijzen naar beneden (binnenkant knieën)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "7-80HiXX1K8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Le Sweat",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_farmers_carry",
+    "exercise_name": {
+      "en": "Farmers Carry",
+      "nl": "Farmers Carry"
+    },
+    "aliases": [
+      "Farmers Carry"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Grip & Core",
+      "nl": "Grip / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Hold a heavy kettlebell in each hand by the handles.",
+        "Walk upright using quick, short, controlled strides.",
+        "Squeeze the handles hard and keep your shoulders low and back."
+      ],
+      "nl": [
+        "Pak in elke hand een zware kettlebell.",
+        "Loop rechtop met kleine, snelle stappen.",
+        "Knijp hard in de handvatten en houd je schouders laag en naar achteren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "v6AcGUL9zHk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FIT Sisters - Lucy & Rosie",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_h2h_swing",
+    "exercise_name": {
+      "en": "Hand-to-Hand Swing",
+      "nl": "Hand-to-Hand Swing"
+    },
+    "aliases": [
+      "Hand-to-Hand Swing"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body & Coordination",
+      "nl": "Hele Lichaam / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Perform a single-arm kettlebell swing.",
+        "Switch the kettlebell to the opposite hand at the weightless apex float of the swing.",
+        "Keep your shoulders square and brace your core during the hand switch."
+      ],
+      "nl": [
+        "Voer een eenarmige swing uit.",
+        "Wissel de kettlebell van hand op het hoogste punt ('float') van de swing.",
+        "Houd je schouders recht en span je core aan bij de wissel."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "RSactpwHi7c",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "NeuStrength | Personal Trainer Wilmington NC",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_bent_press",
+    "exercise_name": {
+      "en": "Kettlebell Bent Press",
+      "nl": "Kettlebell Bent Press"
+    },
+    "aliases": [
+      "Kettlebell Bent Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Advanced Strength & Mobility",
+      "nl": "Kracht / Mobiliteit (Advanced)"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "A classic strongman movement building brutal full-body power.",
+        "Bring the kettlebell up to the side of your shoulder into the rack position.",
+        "Lean sideways and forward (\"away from the weight\") as you straighten your arm.",
+        "Then stand up straight."
+      ],
+      "nl": [
+        "Een klassieke strongman move.",
+        "Breng de KB naar de zijkant van je schouder.",
+        "Leun zijwaarts en naar voren ('weg van het gewicht') terwijl je je arm strekt.",
+        "Kom daarna rechtop."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "kettlebell_clean"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "LmBQ7H95ejU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rebecca Rouse",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_seesaw_press",
+    "exercise_name": {
+      "en": "Seesaw Kettlebell Press",
+      "nl": "Seesaw Kettlebell Press"
+    },
+    "aliases": [
+      "Seesaw Kettlebell Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Shoulder Strength",
+      "nl": "Schouders / Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold two kettlebells secured in the front rack position against your chest.",
+        "While one arm pushes up, the other arm comes down in a controlled manner.",
+        "Both arms are in constant motion like a see-saw."
+      ],
+      "nl": [
+        "Houd twee KB's in de rack-positie.",
+        "Terwijl de ene arm omhoog duwt, komt de andere arm gecontroleerd naar beneden.",
+        "Beide armen zijn constant in beweging als een wipwap."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Y7IXTZKEpOY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Kieran Omnia",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_waiter_walk",
+    "exercise_name": {
+      "en": "Kettlebell Waiter Walk",
+      "nl": "Kettlebell Waiter Walk"
+    },
+    "aliases": [
+      "Kettlebell Waiter Walk"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Shoulder Stability & Core",
+      "nl": "Schouderstabiliteit / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold the kettlebell by the ball itself (not the handle) on top of your palm near your shoulder, or with an extended arm above your head.",
+        "Walk smoothly for the designated distance."
+      ],
+      "nl": [
+        "Houd de kettlebell bij de kogel zelf vast (niet het handvat) bovenop je handpalm bij je schouder, of met een gestrekte arm boven je hoofd.",
+        "Loop rustig een afstand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_clean"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "TDQs2b_T0gc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Tessa Pierce Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-08T09:14:04.210Z"
     }
   }
 ]
