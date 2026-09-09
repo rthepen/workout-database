@@ -4480,5 +4480,94 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
     }
+  },
+  {
+    "id": "kettlebell_advanced_windmill",
+    "exercise_name": {
+      "en": "Advanced Kettlebell Windmill",
+      "nl": "Advanced Kettlebell Windmill"
+    },
+    "aliases": [
+      "Advanced Kettlebell Windmill",
+      "Advanced_Kettlebell_Windmill"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Clean and press a kettlebell overhead with one arm.",
+        "Keeping the kettlebell locked out at all times, push your butt out in the direction of the locked out kettlebell. Keep the non-working arm behind your back and turn your feet out at a forty-five degree angle from the arm with the kettlebell.",
+        "Lower yourself as far as possible.",
+        "Pause for a second and reverse the motion back to the starting position."
+      ],
+      "nl": [
+        "Clean en press de kettlebell met één arm boven je hoofd.",
+        "Houd je arm continu uitgestrekt en duw je heup uit in de richting van het gewicht. Plaats je voeten in een hoek van 45 graden.",
+        "Zak met je bovenlichaam zo ver mogelijk naar beneden terwijl je naar de kettlebell blijft kijken.",
+        "Pauzeer kort en kom gecontroleerd terug omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your eyes fixed on the kettlebell overhead throughout the entire movement.",
+        "Hinge deeply into the hip rather than rounding your lower back."
+      ],
+      "nl": [
+        "Blijf gedurende de hele oefening omhoog kijken naar de kettlebell.",
+        "Buig vanuit het heupgewricht en houd je rug recht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "kettlebell_windmill"
+      ]
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Advanced_Kettlebell_Windmill/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Advanced_Kettlebell_Windmill/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "cable_crossover",
+    "exercise_name": {
+      "en": "Cable Crossover",
+      "nl": "Cable Crossover"
+    },
+    "aliases": [
+      "Cable Crossover",
+      "Cable_Crossover"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Set pulleys high, grasp single handles, and take a staggered step forward.",
+        "With a slight bend in elbows, pull arms forward and downward in an arc until hands meet across the chest.",
+        "Pause to squeeze pecs, then slowly open arms back under control."
+      ],
+      "nl": [
+        "Stel de katrollen hoog in, pak de handvatten en stap met één voet naar voren.",
+        "Beweeg je armen met licht gebogen ellebogen in een wijde boog naar voren en beneden tot je handen elkaar kruisen.",
+        "Knijp je borstspieren hard samen en keer langzaam terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Houd je borst vooruit en schouderbladen naar achteren.",
+        "Houd de lichte buiging in je ellebogen constant."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crossover/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crossover/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_crunch",
+    "exercise_name": {
+      "en": "Cable Kneeling Crunch",
+      "nl": "Cable Kneeling Crunch"
+    },
+    "aliases": [
+      "Cable Crunch",
+      "Cable_Crunch"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Kneel below a high pulley fitted with a rope attachment. Hold rope ends beside your ears.",
+        "Hips remain stationary while you curl your torso downward, driving elbows toward thighs via abdominal contraction.",
+        "Slowly return to the top stretched position."
+      ],
+      "nl": [
+        "Kniel voor het kabelstation met een touwbevestiging hoog ingesteld. Houd het touw naast je hoofd.",
+        "Houd je heupen stil en buig je bovenlichaam naar beneden door je buikspieren maximaal aan te spannen.",
+        "Laat je gecontroleerd weer omhoog komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Curl with the spine rather than hinging at the hips."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je vanuit je heupen scharniert.",
+        "Rol je wervelkolom bewust op."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  }
+]

@@ -1105,6 +1105,18 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           title={ex.exercise_name?.nl || ex.exercise_name?.en || ex.id}
                           autoplayEnabled={autoplayEnabled}
                         />
+                      ) : ex.media?.images && ex.media.images.length > 0 ? (
+                        <div className="w-28 sm:w-36 h-24 sm:h-28 rounded-xl bg-slate-950 border border-purple-500/30 overflow-hidden flex flex-col items-center justify-center text-slate-400 text-[11px] gap-1 flex-shrink-0 relative group">
+                          <img
+                            src={ex.media.images[0].url}
+                            alt={ex.exercise_name?.en || ex.id}
+                            className="w-full h-full object-contain p-1"
+                            loading="lazy"
+                          />
+                          <div className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded bg-purple-950/90 text-purple-300 font-mono text-[9px] border border-purple-800/80">
+                            {ex.media.images.length} img
+                          </div>
+                        </div>
                       ) : (
                         <div className="w-28 sm:w-36 h-24 sm:h-28 rounded-xl bg-slate-950/80 border border-dashed border-slate-800 flex flex-col items-center justify-center text-slate-500 text-[11px] gap-1 flex-shrink-0">
                           <Tv className="w-5 h-5 opacity-40" />

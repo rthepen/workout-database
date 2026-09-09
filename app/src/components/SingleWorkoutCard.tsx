@@ -13,7 +13,8 @@ import {
   Copy, 
   Check, 
   Star, 
-  Tv as YoutubeIcon 
+  Tv as YoutubeIcon,
+  Image as ImageIcon
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
@@ -262,6 +263,12 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                     🖼️ Frame: {exercise.media.videos[0].thumbnail_seconds}s
                   </span>
                 )}
+
+                {exercise.media?.images && exercise.media.images.length > 0 && (
+                  <span className="px-2.5 py-1 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/30 font-semibold flex items-center gap-1">
+                    <ImageIcon className="w-3 h-3" /> {exercise.media.images.length} image{exercise.media.images.length > 1 ? 's' : ''}
+                  </span>
+                )}
               </div>
             </div>
           </div>
@@ -279,6 +286,40 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 onUpdateVideos={onUpdateVideos}
               />
             </div>
+
+            {/* Visual Guide / Exercise Photos Section */}
+            {exercise.media?.images && exercise.media.images.length > 0 && (
+              <div className="p-4 bg-slate-900/60 rounded-2xl border border-slate-800 space-y-3">
+                <h2 className="text-xs font-extrabold uppercase tracking-wider text-purple-400 flex items-center gap-1.5 border-b border-slate-800/80 pb-2.5">
+                  <ImageIcon className="w-4 h-4 text-purple-400" />
+                  <span>Demonstration Images ({exercise.media.images.length})</span>
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {exercise.media.images.map((img, idx) => (
+                    <div key={idx} className="relative rounded-xl overflow-hidden bg-slate-950 border border-slate-800 group aspect-video sm:aspect-square flex flex-col items-center justify-center p-2">
+                      <img
+                        src={img.url}
+                        alt={`${exercise.exercise_name?.en || 'Exercise'} step ${idx + 1}`}
+                        loading="lazy"
+                        className="w-full h-full object-contain rounded-lg transition-transform duration-300 group-hover:scale-105"
+                      />
+                      <div className="absolute bottom-2 left-2 bg-slate-900/90 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-mono text-slate-300 border border-slate-700">
+                        {img.type || 'photo'} #{idx + 1}
+                      </div>
+                      <a
+                        href={img.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="absolute top-2 right-2 p-1.5 bg-slate-900/80 hover:bg-slate-800 text-slate-300 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity border border-slate-700"
+                        title="Open full size image"
+                      >
+                        <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* 2. Instructions & Form Cues Section */}
             <div className="p-4 bg-slate-900/60 rounded-2xl border border-slate-800 space-y-4 text-xs">

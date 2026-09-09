@@ -1,0 +1,82 @@
+[
+  {
+    "id": "foam_roller_adductor_stretch",
+    "exercise_name": {
+      "en": "Adductor Foam Roll",
+      "nl": "Adductor Foam Roll"
+    },
+    "aliases": [
+      "Adductor"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down with one leg on a foam roll.",
+        "Rotate the leg so that the foam roll contacts against your inner thigh. Shift as much weight onto the foam roll as can be tolerated.",
+        "While trying to relax the muscles if the inner thigh, roll over the foam between your hip and knee, holding points of tension for 10-30 seconds. Repeat with the other leg."
+      ],
+      "nl": [
+        "Ga op je buik liggen met één been op de foamroller.",
+        "Draai het been zodat de roller contact maakt met je binnenkant dij. Leun met zoveel mogelijk gewicht op de roller.",
+        "Ontspan de spieren en rol rustig tussen heup en knie. Houd gevoelige punten 10-30 seconden vast en wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Breathe slowly and maintain body control through forearms.",
+        "Avoid rolling directly over the knee joint."
+      ],
+      "nl": [
+        "Blijf rustig doorademen en ondersteun je lichaam met je onderarmen.",
+        "Rol niet direct over het kniegewricht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  }
+]

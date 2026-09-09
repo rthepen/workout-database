@@ -1700,5 +1700,173 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T14:11:45.233Z"
     }
+  },
+  {
+    "id": "monkey_bars_chin_up",
+    "exercise_name": {
+      "en": "Chin-Up",
+      "nl": "Chin-Up"
+    },
+    "aliases": [
+      "Chin-Up"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "forearms",
+        "rhomboids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Grip the pull-up bar with a supinated (underhand) grip slightly narrower than shoulder width.",
+        "Pull your torso upward until your chin is over the bar, driving elbows down and back.",
+        "Lower under complete control to full arm extension."
+      ],
+      "nl": [
+        "Pak de stang onderhands vast (handpalmen naar je toe) op schouderbreedte.",
+        "Trek jezelf op tot je kin over de stang komt, waarbij je je ellebogen naar beneden trekt.",
+        "Laat je gecontroleerd zakken tot je armen weer volledig gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid kicking your legs or using excessive swinging momentum."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging vanuit je schouderbladen.",
+        "Voorkom zwaaien met je benen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "monkey_bars_hanging_leg_raise",
+    "exercise_name": {
+      "en": "Hanging Leg Raise",
+      "nl": "Hanging Leg Raise"
+    },
+    "aliases": [
+      "Hanging Leg Raise",
+      "Hanging_Leg_Raise"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "iliopsoas",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang from an overhead pull-up bar with arms fully extended.",
+        "Without swinging, raise your straight legs until parallel to the floor or higher.",
+        "Pause briefly and lower slowly to complete each rep."
+      ],
+      "nl": [
+        "Hang met gestrekte armen aan een optrekstang.",
+        "Hef je benen gestrekt omhoog tot minimaal heuphoogte (90 graden) zonder te zwaaien.",
+        "Houd bovenin even vast en laat je benen langzaam weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid swinging.",
+        "Tilt pelvis slightly posterior at the apex to fully recruit lower abdominals."
+      ],
+      "nl": [
+        "Span je core aan en voorkom dat je lichaam gaat schommelen.",
+        "Kantel je bekken bovenin licht naar achteren voor maximale buikspierspanning."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

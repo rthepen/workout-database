@@ -1723,5 +1723,92 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T14:11:45.233Z"
     }
+  },
+  {
+    "id": "battle_rope_waves",
+    "exercise_name": {
+      "en": "Battling Ropes",
+      "nl": "Battle Ropes Waves"
+    },
+    "aliases": [
+      "Battling Ropes",
+      "Battle Ropes",
+      "Battling_Ropes"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "pectorals",
+        "forearms",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hold one rope end in each hand with a firm neutral grip and take an athletic quarter-squat stance.",
+        "Rapidly alternate raising and slamming each arm to whip waves through the ropes.",
+        "Maintain maximum pace and control throughout the interval."
+      ],
+      "nl": [
+        "Pak in elke hand een touwuiteinde en neem een actieve kwart-squat houding aan.",
+        "Beweeg je armen om en om krachtig op en neer om golven door het touw te slaan.",
+        "Houd een hoog tempo en een strakke core vast gedurende het hele tijdsblok."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Brace your core tightly as if preparing for a punch."
+      ],
+      "nl": [
+        "Houd je borst op en blijf stabiel staan op je voeten.",
+        "Span je buikspieren hard aan om zwaaien in de onderrug te voorkomen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Battling_Ropes/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Battling_Ropes/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

@@ -1,9 +1,9 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:13:24.779019+00:00",
-  "total_exercises": 630,
-  "total_equipment_types": 25,
+  "last_updated_utc": "2026-09-09T14:35:24.133973+00:00",
+  "total_exercises": 649,
+  "total_equipment_types": 29,
   "available_materials": {
     "ab_wheel": {
       "name": {
@@ -65,6 +65,16 @@
         "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
       }
     },
+    "cable": {
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
     "cardio_equipment": {
       "name": {
         "en": "Cardio Equipment",
@@ -115,6 +125,16 @@
         "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
       }
     },
+    "foam_roller": {
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
     "jump_rope": {
       "name": {
         "en": "Jump Rope",
@@ -135,6 +155,16 @@
         "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
       }
     },
+    "machine": {
+      "name": {
+        "en": "Machine",
+        "nl": "Fitnessapparaat"
+      },
+      "description": {
+        "en": "Selectorized weight stack machines for guided and isolated movement paths",
+        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
+      }
+    },
     "medicine_ball": {
       "name": {
         "en": "Medicine Ball",
@@ -153,6 +183,16 @@
       "description": {
         "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
         "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "other": {
+      "name": {
+        "en": "Strongman Equipment / Stone",
+        "nl": "Strongman Materiaal / Steen"
+      },
+      "description": {
+        "en": "Heavy round stones and strongman loading implements",
+        "nl": "Zware ronde stenen en strongman-apparatuur"
       }
     },
     "parallettes": {
@@ -257,6 +297,7 @@
     }
   },
   "available_muscles": [
+    "adductors",
     "anterior_deltoid",
     "biceps_brachii",
     "brachialis",
@@ -265,6 +306,7 @@
     "deltoids",
     "erector_spinae",
     "forearms",
+    "glutes",
     "gluteus_maximus",
     "hamstrings",
     "iliopsoas",
@@ -404,6 +446,7 @@
     "Lower Body & Glutes",
     "MMA & Kickboxing",
     "MMA Conditioning",
+    "Mobility & Stretching",
     "Movement & Mobility",
     "Movement Technique",
     "Muay Thai Striking",

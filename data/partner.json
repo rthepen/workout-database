@@ -3515,5 +3515,87 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
     }
+  },
+  {
+    "id": "partner_adductor_groin_stretch",
+    "exercise_name": {
+      "en": "Partner Adductor/Groin Stretch",
+      "nl": "Partner Lies- en Adductorenstretch"
+    },
+    "aliases": [
+      "Adductor/Groin"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with your feet raised towards the ceiling.",
+        "Have your partner hold your feet or ankles. Abduct your legs as far as you can. This will be your starting position.",
+        "Attempt to squeeze your legs together for 10 or more seconds, while your partner prevents you from doing so.",
+        "Now, relax the muscles in your legs as your partner pushes your feet apart, stretching as far as is comfortable for you. Be sure to let your partner know when the stretch is adequate to prevent overstretching or injury."
+      ],
+      "nl": [
+        "Ga op je rug liggen met je voeten richting het plafond.",
+        "Laat je partner je enkels vasthouden en spreid je benen zover mogelijk.",
+        "Probeer je benen tegen de weerstand van je partner in 10 seconden naar elkaar toe te knijpen.",
+        "Ontspan daarna je beenspieren terwijl je partner de benen voorzichtig verder spreidt voor een diepe stretch."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Communicate clearly with your partner to avoid overextension.",
+        "Keep your pelvis stable against the floor."
+      ],
+      "nl": [
+        "Communiceer duidelijk met je partner om overstrekking te voorkomen.",
+        "Houd je bekken stabiel op de vloer."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor_Groin/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor_Groin/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
