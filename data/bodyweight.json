@@ -175,93 +175,6 @@
     }
   },
   {
-    "id": "bodyweight_plank_jacks",
-    "exercise_name": {
-      "en": "Plank Jacks",
-      "nl": "Plank Jacks"
-    },
-    "aliases": [
-      "Plank Jacks"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "In plank position (hands or elbows).",
-        "Jump with your feet wide and narrow again."
-      ],
-      "nl": [
-        "In plankpositie (handen of ellebogen).",
-        "Spring met de voeten wijd en weer smal."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "MK-EImppOTE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 6,
-          "channel": "Bootcamp Ideas",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "bodyweight_push_ups",
     "exercise_name": {
       "en": "Push Ups",
@@ -701,91 +614,6 @@
     }
   },
   {
-    "id": "bodyweight_sit_ups",
-    "exercise_name": {
-      "en": "Sit Ups",
-      "nl": "Sit Ups"
-    },
-    "aliases": [
-      "Sit Ups"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back, feet flat.",
-        "Raise your entire upper body to a sitting position."
-      ],
-      "nl": [
-        "Lig op rug, voeten plat.",
-        "Kom met het hele bovenlichaam omhoog tot zit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "qXpYgvQ6_m4",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "hk vitals"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "bodyweight_skaters",
     "exercise_name": {
       "en": "Skaters",
@@ -952,91 +780,6 @@
           "duration_seconds": 9,
           "channel": "Face-Off Fitness",
           "likes": 1056
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bodyweight_squat_jumps",
-    "exercise_name": {
-      "en": "Squat Jumps",
-      "nl": "Squat Jumps"
-    },
-    "aliases": [
-      "Squat Jumps"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Squat down and explode vertically into a maximal jump."
-      ],
-      "nl": [
-        "Maak een squat en spring explosief omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "61vpQ5_qdKY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 11,
-          "channel": "Bootcamp Ideas"
         }
       ]
     },
@@ -1486,89 +1229,6 @@
     }
   },
   {
-    "id": "bodyweight_walking_lunges",
-    "exercise_name": {
-      "en": "Walking Lunges",
-      "nl": "Walking Lunges"
-    },
-    "aliases": [
-      "Walking Lunges"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform walking lunges advancing forward across the floor."
-      ],
-      "nl": [
-        "Maak lunges terwijl je vooruit loopt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_back_extension"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "QO-9p-H4t0M",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 7,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "bodyweight_wide_push_ups",
     "exercise_name": {
       "en": "Wide Push Ups",
@@ -1743,93 +1403,6 @@
     }
   },
   {
-    "id": "bodyweight_pike_push_up",
-    "exercise_name": {
-      "en": "Pike Push Up",
-      "nl": "Pike Push Up"
-    },
-    "aliases": [
-      "Pike Push Up"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hands and feet on the ground, buttocks high in the air (V-shape).",
-        "Bend the arms and bring the head to the ground (shoulders)."
-      ],
-      "nl": [
-        "Handen en voeten op de grond, billen hoog in de lucht (V-vorm).",
-        "Buig de armen en breng het hoofd naar de grond (schouders)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "BETZLi4Pd2Q",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 24,
-          "channel": "Bootcamp Ideas",
-          "likes": 13
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "bodyweight_plank_clocks",
     "exercise_name": {
       "en": "Plank Clocks",
@@ -1908,94 +1481,6 @@
           "duration_seconds": 8,
           "channel": "Jordan Weber Fitness",
           "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bodyweight_plank_with_lateral_hand_tap",
-    "exercise_name": {
-      "en": "Plank with Lateral Hand Tap",
-      "nl": "Plank with Lateral Hand Tap"
-    },
-    "aliases": [
-      "Plank with Lateral Hand Tap"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High shelf.",
-        "Tap the ground with your left hand far to the left, back, then right.",
-        "Keep hips still."
-      ],
-      "nl": [
-        "Hoge plank.",
-        "Tik met de linkerhand ver naar links de grond aan, terug, dan rechts.",
-        "Heupen stil houden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "I6srvTN-1QE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 9,
-          "channel": "Bootcamp Ideas"
         }
       ]
     },
@@ -7906,6 +7391,526 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T12:33:01.746Z"
+    }
+  },
+  {
+    "id": "bodyweight_plank_jacks",
+    "exercise_name": {
+      "en": "Plank Jacks",
+      "nl": "Plank Jacks"
+    },
+    "aliases": [
+      "Plank Jacks"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "In plank position (hands or elbows).",
+        "Jump with your feet wide and narrow again."
+      ],
+      "nl": [
+        "In plankpositie (handen of ellebogen).",
+        "Spring met de voeten wijd en weer smal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "eN3Ovbv7reM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "JET Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:02:32.910Z"
+    }
+  },
+  {
+    "id": "bodyweight_sit_ups",
+    "exercise_name": {
+      "en": "Sit Ups",
+      "nl": "Sit Ups"
+    },
+    "aliases": [
+      "Sit Ups"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, feet flat.",
+        "Raise your entire upper body to a sitting position."
+      ],
+      "nl": [
+        "Lig op rug, voeten plat.",
+        "Kom met het hele bovenlichaam omhoog tot zit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "H8apFXZI500",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Amber Demo Video",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:02:32.910Z"
+    }
+  },
+  {
+    "id": "bodyweight_squat_jumps",
+    "exercise_name": {
+      "en": "Squat Jumps",
+      "nl": "Squat Jumps"
+    },
+    "aliases": [
+      "Squat Jumps"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Squat down and explode vertically into a maximal jump."
+      ],
+      "nl": [
+        "Maak een squat en spring explosief omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "36vnWAkL7ZQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Forty Steps",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:02:32.910Z"
+    }
+  },
+  {
+    "id": "bodyweight_walking_lunges",
+    "exercise_name": {
+      "en": "Walking Lunges",
+      "nl": "Walking Lunges"
+    },
+    "aliases": [
+      "Walking Lunges"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Perform walking lunges advancing forward across the floor."
+      ],
+      "nl": [
+        "Maak lunges terwijl je vooruit loopt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_back_extension"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "s2tC7WhZw2k",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Coach Marielle ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:02:32.910Z"
+    }
+  },
+  {
+    "id": "bodyweight_pike_push_up",
+    "exercise_name": {
+      "en": "Pike Push Up",
+      "nl": "Pike Push Up"
+    },
+    "aliases": [
+      "Pike Push Up"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Hands and feet on the ground, buttocks high in the air (V-shape).",
+        "Bend the arms and bring the head to the ground (shoulders)."
+      ],
+      "nl": [
+        "Handen en voeten op de grond, billen hoog in de lucht (V-vorm).",
+        "Buig de armen en breng het hoofd naar de grond (schouders)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xvOSkm3CGGk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Tim Thies",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:02:32.910Z"
+    }
+  },
+  {
+    "id": "bodyweight_plank_with_lateral_hand_tap",
+    "exercise_name": {
+      "en": "Plank with Lateral Hand Tap",
+      "nl": "Plank with Lateral Hand Tap"
+    },
+    "aliases": [
+      "Plank with Lateral Hand Tap"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "High shelf.",
+        "Tap the ground with your left hand far to the left, back, then right.",
+        "Keep hips still."
+      ],
+      "nl": [
+        "Hoge plank.",
+        "Tik met de linkerhand ver naar links de grond aan, terug, dan rechts.",
+        "Heupen stil houden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "I6srvTN-1QE",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "16:9",
+          "duration_seconds": 9,
+          "channel": "Bootcamp Ideas"
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:02:32.910Z"
     }
   }
 ]
