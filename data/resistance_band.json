@@ -2002,5 +2002,256 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_hamstring_stretch_band",
+    "exercise_name": {
+      "en": "Hamstring Stretch with Band",
+      "nl": "Liggende Hamstringstretch met Band"
+    },
+    "aliases": [
+      "Hamstring Stretch",
+      "Hamstring_Stretch"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Strap / Band",
+        "nl": "Band / Riem"
+      },
+      "description": {
+        "en": "Strap, belt, or band looped around foot for assisted hamstring stretching",
+        "nl": "Band of riem om de voet voor geassisteerde hamstringstretch"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with one leg extended flat on the floor.",
+        "Loop a band or belt over the ball of your opposite foot and raise that leg vertically toward the ceiling.",
+        "Gently pull the band to create tension in your hamstrings and calves, holding for 15-30 seconds before switching legs."
+      ],
+      "nl": [
+        "Ga op je rug liggen met één been plat op de grond.",
+        "Haak een band of riem om de bal van je andere voet en strek dat been omhoog naar het plafond.",
+        "Trek rustig aan de band om rek te voelen in je hamstring en kuit, houd 15-30 seconden vast en wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your pelvis and lower back flat against the floor.",
+        "Maintain a straight leg without locking or hyperextending the knee."
+      ],
+      "nl": [
+        "Houd je bekken en onderrug plat op de vloer.",
+        "Houd je been nagenoeg gestrekt zonder de knie overdreven op slot te zetten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hamstring_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hamstring_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bands_hip_extension_with_bands",
+    "exercise_name": {
+      "en": "Hip Extension with Bands",
+      "nl": "Band Hip Extension"
+    },
+    "aliases": [
+      "Hip Extension with Bands",
+      "Hip_Extension_with_Bands"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Anchor a band low to a post and attach the other end around your ankle, facing the attachment point.",
+        "Hold the post for balance with torso upright.",
+        "Keeping working leg straight, kick it directly backward against band resistance.",
+        "Squeeze the glute hard at peak extension, then return under control."
+      ],
+      "nl": [
+        "Bevestig een weerstandsband laag aan een paal en doe het andere uiteinde om je enkel terwijl je naar de paal kijkt.",
+        "Houd de paal vast voor balans en sta rechtop.",
+        "Trap je been met gestrekte knie recht naar achteren tegen de weerstand van de band in.",
+        "Knijp je bilspier stevig samen bovenin en laat het been rustig terugkeren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Avoid arching the lumbar spine; isolate extension strictly in the glute.",
+        "Keep hips square to the post throughout."
+      ],
+      "nl": [
+        "Trek je onderrug niet hol; beweeg puur vanuit je heupgewricht en bilspier.",
+        "Houd je heupen recht naar voren gericht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Extension_with_Bands/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Extension_with_Bands/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bands_hip_flexion_with_band",
+    "exercise_name": {
+      "en": "Hip Flexion with Band",
+      "nl": "Band Hip Flexion"
+    },
+    "aliases": [
+      "Hip Flexion with Band",
+      "Hip_Flexion_with_Band"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Anchor a band low to a post and attach to one ankle, facing away from the anchor point.",
+        "Stand tall and drive the resisted knee upward toward your chest to 90 degrees.",
+        "Pause at peak hip flexion, then lower foot back to the starting stance."
+      ],
+      "nl": [
+        "Bevestig de band laag aan een paal en om je enkel terwijl je met je rug naar de paal staat.",
+        "Sta rechtop en hef je knie krachtig omhoog richting je borst tot een hoek van 90 graden.",
+        "Pauzeer kort bovenin en laat je voet rustig weer zakken naar de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upright torso posture without leaning backward as knee drives high.",
+        "Brace standing leg glute for stability."
+      ],
+      "nl": [
+        "Blijf rechtop staan en leun niet naar achteren wanneer je knie omhoog komt.",
+        "Span de bilspier van je standbeen aan voor optimale balans."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Flexion_with_Band/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Flexion_with_Band/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

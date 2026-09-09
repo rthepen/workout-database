@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:57:39.128344+00:00",
-  "total_exercises": 790,
+  "last_updated_utc": "2026-09-09T14:58:33.711859+00:00",
+  "total_exercises": 806,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -27,12 +27,12 @@
     },
     "barbell": {
       "name": {
-        "en": "Barbell & Rack",
-        "nl": "Halterstang & Power Rack"
+        "en": "Barbell",
+        "nl": "Halterstang"
       },
       "description": {
-        "en": "Barbell supported on safety rack pins at stomach height for dead-stop hip hinging",
-        "nl": "Halterstang op veiligheidspennen voor hip hinge vanuit stilstand"
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
       }
     },
     "battle_rope": {
@@ -207,12 +207,12 @@
     },
     "other": {
       "name": {
-        "en": "Weight Sled / Prowler",
-        "nl": "Gewichtsslee / Prowler"
+        "en": "Heavy Punching Bag",
+        "nl": "Bokszak"
       },
       "description": {
-        "en": "Heavy turf sled with attached straps and handles",
-        "nl": "Zware slee met banden en handvatten voor trek- en duwwerk"
+        "en": "Hanging heavy bag used for explosive pushing and striking drills",
+        "nl": "Hangende bokszak voor stoot- en duwtraining"
       }
     },
     "parallettes": {

@@ -240,5 +240,85 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "foam_roller_hamstring_smr",
+    "exercise_name": {
+      "en": "Hamstring Foam Roll",
+      "nl": "Hamstring Foam Roll"
+    },
+    "aliases": [
+      "Hamstring-SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with a foam roller placed under the back of your thighs, hands supporting weight behind you.",
+        "Lift hips off the floor and shift weight onto one leg, relaxing the working hamstring.",
+        "Roll slowly between your glutes and the back of your knee, pausing on points of tension for 10-30 seconds."
+      ],
+      "nl": [
+        "Ga op de grond zitten met de foamroller onder de achterkant van je bovenbenen en steun op je handen achter je.",
+        "Til je heupen van de vloer, verplaats je gewicht naar één been en ontspan die hamstring.",
+        "Rol langzaam tussen je bil en je knieholte en houd gevoelige plekken 10-30 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Relax the targeted leg muscles completely to allow deep tissue compression.",
+        "Do not roll directly over the back of the knee joint."
+      ],
+      "nl": [
+        "Ontspan het been dat je rolt volledig om de druk goed door te laten dringen.",
+        "Rol niet rechtstreeks over je knieholte."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hamstring-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hamstring-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

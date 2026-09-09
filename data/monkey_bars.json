@@ -2036,5 +2036,175 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "monkey_bars_gorilla_chin_crunch",
+    "exercise_name": {
+      "en": "Gorilla Chin/Crunch",
+      "nl": "Gorilla Chin/Crunch"
+    },
+    "aliases": [
+      "Gorilla Chin/Crunch",
+      "Gorilla_Chin_Crunch"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "latissimus_dorsi"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang from a chin-up bar using an underhand grip slightly wider than shoulder width.",
+        "Bend your knees to a 90-degree angle with calves parallel to the floor.",
+        "Pull yourself up while simultaneously crunching your knees upward until nose reaches bar height and knees reach chest level.",
+        "Slowly lower under control back to the starting hanging position."
+      ],
+      "nl": [
+        "Hang aan een optrekstang met een onderhandse greep iets breder dan schouderbreedte.",
+        "Buig je knieën in een hoek van 90 graden met je onderbenen parallel aan de vloer.",
+        "Trek jezelf omhoog terwijl je tegelijkertijd je knieën naar je borst cruncht tot je neus bij de stang is.",
+        "Laat je rustig en gecontroleerd weer zakken naar de startpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Synchronize the chin-up pull with the abdominal knee crunch.",
+        "Avoid swinging or using kipping momentum."
+      ],
+      "nl": [
+        "Trek tegelijkertijd met je armen en knieën omhoog in één vloeiende beweging.",
+        "Voorkom zwaaien met je lichaam."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "monkey_bars_hanging_pike",
+    "exercise_name": {
+      "en": "Hanging Pike (Toes to Bar)",
+      "nl": "Hanging Pike (Toes to Bar)"
+    },
+    "aliases": [
+      "Hanging Pike",
+      "Hanging_Pike"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "forearms",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang from an overhead pull-up bar with feet together and arms fully extended.",
+        "Contract abdominals to pull straight legs upward in a pike until your toes or shins touch the bar overhead.",
+        "Slowly lower legs back down under control without swinging."
+      ],
+      "nl": [
+        "Hang met gestrekte armen aan een optrekstang met je voeten bij elkaar.",
+        "Trek je benen gestrekt omhoog in een hoek (pike) tot je tenen of schenen de stang aantikken.",
+        "Laat je benen langzaam en gecontroleerd weer zakken zonder te zwaaien."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Avoid using swing or kip momentum; lift with abdominal control."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Beweeg puur vanuit je core en zwaai niet met je benen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Pike/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Pike/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

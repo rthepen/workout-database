@@ -11110,5 +11110,261 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_groin_and_back_stretch",
+    "exercise_name": {
+      "en": "Groin and Back Stretch",
+      "nl": "Lies- en Rugstretch"
+    },
+    "aliases": [
+      "Groin and Back Stretch",
+      "Groin_and_Back_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors"
+      ],
+      "secondary": [
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with knees bent out to the sides and soles of feet pressed together.",
+        "Interlock your fingers behind your head with elbows flared.",
+        "Curl downward, gently guiding your elbows toward the inside of your thighs.",
+        "Pause to feel the stretch in your groin and back, then return upright."
+      ],
+      "nl": [
+        "Zit op de grond met je knieën naar buiten gebogen en je voetzolen tegen elkaar.",
+        "Plaats je vingers ineengestrengeld achter je hoofd met de ellebogen wijd.",
+        "Rol je bovenlichaam naar voren en breng je ellebogen naar de binnenkant van je bovenbenen.",
+        "Houd de rek in je lies en rug even vast en kom weer rustig rechtop zitten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Ease gently into spinal flexion without pulling forcefully on the neck.",
+        "Breathe deeply to relax the inner thighs."
+      ],
+      "nl": [
+        "Buig rustig naar voren en trek niet met kracht aan je nek.",
+        "Adem diep in en uit om de spanning in de liezen los te laten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groin_and_Back_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groin_and_Back_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_groiners",
+    "exercise_name": {
+      "en": "Groiners",
+      "nl": "Groiners"
+    },
+    "aliases": [
+      "Groiners"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Begin in a high push-up plank position on hands and toes.",
+        "Jump forward with both feet, landing them wide outside your hands while keeping head up.",
+        "Immediately jump feet back to the plank position and repeat dynamically."
+      ],
+      "nl": [
+        "Begin in een hoge plankpositie op je handen en tenen.",
+        "Spring met beide voeten tegelijk naar voren zodat ze wijd naast je handen landen.",
+        "Spring direct weer terug naar de plankpositie en herhaal in een vlot tempo."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep hands planted firmly and chest lifted when feet land wide.",
+        "Land lightly on the balls of your feet."
+      ],
+      "nl": [
+        "Houd je handen plat op de grond en kijk naar voren bij de landing.",
+        "Land veerkrachtig op de bal van je voeten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groiners/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groiners/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_hip_circles_prone",
+    "exercise_name": {
+      "en": "Hip Circles (Prone / Quadruped)",
+      "nl": "Heupcirkels op Handen en Knieën"
+    },
+    "aliases": [
+      "Hip Circles (prone)",
+      "Hip_Circles_prone"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "abductors"
+      ],
+      "secondary": [
+        "adductors",
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Position yourself on hands and knees with wrists under shoulders and knees under hips.",
+        "Lift one bent knee off the ground.",
+        "Trace large, smooth circular arcs with your knee, moving through hip flexion, abduction, and extension.",
+        "Complete target reps in both directions, then switch legs."
+      ],
+      "nl": [
+        "Ga op handen en knieën zitten met je polsen onder je schouders en knieën onder je heupen.",
+        "Til één gebogen knie los van de grond.",
+        "Draai grote, soepele cirkels met je knie door je heup te buigen, zijwaarts te openen en naar achteren te strekken.",
+        "Draai beide kanten op en herhaal met het andere been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your pelvis and spine level; do not tilt torso to cheat range of motion.",
+        "Maintain arms straight and shoulders pressed away from ears."
+      ],
+      "nl": [
+        "Houd je bekken en rug horizontaal; kantel niet scheef om hoogte te forceren.",
+        "Houd je armen gestrekt en duw jezelf stevig weg van de vloer."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Circles_prone/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Circles_prone/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

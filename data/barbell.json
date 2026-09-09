@@ -5616,5 +5616,453 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_hang_clean",
+    "exercise_name": {
+      "en": "Hang Clean",
+      "nl": "Hang Clean"
+    },
+    "aliases": [
+      "Hang Clean",
+      "Hang_Clean"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "erector_spinae",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding a barbell at mid-thigh with a shoulder-width hook grip and back straight.",
+        "Aggressively extend hips, knees, and ankles upward while shrugging shoulders.",
+        "Pull under the bar, rotating elbows quickly forward to rack the barbell on front shoulders in a squat, then stand tall."
+      ],
+      "nl": [
+        "Sta rechtop met de stang halverwege je bovenbenen vast met een schouderbrede greep en rechte rug.",
+        "Strek je heupen, knieën en enkels explosief uit en trek je schouders krachtig op.",
+        "Duik onder de stang, draai je ellebogen snel naar voren en vang de stang op je schouders in een squat, kom daarna rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the barbell close to your thighs during the extension.",
+        "Snap elbows forward fast into a solid front rack."
+      ],
+      "nl": [
+        "Houd de stang dicht langs je bovenbenen tijdens de heupstrekking.",
+        "Draai je ellebogen razendsnel naar voren en omhoog bij het opvangen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Clean/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Clean/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_hang_clean_below_knees",
+    "exercise_name": {
+      "en": "Hang Clean - Below the Knees",
+      "nl": "Hang Clean onder Knieën"
+    },
+    "aliases": [
+      "Hang Clean - Below the Knees",
+      "Hang_Clean_-_Below_the_Knees"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "erector_spinae",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hinge at the hips to lower the barbell just below your knees with back straight and chest up.",
+        "Explosively extend through legs and hips, driving the weight upward with an aggressive shrug.",
+        "Pull your body rapidly down under the bar, catching it on your shoulders in a front squat, then recover to standing."
+      ],
+      "nl": [
+        "Buig voorover tot de stang net onder je knieën hangt met een rechte rug en borst op.",
+        "Strek explosief uit vanuit je benen en heupen en trek je schouders krachtig op.",
+        "Trek jezelf snel onder de stang, vang hem op je schouders op in een squat en kom rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain back angle until the bar passes knees.",
+        "Keep your chest lifted and push through the midfoot and heel."
+      ],
+      "nl": [
+        "Houd je rughoek vast tot de stang voorbij je knieën komt.",
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Clean_-_Below_the_Knees/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Clean_-_Below_the_Knees/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_hang_snatch",
+    "exercise_name": {
+      "en": "Hang Snatch",
+      "nl": "Hang Snatch"
+    },
+    "aliases": [
+      "Hang Snatch",
+      "Hang_Snatch"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "calves",
+        "forearms",
+        "glutes",
+        "erector_spinae",
+        "quadriceps",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand holding barbell at your hips with a wide snatch grip and feet hip-width apart.",
+        "Dip slightly and aggressively extend legs and hips, shrugging shoulders and guiding elbows high.",
+        "Pull under the bar, catching it overhead with locked arms in an overhead squat, then stand tall."
+      ],
+      "nl": [
+        "Sta rechtop met de halterstang bij je heupen met een brede snatch-greep.",
+        "Maak een korte dip en strek explosief uit vanuit je heupen en benen met je ellebogen hoog.",
+        "Duik onder de stang en vang hem met gestrekte armen boven je hoofd op in een squat, kom daarna rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the barbell trajectory close to your abdomen and chest.",
+        "Lock out overhead aggressively before recovering to standing."
+      ],
+      "nl": [
+        "Houd de stang dicht langs je lichaam tijdens het omhoog trekken.",
+        "Zet je armen direct muurvast op slot boven je hoofd bij het opvangen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Snatch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Snatch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_hang_snatch_below_knees",
+    "exercise_name": {
+      "en": "Hang Snatch - Below Knees",
+      "nl": "Hang Snatch onder Knieën"
+    },
+    "aliases": [
+      "Hang Snatch - Below Knees",
+      "Hang_Snatch_-_Below_Knees"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "calves",
+        "forearms",
+        "glutes",
+        "erector_spinae",
+        "quadriceps",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hinge at the hips holding barbell with a wide grip until the bar is just below your knees.",
+        "Extend violently through your legs and hips, accelerating the bar vertically.",
+        "Pull under the bar, locking it out overhead in a full deep overhead squat, then recover upward to standing."
+      ],
+      "nl": [
+        "Buig voorover met een brede greep tot de stang net onder je knieën hangt met een rechte rug.",
+        "Strek explosief uit vanuit je benen en heupen en versnel de stang omhoog.",
+        "Trek jezelf onder de stang en vang hem met gestrekte armen op in een diepe overhead squat, kom daarna rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain back extension until bar crosses knees into the hip pocket.",
+        "Keep your chest lifted and push through the midfoot and heel."
+      ],
+      "nl": [
+        "Houd je rug strak en recht tot de stang voorbij je knieën naar je heupen reist.",
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Snatch_-_Below_Knees/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hang_Snatch_-_Below_Knees/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_heaving_snatch_balance",
+    "exercise_name": {
+      "en": "Heaving Snatch Balance",
+      "nl": "Heaving Snatch Balance"
+    },
+    "aliases": [
+      "Heaving Snatch Balance",
+      "Heaving_Snatch_Balance"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold barbell across your rear shoulders with a wide snatch grip in your squat stance.",
+        "Dip at the knees and pop upward slightly to unload the bar.",
+        "Drive yourself rapidly underneath the bar into a full overhead squat with arms locked overhead.",
+        "Stand up fully from the overhead squat to finish the lift."
+      ],
+      "nl": [
+        "Houd de halterstang op je schouders achter in je nek met een brede snatch-greep in je squathouding.",
+        "Maak een korte dip door je knieën en veer op om de stang even gewichtloos te maken.",
+        "Duik snel onder de stang tot een diepe overhead squat met gestrekte armen boven je hoofd.",
+        "Kom volledig rechtop staan vanuit de overhead squat."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lock elbows aggressively overhead at the same instant hips hit the bottom squat.",
+        "Keep your chest lifted and push through the midfoot and heel."
+      ],
+      "nl": [
+        "Zet je armen direct op slot zodra je heupen de diepste squatpositie bereiken.",
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heaving_Snatch_Balance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heaving_Snatch_Balance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

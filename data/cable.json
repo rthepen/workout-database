@@ -2091,5 +2091,86 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "cable_high_cable_curls",
+    "exercise_name": {
+      "en": "High Cable Curls",
+      "nl": "High Cable Curls (Biceps Crossover)"
+    },
+    "aliases": [
+      "High Cable Curls",
+      "High_Cable_Curls"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand centered between high pulleys holding a handle in each hand with upper arms parallel to the floor.",
+        "Curl handles inward toward your ears while keeping upper arms strictly horizontal.",
+        "Squeeze biceps hard at peak contraction for one second, then slowly extend arms back out."
+      ],
+      "nl": [
+        "Ga tussen twee hoge katrollen staan en houd in elke hand een handvat met je bovenarmen horizontaal.",
+        "Curl de handvatten naar je oren toe terwijl je bovenarmen op schouderhoogte stil blijven staan.",
+        "Knijp je biceps bovenin hard samen en laat je armen gecontroleerd weer zijwaarts strekken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows pointing directly out to sides at shoulder height.",
+        "Avoid pulling elbows forward during the curl."
+      ],
+      "nl": [
+        "Houd je ellebogen op schouderhoogte en laat ze niet zakken.",
+        "Beweeg uitsluitend vanuit je onderarmen zonder je ellebogen naar voren te trekken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/High_Cable_Curls/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/High_Cable_Curls/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
