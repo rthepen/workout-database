@@ -319,7 +319,7 @@ export function buildYouTubeExerciseSearchQuery(exercise: {
     }
   }
 
-  return `${query} workout exercise form short`.trim();
+  return query.trim();
 }
 
 /**
