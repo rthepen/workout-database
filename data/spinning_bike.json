@@ -94,1910 +94,6 @@
     }
   },
   {
-    "id": "spinning_bike_calf_pumps",
-    "exercise_name": {
-      "en": "Calf Pumps",
-      "nl": "Calf Pumps"
-    },
-    "aliases": [
-      "Calf Pumps"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Calves & Foot Technique",
-      "nl": "Techniek / Kuiten"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Focus on smooth ankle dorsiflexion and plantarflexion throughout the pedal stroke.",
-        "Point toes down slightly on the push stroke and pull up through the heel on the recovery."
-      ],
-      "nl": [
-        "Tijdens het fietsen focus je extreem op de enkels.",
-        "Wijs met je tenen naar beneden bij de neerwaartse slag en trek je hiel ver omhoog bij de opwaartse slag."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_climb_hand_switch",
-    "exercise_name": {
-      "en": "Climb Hand Switch",
-      "nl": "Climb Hand Switch"
-    },
-    "aliases": [
-      "Climb Hand Switch"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Coordination",
-      "nl": "Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Every 4 counts, switch your hands from Position 3 (ends) to Position 2 (middle) and back, without losing your rhythm in the legs."
-      ],
-      "nl": [
-        "wissel elke 4 tellen je handen van Positie 3 (uiteinden) naar Positie 2 (midden) en terug, zonder je ritme in de benen te verliezen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_double_time",
-    "exercise_name": {
-      "en": "Double Time",
-      "nl": "Double Time"
-    },
-    "aliases": [
-      "Double Time"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Speed & Sprinting",
-      "nl": "Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Double your leg cadence while slightly reducing resistance."
-      ],
-      "nl": [
-        "verdubbel je tempo (ga twee keer zo snel met je benen) terwijl je de weerstand iets laat zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_endurance_steady_state",
-    "exercise_name": {
-      "en": "Endurance Steady State",
-      "nl": "Endurance Steady State"
-    },
-    "aliases": [
-      "Endurance Steady State"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Endurance Cardio",
-      "nl": "Cardio / Duur"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Find a resistance where your breathing is faster, but you can still talk.",
-        "Maintain this pace and resistance consistently for 5 to 10 minutes without weakening."
-      ],
-      "nl": [
-        "Zoek een weerstand waarbij je ademhaling versneld is, maar je nog wel kunt praten.",
-        "Houd dit tempo en deze weerstand 5 tot 10 minuten constant vast zonder te verzwakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_figure_eights",
-    "exercise_name": {
-      "en": "Figure Eights (Core)",
-      "nl": "Figure Eights (Core)"
-    },
-    "aliases": [
-      "Core",
-      "Figure Eights",
-      "Figure Eights Core"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Sitting or standing.",
-        "Trace subtle figure-8 motions with your upper body while maintaining cadence on the bike.",
-        "This helps to loosen and train the oblique abdominal muscles and lower back."
-      ],
-      "nl": [
-        "Zittend of staand.",
-        "Maak met je bovenlichaam kleine 'achtjes' of cirkels terwijl je fietst.",
-        "Dit helpt om de schuine buikspieren en onderrug los te maken en te trainen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_handlebar_pushups",
-    "exercise_name": {
-      "en": "Handlebar Push-ups",
-      "nl": "Handlebar Push-ups"
-    },
-    "aliases": [
-      "Handlebar Push-ups"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body Strength",
-      "nl": "Kracht / Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "This is an advanced rhythm cycling coordination drill."
-      ],
-      "nl": [
-        "dit is een geavanceerde 'Rhythm Ride' oefening."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_heavy_climb_low_rpm",
-    "exercise_name": {
-      "en": "Heavy Grind (60 RPM)",
-      "nl": "Heavy Grind (60 RPM)"
-    },
-    "aliases": [
-      "60 RPM",
-      "Heavy Grind",
-      "Heavy Grind 60 RPM"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Strength",
-      "nl": "Kracht"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Turn the resistance very hard.",
-        "Pedal at a steady low cadence against heavy resistance (approx. 60 RPM).",
-        "Focus on strength from the legs, push and pull.",
-        "Keep your upper body still and relaxed.",
-        "Sitting or standing."
-      ],
-      "nl": [
-        "Draai de weerstand erg zwaar.",
-        "Trap in een langzaam ritme (60 RPM).",
-        "Focus op kracht vanuit de benen, duw en trek.",
-        "Bovenlichaam blijft stil en ontspannen.",
-        "Zittend of staand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_high_cadence_spin",
-    "exercise_name": {
-      "en": "High Cadence Spin (100-110 RPM)",
-      "nl": "High Cadence Spin (100-110 RPM)"
-    },
-    "aliases": [
-      "100-110 RPM",
-      "High Cadence Spin",
-      "High Cadence Spin 100-110 RPM"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Speed & Cardio",
-      "nl": "Snelheid / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Reduce the resistance (but maintain contact with the flywheel).",
-        "Increase pedal speed to 100-110 RPM.",
-        "Keep the hips still in the saddle, do not bounce."
-      ],
-      "nl": [
-        "Verlaag de weerstand (maar houd wel contact met het vliegwiel).",
-        "Verhoog de trapsnelheid tot 100-110 RPM.",
-        "Houd de heupen stil in het zadel, ga niet stuiteren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_isolation_upper_body",
-    "exercise_name": {
-      "en": "Upper Body Freeze",
-      "nl": "Upper Body Freeze"
-    },
-    "aliases": [
-      "Upper Body Freeze"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Core Technique",
-      "nl": "Core / Techniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Focus on keeping your upper body completely still while pedaling.",
-        "Only the legs move.",
-        "Shoulders relaxed, elbows slightly bent."
-      ],
-      "nl": [
-        "focus op het volledig stilhouden van het bovenlichaam.",
-        "Alleen de benen bewegen.",
-        "Schouders ontspannen, ellebogen licht gebogen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_jumps_4_counts",
-    "exercise_name": {
-      "en": "Jumps (4 Tellen)",
-      "nl": "Jumps (4 Tellen)"
-    },
-    "aliases": [
-      "4 Tellen",
-      "Jumps",
-      "Jumps 4 Tellen"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Rhythmic Cardio",
-      "nl": "Cardio / Rhythmic"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Stand for 4 seconds, sit for 4 seconds.",
-        "Keep hands in position 2 or 3.",
-        "Focus on a smooth transition; use your abdominal muscles to absorb the shock.",
-        "Do not collapse or drop heavily into the bike saddle."
-      ],
-      "nl": [
-        "4 tellen staan, 4 tellen zitten.",
-        "Houd de handen in positie 2 of 3.",
-        "Focus op een soepele overgang; gebruik je buikspieren om de schok op te vangen.",
-        "Niet 'ploffen' in het zadel."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_jumps_8_counts",
-    "exercise_name": {
-      "en": "Jumps (8 Tellen)",
-      "nl": "Jumps (8 Tellen)"
-    },
-    "aliases": [
-      "8 Tellen",
-      "Jumps",
-      "Jumps 8 Tellen"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Rhythmic Cardio",
-      "nl": "Cardio / Rhythmic"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Stand for 8 seconds, sit for 8 seconds.",
-        "This is a calmer version of the jumps, intended to build control and strength.",
-        "Provide sufficient resistance to maintain stability."
-      ],
-      "nl": [
-        "8 tellen staan, 8 tellen zitten.",
-        "Dit is een rustigere variant van de jumps, bedoeld om controle en kracht op te bouwen.",
-        "Zorg voor voldoende weerstand om stabiliteit te behouden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_power_bursts",
-    "exercise_name": {
-      "en": "Power Bursts (10 sec)",
-      "nl": "Power Bursts (10 sec)"
-    },
-    "aliases": [
-      "10 sec",
-      "Power Bursts",
-      "Power Bursts 10 sec"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Strength & Power",
-      "nl": "Kracht / Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "From a tough climb (low RPM), get up and give everything you have for 10 seconds to get the pedals around faster against the heavy resistance.",
-        "Then sit down immediately."
-      ],
-      "nl": [
-        "Vanuit een zware klim (lage RPM), sta op en geef 10 seconden alles wat je hebt om de pedalen sneller rond te krijgen tegen de zware weerstand in.",
-        "Ga daarna direct zitten."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_pyramid_climb",
-    "exercise_name": {
-      "en": "Pyramid Climb",
-      "nl": "Pyramid Climb"
-    },
-    "aliases": [
-      "Pyramid Climb"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Strength",
-      "nl": "Kracht"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "The heavier, the slower."
-      ],
-      "nl": [
-        "hoe zwaarder, hoe trager."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_reverse_pedal",
-    "exercise_name": {
-      "en": "Reverse Pedal (Achteruit)",
-      "nl": "Reverse Pedal (Achteruit)"
-    },
-    "aliases": [
-      "Achteruit",
-      "Reverse Pedal",
-      "Reverse Pedal Achteruit"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Coordination",
-      "nl": "Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Do not perform this on fixed-gear flywheels at high speed!"
-      ],
-      "nl": [
-        "werkt niet op doortrappers (fixed gear) met hoge snelheid!"
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_rolling_hills",
-    "exercise_name": {
-      "en": "Rolling Hills",
-      "nl": "Rolling Hills"
-    },
-    "aliases": [
-      "Rolling Hills"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Simulates climbing steep outdoor uphill terrain.",
-        "Alternate between 1 minute of seated climbing (heavier) and 1 minute of flat road (faster, lighter).",
-        "Repeat this process for 6-10 minutes."
-      ],
-      "nl": [
-        "Simulatie van heuvelachtig terrein.",
-        "Wissel af tussen 1 minuut zittend klimmen (zwaarder) en 1 minuut vlakke weg (sneller, lichter).",
-        "Herhaal dit traject gedurende 6-10 minuten."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_side_to_side",
-    "exercise_name": {
-      "en": "Side to Side",
-      "nl": "Side to Side"
-    },
-    "aliases": [
-      "Side to Side"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Rhythmic Training",
-      "nl": "Ritmisch"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Start in a standing position.",
-        "Shift your bodyweight rhythmically from side-to-side in sync with the beat.",
-        "Keep your hips above the pedals, do not hang too far over the handlebars."
-      ],
-      "nl": [
-        "Staande positie.",
-        "Verplaats je lichaamsgewicht ritmisch van links naar rechts op de maat van de muziek.",
-        "Houd de heupen wel boven de pedalen, hang niet te ver over het stuur."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_single_leg_drill_left",
-    "exercise_name": {
-      "en": "Single Leg Drill (Links)",
-      "nl": "Single Leg Drill (Links)"
-    },
-    "aliases": [
-      "Links",
-      "Single Leg Drill",
-      "Single Leg Drill Links"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Movement Technique",
-      "nl": "Techniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Unclip your right foot (or place it on the axle).",
-        "Cycle with your left leg only.",
-        "Focus on pulling up on the pedal (hamstring activation).",
-        "Maintain smooth rowing tension to prevent slack or clunking in the drive chain."
-      ],
-      "nl": [
-        "Klik je rechtervoet los (of zet hem op de as).",
-        "Fiets alleen met je linkerbeen.",
-        "Focus op het optrekken van de pedaal (hamstring activatie).",
-        "Voorkom 'klunk' geluiden in de ketting."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_single_leg_drill_right",
-    "exercise_name": {
-      "en": "Single Leg Drill (Rechts)",
-      "nl": "Single Leg Drill (Rechts)"
-    },
-    "aliases": [
-      "Rechts",
-      "Single Leg Drill",
-      "Single Leg Drill Rechts"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Movement Technique",
-      "nl": "Techniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Pushing, scraping, pulling and pushing past dead center.",
-        "30-60 seconds."
-      ],
-      "nl": [
-        "duwen, schrapen, trekken en over het dode punt heen duwen.",
-        "30-60 seconden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_snake_move",
-    "exercise_name": {
-      "en": "Snake Move",
-      "nl": "Snake Move"
-    },
-    "aliases": [
-      "Snake Move"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Rhythmic Training",
-      "nl": "Ritmisch"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Bend your arms and bring your chest low to the handlebars, then come back up in a wavy motion (head first, then chest).",
-        "Push-up variation incorporating a rotational roll across the platform."
-      ],
-      "nl": [
-        "Buig je armen en breng je borst laag naar het stuur, kom daarna met een golvende beweging (eerst hoofd, dan borst) weer omhoog.",
-        "Push-up variant met een 'rol'."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_sprint_on_command",
-    "exercise_name": {
-      "en": "Sprint op Commando",
-      "nl": "Sprint op Commando"
-    },
-    "aliases": [
-      "Sprint op Commando"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Reaction & Speed",
-      "nl": "Reactie / Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Cycle calmly.",
-        "When prompted, perform a 15-second all-out sprint interval.",
-        "Then immediately pedal slowly again.",
-        "Repeat continuously in a reactive or random sequence."
-      ],
-      "nl": [
-        "Fiets rustig.",
-        "Zodra de instructeur (of muziek drop) aangeeft, ga je 15 seconden 'all-out'.",
-        "Daarna direct weer rustig trappen.",
-        "Herhaal willekeurig."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_stop_and_go",
-    "exercise_name": {
-      "en": "Stop & Go (Dead Stop)",
-      "nl": "Stop & Go (Dead Stop)"
-    },
-    "aliases": [
-      "Dead Stop",
-      "Stop & Go",
-      "Stop & Go Dead Stop"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Strength",
-      "nl": "Kracht"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Set the resistance extremely high.",
-        "Bring the pedals to a complete, controlled stop.",
-        "Start from a standstill as forcefully as possible to get the flywheel moving again.",
-        "Do this 5 times in a row."
-      ],
-      "nl": [
-        "Zet de weerstand extreem hoog.",
-        "Stop de pedalen volledig (stilstand).",
-        "Start vanuit stilstand zo krachtig mogelijk om het vliegwiel weer op gang te brengen.",
-        "Doe dit 5x achter elkaar."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_stretch_on_bike",
-    "exercise_name": {
-      "en": "On-Bike Stretch",
-      "nl": "On-Bike Stretch"
-    },
-    "aliases": [
-      "On-Bike Stretch"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Cool-Down & Recovery",
-      "nl": "Cooling Down"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "1.",
-        "Heel on the handlebars (Hamstring).",
-        "2.",
-        "Rest your ankle over the opposite knee to target glutes and piriformis.",
-        "3.",
-        "Hands behind the back (chest).",
-        "Do everything carefully and steadily."
-      ],
-      "nl": [
-        "1.",
-        "Hak op het stuur (Hamstring).",
-        "2.",
-        "Enkel op de knie (Glutes/Piriformis).",
-        "3.",
-        "Handen achter de rug (Borst).",
-        "Doe alles voorzichtig en stabiel."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_tabata_sprints",
-    "exercise_name": {
-      "en": "Tabata Protocol (20/10)",
-      "nl": "Tabata Protocol (20/10)"
-    },
-    "aliases": [
-      "20/10",
-      "Tabata Protocol",
-      "Tabata Protocol 20/10"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "High Intensity Interval Training",
-      "nl": "HIIT"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "20 seconds of maximum effort (sprint), followed by 10 seconds of complete rest.",
-        "Repeat this 8 times (total 4 minutes).",
-        "Apply sufficient flywheel resistance during the sprint to avoid bouncing in the saddle."
-      ],
-      "nl": [
-        "20 seconden maximale inspanning (sprint), gevolgd door 10 seconden complete rust.",
-        "Herhaal dit 8 keer (totaal 4 minuten).",
-        "Zorg voor hoge weerstand tijdens de sprint om stuiteren te voorkomen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
-    "id": "spinning_bike_tap_backs",
-    "exercise_name": {
-      "en": "Tap Backs",
-      "nl": "Tap Backs"
-    },
-    "aliases": [
-      "Tap Backs"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Glutes",
-      "nl": "Cardio / Glutes"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Position 3 (standing climb out of the saddle).",
-        "Bring your hips back (above the saddle) and back to the neutral standing position in a rhythmic movement.",
-        "The arms extend as the hips move back.",
-        "Core tightening."
-      ],
-      "nl": [
-        "Positie 3 (staand).",
-        "Breng je heupen in een ritmische beweging naar achteren (boven het zadel) en weer terug naar de neutrale staande positie.",
-        "De armen strekken zich uit wanneer de heupen naar achteren gaan.",
-        "Core aanspannen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
     "id": "spinning_bike_hover",
     "exercise_name": {
       "en": "De Hover",
@@ -2175,6 +271,1910 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "spinning_bike_calf_pumps",
+    "exercise_name": {
+      "en": "Calf Pumps",
+      "nl": "Calf Pumps"
+    },
+    "aliases": [
+      "Calf Pumps"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Calves & Foot Technique",
+      "nl": "Techniek / Kuiten"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Focus on smooth ankle dorsiflexion and plantarflexion throughout the pedal stroke.",
+        "Point toes down slightly on the push stroke and pull up through the heel on the recovery."
+      ],
+      "nl": [
+        "Tijdens het fietsen focus je extreem op de enkels.",
+        "Wijs met je tenen naar beneden bij de neerwaartse slag en trek je hiel ver omhoog bij de opwaartse slag."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_climb_hand_switch",
+    "exercise_name": {
+      "en": "Climb Hand Switch",
+      "nl": "Climb Hand Switch"
+    },
+    "aliases": [
+      "Climb Hand Switch"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Coordination",
+      "nl": "Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Every 4 counts, switch your hands from Position 3 (ends) to Position 2 (middle) and back, without losing your rhythm in the legs."
+      ],
+      "nl": [
+        "wissel elke 4 tellen je handen van Positie 3 (uiteinden) naar Positie 2 (midden) en terug, zonder je ritme in de benen te verliezen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_double_time",
+    "exercise_name": {
+      "en": "Double Time",
+      "nl": "Double Time"
+    },
+    "aliases": [
+      "Double Time"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Speed & Sprinting",
+      "nl": "Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Double your leg cadence while slightly reducing resistance."
+      ],
+      "nl": [
+        "verdubbel je tempo (ga twee keer zo snel met je benen) terwijl je de weerstand iets laat zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_endurance_steady_state",
+    "exercise_name": {
+      "en": "Endurance Steady State",
+      "nl": "Endurance Steady State"
+    },
+    "aliases": [
+      "Endurance Steady State"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Endurance Cardio",
+      "nl": "Cardio / Duur"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Find a resistance where your breathing is faster, but you can still talk.",
+        "Maintain this pace and resistance consistently for 5 to 10 minutes without weakening."
+      ],
+      "nl": [
+        "Zoek een weerstand waarbij je ademhaling versneld is, maar je nog wel kunt praten.",
+        "Houd dit tempo en deze weerstand 5 tot 10 minuten constant vast zonder te verzwakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_figure_eights",
+    "exercise_name": {
+      "en": "Figure Eights (Core)",
+      "nl": "Figure Eights (Core)"
+    },
+    "aliases": [
+      "Core",
+      "Figure Eights",
+      "Figure Eights Core"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Sitting or standing.",
+        "Trace subtle figure-8 motions with your upper body while maintaining cadence on the bike.",
+        "This helps to loosen and train the oblique abdominal muscles and lower back."
+      ],
+      "nl": [
+        "Zittend of staand.",
+        "Maak met je bovenlichaam kleine 'achtjes' of cirkels terwijl je fietst.",
+        "Dit helpt om de schuine buikspieren en onderrug los te maken en te trainen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_handlebar_pushups",
+    "exercise_name": {
+      "en": "Handlebar Push-ups",
+      "nl": "Handlebar Push-ups"
+    },
+    "aliases": [
+      "Handlebar Push-ups"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body Strength",
+      "nl": "Kracht / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "This is an advanced rhythm cycling coordination drill."
+      ],
+      "nl": [
+        "dit is een geavanceerde 'Rhythm Ride' oefening."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_heavy_climb_low_rpm",
+    "exercise_name": {
+      "en": "Heavy Grind (60 RPM)",
+      "nl": "Heavy Grind (60 RPM)"
+    },
+    "aliases": [
+      "60 RPM",
+      "Heavy Grind",
+      "Heavy Grind 60 RPM"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Strength",
+      "nl": "Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Turn the resistance very hard.",
+        "Pedal at a steady low cadence against heavy resistance (approx. 60 RPM).",
+        "Focus on strength from the legs, push and pull.",
+        "Keep your upper body still and relaxed.",
+        "Sitting or standing."
+      ],
+      "nl": [
+        "Draai de weerstand erg zwaar.",
+        "Trap in een langzaam ritme (60 RPM).",
+        "Focus op kracht vanuit de benen, duw en trek.",
+        "Bovenlichaam blijft stil en ontspannen.",
+        "Zittend of staand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_high_cadence_spin",
+    "exercise_name": {
+      "en": "High Cadence Spin (100-110 RPM)",
+      "nl": "High Cadence Spin (100-110 RPM)"
+    },
+    "aliases": [
+      "100-110 RPM",
+      "High Cadence Spin",
+      "High Cadence Spin 100-110 RPM"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Speed & Cardio",
+      "nl": "Snelheid / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Reduce the resistance (but maintain contact with the flywheel).",
+        "Increase pedal speed to 100-110 RPM.",
+        "Keep the hips still in the saddle, do not bounce."
+      ],
+      "nl": [
+        "Verlaag de weerstand (maar houd wel contact met het vliegwiel).",
+        "Verhoog de trapsnelheid tot 100-110 RPM.",
+        "Houd de heupen stil in het zadel, ga niet stuiteren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_isolation_upper_body",
+    "exercise_name": {
+      "en": "Upper Body Freeze",
+      "nl": "Upper Body Freeze"
+    },
+    "aliases": [
+      "Upper Body Freeze"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Core Technique",
+      "nl": "Core / Techniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Focus on keeping your upper body completely still while pedaling.",
+        "Only the legs move.",
+        "Shoulders relaxed, elbows slightly bent."
+      ],
+      "nl": [
+        "focus op het volledig stilhouden van het bovenlichaam.",
+        "Alleen de benen bewegen.",
+        "Schouders ontspannen, ellebogen licht gebogen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_jumps_4_counts",
+    "exercise_name": {
+      "en": "Jumps (4 Tellen)",
+      "nl": "Jumps (4 Tellen)"
+    },
+    "aliases": [
+      "4 Tellen",
+      "Jumps",
+      "Jumps 4 Tellen"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Rhythmic Cardio",
+      "nl": "Cardio / Rhythmic"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Stand for 4 seconds, sit for 4 seconds.",
+        "Keep hands in position 2 or 3.",
+        "Focus on a smooth transition; use your abdominal muscles to absorb the shock.",
+        "Do not collapse or drop heavily into the bike saddle."
+      ],
+      "nl": [
+        "4 tellen staan, 4 tellen zitten.",
+        "Houd de handen in positie 2 of 3.",
+        "Focus op een soepele overgang; gebruik je buikspieren om de schok op te vangen.",
+        "Niet 'ploffen' in het zadel."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_jumps_8_counts",
+    "exercise_name": {
+      "en": "Jumps (8 Tellen)",
+      "nl": "Jumps (8 Tellen)"
+    },
+    "aliases": [
+      "8 Tellen",
+      "Jumps",
+      "Jumps 8 Tellen"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Rhythmic Cardio",
+      "nl": "Cardio / Rhythmic"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Stand for 8 seconds, sit for 8 seconds.",
+        "This is a calmer version of the jumps, intended to build control and strength.",
+        "Provide sufficient resistance to maintain stability."
+      ],
+      "nl": [
+        "8 tellen staan, 8 tellen zitten.",
+        "Dit is een rustigere variant van de jumps, bedoeld om controle en kracht op te bouwen.",
+        "Zorg voor voldoende weerstand om stabiliteit te behouden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_power_bursts",
+    "exercise_name": {
+      "en": "Power Bursts (10 sec)",
+      "nl": "Power Bursts (10 sec)"
+    },
+    "aliases": [
+      "10 sec",
+      "Power Bursts",
+      "Power Bursts 10 sec"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Strength & Power",
+      "nl": "Kracht / Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "From a tough climb (low RPM), get up and give everything you have for 10 seconds to get the pedals around faster against the heavy resistance.",
+        "Then sit down immediately."
+      ],
+      "nl": [
+        "Vanuit een zware klim (lage RPM), sta op en geef 10 seconden alles wat je hebt om de pedalen sneller rond te krijgen tegen de zware weerstand in.",
+        "Ga daarna direct zitten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_pyramid_climb",
+    "exercise_name": {
+      "en": "Pyramid Climb",
+      "nl": "Pyramid Climb"
+    },
+    "aliases": [
+      "Pyramid Climb"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Strength",
+      "nl": "Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "The heavier, the slower."
+      ],
+      "nl": [
+        "hoe zwaarder, hoe trager."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_reverse_pedal",
+    "exercise_name": {
+      "en": "Reverse Pedal (Achteruit)",
+      "nl": "Reverse Pedal (Achteruit)"
+    },
+    "aliases": [
+      "Achteruit",
+      "Reverse Pedal",
+      "Reverse Pedal Achteruit"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Coordination",
+      "nl": "Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Do not perform this on fixed-gear flywheels at high speed!"
+      ],
+      "nl": [
+        "werkt niet op doortrappers (fixed gear) met hoge snelheid!"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_rolling_hills",
+    "exercise_name": {
+      "en": "Rolling Hills",
+      "nl": "Rolling Hills"
+    },
+    "aliases": [
+      "Rolling Hills"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Simulates climbing steep outdoor uphill terrain.",
+        "Alternate between 1 minute of seated climbing (heavier) and 1 minute of flat road (faster, lighter).",
+        "Repeat this process for 6-10 minutes."
+      ],
+      "nl": [
+        "Simulatie van heuvelachtig terrein.",
+        "Wissel af tussen 1 minuut zittend klimmen (zwaarder) en 1 minuut vlakke weg (sneller, lichter).",
+        "Herhaal dit traject gedurende 6-10 minuten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_side_to_side",
+    "exercise_name": {
+      "en": "Side to Side",
+      "nl": "Side to Side"
+    },
+    "aliases": [
+      "Side to Side"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Rhythmic Training",
+      "nl": "Ritmisch"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Start in a standing position.",
+        "Shift your bodyweight rhythmically from side-to-side in sync with the beat.",
+        "Keep your hips above the pedals, do not hang too far over the handlebars."
+      ],
+      "nl": [
+        "Staande positie.",
+        "Verplaats je lichaamsgewicht ritmisch van links naar rechts op de maat van de muziek.",
+        "Houd de heupen wel boven de pedalen, hang niet te ver over het stuur."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_single_leg_drill_left",
+    "exercise_name": {
+      "en": "Single Leg Drill (Links)",
+      "nl": "Single Leg Drill (Links)"
+    },
+    "aliases": [
+      "Links",
+      "Single Leg Drill",
+      "Single Leg Drill Links"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Movement Technique",
+      "nl": "Techniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Unclip your right foot (or place it on the axle).",
+        "Cycle with your left leg only.",
+        "Focus on pulling up on the pedal (hamstring activation).",
+        "Maintain smooth rowing tension to prevent slack or clunking in the drive chain."
+      ],
+      "nl": [
+        "Klik je rechtervoet los (of zet hem op de as).",
+        "Fiets alleen met je linkerbeen.",
+        "Focus op het optrekken van de pedaal (hamstring activatie).",
+        "Voorkom 'klunk' geluiden in de ketting."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_single_leg_drill_right",
+    "exercise_name": {
+      "en": "Single Leg Drill (Rechts)",
+      "nl": "Single Leg Drill (Rechts)"
+    },
+    "aliases": [
+      "Rechts",
+      "Single Leg Drill",
+      "Single Leg Drill Rechts"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Movement Technique",
+      "nl": "Techniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Pushing, scraping, pulling and pushing past dead center.",
+        "30-60 seconds."
+      ],
+      "nl": [
+        "duwen, schrapen, trekken en over het dode punt heen duwen.",
+        "30-60 seconden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_snake_move",
+    "exercise_name": {
+      "en": "Snake Move",
+      "nl": "Snake Move"
+    },
+    "aliases": [
+      "Snake Move"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Rhythmic Training",
+      "nl": "Ritmisch"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Bend your arms and bring your chest low to the handlebars, then come back up in a wavy motion (head first, then chest).",
+        "Push-up variation incorporating a rotational roll across the platform."
+      ],
+      "nl": [
+        "Buig je armen en breng je borst laag naar het stuur, kom daarna met een golvende beweging (eerst hoofd, dan borst) weer omhoog.",
+        "Push-up variant met een 'rol'."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_sprint_on_command",
+    "exercise_name": {
+      "en": "Sprint op Commando",
+      "nl": "Sprint op Commando"
+    },
+    "aliases": [
+      "Sprint op Commando"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Reaction & Speed",
+      "nl": "Reactie / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Cycle calmly.",
+        "When prompted, perform a 15-second all-out sprint interval.",
+        "Then immediately pedal slowly again.",
+        "Repeat continuously in a reactive or random sequence."
+      ],
+      "nl": [
+        "Fiets rustig.",
+        "Zodra de instructeur (of muziek drop) aangeeft, ga je 15 seconden 'all-out'.",
+        "Daarna direct weer rustig trappen.",
+        "Herhaal willekeurig."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_stop_and_go",
+    "exercise_name": {
+      "en": "Stop & Go (Dead Stop)",
+      "nl": "Stop & Go (Dead Stop)"
+    },
+    "aliases": [
+      "Dead Stop",
+      "Stop & Go",
+      "Stop & Go Dead Stop"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Strength",
+      "nl": "Kracht"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Set the resistance extremely high.",
+        "Bring the pedals to a complete, controlled stop.",
+        "Start from a standstill as forcefully as possible to get the flywheel moving again.",
+        "Do this 5 times in a row."
+      ],
+      "nl": [
+        "Zet de weerstand extreem hoog.",
+        "Stop de pedalen volledig (stilstand).",
+        "Start vanuit stilstand zo krachtig mogelijk om het vliegwiel weer op gang te brengen.",
+        "Doe dit 5x achter elkaar."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_stretch_on_bike",
+    "exercise_name": {
+      "en": "On-Bike Stretch",
+      "nl": "On-Bike Stretch"
+    },
+    "aliases": [
+      "On-Bike Stretch"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Cool-Down & Recovery",
+      "nl": "Cooling Down"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "1.",
+        "Heel on the handlebars (Hamstring).",
+        "2.",
+        "Rest your ankle over the opposite knee to target glutes and piriformis.",
+        "3.",
+        "Hands behind the back (chest).",
+        "Do everything carefully and steadily."
+      ],
+      "nl": [
+        "1.",
+        "Hak op het stuur (Hamstring).",
+        "2.",
+        "Enkel op de knie (Glutes/Piriformis).",
+        "3.",
+        "Handen achter de rug (Borst).",
+        "Doe alles voorzichtig en stabiel."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_tabata_sprints",
+    "exercise_name": {
+      "en": "Tabata Protocol (20/10)",
+      "nl": "Tabata Protocol (20/10)"
+    },
+    "aliases": [
+      "20/10",
+      "Tabata Protocol",
+      "Tabata Protocol 20/10"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "High Intensity Interval Training",
+      "nl": "HIIT"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "20 seconds of maximum effort (sprint), followed by 10 seconds of complete rest.",
+        "Repeat this 8 times (total 4 minutes).",
+        "Apply sufficient flywheel resistance during the sprint to avoid bouncing in the saddle."
+      ],
+      "nl": [
+        "20 seconden maximale inspanning (sprint), gevolgd door 10 seconden complete rust.",
+        "Herhaal dit 8 keer (totaal 4 minuten).",
+        "Zorg voor hoge weerstand tijdens de sprint om stuiteren te voorkomen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "spinning_bike_tap_backs",
+    "exercise_name": {
+      "en": "Tap Backs",
+      "nl": "Tap Backs"
+    },
+    "aliases": [
+      "Tap Backs"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Glutes",
+      "nl": "Cardio / Glutes"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Position 3 (standing climb out of the saddle).",
+        "Bring your hips back (above the saddle) and back to the neutral standing position in a rhythmic movement.",
+        "The arms extend as the hips move back.",
+        "Core tightening."
+      ],
+      "nl": [
+        "Positie 3 (staand).",
+        "Breng je heupen in een ritmische beweging naar achteren (boven het zadel) en weer terug naar de neutrale staande positie.",
+        "De armen strekken zich uit wanneer de heupen naar achteren gaan.",
+        "Core aanspannen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
     }
   }
 ]

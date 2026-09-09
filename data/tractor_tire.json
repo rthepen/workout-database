@@ -691,81 +691,6 @@
     }
   },
   {
-    "id": "tractor_tire_lateral_shuffle",
-    "exercise_name": {
-      "en": "Tyre Lateral Shuffle",
-      "nl": "Tyre Lateral Shuffle"
-    },
-    "aliases": [
-      "Tyre Lateral Shuffle"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Run sideways (shuffle) in a circle around the band.",
-        "Keep your face toward the tire."
-      ],
-      "nl": [
-        "Ren zijwaarts (shuffle) in een cirkel om de band heen.",
-        "Houd je gezicht naar de band gericht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:58:46.971Z"
-    }
-  },
-  {
     "id": "tractor_tire_sledgehammer",
     "exercise_name": {
       "en": "Tyre Sledgehammer",
@@ -1712,6 +1637,81 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "tractor_tire_lateral_shuffle",
+    "exercise_name": {
+      "en": "Tyre Lateral Shuffle",
+      "nl": "Tyre Lateral Shuffle"
+    },
+    "aliases": [
+      "Tyre Lateral Shuffle"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Run sideways (shuffle) in a circle around the band.",
+        "Keep your face toward the tire."
+      ],
+      "nl": [
+        "Ren zijwaarts (shuffle) in een cirkel om de band heen.",
+        "Houd je gezicht naar de band gericht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
     }
   }
 ]

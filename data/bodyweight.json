@@ -4183,92 +4183,6 @@
     }
   },
   {
-    "id": "bodyweight_flutter_kicks",
-    "exercise_name": {
-      "en": "Flutter Kicks",
-      "nl": "Flutter Kicks"
-    },
-    "aliases": [
-      "Flutter Kicks",
-      "Flutter_Kicks"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "glutes",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "hamstrings"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie face down on a flat bench with hips at the edge, or on your back on the floor.",
-        "Lift legs straight until aligned with hips.",
-        "Kick legs alternately up and down in a small, continuous flutter motion.",
-        "Maintain controlled rhythm and steady breathing throughout the set."
-      ],
-      "nl": [
-        "Ga op je buik op een bankje liggen met je heupen op de rand (of op je rug op de vloer).",
-        "Hef je benen gestrekt omhoog op heuphoogte.",
-        "Beweeg je benen om en om op en neer in een snelle, kleine flipperbeweging.",
-        "Houd je core strak aangespannen en adem rustig door."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep legs straight and toes pointed; initiate flutter from hips.",
-        "Brace core tightly to stabilize pelvis and lower back."
-      ],
-      "nl": [
-        "Houd je benen gestrekt en trap vanuit je heupen en billen.",
-        "Span je buikspieren hard aan om je bekken stabiel te houden."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
-    }
-  },
-  {
     "id": "bodyweight_forward_lunges",
     "exercise_name": {
       "en": "Forward Lunges",
@@ -12968,6 +12882,93 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_flutter_kicks",
+    "exercise_name": {
+      "en": "Flutter Kicks",
+      "nl": "Flutter Kicks"
+    },
+    "aliases": [
+      "Flutter Kicks"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "hamstrings",
+        "calves"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, hands under your buttocks.",
+        "Legs extended slightly off the ground and make small kicking movements."
+      ],
+      "nl": [
+        "Lig op de rug, handen onder de billen.",
+        "Benen gestrekt iets van de grond en maak kleine trappelbewegingen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "qxzJ8k215UI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "Sohel Fitness Zone",
+          "likes": 18
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-02T21:05:38.697Z"
     }
   }
 ]

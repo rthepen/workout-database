@@ -1219,81 +1219,6 @@
     }
   },
   {
-    "id": "battle_rope_spiral_whips",
-    "exercise_name": {
-      "en": "Spiral Whips",
-      "nl": "Spiral Whips"
-    },
-    "aliases": [
-      "Spiral Whips"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Coordination",
-      "nl": "Schouders / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "Rotate your hands in small circles so that the ropes move like a corkscrew/spiral towards the anchor point."
-      ],
-      "nl": [
-        "Draai je handen in kleine cirkels zodat de touwen als een kurkentrekker/spiraal naar het ankerpunt bewegen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T12:33:01.746Z"
-    }
-  },
-  {
     "id": "battle_rope_burpee_slams",
     "exercise_name": {
       "en": "Burpee Slams",
@@ -1809,6 +1734,81 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "battle_rope_spiral_whips",
+    "exercise_name": {
+      "en": "Spiral Whips",
+      "nl": "Spiral Whips"
+    },
+    "aliases": [
+      "Spiral Whips"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Coordination",
+      "nl": "Schouders / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Rotate your hands in small circles so that the ropes move like a corkscrew/spiral towards the anchor point."
+      ],
+      "nl": [
+        "Draai je handen in kleine cirkels zodat de touwen als een kurkentrekker/spiraal naar het ankerpunt bewegen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
     }
   }
 ]

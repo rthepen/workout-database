@@ -790,82 +790,6 @@
     }
   },
   {
-    "id": "jump_rope_skier_jumps",
-    "exercise_name": {
-      "en": "Skier Jumps",
-      "nl": "Skier Jumps"
-    },
-    "aliases": [
-      "Skier Jumps"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Agility",
-      "nl": "Behendigheid / Agility"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Keep feet together and jump side-to-side in a slalom skier pattern."
-      ],
-      "nl": [
-        "Houd voeten bij elkaar en spring zijwaarts van links naar rechts (als een skiër)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-08T09:14:04.210Z"
-    }
-  },
-  {
     "id": "jump_rope_high_knees",
     "exercise_name": {
       "en": "High Knees",
@@ -1747,6 +1671,82 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "jump_rope_skier_jumps",
+    "exercise_name": {
+      "en": "Skier Jumps",
+      "nl": "Skier Jumps"
+    },
+    "aliases": [
+      "Skier Jumps"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Agility",
+      "nl": "Behendigheid / Agility"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "Keep feet together and jump side-to-side in a slalom skier pattern."
+      ],
+      "nl": [
+        "Houd voeten bij elkaar en spring zijwaarts van links naar rechts (als een skiër)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T16:40:25.571Z"
     }
   }
 ]
