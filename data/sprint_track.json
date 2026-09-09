@@ -1366,86 +1366,6 @@
     }
   },
   {
-    "id": "sprint_track_farmers_walk",
-    "exercise_name": {
-      "en": "Farmer's Walk",
-      "nl": "Farmer's Walk"
-    },
-    "aliases": [
-      "Farmer's Walk"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Grip & Core",
-      "nl": "Grip / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Hold a heavy kettlebell or dumbbell in each hand.",
-        "Walk across the track with short, quick steps.",
-        "Squeeze the handles hard, keeping your shoulders back and your core tight.",
-        "Avoid using swinging momentum to move the weights."
-      ],
-      "nl": [
-        "Pak in elke hand een zwaar gewicht (kettlebell of dumbbell).",
-        "Loop met korte, snelle passen over de baan.",
-        "Knijp hard in de handvatten, houd je schouders naar achteren en je core strak.",
-        "Laat de gewichten niet slingeren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "sprint_track_sled_push"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "sprint_track_duck_walk",
     "exercise_name": {
       "en": "Duck Walk",
@@ -1515,164 +1435,6 @@
         "sprint_track_sled_push"
       ],
       "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "sprint_track_suitcase_carry",
-    "exercise_name": {
-      "en": "Suitcase Carry",
-      "nl": "Suitcase Carry"
-    },
-    "aliases": [
-      "Suitcase Carry"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Core (Anti-Lateral Flexion)",
-      "nl": "Core (Anti-Lateroflexie)"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Hold a single heavy weight in one hand at your side like a suitcase.",
-        "Walk tall and upright across the track lane.",
-        "The primary objective is to resist lateral tilting and keep your hips perfectly square.",
-        "Tighten your oblique abdominal muscles to stay straight."
-      ],
-      "nl": [
-        "Pak één zwaar gewicht in één hand (als een koffer).",
-        "Loop rechtop over de baan.",
-        "Het doel is om NIET scheef te hangen.",
-        "Span je schuine buikspieren aan om kaarsrecht te blijven."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "sprint_track_overhead_carry",
-    "exercise_name": {
-      "en": "Overhead Carry",
-      "nl": "Overhead Carry"
-    },
-    "aliases": [
-      "Overhead Carry"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Shoulder Stability & Core",
-      "nl": "Schouderstabiliteit / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Hold a weight plate or kettlebell overhead with locked arms.",
-        "Walk at a steady, controlled pace.",
-        "Tighten your abdominal muscles so that your back does not arch (ribs low)."
-      ],
-      "nl": [
-        "Duw een gewicht (plaat of kettlebell) boven je hoofd met gestrekte armen.",
-        "Loop rustig en gecontroleerd.",
-        "Span je buikspieren aan zodat je rug niet hol trekt (ribben laag)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
     },
     "media": {
       "videos": []
@@ -1754,6 +1516,277 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "sprint_track_farmers_walk",
+    "exercise_name": {
+      "en": "Farmer's Walk",
+      "nl": "Farmer's Walk"
+    },
+    "aliases": [
+      "Farmer's Walk"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Grip & Core",
+      "nl": "Grip / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Hold a heavy kettlebell or dumbbell in each hand.",
+        "Walk across the track with short, quick steps.",
+        "Squeeze the handles hard, keeping your shoulders back and your core tight.",
+        "Avoid using swinging momentum to move the weights."
+      ],
+      "nl": [
+        "Pak in elke hand een zwaar gewicht (kettlebell of dumbbell).",
+        "Loop met korte, snelle passen over de baan.",
+        "Knijp hard in de handvatten, houd je schouders naar achteren en je core strak.",
+        "Laat de gewichten niet slingeren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "sprint_track_sled_push"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "4Ly1EMfJk6Y",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rehab Hero",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "sprint_track_suitcase_carry",
+    "exercise_name": {
+      "en": "Suitcase Carry",
+      "nl": "Suitcase Carry"
+    },
+    "aliases": [
+      "Suitcase Carry"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Core (Anti-Lateral Flexion)",
+      "nl": "Core (Anti-Lateroflexie)"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Hold a single heavy weight in one hand at your side like a suitcase.",
+        "Walk tall and upright across the track lane.",
+        "The primary objective is to resist lateral tilting and keep your hips perfectly square.",
+        "Tighten your oblique abdominal muscles to stay straight."
+      ],
+      "nl": [
+        "Pak één zwaar gewicht in één hand (als een koffer).",
+        "Loop rechtop over de baan.",
+        "Het doel is om NIET scheef te hangen.",
+        "Span je schuine buikspieren aan om kaarsrecht te blijven."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JneY3SmW46E",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "mpfitnesscoach",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "sprint_track_overhead_carry",
+    "exercise_name": {
+      "en": "Overhead Carry",
+      "nl": "Overhead Carry"
+    },
+    "aliases": [
+      "Overhead Carry"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Shoulder Stability & Core",
+      "nl": "Schouderstabiliteit / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Hold a weight plate or kettlebell overhead with locked arms.",
+        "Walk at a steady, controlled pace.",
+        "Tighten your abdominal muscles so that your back does not arch (ribs low)."
+      ],
+      "nl": [
+        "Duw een gewicht (plaat of kettlebell) boven je hoofd met gestrekte armen.",
+        "Loop rustig en gecontroleerd.",
+        "Span je buikspieren aan zodat je rug niet hol trekt (ribben laag)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "_f17ljGZWq0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SoZo FIT",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
     }
   }
 ]

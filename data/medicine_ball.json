@@ -1279,83 +1279,6 @@
     }
   },
   {
-    "id": "medicine_ball_ball_back_extension",
-    "exercise_name": {
-      "en": "Ball Back Extension",
-      "nl": "Ball Back Extension"
-    },
-    "aliases": [
-      "Ball Back Extension"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Lie on your stomach over the ball (hips on the ball).",
-        "Clamp the feet or keep them on the ground.",
-        "Raise your upper body (straighten your back)."
-      ],
-      "nl": [
-        "Lig op de buik over de bal (heupen op de bal).",
-        "Klem de voeten vast of houd ze aan de grond.",
-        "Kom met het bovenlichaam omhoog (strek de rug)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
     "id": "medicine_ball_ball_lunges",
     "exercise_name": {
       "en": "Ball Lunges",
@@ -1699,6 +1622,94 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T08:56:06.452Z"
+    }
+  },
+  {
+    "id": "medicine_ball_ball_back_extension",
+    "exercise_name": {
+      "en": "Ball Back Extension",
+      "nl": "Ball Back Extension"
+    },
+    "aliases": [
+      "Ball Back Extension"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Lie on your stomach over the ball (hips on the ball).",
+        "Clamp the feet or keep them on the ground.",
+        "Raise your upper body (straighten your back)."
+      ],
+      "nl": [
+        "Lig op de buik over de bal (heupen op de bal).",
+        "Klem de voeten vast of houd ze aan de grond.",
+        "Kom met het bovenlichaam omhoog (strek de rug)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-VGatJfoRmA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Capable Strength",
+          "rating": 1
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
     }
   }
 ]

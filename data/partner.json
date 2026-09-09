@@ -3114,84 +3114,6 @@
     }
   },
   {
-    "id": "partner_firemans_carry",
-    "exercise_name": {
-      "en": "Fireman's Carry",
-      "nl": "Fireman's Carry"
-    },
-    "aliases": [
-      "Fireman's Carry"
-    ],
-    "material": {
-      "id": "partner",
-      "name": {
-        "en": "Partner",
-        "nl": "Partner"
-      },
-      "description": {
-        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
-        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lift your partner in the 'fireman's grip' (over the shoulders).",
-        "Walk a distance while keeping your core stable.",
-        "Switch sides and person."
-      ],
-      "nl": [
-        "Til je partner op in de 'brandweergreep' (over de schouders).",
-        "Loop een afstand terwijl je je core stabiel houdt.",
-        "Wissel van kant en persoon."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "partner_assisted_pistol_squat"
-      ],
-      "regressions": [
-        "partner_squat_hold"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "partner_band_reverse_fly",
     "exercise_name": {
       "en": "Partner Band Reverse Fly",
@@ -3501,6 +3423,95 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
+    "id": "partner_firemans_carry",
+    "exercise_name": {
+      "en": "Fireman's Carry",
+      "nl": "Fireman's Carry"
+    },
+    "aliases": [
+      "Fireman's Carry"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lift your partner in the 'fireman's grip' (over the shoulders).",
+        "Walk a distance while keeping your core stable.",
+        "Switch sides and person."
+      ],
+      "nl": [
+        "Til je partner op in de 'brandweergreep' (over de schouders).",
+        "Loop een afstand terwijl je je core stabiel houdt.",
+        "Wissel van kant en persoon."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "partner_assisted_pistol_squat"
+      ],
+      "regressions": [
+        "partner_squat_hold"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "8c0jvmvGjFU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rebel Midlife",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
     }
   }
 ]

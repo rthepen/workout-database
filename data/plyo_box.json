@@ -1582,84 +1582,6 @@
     }
   },
   {
-    "id": "plyo_box_box_plank",
-    "exercise_name": {
-      "en": "Box Plank",
-      "nl": "Box Plank"
-    },
-    "aliases": [
-      "Box Plank"
-    ],
-    "material": {
-      "id": "plyo_box",
-      "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
-      },
-      "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Rest your forearms on the plyo box in an incline plank.",
-        "Keep your body perfectly straight from head to heels.",
-        "For more of a challenge: lift one leg alternately."
-      ],
-      "nl": [
-        "Steun met je onderarmen op de box (incline plank).",
-        "Houd je lichaam kaarsrecht.",
-        "Voor meer uitdaging: til om en om een been op."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "plyo_box_elevated_pistol_squat"
-      ],
-      "regressions": [
-        "plyo_box_incline_push_ups"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "plyo_box_elevated_pistol_squat",
     "exercise_name": {
       "en": "Elevated Pistol Squat",
@@ -1745,6 +1667,95 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
+    "id": "plyo_box_box_plank",
+    "exercise_name": {
+      "en": "Box Plank",
+      "nl": "Box Plank"
+    },
+    "aliases": [
+      "Box Plank"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Rest your forearms on the plyo box in an incline plank.",
+        "Keep your body perfectly straight from head to heels.",
+        "For more of a challenge: lift one leg alternately."
+      ],
+      "nl": [
+        "Steun met je onderarmen op de box (incline plank).",
+        "Houd je lichaam kaarsrecht.",
+        "Voor meer uitdaging: til om en om een been op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "plyo_box_elevated_pistol_squat"
+      ],
+      "regressions": [
+        "plyo_box_incline_push_ups"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Y1XZw_nd5yE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Simon Paige",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
     }
   }
 ]

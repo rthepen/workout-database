@@ -516,990 +516,6 @@
     }
   },
   {
-    "id": "standing_punching_bag_bag_tackle_reset",
-    "exercise_name": {
-      "en": "Bag Tackle & Reset (Omgooien & Rechtzetten)",
-      "nl": "Bag Tackle & Reset (Omgooien & Rechtzetten)"
-    },
-    "aliases": [
-      "Bag Tackle & Reset",
-      "Bag Tackle & Reset Omgooien & Rechtzetten",
-      "Omgooien & Rechtzetten"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Full Body Strength",
-      "nl": "Kracht / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Tackle the freestanding bag driving it to the floor (ensure surrounding clearance!).",
-        "Push yourself up immediately, grab the punching bag in a squat stance, and lift it explosively back upright.",
-        "Repeat this."
-      ],
-      "nl": [
-        "Tackle de bokspaal zodat deze omvalt (let op je omgeving!).",
-        "Duw jezelf direct op, pak de paal vast (squat houding) en til hem explosief weer rechtop.",
-        "Herhaal dit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_ground_and_pound_mount",
-    "exercise_name": {
-      "en": "Ground & Pound (Mount)",
-      "nl": "Ground & Pound (Mount)"
-    },
-    "aliases": [
-      "Ground & Pound",
-      "Ground & Pound Mount",
-      "Mount"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Boxing & Groundwork",
-      "nl": "Boksen / Grond"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lay the pole flat.",
-        "Sit astride the pole (Mount position).",
-        "Lock your knees and hit the pole with your left and right.",
-        "Alternate between punches and sharp elbow strikes."
-      ],
-      "nl": [
-        "Leg de paal plat.",
-        "Ga schrijlings op de paal zitten (Mount positie).",
-        "Klem je knieën vast en stoot met links en rechts op de paal.",
-        "Wissel af met elleboogstoten."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_jab_cross_combo",
-    "exercise_name": {
-      "en": "Jab - Cross (1-2 Combo)",
-      "nl": "Jab - Cross (1-2 Combo)"
-    },
-    "aliases": [
-      "1-2 Combo",
-      "Jab - Cross",
-      "Jab - Cross 1-2 Combo"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Boxing",
-      "nl": "Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Get into a fighting stance.",
-        "Throw a quick lead jab followed immediately by a powerful rear cross.",
-        "Rotate your hips for power."
-      ],
-      "nl": [
-        "Ga in gevechtshouding staan.",
-        "Stoot direct met je voorste hand (Jab) gevolgd door een krachtige stoot met je achterste hand (Cross).",
-        "Draai je heupen in voor kracht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_jab_cross_hook",
-    "exercise_name": {
-      "en": "Jab - Cross - Hook",
-      "nl": "Jab - Cross - Hook"
-    },
-    "aliases": [
-      "Jab - Cross - Hook"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Boxing",
-      "nl": "Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Throw a jab-cross combination and follow immediately with a lead hook.",
-        "Keep your elbow high at the corner and protect your chin with your other hand."
-      ],
-      "nl": [
-        "Stoot links-rechts (Jab-Cross) en volg direct op met een hoek (Hook) van je voorste hand.",
-        "Houd je elleboog hoog bij de hoek en bescherm je kin met je andere hand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_clinch_knees",
-    "exercise_name": {
-      "en": "Clinch Knees",
-      "nl": "Clinch Knees"
-    },
-    "aliases": [
-      "Clinch Knees"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing & Muay Thai",
-      "nl": "Kickboksen / Muay Thai"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Grip the top of the punching bag with both hands in a Muay Thai clinch.",
-        "Pull the bag in slightly and drive a powerful knee strike into the center of the bag."
-      ],
-      "nl": [
-        "Pak de bovenkant van de paal vast met twee handen (Clinch).",
-        "Trek de paal iets naar je toe en stoot je knie krachtig in het midden van de paal (heupen naar voren duwen)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_roundhouse_kicks",
-    "exercise_name": {
-      "en": "Roundhouse Kicks (Lichaam)",
-      "nl": "Roundhouse Kicks (Lichaam)"
-    },
-    "aliases": [
-      "Lichaam",
-      "Roundhouse Kicks",
-      "Roundhouse Kicks Lichaam"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing",
-      "nl": "Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Deliver a powerful roundhouse kick into the midsection of the heavy bag.",
-        "Hit the pole with your shin.",
-        "Pump your arm along with the movement to generate rotational momentum."
-      ],
-      "nl": [
-        "Maak een ronde trap naar het midden van de paal.",
-        "Raak de paal met je scheenbeen.",
-        "Zwaai je arm mee voor balans en extra kracht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_front_kicks",
-    "exercise_name": {
-      "en": "Front Kicks (Teep)",
-      "nl": "Front Kicks (Teep)"
-    },
-    "aliases": [
-      "Front Kicks",
-      "Front Kicks Teep",
-      "Teep"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing",
-      "nl": "Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Chamber your knee and thrust the ball of your foot forward into the bag in a front teep kick.",
-        "Use this to push the pole (or opponent) away from you.",
-        "Keep your hands up in a protective boxing guard."
-      ],
-      "nl": [
-        "Til je knie op en duw de bal van je voet recht vooruit in de paal.",
-        "Gebruik dit om de paal (of tegenstander) van je af te duwen.",
-        "Houd je handen hoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_uppercuts",
-    "exercise_name": {
-      "en": "Uppercuts",
-      "nl": "Uppercuts"
-    },
-    "aliases": [
-      "Uppercuts"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Boxing",
-      "nl": "Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand close to the pole.",
-        "Throw crisp, short uppercuts driving from the legs and hips upward.",
-        "Use your legs to generate force (small squat movement)."
-      ],
-      "nl": [
-        "Kom dicht bij de paal staan.",
-        "Maak korte, opwaartse stoten van onder naar boven.",
-        "Gebruik je benen om kracht te genereren (kleine squat beweging)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_combo_punch_kick",
-    "exercise_name": {
-      "en": "Combo: Jab-Cross-Low Kick",
-      "nl": "Combo: Jab-Cross-Low Kick"
-    },
-    "aliases": [
-      "Combo: Jab-Cross-Low Kick"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing",
-      "nl": "Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Throw a crisp jab-cross combination at head height.",
-        "Follow up immediately with a hard rear low kick into the base of the bag."
-      ],
-      "nl": [
-        "Voer een Jab en een Cross uit op hoofdhoogte.",
-        "Volg direct met een harde Low Kick met je rechterbeen tegen de onderkant van de paal."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_switch_kicks",
-    "exercise_name": {
-      "en": "Switch Kicks",
-      "nl": "Switch Kicks"
-    },
-    "aliases": [
-      "Switch Kicks"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing",
-      "nl": "Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Switch stance rapidly in a switch-step and deliver a rear kick into the bag.",
-        "Speed ​​is key."
-      ],
-      "nl": [
-        "Wissel snel van beenstand (sprongetje) en trap direct met je (nieuwe) achterste been (oorspronkelijk voorste been) tegen de paal.",
-        "Snelheid is key."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_superman_punch",
-    "exercise_name": {
-      "en": "Superman Punch",
-      "nl": "Superman Punch"
-    },
-    "aliases": [
-      "Superman Punch"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "MMA & Kickboxing",
-      "nl": "MMA / Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Pretend to kick with your back leg, but kick that leg back as you lunge forward and deliver a straight punch."
-      ],
-      "nl": [
-        "Doe alsof je gaat trappen met je achterste been, maar schop dat been naar achteren terwijl je naar voren springt en een rechte stoot geeft."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_back_kick",
-    "exercise_name": {
-      "en": "Spinning Back Kick",
-      "nl": "Spinning Back Kick"
-    },
-    "aliases": [
-      "Spinning Back Kick"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing",
-      "nl": "Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Turn your back to the pole, look over your shoulder and kick straight back into the pole with your heel.",
-        "Make sure you look where you're kicking before straightening your leg."
-      ],
-      "nl": [
-        "Draai je rug naar de paal, kijk over je schouder en trap met je hiel recht achteruit in de paal.",
-        "Zorg dat je kijkt waar je trapt voordat je been strekt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_body_shots",
-    "exercise_name": {
-      "en": "Body Shots (Hooks)",
-      "nl": "Body Shots (Hooks)"
-    },
-    "aliases": [
-      "Body Shots",
-      "Body Shots Hooks",
-      "Hooks"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Boxing",
-      "nl": "Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Bend your knees slightly and punch hard angles into the side of the pole (at the level of the liver/ribs).",
-        "Alternate left and right."
-      ],
-      "nl": [
-        "Zak iets door je knieën en stoot harde hoeken in de zijkant van de paal (ter hoogte van de lever/ribben).",
-        "Wissel links en rechts af."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "standing_punching_bag_freestyle_blitz",
     "exercise_name": {
       "en": "Freestyle Blitz (All-Out)",
@@ -1575,6 +591,1133 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-06T09:18:05.230Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_bag_tackle_reset",
+    "exercise_name": {
+      "en": "Bag Tackle & Reset (Omgooien & Rechtzetten)",
+      "nl": "Bag Tackle & Reset (Omgooien & Rechtzetten)"
+    },
+    "aliases": [
+      "Bag Tackle & Reset",
+      "Bag Tackle & Reset Omgooien & Rechtzetten",
+      "Omgooien & Rechtzetten"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Full Body Strength",
+      "nl": "Kracht / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Tackle the freestanding bag driving it to the floor (ensure surrounding clearance!).",
+        "Push yourself up immediately, grab the punching bag in a squat stance, and lift it explosively back upright.",
+        "Repeat this."
+      ],
+      "nl": [
+        "Tackle de bokspaal zodat deze omvalt (let op je omgeving!).",
+        "Duw jezelf direct op, pak de paal vast (squat houding) en til hem explosief weer rechtop.",
+        "Herhaal dit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "aViZ2grILmk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Matthew Alty",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_ground_and_pound_mount",
+    "exercise_name": {
+      "en": "Ground & Pound (Mount)",
+      "nl": "Ground & Pound (Mount)"
+    },
+    "aliases": [
+      "Ground & Pound",
+      "Ground & Pound Mount",
+      "Mount"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Boxing & Groundwork",
+      "nl": "Boksen / Grond"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lay the pole flat.",
+        "Sit astride the pole (Mount position).",
+        "Lock your knees and hit the pole with your left and right.",
+        "Alternate between punches and sharp elbow strikes."
+      ],
+      "nl": [
+        "Leg de paal plat.",
+        "Ga schrijlings op de paal zitten (Mount positie).",
+        "Klem je knieën vast en stoot met links en rechts op de paal.",
+        "Wissel af met elleboogstoten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "SAEfdZ_ANT4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Faheem khan",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_jab_cross_combo",
+    "exercise_name": {
+      "en": "Jab - Cross (1-2 Combo)",
+      "nl": "Jab - Cross (1-2 Combo)"
+    },
+    "aliases": [
+      "1-2 Combo",
+      "Jab - Cross",
+      "Jab - Cross 1-2 Combo"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Boxing",
+      "nl": "Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Get into a fighting stance.",
+        "Throw a quick lead jab followed immediately by a powerful rear cross.",
+        "Rotate your hips for power."
+      ],
+      "nl": [
+        "Ga in gevechtshouding staan.",
+        "Stoot direct met je voorste hand (Jab) gevolgd door een krachtige stoot met je achterste hand (Cross).",
+        "Draai je heupen in voor kracht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dJ-12vESC6I",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Boxing Ready",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_jab_cross_hook",
+    "exercise_name": {
+      "en": "Jab - Cross - Hook",
+      "nl": "Jab - Cross - Hook"
+    },
+    "aliases": [
+      "Jab - Cross - Hook"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Boxing",
+      "nl": "Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Throw a jab-cross combination and follow immediately with a lead hook.",
+        "Keep your elbow high at the corner and protect your chin with your other hand."
+      ],
+      "nl": [
+        "Stoot links-rechts (Jab-Cross) en volg direct op met een hoek (Hook) van je voorste hand.",
+        "Houd je elleboog hoog bij de hoek en bescherm je kin met je andere hand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "MfqAtf_VGMY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "RDX Sports",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_clinch_knees",
+    "exercise_name": {
+      "en": "Clinch Knees",
+      "nl": "Clinch Knees"
+    },
+    "aliases": [
+      "Clinch Knees"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing & Muay Thai",
+      "nl": "Kickboksen / Muay Thai"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Grip the top of the punching bag with both hands in a Muay Thai clinch.",
+        "Pull the bag in slightly and drive a powerful knee strike into the center of the bag."
+      ],
+      "nl": [
+        "Pak de bovenkant van de paal vast met twee handen (Clinch).",
+        "Trek de paal iets naar je toe en stoot je knie krachtig in het midden van de paal (heupen naar voren duwen)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "t3rf2Tuyl9E",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "TAG Muay Thai",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_roundhouse_kicks",
+    "exercise_name": {
+      "en": "Roundhouse Kicks (Lichaam)",
+      "nl": "Roundhouse Kicks (Lichaam)"
+    },
+    "aliases": [
+      "Lichaam",
+      "Roundhouse Kicks",
+      "Roundhouse Kicks Lichaam"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing",
+      "nl": "Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Deliver a powerful roundhouse kick into the midsection of the heavy bag.",
+        "Hit the pole with your shin.",
+        "Pump your arm along with the movement to generate rotational momentum."
+      ],
+      "nl": [
+        "Maak een ronde trap naar het midden van de paal.",
+        "Raak de paal met je scheenbeen.",
+        "Zwaai je arm mee voor balans en extra kracht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "16z7qbLHSaw",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Mike Cebo",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_front_kicks",
+    "exercise_name": {
+      "en": "Front Kicks (Teep)",
+      "nl": "Front Kicks (Teep)"
+    },
+    "aliases": [
+      "Front Kicks",
+      "Front Kicks Teep",
+      "Teep"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing",
+      "nl": "Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Chamber your knee and thrust the ball of your foot forward into the bag in a front teep kick.",
+        "Use this to push the pole (or opponent) away from you.",
+        "Keep your hands up in a protective boxing guard."
+      ],
+      "nl": [
+        "Til je knie op en duw de bal van je voet recht vooruit in de paal.",
+        "Gebruik dit om de paal (of tegenstander) van je af te duwen.",
+        "Houd je handen hoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "llLEy1oS6nU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Mike Cebo",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_uppercuts",
+    "exercise_name": {
+      "en": "Uppercuts",
+      "nl": "Uppercuts"
+    },
+    "aliases": [
+      "Uppercuts"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Boxing",
+      "nl": "Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand close to the pole.",
+        "Throw crisp, short uppercuts driving from the legs and hips upward.",
+        "Use your legs to generate force (small squat movement)."
+      ],
+      "nl": [
+        "Kom dicht bij de paal staan.",
+        "Maak korte, opwaartse stoten van onder naar boven.",
+        "Gebruik je benen om kracht te genereren (kleine squat beweging)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "VSlgrAK3mr8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Learn2Scrap",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_combo_punch_kick",
+    "exercise_name": {
+      "en": "Combo: Jab-Cross-Low Kick",
+      "nl": "Combo: Jab-Cross-Low Kick"
+    },
+    "aliases": [
+      "Combo: Jab-Cross-Low Kick"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing",
+      "nl": "Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Throw a crisp jab-cross combination at head height.",
+        "Follow up immediately with a hard rear low kick into the base of the bag."
+      ],
+      "nl": [
+        "Voer een Jab en een Cross uit op hoofdhoogte.",
+        "Volg direct met een harde Low Kick met je rechterbeen tegen de onderkant van de paal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "5J1Hx26VWp8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Shpyrko",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_switch_kicks",
+    "exercise_name": {
+      "en": "Switch Kicks",
+      "nl": "Switch Kicks"
+    },
+    "aliases": [
+      "Switch Kicks"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing",
+      "nl": "Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Switch stance rapidly in a switch-step and deliver a rear kick into the bag.",
+        "Speed ​​is key."
+      ],
+      "nl": [
+        "Wissel snel van beenstand (sprongetje) en trap direct met je (nieuwe) achterste been (oorspronkelijk voorste been) tegen de paal.",
+        "Snelheid is key."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "eHNWI8cIlfQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Владимир Цой",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_superman_punch",
+    "exercise_name": {
+      "en": "Superman Punch",
+      "nl": "Superman Punch"
+    },
+    "aliases": [
+      "Superman Punch"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "MMA & Kickboxing",
+      "nl": "MMA / Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Pretend to kick with your back leg, but kick that leg back as you lunge forward and deliver a straight punch."
+      ],
+      "nl": [
+        "Doe alsof je gaat trappen met je achterste been, maar schop dat been naar achteren terwijl je naar voren springt en een rechte stoot geeft."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "qsP8aZR9i9g",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Trevor Hannant",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_back_kick",
+    "exercise_name": {
+      "en": "Spinning Back Kick",
+      "nl": "Spinning Back Kick"
+    },
+    "aliases": [
+      "Spinning Back Kick"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing",
+      "nl": "Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Turn your back to the pole, look over your shoulder and kick straight back into the pole with your heel.",
+        "Make sure you look where you're kicking before straightening your leg."
+      ],
+      "nl": [
+        "Draai je rug naar de paal, kijk over je schouder en trap met je hiel recht achteruit in de paal.",
+        "Zorg dat je kijkt waar je trapt voordat je been strekt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "rYdEVFBxvDo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "BagBomber",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_body_shots",
+    "exercise_name": {
+      "en": "Body Shots (Hooks)",
+      "nl": "Body Shots (Hooks)"
+    },
+    "aliases": [
+      "Body Shots",
+      "Body Shots Hooks",
+      "Hooks"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Boxing",
+      "nl": "Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Bend your knees slightly and punch hard angles into the side of the pole (at the level of the liver/ribs).",
+        "Alternate left and right."
+      ],
+      "nl": [
+        "Zak iets door je knieën en stoot harde hoeken in de zijkant van de paal (ter hoogte van de lever/ribben).",
+        "Wissel links en rechts af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "0hrnHKa2-2Y",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Faxton Sports",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:39:10.965Z"
     }
   }
 ]
