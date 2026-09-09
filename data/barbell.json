@@ -4162,5 +4162,351 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_bent_over_one_arm_long_bar_row",
+    "exercise_name": {
+      "en": "Bent Over One-Arm Long Bar Row (Meadows/Landmine Row)",
+      "nl": "One-Arm Landmine Row"
+    },
+    "aliases": [
+      "Bent Over One-Arm Long Bar Row",
+      "Bent_Over_One-Arm_Long_Bar_Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell / Landmine",
+        "nl": "Halterstang / Landmine"
+      },
+      "description": {
+        "en": "Barbell anchored at one end for angular rotational and rowing movements",
+        "nl": "Aan één kant verankerde halterstang voor hoekroeien en rotaties"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "latissimus_dorsi",
+        "erector_spinae",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Secure one end of an Olympic barbell into a corner or landmine attachment.",
+        "Hinge forward until torso is near parallel to the floor, resting your free hand on your knee.",
+        "Grasp the weighted sleeve and pull straight up until plates touch your chest, driving elbow high.",
+        "Lower the bar under control for a full lat stretch."
+      ],
+      "nl": [
+        "Klem het ene uiteinde van een halterstang in een hoek of landmine-adapter.",
+        "Buig voorover met een rechte rug en steun met je vrije hand op je knie.",
+        "Pak het uiteinde van de stang vast en trek het gewicht omhoog naar je ribbenkast.",
+        "Laat de stang gecontroleerd zakken tot een volledige rek in je lats."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je elleboog en knijp je schouderblad aan.",
+        "Houd je bovenlichaam stabiel en zwaai niet mee omhoog."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_One-Arm_Long_Bar_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_One-Arm_Long_Bar_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_bent_over_two_arm_long_bar_row",
+    "exercise_name": {
+      "en": "Bent Over Two-Arm Long Bar Row (T-Bar Row)",
+      "nl": "T-Bar Row"
+    },
+    "aliases": [
+      "Bent Over Two-Arm Long Bar Row",
+      "T-Bar Row",
+      "Bent_Over_Two-Arm_Long_Bar_Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell / Landmine",
+        "nl": "Halterstang / Landmine"
+      },
+      "description": {
+        "en": "Barbell anchored at one end for angular rotational and rowing movements",
+        "nl": "Aan één kant verankerde halterstang voor hoekroeien en rotaties"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "latissimus_dorsi"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Position a loaded barbell into a corner and straddle the bar with knees slightly bent.",
+        "Hinge forward at hips and place a V-grip handle under the bar collar.",
+        "Row the barbell upward to touch your lower chest, keeping elbows tucked close.",
+        "Slowly lower back down to a deep stretch without letting plates touch the floor."
+      ],
+      "nl": [
+        "Klem een halterstang vast in een hoek en ga over de stang heen staan met licht gebogen knieën.",
+        "Plaats een V-greep onder de stang en buig voorover met een rechte rug.",
+        "Trek de stang naar je borst/buik en knijp je rugspieren samen.",
+        "Laat de stang gecontroleerd zakken zonder de vloer te raken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_Two-Arm_Long_Bar_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_Two-Arm_Long_Bar_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_board_press",
+    "exercise_name": {
+      "en": "Board Press",
+      "nl": "Board Press"
+    },
+    "aliases": [
+      "Board Press",
+      "Board_Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "pectorals",
+        "forearms",
+        "latissimus_dorsi",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on the bench with wooden boards held over your chest.",
+        "Unrack the bar and maintain a tight arch with shoulder blades retracted.",
+        "Lower the bar under control until it touches the boards, pausing momentarily.",
+        "Explosively press the barbell upward to full elbow lockout."
+      ],
+      "nl": [
+        "Ga op de bank liggen met houten blokken (boards) op je borst.",
+        "Til de halter uit het rek en trek je schouderbladen stevig samen.",
+        "Laat de stang gecontroleerd zakken tot deze op de planken rust en pauzeer kort.",
+        "Druk de stang explosief uit tot volledige strekking van de armen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Do not bounce the bar off the boards."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Laat de stang niet stuiteren op het houtblok."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Board_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Board_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_bradford_rocky_presses",
+    "exercise_name": {
+      "en": "Bradford / Rocky Presses",
+      "nl": "Bradford / Rocky Presses"
+    },
+    "aliases": [
+      "Bradford/Rocky Presses",
+      "Bradford_Rocky_Presses"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold barbell at shoulder level with an overhand grip.",
+        "Press the bar just high enough to clear your head, lowering it behind the neck.",
+        "Immediately press it back over your head to the front collarbone to complete one repetition."
+      ],
+      "nl": [
+        "Houd een halterstang op schouderhoogte voor je borst.",
+        "Duw de stang net hoog genoeg om over je hoofd te bewegen en laat hem achter in je nek zakken.",
+        "Druk de stang direct weer over je hoofd terug naar voren voor je sleutelbeenderen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows directly under the wrists throughout transitions.",
+        "Do not lock out elbows at the top; keep continuous tension on deltoids."
+      ],
+      "nl": [
+        "Houd je ellebogen onder je polsen tijdens het oversteken.",
+        "Zet je armen bovenin niet op slot om constante spanning op de schouders te houden."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bradford_Rocky_Presses/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bradford_Rocky_Presses/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

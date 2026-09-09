@@ -1846,5 +1846,90 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "plyo_box_box_skip",
+    "exercise_name": {
+      "en": "Box Skip",
+      "nl": "Box Skip"
+    },
+    "aliases": [
+      "Box Skip",
+      "Box_Skip"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Line up several boxes spaced 8 feet apart.",
+        "Drive off back leg to leap onto the first box, immediately springing forward and upward to bound to the floor.",
+        "Continue skipping rhythmically from box to box across the series."
+      ],
+      "nl": [
+        "Zet meerdere boxen op zo'n 2,5 meter afstand achter elkaar.",
+        "Zet krachtig af en hinkel/spring op de eerste box, en spring direct door naar de vloer.",
+        "Houd het ritme vast en beweeg vloeiend door over de volgende boxen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Absorb landing impact through softly flexing knees."
+      ],
+      "nl": [
+        "Houd je borst op en land verend op je voeten.",
+        "Vang de landing op door soepel door je knieën te buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Box_Skip/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Box_Skip/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

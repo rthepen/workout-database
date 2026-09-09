@@ -1939,5 +1939,88 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "dumbbells_bent_over_dumbbell_rear_delt_raise_head_on_bench",
+    "exercise_name": {
+      "en": "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
+      "nl": "Bent Over Rear Delt Raise met Hoofd op Bank"
+    },
+    "aliases": [
+      "Bent Over Dumbbell Rear Delt Raise With Head On Bench",
+      "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand holding dumbbells and hinge at the waist until your forehead rests against the top of an incline bench.",
+        "Let arms hang perpendicular to the ground with a slight bend in the elbows.",
+        "Raise the dumbbells laterally to the sides until upper arms are parallel to the floor.",
+        "Hold the peak contraction for one second, then slowly lower dumbbells to the start."
+      ],
+      "nl": [
+        "Sta voorovergebogen met dumbbells in de handen en laat je voorhoofd op een schuine bank rusten.",
+        "Laat je armen recht naar beneden hangen met een lichte buiging in de ellebogen.",
+        "Hef de dumbbells zijwaarts omhoog tot je armen parallel zijn aan de vloer.",
+        "Knijp je achterste schouderkoppen even samen en laat de gewichten rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep forehead firmly pressed into the pad to prevent body swaying.",
+        "Lead the raise with your elbows rather than rotating your wrists."
+      ],
+      "nl": [
+        "Houd je voorhoofd tegen het kussen om zwaaien met je lichaam te voorkomen.",
+        "Beweeg vanuit je ellebogen en draai je polsen niet mee."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

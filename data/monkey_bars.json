@@ -1868,5 +1868,89 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "monkey_bars_bodyweight_mid_row",
+    "exercise_name": {
+      "en": "Bodyweight Mid Row",
+      "nl": "Bodyweight Mid Row"
+    },
+    "aliases": [
+      "Bodyweight Mid Row",
+      "Bodyweight_Mid_Row"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "latissimus_dorsi"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang from a bar, tuck knees to chest, and hook legs over the apparatus.",
+        "Starting with arms extended, pull your body upward until your thighs touch the bar.",
+        "Pause at peak contraction and return under control to full extension."
+      ],
+      "nl": [
+        "Hang aan de stang, trek je knieën op en haak je benen over de stang.",
+        "Begin met gestrekte armen en trek jezelf omhoog tot je benen de stang raken.",
+        "Pauzeer kort en laat je gecontroleerd weer zakken tot gestrekte armen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Control both concentric and eccentric phases smoothly."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Beweeg rustig en beheerst omhoog en omlaag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Mid_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Mid_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

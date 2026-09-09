@@ -97,6 +97,16 @@ def run_import():
         if c.get("attributes", {}).get("force_type") == "static":
             c["attributes"]["force_type"] = "isometric"
 
+        # Clean citation tags [cite: ...] from instructions and form cues
+        for key in ["instructions", "form_cues"]:
+            if key in c:
+                for lang in ["en", "nl"]:
+                    if lang in c[key] and isinstance(c[key][lang], list):
+                        c[key][lang] = [
+                            __import__("re").sub(r"\s*\[cite:[^\]]+\]", "", line).strip()
+                            for line in c[key][lang]
+                        ]
+
         # Meta & Aliases
         orig_id = c.get("meta", {}).pop("original_id", None)
         c.get("meta", {}).pop("original_category", None)

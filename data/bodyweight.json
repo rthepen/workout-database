@@ -8758,5 +8758,168 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_body_tricep_press",
+    "exercise_name": {
+      "en": "Body Tricep Press",
+      "nl": "Body Tricep Press"
+    },
+    "aliases": [
+      "Body Tricep Press",
+      "Body_Tricep_Press"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight / Rack Bar",
+        "nl": "Lichaamsgewicht / Stang"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Position a bar in a rack at chest height.",
+        "Take an overhand grip, step backward with feet together, leaning into the bar with straight arms.",
+        "Flex elbows to lower your head beneath the bar in a skull-crusher movement.",
+        "Extend elbows forcefully to push your body back to the starting angle."
+      ],
+      "nl": [
+        "Plaats een halterstang op borsthoogte in een rek.",
+        "Pak de stang bovenhands vast en stap naar achteren zodat je schuin leunt.",
+        "Buig je ellebogen en laat je hoofd onder de stang zakken.",
+        "Duw jezelf puur vanuit je triceps weer omhoog tot je armen gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a rigid plank line through torso and hips.",
+        "Keep elbows pointing forward rather than flaring out."
+      ],
+      "nl": [
+        "Houd je lichaam kaarsrecht als een plank.",
+        "Wijs met je ellebogen recht naar voren en niet naar buiten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body_Tricep_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body_Tricep_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_butt_ups",
+    "exercise_name": {
+      "en": "Butt-Ups (Pike Plank)",
+      "nl": "Butt-Ups (Pike Plank)"
+    },
+    "aliases": [
+      "Butt-Ups"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a forearm plank position with elbows bent at 90 degrees.",
+        "Raise your glutes upward toward the ceiling, contracting abs to pull your hips into a pike position.",
+        "Slowly lower hips back down into a flat forearm plank without sagging."
+      ],
+      "nl": [
+        "Begin in een lage plankpositie op je onderarmen.",
+        "Breng je heupen en billen omhoog richting het plafond door je buikspieren maximaal aan te spannen.",
+        "Laat je heupen rustig weer zakken tot een rechte plankhouding zonder door te hangen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het omhoog duwen van de heupen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt-Ups/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt-Ups/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

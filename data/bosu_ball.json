@@ -1759,5 +1759,88 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T14:11:45.233Z"
     }
+  },
+  {
+    "id": "bosu_ball_bosu_cable_crunch_side_bends",
+    "exercise_name": {
+      "en": "Bosu Ball Cable Crunch With Side Bends",
+      "nl": "Bosu Ball Cable Crunch met Side Bends"
+    },
+    "aliases": [
+      "Bosu Ball Cable Crunch With Side Bends",
+      "Bosu_Ball_Cable_Crunch_With_Side_Bends"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball & Cables",
+        "nl": "Bosu Bal & Kabel"
+      },
+      "description": {
+        "en": "Combination of hemispherical dome and dual low cables for core conditioning",
+        "nl": "Combinatie van bosubal en lage kabels voor instabiele buikspiertraining"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "obliques"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Position a Bosu ball before low cable handles, lying with lower back arched over the dome.",
+        "Grasp handles, extend arms forward, and crunch your torso upward against cable tension.",
+        "Lower under control, then perform alternating side bends to finish each round."
+      ],
+      "nl": [
+        "Plaats een Bosu bal voor lage kabels en ga met je onderrug over de koepel liggen.",
+        "Pak de handvatten vast en crunch je bovenlichaam omhoog tegen de kabelweerstand in.",
+        "Laat je rustig zakken en wissel af met zijwaartse reiken (side bends) voor de schuine buikspieren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bosu_Ball_Cable_Crunch_With_Side_Bends/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bosu_Ball_Cable_Crunch_With_Side_Bends/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

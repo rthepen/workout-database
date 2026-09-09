@@ -78,5 +78,85 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "foam_roller_brachialis_smr",
+    "exercise_name": {
+      "en": "Brachialis Foam Roll",
+      "nl": "Brachialis Foam Roll"
+    },
+    "aliases": [
+      "Brachialis-SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your side with the outside of your upper arm pressed firmly over a foam roller.",
+        "Elevate hips slightly and roll slowly between elbow and shoulder.",
+        "Pause on tight spots for 10-30 seconds, then switch arms."
+      ],
+      "nl": [
+        "Ga op je zij liggen met de buitenkant van je bovenarm op de foamroller.",
+        "Til je heupen iets op en rol langzaam tussen je elleboog en schouder.",
+        "Houd gevoelige punten 10-30 seconden vast en wissel van arm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Breathe steadily and maintain upper body support through your base arm.",
+        "Avoid applying excessive pressure directly across the elbow joint."
+      ],
+      "nl": [
+        "Adem rustig door en ondersteun jezelf met je andere arm.",
+        "Rol niet over het ellebooggewricht zelf."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Brachialis-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Brachialis-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
