@@ -663,5 +663,1179 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "cable_incline_triceps_extension",
+    "exercise_name": {
+      "en": "Cable Incline Triceps Extension",
+      "nl": "Cable Incline Triceps Extension"
+    },
+    "aliases": [
+      "Cable Incline Triceps Extension",
+      "Cable_Incline_Triceps_Extension"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on an incline bench facing away from a high pulley machine with a straight bar attached.",
+        "Grasp the bar with a narrow overhand grip, elbows tucked close to your torso.",
+        "Keeping upper arms stationary, extend through the elbows to push the bar forward and down.",
+        "Squeeze the triceps firmly at lockout and slowly return to the starting stretch."
+      ],
+      "nl": [
+        "Ga op een schuine bank liggen met je rug naar een hoge kabelkatrol met rechte stang.",
+        "Pak de stang smal bovenhands vast en houd je ellebogen dicht bij je romp.",
+        "Houd je bovenarmen stil en strek je onderarmen krachtig uit vanuit je ellebogen.",
+        "Span je triceps bovenin aan en keer gecontroleerd terug naar de beginpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your upper arms stationary throughout the entire movement.",
+        "Avoid flaring your elbows wide outward."
+      ],
+      "nl": [
+        "Houd je bovenarmen gedurende de hele oefening stil op hun plek.",
+        "Laat je ellebogen niet naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Incline_Triceps_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Incline_Triceps_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_internal_rotation",
+    "exercise_name": {
+      "en": "Cable Internal Rotation",
+      "nl": "Cable Interne Schouderrotatie"
+    },
+    "aliases": [
+      "Cable Internal Rotation",
+      "Cable_Internal_Rotation"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "rotator_cuff"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Set a cable pulley at elbow height and stand or sit sideways to the machine.",
+        "Grasp the single handle with the inside arm, keeping your elbow bent at 90 degrees against your ribs.",
+        "Rotate your forearm inward across your abdomen against cable resistance.",
+        "Slowly control the handle back to the starting point and repeat."
+      ],
+      "nl": [
+        "Stel de kabel af op ellebooghoogte en ga zijwaarts naar de machine toe staan.",
+        "Pak het handvat met de binnenste arm en houd je elleboog in een hoek van 90 graden tegen je zij gedrukt.",
+        "Draai je onderarm naar binnen over je buik tegen de kabelweerstand in.",
+        "Laat de kabel rustig terugdraaien naar buiten en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your elbow pinned tightly against your torso.",
+        "Perform rotation strictly from the shoulder rotator cuff without twisting the spine."
+      ],
+      "nl": [
+        "Houd je elleboog strak tegen je lichaam aangedrukt.",
+        "Draai puur vanuit je schouderkom zonder met je bovenlichaam mee te draaien."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Internal_Rotation/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Internal_Rotation/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_judo_flip",
+    "exercise_name": {
+      "en": "Cable Judo Flip",
+      "nl": "Cable Judo Flip"
+    },
+    "aliases": [
+      "Cable Judo Flip",
+      "Cable_Judo_Flip"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Attach a rope to the lowest pulley setting and stand sideways with a wide athletic base.",
+        "Hold the rope in both hands and pivot your hips away from the machine, pulling the rope over your shoulder like a judo throw.",
+        "Crunch forward diagonally and shift your weight into the front foot.",
+        "Reset under control and repeat for repetitions before switching sides."
+      ],
+      "nl": [
+        "Bevestig een touw aan de onderste kabelkatrol en sta zijwaarts in een brede stand.",
+        "Pak het touw met beide handen vast en draai explosief weg van de machine terwijl je het touw over je schouder trekt.",
+        "Buig diagonaal voorover en verplaats je gewicht naar je voorste been alsof je een worp inzet.",
+        "Keer gecontroleerd terug en herhaal voor het gewenste aantal reps per kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Pivot off the rear foot to generate torque from the hips.",
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back."
+      ],
+      "nl": [
+        "Draai op de bal van je achterste voet om kracht te halen uit je heupen.",
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Judo_Flip/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Judo_Flip/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_lying_triceps_extension",
+    "exercise_name": {
+      "en": "Cable Lying Triceps Extension",
+      "nl": "Liggende Cable Triceps Extension"
+    },
+    "aliases": [
+      "Cable Lying Triceps Extension",
+      "Cable_Lying_Triceps_Extension"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on a bench facing a low cable pulley fitted with a straight bar.",
+        "Hold the bar overhead with an overhand grip, upper arms perpendicular to the floor.",
+        "Lower the bar toward your forehead by bending at the elbows while keeping upper arms still.",
+        "Contract triceps to extend the bar back up to vertical arm lockout."
+      ],
+      "nl": [
+        "Ga plat op een bankje liggen met je hoofd gericht naar een lage kabel met rechte stang.",
+        "Houd de stang recht boven je borst met gestrekte armen en bovenhandse greep.",
+        "Laat de stang naar je voorhoofd zakken door je ellebogen te buigen, terwijl je bovenarmen stil blijven staan.",
+        "Druk de stang vanuit je triceps weer omhoog tot volledige armstrekking."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows pointing straight up toward the ceiling without swaying.",
+        "Maintain controlled eccentric lowering toward the forehead."
+      ],
+      "nl": [
+        "Houd je ellebogen recht omhoog naar het plafond gericht.",
+        "Laat het gewicht rustig en beheerst zakken richting je voorhoofd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Lying_Triceps_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Lying_Triceps_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_one_arm_tricep_extension",
+    "exercise_name": {
+      "en": "Cable One Arm Tricep Extension",
+      "nl": "Cable One Arm Tricep Extension"
+    },
+    "aliases": [
+      "Cable One Arm Tricep Extension",
+      "Cable_One_Arm_Tricep_Extension"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Grasp a single handle attached to a high pulley using an underhand or neutral grip.",
+        "Pin your working elbow against your side with forearm bent above 90 degrees.",
+        "Extend the elbow downward until the arm is completely straight.",
+        "Squeeze the triceps for a second and control the return back up."
+      ],
+      "nl": [
+        "Pak een enkel handvat aan de hoge katrol vast met je handpalm omhoog of neutraal.",
+        "Klem je elleboog strak in je zij met je onderarm omhoog gebogen.",
+        "Druk het handvat omlaag door je arm volledig te strekken.",
+        "Knijp je triceps onderin samen en laat het handvat gecontroleerd weer omhoog komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Isolate movement purely to the elbow joint; do not swing the upper arm.",
+        "Keep shoulders level and posture upright."
+      ],
+      "nl": [
+        "Beweeg uitsluitend vanuit je ellebooggewricht en houd je bovenarm stil.",
+        "Houd je schouders laag en je borst rechtop."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_One_Arm_Tricep_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_One_Arm_Tricep_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_rear_delt_fly",
+    "exercise_name": {
+      "en": "Cable Rear Delt Fly",
+      "nl": "Cable Rear Delt Fly"
+    },
+    "aliases": [
+      "Cable Rear Delt Fly",
+      "Cable_Rear_Delt_Fly"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "rhomboids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Set pulleys above head height and grasp the opposite cables without handles (cross cables in front).",
+        "Stand tall, arms extended forward at chest height.",
+        "Pull arms horizontally out and back in a wide arc until hands are past your shoulders.",
+        "Pause to squeeze rear deltoids, then slowly return to the cross position."
+      ],
+      "nl": [
+        "Stel de katrollen op ooghoogte in en pak de kabels kruislings vast.",
+        "Sta rechtop met je armen recht vooruit op borsthoogte.",
+        "Trek je armen zijwaarts en naar achteren in een wijde boog tot voorbij je schouders.",
+        "Knijp je achterste schouderkoppen samen en laat de kabels gecontroleerd terug kruisen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a slight soft bend in your elbows throughout the arc.",
+        "Focus on pulling through the elbows to isolate rear deltoids."
+      ],
+      "nl": [
+        "Houd een lichte knik in je ellebogen tijdens de hele beweging.",
+        "Trek vanuit je ellebogen om de achterkant van je schouders optimaal te raken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rear_Delt_Fly/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rear_Delt_Fly/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_reverse_crunch",
+    "exercise_name": {
+      "en": "Cable Reverse Crunch",
+      "nl": "Cable Reverse Crunch"
+    },
+    "aliases": [
+      "Cable Reverse Crunch",
+      "Cable_Reverse_Crunch"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Attach an ankle strap to a low pulley and strap both ankles into the cable.",
+        "Lie on your back facing the machine with knees bent at 90 degrees.",
+        "Pull your knees inward toward your chest, rolling your pelvis upward off the floor against resistance.",
+        "Pause momentarily and lower hips back down with controlled eccentric tension."
+      ],
+      "nl": [
+        "Bevestig een enkelband aan de lage kabel en doe deze om beide enkels.",
+        "Ga op je rug liggen met je voeten naar het apparaat gericht en knieën in een hoek van 90 graden.",
+        "Trek je knieën naar je borst en til je heupen omhoog van de vloer tegen de kabelweerstand in.",
+        "Pauzeer even bovenin en laat je bekken gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Roll the pelvis up rather than merely pulling with the hip flexors."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Kantel je bekken bewust omhoog in plaats van puur aan je heupbuigers te trekken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Reverse_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Reverse_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_rope_overhead_triceps_extension",
+    "exercise_name": {
+      "en": "Cable Rope Overhead Triceps Extension",
+      "nl": "Cable Rope Overhead Triceps Extension"
+    },
+    "aliases": [
+      "Cable Rope Overhead Triceps Extension",
+      "Cable_Rope_Overhead_Triceps_Extension"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Attach a rope to a low pulley, face away from the tower, and hold rope ends behind your head.",
+        "Keep elbows tucked close to your ears with arms bent.",
+        "Extend arms overhead until fully locked out, spreading rope ends apart at peak contraction.",
+        "Slowly lower rope behind your head to feel a full triceps stretch."
+      ],
+      "nl": [
+        "Bevestig een touw aan de onderste kabel, draai je om en houd de uiteinden achter je hoofd vast.",
+        "Houd je ellebogen dicht bij je oren met gebogen armen.",
+        "Strek je armen recht omhoog boven je hoofd en trek het touw bovenin iets uit elkaar.",
+        "Laat het touw gecontroleerd weer achter je hoofd zakken voor een diepe stretch."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upright torso posture without arching lower back.",
+        "Keep elbows pointing toward the ceiling throughout the repetition."
+      ],
+      "nl": [
+        "Houd je romp stabiel en trek je onderrug niet hol.",
+        "Wijs met je ellebogen continu recht omhoog naar het plafond."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rope_Overhead_Triceps_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rope_Overhead_Triceps_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_rope_rear_delt_rows",
+    "exercise_name": {
+      "en": "Cable Rope Rear-Delt Rows",
+      "nl": "Cable Rope Rear-Delt Rows"
+    },
+    "aliases": [
+      "Cable Rope Rear-Delt Rows",
+      "Cable_Rope_Rear-Delt_Rows"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "rhomboids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit at a seated row station fitted with a rope attachment.",
+        "Grasp rope overhand with elbows flared high and wide.",
+        "Pull the rope toward your collarbone and neck, driving elbows back perpendicular to your torso.",
+        "Pause and squeeze rear deltoids, then slowly return arms forward to a stretch."
+      ],
+      "nl": [
+        "Neem plaats op het roeiapparaat met een touwbevestiging aan de kabel.",
+        "Pak het touw bovenhands vast met je ellebogen hoog en naar buiten gericht.",
+        "Trek het touw naar je sleutelbeenderen/hals terwijl je je ellebogen wijd naar achteren trekt.",
+        "Knijp je achterste schouderkoppen samen en laat de armen gecontroleerd terugstrekken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep upper arms horizontal and parallel to the floor throughout the movement.",
+        "Do not lean your torso back to jerk the weight."
+      ],
+      "nl": [
+        "Houd je bovenarmen horizontaal en evenwijdig aan de vloer.",
+        "Blijf rechtop zitten en zwaai niet naar achteren met je rug."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rope_Rear-Delt_Rows/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Rope_Rear-Delt_Rows/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_seated_crunch",
+    "exercise_name": {
+      "en": "Cable Seated Crunch",
+      "nl": "Zittende Cable Crunch"
+    },
+    "aliases": [
+      "Cable Seated Crunch",
+      "Cable_Seated_Crunch"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit on a flat bench with your back facing a high cable pulley holding rope ends on your shoulders.",
+        "With hips fixed, flex at the waist to crunch your elbows downward toward your hips.",
+        "Squeeze the abdominals hard as you exhale, then slowly return upright."
+      ],
+      "nl": [
+        "Ga op een bankje zitten met je rug naar een hoge kabel en houd de touwuiteinden op je schouders.",
+        "Houd je heupen stil en buig vanuit je middel naar voren om je ellebogen naar je heupen te bewegen.",
+        "Span je buikspieren maximaal aan terwijl je uitblaast en kom gecontroleerd weer rechtop."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Seated_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Seated_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_seated_lateral_raise",
+    "exercise_name": {
+      "en": "Cable Seated Lateral Raise",
+      "nl": "Zittende Cable Lateral Raise"
+    },
+    "aliases": [
+      "Cable Seated Lateral Raise",
+      "Cable_Seated_Lateral_Raise"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "rhomboids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the edge of a bench positioned between low pulleys, torso bent forward resting near thighs.",
+        "Cross and grab the opposing handles underneath your legs.",
+        "Raise your arms out laterally until parallel to the floor at shoulder height.",
+        "Pause for a second at the top and lower slowly to starting position."
+      ],
+      "nl": [
+        "Zit op het uiteinde van een bankje tussen twee lage katrollen en buig met je romp voorover richting je bovenbenen.",
+        "Pak de kabels kruislings onder je benen door vast.",
+        "Hef je armen zijwaarts omhoog tot ze evenwijdig zijn aan de vloer op schouderhoogte.",
+        "Houd bovenin even vast en laat de armen gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain fixed soft elbow angles throughout the repetition.",
+        "Keep torso completely stationary against thighs."
+      ],
+      "nl": [
+        "Houd de lichte buiging in je ellebogen constant.",
+        "Houd je bovenlichaam stil en til je borst niet op tijdens het heffen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Seated_Lateral_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Seated_Lateral_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_shoulder_press",
+    "exercise_name": {
+      "en": "Cable Shoulder Press",
+      "nl": "Cable Shoulder Press"
+    },
+    "aliases": [
+      "Cable Shoulder Press",
+      "Cable_Shoulder_Press"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Move cables to the bottom of the towers and hold handles at shoulder height, palms facing forward.",
+        "Stand tall with chest up and press both handles straight overhead.",
+        "Pause at lockout, then lower handles under control to ear level."
+      ],
+      "nl": [
+        "Zet de katrollen onderin en houd de handvatten op schouderhoogte met de handpalmen naar voren gericht.",
+        "Sta rechtop met je borst vooruit en druk beide handvatten recht omhoog boven je hoofd.",
+        "Pauzeer bovenin en laat de handvatten gecontroleerd zakken tot oorhoogte."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Shoulder_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Shoulder_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_shrugs",
+    "exercise_name": {
+      "en": "Cable Shrugs",
+      "nl": "Cable Shrugs"
+    },
+    "aliases": [
+      "Cable Shrugs",
+      "Cable_Shrugs"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Attach a straight bar to a low pulley and grasp it with an overhand shoulder-width grip.",
+        "Stand erect with arms hanging extended in front of you.",
+        "Elevate shoulders straight up toward ears as high as possible as you exhale.",
+        "Hold the contraction for a full second, then lower under control."
+      ],
+      "nl": [
+        "Bevestig een rechte stang aan de onderste kabel en pak deze bovenhands vast op schouderbreedte.",
+        "Sta rechtop met gestrekte armen voor je dijen.",
+        "Trek je schouders zo hoog mogelijk op richting je oren terwijl je uitblaast.",
+        "Houd de piekspanning één seconde vast en laat je schouders rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Elevate shoulders vertically; do not roll or circle shoulders backward.",
+        "Keep arms straight and avoid bending elbows to assist the lift."
+      ],
+      "nl": [
+        "Beweeg je schouders recht omhoog en omlaag; rol ze niet rond.",
+        "Houd je armen gestrekt en buig je ellebogen niet mee."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Shrugs/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Shrugs/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_wrist_curl",
+    "exercise_name": {
+      "en": "Cable Wrist Curl",
+      "nl": "Cable Wrist Curl"
+    },
+    "aliases": [
+      "Cable Wrist Curl",
+      "Cable_Wrist_Curl"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "forearms"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit on a bench in front of a low pulley bar attachment with forearms resting across your thighs.",
+        "Let your wrists hang just past the knees with palms facing up.",
+        "Curl your wrists upward as high as possible, contracting forearms firmly.",
+        "Slowly open and lower wrists back down to full flexion."
+      ],
+      "nl": [
+        "Ga op een bankje zitten voor een lage kabel en laat je onderarmen op je bovenbenen rusten.",
+        "Laat je polsen net over je knieën hangen met de handpalmen omhoog gericht.",
+        "Curl je polsen zo ver mogelijk omhoog en span je onderarmen krachtig aan.",
+        "Laat de stang langzaam weer zakken tot de polsen volledig gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep forearms completely stationary against the thighs throughout.",
+        "Perform movement with strict wrist articulation only."
+      ],
+      "nl": [
+        "Houd je onderarmen stevig op je bovenbenen gedrukt.",
+        "Beweeg uitsluitend vanuit je polsgewrichten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Wrist_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Wrist_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

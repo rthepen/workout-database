@@ -673,5 +673,169 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "machine_calf_machine_shoulder_shrug",
+    "exercise_name": {
+      "en": "Calf-Machine Shoulder Shrug",
+      "nl": "Calf-Machine Shoulder Shrug"
+    },
+    "aliases": [
+      "Calf-Machine Shoulder Shrug",
+      "Calf-Machine_Shoulder_Shrug"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Standing Calf Machine",
+        "nl": "Staande Kuitmachine"
+      },
+      "description": {
+        "en": "Standing calf raise machine with shoulder pads",
+        "nl": "Staande kuitmachine met schouderkussens"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Position yourself under the shoulder pads of a standing calf machine with torso upright.",
+        "Keep arms extended naturally at your sides.",
+        "Elevate your shoulders upward toward your ears against the pads, exhaling at the top.",
+        "Hold peak contraction for a full second, then lower back to start."
+      ],
+      "nl": [
+        "Ga onder de schouderkussens van een staande kuitmachine staan met een rechte romp.",
+        "Houd je armen ontspannen langs je lichaam.",
+        "Duw de kussens omhoog door je schouders krachtig naar je oren te trekken terwijl je uitademt.",
+        "Houd de samentrekking bovenin één seconde vast en laat gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep legs and knees straight but unlocked.",
+        "Move purely through scapular elevation without bouncing from knees."
+      ],
+      "nl": [
+        "Houd je benen gestrekt zonder je knieën op slot te zetten.",
+        "Beweeg uitsluitend vanuit je schouders en veer niet met je benen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf-Machine_Shoulder_Shrug/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf-Machine_Shoulder_Shrug/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "machine_calf_press_seated",
+    "exercise_name": {
+      "en": "Calf Press Machine",
+      "nl": "Calf Press Machine"
+    },
+    "aliases": [
+      "Calf Press",
+      "Calf_Press"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Machine",
+        "nl": "Fitnessapparaat"
+      },
+      "description": {
+        "en": "Selectorized weight stack machines for guided and isolated movement paths",
+        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the machine with legs extended and balls of feet placed on the platform.",
+        "Release safeties and press downward through the balls of your feet to full plantarflexion.",
+        "Pause at peak extension, then reverse slowly to feel a deep calf stretch."
+      ],
+      "nl": [
+        "Ga op het apparaat zitten met gestrekte benen en de bal van je voeten op het platform.",
+        "Ontgrendel de machine en duw het platform weg door op je tenen te gaan staan.",
+        "Pauzeer bovenin en laat je voeten rustig terugbuigen voor een diepe kuitstretch."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep knees soft with a slight micro-bend; do not hyperextend.",
+        "Control the full range of motion without rapid bouncing."
+      ],
+      "nl": [
+        "Houd een lichte knik in je knieën en zet ze niet op slot.",
+        "Beweeg beheerst over de volledige bewegingsuitslag zonder te veren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

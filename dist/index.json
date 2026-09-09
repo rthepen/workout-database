@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:47:18.780263+00:00",
-  "total_exercises": 695,
+  "last_updated_utc": "2026-09-09T14:49:37.044114+00:00",
+  "total_exercises": 711,
   "total_equipment_types": 30,
   "available_materials": {
     "ab_wheel": {
@@ -167,12 +167,12 @@
     },
     "machine": {
       "name": {
-        "en": "Elliptical Machine",
-        "nl": "Crosstrainer"
+        "en": "Machine",
+        "nl": "Fitnessapparaat"
       },
       "description": {
-        "en": "Low-impact stationary cardio machine utilizing synchronized foot pedals and arm handles",
-        "nl": "Cardio-apparaat voor een vloeiende full-body conditietraining zonder schokbelasting"
+        "en": "Selectorized weight stack machines for guided and isolated movement paths",
+        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
       }
     },
     "medicine_ball": {
@@ -327,6 +327,7 @@
     "quadriceps",
     "rectus_abdominis",
     "rhomboids",
+    "rotator_cuff",
     "transverse_abdominis",
     "trapezius",
     "triceps_brachii"
