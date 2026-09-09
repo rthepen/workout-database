@@ -89,94 +89,6 @@
     }
   },
   {
-    "id": "bosu_ball_bosu_single_leg_deadlift",
-    "exercise_name": {
-      "en": "Single Leg Deadlift",
-      "nl": "Single Leg Deadlift"
-    },
-    "aliases": [
-      "Single Leg Deadlift"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Balance",
-      "nl": "Benen / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Balance on one leg on the dome surface of the BOSU ball.",
-        "Hinge forward at the hips while extending your free leg straight back.",
-        "Maintain a flat back and optionally tap the floor with the weight."
-      ],
-      "nl": [
-        "Sta op één been op de bolle kant.",
-        "Buig voorover vanuit je heupen en strek je vrije been naar achteren.",
-        "Houd je rug recht en tik eventueel de grond aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "kVcq_c9U4ko",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 42,
-          "channel": "MTNTOUGH Fitness",
-          "likes": 25
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "bosu_ball_bosu_squat",
     "exercise_name": {
       "en": "Bosu Squat",
@@ -1758,6 +1670,94 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_single_leg_deadlift",
+    "exercise_name": {
+      "en": "Single Leg Deadlift",
+      "nl": "Single Leg Deadlift"
+    },
+    "aliases": [
+      "Single Leg Deadlift"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Balance",
+      "nl": "Benen / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Balance on one leg on the dome surface of the BOSU ball.",
+        "Hinge forward at the hips while extending your free leg straight back.",
+        "Maintain a flat back and optionally tap the floor with the weight."
+      ],
+      "nl": [
+        "Sta op één been op de bolle kant.",
+        "Buig voorover vanuit je heupen en strek je vrije been naar achteren.",
+        "Houd je rug recht en tik eventueel de grond aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "lscX7x1TNGc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Adam Kemp",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
     }
   }
 ]

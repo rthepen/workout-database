@@ -19437,904 +19437,6 @@
     }
   },
   {
-    "id": "barbell_deadlift",
-    "exercise_name": {
-      "en": "Deadlift (Conventional)",
-      "nl": "Deadlift (Conventional)"
-    },
-    "aliases": [
-      "Conventional",
-      "Deadlift",
-      "Deadlift Conventional"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Back & Legs",
-      "nl": "Rug / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Stand with your shins directly against the barbell.",
-        "Grip the barbell, drop your hips, and lock in a flat back.",
-        "Lift the bar by straightening your legs and pushing your hips forward."
-      ],
-      "nl": [
-        "Sta met je schenen tegen de stang.",
-        "Pak de stang vast, zak door je heupen en houd je rug recht.",
-        "Til de stang op door je benen te strekken en je heupen naar voren te duwen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "yPqv3ejnZvc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 15,
-          "channel": "National Academy of Sports Medicine (NASM)",
-          "likes": 969
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:19:09.563Z"
-    }
-  },
-  {
-    "id": "barbell_good_morning",
-    "exercise_name": {
-      "en": "Good Morning",
-      "nl": "Good Morning"
-    },
-    "aliases": [
-      "Good Morning"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Lower Back & Hamstrings",
-      "nl": "Onderrug / Hamstrings"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight",
-      "rating": 4
-    },
-    "instructions": {
-      "en": [
-        "Barbell placed securely across upper traps.",
-        "Keep your legs nearly straight with a soft bend at the knees.",
-        "Bend forward from your hips until your back is horizontal.",
-        "Maintain a perfectly flat, neutral spine."
-      ],
-      "nl": [
-        "Stang in je nek.",
-        "Houd je benen bijna gestrekt (lichte buiging).",
-        "Buig voorover vanuit je heupen tot je rug horizontaal is.",
-        "Houd je rug kaarsrecht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "nWyx81AfTos",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 15,
-          "channel": "PureGym"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:20:44.352Z"
-    }
-  },
-  {
-    "id": "barbell_hip_thrust",
-    "exercise_name": {
-      "en": "Barbell Hip Thrust",
-      "nl": "Barbell Hip Thrust"
-    },
-    "aliases": [
-      "Barbell Hip Thrust"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Glutes",
-      "nl": "Billen (Glutes)"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 4
-    },
-    "instructions": {
-      "en": [
-        "Sit with your upper back against the side of the bench.",
-        "Roll the loaded barbell over your legs into position across your hips.",
-        "Drive your hips upward until your body forms a straight glute bridge.",
-        "Squeeze your glutes hard at peak hip extension."
-      ],
-      "nl": [
-        "Ga met je bovenrug tegen de zijkant van het bankje zitten.",
-        "Rol de stang over je heupen.",
-        "Duw je heupen omhoog tot je lichaam een brug vormt.",
-        "Span je billen hard aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "3ENrRyaAFEQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "4:3",
-          "duration_seconds": 12,
-          "channel": "Kayla Itsines",
-          "likes": 505
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:20:56.906Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_floor_press",
-    "exercise_name": {
-      "en": "Landmine Floor Press",
-      "nl": "Landmine Floor Press"
-    },
-    "aliases": [
-      "Landmine Floor Press"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Chest & Triceps",
-      "nl": "Borst / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "anterior_deltoid",
-        "pectorals"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back on the floor next to the bar.",
-        "Grip the end of the bar with one hand.",
-        "Press the barbell up to full extension, then lower until your elbow touches the floor."
-      ],
-      "nl": [
-        "Ga op je rug op de grond liggen naast de stang.",
-        "Pak het uiteinde met één hand vast.",
-        "Duw de stang omhoog tot je arm gestrekt is en laat zakken tot je elleboog de grond raakt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "tw1p4MXoG50",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 14,
-          "channel": "OPEX Fitness",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:24:42.573Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_hack_squat",
-    "exercise_name": {
-      "en": "Landmine Hack Squat",
-      "nl": "Landmine Hack Squat"
-    },
-    "aliases": [
-      "Landmine Hack Squat"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs (Quadriceps)",
-      "nl": "Benen (Quadriceps)"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Turn your back to the landmine.",
-        "Rest the barbell across one shoulder.",
-        "Lean back against the bar and sink into a deep hack squat.",
-        "This insulates the front of the legs."
-      ],
-      "nl": [
-        "Draai je rug naar de landmine toe.",
-        "Leg de stang op één schouder.",
-        "Leun flink naar achteren tegen de stang aan en zak in een squat.",
-        "Dit isoleert de voorkant van de benen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "9VSQomFgQnM",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 50,
-          "channel": "Testosterone Nation",
-          "likes": 419
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:24:56.011Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_lateral_lunge",
-    "exercise_name": {
-      "en": "Landmine Lateral Lunge",
-      "nl": "Landmine Lateral Lunge"
-    },
-    "aliases": [
-      "Landmine Lateral Lunge"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs & Lateral Chain",
-      "nl": "Benen / Zijkant"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Hold the bar in front of your chest.",
-        "Step wide to the side and sink into a side lunge with opposite leg fully extended.",
-        "Push off powerfully to return to the center position."
-      ],
-      "nl": [
-        "Houd de stang voor de borst.",
-        "Stap wijd uit naar de zijkant en zak door één knie (het andere been blijft gestrekt).",
-        "Duw jezelf krachtig terug naar het midden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "VTtLrBvHoJ8",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 12,
-          "channel": "Testosterone Nation",
-          "likes": 142
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:25:11.354Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_reverse_lunge",
-    "exercise_name": {
-      "en": "Landmine Reverse Lunge",
-      "nl": "Landmine Reverse Lunge"
-    },
-    "aliases": [
-      "Landmine Reverse Lunge"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs & Glutes",
-      "nl": "Benen / Billen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Hold the bar in one hand (on the side of the leg that steps back) or with both hands in front of the chest.",
-        "Step backward into a reverse lunge and push back to start."
-      ],
-      "nl": [
-        "Houd de stang in één hand (aan de kant van het been dat naar achteren stapt) of met twee handen voor de borst.",
-        "Stap naar achteren in een lunge en kom terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "dHsQrYcrO6g",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 12,
-          "channel": "The Barbell Physio",
-          "likes": 37
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:47:52.866Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_shoulder_to_shoulder",
-    "exercise_name": {
-      "en": "Landmine Shoulder-to-Shoulder Press",
-      "nl": "Landmine Shoulder-to-Shoulder Press"
-    },
-    "aliases": [
-      "Landmine Shoulder-to-Shoulder Press"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "trapezius",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Hold the bar with both hands at your left shoulder.",
-        "Press up through the center and lower the weight to your right shoulder.",
-        "Alternate continuously."
-      ],
-      "nl": [
-        "Houd de stang met twee handen vast bij je linkerschouder.",
-        "Duw uit naar het midden en laat zakken naar je rechterschouder.",
-        "Wissel continu af."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "AuwW7fGoIA8",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 7,
-          "channel": "Testosterone Nation",
-          "likes": 27
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:48:36.234Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_single_leg_rdl",
-    "exercise_name": {
-      "en": "Landmine Single Leg RDL",
-      "nl": "Landmine Single Leg RDL"
-    },
-    "aliases": [
-      "Landmine Single Leg RDL"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Hamstrings & Balance",
-      "nl": "Hamstrings / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Balance on one single leg with your core engaged.",
-        "Hold the bar in the hand opposite your supporting leg.",
-        "Bend forward at your hip while stretching your free leg back.",
-        "Keep your back flat and neutral."
-      ],
-      "nl": [
-        "Sta op één been.",
-        "Houd de stang vast in de hand tegenover je standbeen.",
-        "Buig voorover vanuit je heup terwijl je je vrije been naar achteren strekt.",
-        "Houd je rug recht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "F81BrVhUCNk",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 15,
-          "channel": "Testosterone Nation",
-          "likes": 38
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:48:50.416Z"
-    }
-  },
-  {
-    "id": "barbell_landmine_squat",
-    "exercise_name": {
-      "en": "Landmine Squat (Goblet)",
-      "nl": "Landmine Squat (Goblet)"
-    },
-    "aliases": [
-      "Goblet",
-      "Landmine Squat",
-      "Landmine Squat Goblet"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Hold the end of the bar against your chest with both hands.",
-        "Place your feet shoulder width apart.",
-        "Descend into a squat leaning gently against the landmine bar.",
-        "Push yourself back up."
-      ],
-      "nl": [
-        "Houd het uiteinde van de stang met twee handen tegen je borst.",
-        "Zet je voeten op schouderbreedte.",
-        "Zak in een squat en leun iets tegen de stang aan.",
-        "Duw jezelf weer omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "YxaXaZxVcDU",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 12,
-          "channel": "PureGym"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:49:01.474Z"
-    }
-  },
-  {
     "id": "barbell_landmine_thruster",
     "exercise_name": {
       "en": "Landmine Thruster",
@@ -20422,184 +19524,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T07:51:40.094Z"
-    }
-  },
-  {
-    "id": "barbell_overhead_press",
-    "exercise_name": {
-      "en": "Overhead Press (Military Press)",
-      "nl": "Overhead Press (Military Press)"
-    },
-    "aliases": [
-      "Military Press",
-      "Overhead Press",
-      "Overhead Press Military Press"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "trapezius",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Stand tall with upright posture.",
-        "Hold the bar at chest height.",
-        "Press the barbell straight overhead to full lockout.",
-        "Tighten your abdominal muscles and don't lean too far back."
-      ],
-      "nl": [
-        "Sta rechtop.",
-        "Houd de stang op borsthoogte.",
-        "Duw de stang recht omhoog tot boven je hoofd.",
-        "Span je buikspieren aan en leun niet te ver naar achteren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "5yWaNOvgFCM",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 55,
-          "channel": "CrossFit",
-          "likes": 3853
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:54:33.765Z"
-    }
-  },
-  {
-    "id": "barbell_push_press",
-    "exercise_name": {
-      "en": "Push Press",
-      "nl": "Push Press"
-    },
-    "aliases": [
-      "Push Press"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Full Body",
-      "nl": "Schouders / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Same starting position as Overhead Press.",
-        "Bend your knees slightly (dip) and use that impulse to push the bar explosively above your head."
-      ],
-      "nl": [
-        "Zelfde startpositie als Overhead Press.",
-        "Zak iets door je knieën (dip) en gebruik die impuls om de stang explosief boven je hoofd te duwen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "4tCaD42ghlc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 52,
-          "channel": "CrossFit",
-          "likes": 2460
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T08:23:17.034Z"
     }
   },
   {
@@ -20789,88 +19713,6 @@
     }
   },
   {
-    "id": "battle_rope_burpee_slams",
-    "exercise_name": {
-      "en": "Burpee Slams",
-      "nl": "Burpee Slams"
-    },
-    "aliases": [
-      "Burpee Slams"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Full Body HIIT",
-      "nl": "HIIT / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform a rope slam, drop into a burpee, jump back up, and immediately transition into the next slam."
-      ],
-      "nl": [
-        "Maak een Rope Slam, laat de touwen vallen (of houd vast), spring naar plank (burpee), spring terug en maak direct weer een slam."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "LEtF8AIjpAI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 3,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:25:59.311Z"
-    }
-  },
-  {
     "id": "battle_rope_claps",
     "exercise_name": {
       "en": "Claps",
@@ -20953,91 +19795,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T19:26:12.082Z"
-    }
-  },
-  {
-    "id": "battle_rope_jumping_jacks",
-    "exercise_name": {
-      "en": "Battle Rope Jumping Jacks",
-      "nl": "Battle Rope Jumping Jacks"
-    },
-    "aliases": [
-      "Battle Rope Jumping Jacks"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Cardio & Shoulders",
-      "nl": "Cardio / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hold the ends and do jumping jacks.",
-        "Move your arms up and down rhythmically with the rope as you jump."
-      ],
-      "nl": [
-        "Houd de uiteinden vast en maak jumping jacks.",
-        "Breng je armen omhoog en omlaag met het touw terwijl je springt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "HITeydDCHGI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 9,
-          "channel": "R&G Fitness"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:29:04.393Z"
     }
   },
   {
@@ -21310,93 +20067,6 @@
     }
   },
   {
-    "id": "battle_rope_seated_rainbows",
-    "exercise_name": {
-      "en": "Seated Rainbows",
-      "nl": "Seated Rainbows"
-    },
-    "aliases": [
-      "Seated Rainbows"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Sit on the floor.",
-        "Rainbow the ropes across your knees from hip to hip in a wide arcing wave."
-      ],
-      "nl": [
-        "Zit op de grond.",
-        "Til de touwen met twee handen over je benen heen van links naar rechts in een grote boog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "u7J7_SGAl-c",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 10,
-          "channel": "Onnit Academy",
-          "likes": 20
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T20:52:33.342Z"
-    }
-  },
-  {
     "id": "battle_rope_side_to_side_waves",
     "exercise_name": {
       "en": "Side to Side Waves",
@@ -21650,178 +20320,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T20:58:22.268Z"
-    }
-  },
-  {
-    "id": "battle_rope_star_jumps",
-    "exercise_name": {
-      "en": "Star Jumps",
-      "nl": "Star Jumps"
-    },
-    "aliases": [
-      "Star Jumps"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Explosive Power",
-      "nl": "Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Start crouched with the ropes low.",
-        "Jump explosively into an X-shape (Star Jump) and swing the ropes wide up."
-      ],
-      "nl": [
-        "Begin gehurkt met de touwen laag.",
-        "Spring explosief uit in een X-vorm (Star Jump) en zwaai de touwen wijd omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xP2vx9-vDzg",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "PureGym"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T20:58:43.261Z"
-    }
-  },
-  {
-    "id": "battle_rope_uppercuts",
-    "exercise_name": {
-      "en": "Uppercuts",
-      "nl": "Uppercuts"
-    },
-    "aliases": [
-      "Uppercuts"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Arms & Core",
-      "nl": "Armen / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Step slightly forward.",
-        "Perform short, rapid alternating punch drives with the battle ropes.",
-        "Focus on speed."
-      ],
-      "nl": [
-        "Stap iets naar voren.",
-        "Maak korte, snelle opwaartse stootbewegingen (alternating) met de touwen.",
-        "Focus op snelheid."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "HIZI3TkbJjs",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 7,
-          "channel": "Boston Athletic Club"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T20:58:52.135Z"
     }
   },
   {
@@ -22280,180 +20778,6 @@
     }
   },
   {
-    "id": "bodyweight_broad_jumps",
-    "exercise_name": {
-      "en": "Broad Jumps",
-      "nl": "Broad Jumps"
-    },
-    "aliases": [
-      "Broad Jumps"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Long jump from a standstill.",
-        "Land on two feet and bend your knees."
-      ],
-      "nl": [
-        "Ver-springen vanuit stilstand.",
-        "Land op twee voeten en veer mee door de knieën."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "_DcL2wytLio",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 7,
-          "channel": "Bootcamp Ideas",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:02:01.029Z"
-    }
-  },
-  {
-    "id": "bodyweight_burpee_double_squat",
-    "exercise_name": {
-      "en": "Burpee Double Squat",
-      "nl": "Burpee Double Squat"
-    },
-    "aliases": [
-      "Burpee Double Squat"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Do a burpee, but after the jump/landing add two squats before doing the next burpee."
-      ],
-      "nl": [
-        "Maak een burpee, maar voeg na de sprong/landing twee squats toe voordat je de volgende burpee doet."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "q6hOOPoArnE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 18,
-          "channel": "Bootcamp Ideas",
-          "likes": 11
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:02:10.295Z"
-    }
-  },
-  {
     "id": "bodyweight_burpees",
     "exercise_name": {
       "en": "Burpees",
@@ -22713,93 +21037,6 @@
     }
   },
   {
-    "id": "bodyweight_commando_push_ups",
-    "exercise_name": {
-      "en": "Commando Push Ups",
-      "nl": "Commando Push Ups"
-    },
-    "aliases": [
-      "Commando Push Ups"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "From low plank (elbows) to high plank (hands) and back.",
-        "Alternate the pushing arm with each repetition."
-      ],
-      "nl": [
-        "Van lage plank (ellebogen) naar hoge plank (handen) en terug.",
-        "Wissel de duw-arm af."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "iT60KH4ctrs",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 14,
-          "channel": "Bootcamp Ideas",
-          "likes": 78
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:04:39.203Z"
-    }
-  },
-  {
     "id": "bodyweight_crab_walk",
     "exercise_name": {
       "en": "Crab Walk",
@@ -22880,93 +21117,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T21:04:52.924Z"
-    }
-  },
-  {
-    "id": "bodyweight_curtsy_lunges",
-    "exercise_name": {
-      "en": "Curtsy Lunges",
-      "nl": "Curtsy Lunges"
-    },
-    "aliases": [
-      "Curtsy Lunges"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Step diagonally behind your front leg in a curtsy lunge.",
-        "Good for the side of the buttocks."
-      ],
-      "nl": [
-        "Stap schuin achteruit (zoals een buiging voor de koningin).",
-        "Goed voor de zijkant van de billen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "KP_1WM8TyLQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 16,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:05:02.203Z"
     }
   },
   {
@@ -23404,180 +21554,6 @@
     }
   },
   {
-    "id": "bodyweight_frog_jumps",
-    "exercise_name": {
-      "en": "Frog Jumps",
-      "nl": "Frog Jumps"
-    },
-    "aliases": [
-      "Frog Jumps"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Tap the ground into a wide squat and jump up (hands in the air)."
-      ],
-      "nl": [
-        "Tik de grond aan in een brede squat en spring omhoog (handen in de lucht)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Daul-MSGmYc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 11,
-          "channel": "Bootcamp Ideas",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:05:55.901Z"
-    }
-  },
-  {
-    "id": "bodyweight_frog_pumps",
-    "exercise_name": {
-      "en": "Frog Pumps",
-      "nl": "Frog Pumps"
-    },
-    "aliases": [
-      "Frog Pumps"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Glute bridge with soles of feet together.",
-        "Fast pumping."
-      ],
-      "nl": [
-        "Glute bridge met voetzolen tegen elkaar.",
-        "Snel pompen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Daul-MSGmYc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 11,
-          "channel": "Bootcamp Ideas",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:06:05.238Z"
-    }
-  },
-  {
     "id": "bodyweight_glute_bridge",
     "exercise_name": {
       "en": "Glute Bridge",
@@ -23751,97 +21727,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T21:06:18.599Z"
-    }
-  },
-  {
-    "id": "bodyweight_hand_release_push_ups",
-    "exercise_name": {
-      "en": "Hand Release Push Ups",
-      "nl": "Hand Release Push Ups"
-    },
-    "aliases": [
-      "Hand Release Push Ups"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Drop to the ground.",
-        "Lift your hands briefly off the floor at the bottom of the push-up.",
-        "Put them down and push out.",
-        "Guarantees full range of motion."
-      ],
-      "nl": [
-        "Zak tot op de grond.",
-        "Til de handen even op.",
-        "Zet ze neer en duw uit.",
-        "Garandeert volledige range of motion."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "tY-z-0yYbsI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 11,
-          "channel": "Bootcamp Ideas",
-          "likes": 79
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:06:28.362Z"
     }
   },
   {
@@ -24188,267 +22073,6 @@
     }
   },
   {
-    "id": "bodyweight_inchworm",
-    "exercise_name": {
-      "en": "Inchworm",
-      "nl": "Inchworm"
-    },
-    "aliases": [
-      "Inchworm"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "From standing -> place hands on floor -> walk hands out to plank -> (optional push-up) -> walk hands back to feet and stand."
-      ],
-      "nl": [
-        "Staand -> handen aan de grond -> loop uit naar plank -> (optioneel push-up) -> loop handen terug naar voeten."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "BXGmusshVTU",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 27,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:11:22.561Z"
-    }
-  },
-  {
-    "id": "bodyweight_jump_squats",
-    "exercise_name": {
-      "en": "Jump Squats",
-      "nl": "Jump Squats"
-    },
-    "aliases": [
-      "Jump Squats"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lower into a squat and jump as high as possible.",
-        "Land softly and transition immediately into your next squat rep."
-      ],
-      "nl": [
-        "Zak in een squat en spring zo hoog mogelijk.",
-        "Land zachtjes en ga direct weer door in de volgende squat."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "W_NdZlIJOgg",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 10,
-          "channel": "Bootcamp Ideas",
-          "likes": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:11:30.852Z"
-    }
-  },
-  {
-    "id": "bodyweight_jumping_jacks",
-    "exercise_name": {
-      "en": "Jumping Jacks",
-      "nl": "Jumping Jacks"
-    },
-    "aliases": [
-      "Jumping Jacks"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "The classic.",
-        "Jump legs wide, arms up.",
-        "Jump back."
-      ],
-      "nl": [
-        "De klassieker.",
-        "Spring benen wijd, armen omhoog.",
-        "Spring terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "inw1kPfDQkM",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 6,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:11:37.301Z"
-    }
-  },
-  {
     "id": "bodyweight_jumping_lunges",
     "exercise_name": {
       "en": "Jumping Lunges",
@@ -24622,92 +22246,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T21:13:53.291Z"
-    }
-  },
-  {
-    "id": "bodyweight_knee_to_elbow",
-    "exercise_name": {
-      "en": "Knee to Elbow",
-      "nl": "Knee to Elbow"
-    },
-    "aliases": [
-      "Knee to Elbow"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform in either a plank position or hanging from a pull-up bar.",
-        "Bring knee to elbow."
-      ],
-      "nl": [
-        "In plank of hangend aan rek.",
-        "Knie naar elleboog brengen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "vhnQR5lCF-U",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "Jess Neill"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-04T13:15:20.149Z"
     }
   },
   {
@@ -25144,92 +22682,6 @@
     }
   },
   {
-    "id": "deadball_dead_ball_bear_hug_carry",
-    "exercise_name": {
-      "en": "Bear Hug Carry",
-      "nl": "Bear Hug Carry"
-    },
-    "aliases": [
-      "Bear Hug Carry"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Core Conditioning",
-      "nl": "Core / Conditie"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lift the medicine ball and hug it tightly against your torso.",
-        "Walk forward for the designated distance.",
-        "Stay upright, do not let your back collapse."
-      ],
-      "nl": [
-        "Til de bal op en klem hem strak tegen je borst/buik.",
-        "Loop een afstand.",
-        "Blijf rechtop, laat de rug niet inzakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ZviBCTOEvTk",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 17,
-          "channel": "CrossFit Invictus"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-04T13:43:54.140Z"
-    }
-  },
-  {
     "id": "deadball_dead_ball_chest_pass",
     "exercise_name": {
       "en": "Dead Ball Chest Pass (Wall/Floor)",
@@ -25402,91 +22854,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-04T13:45:18.538Z"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_floor_press",
-    "exercise_name": {
-      "en": "Dead Ball Floor Press",
-      "nl": "Dead Ball Floor Press"
-    },
-    "aliases": [
-      "Dead Ball Floor Press"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Chest & Triceps",
-      "nl": "Borst / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "anterior_deltoid",
-        "pectorals"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back.",
-        "Hold the ball on your chest with both hands.",
-        "Push the ball straight up (explosive) and lower in a controlled manner."
-      ],
-      "nl": [
-        "Lig op rug.",
-        "Houd de bal met twee handen op de borst.",
-        "Duw de bal recht omhoog (explosief) en laat gecontroleerd zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "VgKBoo3yAFY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 13,
-          "channel": "98 Training"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-04T13:45:58.456Z"
     }
   },
   {
@@ -25742,94 +23109,6 @@
           "aspect_ratio": "9:16",
           "start_seconds": 0,
           "channel": "Andy Jones Fitness"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_single_leg_deadlift",
-    "exercise_name": {
-      "en": "Single Leg Deadlift",
-      "nl": "Single Leg Deadlift"
-    },
-    "aliases": [
-      "Single Leg Deadlift"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Balance",
-      "nl": "Benen / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Balance on one leg on the dome surface of the BOSU ball.",
-        "Hinge forward at the hips while extending your free leg straight back.",
-        "Maintain a flat back and optionally tap the floor with the weight."
-      ],
-      "nl": [
-        "Sta op één been op de bolle kant.",
-        "Buig voorover vanuit je heupen en strek je vrije been naar achteren.",
-        "Houd je rug recht en tik eventueel de grond aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "kVcq_c9U4ko",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 42,
-          "channel": "MTNTOUGH Fitness",
-          "likes": 25
         }
       ]
     },
@@ -36731,433 +34010,6 @@
     }
   },
   {
-    "id": "medicine_ball_single_leg_rdl",
-    "exercise_name": {
-      "en": "Single Leg RDL",
-      "nl": "Single Leg RDL"
-    },
-    "aliases": [
-      "Single Leg RDL"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Lower Body & Balance",
-      "nl": "Onderlichaam / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Balance on one leg holding the medicine ball out in front of your chest.",
-        "Bend forward at your hips while stretching your free leg back.",
-        "Hold the ball directly under your shoulders."
-      ],
-      "nl": [
-        "Sta op één been en houd de bal voor je.",
-        "Buig voorover vanuit je heupen terwijl je vrije been naar achteren strekt.",
-        "Houd de bal recht onder je schouders."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "jh_tHqjiQoo",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "NeuStrength | Personal Trainer Wilmington NC",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
-    "id": "medicine_ball_floor_press",
-    "exercise_name": {
-      "en": "Medicine Ball Floor Press",
-      "nl": "Medicine Ball Floor Press"
-    },
-    "aliases": [
-      "Medicine Ball Floor Press"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back with the ball on your chest.",
-        "Push the ball straight up until your arms are fully extended and lower in a controlled manner."
-      ],
-      "nl": [
-        "Lig op je rug met de bal op je borst.",
-        "Duw de bal recht omhoog tot je armen volledig gestrekt zijn en laat gecontroleerd zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "PdriI9KpIN4",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "5⭐️ Football ",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
-    "id": "medicine_ball_plank",
-    "exercise_name": {
-      "en": "Medicine Ball Plank",
-      "nl": "Medicine Ball Plank"
-    },
-    "aliases": [
-      "Medicine Ball Plank"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core / Stabiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place both hands onto the medicine ball and assume a plank position.",
-        "Tighten your abdominal muscles and buttocks to keep your body in a straight line."
-      ],
-      "nl": [
-        "Plaats beide handen op de bal en neem een plankpositie aan.",
-        "Span je buikspieren en billen aan om je lichaam in een rechte lijn te houden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "XUeJnRFPXpo",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "Summit Strength & Fitness",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
-    "id": "monkey_bars_monkey_bar_pull_ups",
-    "exercise_name": {
-      "en": "Pull Ups",
-      "nl": "Pull Ups"
-    },
-    "aliases": [
-      "Pull Ups"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Grip the bar with palms facing away in a wide overhand grip.",
-        "Pull yourself up until your chin is above the bar.",
-        "Lower yourself in a controlled manner until your arms are straight again."
-      ],
-      "nl": [
-        "Pak de stang vast met je handpalmen van je af (brede greep).",
-        "Trek jezelf op tot je kin boven de stang is.",
-        "Laat je gecontroleerd zakken tot je armen weer gestrekt zijn."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "eDP_OOhMTZ4",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
-    "id": "monkey_bars_monkey_bar_traverse",
-    "exercise_name": {
-      "en": "Monkey Bar Traverse",
-      "nl": "Monkey Bar Traverse"
-    },
-    "aliases": [
-      "Monkey Bar Traverse"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Traverse the monkey bars from one end to the other by grasping each rung hand-over-hand.",
-        "Maintain fluid momentum and swing smoothly through each repetition."
-      ],
-      "nl": [
-        "Verplaats jezelf van de ene kant van het rek naar de andere door met je handen van sport naar sport te grijpen.",
-        "Houd momentum en zwaai soepel door."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "fjbxBjZ0Vig",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "Rebecca Hammond",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
     "id": "medicine_ball_ball_back_extension",
     "exercise_name": {
       "en": "Ball Back Extension",
@@ -37237,175 +34089,6 @@
           "aspect_ratio": "9:16",
           "channel": "Capable Strength",
           "rating": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T10:39:10.965Z"
-    }
-  },
-  {
-    "id": "monkey_bars_side_traverse",
-    "exercise_name": {
-      "en": "Side Traverse",
-      "nl": "Side Traverse"
-    },
-    "aliases": [
-      "Side Traverse"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hang sideways from one bar.",
-        "Move your hands sideways to move the length of the bar (or from bar to bar) without touching the ground."
-      ],
-      "nl": [
-        "Hang zijwaarts aan één stang.",
-        "Verplaats je handen zijwaarts om over de lengte van de stang (of van stang naar stang) te bewegen zonder de grond te raken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "fjbxBjZ0Vig",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "Rebecca Hammond",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T10:39:10.965Z"
-    }
-  },
-  {
-    "id": "monkey_bars_scapular_pull_ups",
-    "exercise_name": {
-      "en": "Scapular Pull Ups",
-      "nl": "Scapular Pull Ups"
-    },
-    "aliases": [
-      "Scapular Pull Ups"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hang with arms fully extended.",
-        "Only pull your shoulder blades together and down (without bending your elbows).",
-        "Hold the peak contraction briefly before lowering."
-      ],
-      "nl": [
-        "Hang met volledig gestrekte armen.",
-        "Trek alleen je schouderbladen naar elkaar toe en omlaag (zonder je ellebogen te buigen).",
-        "Houd even vast en ontspan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xvw_r7VZ2S8",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "SMØK",
-          "rating": 5
         }
       ]
     },
@@ -55028,6 +51711,3336 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "barbell_deadlift",
+    "exercise_name": {
+      "en": "Deadlift (Conventional)",
+      "nl": "Deadlift (Conventional)"
+    },
+    "aliases": [
+      "Conventional",
+      "Deadlift",
+      "Deadlift Conventional"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back & Legs",
+      "nl": "Rug / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Stand with your shins directly against the barbell.",
+        "Grip the barbell, drop your hips, and lock in a flat back.",
+        "Lift the bar by straightening your legs and pushing your hips forward."
+      ],
+      "nl": [
+        "Sta met je schenen tegen de stang.",
+        "Pak de stang vast, zak door je heupen en houd je rug recht.",
+        "Til de stang op door je benen te strekken en je heupen naar voren te duwen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xNwpvDuZJ3k",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_good_morning",
+    "exercise_name": {
+      "en": "Good Morning",
+      "nl": "Good Morning"
+    },
+    "aliases": [
+      "Good Morning"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Lower Back & Hamstrings",
+      "nl": "Onderrug / Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Barbell placed securely across upper traps.",
+        "Keep your legs nearly straight with a soft bend at the knees.",
+        "Bend forward from your hips until your back is horizontal.",
+        "Maintain a perfectly flat, neutral spine."
+      ],
+      "nl": [
+        "Stang in je nek.",
+        "Houd je benen bijna gestrekt (lichte buiging).",
+        "Buig voorover vanuit je heupen tot je rug horizontaal is.",
+        "Houd je rug kaarsrecht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "q4gCaj8g5tg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Good Human",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_hip_thrust",
+    "exercise_name": {
+      "en": "Barbell Hip Thrust",
+      "nl": "Barbell Hip Thrust"
+    },
+    "aliases": [
+      "Barbell Hip Thrust"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Glutes",
+      "nl": "Billen (Glutes)"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Sit with your upper back against the side of the bench.",
+        "Roll the loaded barbell over your legs into position across your hips.",
+        "Drive your hips upward until your body forms a straight glute bridge.",
+        "Squeeze your glutes hard at peak hip extension."
+      ],
+      "nl": [
+        "Ga met je bovenrug tegen de zijkant van het bankje zitten.",
+        "Rol de stang over je heupen.",
+        "Duw je heupen omhoog tot je lichaam een brug vormt.",
+        "Span je billen hard aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "7SCoCTps6t0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "The Movement Collective",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_floor_press",
+    "exercise_name": {
+      "en": "Landmine Floor Press",
+      "nl": "Landmine Floor Press"
+    },
+    "aliases": [
+      "Landmine Floor Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Chest & Triceps",
+      "nl": "Borst / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back on the floor next to the bar.",
+        "Grip the end of the bar with one hand.",
+        "Press the barbell up to full extension, then lower until your elbow touches the floor."
+      ],
+      "nl": [
+        "Ga op je rug op de grond liggen naast de stang.",
+        "Pak het uiteinde met één hand vast.",
+        "Duw de stang omhoog tot je arm gestrekt is en laat zakken tot je elleboog de grond raakt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "TFqyPZ7kuwo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Marco Calvetti Coach & PT",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_hack_squat",
+    "exercise_name": {
+      "en": "Landmine Hack Squat",
+      "nl": "Landmine Hack Squat"
+    },
+    "aliases": [
+      "Landmine Hack Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs (Quadriceps)",
+      "nl": "Benen (Quadriceps)"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Turn your back to the landmine.",
+        "Rest the barbell across one shoulder.",
+        "Lean back against the bar and sink into a deep hack squat.",
+        "This insulates the front of the legs."
+      ],
+      "nl": [
+        "Draai je rug naar de landmine toe.",
+        "Leg de stang op één schouder.",
+        "Leun flink naar achteren tegen de stang aan en zak in een squat.",
+        "Dit isoleert de voorkant van de benen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "czvoqIRhhOU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Edge Strength and Conditioning",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_lateral_lunge",
+    "exercise_name": {
+      "en": "Landmine Lateral Lunge",
+      "nl": "Landmine Lateral Lunge"
+    },
+    "aliases": [
+      "Landmine Lateral Lunge"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs & Lateral Chain",
+      "nl": "Benen / Zijkant"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Hold the bar in front of your chest.",
+        "Step wide to the side and sink into a side lunge with opposite leg fully extended.",
+        "Push off powerfully to return to the center position."
+      ],
+      "nl": [
+        "Houd de stang voor de borst.",
+        "Stap wijd uit naar de zijkant en zak door één knie (het andere been blijft gestrekt).",
+        "Duw jezelf krachtig terug naar het midden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "pNErhWBcmq8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "BBrosFit AB",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_reverse_lunge",
+    "exercise_name": {
+      "en": "Landmine Reverse Lunge",
+      "nl": "Landmine Reverse Lunge"
+    },
+    "aliases": [
+      "Landmine Reverse Lunge"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs & Glutes",
+      "nl": "Benen / Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Hold the bar in one hand (on the side of the leg that steps back) or with both hands in front of the chest.",
+        "Step backward into a reverse lunge and push back to start."
+      ],
+      "nl": [
+        "Houd de stang in één hand (aan de kant van het been dat naar achteren stapt) of met twee handen voor de borst.",
+        "Stap naar achteren in een lunge en kom terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dtMnBaF4qzs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Highland Park HPI",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_shoulder_to_shoulder",
+    "exercise_name": {
+      "en": "Landmine Shoulder-to-Shoulder Press",
+      "nl": "Landmine Shoulder-to-Shoulder Press"
+    },
+    "aliases": [
+      "Landmine Shoulder-to-Shoulder Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Hold the bar with both hands at your left shoulder.",
+        "Press up through the center and lower the weight to your right shoulder.",
+        "Alternate continuously."
+      ],
+      "nl": [
+        "Houd de stang met twee handen vast bij je linkerschouder.",
+        "Duw uit naar het midden en laat zakken naar je rechterschouder.",
+        "Wissel continu af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "yl1HW5sumJI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Foundation Fitness",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_single_leg_rdl",
+    "exercise_name": {
+      "en": "Landmine Single Leg RDL",
+      "nl": "Landmine Single Leg RDL"
+    },
+    "aliases": [
+      "Landmine Single Leg RDL"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Hamstrings & Balance",
+      "nl": "Hamstrings / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Balance on one single leg with your core engaged.",
+        "Hold the bar in the hand opposite your supporting leg.",
+        "Bend forward at your hip while stretching your free leg back.",
+        "Keep your back flat and neutral."
+      ],
+      "nl": [
+        "Sta op één been.",
+        "Houd de stang vast in de hand tegenover je standbeen.",
+        "Buig voorover vanuit je heup terwijl je je vrije been naar achteren strekt.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "2J9VT38cDr0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "WHAM Performance",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_squat",
+    "exercise_name": {
+      "en": "Landmine Squat (Goblet)",
+      "nl": "Landmine Squat (Goblet)"
+    },
+    "aliases": [
+      "Goblet",
+      "Landmine Squat",
+      "Landmine Squat Goblet"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Hold the end of the bar against your chest with both hands.",
+        "Place your feet shoulder width apart.",
+        "Descend into a squat leaning gently against the landmine bar.",
+        "Push yourself back up."
+      ],
+      "nl": [
+        "Houd het uiteinde van de stang met twee handen tegen je borst.",
+        "Zet je voeten op schouderbreedte.",
+        "Zak in een squat en leun iets tegen de stang aan.",
+        "Duw jezelf weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jnRWtC8dZF8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Elon Sport Performance",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_overhead_press",
+    "exercise_name": {
+      "en": "Overhead Press (Military Press)",
+      "nl": "Overhead Press (Military Press)"
+    },
+    "aliases": [
+      "Military Press",
+      "Overhead Press",
+      "Overhead Press Military Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with upright posture.",
+        "Hold the bar at chest height.",
+        "Press the barbell straight overhead to full lockout.",
+        "Tighten your abdominal muscles and don't lean too far back."
+      ],
+      "nl": [
+        "Sta rechtop.",
+        "Houd de stang op borsthoogte.",
+        "Duw de stang recht omhoog tot boven je hoofd.",
+        "Span je buikspieren aan en leun niet te ver naar achteren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "zoN5EH50Dro",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "barbell_push_press",
+    "exercise_name": {
+      "en": "Push Press",
+      "nl": "Push Press"
+    },
+    "aliases": [
+      "Push Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Full Body",
+      "nl": "Schouders / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Same starting position as Overhead Press.",
+        "Bend your knees slightly (dip) and use that impulse to push the bar explosively above your head."
+      ],
+      "nl": [
+        "Zelfde startpositie als Overhead Press.",
+        "Zak iets door je knieën (dip) en gebruik die impuls om de stang explosief boven je hoofd te duwen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "IBgVwW1RLFE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Physical Balance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_burpee_slams",
+    "exercise_name": {
+      "en": "Burpee Slams",
+      "nl": "Burpee Slams"
+    },
+    "aliases": [
+      "Burpee Slams"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Full Body HIIT",
+      "nl": "HIIT / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Perform a rope slam, drop into a burpee, jump back up, and immediately transition into the next slam."
+      ],
+      "nl": [
+        "Maak een Rope Slam, laat de touwen vallen (of houd vast), spring naar plank (burpee), spring terug en maak direct weer een slam."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ovLvSnpRpEE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Action Ready Training Club",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_jumping_jacks",
+    "exercise_name": {
+      "en": "Battle Rope Jumping Jacks",
+      "nl": "Battle Rope Jumping Jacks"
+    },
+    "aliases": [
+      "Battle Rope Jumping Jacks"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Shoulders",
+      "nl": "Cardio / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hold the ends and do jumping jacks.",
+        "Move your arms up and down rhythmically with the rope as you jump."
+      ],
+      "nl": [
+        "Houd de uiteinden vast en maak jumping jacks.",
+        "Breng je armen omhoog en omlaag met het touw terwijl je springt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "rdBJnxC_t98",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Elev8 Fitness - Open 24/7",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_seated_rainbows",
+    "exercise_name": {
+      "en": "Seated Rainbows",
+      "nl": "Seated Rainbows"
+    },
+    "aliases": [
+      "Seated Rainbows"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor.",
+        "Rainbow the ropes across your knees from hip to hip in a wide arcing wave."
+      ],
+      "nl": [
+        "Zit op de grond.",
+        "Til de touwen met twee handen over je benen heen van links naar rechts in een grote boog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "GxoICkczHDI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Omero Rangel",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_star_jumps",
+    "exercise_name": {
+      "en": "Star Jumps",
+      "nl": "Star Jumps"
+    },
+    "aliases": [
+      "Star Jumps"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start crouched with the ropes low.",
+        "Jump explosively into an X-shape (Star Jump) and swing the ropes wide up."
+      ],
+      "nl": [
+        "Begin gehurkt met de touwen laag.",
+        "Spring explosief uit in een X-vorm (Star Jump) en zwaai de touwen wijd omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "BleEVEKX5RM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SweatwithSarah ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_uppercuts",
+    "exercise_name": {
+      "en": "Uppercuts",
+      "nl": "Uppercuts"
+    },
+    "aliases": [
+      "Uppercuts"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Arms & Core",
+      "nl": "Armen / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Step slightly forward.",
+        "Perform short, rapid alternating punch drives with the battle ropes.",
+        "Focus on speed."
+      ],
+      "nl": [
+        "Stap iets naar voren.",
+        "Maak korte, snelle opwaartse stootbewegingen (alternating) met de touwen.",
+        "Focus op snelheid."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "aUUC3qCm98A",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Power Serge Method",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_broad_jumps",
+    "exercise_name": {
+      "en": "Broad Jumps",
+      "nl": "Broad Jumps"
+    },
+    "aliases": [
+      "Broad Jumps"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Long jump from a standstill.",
+        "Land on two feet and bend your knees."
+      ],
+      "nl": [
+        "Ver-springen vanuit stilstand.",
+        "Land op twee voeten en veer mee door de knieën."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "v0yrBWA3eEs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Exercise and Performance Nutrition Laboratory",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_burpee_double_squat",
+    "exercise_name": {
+      "en": "Burpee Double Squat",
+      "nl": "Burpee Double Squat"
+    },
+    "aliases": [
+      "Burpee Double Squat"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Do a burpee, but after the jump/landing add two squats before doing the next burpee."
+      ],
+      "nl": [
+        "Maak een burpee, maar voeg na de sprong/landing twee squats toe voordat je de volgende burpee doet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "RMlbvCWoTIM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "F45 Training La Jolla",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_commando_push_ups",
+    "exercise_name": {
+      "en": "Commando Push Ups",
+      "nl": "Commando Push Ups"
+    },
+    "aliases": [
+      "Commando Push Ups"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "From low plank (elbows) to high plank (hands) and back.",
+        "Alternate the pushing arm with each repetition."
+      ],
+      "nl": [
+        "Van lage plank (ellebogen) naar hoge plank (handen) en terug.",
+        "Wissel de duw-arm af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ELmP4iaXWBQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FITNESS pro (Full Body Workout)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_curtsy_lunges",
+    "exercise_name": {
+      "en": "Curtsy Lunges",
+      "nl": "Curtsy Lunges"
+    },
+    "aliases": [
+      "Curtsy Lunges"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Step diagonally behind your front leg in a curtsy lunge.",
+        "Good for the side of the buttocks."
+      ],
+      "nl": [
+        "Stap schuin achteruit (zoals een buiging voor de koningin).",
+        "Goed voor de zijkant van de billen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "bRdYP5SOea0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Taylored Physical Therapy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_frog_jumps",
+    "exercise_name": {
+      "en": "Frog Jumps",
+      "nl": "Frog Jumps"
+    },
+    "aliases": [
+      "Frog Jumps"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Tap the ground into a wide squat and jump up (hands in the air)."
+      ],
+      "nl": [
+        "Tik de grond aan in een brede squat en spring omhoog (handen in de lucht)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "n9byLhIgYTg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "ATHLETE CHOICE",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_frog_pumps",
+    "exercise_name": {
+      "en": "Frog Pumps",
+      "nl": "Frog Pumps"
+    },
+    "aliases": [
+      "Frog Pumps"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Glute bridge with soles of feet together.",
+        "Fast pumping."
+      ],
+      "nl": [
+        "Glute bridge met voetzolen tegen elkaar.",
+        "Snel pompen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "OCMhnXQFzCI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Hailey Happens Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_hand_release_push_ups",
+    "exercise_name": {
+      "en": "Hand Release Push Ups",
+      "nl": "Hand Release Push Ups"
+    },
+    "aliases": [
+      "Hand Release Push Ups"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Drop to the ground.",
+        "Lift your hands briefly off the floor at the bottom of the push-up.",
+        "Put them down and push out.",
+        "Guarantees full range of motion."
+      ],
+      "nl": [
+        "Zak tot op de grond.",
+        "Til de handen even op.",
+        "Zet ze neer en duw uit.",
+        "Garandeert volledige range of motion."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dFI0VWMqxIk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Training Harmony",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_inchworm",
+    "exercise_name": {
+      "en": "Inchworm",
+      "nl": "Inchworm"
+    },
+    "aliases": [
+      "Inchworm"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "From standing -> place hands on floor -> walk hands out to plank -> (optional push-up) -> walk hands back to feet and stand."
+      ],
+      "nl": [
+        "Staand -> handen aan de grond -> loop uit naar plank -> (optioneel push-up) -> loop handen terug naar voeten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "oSTTiPblENY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Todd Norman",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_jump_squats",
+    "exercise_name": {
+      "en": "Jump Squats",
+      "nl": "Jump Squats"
+    },
+    "aliases": [
+      "Jump Squats"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lower into a squat and jump as high as possible.",
+        "Land softly and transition immediately into your next squat rep."
+      ],
+      "nl": [
+        "Zak in een squat en spring zo hoog mogelijk.",
+        "Land zachtjes en ga direct weer door in de volgende squat."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "36vnWAkL7ZQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Forty Steps",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_jumping_jacks",
+    "exercise_name": {
+      "en": "Jumping Jacks",
+      "nl": "Jumping Jacks"
+    },
+    "aliases": [
+      "Jumping Jacks"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "The classic.",
+        "Jump legs wide, arms up.",
+        "Jump back."
+      ],
+      "nl": [
+        "De klassieker.",
+        "Spring benen wijd, armen omhoog.",
+        "Spring terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "bT2iY8IjEU0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Performance Fit Pilates",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bodyweight_knee_to_elbow",
+    "exercise_name": {
+      "en": "Knee to Elbow",
+      "nl": "Knee to Elbow"
+    },
+    "aliases": [
+      "Knee to Elbow"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Perform in either a plank position or hanging from a pull-up bar.",
+        "Bring knee to elbow."
+      ],
+      "nl": [
+        "In plank of hangend aan rek.",
+        "Knie naar elleboog brengen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bodyweight_pistol_squats"
+      ],
+      "regressions": [
+        "bodyweight_air_squats"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Tu1N-rmEe58",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "НИКИТА | ПРОСТО ДВИГАЙСЯ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_single_leg_deadlift",
+    "exercise_name": {
+      "en": "Single Leg Deadlift",
+      "nl": "Single Leg Deadlift"
+    },
+    "aliases": [
+      "Single Leg Deadlift"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Balance",
+      "nl": "Benen / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Balance on one leg on the dome surface of the BOSU ball.",
+        "Hinge forward at the hips while extending your free leg straight back.",
+        "Maintain a flat back and optionally tap the floor with the weight."
+      ],
+      "nl": [
+        "Sta op één been op de bolle kant.",
+        "Buig voorover vanuit je heupen en strek je vrije been naar achteren.",
+        "Houd je rug recht en tik eventueel de grond aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "lscX7x1TNGc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Adam Kemp",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_bear_hug_carry",
+    "exercise_name": {
+      "en": "Bear Hug Carry",
+      "nl": "Bear Hug Carry"
+    },
+    "aliases": [
+      "Bear Hug Carry"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Core Conditioning",
+      "nl": "Core / Conditie"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lift the medicine ball and hug it tightly against your torso.",
+        "Walk forward for the designated distance.",
+        "Stay upright, do not let your back collapse."
+      ],
+      "nl": [
+        "Til de bal op en klem hem strak tegen je borst/buik.",
+        "Loop een afstand.",
+        "Blijf rechtop, laat de rug niet inzakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "QQ0beWNWnGQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Made 2 Move Physical Therapy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_floor_press",
+    "exercise_name": {
+      "en": "Dead Ball Floor Press",
+      "nl": "Dead Ball Floor Press"
+    },
+    "aliases": [
+      "Dead Ball Floor Press"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Chest & Triceps",
+      "nl": "Borst / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back.",
+        "Hold the ball on your chest with both hands.",
+        "Push the ball straight up (explosive) and lower in a controlled manner."
+      ],
+      "nl": [
+        "Lig op rug.",
+        "Houd de bal met twee handen op de borst.",
+        "Duw de bal recht omhoog (explosief) en laat gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JN4_yqtPGKM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Daniel Young",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "medicine_ball_single_leg_rdl",
+    "exercise_name": {
+      "en": "Single Leg RDL",
+      "nl": "Single Leg RDL"
+    },
+    "aliases": [
+      "Single Leg RDL"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body & Balance",
+      "nl": "Onderlichaam / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Balance on one leg holding the medicine ball out in front of your chest.",
+        "Bend forward at your hips while stretching your free leg back.",
+        "Hold the ball directly under your shoulders."
+      ],
+      "nl": [
+        "Sta op één been en houd de bal voor je.",
+        "Buig voorover vanuit je heupen terwijl je vrije been naar achteren strekt.",
+        "Houd de bal recht onder je schouders."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jh_tHqjiQoo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "NeuStrength | Personal Trainer Wilmington NC",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "medicine_ball_floor_press",
+    "exercise_name": {
+      "en": "Medicine Ball Floor Press",
+      "nl": "Medicine Ball Floor Press"
+    },
+    "aliases": [
+      "Medicine Ball Floor Press"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with the ball on your chest.",
+        "Push the ball straight up until your arms are fully extended and lower in a controlled manner."
+      ],
+      "nl": [
+        "Lig op je rug met de bal op je borst.",
+        "Duw de bal recht omhoog tot je armen volledig gestrekt zijn en laat gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "wyx1qJ9AiEs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Maiven McKnight",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "medicine_ball_plank",
+    "exercise_name": {
+      "en": "Medicine Ball Plank",
+      "nl": "Medicine Ball Plank"
+    },
+    "aliases": [
+      "Medicine Ball Plank"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core / Stabiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place both hands onto the medicine ball and assume a plank position.",
+        "Tighten your abdominal muscles and buttocks to keep your body in a straight line."
+      ],
+      "nl": [
+        "Plaats beide handen op de bal en neem een plankpositie aan.",
+        "Span je buikspieren en billen aan om je lichaam in een rechte lijn te houden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "MRQbHLicfrQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "123 Workouts",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "monkey_bars_monkey_bar_pull_ups",
+    "exercise_name": {
+      "en": "Pull Ups",
+      "nl": "Pull Ups"
+    },
+    "aliases": [
+      "Pull Ups"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Grip the bar with palms facing away in a wide overhand grip.",
+        "Pull yourself up until your chin is above the bar.",
+        "Lower yourself in a controlled manner until your arms are straight again."
+      ],
+      "nl": [
+        "Pak de stang vast met je handpalmen van je af (brede greep).",
+        "Trek jezelf op tot je kin boven de stang is.",
+        "Laat je gecontroleerd zakken tot je armen weer gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "eDP_OOhMTZ4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "monkey_bars_monkey_bar_traverse",
+    "exercise_name": {
+      "en": "Monkey Bar Traverse",
+      "nl": "Monkey Bar Traverse"
+    },
+    "aliases": [
+      "Monkey Bar Traverse"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Traverse the monkey bars from one end to the other by grasping each rung hand-over-hand.",
+        "Maintain fluid momentum and swing smoothly through each repetition."
+      ],
+      "nl": [
+        "Verplaats jezelf van de ene kant van het rek naar de andere door met je handen van sport naar sport te grijpen.",
+        "Houd momentum en zwaai soepel door."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "0FvTB7o5vD8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FITMALU",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "monkey_bars_side_traverse",
+    "exercise_name": {
+      "en": "Side Traverse",
+      "nl": "Side Traverse"
+    },
+    "aliases": [
+      "Side Traverse"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang sideways from one bar.",
+        "Move your hands sideways to move the length of the bar (or from bar to bar) without touching the ground."
+      ],
+      "nl": [
+        "Hang zijwaarts aan één stang.",
+        "Verplaats je handen zijwaarts om over de lengte van de stang (of van stang naar stang) te bewegen zonder de grond te raken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "fjbxBjZ0Vig",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rebecca Hammond",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "monkey_bars_scapular_pull_ups",
+    "exercise_name": {
+      "en": "Scapular Pull Ups",
+      "nl": "Scapular Pull Ups"
+    },
+    "aliases": [
+      "Scapular Pull Ups"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang with arms fully extended.",
+        "Only pull your shoulder blades together and down (without bending your elbows).",
+        "Hold the peak contraction briefly before lowering."
+      ],
+      "nl": [
+        "Hang met volledig gestrekte armen.",
+        "Trek alleen je schouderbladen naar elkaar toe en omlaag (zonder je ellebogen te buigen).",
+        "Houd even vast en ontspan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9M8ylnbriB0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "livfitkarl",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
     }
   }
 ]

@@ -87,88 +87,6 @@
     }
   },
   {
-    "id": "battle_rope_burpee_slams",
-    "exercise_name": {
-      "en": "Burpee Slams",
-      "nl": "Burpee Slams"
-    },
-    "aliases": [
-      "Burpee Slams"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Full Body HIIT",
-      "nl": "HIIT / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform a rope slam, drop into a burpee, jump back up, and immediately transition into the next slam."
-      ],
-      "nl": [
-        "Maak een Rope Slam, laat de touwen vallen (of houd vast), spring naar plank (burpee), spring terug en maak direct weer een slam."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "LEtF8AIjpAI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 3,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:25:59.311Z"
-    }
-  },
-  {
     "id": "battle_rope_claps",
     "exercise_name": {
       "en": "Claps",
@@ -251,91 +169,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T19:26:12.082Z"
-    }
-  },
-  {
-    "id": "battle_rope_jumping_jacks",
-    "exercise_name": {
-      "en": "Battle Rope Jumping Jacks",
-      "nl": "Battle Rope Jumping Jacks"
-    },
-    "aliases": [
-      "Battle Rope Jumping Jacks"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Cardio & Shoulders",
-      "nl": "Cardio / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hold the ends and do jumping jacks.",
-        "Move your arms up and down rhythmically with the rope as you jump."
-      ],
-      "nl": [
-        "Houd de uiteinden vast en maak jumping jacks.",
-        "Breng je armen omhoog en omlaag met het touw terwijl je springt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "HITeydDCHGI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 9,
-          "channel": "R&G Fitness"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T19:29:04.393Z"
     }
   },
   {
@@ -608,93 +441,6 @@
     }
   },
   {
-    "id": "battle_rope_seated_rainbows",
-    "exercise_name": {
-      "en": "Seated Rainbows",
-      "nl": "Seated Rainbows"
-    },
-    "aliases": [
-      "Seated Rainbows"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Sit on the floor.",
-        "Rainbow the ropes across your knees from hip to hip in a wide arcing wave."
-      ],
-      "nl": [
-        "Zit op de grond.",
-        "Til de touwen met twee handen over je benen heen van links naar rechts in een grote boog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "u7J7_SGAl-c",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 10,
-          "channel": "Onnit Academy",
-          "likes": 20
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T20:52:33.342Z"
-    }
-  },
-  {
     "id": "battle_rope_side_to_side_waves",
     "exercise_name": {
       "en": "Side to Side Waves",
@@ -948,178 +694,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T20:58:22.268Z"
-    }
-  },
-  {
-    "id": "battle_rope_star_jumps",
-    "exercise_name": {
-      "en": "Star Jumps",
-      "nl": "Star Jumps"
-    },
-    "aliases": [
-      "Star Jumps"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Explosive Power",
-      "nl": "Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Start crouched with the ropes low.",
-        "Jump explosively into an X-shape (Star Jump) and swing the ropes wide up."
-      ],
-      "nl": [
-        "Begin gehurkt met de touwen laag.",
-        "Spring explosief uit in een X-vorm (Star Jump) en zwaai de touwen wijd omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xP2vx9-vDzg",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "PureGym"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T20:58:43.261Z"
-    }
-  },
-  {
-    "id": "battle_rope_uppercuts",
-    "exercise_name": {
-      "en": "Uppercuts",
-      "nl": "Uppercuts"
-    },
-    "aliases": [
-      "Uppercuts"
-    ],
-    "material": {
-      "id": "battle_rope",
-      "name": {
-        "en": "Battle Ropes",
-        "nl": "Battle Rope"
-      },
-      "description": {
-        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
-        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
-      }
-    },
-    "category": {
-      "en": "Arms & Core",
-      "nl": "Armen / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Step slightly forward.",
-        "Perform short, rapid alternating punch drives with the battle ropes.",
-        "Focus on speed."
-      ],
-      "nl": [
-        "Stap iets naar voren.",
-        "Maak korte, snelle opwaartse stootbewegingen (alternating) met de touwen.",
-        "Focus op snelheid."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "battle_rope_plank_waves"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "HIZI3TkbJjs",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 7,
-          "channel": "Boston Athletic Club"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T20:58:52.135Z"
     }
   },
   {
@@ -1717,6 +1291,437 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T12:33:01.746Z"
+    }
+  },
+  {
+    "id": "battle_rope_burpee_slams",
+    "exercise_name": {
+      "en": "Burpee Slams",
+      "nl": "Burpee Slams"
+    },
+    "aliases": [
+      "Burpee Slams"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Full Body HIIT",
+      "nl": "HIIT / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Perform a rope slam, drop into a burpee, jump back up, and immediately transition into the next slam."
+      ],
+      "nl": [
+        "Maak een Rope Slam, laat de touwen vallen (of houd vast), spring naar plank (burpee), spring terug en maak direct weer een slam."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ovLvSnpRpEE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Action Ready Training Club",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_jumping_jacks",
+    "exercise_name": {
+      "en": "Battle Rope Jumping Jacks",
+      "nl": "Battle Rope Jumping Jacks"
+    },
+    "aliases": [
+      "Battle Rope Jumping Jacks"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Shoulders",
+      "nl": "Cardio / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hold the ends and do jumping jacks.",
+        "Move your arms up and down rhythmically with the rope as you jump."
+      ],
+      "nl": [
+        "Houd de uiteinden vast en maak jumping jacks.",
+        "Breng je armen omhoog en omlaag met het touw terwijl je springt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "rdBJnxC_t98",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Elev8 Fitness - Open 24/7",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_seated_rainbows",
+    "exercise_name": {
+      "en": "Seated Rainbows",
+      "nl": "Seated Rainbows"
+    },
+    "aliases": [
+      "Seated Rainbows"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor.",
+        "Rainbow the ropes across your knees from hip to hip in a wide arcing wave."
+      ],
+      "nl": [
+        "Zit op de grond.",
+        "Til de touwen met twee handen over je benen heen van links naar rechts in een grote boog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "GxoICkczHDI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Omero Rangel",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_star_jumps",
+    "exercise_name": {
+      "en": "Star Jumps",
+      "nl": "Star Jumps"
+    },
+    "aliases": [
+      "Star Jumps"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start crouched with the ropes low.",
+        "Jump explosively into an X-shape (Star Jump) and swing the ropes wide up."
+      ],
+      "nl": [
+        "Begin gehurkt met de touwen laag.",
+        "Spring explosief uit in een X-vorm (Star Jump) en zwaai de touwen wijd omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "BleEVEKX5RM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SweatwithSarah ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "battle_rope_uppercuts",
+    "exercise_name": {
+      "en": "Uppercuts",
+      "nl": "Uppercuts"
+    },
+    "aliases": [
+      "Uppercuts"
+    ],
+    "material": {
+      "id": "battle_rope",
+      "name": {
+        "en": "Battle Ropes",
+        "nl": "Battle Rope"
+      },
+      "description": {
+        "en": "Heavy dynamic training ropes for metabolic conditioning and explosive upper body endurance",
+        "nl": "Zware trainingstouwen voor conditietraining en explosief uithoudingsvermogen"
+      }
+    },
+    "category": {
+      "en": "Arms & Core",
+      "nl": "Armen / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Step slightly forward.",
+        "Perform short, rapid alternating punch drives with the battle ropes.",
+        "Focus on speed."
+      ],
+      "nl": [
+        "Stap iets naar voren.",
+        "Maak korte, snelle opwaartse stootbewegingen (alternating) met de touwen.",
+        "Focus op snelheid."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "battle_rope_plank_waves"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "aUUC3qCm98A",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Power Serge Method",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
     }
   }
 ]

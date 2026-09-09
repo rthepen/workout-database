@@ -518,92 +518,6 @@
     }
   },
   {
-    "id": "deadball_dead_ball_bear_hug_carry",
-    "exercise_name": {
-      "en": "Bear Hug Carry",
-      "nl": "Bear Hug Carry"
-    },
-    "aliases": [
-      "Bear Hug Carry"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Core Conditioning",
-      "nl": "Core / Conditie"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lift the medicine ball and hug it tightly against your torso.",
-        "Walk forward for the designated distance.",
-        "Stay upright, do not let your back collapse."
-      ],
-      "nl": [
-        "Til de bal op en klem hem strak tegen je borst/buik.",
-        "Loop een afstand.",
-        "Blijf rechtop, laat de rug niet inzakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ZviBCTOEvTk",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 17,
-          "channel": "CrossFit Invictus"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-04T13:43:54.140Z"
-    }
-  },
-  {
     "id": "deadball_dead_ball_chest_pass",
     "exercise_name": {
       "en": "Dead Ball Chest Pass (Wall/Floor)",
@@ -776,91 +690,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-04T13:45:18.538Z"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_floor_press",
-    "exercise_name": {
-      "en": "Dead Ball Floor Press",
-      "nl": "Dead Ball Floor Press"
-    },
-    "aliases": [
-      "Dead Ball Floor Press"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Chest & Triceps",
-      "nl": "Borst / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "anterior_deltoid",
-        "pectorals"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back.",
-        "Hold the ball on your chest with both hands.",
-        "Push the ball straight up (explosive) and lower in a controlled manner."
-      ],
-      "nl": [
-        "Lig op rug.",
-        "Houd de bal met twee handen op de borst.",
-        "Duw de bal recht omhoog (explosief) en laat gecontroleerd zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "VgKBoo3yAFY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 13,
-          "channel": "98 Training"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-04T13:45:58.456Z"
     }
   },
   {
@@ -1731,6 +1560,179 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_bear_hug_carry",
+    "exercise_name": {
+      "en": "Bear Hug Carry",
+      "nl": "Bear Hug Carry"
+    },
+    "aliases": [
+      "Bear Hug Carry"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Core Conditioning",
+      "nl": "Core / Conditie"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lift the medicine ball and hug it tightly against your torso.",
+        "Walk forward for the designated distance.",
+        "Stay upright, do not let your back collapse."
+      ],
+      "nl": [
+        "Til de bal op en klem hem strak tegen je borst/buik.",
+        "Loop een afstand.",
+        "Blijf rechtop, laat de rug niet inzakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "QQ0beWNWnGQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Made 2 Move Physical Therapy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_floor_press",
+    "exercise_name": {
+      "en": "Dead Ball Floor Press",
+      "nl": "Dead Ball Floor Press"
+    },
+    "aliases": [
+      "Dead Ball Floor Press"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Chest & Triceps",
+      "nl": "Borst / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back.",
+        "Hold the ball on your chest with both hands.",
+        "Push the ball straight up (explosive) and lower in a controlled manner."
+      ],
+      "nl": [
+        "Lig op rug.",
+        "Houd de bal met twee handen op de borst.",
+        "Duw de bal recht omhoog (explosief) en laat gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JN4_yqtPGKM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Daniel Young",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T14:11:45.233Z"
     }
   }
 ]
