@@ -5,19 +5,46 @@ const LIVE_DATA_URL = 'https://raw.githubusercontent.com/rthepen/workout-databas
 const STORAGE_KEY = 'workout_db_custom_edits_v2';
 
 export async function fetchAllExercises(forceLive: boolean = false): Promise<{ exercises: Exercise[]; isLive: boolean }> {
-  // In development, prioritize local bundled data directly so file/database updates are immediately active
-  if (import.meta.env.DEV && !forceLive) {
-    return { exercises: bundledData as unknown as Exercise[], isLive: true };
+  let baseExercises: Exercise[] = bundledData as unknown as Exercise[];
+  let isLive = false;
+
+  if (forceLive) {
+    resetLocalEdits();
   }
 
-  // Check if we have local storage modified state first (unless forceLive is true)
+  // Attempt to fetch fresh live data from GitHub (with cache busting)
+  try {
+    const res = await fetch(`${LIVE_DATA_URL}?t=${Date.now()}`, { cache: 'no-cache' });
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data) && data.length >= baseExercises.length) {
+        baseExercises = data as Exercise[];
+        isLive = true;
+      }
+    }
+  } catch (err) {
+    console.warn('Live fetch failed, using bundled database snapshot:', err);
+  }
+
+  // Check if we have local storage modified state (unless forceLive is true)
   if (!forceLive) {
     const cachedEdits = localStorage.getItem(STORAGE_KEY);
     if (cachedEdits) {
       try {
         const parsed = JSON.parse(cachedEdits);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          return { exercises: parsed, isLive: false };
+          // Merge local edits into baseExercises by ID, preserving all new exercises
+          const localMap = new Map<string, Exercise>(parsed.map((e: Exercise) => [e.id, e]));
+          const merged = baseExercises.map(e => localMap.get(e.id) || e);
+
+          // Also include any newly created custom exercises added locally
+          parsed.forEach((e: Exercise) => {
+            if (!merged.some(m => m.id === e.id)) {
+              merged.unshift(e);
+            }
+          });
+
+          return { exercises: merged, isLive: false };
         }
       } catch {
         // Fallback
@@ -25,18 +52,7 @@ export async function fetchAllExercises(forceLive: boolean = false): Promise<{ e
     }
   }
 
-  // Attempt to fetch fresh live data from GitHub with fallback to bundled snapshot
-  try {
-    const res = await fetch(`${LIVE_DATA_URL}?t=${Date.now()}`, { cache: 'no-cache' });
-    if (res.ok) {
-      const data = await res.json();
-      return { exercises: data as Exercise[], isLive: true };
-    }
-  } catch (err) {
-    console.warn('Live fetch failed, using bundled database snapshot:', err);
-  }
-
-  return { exercises: bundledData as unknown as Exercise[], isLive: false };
+  return { exercises: baseExercises, isLive };
 }
 
 export function saveExercisesToLocal(exercises: Exercise[]) {
