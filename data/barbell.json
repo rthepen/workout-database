@@ -5193,5 +5193,428 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_floor_press",
+    "exercise_name": {
+      "en": "Floor Press",
+      "nl": "Floor Press"
+    },
+    "aliases": [
+      "Floor Press",
+      "Floor_Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "pectorals",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on the floor inside a power rack with barbell racked at arm's reach overhead.",
+        "Unrack the bar and lower it under control with elbows tucked until upper arms rest flat on the floor.",
+        "Pause briefly to eliminate momentum, then press the barbell explosively back up to full lockout."
+      ],
+      "nl": [
+        "Ga op de grond in een rack liggen met de halterstang op armlengte boven je.",
+        "Til de stang uit en laat deze gecontroleerd zakken met aangesloten ellebogen tot je bovenarmen op de vloer rusten.",
+        "Pauzeer kort op de vloer en druk de stang explosief uit tot volledige armstrekking."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Do not bounce elbows off the floor; come to a dead-stop pause."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Laat je ellebogen niet op de vloer stuiteren maar stop de beweging volledig stil."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Floor_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Floor_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_frankenstein_squat",
+    "exercise_name": {
+      "en": "Frankenstein Squat",
+      "nl": "Frankenstein Squat"
+    },
+    "aliases": [
+      "Frankenstein Squat",
+      "Frankenstein_Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rest the barbell across front anterior deltoids and extend both arms straight forward like a zombie/Frankenstein.",
+        "With torso strictly vertical, squat down between your hips until hamstrings contact calves.",
+        "Drive through midfoot and heels to stand back up, keeping arms elevated parallel to floor to secure the bar."
+      ],
+      "nl": [
+        "Plaats de halterstang op de voorkant van je schouders en strek beide armen recht vooruit (als Frankenstein).",
+        "Zak met een kaarsrechte romp diep door je heupen en knieën.",
+        "Duw de vloer weg vanuit je voeten om weer rechtop te komen, terwijl je armen horizontaal blijven om de stang op zijn plek te houden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Do not allow chest to dip forward or the barbell will roll off the shoulders."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Leun niet naar voren, anders rolt de stang van je schouders af."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frankenstein_Squat/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frankenstein_Squat/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_front_plate_raise",
+    "exercise_name": {
+      "en": "Front Plate Raise",
+      "nl": "Front Plate Raise"
+    },
+    "aliases": [
+      "Front Plate Raise",
+      "Front_Plate_Raise"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Weight Plate",
+        "nl": "Halterschijf"
+      },
+      "description": {
+        "en": "Olympic weight plate held in hands for shoulder conditioning",
+        "nl": "Halterschijf voor schouder- en armisolatie"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding an Olympic weight plate with both hands at 9 and 3 o'clock positions in front of your waist.",
+        "With straight arms and slight elbow softness, raise plate upward to eye level as you exhale.",
+        "Hold the peak shoulder contraction for one second, then slowly lower the plate back to waist."
+      ],
+      "nl": [
+        "Sta rechtop en houd een halterschijf op 9 en 3 uur voor je heupen vast.",
+        "Hef de schijf met nagenoeg gestrekte armen omhoog tot ooghoogte terwijl je uitademt.",
+        "Houd bovenin één seconde vast en laat de schijf rustig zakken naar je heupen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Avoid swinging torso backward to initiate upward momentum.",
+        "Keep elbows soft and fixed; do not turn lift into an upright row."
+      ],
+      "nl": [
+        "Blijf stil staan en zwaai niet met je bovenlichaam om gang te maken.",
+        "Houd je armen gestrekt en buig je ellebogen niet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Plate_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Plate_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_front_raise_and_pullover",
+    "exercise_name": {
+      "en": "Front Raise And Pullover",
+      "nl": "Front Raise And Pullover"
+    },
+    "aliases": [
+      "Front Raise And Pullover",
+      "Front_Raise_And_Pullover"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "latissimus_dorsi",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on a flat bench holding a barbell over your thighs with arms straight.",
+        "Raise the bar in a wide semicircular arc upward and all the way behind your head until arms are parallel to floor.",
+        "Reverse the 180-degree arc smoothly to bring the bar back to your thighs as you exhale."
+      ],
+      "nl": [
+        "Ga op een vlakke bank liggen en houd de stang op je bovenbenen met gestrekte armen.",
+        "Hef de stang in een wijde boog over je borst heen helemaal naar achteren tot achter je hoofd.",
+        "Beweeg via dezelfde boog van 180 graden gecontroleerd terug naar je bovenbenen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain slight elbow bend to protect joint integrity.",
+        "Brace core to keep ribs from flaring excessively when arms are overhead."
+      ],
+      "nl": [
+        "Houd een lichte knik in je ellebogen om je pezen te beschermen.",
+        "Span je buikspieren aan zodat je onderrug niet hol trekt als de stang achter je hoofd zakt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Raise_And_Pullover/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Raise_And_Pullover/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_good_morning_off_pins",
+    "exercise_name": {
+      "en": "Good Morning off Pins",
+      "nl": "Good Morning vanaf Pinnen"
+    },
+    "aliases": [
+      "Good Morning off Pins",
+      "Good_Morning_off_Pins"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell & Rack",
+        "nl": "Halterstang & Power Rack"
+      },
+      "description": {
+        "en": "Barbell supported on safety rack pins at stomach height for dead-stop hip hinging",
+        "nl": "Halterstang op veiligheidspennen voor hip hinge vanuit stilstand"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "glutes",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Set safety pins at stomach height so barbell rests horizontally near hip level.",
+        "Hinge underneath and rack the bar across your rear deltoids in a parallel bent-over stance.",
+        "Drive hips forward to stand upright to full extension, squeezing glutes and hamstrings.",
+        "Hinge back down to rest the bar back onto the pins before the next rep."
+      ],
+      "nl": [
+        "Stel de pinnen in het rack af op buikhoogte zodat de stang net onder heuphoogte ligt.",
+        "Kruip onder de stang met een gebogen heup en leg de stang op je achterste schouders.",
+        "Duw je heupen krachtig naar voren om rechtop te gaan staan vanuit je hamstrings en billen.",
+        "Buig weer gecontroleerd voorover tot de stang stil op de pinnen rust."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep cervical spine neutral and back strictly flat.",
+        "Drive from hips without rounding thoracic spine under dead-stop loads."
+      ],
+      "nl": [
+        "Houd je rug strak en recht en je nek in één lijn met je wervelkolom.",
+        "Til het gewicht puur vanuit je heupextensie zonder je bovenrug te bollen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Good_Morning_off_Pins/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Good_Morning_off_Pins/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

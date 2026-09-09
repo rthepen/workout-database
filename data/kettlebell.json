@@ -4741,5 +4741,89 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "kettlebell_front_squats_two_kettlebells",
+    "exercise_name": {
+      "en": "Front Squats With Two Kettlebells",
+      "nl": "Double Kettlebell Front Squat"
+    },
+    "aliases": [
+      "Front Squats With Two Kettlebells",
+      "Front_Squats_With_Two_Kettlebells"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Clean two kettlebells into a tight front rack position against your chest.",
+        "With chest up and eyes forward, squat deeply between your legs, pushing knees out.",
+        "Drive through your heels to stand tall back to the top lockout."
+      ],
+      "nl": [
+        "Clean twee kettlebells naar de rack-positie stevig tegen je borst.",
+        "Houd je borst fier vooruit en squat diep tussen je benen terwijl je je knieën naar buiten duwt.",
+        "Duw de vloer krachtig weg vanuit je hielen om weer rechtop te komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain high elbows so kettlebells do not pull your torso forward."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Houd je ellebogen hoog zodat de gewichten je niet voorover trekken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Squats_With_Two_Kettlebells/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Squats_With_Two_Kettlebells/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

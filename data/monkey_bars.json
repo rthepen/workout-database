@@ -1952,5 +1952,89 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "monkey_bars_gironda_sternum_chins",
+    "exercise_name": {
+      "en": "Gironda Sternum Chins",
+      "nl": "Gironda Sternum Chins"
+    },
+    "aliases": [
+      "Gironda Sternum Chins",
+      "Gironda_Sternum_Chins"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "rhomboids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Grasp a pull-up bar with an underhand grip, arms extended, and lean back into an arched spine.",
+        "Pull upward while leaning back further until your chest and sternum contact the bar.",
+        "Pause and squeeze lats and upper back hard, then lower under control to arm extension."
+      ],
+      "nl": [
+        "Pak de optrekstang onderhands vast en leun achterover met een holle rug.",
+        "Trek jezelf omhoog terwijl je verder achterover helt tot je borstbeen (sternum) de stang raakt.",
+        "Knijp je hele rugspiergroep samen en laat je gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep spine arched and head tilted back throughout the movement.",
+        "Lead with elbows pulling down toward your hips."
+      ],
+      "nl": [
+        "Houd je rug hol en je hoofd achterover gekanteld tijdens de hele lift.",
+        "Trek je ellebogen naar beneden richting je heupen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gironda_Sternum_Chins/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gironda_Sternum_Chins/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

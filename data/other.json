@@ -694,5 +694,175 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "foam_roller_foot_smr",
+    "exercise_name": {
+      "en": "Foot Foam Roll / SMR",
+      "nl": "Voetzool Massage / SMR"
+    },
+    "aliases": [
+      "Foot-SMR"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Foot Roller / Ball",
+        "nl": "Voetroller / Massagebal"
+      },
+      "description": {
+        "en": "Small roller, lacrosse ball, or pipe for plantar fascia release",
+        "nl": "Kleine massageroller of bal voor de peesplaat onder de voet"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit upright with shoes removed and place the arch of your foot over a small roller or ball.",
+        "Apply downward bodyweight pressure onto the roller.",
+        "Roll slowly from the ball of your foot to the heel, pausing on tender spots for 10-30 seconds."
+      ],
+      "nl": [
+        "Ga op een stoel zitten zonder schoenen en plaats de voetboog op een massagebal of kleine roller.",
+        "Geef gecontroleerde neerwaartse druk met je voet.",
+        "Rol langzaam van de bal van de voet naar de hiel en houd gevoelige plekken 10-30 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain gradual, tolerable pressure without tensing toes.",
+        "Breathe deeply and relax the foot muscles as you roll."
+      ],
+      "nl": [
+        "Doseer de druk rustig en verkramp je tenen niet.",
+        "Adem ontspannen door en laat de spanning onder de voet los."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "sled_forward_drag_with_press",
+    "exercise_name": {
+      "en": "Forward Drag with Press",
+      "nl": "Forward Drag with Press"
+    },
+    "aliases": [
+      "Forward Drag with Press",
+      "Forward_Drag_with_Press"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Weight Sled / Prowler",
+        "nl": "Gewichtsslee / Prowler"
+      },
+      "description": {
+        "en": "Heavy turf sled with attached straps and handles",
+        "nl": "Zware slee met banden en handvatten voor trek- en duwwerk"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings",
+        "quadriceps",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Attach strap handles to a loaded sled and stand facing away from the sled.",
+        "Take a step forward leaning your body into the straps.",
+        "With each forward stride, press both handles forward vigorously in a chest press motion.",
+        "Continue marching forward pressing with each step across the designated distance."
+      ],
+      "nl": [
+        "Bevestig handvatten aan een gewichtsslee en ga met je rug naar de slee toe staan.",
+        "Stap voorwaarts terwijl je schuin naar voren leunt in de banden.",
+        "Druk bij elke stap beide handvatten krachtig naar voren in een borstdrukbeweging.",
+        "Blijf voorwaarts lopen en stoten over de gewenste afstand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Drive forcefully off the balls of your feet on every step.",
+        "Time arm press synchronously with lead foot plant."
+      ],
+      "nl": [
+        "Zet krachtig af vanuit de bal van je voet bij elke pas.",
+        "Stoot met je armen gelijktijdig met het neerzetten van je voorste voet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Forward_Drag_with_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Forward_Drag_with_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

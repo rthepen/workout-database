@@ -4189,7 +4189,8 @@
       "nl": "Flutter Kicks"
     },
     "aliases": [
-      "Flutter Kicks"
+      "Flutter Kicks",
+      "Flutter_Kicks"
     ],
     "material": {
       "id": "bodyweight",
@@ -4208,65 +4209,63 @@
     },
     "target_muscles": {
       "primary": [
-        "quadriceps",
-        "gluteus_maximus"
+        "glutes",
+        "rectus_abdominis"
       ],
       "secondary": [
-        "hamstrings",
-        "calves"
+        "hamstrings"
       ]
     },
     "attributes": {
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
+      "force_type": "pull",
+      "tracking_type": "time_only"
     },
     "instructions": {
       "en": [
-        "Lie on your back, hands under your buttocks.",
-        "Legs extended slightly off the ground and make small kicking movements."
+        "Lie face down on a flat bench with hips at the edge, or on your back on the floor.",
+        "Lift legs straight until aligned with hips.",
+        "Kick legs alternately up and down in a small, continuous flutter motion.",
+        "Maintain controlled rhythm and steady breathing throughout the set."
       ],
       "nl": [
-        "Lig op de rug, handen onder de billen.",
-        "Benen gestrekt iets van de grond en maak kleine trappelbewegingen."
+        "Ga op je buik op een bankje liggen met je heupen op de rand (of op je rug op de vloer).",
+        "Hef je benen gestrekt omhoog op heuphoogte.",
+        "Beweeg je benen om en om op en neer in een snelle, kleine flipperbeweging.",
+        "Houd je core strak aangespannen en adem rustig door."
       ]
     },
     "form_cues": {
       "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
+        "Keep legs straight and toes pointed; initiate flutter from hips.",
+        "Brace core tightly to stabilize pelvis and lower back."
       ],
       "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+        "Houd je benen gestrekt en trap vanuit je heupen en billen.",
+        "Span je buikspieren hard aan om je bekken stabiel te houden."
       ]
     },
     "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
+      "progressions": [],
+      "regressions": []
     },
     "media": {
-      "videos": [
+      "images": [
         {
-          "youtube_id": "qxzJ8k215UI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "Sohel Fitness Zone",
-          "likes": 18
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/1.jpg",
+          "type": "photo"
         }
-      ]
+      ],
+      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T21:05:38.697Z"
+      "updated_at": "2026-09-09"
     }
   },
   {
@@ -10767,6 +10766,341 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Lying_Leg_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_frog_hops",
+    "exercise_name": {
+      "en": "Frog Hops",
+      "nl": "Frog Hops (Kikkersprongen)"
+    },
+    "aliases": [
+      "Frog Hops",
+      "Frog_Hops"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Squat deep with hands behind head and torso upright.",
+        "Explode forward and upward bounding several feet across the floor.",
+        "Land softly in a deep squat to absorb the impact and immediately bound into the next hop."
+      ],
+      "nl": [
+        "Zak in een diepe squat met je handen achter je hoofd en borst rechtop.",
+        "Spring explosief naar voren over de grond.",
+        "Land verend in een diepe squat om de klap op te vangen en spring direct weer door."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure knees stay aligned over toes without collapsing inward on landings."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen en landen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frog_Hops/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frog_Hops/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_frog_sit_ups",
+    "exercise_name": {
+      "en": "Frog Sit-Ups",
+      "nl": "Frog Sit-Ups"
+    },
+    "aliases": [
+      "Frog Sit-Ups",
+      "Frog_Sit-Ups"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on the floor with knees opened wide and soles of feet pressed together in a diamond shape.",
+        "Cross arms over your chest touching opposing shoulders.",
+        "Flatten lower back to the floor and curl torso upward into a crunch.",
+        "Pause for a second at the top contraction and lower slowly to starting position."
+      ],
+      "nl": [
+        "Ga op je rug liggen, klap je knieën wijd naar buiten en druk je voetzolen tegen elkaar (diamantvorm).",
+        "Kruis je armen over je borst.",
+        "Druk je onderrug tegen de vloer en crunch met je bovenlichaam omhoog.",
+        "Knijp je buikspieren bovenin samen en laat je rustig weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frog_Sit-Ups/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frog_Sit-Ups/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_front_leg_raises",
+    "exercise_name": {
+      "en": "Front Leg Raises (Dynamic Hamstring Swing)",
+      "nl": "Front Leg Raises"
+    },
+    "aliases": [
+      "Front Leg Raises",
+      "Front_Leg_Raises"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall next to a wall or support post for balance.",
+        "Keep the working leg straight and swing it forward as high as comfortable.",
+        "Allow it to swing back behind you under control, gradually increasing height with each rep before switching legs."
+      ],
+      "nl": [
+        "Sta rechtop naast een muur of paal voor balans.",
+        "Houd je been gestrekt en zwaai het gecontroleerd vooruit omhoog.",
+        "Laat het been soepel naar achteren doorzwaaien en vergroot geleidelijk de hoogte per herhaling."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep torso upright; avoid leaning backward when leg swings high.",
+        "Move rhythmically without snapping the knee joint into hyperextension."
+      ],
+      "nl": [
+        "Blijf rechtop staan en leun niet naar achteren wanneer je been hoog zwaait.",
+        "Zwaai soepel en overstrek je kniegewricht niet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Leg_Raises/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Leg_Raises/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_glute_kickback",
+    "exercise_name": {
+      "en": "Glute Kickback",
+      "nl": "Glute Kickback (Donkey Kicks)"
+    },
+    "aliases": [
+      "Glute Kickback",
+      "Glute_Kickback"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start on all fours with hands under shoulders and knees bent at 90 degrees.",
+        "Keeping the knee bent at 90 degrees, kick one leg upward until the thigh is parallel to the floor.",
+        "Squeeze the glute hard at peak height, then lower knee back to start and alternate or repeat."
+      ],
+      "nl": [
+        "Begin op handen en knieën met je polsen onder je schouders en knieën op heupbreedte.",
+        "Houd je knie in een hoek van 90 graden en trap je been omhoog tot je bovenbeen parallel is aan de vloer.",
+        "Knijp je bilspier bovenin stevig samen en laat je knie rustig terugzakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Do not arch or twist your lower back; isolate movement purely in the hip.",
+        "Drive through the heel upward toward the ceiling."
+      ],
+      "nl": [
+        "Trek je onderrug niet hol en draai je bekken niet scheef.",
+        "Duw je hiel recht omhoog richting het plafond."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Glute_Kickback/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Glute_Kickback/1.jpg",
           "type": "photo"
         }
       ],

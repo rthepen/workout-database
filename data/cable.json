@@ -2006,5 +2006,90 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "cable_full_rom_lat_pulldown",
+    "exercise_name": {
+      "en": "Full Range-Of-Motion Lat Pulldown",
+      "nl": "Full Range-Of-Motion Lat Pulldown"
+    },
+    "aliases": [
+      "Full Range-Of-Motion Lat Pulldown",
+      "Full_Range-Of-Motion_Lat_Pulldown"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "rhomboids",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Grasp two stirrup handles from opposing high pulleys with arms crisscrossed overhead.",
+        "Maintain upright chest and pull handles downward and outward along an arced path.",
+        "Rotate wrists so palms face inward at bottom contraction, squeezing lats firmly before returning."
+      ],
+      "nl": [
+        "Pak twee losse handvatten kruislings vast aan de hoge katrollen.",
+        "Houd je borst vooruit en trek de handvatten in een ruime boog naar beneden.",
+        "Draai je polsen zodat je handpalmen onderin naar elkaar wijzen en knijp je rugspieren samen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid excessive torso swinging; isolate the movement in the latissimus."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Blijf stil zitten en zwaai niet achterover met je rug."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Full_Range-Of-Motion_Lat_Pulldown/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Full_Range-Of-Motion_Lat_Pulldown/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

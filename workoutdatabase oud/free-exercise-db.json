@@ -1,414 +1,22 @@
 [
     {
-        "id": "bodyweight_dynamic_back_stretch",
+        "id": "barbell_floor_press",
         "exercise_name": {
-            "en": "Dynamic Back Stretch",
-            "nl": "Dynamische Rugstretch"
+            "en": "Floor Press",
+            "nl": "Floor Press"
         },
         "aliases": [
-            "Dynamic Back Stretch"
+            "Floor Press"
         ],
         "material": {
-            "id": "bodyweight",
+            "id": "barbell",
             "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
+                "en": "Barbell",
+                "nl": "Halterstang"
             },
             "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-            }
-        },
-        "category": {
-            "en": "Mobility & Stretching",
-            "nl": "Mobiliteit & Rekken"
-        },
-        "target_muscles": {
-            "primary": [
-                "lats"
-            ],
-            "secondary": []
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Stand with feet shoulder-width apart and arms hanging at your sides[cite: 1].",
-                "Keeping arms straight, swing them smoothly straight up in front of you and overhead[cite: 1].",
-                "Gradually increase the dynamic range of motion on each swing until arms extend fully overhead[cite: 1]."
-            ],
-            "nl": [
-                "Sta met je voeten op schouderbreedte en je armen ontspannen langs je lichaam[cite: 1].",
-                "Houd je armen gestrekt en zwaai ze gecontroleerd voor je omhoog tot boven je hoofd[cite: 1].",
-                "Vergroot de bewegingsuitslag geleidelijk per herhaling tot je armen volledig boven je hoofd reiken[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep your core lightly braced to prevent hyperextending your lumbar spine[cite: 2].",
-                "Swing in a rhythmic, continuous, and controlled tempo[cite: 1]."
-            ],
-            "nl": [
-                "Span je buikspieren licht aan zodat je onderrug niet hol trekt[cite: 2].",
-                "Zwaai in een soepel, ritmisch en beheerst tempo[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Dynamic_Back_Stretch/0.jpg",
-                "Dynamic_Back_Stretch/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Dynamic_Back_Stretch",
-            "original_category": "stretching"
-        }
-    },
-    {
-        "id": "bodyweight_dynamic_chest_stretch",
-        "exercise_name": {
-            "en": "Dynamic Chest Stretch",
-            "nl": "Dynamische Borststretch"
-        },
-        "aliases": [
-            "Dynamic Chest Stretch"
-        ],
-        "material": {
-            "id": "bodyweight",
-            "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
-            },
-            "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-            }
-        },
-        "category": {
-            "en": "Mobility & Stretching",
-            "nl": "Mobiliteit & Rekken"
-        },
-        "target_muscles": {
-            "primary": [
-                "chest"
-            ],
-            "secondary": [
-                "middle_back"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Stand tall with arms extended straight out in front at chest height with palms facing inward[cite: 1].",
-                "Swing both arms out wide horizontally as far back as comfortable to open the chest[cite: 1].",
-                "Rebound smoothly back across the front in an exaggerated clapping motion, increasing rhythm gradually[cite: 1]."
-            ],
-            "nl": [
-                "Sta rechtop met je armen recht vooruit gestrekt op borsthoogte en handpalmen naar elkaar toe[cite: 1].",
-                "Zwaai beide armen horizontaal wijd naar achteren om je borstkas te openen[cite: 1].",
-                "Beweeg ze direct weer soepel naar elkaar toe voor je borst in een overdreven klapbeweging[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep arms parallel to the floor throughout the swings[cite: 1].",
-                "Retract your shoulder blades actively as arms open wide[cite: 2]."
-            ],
-            "nl": [
-                "Houd je armen gedurende de hele oefening horizontaal op borsthoogte[cite: 1].",
-                "Knijp je schouderbladen bewust samen wanneer je armen openzwaaien[cite: 2]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Dynamic_Chest_Stretch/0.jpg",
-                "Dynamic_Chest_Stretch/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Dynamic_Chest_Stretch",
-            "original_category": "stretching"
-        }
-    },
-    {
-        "id": "bodyweight_elbow_circles",
-        "exercise_name": {
-            "en": "Elbow Circles",
-            "nl": "Ellebogen Cirkelen"
-        },
-        "aliases": [
-            "Elbow Circles"
-        ],
-        "material": {
-            "id": "bodyweight",
-            "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
-            },
-            "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-            }
-        },
-        "category": {
-            "en": "Mobility & Stretching",
-            "nl": "Mobiliteit & Rekken"
-        },
-        "target_muscles": {
-            "primary": [
-                "shoulders"
-            ],
-            "secondary": [
-                "traps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Sit or stand tall and place fingertips onto tops of your shoulders with elbows flared to the sides[cite: 1].",
-                "Slowly trace large circular paths with both elbows simultaneously[cite: 1].",
-                "Exhale as you rotate forward and inhale as you complete the circle backward[cite: 1]."
-            ],
-            "nl": [
-                "Zit of sta rechtop en leg je vingertoppen op je schouders met je ellebogen opzij gericht[cite: 1].",
-                "Draai langzaam grote, ruime cirkels met beide ellebogen tegelijk[cite: 1].",
-                "Blaas uit terwijl je naar voren cirkelt en adem in wanneer je de cirkel naar achteren voltooit[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep fingers resting lightly on the shoulders throughout[cite: 1].",
-                "Maximize mobility by drawing as large a diameter circle as comfortable[cite: 1]."
-            ],
-            "nl": [
-                "Houd je vingers losjes op je schouders liggen tijdens het draaien[cite: 1].",
-                "Maak de cirkels zo groot mogelijk om het hele gewricht los te maken[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Elbow_Circles/0.jpg",
-                "Elbow_Circles/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Elbow_Circles",
-            "original_category": "stretching"
-        }
-    },
-    {
-        "id": "bodyweight_elbow_to_knee",
-        "exercise_name": {
-            "en": "Elbow to Knee Crunch",
-            "nl": "Elbow to Knee Crunch"
-        },
-        "aliases": [
-            "Elbow to Knee"
-        ],
-        "material": {
-            "id": "bodyweight",
-            "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
-            },
-            "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-            }
-        },
-        "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
-        },
-        "target_muscles": {
-            "primary": [
-                "abdominals"
-            ],
-            "secondary": [
-                "obliques"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Lie on the floor and cross your right ankle over your bent left knee[cite: 1].",
-                "Place hands lightly behind your head[cite: 1].",
-                "Flex your spine and rotate your torso diagonally to drive your left elbow toward your right knee[cite: 1].",
-                "Lower under control, complete prescribed reps, then switch sides[cite: 1]."
-            ],
-            "nl": [
-                "Ga op je rug liggen en leg je rechterenkel over je gebogen linkerknie[cite: 1].",
-                "Houd je handen losjes achter je hoofd[cite: 1].",
-                "Kom schuin omhoog en breng je linkerelleboog richting je rechterknie[cite: 1].",
-                "Laat je gecontroleerd weer zakken, voltooi de herhalingen en wissel van kant[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
-                "Lead with the shoulder rather than pulling your head with your neck[cite: 1]."
-            ],
-            "nl": [
-                "Span je buikspieren hard aan en trek niet aan je nek[cite: 1, 2].",
-                "Focus op het heffen van je schouderblad in de richting van je knie[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Elbow_to_Knee/0.jpg",
-                "Elbow_to_Knee/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Elbow_to_Knee",
-            "original_category": "strength"
-        }
-    },
-    {
-        "id": "bodyweight_elbows_back_stretch",
-        "exercise_name": {
-            "en": "Elbows Back Stretch",
-            "nl": "Ellebogen naar Achteren Borststretch"
-        },
-        "aliases": [
-            "Elbows Back"
-        ],
-        "material": {
-            "id": "bodyweight",
-            "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
-            },
-            "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-            }
-        },
-        "category": {
-            "en": "Mobility & Stretching",
-            "nl": "Mobiliteit & Rekken"
-        },
-        "target_muscles": {
-            "primary": [
-                "chest"
-            ],
-            "secondary": [
-                "shoulders"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "static",
-            "tracking_type": "time_only"
-        },
-        "instructions": {
-            "en": [
-                "Stand tall with feet hip-width apart[cite: 1].",
-                "Place both palms on your lower back with fingers pointing downward and elbows flared out[cite: 1].",
-                "Gently draw both elbows straight back toward each other until you feel a stretch across the front of your chest and shoulders[cite: 1].",
-                "Hold the stretch for 15-20 seconds while breathing smoothly[cite: 1]."
-            ],
-            "nl": [
-                "Sta rechtop met je voeten op heupbreedte[cite: 1].",
-                "Plaats beide handen op je onderrug met de vingers omlaag en ellebogen naar buiten[cite: 1].",
-                "Trek beide ellebogen rustig naar elkaar toe naar achteren tot je rek voelt op je borst en schouders[cite: 1].",
-                "Houd deze stretch 15-20 seconden ontspannen vast terwijl je rustig doorademt[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep your head up and neck neutral; do not jut chin forward[cite: 1].",
-                "Maintain upright posture without excessively arching your lower back[cite: 1]."
-            ],
-            "nl": [
-                "Houd je kin in en duw je hoofd niet naar voren[cite: 1].",
-                "Blijf rechtop staan en trek je onderrug niet overdreven hol[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Elbows_Back/0.jpg",
-                "Elbows_Back/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Elbows_Back",
-            "original_category": "stretching"
-        }
-    },
-    {
-        "id": "cable_elevated_cable_rows",
-        "exercise_name": {
-            "en": "Elevated Cable Rows",
-            "nl": "Verhoogde Cable Rows"
-        },
-        "aliases": [
-            "Elevated Cable Rows"
-        ],
-        "material": {
-            "id": "cable",
-            "name": {
-                "en": "Cable Machine & Platform",
-                "nl": "Kabelstation & Verhoging"
-            },
-            "description": {
-                "en": "Seated cable row station with an added seat elevation block for altered pulling mechanics",
-                "nl": "Zittend roeistation met extra verhoging op het zitvlak voor een andere trekkhoek"
+                "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+                "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
             }
         },
         "category": {
@@ -417,276 +25,39 @@
         },
         "target_muscles": {
             "primary": [
-                "lats"
+                "triceps"
             ],
             "secondary": [
-                "middle_back",
-                "traps"
+                "chest",
+                "shoulders"
             ]
         },
         "attributes": {
             "difficulty": "intermediate",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_and_weight"
-        },
-        "instructions": {
-            "en": [
-                "Place a 4-6 inch platform on the seat of a seated cable row machine and sit upright[cite: 1].",
-                "Plant feet on footrests with knees slightly bent and grasp the V-bar handles[cite: 1].",
-                "With torso upright and back slightly arched, pull handles into your abdomen, driving elbows back[cite: 1].",
-                "Squeeze back muscles hard at peak contraction, then slowly extend arms to starting position[cite: 1]."
-            ],
-            "nl": [
-                "Leg een verhoging van 10-15 cm op de zitting van het roeiapparaat en ga rechtop zitten[cite: 1].",
-                "Zet je voeten tegen de steunen met licht gebogen knieën en pak de V-greep vast[cite: 1].",
-                "Trek de handvatten naar je buik toe terwijl je je ellebogen strak naar achteren trekt[cite: 1].",
-                "Knijp je rugspieren bovenin hard samen en laat het gewicht gecontroleerd weer teruggaan[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Lead the pull with your elbows and initiate with scapular retraction[cite: 2].",
-                "Keep torso stationary at a 90-degree angle to legs; avoid excessive swinging[cite: 1, 2]."
-            ],
-            "nl": [
-                "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen[cite: 2].",
-                "Houd je bovenlichaam stil en zwaai niet naar voren en achteren[cite: 1, 2]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Elevated_Cable_Rows/0.jpg",
-                "Elevated_Cable_Rows/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Elevated_Cable_Rows",
-            "original_category": "strength"
-        }
-    },
-    {
-        "id": "stability_ball_exercise_ball_crunch",
-        "exercise_name": {
-            "en": "Exercise Ball Crunch",
-            "nl": "Fysiobal Crunch"
-        },
-        "aliases": [
-            "Exercise Ball Crunch"
-        ],
-        "material": {
-            "id": "exercise_ball",
-            "name": {
-                "en": "Stability Ball",
-                "nl": "Fysiobal / Stabiliteitsbal"
-            },
-            "description": {
-                "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
-                "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
-            }
-        },
-        "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
-        },
-        "target_muscles": {
-            "primary": [
-                "abdominals"
-            ],
-            "secondary": []
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Sit on an exercise ball and roll forward until the ball supports your lower back curvature, feet flat on the floor[cite: 1].",
-                "Cross arms over chest or place hands beside head[cite: 1].",
-                "Lower torso into a stretch over the ball, then contract abs to curl shoulders and torso upward[cite: 1].",
-                "Pause and squeeze abs at the peak, then slowly lower back over the ball[cite: 1]."
-            ],
-            "nl": [
-                "Ga op een fitnessbal zitten en rol naar voren tot de bal je onderrug ondersteunt met voeten plat op de grond[cite: 1].",
-                "Kruis je armen over je borst of houd je handen losjes naast je hoofd[cite: 1].",
-                "Laat je bovenlichaam over de ronding van de bal zakken en crunch vervolgens gecontroleerd omhoog[cite: 1].",
-                "Knijp je buikspieren bovenin samen en zak langzaam weer terug over de bal[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
-                "Keep lower back pressed against the ball throughout the crunch[cite: 1]."
-            ],
-            "nl": [
-                "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt[cite: 2].",
-                "Houd je onderrug constant in contact met de bal tijdens de beweging[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Exercise_Ball_Crunch/0.jpg",
-                "Exercise_Ball_Crunch/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Exercise_Ball_Crunch",
-            "original_category": "strength"
-        }
-    },
-    {
-        "id": "stability_ball_exercise_ball_pull_in",
-        "exercise_name": {
-            "en": "Exercise Ball Pull-In (Jackknife)",
-            "nl": "Fysiobal Jackknife"
-        },
-        "aliases": [
-            "Exercise Ball Pull-In"
-        ],
-        "material": {
-            "id": "exercise_ball",
-            "name": {
-                "en": "Stability Ball",
-                "nl": "Fysiobal / Stabiliteitsbal"
-            },
-            "description": {
-                "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
-                "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
-            }
-        },
-        "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
-        },
-        "target_muscles": {
-            "primary": [
-                "abdominals"
-            ],
-            "secondary": []
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Assume a push-up position with shins and tops of feet resting on an exercise ball[cite: 1].",
-                "Keep arms straight and back flat in a rigid plank[cite: 1].",
-                "Pull your knees in toward your chest as you exhale, rolling the ball forward under your ankles[cite: 1].",
-                "Pause and squeeze abs, then slowly extend legs back to the plank position[cite: 1]."
-            ],
-            "nl": [
-                "Begin in een opdrukhouding met je schenen en wreef rustend op de fitnessbal[cite: 1].",
-                "Houd je armen gestrekt en je lichaam strak als een plank[cite: 1].",
-                "Trek je knieën naar je borst terwijl de bal onder je schenen naar voren rolt[cite: 1].",
-                "Span je buikspieren hard aan en rol de bal weer rustig uit tot de startpositie[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
-                "Do not allow hips to sag downward when legs are fully extended[cite: 1]."
-            ],
-            "nl": [
-                "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt[cite: 2].",
-                "Laat je heupen niet doorhangen wanneer je benen weer gestrekt zijn[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Exercise_Ball_Pull-In/0.jpg",
-                "Exercise_Ball_Pull-In/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Exercise_Ball_Pull-In",
-            "original_category": "strength"
-        }
-    },
-    {
-        "id": "kettlebell_extended_range_one_arm_floor_press",
-        "exercise_name": {
-            "en": "Extended Range One-Arm Kettlebell Floor Press",
-            "nl": "Extended Range One-Arm Kettlebell Floor Press"
-        },
-        "aliases": [
-            "Extended Range One-Arm Kettlebell Floor Press"
-        ],
-        "material": {
-            "id": "kettlebell",
-            "name": {
-                "en": "Kettlebell",
-                "nl": "Kettlebell"
-            },
-            "description": {
-                "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-                "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-            }
-        },
-        "category": {
-            "en": "Upper Body",
-            "nl": "Bovenlichaam"
-        },
-        "target_muscles": {
-            "primary": [
-                "chest"
-            ],
-            "secondary": [
-                "shoulders",
-                "triceps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
             "mechanics": "compound",
             "force_type": "push",
             "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Lie on the floor holding a kettlebell in one hand with the working side leg bent and crossed slightly across the midline[cite: 1].",
-                "Press the kettlebell vertically overhead until your arm reaches full lockout[cite: 1].",
-                "Lower the weight slowly until the upper arm gently contacts the floor, pause, and press again[cite: 1]."
+                "Lie on the floor inside a power rack with barbell racked at arm's reach overhead[cite: 1].",
+                "Unrack the bar and lower it under control with elbows tucked until upper arms rest flat on the floor[cite: 1].",
+                "Pause briefly to eliminate momentum, then press the barbell explosively back up to full lockout[cite: 1]."
             ],
             "nl": [
-                "Ga op de grond liggen met een kettlebell in één hand en buig je been aan dezelfde kant lichtjes over je middellijn[cite: 1].",
-                "Druk de kettlebell recht omhoog uit boven je borst tot je arm gestrekt is[cite: 1].",
-                "Laat het gewicht rustig zakken tot je bovenarm de grond raakt en druk opnieuw uit[cite: 1]."
+                "Ga op de grond in een rack liggen met de halterstang op armlengte boven je[cite: 1].",
+                "Til de stang uit en laat deze gecontroleerd zakken met aangesloten ellebogen tot je bovenarmen op de vloer rusten[cite: 1].",
+                "Pauzeer kort op de vloer en druk de stang explosief uit tot volledige armstrekking[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
                 "Retract your shoulder blades and maintain a stable, braced upper back[cite: 2].",
-                "Control the descent without bouncing your elbow aggressively off the floor[cite: 1]."
+                "Do not bounce elbows off the floor; come to a dead-stop pause[cite: 1]."
             ],
             "nl": [
                 "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug[cite: 2].",
-                "Laat je elleboog niet op de grond stuiteren maar zet de beweging rustig stil[cite: 1]."
+                "Laat je ellebogen niet op de vloer stuiteren maar stop de beweging volledig stil[cite: 1]."
             ]
         },
         "relations": {
@@ -695,78 +66,79 @@
         },
         "media": {
             "images": [
-                "Extended_Range_One-Arm_Kettlebell_Floor_Press/0.jpg",
-                "Extended_Range_One-Arm_Kettlebell_Floor_Press/1.jpg"
+                "Floor_Press/0.jpg",
+                "Floor_Press/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Extended_Range_One-Arm_Kettlebell_Floor_Press",
-            "original_category": "strength"
+            "original_id": "Floor_Press",
+            "original_category": "powerlifting"
         }
     },
     {
-        "id": "dumbbells_external_rotation",
+        "id": "bodyweight_flutter_kicks",
         "exercise_name": {
-            "en": "External Rotation (Side-Lying Dumbbell)",
-            "nl": "Zijliggende Externe Rotatie"
+            "en": "Flutter Kicks",
+            "nl": "Flutter Kicks"
         },
         "aliases": [
-            "External Rotation"
+            "Flutter Kicks"
         ],
         "material": {
-            "id": "dumbbells",
+            "id": "bodyweight",
             "name": {
-                "en": "Dumbbells",
-                "nl": "Halters / Dumbbells"
+                "en": "Bodyweight",
+                "nl": "Lichaamsgewicht"
             },
             "description": {
-                "en": "Free weights designed for unilateral and bilateral functional strength training",
-                "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
             }
         },
         "category": {
-            "en": "Upper Body",
-            "nl": "Bovenlichaam"
+            "en": "Abs & Core",
+            "nl": "Buikspieren"
         },
         "target_muscles": {
             "primary": [
-                "shoulders"
+                "glutes",
+                "abdominals"
             ],
             "secondary": [
-                "rotator_cuff"
+                "hamstrings"
             ]
         },
         "attributes": {
             "difficulty": "beginner",
-            "mechanics": "isolation",
+            "mechanics": "compound",
             "force_type": "pull",
-            "tracking_type": "reps_and_weight"
+            "tracking_type": "time_only"
         },
         "instructions": {
             "en": [
-                "Lie on your side on a flat bench holding a light dumbbell with working arm on top[cite: 1].",
-                "Bend elbow to 90 degrees and pin it firmly against your hip/flank[cite: 1].",
-                "Externally rotate your forearm upward in a semicircle toward the ceiling[cite: 1].",
-                "Hold the contraction for one second, slowly lower to horizontal, and repeat[cite: 1]."
+                "Lie face down on a flat bench with hips at the edge, or on your back on the floor[cite: 1].",
+                "Lift legs straight until aligned with hips[cite: 1].",
+                "Kick legs alternately up and down in a small, continuous flutter motion[cite: 1].",
+                "Maintain controlled rhythm and steady breathing throughout the set[cite: 1]."
             ],
             "nl": [
-                "Ga op je zij op een bankje liggen met een lichte dumbbell in je bovenste hand[cite: 1].",
-                "Buig je elleboog in 90 graden en klem deze tegen je zij[cite: 1].",
-                "Draai je onderarm in een boog omhoog richting het plafond[cite: 1].",
-                "Houd bovenin even vast, laat rustig zakken tot horizontaal en herhaal[cite: 1]."
+                "Ga op je buik op een bankje liggen met je heupen op de rand (of op je rug op de vloer)[cite: 1].",
+                "Hef je benen gestrekt omhoog op heuphoogte[cite: 1].",
+                "Beweeg je benen om en om op en neer in een snelle, kleine flipperbeweging[cite: 1].",
+                "Houd je core strak aangespannen en adem rustig door[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Keep the elbow pinned tightly to the body; avoid lifting the whole arm[cite: 1].",
-                "Use a light, strictly controllable load to protect the infraspinatus and teres minor[cite: 1]."
+                "Keep legs straight and toes pointed; initiate flutter from hips[cite: 1].",
+                "Brace core tightly to stabilize pelvis and lower back[cite: 2]."
             ],
             "nl": [
-                "Houd je elleboog strak tegen je flank en til je arm niet in zijn geheel op[cite: 1].",
-                "Kies een licht gewicht om de diepe rotatorenspieren zuiver te trainen[cite: 1]."
+                "Houd je benen gestrekt en trap vanuit je heupen en billen[cite: 1].",
+                "Span je buikspieren hard aan om je bekken stabiel te houden[cite: 2]."
             ]
         },
         "relations": {
@@ -775,26 +147,270 @@
         },
         "media": {
             "images": [
-                "External_Rotation/0.jpg",
-                "External_Rotation/1.jpg"
+                "Flutter_Kicks/0.jpg",
+                "Flutter_Kicks/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "External_Rotation",
+            "original_id": "Flutter_Kicks",
             "original_category": "strength"
         }
     },
     {
-        "id": "bodyweight_fast_skipping",
+        "id": "foam_roller_foot_smr",
         "exercise_name": {
-            "en": "Fast Skipping",
-            "nl": "Fast Skipping (Snel Huppelen)"
+            "en": "Foot Foam Roll / SMR",
+            "nl": "Voetzool Massage / SMR"
         },
         "aliases": [
-            "Fast Skipping"
+            "Foot-SMR"
+        ],
+        "material": {
+            "id": "other",
+            "name": {
+                "en": "Foot Roller / Ball",
+                "nl": "Voetroller / Massagebal"
+            },
+            "description": {
+                "en": "Small roller, lacrosse ball, or pipe for plantar fascia release",
+                "nl": "Kleine massageroller of bal voor de peesplaat onder de voet"
+            }
+        },
+        "category": {
+            "en": "Mobility & Stretching",
+            "nl": "Mobiliteit & Rekken"
+        },
+        "target_muscles": {
+            "primary": [
+                "calves"
+            ],
+            "secondary": [
+                "plantar_fascia"
+            ]
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "isolation",
+            "force_type": "static",
+            "tracking_type": "time_only"
+        },
+        "instructions": {
+            "en": [
+                "Sit upright with shoes removed and place the arch of your foot over a small roller or ball[cite: 1].",
+                "Apply downward bodyweight pressure onto the roller[cite: 1].",
+                "Roll slowly from the ball of your foot to the heel, pausing on tender spots for 10-30 seconds[cite: 1]."
+            ],
+            "nl": [
+                "Ga op een stoel zitten zonder schoenen en plaats de voetboog op een massagebal of kleine roller[cite: 1].",
+                "Geef gecontroleerde neerwaartse druk met je voet[cite: 1].",
+                "Rol langzaam van de bal van de voet naar de hiel en houd gevoelige plekken 10-30 seconden vast[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Maintain gradual, tolerable pressure without tensing toes[cite: 1].",
+                "Breathe deeply and relax the foot muscles as you roll[cite: 1]."
+            ],
+            "nl": [
+                "Doseer de druk rustig en verkramp je tenen niet[cite: 1].",
+                "Adem ontspannen door en laat de spanning onder de voet los[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Foot-SMR/0.jpg",
+                "Foot-SMR/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Foot-SMR",
+            "original_category": "stretching"
+        }
+    },
+    {
+        "id": "sled_forward_drag_with_press",
+        "exercise_name": {
+            "en": "Forward Drag with Press",
+            "nl": "Forward Drag with Press"
+        },
+        "aliases": [
+            "Forward Drag with Press"
+        ],
+        "material": {
+            "id": "other",
+            "name": {
+                "en": "Weight Sled / Prowler",
+                "nl": "Gewichtsslee / Prowler"
+            },
+            "description": {
+                "en": "Heavy turf sled with attached straps and handles",
+                "nl": "Zware slee met banden en handvatten voor trek- en duwwerk"
+            }
+        },
+        "category": {
+            "en": "Full Body",
+            "nl": "Hele Lichaam"
+        },
+        "target_muscles": {
+            "primary": [
+                "chest"
+            ],
+            "secondary": [
+                "calves",
+                "glutes",
+                "hamstrings",
+                "quadriceps",
+                "shoulders",
+                "triceps"
+            ]
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "compound",
+            "force_type": "push",
+            "tracking_type": "distance"
+        },
+        "instructions": {
+            "en": [
+                "Attach strap handles to a loaded sled and stand facing away from the sled[cite: 1].",
+                "Take a step forward leaning your body into the straps[cite: 1].",
+                "With each forward stride, press both handles forward vigorously in a chest press motion[cite: 1].",
+                "Continue marching forward pressing with each step across the designated distance[cite: 1]."
+            ],
+            "nl": [
+                "Bevestig handvatten aan een gewichtsslee en ga met je rug naar de slee toe staan[cite: 1].",
+                "Stap voorwaarts terwijl je schuin naar voren leunt in de banden[cite: 1].",
+                "Druk bij elke stap beide handvatten krachtig naar voren in een borstdrukbeweging[cite: 1].",
+                "Blijf voorwaarts lopen en stoten over de gewenste afstand[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Drive forcefully off the balls of your feet on every step[cite: 1].",
+                "Time arm press synchronously with lead foot plant[cite: 1]."
+            ],
+            "nl": [
+                "Zet krachtig af vanuit de bal van je voet bij elke pas[cite: 1].",
+                "Stoot met je armen gelijktijdig met het neerzetten van je voorste voet[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Forward_Drag_with_Press/0.jpg",
+                "Forward_Drag_with_Press/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Forward_Drag_with_Press",
+            "original_category": "strongman"
+        }
+    },
+    {
+        "id": "barbell_frankenstein_squat",
+        "exercise_name": {
+            "en": "Frankenstein Squat",
+            "nl": "Frankenstein Squat"
+        },
+        "aliases": [
+            "Frankenstein Squat"
+        ],
+        "material": {
+            "id": "barbell",
+            "name": {
+                "en": "Barbell",
+                "nl": "Halterstang"
+            },
+            "description": {
+                "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+                "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+            }
+        },
+        "category": {
+            "en": "Lower Body",
+            "nl": "Onderlichaam"
+        },
+        "target_muscles": {
+            "primary": [
+                "quadriceps"
+            ],
+            "secondary": [
+                "abdominals",
+                "calves",
+                "glutes",
+                "hamstrings"
+            ]
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "compound",
+            "force_type": "push",
+            "tracking_type": "reps_and_weight"
+        },
+        "instructions": {
+            "en": [
+                "Rest the barbell across front anterior deltoids and extend both arms straight forward like a zombie/Frankenstein[cite: 1].",
+                "With torso strictly vertical, squat down between your hips until hamstrings contact calves[cite: 1].",
+                "Drive through midfoot and heels to stand back up, keeping arms elevated parallel to floor to secure the bar[cite: 1]."
+            ],
+            "nl": [
+                "Plaats de halterstang op de voorkant van je schouders en strek beide armen recht vooruit (als Frankenstein)[cite: 1].",
+                "Zak met een kaarsrechte romp diep door je heupen en knieën[cite: 1].",
+                "Duw de vloer weg vanuit je voeten om weer rechtop te komen, terwijl je armen horizontaal blijven om de stang op zijn plek te houden[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Keep your chest lifted and push through the midfoot and heel[cite: 2].",
+                "Do not allow chest to dip forward or the barbell will roll off the shoulders[cite: 1]."
+            ],
+            "nl": [
+                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2].",
+                "Leun niet naar voren, anders rolt de stang van je schouders af[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Frankenstein_Squat/0.jpg",
+                "Frankenstein_Squat/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Frankenstein_Squat",
+            "original_category": "olympic weightlifting"
+        }
+    },
+    {
+        "id": "bodyweight_frog_hops",
+        "exercise_name": {
+            "en": "Frog Hops",
+            "nl": "Frog Hops (Kikkersprongen)"
+        },
+        "aliases": [
+            "Frog Hops"
         ],
         "material": {
             "id": "bodyweight",
@@ -823,31 +439,31 @@
             ]
         },
         "attributes": {
-            "difficulty": "beginner",
+            "difficulty": "intermediate",
             "mechanics": "compound",
             "force_type": "push",
-            "tracking_type": "distance"
+            "tracking_type": "reps_only"
         },
         "instructions": {
             "en": [
-                "Start in an athletic stance moving forward[cite: 1].",
-                "Execute a rapid step-hop pattern alternating left and right feet[cite: 1].",
-                "Keep ground contact low and fast, minimizing air time while maximizing stride speed[cite: 1]."
+                "Squat deep with hands behind head and torso upright[cite: 1].",
+                "Explode forward and upward bounding several feet across the floor[cite: 1].",
+                "Land softly in a deep squat to absorb the impact and immediately bound into the next hop[cite: 1]."
             ],
             "nl": [
-                "Neem een actieve loophouding aan vooruitkijkend[cite: 1].",
-                "Voer een snel huppelritme uit (stap-hup) waarbij je links en rechts afwisselt[cite: 1].",
-                "Blijf laag bij de grond met korte, snelle grondcontacten voor maximale snelheid[cite: 1]."
+                "Zak in een diepe squat met je handen achter je hoofd en borst rechtop[cite: 1].",
+                "Spring explosief naar voren over de grond[cite: 1].",
+                "Land verend in een diepe squat om de klap op te vangen en spring direct weer door[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Pump arms rhythmically in coordination with leg cycles[cite: 1].",
-                "Stay springy on the forefeet with minimal heel drop[cite: 1]."
+                "Keep your chest lifted and push through the midfoot and heel[cite: 2].",
+                "Ensure knees stay aligned over toes without collapsing inward on landings[cite: 2]."
             ],
             "nl": [
-                "Beweeg je armen krachtig mee in het loopritme[cite: 1].",
-                "Blijf verend op je voorvoeten lopen zonder op je hielen te landen[cite: 1]."
+                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2].",
+                "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen en landen[cite: 2]."
             ]
         },
         "relations": {
@@ -856,26 +472,340 @@
         },
         "media": {
             "images": [
-                "Fast_Skipping/0.jpg",
-                "Fast_Skipping/1.jpg"
+                "Frog_Hops/0.jpg",
+                "Frog_Hops/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Fast_Skipping",
+            "original_id": "Frog_Hops",
+            "original_category": "stretching"
+        }
+    },
+    {
+        "id": "bodyweight_frog_sit_ups",
+        "exercise_name": {
+            "en": "Frog Sit-Ups",
+            "nl": "Frog Sit-Ups"
+        },
+        "aliases": [
+            "Frog Sit-Ups"
+        ],
+        "material": {
+            "id": "bodyweight",
+            "name": {
+                "en": "Bodyweight",
+                "nl": "Lichaamsgewicht"
+            },
+            "description": {
+                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+            }
+        },
+        "category": {
+            "en": "Abs & Core",
+            "nl": "Buikspieren"
+        },
+        "target_muscles": {
+            "primary": [
+                "abdominals"
+            ],
+            "secondary": []
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "isolation",
+            "force_type": "pull",
+            "tracking_type": "reps_only"
+        },
+        "instructions": {
+            "en": [
+                "Lie flat on the floor with knees opened wide and soles of feet pressed together in a diamond shape[cite: 1].",
+                "Cross arms over your chest touching opposing shoulders[cite: 1].",
+                "Flatten lower back to the floor and curl torso upward into a crunch[cite: 1].",
+                "Pause for a second at the top contraction and lower slowly to starting position[cite: 1]."
+            ],
+            "nl": [
+                "Ga op je rug liggen, klap je knieën wijd naar buiten en druk je voetzolen tegen elkaar (diamantvorm)[cite: 1].",
+                "Kruis je armen over je borst[cite: 1].",
+                "Druk je onderrug tegen de vloer en crunch met je bovenlichaam omhoog[cite: 1].",
+                "Knijp je buikspieren bovenin samen en laat je rustig weer zakken[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
+                "Exhale forcefully through pursed lips during the concentric contraction[cite: 2]."
+            ],
+            "nl": [
+                "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt[cite: 2].",
+                "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie[cite: 2]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Frog_Sit-Ups/0.jpg",
+                "Frog_Sit-Ups/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Frog_Sit-Ups",
+            "original_category": "strength"
+        }
+    },
+    {
+        "id": "cones_front_cone_hops",
+        "exercise_name": {
+            "en": "Front Cone Hops (Hurdle Hops)",
+            "nl": "Front Cone Hops"
+        },
+        "aliases": [
+            "Front Cone Hops (or hurdle hops)",
+            "Hurdle Hops"
+        ],
+        "material": {
+            "id": "cones",
+            "name": {
+                "en": "Cones / Hurdles",
+                "nl": "Pionnen / Horden"
+            },
+            "description": {
+                "en": "Row of agility cones or low mini-hurdles for continuous forward jumping drills",
+                "nl": "Rij pionnen of lage hordes voor plyometrische voorwaartse sprongen"
+            }
+        },
+        "category": {
+            "en": "Cardio & Plyometrics",
+            "nl": "Cardio / Plyometrics"
+        },
+        "target_muscles": {
+            "primary": [
+                "quadriceps",
+                "cardiovascular_system"
+            ],
+            "secondary": [
+                "calves",
+                "glutes",
+                "hamstrings"
+            ]
+        },
+        "attributes": {
+            "difficulty": "beginner",
+            "mechanics": "compound",
+            "force_type": "push",
+            "tracking_type": "reps_only"
+        },
+        "instructions": {
+            "en": [
+                "Line up a row of cones or small hurdles spaced a few feet apart[cite: 1].",
+                "Jump with both feet together over the first barrier, swinging arms forward for propulsion[cite: 1].",
+                "Absorb impact softly with knees and immediately rebound over the next barrier down the line[cite: 1]."
+            ],
+            "nl": [
+                "Zet een rij pionnen of horden achter elkaar met een meter tussenruimte[cite: 1].",
+                "Spring met twee voeten tegelijk over de eerste hindernis en zwaai je armen mee[cite: 1].",
+                "Vang de landing verend op en spring direct door over de volgende pionnen[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Keep your chest lifted and push through the midfoot and heel[cite: 2].",
+                "Minimize ground dwell time between successive hurdles[cite: 1]."
+            ],
+            "nl": [
+                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2].",
+                "Houd het grondcontact zo kort en veerkrachtig mogelijk[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Front_Cone_Hops_or_hurdle_hops/0.jpg",
+                "Front_Cone_Hops_or_hurdle_hops/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Front_Cone_Hops_or_hurdle_hops",
             "original_category": "plyometrics"
         }
     },
     {
-        "id": "barbell_finger_curls",
+        "id": "bodyweight_front_leg_raises",
         "exercise_name": {
-            "en": "Finger Curls",
-            "nl": "Finger Curls"
+            "en": "Front Leg Raises (Dynamic Hamstring Swing)",
+            "nl": "Front Leg Raises"
         },
         "aliases": [
-            "Finger Curls"
+            "Front Leg Raises"
+        ],
+        "material": {
+            "id": "bodyweight",
+            "name": {
+                "en": "Bodyweight",
+                "nl": "Lichaamsgewicht"
+            },
+            "description": {
+                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+            }
+        },
+        "category": {
+            "en": "Mobility & Stretching",
+            "nl": "Mobiliteit & Rekken"
+        },
+        "target_muscles": {
+            "primary": [
+                "hamstrings"
+            ],
+            "secondary": [
+                "quadriceps"
+            ]
+        },
+        "attributes": {
+            "difficulty": "beginner",
+            "mechanics": "isolation",
+            "force_type": "pull",
+            "tracking_type": "reps_only"
+        },
+        "instructions": {
+            "en": [
+                "Stand tall next to a wall or support post for balance[cite: 1].",
+                "Keep the working leg straight and swing it forward as high as comfortable[cite: 1].",
+                "Allow it to swing back behind you under control, gradually increasing height with each rep before switching legs[cite: 1]."
+            ],
+            "nl": [
+                "Sta rechtop naast een muur of paal voor balans[cite: 1].",
+                "Houd je been gestrekt en zwaai het gecontroleerd vooruit omhoog[cite: 1].",
+                "Laat het been soepel naar achteren doorzwaaien en vergroot geleidelijk de hoogte per herhaling[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Keep torso upright; avoid leaning backward when leg swings high[cite: 1].",
+                "Move rhythmically without snapping the knee joint into hyperextension[cite: 1]."
+            ],
+            "nl": [
+                "Blijf rechtop staan en leun niet naar achteren wanneer je been hoog zwaait[cite: 1].",
+                "Zwaai soepel en overstrek je kniegewricht niet[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Front_Leg_Raises/0.jpg",
+                "Front_Leg_Raises/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Front_Leg_Raises",
+            "original_category": "stretching"
+        }
+    },
+    {
+        "id": "barbell_front_plate_raise",
+        "exercise_name": {
+            "en": "Front Plate Raise",
+            "nl": "Front Plate Raise"
+        },
+        "aliases": [
+            "Front Plate Raise"
+        ],
+        "material": {
+            "id": "barbell",
+            "name": {
+                "en": "Weight Plate",
+                "nl": "Halterschijf"
+            },
+            "description": {
+                "en": "Olympic weight plate held in hands for shoulder conditioning",
+                "nl": "Halterschijf voor schouder- en armisolatie"
+            }
+        },
+        "category": {
+            "en": "Upper Body",
+            "nl": "Bovenlichaam"
+        },
+        "target_muscles": {
+            "primary": [
+                "shoulders"
+            ],
+            "secondary": []
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "isolation",
+            "force_type": "push",
+            "tracking_type": "reps_and_weight"
+        },
+        "instructions": {
+            "en": [
+                "Stand tall holding an Olympic weight plate with both hands at 9 and 3 o'clock positions in front of your waist[cite: 1].",
+                "With straight arms and slight elbow softness, raise plate upward to eye level as you exhale[cite: 1].",
+                "Hold the peak shoulder contraction for one second, then slowly lower the plate back to waist[cite: 1]."
+            ],
+            "nl": [
+                "Sta rechtop en houd een halterschijf op 9 en 3 uur voor je heupen vast[cite: 1].",
+                "Hef de schijf met nagenoeg gestrekte armen omhoog tot ooghoogte terwijl je uitademt[cite: 1].",
+                "Houd bovenin één seconde vast en laat de schijf rustig zakken naar je heupen[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Avoid swinging torso backward to initiate upward momentum[cite: 1].",
+                "Keep elbows soft and fixed; do not turn lift into an upright row[cite: 1]."
+            ],
+            "nl": [
+                "Blijf stil staan en zwaai niet met je bovenlichaam om gang te maken[cite: 1].",
+                "Houd je armen gestrekt en buig je ellebogen niet[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Front_Plate_Raise/0.jpg",
+                "Front_Plate_Raise/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Front_Plate_Raise",
+            "original_category": "strength"
+        }
+    },
+    {
+        "id": "barbell_front_raise_and_pullover",
+        "exercise_name": {
+            "en": "Front Raise And Pullover",
+            "nl": "Front Raise And Pullover"
+        },
+        "aliases": [
+            "Front Raise And Pullover"
         ],
         "material": {
             "id": "barbell",
@@ -894,36 +824,40 @@
         },
         "target_muscles": {
             "primary": [
-                "forearms"
+                "chest"
             ],
-            "secondary": []
+            "secondary": [
+                "lats",
+                "shoulders",
+                "triceps"
+            ]
         },
         "attributes": {
             "difficulty": "beginner",
-            "mechanics": "isolation",
+            "mechanics": "compound",
             "force_type": "pull",
             "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Stand tall holding a barbell behind your thighs or seated with forearms on thighs, palms facing up[cite: 1].",
-                "Slowly open your hands, allowing the bar to roll down to the tips of your fingers[cite: 1].",
-                "Curl fingers closed to roll the barbell back up into the palm and flex wrists upward[cite: 1]."
+                "Lie on a flat bench holding a barbell over your thighs with arms straight[cite: 1].",
+                "Raise the bar in a wide semicircular arc upward and all the way behind your head until arms are parallel to floor[cite: 1].",
+                "Reverse the 180-degree arc smoothly to bring the bar back to your thighs as you exhale[cite: 1]."
             ],
             "nl": [
-                "Sta rechtop met de stang achter je rug of zit met je onderarmen op je benen en handpalmen omhoog[cite: 1].",
-                "Open langzaam je handen zodat de stang over je vingers naar beneden rolt tot aan je vingertoppen[cite: 1].",
-                "Sluit je vingers krachtig om de stang weer in je handpalmen te rollen en buig je polsen licht omhoog[cite: 1]."
+                "Ga op een vlakke bank liggen en houd de stang op je bovenbenen met gestrekte armen[cite: 1].",
+                "Hef de stang in een wijde boog over je borst heen helemaal naar achteren tot achter je hoofd[cite: 1].",
+                "Beweeg via dezelfde boog van 180 graden gecontroleerd terug naar je bovenbenen[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Control bar descent so it does not slip out of fingertips[cite: 1].",
-                "Squeeze tightly at the peak of the closed-hand roll[cite: 1]."
+                "Maintain slight elbow bend to protect joint integrity[cite: 1].",
+                "Brace core to keep ribs from flaring excessively when arms are overhead[cite: 2]."
             ],
             "nl": [
-                "Laat de stang rustig rollen zodat je grip niet plotseling wegglijdt[cite: 1].",
-                "Knijp je vingers bovenin stevig samen voor maximale knijpkracht[cite: 1]."
+                "Houd een lichte knik in je ellebogen om je pezen te beschermen[cite: 1].",
+                "Span je buikspieren aan zodat je onderrug niet hol trekt als de stang achter je hoofd zakt[cite: 2]."
             ]
         },
         "relations": {
@@ -932,36 +866,115 @@
         },
         "media": {
             "images": [
-                "Finger_Curls/0.jpg",
-                "Finger_Curls/1.jpg"
+                "Front_Raise_And_Pullover/0.jpg",
+                "Front_Raise_And_Pullover/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Finger_Curls",
+            "original_id": "Front_Raise_And_Pullover",
             "original_category": "strength"
         }
     },
     {
-        "id": "cable_flat_bench_cable_flyes",
+        "id": "kettlebell_front_squats_two_kettlebells",
         "exercise_name": {
-            "en": "Flat Bench Cable Flyes",
-            "nl": "Flat Bench Cable Flyes"
+            "en": "Front Squats With Two Kettlebells",
+            "nl": "Double Kettlebell Front Squat"
         },
         "aliases": [
-            "Flat Bench Cable Flyes"
+            "Front Squats With Two Kettlebells"
+        ],
+        "material": {
+            "id": "kettlebell",
+            "name": {
+                "en": "Kettlebell",
+                "nl": "Kettlebell"
+            },
+            "description": {
+                "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+                "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+            }
+        },
+        "category": {
+            "en": "Lower Body",
+            "nl": "Onderlichaam"
+        },
+        "target_muscles": {
+            "primary": [
+                "quadriceps"
+            ],
+            "secondary": [
+                "calves",
+                "glutes"
+            ]
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "compound",
+            "force_type": "push",
+            "tracking_type": "reps_and_weight"
+        },
+        "instructions": {
+            "en": [
+                "Clean two kettlebells into a tight front rack position against your chest[cite: 1].",
+                "With chest up and eyes forward, squat deeply between your legs, pushing knees out[cite: 1].",
+                "Drive through your heels to stand tall back to the top lockout[cite: 1]."
+            ],
+            "nl": [
+                "Clean twee kettlebells naar de rack-positie stevig tegen je borst[cite: 1].",
+                "Houd je borst fier vooruit en squat diep tussen je benen terwijl je je knieën naar buiten duwt[cite: 1].",
+                "Duw de vloer krachtig weg vanuit je hielen om weer rechtop te komen[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Keep your chest lifted and push through the midfoot and heel[cite: 2].",
+                "Maintain high elbows so kettlebells do not pull your torso forward[cite: 1, 2]."
+            ],
+            "nl": [
+                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2].",
+                "Houd je ellebogen hoog zodat de gewichten je niet voorover trekken[cite: 1, 2]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Front_Squats_With_Two_Kettlebells/0.jpg",
+                "Front_Squats_With_Two_Kettlebells/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Front_Squats_With_Two_Kettlebells",
+            "original_category": "strength"
+        }
+    },
+    {
+        "id": "cable_full_rom_lat_pulldown",
+        "exercise_name": {
+            "en": "Full Range-Of-Motion Lat Pulldown",
+            "nl": "Full Range-Of-Motion Lat Pulldown"
+        },
+        "aliases": [
+            "Full Range-Of-Motion Lat Pulldown"
         ],
         "material": {
             "id": "cable",
             "name": {
-                "en": "Cable Machine & Bench",
-                "nl": "Kabelstation & Bank"
+                "en": "Cable Machine",
+                "nl": "Kabelstation"
             },
             "description": {
-                "en": "Flat bench aligned between two low pulleys for constant tension chest flyes",
-                "nl": "Vlakke bank tussen twee lage kabelkatrollen voor constante borstspanning"
+                "en": "Adjustable dual-pulley cable column system",
+                "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
             }
         },
         "category": {
@@ -970,38 +983,40 @@
         },
         "target_muscles": {
             "primary": [
-                "chest"
+                "lats"
             ],
-            "secondary": []
+            "secondary": [
+                "biceps",
+                "middle_back",
+                "shoulders"
+            ]
         },
         "attributes": {
             "difficulty": "intermediate",
-            "mechanics": "isolation",
-            "force_type": "push",
+            "mechanics": "compound",
+            "force_type": "pull",
             "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Lie on a flat bench aligned between two low pulleys holding a handle in each hand[cite: 1].",
-                "Start with arms out wide parallel to the floor, elbows slightly bent[cite: 1].",
-                "Bring handles together in a semicircle arc over your chest as you exhale[cite: 1].",
-                "Squeeze pecs for a second at the top, then slowly lower arms back to the wide stretch[cite: 1]."
+                "Grasp two stirrup handles from opposing high pulleys with arms crisscrossed overhead[cite: 1].",
+                "Maintain upright chest and pull handles downward and outward along an arced path[cite: 1].",
+                "Rotate wrists so palms face inward at bottom contraction, squeezing lats firmly before returning[cite: 1]."
             ],
             "nl": [
-                "Ga op een vlakke bank tussen twee lage katrollen liggen en pak beide handvatten vast[cite: 1].",
-                "Begin met je armen wijd opzij parallel aan de vloer en licht gebogen ellebogen[cite: 1].",
-                "Breng de handvatten in een boog omhoog tot ze boven je borst samenkomen terwijl je uitademt[cite: 1].",
-                "Knijp je borstspieren bovenin samen en laat de armen weer rustig zakken naar buiten[cite: 1]."
+                "Pak twee losse handvatten kruislings vast aan de hoge katrollen[cite: 1].",
+                "Houd je borst vooruit en trek de handvatten in een ruime boog naar beneden[cite: 1].",
+                "Draai je polsen zodat je handpalmen onderin naar elkaar wijzen en knijp je rugspieren samen[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Retract your shoulder blades and maintain a stable, braced upper back[cite: 2].",
-                "Keep the angle in your elbows constant throughout the entire arc[cite: 1]."
+                "Lead the pull with your elbows and initiate with scapular retraction[cite: 2].",
+                "Avoid excessive torso swinging; isolate the movement in the latissimus[cite: 2]."
             ],
             "nl": [
-                "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug[cite: 2].",
-                "Houd de lichte buiging in je ellebogen continu gelijk[cite: 1]."
+                "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen[cite: 2].",
+                "Blijf stil zitten en zwaai niet achterover met je rug[cite: 2]."
             ]
         },
         "relations": {
@@ -1010,74 +1025,77 @@
         },
         "media": {
             "images": [
-                "Flat_Bench_Cable_Flyes/0.jpg",
-                "Flat_Bench_Cable_Flyes/1.jpg"
+                "Full_Range-Of-Motion_Lat_Pulldown/0.jpg",
+                "Full_Range-Of-Motion_Lat_Pulldown/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Flat_Bench_Cable_Flyes",
+            "original_id": "Full_Range-Of-Motion_Lat_Pulldown",
             "original_category": "strength"
         }
     },
     {
-        "id": "bodyweight_flat_bench_leg_pull_in",
+        "id": "monkey_bars_gironda_sternum_chins",
         "exercise_name": {
-            "en": "Flat Bench Leg Pull-In",
-            "nl": "Flat Bench Leg Pull-In"
+            "en": "Gironda Sternum Chins",
+            "nl": "Gironda Sternum Chins"
         },
         "aliases": [
-            "Flat Bench Leg Pull-In"
+            "Gironda Sternum Chins"
         ],
         "material": {
-            "id": "bodyweight",
+            "id": "monkey_bars",
             "name": {
-                "en": "Bench / Mat",
-                "nl": "Bankje / Mat"
+                "en": "Monkey Bars / Pull-Up Rig",
+                "nl": "Rekstok / Klimrek"
             },
             "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+                "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+                "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
             }
         },
         "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
+            "en": "Upper Body",
+            "nl": "Bovenlichaam"
         },
         "target_muscles": {
             "primary": [
-                "abdominals"
+                "lats"
             ],
-            "secondary": []
+            "secondary": [
+                "biceps",
+                "middle_back"
+            ]
         },
         "attributes": {
-            "difficulty": "beginner",
+            "difficulty": "intermediate",
             "mechanics": "compound",
             "force_type": "pull",
             "tracking_type": "reps_only"
         },
         "instructions": {
             "en": [
-                "Sit on the edge of a flat bench holding the sides, legs extended off the end[cite: 1].",
-                "Pull knees in toward your chest as you exhale and lean slightly forward[cite: 1].",
-                "Pause to squeeze lower abdominals, then slowly extend legs straight back out without touching the floor[cite: 1]."
+                "Grasp a pull-up bar with an underhand grip, arms extended, and lean back into an arched spine[cite: 1].",
+                "Pull upward while leaning back further until your chest and sternum contact the bar[cite: 1].",
+                "Pause and squeeze lats and upper back hard, then lower under control to arm extension[cite: 1]."
             ],
             "nl": [
-                "Zit op het uiteinde van een bankje, pak de zijkanten vast en strek je benen voor je uit[cite: 1].",
-                "Trek je knieën naar je borst terwijl je uitademt en je bovenlichaam iets naar voren brengt[cite: 1].",
-                "Span je buikspieren bovenin aan en strek je benen weer langzaam uit naar voren[cite: 1]."
+                "Pak de optrekstang onderhands vast en leun achterover met een holle rug[cite: 1].",
+                "Trek jezelf omhoog terwijl je verder achterover helt tot je borstbeen (sternum) de stang raakt[cite: 1].",
+                "Knijp je hele rugspiergroep samen en laat je gecontroleerd weer zakken[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
-                "Control the movement smoothly without using leg swinging momentum[cite: 1]."
+                "Keep spine arched and head tilted back throughout the movement[cite: 1].",
+                "Lead with elbows pulling down toward your hips[cite: 2]."
             ],
             "nl": [
-                "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt[cite: 2].",
-                "Beweeg rustig en beheerst zonder te zwaaien met je benen[cite: 1]."
+                "Houd je rug hol en je hoofd achterover gekanteld tijdens de hele lift[cite: 1].",
+                "Trek je ellebogen naar beneden richting je heupen[cite: 2]."
             ]
         },
         "relations": {
@@ -1086,32 +1104,32 @@
         },
         "media": {
             "images": [
-                "Flat_Bench_Leg_Pull-In/0.jpg",
-                "Flat_Bench_Leg_Pull-In/1.jpg"
+                "Gironda_Sternum_Chins/0.jpg",
+                "Gironda_Sternum_Chins/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Flat_Bench_Leg_Pull-In",
+            "original_id": "Gironda_Sternum_Chins",
             "original_category": "strength"
         }
     },
     {
-        "id": "bodyweight_flat_bench_lying_leg_raise",
+        "id": "bodyweight_glute_kickback",
         "exercise_name": {
-            "en": "Flat Bench Lying Leg Raise",
-            "nl": "Liggende Leg Raise op Bank"
+            "en": "Glute Kickback",
+            "nl": "Glute Kickback (Donkey Kicks)"
         },
         "aliases": [
-            "Flat Bench Lying Leg Raise"
+            "Glute Kickback"
         ],
         "material": {
             "id": "bodyweight",
             "name": {
-                "en": "Flat Bench",
-                "nl": "Vlakke Bank"
+                "en": "Bodyweight",
+                "nl": "Lichaamsgewicht"
             },
             "description": {
                 "en": "Calisthenic exercises using body mass and gravity as primary resistance",
@@ -1119,41 +1137,43 @@
             }
         },
         "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
+            "en": "Lower Body",
+            "nl": "Onderlichaam"
         },
         "target_muscles": {
             "primary": [
-                "abdominals"
+                "glutes"
             ],
-            "secondary": []
+            "secondary": [
+                "hamstrings"
+            ]
         },
         "attributes": {
             "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "pull",
+            "mechanics": "compound",
+            "force_type": "push",
             "tracking_type": "reps_only"
         },
         "instructions": {
             "en": [
-                "Lie flat on a bench with legs extended off the end, gripping the bench beside your hips[cite: 1].",
-                "Keeping legs straight with knees soft, raise legs upward until they form a 90-degree angle with the torso[cite: 1].",
-                "Hold the contraction at the top for a second, then lower legs slowly back to horizontal[cite: 1]."
+                "Start on all fours with hands under shoulders and knees bent at 90 degrees[cite: 1].",
+                "Keeping the knee bent at 90 degrees, kick one leg upward until the thigh is parallel to the floor[cite: 1].",
+                "Squeeze the glute hard at peak height, then lower knee back to start and alternate or repeat[cite: 1]."
             ],
             "nl": [
-                "Ga plat op een bank liggen met je benen over het uiteinde en houd de bank naast je heupen vast[cite: 1].",
-                "Houd je benen nagenoeg gestrekt en hef ze omhoog tot een hoek van 90 graden met je romp[cite: 1].",
-                "Houd bovenin even vast en laat je benen rustig en gecontroleerd zakken tot horizontaal[cite: 1]."
+                "Begin op handen en knieën met je polsen onder je schouders en knieën op heupbreedte[cite: 1].",
+                "Houd je knie in een hoek van 90 graden en trap je been omhoog tot je bovenbeen parallel is aan de vloer[cite: 1].",
+                "Knijp je bilspier bovenin stevig samen en laat je knie rustig terugzakken[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
-                "Keep lumbar spine pressed firmly down against the bench surface[cite: 1]."
+                "Do not arch or twist your lower back; isolate movement purely in the hip[cite: 1].",
+                "Drive through the heel upward toward the ceiling[cite: 1]."
             ],
             "nl": [
-                "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt[cite: 2].",
-                "Houd je onderrug tijdens het zakken van de benen strak tegen de bank gedrukt[cite: 1]."
+                "Trek je onderrug niet hol en draai je bekken niet scheef[cite: 1].",
+                "Duw je hiel recht omhoog richting het plafond[cite: 1]."
             ]
         },
         "relations": {
@@ -1162,36 +1182,36 @@
         },
         "media": {
             "images": [
-                "Flat_Bench_Lying_Leg_Raise/0.jpg",
-                "Flat_Bench_Lying_Leg_Raise/1.jpg"
+                "Glute_Kickback/0.jpg",
+                "Glute_Kickback/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Flat_Bench_Lying_Leg_Raise",
+            "original_id": "Glute_Kickback",
             "original_category": "strength"
         }
     },
     {
-        "id": "partner_floor_glute_ham_raise",
+        "id": "barbell_good_morning_off_pins",
         "exercise_name": {
-            "en": "Floor Glute-Ham Raise (Natural GHR)",
-            "nl": "Floor Glute-Ham Raise"
+            "en": "Good Morning off Pins",
+            "nl": "Good Morning vanaf Pinnen"
         },
         "aliases": [
-            "Floor Glute-Ham Raise"
+            "Good Morning off Pins"
         ],
         "material": {
-            "id": "partner",
+            "id": "barbell",
             "name": {
-                "en": "Partner / Floor",
-                "nl": "Partner / Vloer"
+                "en": "Barbell & Rack",
+                "nl": "Halterstang & Power Rack"
             },
             "description": {
-                "en": "Floor Nordic hamstring curl performed with partner anchoring ankles",
-                "nl": "Hamstring curl op de vloer waarbij een partner de enkels vasthoudt"
+                "en": "Barbell supported on safety rack pins at stomach height for dead-stop hip hinging",
+                "nl": "Halterstang op veiligheidspennen voor hip hinge vanuit stilstand"
             }
         },
         "category": {
@@ -1203,36 +1223,39 @@
                 "hamstrings"
             ],
             "secondary": [
-                "calves",
-                "glutes"
+                "abdominals",
+                "glutes",
+                "lower_back"
             ]
         },
         "attributes": {
             "difficulty": "intermediate",
-            "mechanics": "isolation",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
+            "mechanics": "compound",
+            "force_type": "push",
+            "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Kneel tall on the floor with your partner firmly anchoring your feet and ankles[cite: 1].",
-                "Without bending at the hips, lower your torso forward under strict hamstring control[cite: 1].",
-                "Catch yourself lightly with hands on the floor, push off gently, and pull yourself back up using hamstrings[cite: 1]."
+                "Set safety pins at stomach height so barbell rests horizontally near hip level[cite: 1].",
+                "Hinge underneath and rack the bar across your rear deltoids in a parallel bent-over stance[cite: 1].",
+                "Drive hips forward to stand upright to full extension, squeezing glutes and hamstrings[cite: 1].",
+                "Hinge back down to rest the bar back onto the pins before the next rep[cite: 1]."
             ],
             "nl": [
-                "Kniel rechtop op de grond terwijl je trainingspartner je enkels stevig tegen de vloer drukt[cite: 1].",
-                "Laat je lichaam langzaam naar voren vallen door je knieën te strekken zonder in je heupen te knikken[cite: 1].",
-                "Vang jezelf op met je handen, geef een licht zetje en trek jezelf met je hamstrings weer omhoog[cite: 1]."
+                "Stel de pinnen in het rack af op buikhoogte zodat de stang net onder heuphoogte ligt[cite: 1].",
+                "Kruip onder de stang met een gebogen heup en leg de stang op je achterste schouders[cite: 1].",
+                "Duw je heupen krachtig naar voren om rechtop te gaan staan vanuit je hamstrings en billen[cite: 1].",
+                "Buig weer gecontroleerd voorover tot de stang stil op de pinnen rust[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Keep your torso rigid and in line with your thighs throughout descent[cite: 1].",
-                "Resist gravity aggressively using eccentric hamstring tension[cite: 1]."
+                "Keep cervical spine neutral and back strictly flat[cite: 1].",
+                "Drive from hips without rounding thoracic spine under dead-stop loads[cite: 1]."
             ],
             "nl": [
-                "Houd je heupen gestrekt in één lijn met je bovenbenen en romp[cite: 1].",
-                "Rem de val zo lang mogelijk af met je hamstrings[cite: 1]."
+                "Houd je rug strak en recht en je nek in één lijn met je wervelkolom[cite: 1].",
+                "Til het gewicht puur vanuit je heupextensie zonder je bovenrug te bollen[cite: 1]."
             ]
         },
         "relations": {
@@ -1241,16 +1264,16 @@
         },
         "media": {
             "images": [
-                "Floor_Glute-Ham_Raise/0.jpg",
-                "Floor_Glute-Ham_Raise/1.jpg"
+                "Good_Morning_off_Pins/0.jpg",
+                "Good_Morning_off_Pins/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Floor_Glute-Ham_Raise",
-            "original_category": "strength"
+            "original_id": "Good_Morning_off_Pins",
+            "original_category": "powerlifting"
         }
     }
 ]

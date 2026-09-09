@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:56:42.413893+00:00",
-  "total_exercises": 775,
+  "last_updated_utc": "2026-09-09T14:57:21.111560+00:00",
+  "total_exercises": 790,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -27,12 +27,12 @@
     },
     "barbell": {
       "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
+        "en": "Barbell & Rack",
+        "nl": "Halterstang & Power Rack"
       },
       "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+        "en": "Barbell supported on safety rack pins at stomach height for dead-stop hip hinging",
+        "nl": "Halterstang op veiligheidspennen voor hip hinge vanuit stilstand"
       }
     },
     "battle_rope": {
@@ -47,8 +47,8 @@
     },
     "bodyweight": {
       "name": {
-        "en": "Flat Bench",
-        "nl": "Vlakke Bank"
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
       },
       "description": {
         "en": "Calisthenic exercises using body mass and gravity as primary resistance",
@@ -67,12 +67,12 @@
     },
     "cable": {
       "name": {
-        "en": "Cable Machine & Bench",
-        "nl": "Kabelstation & Bank"
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
       },
       "description": {
-        "en": "Flat bench aligned between two low pulleys for constant tension chest flyes",
-        "nl": "Vlakke bank tussen twee lage kabelkatrollen voor constante borstspanning"
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
       }
     },
     "cardio_equipment": {
@@ -87,12 +87,12 @@
     },
     "cones": {
       "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
+        "en": "Cones / Hurdles",
+        "nl": "Pionnen / Horden"
       },
       "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+        "en": "Row of agility cones or low mini-hurdles for continuous forward jumping drills",
+        "nl": "Rij pionnen of lage hordes voor plyometrische voorwaartse sprongen"
       }
     },
     "core_sliders": {
@@ -207,12 +207,12 @@
     },
     "other": {
       "name": {
-        "en": "Strongman Implements / Dumbbells",
-        "nl": "Strongman Materiaal / Dumbbells"
+        "en": "Weight Sled / Prowler",
+        "nl": "Gewichtsslee / Prowler"
       },
       "description": {
-        "en": "Heavy axes, hammers, or dumbbells held laterally for static hold competition",
-        "nl": "Bijlen, hamers of dumbbells voor statische zijwaartse vasthoudoefeningen"
+        "en": "Heavy turf sled with attached straps and handles",
+        "nl": "Zware slee met banden en handvatten voor trek- en duwwerk"
       }
     },
     "parallettes": {
