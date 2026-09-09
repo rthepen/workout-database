@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:52:05.812871+00:00",
-  "total_exercises": 727,
+  "last_updated_utc": "2026-09-09T14:53:44.805270+00:00",
+  "total_exercises": 743,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -27,12 +27,12 @@
     },
     "barbell": {
       "name": {
-        "en": "Weight Plate",
-        "nl": "Halterschijf"
+        "en": "Barbell",
+        "nl": "Halterstang"
       },
       "description": {
-        "en": "Olympic weight plate held in hands for shoulder conditioning",
-        "nl": "Halterschijf voor schouder- en armisolatie"
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
       }
     },
     "battle_rope": {
@@ -47,12 +47,12 @@
     },
     "bodyweight": {
       "name": {
-        "en": "Chair / Bench",
-        "nl": "Stoel / Bankje"
+        "en": "Decline Bench",
+        "nl": "Schuin Buikspierbankje"
       },
       "description": {
-        "en": "Standard sturdy chair or bench for seated stretching",
-        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+        "en": "Angled decline sit-up bench with leg rollers",
+        "nl": "Schuin buikspierbankje met beenklemmen"
       }
     },
     "bosu_ball": {
@@ -207,12 +207,12 @@
     },
     "other": {
       "name": {
-        "en": "Stick / PVC Pipe",
-        "nl": "Stok / PVC Pijp"
+        "en": "Strongman Implements / Dumbbells",
+        "nl": "Strongman Materiaal / Dumbbells"
       },
       "description": {
-        "en": "Light broomstick or PVC pipe for overhead shoulder mobility passes",
-        "nl": "Lichte stok of pvc-buis voor schoudermobiliteit"
+        "en": "Heavy axes, hammers, or dumbbells held laterally for static hold competition",
+        "nl": "Bijlen, hamers of dumbbells voor statische zijwaartse vasthoudoefeningen"
       }
     },
     "parallettes": {
@@ -317,6 +317,7 @@
     }
   },
   "available_muscles": [
+    "abductors",
     "adductors",
     "anterior_deltoid",
     "biceps_brachii",
@@ -326,6 +327,7 @@
     "deltoids",
     "erector_spinae",
     "forearms",
+    "full_body",
     "glutes",
     "gluteus_maximus",
     "hamstrings",

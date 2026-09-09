@@ -4591,5 +4591,353 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_clean_pull",
+    "exercise_name": {
+      "en": "Clean Pull",
+      "nl": "Clean Pull"
+    },
+    "aliases": [
+      "Clean Pull",
+      "Clean_Pull"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "erector_spinae",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Start with barbell over midfoot with an overhand or hook grip, back arched and chest tall.",
+        "Drive through your heels to pull the bar past knees while maintaining constant back angle.",
+        "As the bar passes mid-thigh, explosively extend through hips, knees, and ankles into a violent upward shrug.",
+        "Lower the barbell under control back to the floor."
+      ],
+      "nl": [
+        "Begin met de halterstang boven het midden van je voeten, schouderbreedte greep en een rechte rug.",
+        "Duw de vloer weg vanuit je hielen en trek de stang gecontroleerd langs je knieën omhoog.",
+        "Zodra de stang bij je dijen is, strek je explosief heupen, knieën en enkels en trek je je schouders krachtig op (shrug).",
+        "Laat de stang gecontroleerd weer zakken naar de vloer."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep arms straight and elbows pointed out; extension comes purely from lower body power.",
+        "Maintain close barbell proximity to thighs throughout second pull."
+      ],
+      "nl": [
+        "Houd je armen gestrekt; de opwaartse kracht komt puur uit je heupen en benen.",
+        "Houd de stang dicht tegen je lichaam tijdens de explosieve heupstrekking."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Pull/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Pull/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_clean_shrug",
+    "exercise_name": {
+      "en": "Clean Shrug",
+      "nl": "Clean Shrug"
+    },
+    "aliases": [
+      "Clean Shrug",
+      "Clean_Shrug"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": [
+        "forearms",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold a barbell at mid-thigh with a shoulder-width clean grip and torso inclined slightly forward.",
+        "Explosively extend hips and shrug your shoulders straight up toward your ears.",
+        "Control the barbell back to the hanging position above knees and repeat."
+      ],
+      "nl": [
+        "Houd een halterstang halverwege je bovenbenen vast met een schouderbrede greep en leun licht voorover.",
+        "Strek je heupen explosief en trek je schouders krachtig recht omhoog naar je oren.",
+        "Laat de stang rustig terugkeren naar de hangpositie en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Do not overload with weight that slows down explosive bar velocity.",
+        "Keep elbows extended and avoid bending arms during the shrug."
+      ],
+      "nl": [
+        "Kies geen gewicht dat zo zwaar is dat de explosieve snelheid verloren gaat.",
+        "Houd je armen gestrekt en trek niet met je biceps."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Shrug/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Shrug/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_clean_from_blocks",
+    "exercise_name": {
+      "en": "Clean from Blocks",
+      "nl": "Clean from Blocks"
+    },
+    "aliases": [
+      "Clean from Blocks",
+      "Clean_from_Blocks"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell & Blocks",
+        "nl": "Halterstang & Blokken"
+      },
+      "description": {
+        "en": "Olympic barbell elevated on wooden pulling blocks",
+        "nl": "Halterstang op houten gewichthefblokken"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Set barbell on pulling blocks at desired height (knee or thigh level).",
+        "Take an overhand hook grip outside legs with back flat and shoulders slightly ahead of bar.",
+        "Extend violently through hips and knees, pull under bar, and catch in a front squat rack.",
+        "Stand up fully to complete the lift, then return bar to blocks."
+      ],
+      "nl": [
+        "Plaats de halterstang op verhoogde blokken op knie- of dijhoogte.",
+        "Pak de stang vast met een hookgrip, houd je rug recht en schouders iets voor de stang.",
+        "Strek explosief uit, duik snel onder de stang en vang hem op in een front squat positie.",
+        "Kom volledig rechtop staan en leg de stang beheerst terug op de blokken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Rotate elbows forward fast into a solid rack position.",
+        "Drive through the midfoot and heel while keeping chest tall."
+      ],
+      "nl": [
+        "Draai je ellebogen snel naar voren en omhoog bij het opvangen.",
+        "Duw door je voeten en houd je borst fier vooruit bij het opstaan."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_from_Blocks/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_from_Blocks/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_decline_close_grip_bench_skull_crusher",
+    "exercise_name": {
+      "en": "Decline Close-Grip Bench To Skull Crusher",
+      "nl": "Decline Close-Grip Bench naar Skull Crusher"
+    },
+    "aliases": [
+      "Decline Close-Grip Bench To Skull Crusher",
+      "Decline_Close-Grip_Bench_To_Skull_Crusher"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "pectorals",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on a decline bench holding a barbell with narrow grip, elbows tucked.",
+        "Perform a close-grip press down to lower chest and press back up to arm lockout.",
+        "Immediately lower the bar past your forehead in a skull-crusher extension, keeping upper arms still.",
+        "Press back up using triceps to finish one full combo repetition."
+      ],
+      "nl": [
+        "Ga op een decline bank liggen en houd de halterstang met een smalle greep recht omhoog.",
+        "Laat de stang naar je borst zakken voor een close-grip press en druk omhoog.",
+        "Buig vervolgens je ellebogen en laat de stang achter je voorhoofd zakken voor een skull crusher.",
+        "Druk weer uit om één gecombineerde herhaling te voltooien."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows pinned close to torso during the press and pointing vertical during the extension.",
+        "Control bar path smoothly between compound and isolation phases."
+      ],
+      "nl": [
+        "Houd je ellebogen smal tijdens het drukken en wijzend naar het plafond tijdens de skull crusher.",
+        "Beheers de stang zorgvuldig bij het wisselen tussen beide bewegingen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Close-Grip_Bench_To_Skull_Crusher/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Close-Grip_Bench_To_Skull_Crusher/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

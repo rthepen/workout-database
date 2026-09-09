@@ -9427,5 +9427,602 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_childs_pose",
+    "exercise_name": {
+      "en": "Child's Pose",
+      "nl": "Child's Pose"
+    },
+    "aliases": [
+      "Child's Pose",
+      "Childs_Pose"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes",
+        "rhomboids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Get on your hands and knees and walk your hands forward in front of you.",
+        "Lower your buttocks down to sit on your heels, allowing arms to slide forward along the floor to stretch the spine.",
+        "Rest your forehead gently on the floor and breathe deeply into your back."
+      ],
+      "nl": [
+        "Ga op handen en knieën zitten en loop met je handen naar voren.",
+        "Laat je billen naar achteren zakken tot op je hielen en strek je armen lang uit over de vloer.",
+        "Laat je voorhoofd op de grond rusten en adem rustig en diep in naar je rug toe."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Sink hips fully back toward heels while keeping arms actively elongated.",
+        "Avoid this deep knee flexion if you experience knee discomfort."
+      ],
+      "nl": [
+        "Laat je heupen ontspannen naar je hielen zakken terwijl je je armen lang maakt.",
+        "Vermijd te diepe kniebuiging bij knieklachten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Childs_Pose/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Childs_Pose/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_chin_to_chest_stretch",
+    "exercise_name": {
+      "en": "Chin To Chest Stretch",
+      "nl": "Kin naar Borst Nekstretch"
+    },
+    "aliases": [
+      "Chin To Chest Stretch",
+      "Chin_To_Chest_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "full_body"
+      ],
+      "secondary": [
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit tall in a comfortable position on the floor or a chair.",
+        "Place both hands at the rear of your head with fingers interlocked and elbows pointing forward.",
+        "Gently apply light downward pressure, guiding your chin toward your chest.",
+        "Hold the posterior neck stretch for 20-30 seconds while breathing smoothly."
+      ],
+      "nl": [
+        "Ga rechtop op de grond of op een stoel zitten.",
+        "Plaats beide handen met ineengestrengelde vingers achterop je hoofd en wijs met je ellebogen naar voren.",
+        "Trek je hoofd heel rustig en voorzichtig omlaag met je kin richting je borst.",
+        "Houd deze nekstretch 20-30 seconden ontspannen vast terwijl je rustig ademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders relaxed down and away from the ears.",
+        "Apply only gentle passive weight; never yank or pull aggressively on the neck."
+      ],
+      "nl": [
+        "Houd je schouders laag en ontspannen.",
+        "Gebruik alleen licht gewicht van je handen; trek nooit met kracht aan je nek."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin_To_Chest_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin_To_Chest_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_clock_push_up",
+    "exercise_name": {
+      "en": "Clock Push-Up",
+      "nl": "Clock Push-Up"
+    },
+    "aliases": [
+      "Clock Push-Up",
+      "Clock_Push-Up"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a standard push-up plank position on hands and toes.",
+        "Lower chest toward the ground, then press up explosively until hands leave the floor.",
+        "Shift your body laterally 30 degrees to the side in mid-air (like clock hands) before landing.",
+        "Continue push-ups moving around in a full 360-degree circle."
+      ],
+      "nl": [
+        "Neem een normale opdrukhouding aan op je handen en tenen.",
+        "Zak met je borst naar de vloer en duw jezelf explosief omhoog zodat je handen even loskomen.",
+        "Verplaats je handen en voeten in de lucht een stukje zijwaarts alsof je de wijzers van de klok volgt.",
+        "Blijf push-ups maken terwijl je een volledig rondje van 360 graden draait."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Land with soft elbows to safely absorb plyometric impact."
+      ],
+      "nl": [
+        "Houd je core strak en je lichaam kaarsrecht.",
+        "Vang de landing verend op met licht gebogen armen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_cocoons",
+    "exercise_name": {
+      "en": "Cocoons",
+      "nl": "Cocoons"
+    },
+    "aliases": [
+      "Cocoons"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with legs straight and arms extended overhead on the floor.",
+        "Tuck your knees toward your chest while lifting glutes off the floor.",
+        "Simultaneously crunch your torso upward and sweep your arms over knees.",
+        "Pause at peak cocoon tuck, then slowly extend back out to full length."
+      ],
+      "nl": [
+        "Ga op je rug liggen met gestrekte benen en armen boven je hoofd op de grond.",
+        "Trek je knieën naar je borst en til je billen een stukje van de vloer.",
+        "Crunch tegelijkertijd je bovenlichaam omhoog en breng je armen vooruit langs je knieën.",
+        "Knijp jezelf samen in een cocon, houd even vast en strek je weer helemaal lang uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het intrekken van armen en knieën."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cocoons/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cocoons/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_crossover_reverse_lunge",
+    "exercise_name": {
+      "en": "Crossover Reverse Lunge",
+      "nl": "Crossover Reverse Lunge"
+    },
+    "aliases": [
+      "Crossover Reverse Lunge",
+      "Curtsy Lunge",
+      "Crossover_Reverse_Lunge"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae",
+        "glutes"
+      ],
+      "secondary": [
+        "abductors",
+        "hamstrings",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with feet hip-width apart.",
+        "Step one foot diagonally back behind and across the front leg into a crossover curtsy lunge.",
+        "Bend both knees to lower hips until front thigh is parallel to the ground.",
+        "Drive through the front heel to return to center and repeat on opposite side."
+      ],
+      "nl": [
+        "Sta rechtop met je voeten op heupbreedte.",
+        "Stap met één been diagonaal achterlangs je voorste been (curtsy lunge).",
+        "Zak door beide knieën tot je voorste bovenbeen evenwijdig is aan de vloer.",
+        "Duw krachtig af vanuit je voorste hiel om terug te stappen en wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure front knee tracks directly in line with front toes without caving in."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je voorste knie netjes over je tenen blijft wijzen en niet naar binnen valt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crossover_Reverse_Lunge/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crossover_Reverse_Lunge/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_dancers_stretch",
+    "exercise_name": {
+      "en": "Dancer's Stretch",
+      "nl": "Dancer's Stretch"
+    },
+    "aliases": [
+      "Dancer's Stretch",
+      "Dancers_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "abductors",
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with left leg straight.",
+        "Cross right leg over left, bending the right knee and placing right foot flat outside left thigh.",
+        "Place left elbow outside right knee and right hand on floor behind you, twisting torso gently to the right.",
+        "Hold the spinal twist for 15-20 seconds, then switch sides."
+      ],
+      "nl": [
+        "Zit op de grond met je linkerbeen gestrekt voor je uit.",
+        "Kruis je rechterbeen over je linkerbeen heen en zet je rechtervoet plat naast je dij.",
+        "Plaats je linkerarm aan de buitenkant van je rechterknie, zet je rechterhand achter je en draai je bovenlichaam naar rechts.",
+        "Houd deze wervelkolomstretch 15-20 seconden vast en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Sit tall through the crown of your head before initiating the twist.",
+        "Breathe deeply to allow gentle release across the glutes and spinal rotators."
+      ],
+      "nl": [
+        "Maak je rug lang en kruin hoog voordat je indraait.",
+        "Adem rustig door om spanning in de bil en onderrug los te laten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dancers_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dancers_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_decline_oblique_crunch",
+    "exercise_name": {
+      "en": "Decline Oblique Crunch",
+      "nl": "Decline Oblique Crunch"
+    },
+    "aliases": [
+      "Decline Oblique Crunch",
+      "Decline_Oblique_Crunch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Decline Bench",
+        "nl": "Schuin Buikspierbankje"
+      },
+      "description": {
+        "en": "Angled decline sit-up bench with leg rollers",
+        "nl": "Schuin buikspierbankje met beenklemmen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "obliques"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Secure legs in a decline bench and recline until torso is slightly above the bench surface.",
+        "Place hands lightly behind your head.",
+        "Curl your torso upward while rotating to drive one elbow toward the opposite knee.",
+        "Hold the peak contraction for one second, lower slowly, and complete reps before switching sides."
+      ],
+      "nl": [
+        "Klem je benen vast op een schuin buikspierbankje en leun achterover.",
+        "Houd je handen losjes achter je hoofd.",
+        "Kom omhoog met je bovenlichaam en draai in zodat je elleboog naar de tegenovergestelde knie beweegt.",
+        "Knijp je schuine buikspieren bovenin samen en zak langzaam terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Twist from the ribcage and obliques rather than wrenching with your neck."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en trek niet aan je nek.",
+        "Draai bewust vanuit je romp en schuine buikspieren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Oblique_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Oblique_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
