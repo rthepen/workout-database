@@ -162,5 +162,171 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "cable_iron_cross",
+    "exercise_name": {
+      "en": "Cable Iron Cross",
+      "nl": "Cable Iron Cross"
+    },
+    "aliases": [
+      "Cable Iron Cross",
+      "Cable_Iron_Cross"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Set pulleys high, hold handles with arms extended laterally forming a T-shape.",
+        "Keeping elbows extended with a slight soft bend, pull arms straight down to your sides.",
+        "Pause at peak contraction and return under control to the start."
+      ],
+      "nl": [
+        "Zet de katrollen hoog en houd de handvatten vast met je armen zijwaarts gestrekt in een T-vorm.",
+        "Trek je armen met licht gebogen ellebogen recht omlaag naar de zijkant van je heupen.",
+        "Knijp je borstspieren samen onderin en keer gecontroleerd terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Houd je borst fier vooruit en schouders laag.",
+        "Beheers de opwaartse fase volledig zonder mee te veren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Iron_Cross/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Iron_Cross/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_preacher_curl",
+    "exercise_name": {
+      "en": "Cable Preacher Curl",
+      "nl": "Cable Preacher Curl"
+    },
+    "aliases": [
+      "Cable Preacher Curl",
+      "Cable_Preacher_Curl"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
+      },
+      "description": {
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Place a preacher bench in front of a low pulley with a straight or EZ bar attachment.",
+        "Rest upper arms firmly on the pad with arms fully extended.",
+        "Curl the bar toward your shoulders, squeezing biceps hard at the top.",
+        "Lower weight slowly until arms are extended."
+      ],
+      "nl": [
+        "Plaats een preacher bench voor een lage kabel met rechte of EZ-stang.",
+        "Laat je bovenarmen stevig op het kussen rusten met gestrekte armen.",
+        "Curl de stang omhoog naar je schouders en span je biceps bovenin hard aan.",
+        "Laat het gewicht rustig zakken tot volledige strekking."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain armpits locked over the top edge of the pad.",
+        "Avoid lifting your elbows off the bench during the curl."
+      ],
+      "nl": [
+        "Houd je oksels strak tegen de rand van het kussen.",
+        "Til je ellebogen niet op tijdens het buigen van de armen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Preacher_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cable_Preacher_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

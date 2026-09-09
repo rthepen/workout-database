@@ -3506,11 +3506,12 @@
   {
     "id": "kettlebell_bent_press",
     "exercise_name": {
-      "en": "Kettlebell Bent Press",
-      "nl": "Kettlebell Bent Press"
+      "en": "Bent Press",
+      "nl": "Bent Press"
     },
     "aliases": [
-      "Kettlebell Bent Press"
+      "Bent Press",
+      "Bent_Press"
     ],
     "material": {
       "id": "kettlebell",
@@ -3524,72 +3525,72 @@
       }
     },
     "category": {
-      "en": "Advanced Strength & Mobility",
-      "nl": "Kracht / Mobiliteit (Advanced)"
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "rectus_abdominis"
       ],
       "secondary": [
-        "gluteus_maximus",
-        "deltoids"
+        "glutes",
+        "hamstrings",
+        "erector_spinae",
+        "quadriceps",
+        "deltoids",
+        "triceps_brachii"
       ]
     },
     "attributes": {
       "difficulty": "advanced",
       "mechanics": "compound",
-      "force_type": "push",
+      "force_type": "pull",
       "tracking_type": "reps_and_weight"
     },
     "instructions": {
       "en": [
-        "A classic strongman movement building brutal full-body power.",
-        "Bring the kettlebell up to the side of your shoulder into the rack position.",
-        "Lean sideways and forward (\"away from the weight\") as you straighten your arm.",
-        "Then stand up straight."
+        "Clean a kettlebell to your shoulder.",
+        "Lean to the opposite side, continuing until you can touch the ground with your free hand while keeping your eyes on the kettlebell.",
+        "Press the weight vertically by extending the elbow as your torso lowers.",
+        "Return to an upright position with the kettlebell locked out overhead."
       ],
       "nl": [
-        "Een klassieke strongman move.",
-        "Breng de KB naar de zijkant van je schouder.",
-        "Leun zijwaarts en naar voren ('weg van het gewicht') terwijl je je arm strekt.",
-        "Kom daarna rechtop."
+        "Clean de kettlebell naar je schouder.",
+        "Buig je bovenlichaam zijwaarts weg van het gewicht tot je met je vrije hand de grond kunt aantikken.",
+        "Druk de kettlebell verticaal uit terwijl je lichaam naar beneden zakt en houd je ogen op het gewicht.",
+        "Kom rechtop staan met gestrekte arm boven je hoofd."
       ]
     },
     "form_cues": {
       "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
+        "Keep your arm vertical and perpendicular to the floor at all times.",
+        "Never take your eyes off the weight."
       ],
       "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+        "Houd je arm gedurende de hele beweging perfect verticaal ten opzichte van de vloer.",
+        "Houd je ogen continu gericht op de kettlebell."
       ]
     },
     "relations": {
       "progressions": [],
-      "regressions": [
-        "kettlebell_clean"
-      ]
+      "regressions": []
     },
     "media": {
-      "videos": [
+      "images": [
         {
-          "youtube_id": "LmBQ7H95ejU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Rebecca Rouse",
-          "rating": 5
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent_Press/1.jpg",
+          "type": "photo"
         }
-      ]
+      ],
+      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-08T09:14:04.210Z"
+      "updated_at": "2026-09-09"
     }
   },
   {
@@ -4560,6 +4561,93 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Advanced_Kettlebell_Windmill/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "kettlebell_double_jerk",
+    "exercise_name": {
+      "en": "Double Kettlebell Jerk",
+      "nl": "Double Kettlebell Jerk"
+    },
+    "aliases": [
+      "Double Kettlebell Jerk",
+      "Double_Kettlebell_Jerk"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "calves",
+        "quadriceps",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Clean two kettlebells to your shoulders.",
+        "Dip your body by bending the knees, keeping your torso upright.",
+        "Immediately reverse direction, driving through the heels to create momentum.",
+        "Press the kettlebells overhead to lockout while dipping under them, then stand tall."
+      ],
+      "nl": [
+        "Clean twee kettlebells naar de schouders.",
+        "Maak een korte dip door je knieën terwijl je je bovenlichaam rechtop houdt.",
+        "Zet krachtig af vanuit je hielen om opwaartse snelheid te creëren.",
+        "Vang de kettlebells met gestrekte armen op terwijl je eronder zakt en kom rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your core rigid to protect the lumbar spine.",
+        "Lock arms out simultaneously overhead."
+      ],
+      "nl": [
+        "Houd je buikspieren aangespannen om je onderrug te beschermen.",
+        "Strek beide armen tegelijkertijd volledig uit boven je hoofd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Kettlebell_Jerk/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Kettlebell_Jerk/1.jpg",
           "type": "photo"
         }
       ],

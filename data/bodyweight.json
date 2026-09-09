@@ -8344,5 +8344,338 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_body_up",
+    "exercise_name": {
+      "en": "Body-Up",
+      "nl": "Body-Up"
+    },
+    "aliases": [
+      "Body-Up"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a plank position on the ground supporting bodyweight on toes and forearms.",
+        "Press your palms firmly into the floor and extend through elbows to push your body upward into a high plank.",
+        "Slowly lower forearms back to the floor with control."
+      ],
+      "nl": [
+        "Neem een lage plankpositie aan op je onderarmen en tenen.",
+        "Duw je handpalmen krachtig in de vloer en strek je ellebogen om jezelf omhoog te drukken.",
+        "Laat je onderarmen gecontroleerd weer zakken naar de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid sagging hips.",
+        "Keep your wrists and elbows aligned during extension."
+      ],
+      "nl": [
+        "Span je core hard aan en laat je heupen niet doorhangen.",
+        "Strek vanuit beide armen tegelijkertijd zonder te wankelen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_cross_body_crunch",
+    "exercise_name": {
+      "en": "Cross-Body Crunch",
+      "nl": "Cross-Body Crunch"
+    },
+    "aliases": [
+      "Cross-Body Crunch",
+      "Cross-Body_Crunch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "obliques"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, knees bent, feet flat on the floor, hands behind head.",
+        "Curl up diagonally, bringing right shoulder and elbow across toward left knee.",
+        "Lower and repeat toward the opposite knee, alternating sides."
+      ],
+      "nl": [
+        "Ga op je rug liggen met gebogen knieën, voeten plat en handen losjes achter je hoofd.",
+        "Kom diagonaal omhoog en breng je rechterelleboog en schouder naar je linkerknie.",
+        "Laat je rustig zakken en herhaal met links naar de rechterknie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en trek niet aan je nek.",
+        "Focus op het liften van je schouderblad richting de overstaande knie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cross-Body_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cross-Body_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_dead_bug",
+    "exercise_name": {
+      "en": "Dead Bug",
+      "nl": "Dead Bug"
+    },
+    "aliases": [
+      "Dead Bug",
+      "Dead_Bug"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with arms reaching toward ceiling and knees/hips at 90 degrees.",
+        "Flatten your lower back firmly against the floor.",
+        "Slowly extend opposite arm and opposite leg toward the floor without allowing the lower back to arch.",
+        "Return to center and repeat on other side."
+      ],
+      "nl": [
+        "Lig op je rug met je armen omhoog gestrekt en knieën en heupen in een hoek van 90 graden.",
+        "Druk je onderrug stevig plat tegen de grond.",
+        "Laat langzaam de tegenovergestelde arm en been naar de vloer zakken zonder dat je rug hol trekt.",
+        "Kom terug naar het midden en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Maintain unbroken lumbar contact with the ground."
+      ],
+      "nl": [
+        "Houd je onderrug constant en zonder opening tegen de grond gedrukt.",
+        "Beweeg gecontroleerd en adem rustig door."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_handstand_push_ups",
+    "exercise_name": {
+      "en": "Handstand Push-Ups",
+      "nl": "Handstand Push-Ups"
+    },
+    "aliases": [
+      "Handstand Push-Ups",
+      "HSPU",
+      "Handstand_Push-Ups"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Kick up into a handstand against a solid wall with arms fully extended.",
+        "Slowly lower yourself downward by bending elbows until your head lightly touches the floor or mat.",
+        "Press forcefully back upward to full elbow lockout."
+      ],
+      "nl": [
+        "Zwaai op tot een handstand tegen een stevige muur met gestrekte armen.",
+        "Laat je lichaam langzaam en beheerst zakken tot je hoofd zachtjes de grond raakt.",
+        "Duw jezelf explosief weer omhoog tot je armen volledig gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain body tension through your core and glutes.",
+        "Tuck elbows slightly forward at a 45-degree angle rather than flaring them wide."
+      ],
+      "nl": [
+        "Span je hele lichaam aan en houd je core strak.",
+        "Wijs met je ellebogen licht naar voren in een hoek van 45 graden."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

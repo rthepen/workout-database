@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:35:54.337867+00:00",
-  "total_exercises": 649,
+  "last_updated_utc": "2026-09-09T14:39:32.254058+00:00",
+  "total_exercises": 664,
   "total_equipment_types": 29,
   "available_materials": {
     "ab_wheel": {
@@ -157,12 +157,12 @@
     },
     "machine": {
       "name": {
-        "en": "Machine",
-        "nl": "Fitnessapparaat"
+        "en": "Elliptical Machine",
+        "nl": "Crosstrainer"
       },
       "description": {
-        "en": "Selectorized weight stack machines for guided and isolated movement paths",
-        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
+        "en": "Low-impact stationary cardio machine utilizing synchronized foot pedals and arm handles",
+        "nl": "Cardio-apparaat voor een vloeiende full-body conditietraining zonder schokbelasting"
       }
     },
     "medicine_ball": {
@@ -328,7 +328,6 @@
     "Advanced Coordination",
     "Advanced Core",
     "Advanced Hamstrings",
-    "Advanced Strength & Mobility",
     "Agility",
     "Agility & Coordination",
     "Agility & Cornering",

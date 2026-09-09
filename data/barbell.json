@@ -3320,5 +3320,93 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_clean_deadlift",
+    "exercise_name": {
+      "en": "Clean Deadlift",
+      "nl": "Clean Deadlift"
+    },
+    "aliases": [
+      "Clean Deadlift",
+      "Clean_Deadlift"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "forearms",
+        "glutes",
+        "erector_spinae",
+        "rhomboids",
+        "quadriceps",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand with barbell close to shins using a clean width hook grip.",
+        "Keep shoulders slightly in front of the bar and back straight.",
+        "Drive through the floor maintaining constant back angle until the bar clears the knees, then extend hips into the bar."
+      ],
+      "nl": [
+        "Sta met de halterstang tegen je schenen en pak de stang vast op schouderbreedte.",
+        "Houd je schouders iets voor de stang en je rug neutraal en recht.",
+        "Duw de vloer weg vanuit je voeten, houd je rughoek vast tot de knieën en strek daarna krachtig uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain bar contact against the legs throughout the pull."
+      ],
+      "nl": [
+        "Houd je borst op en trek de stang dicht langs je benen omhoog.",
+        "Voorkom dat je heupen te snel omhoog schieten bij de start."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Deadlift/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Deadlift/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
