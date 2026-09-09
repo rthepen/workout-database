@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T20:58:56.454162+00:00",
-  "total_exercises": 1061,
+  "last_updated_utc": "2026-09-09T21:50:03.999760+00:00",
+  "total_exercises": 1037,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -327,7 +327,6 @@
     "deltoids",
     "erector_spinae",
     "forearms",
-    "full_body",
     "glutes",
     "gluteus_maximus",
     "hamstrings",
@@ -369,7 +368,6 @@
     "Back & Rear Deltoids",
     "Back (Latissimus Dorsi)",
     "Balance",
-    "Balance & Coordination",
     "Balance & Shoulders",
     "Biceps",
     "Biceps & Forearms",
@@ -523,8 +521,7 @@
     "Upper Body & Triceps",
     "Upper Body Strength",
     "Upper Chest",
-    "Warm-Up & Core",
-    "Warm-Up & Mobility"
+    "Warm-Up & Core"
   ],
   "distribution_files": {
     "all_exercises": "https://raw.githubusercontent.com/rthepen/workout-database/main/dist/all_exercises.json",
