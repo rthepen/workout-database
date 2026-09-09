@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T15:01:00.143275+00:00",
-  "total_exercises": 816,
+  "last_updated_utc": "2026-09-09T16:25:20.288166+00:00",
+  "total_exercises": 1064,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -27,12 +27,12 @@
     },
     "barbell": {
       "name": {
-        "en": "Barbell / Dumbbells & Bench",
-        "nl": "Halterstang / Dumbbells & Bank"
+        "en": "Barbell",
+        "nl": "Halterstang"
       },
       "description": {
-        "en": "Incline bench row performed lying chest-down on the pad",
-        "nl": "Vooroverliggende roeioefening op een schuine bank"
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
       }
     },
     "battle_rope": {
@@ -67,32 +67,32 @@
     },
     "cable": {
       "name": {
-        "en": "Cable Machine & Bench",
-        "nl": "Kabelstation & Bank"
+        "en": "Cable Machine",
+        "nl": "Kabelstation"
       },
       "description": {
-        "en": "Incline bench set between low cable pulleys for upward arcing chest flyes",
-        "nl": "Schuine bank tussen lage katrollen voor schuine borstflyes"
+        "en": "Cable pulley system with selectorized weight stacks for constant tension",
+        "nl": "Kabelsysteem met gewichtsstapel voor constante weerstand"
       }
     },
     "cardio_equipment": {
       "name": {
         "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
+        "nl": "Cardio-apparatuur"
       },
       "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
       }
     },
     "cones": {
       "name": {
-        "en": "Cones / Hurdles",
-        "nl": "Pionnen / Horden"
+        "en": "Cones",
+        "nl": "Pionnen"
       },
       "description": {
-        "en": "Row of agility cones or low mini-hurdles for continuous forward jumping drills",
-        "nl": "Rij pionnen of lage hordes voor plyometrische voorwaartse sprongen"
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
       }
     },
     "core_sliders": {
@@ -177,12 +177,12 @@
     },
     "machine": {
       "name": {
-        "en": "Hyperextension Bench",
-        "nl": "Hyperextension Bank"
+        "en": "Machine",
+        "nl": "Fitnessapparaat"
       },
       "description": {
-        "en": "45-degree or horizontal back extension bench with thigh pads and ankle rollers",
-        "nl": "Rugtrainerbank voor hyperextensies en versterking van de onderrug"
+        "en": "Selectorized weight stack machines for guided and isolated movement paths",
+        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
       }
     },
     "medicine_ball": {
@@ -237,22 +237,22 @@
     },
     "plyo_box": {
       "name": {
-        "en": "Plyo Blocks / Platforms",
-        "nl": "Plyo Blokken"
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
       },
       "description": {
-        "en": "Low platforms set on either side for plyometric upper-body drop push-ups",
-        "nl": "Lage verhogingen voor plyometrische opdrukoefeningen"
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
       }
     },
     "resistance_band": {
       "name": {
-        "en": "Strap / Band",
-        "nl": "Band / Riem"
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
       },
       "description": {
-        "en": "Strap, belt, or band looped around foot for assisted stretching",
-        "nl": "Band of riem om de voet voor geassisteerde rekoefeningen"
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
       }
     },
     "sandbag": {
@@ -277,12 +277,12 @@
     },
     "sprint_track": {
       "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
+        "en": "Sprint Track / Turf",
+        "nl": "Sprinttrack / Kunstgras"
       },
       "description": {
         "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+        "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
       }
     },
     "standing_punching_bag": {
@@ -368,12 +368,14 @@
     "Back & Rear Deltoids",
     "Back (Latissimus Dorsi)",
     "Balance",
+    "Balance & Coordination",
     "Balance & Shoulders",
     "Biceps",
     "Biceps & Forearms",
     "Boxing",
     "Boxing & Groundwork",
     "Calves & Foot Technique",
+    "Cardio",
     "Cardio & Agility",
     "Cardio & Boxing",
     "Cardio & Coordination",
@@ -473,6 +475,7 @@
     "Movement Technique",
     "Muay Thai Striking",
     "Obliques & Core",
+    "Olympic Weightlifting",
     "Partner & Team Drills",
     "Partner Core & Abs",
     "Partner Lower Body",
@@ -519,7 +522,8 @@
     "Upper Body & Triceps",
     "Upper Body Strength",
     "Upper Chest",
-    "Warm-Up & Core"
+    "Warm-Up & Core",
+    "Warm-Up & Mobility"
   ],
   "distribution_files": {
     "all_exercises": "https://raw.githubusercontent.com/rthepen/workout-database/main/dist/all_exercises.json",

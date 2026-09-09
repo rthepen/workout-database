@@ -1814,5 +1814,92 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "cones_single_leg_lateral_hop",
+    "exercise_name": {
+      "en": "Single-Leg Lateral Hop",
+      "nl": "Single-Leg Lateral Hop"
+    },
+    "aliases": [
+      "Single-Leg Lateral Hop",
+      "Cone Lateral Bound"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand to the side of a cone or hurdle. To get into the start position, stand on one leg with your knee slightly bent.",
+        "To begin, execute a counterjump to hop sideways over the cone.",
+        "Land on your jumping leg, and immediately rebound out of it by jumping back to the start position.",
+        "Continue hopping back and forth."
+      ],
+      "nl": [
+        "Ga op één been naast een pion of hindernis staan met een licht gebogen knie.",
+        "Zet krachtig af en spring zijwaarts over de pion heen.",
+        "Land veerkrachtig op hetzelfde been en spring direct weer zijwaarts terug naar de startpositie.",
+        "Blijf in een vlot ritme heen en weer springen en wissel na de set van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Leg_Lateral_Hop/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Leg_Lateral_Hop/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

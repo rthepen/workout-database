@@ -26,6 +26,7 @@ MUSCLE_MAP = {
     "traps": "trapezius",
     "hip_flexors": "iliopsoas",
     "core": "rectus_abdominis",
+    "neck": "trapezius",
 }
 
 def run_import():
@@ -59,6 +60,109 @@ def run_import():
         elif c["id"] == "bodyweight_hanging_leg_raise":
             c["id"] = "monkey_bars_hanging_leg_raise"
             c["material"]["id"] = "monkey_bars"
+        elif c["id"] in [
+            "resistance_band_cable_deadlifts",
+            "resistance_band_cable_russian_twists",
+            "resistance_band_external_rotation_with_cable",
+            "resistance_band_face_pull",
+            "resistance_band_front_cable_raise",
+            "resistance_band_one_arm_lat_pulldown",
+            "resistance_band_pull_through",
+            "resistance_band_reverse_grip_triceps_pushdown",
+            "resistance_band_shotgun_row",
+            "resistance_band_standing_rope_crunch"
+        ] or (c.get("material", {}).get("id") == "resistance_band" and ("cable" in c.get("exercise_name", {}).get("en", "").lower() or "pulldown" in c.get("exercise_name", {}).get("en", "").lower() or "pushdown" in c.get("exercise_name", {}).get("en", "").lower() or "pulley" in c.get("exercise_name", {}).get("en", "").lower())):
+            clean_name = c["id"].replace("resistance_band_", "")
+            c["id"] = f"cable_{clean_name}"
+            c["material"] = {
+                "id": "cable",
+                "name": {"en": "Cable Machine", "nl": "Kabelstation"},
+                "description": {
+                    "en": "Cable pulley system with selectorized weight stacks for constant tension",
+                    "nl": "Kabelsysteem met gewichtsstapel voor constante weerstand"
+                }
+            }
+        elif "exercise_ball" in c["id"] or "stability_ball" in c["id"]:
+            clean_name = c["id"].replace("bodyweight_", "")
+            c["id"] = f"stability_ball_{clean_name}"
+            c["material"] = {
+                "id": "exercise_ball",
+                "name": {"en": "Stability Ball", "nl": "Fysiobal / Stabiliteitsbal"},
+                "description": {
+                    "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+                    "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+                }
+            }
+        elif c["id"].endswith("_smr") or c["id"] == "bodyweight_latissimus_dorsi_smr":
+            clean_name = c["id"].replace("bodyweight_", "")
+            c["id"] = f"foam_roller_{clean_name}"
+            c["material"] = {
+                "id": "foam_roller",
+                "name": {"en": "Foam Roller", "nl": "Foamroller"},
+                "description": {
+                    "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+                    "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+                }
+            }
+        elif c["id"] in ["bodyweight_recumbent_bike", "bodyweight_stairmaster", "bodyweight_step_mill", "bodyweight_walking_treadmill"]:
+            clean_name = c["id"].replace("bodyweight_", "")
+            c["id"] = f"cardio_equipment_{clean_name}"
+            c["material"] = {
+                "id": "cardio_equipment",
+                "name": {"en": "Cardio Equipment", "nl": "Cardio-apparatuur"},
+                "description": {
+                    "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+                    "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+                }
+            }
+        elif c["id"].startswith("bodyweight_step_up_"):
+            clean_name = c["id"].replace("bodyweight_", "")
+            c["id"] = f"plyo_box_{clean_name}"
+            c["material"] = {
+                "id": "plyo_box",
+                "name": {"en": "Plyo Box", "nl": "Sprongkast / Plyo Box"},
+                "description": {
+                    "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+                    "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+                }
+            }
+        elif c["id"] == "bodyweight_reverse_plate_curls":
+            c["id"] = "barbell_reverse_plate_curls"
+            c["material"] = {
+                "id": "barbell",
+                "name": {"en": "Weight Plate", "nl": "Halterschijf"},
+                "description": {
+                    "en": "Olympic weight plate held in hands for shoulder conditioning",
+                    "nl": "Halterschijf voor schouder- en armisolatie"
+                }
+            }
+        elif c["id"].startswith("sandbag_sled_"):
+            clean_name = c["id"].replace("sandbag_", "")
+            c["id"] = f"sprint_track_{clean_name}"
+            c["material"] = {
+                "id": "sprint_track",
+                "name": {"en": "Sprint Track / Turf", "nl": "Sprinttrack / Kunstgras"},
+                "description": {
+                    "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+                    "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
+                }
+            }
+        elif c["id"].startswith("bodyweight_leg_extensions") or c["id"].startswith("bodyweight_leg_press") or c["id"].startswith("bodyweight_leverage_") or c["id"].startswith("bodyweight_machine_") or c["id"].startswith("bodyweight_lying_leg_curls") or c["id"].startswith("bodyweight_lying_machine_squat") or c["id"].startswith("bodyweight_lying_t_bar_row") or c["id"].startswith("bodyweight_reverse_hyperextension") or c["id"].startswith("bodyweight_reverse_machine_flyes") or c["id"].startswith("bodyweight_seated_calf_raise") or c["id"].startswith("bodyweight_seated_leg_curl") or c["id"].startswith("barbell_smith_") or c["id"].startswith("bodyweight_standing_calf_raises") or c["id"].startswith("bodyweight_standing_leg_curl") or c["id"].startswith("bodyweight_thigh_"):
+            clean_name = c["id"].replace("bodyweight_", "").replace("barbell_", "")
+            if clean_name.startswith("machine_"):
+                c["id"] = clean_name
+            else:
+                c["id"] = f"machine_{clean_name}"
+            c["material"] = {
+                "id": "machine",
+                "name": {"en": "Machine", "nl": "Fitnessapparaat"},
+                "description": {
+                    "en": "Selectorized weight stack machines for guided and isolated movement paths",
+                    "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
+                }
+            }
+        elif c["id"].startswith("medicine_ball_medicine_ball_"):
+            c["id"] = c["id"].replace("medicine_ball_medicine_ball_", "medicine_ball_")
 
         # Image paths -> Raw GitHub URLs
         raw_images = c.get("media", {}).get("images", [])

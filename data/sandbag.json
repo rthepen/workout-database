@@ -1702,5 +1702,192 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
     }
+  },
+  {
+    "id": "sandbag_keg_load",
+    "exercise_name": {
+      "en": "Keg Load",
+      "nl": "Keg Load"
+    },
+    "aliases": [
+      "Keg Load",
+      "Strongman Keg Loading"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "biceps_brachii",
+        "calves",
+        "forearms",
+        "gluteus_maximus",
+        "hamstrings",
+        "rhomboids",
+        "quadriceps",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "To load kegs, place the desired number a distance from the loading platform, typically 30-50 feet.",
+        "Begin by grabbing the close handle of the first keg, tilting it onto its side to grab the opposite edge of the bottom of the keg. Lift the keg up to your chest.",
+        "The higher you can place the keg, the faster you should be able to move to the platform. Shouldering is usually not allowed. Be sure to keep a firm hold on the keg. Move as quickly as possible to the platform, and load it, extending through your hips, knees, and ankles to get it as high as possible.",
+        "Return to the starting position to retrieve the next keg, and repeat until the event is completed."
+      ],
+      "nl": [
+        "Kantel het biervat of zware object en pak het met beide handen stevig vast aan de randen.",
+        "Til het vat vanaf de grond krachtig op tot tegen je borstkas.",
+        "Wandel snel naar het laadplatform en laad het vat over de stang of op het platform door je heupen en knieën krachtig uit te strekken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly when lapping and picking the awkward implement.",
+        "Extend aggressively through the hips at the platform to load the object."
+      ],
+      "nl": [
+        "Span je core keihard aan bij het optillen en opvangen tegen je borst.",
+        "Strek je heupen explosief uit bij het platform om het gewicht erop te tillen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Keg_Load/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Keg_Load/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "sandbag_sandbag_load",
+    "exercise_name": {
+      "en": "Sandbag Load",
+      "nl": "Sandbag Load"
+    },
+    "aliases": [
+      "Sandbag Load",
+      "Strongman Sandbag Loading"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "biceps_brachii",
+        "calves",
+        "forearms",
+        "gluteus_maximus",
+        "hamstrings",
+        "erector_spinae",
+        "rhomboids",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "To load sandbags or other objects, begin with the implements placed a distance from the loading platform, typically 50 feet.",
+        "Begin by lifting the sandbag. Sandbags are extremely awkward, and the manner of lifting them can vary depending on the particular sandbag used. Reach as far around it as possible, extending through the hips and knees to pull it up high. Shouldering is usually not allowed.",
+        "Move as quickly as possible to the platform, and load it, extending through your hips, knees, and ankles to get it as high as possible. Place it onto the platform, ensuring it doesn't fall off.",
+        "Return to the starting position to retrieve the next sandbag, and repeat until the event is completed."
+      ],
+      "nl": [
+        "Ga wijd over de zandzak staan, reik er met beide armen onderdoor en til de zak op naar je schoot.",
+        "Klem de zandzak stevig tegen je borstkas in een bear-hug greep en strek je heupen en knieën krachtig uit.",
+        "Wandel vlot naar het platform en til de zandzak met een explosieve heupextensie over de stang of op het laadplatform.",
+        "Zorg dat de zak stabiel blijft liggen en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sandbag_Load/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sandbag_Load/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

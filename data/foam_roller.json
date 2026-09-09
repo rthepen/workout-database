@@ -401,5 +401,491 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "foam_roller_latissimus_dorsi_smr",
+    "exercise_name": {
+      "en": "Latissimus Dorsi-SMR",
+      "nl": "Brede Rugspier Schuimroller (SMR)"
+    },
+    "aliases": [
+      "Lat Foam Rolling",
+      "Latissimus Dorsi SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "While lying on the floor, place a foam roll under your back and to one side, just behind your arm pit. This will be your starting position.",
+        "Keep the arm of the side being stretched behind and to the side of you as you shift your weight onto your lats, keeping your upper body off of the ground. Hold for 10-30 seconds, and switch sides."
+      ],
+      "nl": [
+        "Ga op je zij liggen met een schuimroller onder je flank net achter je oksel.",
+        "Strek je arm aan die zijde uit en breng je lichaamsgewicht rustig op je brede rugspier.",
+        "Rol langzaam over de spier en houd gevoelige drukpunten 10 tot 30 seconden vast. Wissel daarna van zijde."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Relax into the tender spots and breathe deeply.",
+        "Roll slowly along the muscular tissue without putting direct pressure on the shoulder joint."
+      ],
+      "nl": [
+        "Adem rustig door en ontspan op de gevoelige punten.",
+        "Rol uitsluitend over het spierweefsel en vermijd directe druk op het schoudergewricht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Latissimus_Dorsi-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Latissimus_Dorsi-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "foam_roller_lower_back_smr",
+    "exercise_name": {
+      "en": "Lower Back-SMR",
+      "nl": "Onderrug Schuimroller (SMR)"
+    },
+    "aliases": [
+      "Lower Back Foam Rolling",
+      "Lower Back SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "In a seated position, place a foam roll under your lower back. Cross your arms in front of you and protract your shoulders. This will be your starting position.",
+        "Raise your hips off of the floor and lean back, keeping your weight on your lower back. Now shift your weight slightly to one side, keeping your weight off of the spine and on the muscles to the side of it. Roll over your lower back, holding points of tension for 10-30 seconds. Repeat on the other side."
+      ],
+      "nl": [
+        "Ga zitten en plaats een schuimroller onder je onderrug met je armen gekruist voor je borst.",
+        "Til je heupen iets van de grond en leun licht naar één zijde zodat de druk op de spieren naast de wervelkolom rust.",
+        "Rol rustig over de spieren van je onderrug en houd gevoelige plekken 10 tot 30 seconden vast.",
+        "Herhaal de beweging voor de andere zijde van je onderrug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Avoid rolling directly onto the lumbar spine; tilt slightly onto the paraspinal muscles.",
+        "Breathe steadily and keep your abdominal muscles lightly braced."
+      ],
+      "nl": [
+        "Rol niet recht over de wervels heen, maar kantel op de spierbundels ernaast.",
+        "Adem rustig door en houd lichte spanning op je buikspieren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "foam_roller_peroneals_smr",
+    "exercise_name": {
+      "en": "Peroneals-SMR",
+      "nl": "Kuitbeen Spier Schuimroller (SMR)"
+    },
+    "aliases": [
+      "Peroneals SMR",
+      "Fibularis Foam Rolling"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lay on your side, supporting your weight on your forearm and on a foam roller placed on the outside of your lower leg. Your upper leg can either be on top of your lower leg, or you can cross it in front of you. This will be your starting position.",
+        "Raise your hips off of the ground and begin to roll from below the knee to above the ankle on the side of your leg, pausing at points of tension for 10-30 seconds. Repeat on the other leg."
+      ],
+      "nl": [
+        "Ga op je zij liggen en plaats een schuimroller onder de buitenkant van je onderbeen, steunend op je onderarm.",
+        "Til je heupen van de vloer en rol langzaam tussen je knie en enkel over de buitenzijde van je kuit.",
+        "Houd gevoelige drukpunten 10 tot 30 seconden vast en adem rustig door.",
+        "Wissel na afloop van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Roll slowly along the lateral lower leg and avoid direct pressure on the ankle bone.",
+        "Breathe deeply and relax the calf musculature onto the roller."
+      ],
+      "nl": [
+        "Rol rustig over de zijkant van het onderbeen en ontwijk de botknobbels van de enkel.",
+        "Adem diep door en laat de spierspanning geleidelijk los."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Peroneals-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Peroneals-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "foam_roller_piriformis_smr",
+    "exercise_name": {
+      "en": "Piriformis-SMR",
+      "nl": "Piriformis Schuimroller (SMR)"
+    },
+    "aliases": [
+      "Piriformis SMR",
+      "Glute Foam Rolling"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit with your buttocks on top of a foam roll. Bend your knees, and then cross one leg so that the ankle is over the knee. This will be your starting position.",
+        "Shift your weight to the side of the crossed leg, rolling over the buttocks until you feel tension in your upper glute. You may assist the stretch by using one hand to pull the bent knee towards your chest. Hold this position for 10-30 seconds, and then switch sides."
+      ],
+      "nl": [
+        "Ga met je billen op de schuimroller zitten, buig je knieën en kruis één enkel over de tegenovergestelde knie (figuur 4-houding).",
+        "Kantel je gewicht naar de bil van het gekruiste been en rol rustig over de diepe bilspieren tot je een triggerpoint vindt.",
+        "Houd de druk 10 tot 30 seconden vast terwijl je rustig in- en uitademt. Wissel daarna van zijde."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Relax deeply into the tender spots in the gluteal area.",
+        "Maintain balanced support with your hands to modulate pressure."
+      ],
+      "nl": [
+        "Ontspan je bilspier bewust op de gevoelige punten.",
+        "Ondersteun je gewicht met je handen om de druk op de roller te doseren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Piriformis-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Piriformis-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "foam_roller_quadriceps_smr",
+    "exercise_name": {
+      "en": "Quadriceps-SMR",
+      "nl": "Quadriceps Schuimroller (SMR)"
+    },
+    "aliases": [
+      "Quadriceps Foam Rolling",
+      "Quad SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lay facedown on the floor with your weight supported by your hands or forearms. Place a foam roll underneath one leg on the quadriceps, and keep the foot off of the ground. Make sure to relax the leg as much as possible. This will be your starting position.",
+        "Shifting as much weight onto the leg to be stretched as is tolerable, roll over the foam from above the knee to below the hip, holding points of tension for 10-30 seconds. Switch sides."
+      ],
+      "nl": [
+        "Ga op je buik op de grond liggen en plaats een schuimroller onder je bovenbenen terwijl je steunt op je onderarmen.",
+        "Houd je voeten los van de grond en breng je gewicht gecontroleerd over op één bovenbeen.",
+        "Rol langzaam van net boven je knie tot vlak onder je heup en houd gevoelige plekken 10 tot 30 seconden vast.",
+        "Wissel daarna naar het andere been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Relax the quadriceps muscle completely to allow deep tissue compression.",
+        "Breathe deeply and control the rolling speed with your arms."
+      ],
+      "nl": [
+        "Ontspan je bovenbeen volledig zodat de roller diep in het spierweefsel kan drukken.",
+        "Adem rustig door en stuur de rolsnelheid aan met je armen en bovenlichaam."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Quadriceps-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Quadriceps-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "foam_roller_rhomboids_smr",
+    "exercise_name": {
+      "en": "Rhomboids-SMR",
+      "nl": "Ruitvormige Spier Schuimroller (SMR)"
+    },
+    "aliases": [
+      "Rhomboids-SMR",
+      "Upper Back Foam Rolling"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "rhomboids"
+      ],
+      "secondary": [
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lay down with your back on the floor. Place a foam roll underneath your upper back, and cross your arms in front of you, protracting your shoulders. This will be your starting position.",
+        "Raise your hips off of the ground, placing your weight onto the foam roll. Shift your weight to one side at a time, rolling over your middle and upper back. Pause at points of tension for 10-30 seconds."
+      ],
+      "nl": [
+        "Ga op je rug op de vloer liggen en plaats een schuimroller onder je bovenrug. Kruis je armen voor je borst om je schouderbladen te openen.",
+        "Til je heupen van de vloer zodat je lichaamsgewicht op de schuimroller rust.",
+        "Kantel je gewicht licht naar één zijde en rol langzaam over je boven- en middenrug. Houd gevoelige drukpunten 10 tot 30 seconden vast.",
+        "Herhaal voor de andere zijde van je bovenrug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Hug yourself tightly to open up the shoulder blades and access the rhomboids.",
+        "Breathe deeply and avoid rolling directly over the cervical neck vertebrae."
+      ],
+      "nl": [
+        "Kruis je armen strak over elkaar zodat je schouderbladen uit elkaar wijken voor de ruitspieren.",
+        "Adem rustig door en rol niet rechtstreeks over de nekwervels."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rhomboids-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rhomboids-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

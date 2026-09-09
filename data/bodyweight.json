@@ -11449,5 +11449,1525 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_ankle_circles",
+    "exercise_name": {
+      "en": "Ankle Circles",
+      "nl": "Enkel Cirkels"
+    },
+    "aliases": [
+      "Ankle Circles"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Use a sturdy object like a squat rack to hold yourself.",
+        "Lift the right leg in the air (just around 2 inches from the floor) and perform a circular motion with the big toe. Pretend that you are drawing a big circle with it. Tip: One circle equals 1 repetition. Breathe normally as you perform the movement.",
+        "When you are done with the right foot, then repeat with the left leg."
+      ],
+      "nl": [
+        "Houd je vast aan een stevig voorwerp, zoals een squat rack, voor balans.",
+        "Til het rechterbeen van de vloer (ongeveer 5 centimeter) en maak een cirkelvormige beweging met de grote teen alsof je een grote cirkel tekent. Eén cirkel telt als één herhaling. Blijf rustig doorademen.",
+        "Wissel na de set van been en herhaal met de linkervoet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your torso upright and hold onto support to avoid swaying.",
+        "Perform full, controlled rotations from the ankle joint."
+      ],
+      "nl": [
+        "Houd je bovenlichaam rechtop en gebruik steun om niet uit balans te raken.",
+        "Maak volledige, gecontroleerde cirkels vanuit het enkelgewricht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ankle_Circles/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ankle_Circles/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_arm_circles",
+    "exercise_name": {
+      "en": "Arm Circles",
+      "nl": "Arm Cirkels"
+    },
+    "aliases": [
+      "Arm Circles"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Warm-Up & Mobility",
+      "nl": "Warming-up & Mobiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand up and extend your arms straight out by the sides. The arms should be parallel to the floor and perpendicular (90-degree angle) to your torso. This will be your starting position.",
+        "Slowly start to make circles of about 1 foot in diameter with each outstretched arm. Breathe normally as you perform the movement.",
+        "Continue the circular motion of the outstretched arms for about ten seconds. Then reverse the movement, going the opposite direction."
+      ],
+      "nl": [
+        "Ga rechtop staan en strek je armen zijwaarts uit op schouderhoogte, parallel aan de vloer.",
+        "Draai langzaam gecontroleerde cirkels van ongeveer 30 cm doorsnee met gestrekte armen. Blijf rustig ademhalen.",
+        "Draai ongeveer tien seconden in één richting en draai vervolgens de tegenovergestelde richting op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders relaxed away from your ears.",
+        "Maintain a neutral spine and tight core throughout the rotations."
+      ],
+      "nl": [
+        "Houd je schouders laag en ontspannen.",
+        "Houd je romp stabiel en voorkom zwaaien met je bovenlichaam."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Arm_Circles/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Arm_Circles/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_balance_board",
+    "exercise_name": {
+      "en": "Balance Board",
+      "nl": "Balansbord"
+    },
+    "aliases": [
+      "Balance Board"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Balance & Coordination",
+      "nl": "Balans & Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": [
+        "hamstrings",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place a balance board in front of you.",
+        "Stand up on it and try to balance yourself.",
+        "Hold the balance for as long as desired."
+      ],
+      "nl": [
+        "Plaats het balansbord op een vlakke ondergrond.",
+        "Stap voorzichtig met beide voeten op het bord en vind je evenwicht.",
+        "Houd deze stabiele balanspositie vast voor de gewenste tijdsduur."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep a soft bend in knees and brace your core.",
+        "Fix your gaze on a stationary point in front of you."
+      ],
+      "nl": [
+        "Houd je knieën licht gebogen en span je core aan.",
+        "Kijk naar een vast punt voor je om stabiliteit te bewaren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Balance_Board/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Balance_Board/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_ball_leg_curl",
+    "exercise_name": {
+      "en": "Ball Leg Curl",
+      "nl": "Ball Leg Curl"
+    },
+    "aliases": [
+      "Stability Ball Leg Curl",
+      "Swiss Ball Hamstring Curl"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Begin on the floor laying on your back with your feet on top of the ball.",
+        "Position the ball so that when your legs are extended your ankles are on top of the ball. This will be your starting position.",
+        "Raise your hips off of the ground, keeping your weight on the shoulder blades and your feet.",
+        "Flex the knees, pulling the ball as close to you as you can, contracting the hamstrings.",
+        "After a brief pause, return to the starting position."
+      ],
+      "nl": [
+        "Ga op je rug op de vloer liggen met je hielen en enkels bovenop de fitnessbal.",
+        "Til je heupen van de vloer zodat je lichaam een rechte lijn vormt van schouders tot voeten.",
+        "Buig je knieën en rol de bal zo dicht mogelijk naar je billen toe terwijl je de hamstrings aanspant.",
+        "Pauzeer kort en rol de bal weer rustig uit naar de startpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep hips elevated high throughout the curling motion.",
+        "Do not allow lower back to hyperextend; keep glutes and core engaged."
+      ],
+      "nl": [
+        "Houd je heupen hoog tijdens het inrollen van de bal.",
+        "Knijp je billen en core aan om te voorkomen dat je onderrug doorzakt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_crunches",
+    "exercise_name": {
+      "en": "Crunches",
+      "nl": "Crunches"
+    },
+    "aliases": [
+      "Crunches",
+      "Abdominal Crunches"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on your back with your feet flat on the ground, or resting on a bench with your knees bent at a 90 degree angle. If you are resting your feet on a bench, place them three to four inches apart and point your toes inward so they touch.",
+        "Now place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head.",
+        "While pushing the small of your back down in the floor to better isolate your abdominal muscles, begin to roll your shoulders off the floor.",
+        "Continue to push down as hard as you can with your lower back as you contract your abdominals and exhale. Your shoulders should come up off the floor only about four inches, and your lower back should remain on the floor. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.",
+        "After the one second contraction, begin to come down slowly again to the starting position as you inhale.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op je rug liggen met je knieën 90 graden gebogen en voeten plat op de grond of op een bankje.",
+        "Plaats je handen licht tegen de zijkant van je hoofd zonder aan je nek te trekken.",
+        "Druk je onderrug in de vloer en rol je schouderbladen ongeveer 10 cm van de grond terwijl je uitademt en je buikspieren aanspant.",
+        "Knijp bovenin een seconde samen en laat je bovenlichaam rustig terugzakken terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunches/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunches/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_decline_crunch",
+    "exercise_name": {
+      "en": "Decline Crunch",
+      "nl": "Decline Crunch"
+    },
+    "aliases": [
+      "Decline Crunch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Secure your legs at the end of the decline bench and lie down.",
+        "Now place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head.",
+        "While pushing the small of your back down in the bench to better isolate your abdominal muscles, begin to roll your shoulders off it.",
+        "Continue to push down as hard as you can with your lower back as you contract your abdominals and exhale. Your shoulders should come up off the bench only about four inches, and your lower back should remain on the bench. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.",
+        "After the one second contraction, begin to come down slowly again to the starting position as you inhale.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Klem je benen vast aan de bovenkant van de decline bank en ga achterover liggen.",
+        "Plaats je handen losjes tegen je slapen zonder aan je nek te trekken.",
+        "Span je buikspieren krachtig aan en rol je schouders ongeveer 10 cm van de bank af terwijl je onderrug contact houdt met de bank.",
+        "Knijp bovenin een seconde samen en laat je gecontroleerd weer zakken terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_decline_reverse_crunch",
+    "exercise_name": {
+      "en": "Decline Reverse Crunch",
+      "nl": "Decline Reverse Crunch"
+    },
+    "aliases": [
+      "Decline Reverse Crunch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back on a decline bench and hold on to the top of the bench with both hands. Don't let your body slip down from this position.",
+        "Hold your legs parallel to the floor using your abs to hold them there while keeping your knees and feet together. Tip: Your legs should be fully extended with a slight bend on the knee. This will be your starting position.",
+        "While exhaling, move your legs towards the torso as you roll your pelvis backwards and you raise your hips off the bench. At the end of this movement your knees will be touching your chest.",
+        "Hold the contraction for a second and move your legs back to the starting position while inhaling.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op een decline bank liggen en pak de bovenkant van de bank met beide handen stevig vast.",
+        "Strek je benen uit parallel aan de vloer met licht gebogen knieën.",
+        "Rol je bekken achterover en til je heupen van de bank af terwijl je je knieën richting je borst trekt en uitademt.",
+        "Knijp je buikspieren een seconde samen en laat je heupen weer rustig zakken naar de beginstand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Roll the pelvis upward; do not merely swing the legs with momentum.",
+        "Maintain control on the descent and prevent excessive spinal hyperextension."
+      ],
+      "nl": [
+        "Kantel je bekken bewust omhoog en trek niet met momentum.",
+        "Laat je heupen beheerst zakken en houd constante buikspanning."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Reverse_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Reverse_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_dips_chest_version",
+    "exercise_name": {
+      "en": "Dips - Chest Version",
+      "nl": "Dips - Borst Variant"
+    },
+    "aliases": [
+      "Dips - Chest Version",
+      "Chest Dips"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "For this exercise you will need access to parallel bars. To get yourself into the starting position, hold your body at arms length (arms locked) above the bars.",
+        "While breathing in, lower yourself slowly with your torso leaning forward around 30 degrees or so and your elbows flared out slightly until you feel a slight stretch in the chest.",
+        "Once you feel the stretch, use your chest to bring your body back to the starting position as you breathe out. Tip: Remember to squeeze the chest at the top of the movement for a second.",
+        "Repeat the movement for the prescribed amount of repetitions."
+      ],
+      "nl": [
+        "Pak de parallelle dipstangen vast en duw jezelf omhoog tot je armen gestrekt zijn.",
+        "Leun met je bovenlichaam ongeveer 30 graden naar voren, laat je ellebogen iets naar buiten wijzen en zak gecontroleerd tot je een stretch in je borstspieren voelt.",
+        "Druk jezelf krachtig omhoog vanuit je borstspieren tot de startpositie en adem uit.",
+        "Span je borstspieren bovenin een tel aan en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a forward torso lean throughout to prioritize pectoral recruitment over triceps.",
+        "Avoid dipping deeper than 90 degrees at the elbow if you experience shoulder discomfort."
+      ],
+      "nl": [
+        "Blijf naar voren leunen om de nadruk op de borstspieren te houden.",
+        "Zak niet dieper dan een ellebooghoek van 90 graden bij schoudergevoeligheid."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Chest_Version/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Chest_Version/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_inverted_row",
+    "exercise_name": {
+      "en": "Inverted Row",
+      "nl": "Inverted Row"
+    },
+    "aliases": [
+      "Inverted Row",
+      "Australian Pull-Up"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rhomboids"
+      ],
+      "secondary": [
+        "latissimus_dorsi",
+        "biceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Position a bar in a rack to about waist height. You can also use a smith machine.",
+        "Take a wider than shoulder width grip on the bar and position yourself hanging underneath the bar. Your body should be straight with your heels on the ground with your arms fully extended. This will be your starting position.",
+        "Begin by flexing the elbow, pulling your chest towards the bar. Retract your shoulder blades as you perform the movement.",
+        "Pause at the top of the motion, and return yourself to the start position.",
+        "Repeat for the desired number of repetitions."
+      ],
+      "nl": [
+        "Plaats een halterstang in een rek op ongeveer heuphoogte.",
+        "Ga onder de stang hangen met je hielen op de grond, lichaam kaarsrecht als een plank en handen iets breder dan schouderbreedte.",
+        "Trek je borst naar de stang toe door je schouderbladen naar elkaar toe te knijpen en je ellebogen naar achteren te trekken.",
+        "Pauzeer kort bovenin en laat je lichaam rustig zakken tot je armen weer gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inverted_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_janda_sit_up",
+    "exercise_name": {
+      "en": "Janda Sit-Up",
+      "nl": "Janda Sit-Up"
+    },
+    "aliases": [
+      "Janda Sit-Up"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Position your body on the floor in the basic sit-up position; knees to a ninety degree angle with feet flat on the floor and arms either crossed over your chest or to the sides. This will be your starting position.",
+        "As you strongly tighten your glutes and hamstrings, fill your lungs with air and in a slow (three to six second count) ascent, slowly exhale. Tip: It is important to tighten the glutes and hamstrings as this will cause the hip flexors to be inactivated in a process called reciprocal inhibition, which basically means that opposite muscles to the contracted ones will relax.",
+        "As you inhale, slowly go back in a controlled manner to the starting position.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op je rug liggen met je knieën in een hoek van 90 graden, voeten plat op de vloer en je armen gekruist over je borst.",
+        "Span je bilspieren en hamstrings krachtig aan om je heupbuigers uit te schakelen en kom in 3 tot 5 seconden rustig omhoog terwijl je uitademt.",
+        "Laat je bovenlichaam gecontroleerd weer zakken naar de startpositie terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Janda_Sit-Up/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Janda_Sit-Up/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_lying_face_down_plate_neck_resistance",
+    "exercise_name": {
+      "en": "Lying Face Down Plate Neck Resistance",
+      "nl": "Lying Face Down Plate Neck Resistance"
+    },
+    "aliases": [
+      "Lying Face Down Plate Neck Resistance",
+      "Prone Neck Extension"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: You will need to position yourself so that your shoulders are slightly above the end of a flat bench in order for the upper chest, neck and face to be off the bench. This will be your starting position.",
+        "While keeping the plate secure on the back of your head slowly lower your head (as in saying \"yes\") as you breathe in.",
+        "Raise your head back up to the starting position in a semi-circular motion as you breathe out. Hold the contraction for a second.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op je buik op een vlakke bank liggen met je hoofd en hals net voorbij de rand van de bank.",
+        "Houd met beide handen een lichte gewichtsschijf (eventueel met een handdoek) tegen het achterhoofd.",
+        "Laat je hoofd langzaam en gecontroleerd zakken richting je borstkas terwijl je inademt.",
+        "Til je hoofd weer rustig omhoog tot je nek in lijn is met je ruggengraat terwijl je uitademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Use a light weight plate and perform strict, smooth repetitions.",
+        "Avoid aggressive hyperextension of the cervical spine at the top of the lift."
+      ],
+      "nl": [
+        "Gebruik een bescheiden gewicht en voer de beweging uiterst beheerst uit.",
+        "Overstrek je nek niet geforceerd omhoog aan het einde van de beweging."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Down_Plate_Neck_Resistance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Down_Plate_Neck_Resistance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_lying_face_up_plate_neck_resistance",
+    "exercise_name": {
+      "en": "Lying Face Up Plate Neck Resistance",
+      "nl": "Lying Face Up Plate Neck Resistance"
+    },
+    "aliases": [
+      "Lying Face Up Plate Neck Resistance",
+      "Supine Neck Flexion"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie face up with your whole body straight on a flat bench while holding a weight plate on top of your forehead. Tip: You will need to position yourself so that your shoulders are slightly above the end of a flat bench in order for the traps, neck and head to be off the bench. This will be your starting position.",
+        "While keeping the plate secure on your forehead slowly lower your head back in a semi-circular motion as you breathe in.",
+        "Raise your head back up to the starting position in a semi-circular motion as you breathe out. Hold the contraction for a second.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op je rug op een vlakke bank liggen met je hoofd en nek net voorbij de rand van de bank.",
+        "Plaats een lichte gewichtsschijf (voorzien van een handdoek) voorzichtig op je voorhoofd en houd deze vast met beide handen.",
+        "Laat je hoofd gecontroleerd naar achteren zakken terwijl je inademt.",
+        "Buig je nek naar voren om je kin richting je borst te brengen terwijl je uitademt en houd kort vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep hands firmly on the plate to ensure it stays securely centered on the forehead.",
+        "Move through a controlled, pain-free range of motion without jerking."
+      ],
+      "nl": [
+        "Houd de schijf met beide handen stevig vast op je voorhoofd.",
+        "Beweeg rustig en pijnvrij zonder schokkerige bewegingen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Up_Plate_Neck_Resistance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Up_Plate_Neck_Resistance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_oblique_crunches",
+    "exercise_name": {
+      "en": "Oblique Crunches",
+      "nl": "Oblique Crunches"
+    },
+    "aliases": [
+      "Oblique Crunches",
+      "Side Crunches"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put one hand beside your head and the other to the side against the floor.",
+        "Make sure your feet are elevated and resting on a flat surface.",
+        "Now lift the shoulder in which your hand is touching your head.",
+        "Simply elevate your shoulder and body upward until you touch your knee. For example, if you have your right hand besides your head, then you want to elevate your body upwards until your right elbow touches your left knee. The same variation can be applied doing the inverse and using your left elbow to touch your right knee.",
+        "After your knee touches your elbow, lower your body until you have reached the starting position.",
+        "Remember to breathe in during the eccentric (lowering) part of the exercise and to breathe out during the concentric (upward) part of the exercise.",
+        "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
+      ],
+      "nl": [
+        "Ga op je rug op de grond liggen met je onderrug plat tegen de vloer, knieën gebogen en voeten opgetrokken.",
+        "Plaats één hand achter je hoofd en strek de andere arm op de vloer naast je.",
+        "Span je schuine buikspieren aan en til je schouder diagonaal omhoog richting de tegenovergestelde knie terwijl je uitademt.",
+        "Laat je schouder rustig weer zakken naar de vloer terwijl je inademt en herhaal aan beide zijden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Oblique_Crunches/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Oblique_Crunches/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_one_half_locust",
+    "exercise_name": {
+      "en": "One Half Locust",
+      "nl": "One Half Locust"
+    },
+    "aliases": [
+      "One Half Locust",
+      "Ardha Salabhasana"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "biceps_brachii",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie facedown on the floor.",
+        "Put your left hand under your left hipbone to pad your hip and pubic bone.",
+        "Bend your right knee so you can hold the foot in your right hand.",
+        "Lift the foot in the air and simultaneously lift your shoulders off the floor. This also stretches the right hip flexor and the chest and shoulders. Switch sides. If it doesn't bother your back, you can try it with both arms and legs at the same time."
+      ],
+      "nl": [
+        "Ga op je buik op de grond liggen.",
+        "Buig één knie en pak de wreef of enkel van die voet vast met de hand aan dezelfde zijde.",
+        "Til je knie van de grond en til tegelijkertijd je borst en schouder op voor een rek over de quadriceps, heupbuiger en borst.",
+        "Houd de rek 15 tot 30 seconden rustig vast en wissel van zijde."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Breathe deeply and gently press the hip into the floor to intensify the quad stretch.",
+        "Avoid forcefully cranking the lower back into severe hyperextension."
+      ],
+      "nl": [
+        "Adem rustig door en duw je bekken licht in de vloer voor een diepere stretch.",
+        "Forceer je onderrug niet met een overmatige holling."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Half_Locust/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One_Half_Locust/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_rocket_jump",
+    "exercise_name": {
+      "en": "Rocket Jump",
+      "nl": "Rocket Jump"
+    },
+    "aliases": [
+      "Rocket Jump",
+      "Squat Jump Extension"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Begin in a relaxed stance with your feet shoulder width apart and hold your arms close to the body.",
+        "To initiate the move, squat down halfway and explode back up as high as possible.",
+        "Fully extend your entire body, reaching overhead as far as possible. As you land, absorb your impact through the legs."
+      ],
+      "nl": [
+        "Ga met je voeten op schouderbreedte staan en houd je armen voor je borst.",
+        "Zak in een halve squat en spring direct met maximale explosiviteit zo hoog mogelijk de lucht in.",
+        "Strek je hele lichaam uit en reik met beide armen recht omhoog.",
+        "Land zacht en verend op de bal van je voeten en zak direct door in de volgende herhaling."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Explode upward through full triple extension of ankles, knees, and hips.",
+        "Land softly with knee and hip flexion to absorb ground reaction forces."
+      ],
+      "nl": [
+        "Zet maximaal af door enkels, knieën en heupen volledig te strekken.",
+        "Land veerkrachtig en vang de klap op door je knieën te buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rocket_Jump/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rocket_Jump/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_runners_stretch",
+    "exercise_name": {
+      "en": "Runner's Stretch",
+      "nl": "Runner's Stretch"
+    },
+    "aliases": [
+      "Runner's Stretch",
+      "Low Lunge Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "It's easiest to get into this stretch if you start standing up, put one leg behind you, and slowly lower your torso down to the floor.",
+        "Keep the front heel on the floor (if it lifts up, scoot your other leg further back).",
+        "Place your hands on either side of your front leg. To get more out of this stretch, push your butt up toward the ceiling, and then gradually lower it back toward the floor. You'll Stretch the hip flexor of the back leg and the hamstring and buttocks of the front."
+      ],
+      "nl": [
+        "Stap vanuit stand met één been ver naar achteren in een diepe uitvalspas en plaats je handen aan weerszijden van je voorste voet op de vloer.",
+        "Houd je voorste hiel stevig op de grond en strek je achterste been zo ver mogelijk naar achteren.",
+        "Laat je heupen zachtjes richting de grond zakken om de heupbuiger van het achterste been en de hamstring van het voorste been te rekken.",
+        "Houd 20 tot 30 seconden vast en wissel van zijde."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the front knee tracking directly over the ankle.",
+        "Relax the hips downward with steady, calm breathing."
+      ],
+      "nl": [
+        "Houd je voorste knie recht boven je enkel.",
+        "Laat je heupen rustig ontspannen richting de vloer met diepe ademhaling."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Runners_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Runners_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_stomach_vacuum",
+    "exercise_name": {
+      "en": "Stomach Vacuum",
+      "nl": "Stomach Vacuum"
+    },
+    "aliases": [
+      "Stomach Vacuum",
+      "Abdominal Vacuum"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "To begin, stand straight with your feet shoulder width apart from each other. Place your hands on your hips. This is the starting position.",
+        "Now slowly inhale as much air as possible and then start to exhale as much as possible while bringing your stomach in as much as possible and hold this position. Try to visualize your navel touching your backbone.",
+        "One isometric contraction is around 20 seconds. During the 20 second hold, try to breathe normally. Then inhale and bring your stomach back to the starting position.",
+        "Once you have practiced this exercise, try to perform this exercise for longer than 20 seconds. Tip: You can work your way up to 40-60 seconds.",
+        "Repeat for the recommended amount of sets."
+      ],
+      "nl": [
+        "Ga rechtop staan met je voeten op schouderbreedte en plaats je handen op je heupen.",
+        "Adem diep in en blaas vervolgens alle lucht volledig uit je longen.",
+        "Trek je buikwand en navel zo diep mogelijk naar binnen richting je wervelkolom en houd deze vacuümpositie 20 seconden vast.",
+        "Adem rustig oppervlakkig door tijdens de hold en ontspan daarna gecontroleerd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Exhale completely before drawing the abdominal wall inward and upward.",
+        "Focus on contracting the deep transverse abdominis muscle."
+      ],
+      "nl": [
+        "Blaas alle lucht volledig uit voordat je de buikwand naar binnen en omhoog zuigt.",
+        "Concentreer je op de diepe dwarse buikspier (transversus abdominis)."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stomach_Vacuum/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stomach_Vacuum/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_worlds_greatest_stretch",
+    "exercise_name": {
+      "en": "World's Greatest Stretch",
+      "nl": "World's Greatest Stretch"
+    },
+    "aliases": [
+      "World's Greatest Stretch",
+      "WGS"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "This is a three-part stretch. Begin by lunging forward, with your front foot flat on the ground and on the toes of your back foot. With your knees bent, squat down until your knee is almost touching the ground. Keep your torso erect, and hold this position for 10-20 seconds.",
+        "Now, place the arm on the same side as your front leg on the ground, with the elbow next to the foot. Your other hand should be placed on the ground, parallel to your lead leg, to help support you during this portion of the stretch.",
+        "After 10-20 seconds, place your hands on either side of your front foot. Raise the toes of the front foot off of the ground, and straighten your leg. You may need to reposition your rear leg to do so. Hold for 10-20 seconds, and then repeat the entire sequence for the other side."
+      ],
+      "nl": [
+        "Stap voorwaarts in een diepe uitvalspas (lunge) en zak door je heupen met een opgericht bovenlichaam (houd 10-20 sec vast).",
+        "Plaats de elleboog aan de binnenzijde van je voorste voet op de grond terwijl je heupen diep blijven zakken (houd 10-20 sec vast).",
+        "Zet beide handen aan weerszijden van je voorste voet, hef je tenen op en strek je voorste been naar achteren voor een diepe hamstringstretch (houd 10-20 sec vast).",
+        "Wissel daarna van been en herhaal de reeks aan de andere zijde."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Move through each of the three phases with slow, controlled diaphragmatic breathing.",
+        "Keep your rear knee off the floor and drive your back heel away to lengthen the hip flexor."
+      ],
+      "nl": [
+        "Doorloop de drie fases rustig met diepe buikademhaling.",
+        "Houd je achterste been actief en duw je hiel naar achteren om de heupbuiger maximaal te openen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Worlds_Greatest_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Worlds_Greatest_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

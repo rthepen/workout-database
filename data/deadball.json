@@ -1734,5 +1734,91 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T14:11:45.233Z"
     }
+  },
+  {
+    "id": "deadball_one_arm_medicine_ball_slam",
+    "exercise_name": {
+      "en": "One-Arm Medicine Ball Slam",
+      "nl": "One-Arm Medicine Ball Slam"
+    },
+    "aliases": [
+      "One-Arm Medicine Ball Slam",
+      "Single-Arm Slam Ball"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "latissimus_dorsi",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start in a standing position with a staggered, athletic stance. Hold a medicine ball in one hand, on the same side as your back leg. This will be your starting position.",
+        "Begin by winding the arm, raising the medicine ball above your head. As you do so, extend through the hips, knees, and ankles to load up for the slam.",
+        "At peak extension, flex the shoulders, spine, and hips to throw the ball hard into the ground directly in front of you.",
+        "Catch the ball on the bounce and continue for the desired number of repetitions."
+      ],
+      "nl": [
+        "Neem een stevige schredestand aan en houd de bal in één hand aan de zijde van je achterste been.",
+        "Breng de bal met een zwaai boven je hoofd terwijl je heupen, knieën en enkels strekt.",
+        "Smijt de bal met maximale kracht explosief recht voor je op de vloer door je heupen en buikspieren krachtig te buigen.",
+        "Vang de bal op en herhaal voor het gewenste aantal herhalingen per kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One-Arm_Medicine_Ball_Slam/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/One-Arm_Medicine_Ball_Slam/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

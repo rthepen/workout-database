@@ -413,5 +413,95 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "stability_ball_push_ups_with_feet_on_an_exercise_ball",
+    "exercise_name": {
+      "en": "Push-Ups With Feet On An Exercise Ball",
+      "nl": "Push-Ups met Voeten op Fitnessbal"
+    },
+    "aliases": [
+      "Push-Ups With Feet On An Exercise Ball",
+      "Stability Ball Decline Push-Up"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on the floor face down and place your hands about 36 inches apart from each other holding your torso up at arms length.",
+        "Place your toes on top of an exercise ball. This will allow your body to be elevated.",
+        "Lower yourself until your chest almost touches the floor as you inhale.",
+        "Using your pectoral muscles, press your upper body back up to the starting position and squeeze your chest. Breathe out as you perform this step.",
+        "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
+      ],
+      "nl": [
+        "Plaats je handen op schouderbreedte op de grond en leg je voeten of schenen bovenop een fitnessbal.",
+        "Span je core aan zodat je lichaam een rechte plank vormt.",
+        "Zak gecontroleerd door je armen tot je borst bijna de vloer raakt terwijl je inademt.",
+        "Druk jezelf krachtig omhoog vanuit je borst en triceps tot je armen gestrekt zijn en adem uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively.",
+        "Brace your core tightly to keep the exercise ball stable and prevent hips from sagging."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen.",
+        "Span je core strak aan om de fitnessbal stil te houden en doorzakken van de heupen te voorkomen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_With_Feet_On_An_Exercise_Ball/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_With_Feet_On_An_Exercise_Ball/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

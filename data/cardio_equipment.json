@@ -1076,5 +1076,343 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T11:43:21.102Z"
     }
+  },
+  {
+    "id": "cardio_equipment_recumbent_bike",
+    "exercise_name": {
+      "en": "Recumbent Bike",
+      "nl": "Liggende Fietsergometer (Recumbent Bike)"
+    },
+    "aliases": [
+      "Recumbent Bike",
+      "Stationary Recumbent Cycling"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio-apparatuur"
+      },
+      "description": {
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+      }
+    },
+    "category": {
+      "en": "Cardio",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "To begin, seat yourself on the bike and adjust the seat to your height.",
+        "Select the desired option from the menu. You may have to start pedaling to turn it on. You can use the manual setting, or you can select a program to use. Typically, you can enter your age and weight to estimate the amount of calories burned during exercise. The level of resistance can be changed throughout the workout. The handles can be used to monitor your heart rate to help you stay at an appropriate intensity.",
+        "Recumbent bikes offer convenience, cardiovascular benefits, and have less impact than other activities. A 150 lb person will burn about 230 calories cycling at a moderate rate for 30 minutes, compared to 450 calories or more running."
+      ],
+      "nl": [
+        "Ga comfortabel op de recumbent bike zitten en stel de stoelafstand zo af dat je benen een lichte buiging houden in de onderste pedaalstand.",
+        "Kies een trainingsprogramma of handmatige instelling op het scherm en stel de gewenste weerstand in.",
+        "Fiets in een gelijkmatig tempo door en houd je hartslag in de gaten via de handgrepen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a smooth pedaling motion with continuous circular pressure.",
+        "Keep your lower back comfortably supported against the seat backrest."
+      ],
+      "nl": [
+        "Trap in een vloeiende cirkelbeweging met constante drukuitoefening.",
+        "Houd je onderrug comfortabel ondersteund tegen de rugleuning van de stoel."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Recumbent_Bike/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Recumbent_Bike/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cardio_equipment_stairmaster",
+    "exercise_name": {
+      "en": "Stairmaster",
+      "nl": "Trappenklimmer (Stairmaster)"
+    },
+    "aliases": [
+      "Stairmaster",
+      "Stair Climber"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio-apparatuur"
+      },
+      "description": {
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+      }
+    },
+    "category": {
+      "en": "Cardio",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "To begin, step onto the stairmaster and select the desired option from the menu. You can choose a manual setting, or you can select a program to run. Typically, you can enter your age and weight to estimate the amount of calories burned during exercise.",
+        "Pump your legs up and down in an established rhythm, driving the pedals down but not all the way to the floor. It is recommended that you maintain your grip on the handles so that you don't fall. The handles can be used to monitor your heart rate to help you stay at an appropriate intensity.",
+        "Stairmasters offer convenience, cardiovascular benefits, and usually have less impact than running outside. They are typically much harder than other cardio equipment. A 150 lb person will typically burn over 300 calories in 30 minutes, compared to about 175 calories walking."
+      ],
+      "nl": [
+        "Stap op de pedalen van de stairmaster en selecteer het gewenste programma of weerstandsniveau op het scherm.",
+        "Beweeg je benen in een gelijkmatig ritme op en neer door de pedalen omlaag te duwen zonder de bodem te raken.",
+        "Houd je bovenlichaam rechtop en gebruik de handgrepen licht voor balans zonder erop te leunen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your torso upright; avoid leaning forward heavily on the handles.",
+        "Push down through your full foot to engage the glutes and quadriceps."
+      ],
+      "nl": [
+        "Houd je bovenlichaam rechtop en leun niet met je volle gewicht op de handgrepen.",
+        "Duw door je hele voet om je quadriceps en bilspieren optimaal te belasten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stairmaster/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stairmaster/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cardio_equipment_step_mill",
+    "exercise_name": {
+      "en": "Step Mill",
+      "nl": "Roltrap Ergometer (Step Mill)"
+    },
+    "aliases": [
+      "Step Mill",
+      "Stairmaster Stepmill"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio-apparatuur"
+      },
+      "description": {
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+      }
+    },
+    "category": {
+      "en": "Cardio",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "To begin, step onto the stepmill and select the desired option from the menu. You can choose a manual setting, or you can select a program to run. Typically, you can enter your age and weight to estimate the amount of calories burned during exercise. Use caution so that you don't trip as you climb the stairs. It is recommended that you maintain your grip on the handles so that you don't fall.",
+        "Stepmills offer convenience, cardiovascular benefits, and usually have less impact than running outside while offering a similar rate of calories burned. They are typically much harder than other cardio equipment. A 150 lb person will typically burn over 300 calories in 30 minutes, compared to about 175 calories walking."
+      ],
+      "nl": [
+        "Stap op de ronddraaiende traptreden van de stepmill en kies het gewenste tempo of programma op het display.",
+        "Klim gelijkmatig tree voor tree omhoog en plaats je hele voet op elke trede.",
+        "Houd je bovenlichaam rechtop en gebruik de handgrepen uitsluitend voor lichte balansondersteuning."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Stand tall with an upright posture; avoid leaning forward onto the rails.",
+        "Step with whole-foot contact on each moving stair to fully recruit glutes and quads."
+      ],
+      "nl": [
+        "Blijf rechtop staan en leun niet voorover op de handgrepen.",
+        "Plaats je hele voet op elke trede om bil- en beenspieren maximaal te benutten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Step_Mill/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Step_Mill/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cardio_equipment_walking_treadmill",
+    "exercise_name": {
+      "en": "Walking, Treadmill",
+      "nl": "Loopband Wandelen"
+    },
+    "aliases": [
+      "Walking, Treadmill",
+      "Treadmill Walk"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio-apparatuur"
+      },
+      "description": {
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+      }
+    },
+    "category": {
+      "en": "Cardio",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "To begin, step onto the treadmill and select the desired option from the menu. Most treadmills have a manual setting, or you can select a program to run. Typically, you can enter your age and weight to estimate the amount of calories burned during exercise. Elevation can be adjusted to change the intensity of the workout.",
+        "Treadmills offer convenience, cardiovascular benefits, and usually have less impact than walking outside. When walking, you should move at a moderate to fast pace, not a leisurely one. Being an activity of lower intensity, walking doesn't burn as many calories as some other activities, but still provides great benefit. A 150 lb person will burn about 175 calories walking 4 miles per hour for 30 minutes, compared to 450 calories running twice as fast. Maintain proper posture as you walk, and only hold onto the handles when necessary, such as when dismounting or checking your heart rate."
+      ],
+      "nl": [
+        "Stap op de loopband, kies een snelheid en eventueel hellingshoek op het bedieningspaneel.",
+        "Wandel in een stevig, gelijkmatig tempo met een actieve pasafwikkeling van hiel naar teen.",
+        "Houd je schouders ontspannen, zwaai je armen natuurlijk mee en loop rechtop zonder op de beugels te leunen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upright posture with natural arm swing; avoid clinging to handrails.",
+        "Strike naturally from heel to toe with active foot roll."
+      ],
+      "nl": [
+        "Loop rechtop en zwaai je armen natuurlijk mee; leun niet op de handgrepen.",
+        "Wikkel je voeten soepel af van hiel naar teen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Walking_Treadmill/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Walking_Treadmill/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
