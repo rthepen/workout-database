@@ -1837,5 +1837,174 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "cable_elevated_cable_rows",
+    "exercise_name": {
+      "en": "Elevated Cable Rows",
+      "nl": "Verhoogde Cable Rows"
+    },
+    "aliases": [
+      "Elevated Cable Rows",
+      "Elevated_Cable_Rows"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine & Platform",
+        "nl": "Kabelstation & Verhoging"
+      },
+      "description": {
+        "en": "Seated cable row station with an added seat elevation block for altered pulling mechanics",
+        "nl": "Zittend roeistation met extra verhoging op het zitvlak voor een andere trekkhoek"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "rhomboids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Place a 4-6 inch platform on the seat of a seated cable row machine and sit upright.",
+        "Plant feet on footrests with knees slightly bent and grasp the V-bar handles.",
+        "With torso upright and back slightly arched, pull handles into your abdomen, driving elbows back.",
+        "Squeeze back muscles hard at peak contraction, then slowly extend arms to starting position."
+      ],
+      "nl": [
+        "Leg een verhoging van 10-15 cm op de zitting van het roeiapparaat en ga rechtop zitten.",
+        "Zet je voeten tegen de steunen met licht gebogen knieën en pak de V-greep vast.",
+        "Trek de handvatten naar je buik toe terwijl je je ellebogen strak naar achteren trekt.",
+        "Knijp je rugspieren bovenin hard samen en laat het gewicht gecontroleerd weer teruggaan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Keep torso stationary at a 90-degree angle to legs; avoid excessive swinging."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Houd je bovenlichaam stil en zwaai niet naar voren en achteren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elevated_Cable_Rows/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elevated_Cable_Rows/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "cable_flat_bench_cable_flyes",
+    "exercise_name": {
+      "en": "Flat Bench Cable Flyes",
+      "nl": "Flat Bench Cable Flyes"
+    },
+    "aliases": [
+      "Flat Bench Cable Flyes",
+      "Flat_Bench_Cable_Flyes"
+    ],
+    "material": {
+      "id": "cable",
+      "name": {
+        "en": "Cable Machine & Bench",
+        "nl": "Kabelstation & Bank"
+      },
+      "description": {
+        "en": "Flat bench aligned between two low pulleys for constant tension chest flyes",
+        "nl": "Vlakke bank tussen twee lage kabelkatrollen voor constante borstspanning"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on a flat bench aligned between two low pulleys holding a handle in each hand.",
+        "Start with arms out wide parallel to the floor, elbows slightly bent.",
+        "Bring handles together in a semicircle arc over your chest as you exhale.",
+        "Squeeze pecs for a second at the top, then slowly lower arms back to the wide stretch."
+      ],
+      "nl": [
+        "Ga op een vlakke bank tussen twee lage katrollen liggen en pak beide handvatten vast.",
+        "Begin met je armen wijd opzij parallel aan de vloer en licht gebogen ellebogen.",
+        "Breng de handvatten in een boog omhoog tot ze boven je borst samenkomen terwijl je uitademt.",
+        "Knijp je borstspieren bovenin samen en laat de armen weer rustig zakken naar buiten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Keep the angle in your elbows constant throughout the entire arc."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Houd de lichte buiging in je ellebogen continu gelijk."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Cable_Flyes/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Cable_Flyes/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

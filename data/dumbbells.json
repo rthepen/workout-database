@@ -2862,5 +2862,90 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "dumbbells_external_rotation",
+    "exercise_name": {
+      "en": "External Rotation (Side-Lying Dumbbell)",
+      "nl": "Zijliggende Externe Rotatie"
+    },
+    "aliases": [
+      "External Rotation",
+      "External_Rotation"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "rotator_cuff"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your side on a flat bench holding a light dumbbell with working arm on top.",
+        "Bend elbow to 90 degrees and pin it firmly against your hip/flank.",
+        "Externally rotate your forearm upward in a semicircle toward the ceiling.",
+        "Hold the contraction for one second, slowly lower to horizontal, and repeat."
+      ],
+      "nl": [
+        "Ga op je zij op een bankje liggen met een lichte dumbbell in je bovenste hand.",
+        "Buig je elleboog in 90 graden en klem deze tegen je zij.",
+        "Draai je onderarm in een boog omhoog richting het plafond.",
+        "Houd bovenin even vast, laat rustig zakken tot horizontaal en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the elbow pinned tightly to the body; avoid lifting the whole arm.",
+        "Use a light, strictly controllable load to protect the infraspinatus and teres minor."
+      ],
+      "nl": [
+        "Houd je elleboog strak tegen je flank en til je arm niet in zijn geheel op.",
+        "Kies een licht gewicht om de diepe rotatorenspieren zuiver te trainen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/External_Rotation/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/External_Rotation/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

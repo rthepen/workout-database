@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:55:26.327586+00:00",
-  "total_exercises": 759,
+  "last_updated_utc": "2026-09-09T14:56:26.352128+00:00",
+  "total_exercises": 775,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -47,8 +47,8 @@
     },
     "bodyweight": {
       "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
+        "en": "Flat Bench",
+        "nl": "Vlakke Bank"
       },
       "description": {
         "en": "Calisthenic exercises using body mass and gravity as primary resistance",
@@ -67,12 +67,12 @@
     },
     "cable": {
       "name": {
-        "en": "Cable Machine",
-        "nl": "Kabelstation"
+        "en": "Cable Machine & Bench",
+        "nl": "Kabelstation & Bank"
       },
       "description": {
-        "en": "Adjustable dual-pulley cable column system",
-        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+        "en": "Flat bench aligned between two low pulleys for constant tension chest flyes",
+        "nl": "Vlakke bank tussen twee lage kabelkatrollen voor constante borstspanning"
       }
     },
     "cardio_equipment": {
@@ -117,12 +117,12 @@
     },
     "dumbbells": {
       "name": {
-        "en": "Dumbbell & Box",
-        "nl": "Dumbbell & Box"
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
       },
       "description": {
-        "en": "Loaded box jumps initiated from a dead-stop seated bench position",
-        "nl": "Box jumps met dumbbell vanuit een zittende positie zonder tegendruk"
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
       }
     },
     "exercise_ball": {
@@ -227,12 +227,12 @@
     },
     "partner": {
       "name": {
-        "en": "Partner",
-        "nl": "Partner"
+        "en": "Partner / Floor",
+        "nl": "Partner / Vloer"
       },
       "description": {
-        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
-        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+        "en": "Floor Nordic hamstring curl performed with partner anchoring ankles",
+        "nl": "Hamstring curl op de vloer waarbij een partner de enkels vasthoudt"
       }
     },
     "plyo_box": {

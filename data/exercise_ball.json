@@ -163,5 +163,171 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "stability_ball_exercise_ball_crunch",
+    "exercise_name": {
+      "en": "Exercise Ball Crunch",
+      "nl": "Fysiobal Crunch"
+    },
+    "aliases": [
+      "Exercise Ball Crunch",
+      "Exercise_Ball_Crunch"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on an exercise ball and roll forward until the ball supports your lower back curvature, feet flat on the floor.",
+        "Cross arms over chest or place hands beside head.",
+        "Lower torso into a stretch over the ball, then contract abs to curl shoulders and torso upward.",
+        "Pause and squeeze abs at the peak, then slowly lower back over the ball."
+      ],
+      "nl": [
+        "Ga op een fitnessbal zitten en rol naar voren tot de bal je onderrug ondersteunt met voeten plat op de grond.",
+        "Kruis je armen over je borst of houd je handen losjes naast je hoofd.",
+        "Laat je bovenlichaam over de ronding van de bal zakken en crunch vervolgens gecontroleerd omhoog.",
+        "Knijp je buikspieren bovenin samen en zak langzaam weer terug over de bal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Keep lower back pressed against the ball throughout the crunch."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Houd je onderrug constant in contact met de bal tijdens de beweging."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Exercise_Ball_Crunch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Exercise_Ball_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "stability_ball_exercise_ball_pull_in",
+    "exercise_name": {
+      "en": "Exercise Ball Pull-In (Jackknife)",
+      "nl": "Fysiobal Jackknife"
+    },
+    "aliases": [
+      "Exercise Ball Pull-In",
+      "Exercise_Ball_Pull-In"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a push-up position with shins and tops of feet resting on an exercise ball.",
+        "Keep arms straight and back flat in a rigid plank.",
+        "Pull your knees in toward your chest as you exhale, rolling the ball forward under your ankles.",
+        "Pause and squeeze abs, then slowly extend legs back to the plank position."
+      ],
+      "nl": [
+        "Begin in een opdrukhouding met je schenen en wreef rustend op de fitnessbal.",
+        "Houd je armen gestrekt en je lichaam strak als een plank.",
+        "Trek je knieën naar je borst terwijl de bal onder je schenen naar voren rolt.",
+        "Span je buikspieren hard aan en rol de bal weer rustig uit tot de startpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Do not allow hips to sag downward when legs are fully extended."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Laat je heupen niet doorhangen wanneer je benen weer gestrekt zijn."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Exercise_Ball_Pull-In/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Exercise_Ball_Pull-In/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

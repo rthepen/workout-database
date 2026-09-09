@@ -10111,5 +10111,670 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_dynamic_back_stretch",
+    "exercise_name": {
+      "en": "Dynamic Back Stretch",
+      "nl": "Dynamische Rugstretch"
+    },
+    "aliases": [
+      "Dynamic Back Stretch",
+      "Dynamic_Back_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand with feet shoulder-width apart and arms hanging at your sides.",
+        "Keeping arms straight, swing them smoothly straight up in front of you and overhead.",
+        "Gradually increase the dynamic range of motion on each swing until arms extend fully overhead."
+      ],
+      "nl": [
+        "Sta met je voeten op schouderbreedte en je armen ontspannen langs je lichaam.",
+        "Houd je armen gestrekt en zwaai ze gecontroleerd voor je omhoog tot boven je hoofd.",
+        "Vergroot de bewegingsuitslag geleidelijk per herhaling tot je armen volledig boven je hoofd reiken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your core lightly braced to prevent hyperextending your lumbar spine.",
+        "Swing in a rhythmic, continuous, and controlled tempo."
+      ],
+      "nl": [
+        "Span je buikspieren licht aan zodat je onderrug niet hol trekt.",
+        "Zwaai in een soepel, ritmisch en beheerst tempo."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dynamic_Back_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dynamic_Back_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_dynamic_chest_stretch",
+    "exercise_name": {
+      "en": "Dynamic Chest Stretch",
+      "nl": "Dynamische Borststretch"
+    },
+    "aliases": [
+      "Dynamic Chest Stretch",
+      "Dynamic_Chest_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "rhomboids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with arms extended straight out in front at chest height with palms facing inward.",
+        "Swing both arms out wide horizontally as far back as comfortable to open the chest.",
+        "Rebound smoothly back across the front in an exaggerated clapping motion, increasing rhythm gradually."
+      ],
+      "nl": [
+        "Sta rechtop met je armen recht vooruit gestrekt op borsthoogte en handpalmen naar elkaar toe.",
+        "Zwaai beide armen horizontaal wijd naar achteren om je borstkas te openen.",
+        "Beweeg ze direct weer soepel naar elkaar toe voor je borst in een overdreven klapbeweging."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep arms parallel to the floor throughout the swings.",
+        "Retract your shoulder blades actively as arms open wide."
+      ],
+      "nl": [
+        "Houd je armen gedurende de hele oefening horizontaal op borsthoogte.",
+        "Knijp je schouderbladen bewust samen wanneer je armen openzwaaien."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dynamic_Chest_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dynamic_Chest_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_elbow_circles",
+    "exercise_name": {
+      "en": "Elbow Circles",
+      "nl": "Ellebogen Cirkelen"
+    },
+    "aliases": [
+      "Elbow Circles",
+      "Elbow_Circles"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit or stand tall and place fingertips onto tops of your shoulders with elbows flared to the sides.",
+        "Slowly trace large circular paths with both elbows simultaneously.",
+        "Exhale as you rotate forward and inhale as you complete the circle backward."
+      ],
+      "nl": [
+        "Zit of sta rechtop en leg je vingertoppen op je schouders met je ellebogen opzij gericht.",
+        "Draai langzaam grote, ruime cirkels met beide ellebogen tegelijk.",
+        "Blaas uit terwijl je naar voren cirkelt en adem in wanneer je de cirkel naar achteren voltooit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep fingers resting lightly on the shoulders throughout.",
+        "Maximize mobility by drawing as large a diameter circle as comfortable."
+      ],
+      "nl": [
+        "Houd je vingers losjes op je schouders liggen tijdens het draaien.",
+        "Maak de cirkels zo groot mogelijk om het hele gewricht los te maken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_Circles/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_Circles/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_elbow_to_knee",
+    "exercise_name": {
+      "en": "Elbow to Knee Crunch",
+      "nl": "Elbow to Knee Crunch"
+    },
+    "aliases": [
+      "Elbow to Knee",
+      "Elbow_to_Knee"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "obliques"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on the floor and cross your right ankle over your bent left knee.",
+        "Place hands lightly behind your head.",
+        "Flex your spine and rotate your torso diagonally to drive your left elbow toward your right knee.",
+        "Lower under control, complete prescribed reps, then switch sides."
+      ],
+      "nl": [
+        "Ga op je rug liggen en leg je rechterenkel over je gebogen linkerknie.",
+        "Houd je handen losjes achter je hoofd.",
+        "Kom schuin omhoog en breng je linkerelleboog richting je rechterknie.",
+        "Laat je gecontroleerd weer zakken, voltooi de herhalingen en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Lead with the shoulder rather than pulling your head with your neck."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en trek niet aan je nek.",
+        "Focus op het heffen van je schouderblad in de richting van je knie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_elbows_back_stretch",
+    "exercise_name": {
+      "en": "Elbows Back Stretch",
+      "nl": "Ellebogen naar Achteren Borststretch"
+    },
+    "aliases": [
+      "Elbows Back",
+      "Elbows_Back"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with feet hip-width apart.",
+        "Place both palms on your lower back with fingers pointing downward and elbows flared out.",
+        "Gently draw both elbows straight back toward each other until you feel a stretch across the front of your chest and shoulders.",
+        "Hold the stretch for 15-20 seconds while breathing smoothly."
+      ],
+      "nl": [
+        "Sta rechtop met je voeten op heupbreedte.",
+        "Plaats beide handen op je onderrug met de vingers omlaag en ellebogen naar buiten.",
+        "Trek beide ellebogen rustig naar elkaar toe naar achteren tot je rek voelt op je borst en schouders.",
+        "Houd deze stretch 15-20 seconden ontspannen vast terwijl je rustig doorademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your head up and neck neutral; do not jut chin forward.",
+        "Maintain upright posture without excessively arching your lower back."
+      ],
+      "nl": [
+        "Houd je kin in en duw je hoofd niet naar voren.",
+        "Blijf rechtop staan en trek je onderrug niet overdreven hol."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbows_Back/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbows_Back/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_fast_skipping",
+    "exercise_name": {
+      "en": "Fast Skipping",
+      "nl": "Fast Skipping (Snel Huppelen)"
+    },
+    "aliases": [
+      "Fast Skipping",
+      "Fast_Skipping"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Start in an athletic stance moving forward.",
+        "Execute a rapid step-hop pattern alternating left and right feet.",
+        "Keep ground contact low and fast, minimizing air time while maximizing stride speed."
+      ],
+      "nl": [
+        "Neem een actieve loophouding aan vooruitkijkend.",
+        "Voer een snel huppelritme uit (stap-hup) waarbij je links en rechts afwisselt.",
+        "Blijf laag bij de grond met korte, snelle grondcontacten voor maximale snelheid."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Pump arms rhythmically in coordination with leg cycles.",
+        "Stay springy on the forefeet with minimal heel drop."
+      ],
+      "nl": [
+        "Beweeg je armen krachtig mee in het loopritme.",
+        "Blijf verend op je voorvoeten lopen zonder op je hielen te landen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Fast_Skipping/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Fast_Skipping/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_flat_bench_leg_pull_in",
+    "exercise_name": {
+      "en": "Flat Bench Leg Pull-In",
+      "nl": "Flat Bench Leg Pull-In"
+    },
+    "aliases": [
+      "Flat Bench Leg Pull-In",
+      "Flat_Bench_Leg_Pull-In"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bench / Mat",
+        "nl": "Bankje / Mat"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the edge of a flat bench holding the sides, legs extended off the end.",
+        "Pull knees in toward your chest as you exhale and lean slightly forward.",
+        "Pause to squeeze lower abdominals, then slowly extend legs straight back out without touching the floor."
+      ],
+      "nl": [
+        "Zit op het uiteinde van een bankje, pak de zijkanten vast en strek je benen voor je uit.",
+        "Trek je knieën naar je borst terwijl je uitademt en je bovenlichaam iets naar voren brengt.",
+        "Span je buikspieren bovenin aan en strek je benen weer langzaam uit naar voren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Control the movement smoothly without using leg swinging momentum."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Beweeg rustig en beheerst zonder te zwaaien met je benen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Leg_Pull-In/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Leg_Pull-In/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_flat_bench_lying_leg_raise",
+    "exercise_name": {
+      "en": "Flat Bench Lying Leg Raise",
+      "nl": "Liggende Leg Raise op Bank"
+    },
+    "aliases": [
+      "Flat Bench Lying Leg Raise",
+      "Flat_Bench_Lying_Leg_Raise"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Flat Bench",
+        "nl": "Vlakke Bank"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on a bench with legs extended off the end, gripping the bench beside your hips.",
+        "Keeping legs straight with knees soft, raise legs upward until they form a 90-degree angle with the torso.",
+        "Hold the contraction at the top for a second, then lower legs slowly back to horizontal."
+      ],
+      "nl": [
+        "Ga plat op een bank liggen met je benen over het uiteinde en houd de bank naast je heupen vast.",
+        "Houd je benen nagenoeg gestrekt en hef ze omhoog tot een hoek van 90 graden met je romp.",
+        "Houd bovenin even vast en laat je benen rustig en gecontroleerd zakken tot horizontaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Keep lumbar spine pressed firmly down against the bench surface."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Houd je onderrug tijdens het zakken van de benen strak tegen de bank gedrukt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Lying_Leg_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Lying_Leg_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

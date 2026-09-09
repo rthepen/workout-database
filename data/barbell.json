@@ -5112,5 +5112,86 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_finger_curls",
+    "exercise_name": {
+      "en": "Finger Curls",
+      "nl": "Finger Curls"
+    },
+    "aliases": [
+      "Finger Curls",
+      "Finger_Curls"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "forearms"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding a barbell behind your thighs or seated with forearms on thighs, palms facing up.",
+        "Slowly open your hands, allowing the bar to roll down to the tips of your fingers.",
+        "Curl fingers closed to roll the barbell back up into the palm and flex wrists upward."
+      ],
+      "nl": [
+        "Sta rechtop met de stang achter je rug of zit met je onderarmen op je benen en handpalmen omhoog.",
+        "Open langzaam je handen zodat de stang over je vingers naar beneden rolt tot aan je vingertoppen.",
+        "Sluit je vingers krachtig om de stang weer in je handpalmen te rollen en buig je polsen licht omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Control bar descent so it does not slip out of fingertips.",
+        "Squeeze tightly at the peak of the closed-hand roll."
+      ],
+      "nl": [
+        "Laat de stang rustig rollen zodat je grip niet plotseling wegglijdt.",
+        "Knijp je vingers bovenin stevig samen voor maximale knijpkracht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Finger_Curls/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Finger_Curls/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
