@@ -2253,5 +2253,174 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bands_hip_lift_with_band",
+    "exercise_name": {
+      "en": "Hip Lift with Band",
+      "nl": "Hip Lift met Band"
+    },
+    "aliases": [
+      "Hip Lift with Band",
+      "Hip_Lift_with_Band"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on the floor inside a rack with a band anchored on both sides directly across your hips.",
+        "Bend knees and plant feet flat on the floor at shoulder width.",
+        "Drive through your heels to extend hips upward against band resistance.",
+        "Pause and squeeze glutes hard at the top, then slowly return to the floor."
+      ],
+      "nl": [
+        "Ga op de grond in een rack liggen met een elastiek strak over je heupen gespannen.",
+        "Buig je knieën en zet je voeten op schouderbreedte plat op de vloer.",
+        "Duw krachtig af vanuit je hielen en hef je heupen omhoog tegen de weerstand van de band.",
+        "Knijp je billen bovenin samen en laat je bekken rustig weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Avoid hyperextending the lumbar spine at peak hip bridge lockout."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Trek je onderrug bovenin niet hol maar knijp puur vanuit je bilspieren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Lift_with_Band/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Lift_with_Band/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_it_band_glute_stretch",
+    "exercise_name": {
+      "en": "IT Band and Glute Stretch",
+      "nl": "IT-Band en Bilspierstretch"
+    },
+    "aliases": [
+      "IT Band and Glute Stretch",
+      "IT_Band_and_Glute_Stretch"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Strap / Band",
+        "nl": "Band / Riem"
+      },
+      "description": {
+        "en": "Strap, belt, or band looped around foot for assisted stretching",
+        "nl": "Band of riem om de voet voor geassisteerde rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "abductors"
+      ],
+      "secondary": [
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on your back and loop a band or strap around one foot.",
+        "Keep leg straight and drop it across the midline of your body to the opposite side.",
+        "Pull gently on the strap to pull toes up, feeling the stretch across the outer hip and IT band for 15-20 seconds."
+      ],
+      "nl": [
+        "Ga op je rug liggen en haak een band of riem om één voet.",
+        "Houd je been gestrekt en laat het over je lichaam heen naar de overliggende kant zakken.",
+        "Trek lichtjes aan de band om rek te voelen over de buitenkant van je heup en bovenbeen en houd 15-20 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders pinned flat against the floor as the leg crosses the body.",
+        "Maintain slight softness in the knee to protect the joint."
+      ],
+      "nl": [
+        "Houd beide schouders plat op de grond terwijl je been oversteekt.",
+        "Houd een lichte knik in je knie om het gewricht te ontzien."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/IT_Band_and_Glute_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/IT_Band_and_Glute_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

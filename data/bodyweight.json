@@ -11366,5 +11366,88 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_hug_knees_to_chest",
+    "exercise_name": {
+      "en": "Hug Knees To Chest",
+      "nl": "Knieën naar Borst Stretch"
+    },
+    "aliases": [
+      "Hug Knees To Chest",
+      "Hug_Knees_To_Chest"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back on the floor and pull both knees up toward your chest.",
+        "Hold your arms behind the knees rather than over the joints.",
+        "Gently draw knees toward shoulders to stretch lower back and glutes, holding for 20-30 seconds."
+      ],
+      "nl": [
+        "Ga op je rug liggen en trek beide knieën omhoog richting je borst.",
+        "Pak je benen vast in je knieholtes en niet bovenop de knieschijven.",
+        "Trek je knieën rustig naar je schouders om je onderrug en billen te rekken en houd 20-30 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep neck and shoulders relaxed down on the floor.",
+        "Grip under the knees to avoid excessive compressive pressure on the patellar tendons."
+      ],
+      "nl": [
+        "Houd je hoofd, nek en schouders ontspannen op de vloer.",
+        "Pak vast in de knieholtes om overmatige druk op de kniegewrichten te voorkomen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hug_Knees_To_Chest/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hug_Knees_To_Chest/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

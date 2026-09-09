@@ -320,5 +320,86 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "foam_roller_iliotibial_tract_smr",
+    "exercise_name": {
+      "en": "IT Band Foam Roll",
+      "nl": "IT-Band Foam Roll"
+    },
+    "aliases": [
+      "Iliotibial Tract-SMR",
+      "Iliotibial_Tract-SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "abductors"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your side with the outside of your bottom thigh resting on the foam roller between hip and knee.",
+        "Cross the top leg over in front, planting that foot flat on the floor to regulate pressure.",
+        "Roll slowly along the outer thigh, pausing on tender trigger points for 10-30 seconds before switching sides."
+      ],
+      "nl": [
+        "Ga op je zij liggen met de buitenkant van je bovenbeen op de foamroller tussen heup en knie.",
+        "Zet je bovenste voet voor je op de grond om de druk te doseren en jezelf te ondersteunen.",
+        "Rol langzaam over de buitenkant van je dijbeen en houd gevoelige plekken 10-30 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Breathe steadily and do not tense the muscles of the leg being rolled.",
+        "Avoid rolling directly across the bony prominence of the hip or the lateral knee joint."
+      ],
+      "nl": [
+        "Blijf rustig ademen en ontspan het been dat op de roller rust.",
+        "Rol niet direct over het bot van je heup of over je kniegewricht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Iliotibial_Tract-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Iliotibial_Tract-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

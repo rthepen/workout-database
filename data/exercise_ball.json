@@ -329,5 +329,89 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "stability_ball_hug_a_ball",
+    "exercise_name": {
+      "en": "Hug A Ball",
+      "nl": "Hug A Ball Rugstretch"
+    },
+    "aliases": [
+      "Hug A Ball",
+      "Hug_A_Ball"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "calves",
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor, straddle a stability ball between both legs, and sink hips toward the floor.",
+        "Wrap your arms firmly around the ball to support your torso.",
+        "Relax into the ball, breathing deeply to decompress the spine and lower back."
+      ],
+      "nl": [
+        "Zit op de grond met je benen wijd om een fitnessbal heen en laat je heupen ontspannen zakken.",
+        "Sla je armen stevig om de bal heen om je bovenlichaam te ondersteunen.",
+        "Leun voorover over de bal en adem rustig door om spanning in je onderrug los te laten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Ensure feet are planted firmly to prevent the ball from slipping out.",
+        "Breathe into the lower back and let the paraspinal muscles relax."
+      ],
+      "nl": [
+        "Zet je voeten stevig neer zodat de bal niet onder je vandaan rolt.",
+        "Adem diep in naar je onderrug om de rugspieren volledig te ontspannen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hug_A_Ball/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hug_A_Ball/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

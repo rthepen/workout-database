@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:58:50.633170+00:00",
-  "total_exercises": 806,
+  "last_updated_utc": "2026-09-09T15:00:45.051373+00:00",
+  "total_exercises": 816,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -27,12 +27,12 @@
     },
     "barbell": {
       "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
+        "en": "Barbell / Dumbbells & Bench",
+        "nl": "Halterstang / Dumbbells & Bank"
       },
       "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+        "en": "Incline bench row performed lying chest-down on the pad",
+        "nl": "Vooroverliggende roeioefening op een schuine bank"
       }
     },
     "battle_rope": {
@@ -67,12 +67,12 @@
     },
     "cable": {
       "name": {
-        "en": "Cable Machine",
-        "nl": "Kabelstation"
+        "en": "Cable Machine & Bench",
+        "nl": "Kabelstation & Bank"
       },
       "description": {
-        "en": "Adjustable dual-pulley cable column system",
-        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+        "en": "Incline bench set between low cable pulleys for upward arcing chest flyes",
+        "nl": "Schuine bank tussen lage katrollen voor schuine borstflyes"
       }
     },
     "cardio_equipment": {
@@ -177,12 +177,12 @@
     },
     "machine": {
       "name": {
-        "en": "Donkey Calf Machine",
-        "nl": "Donkey Calf Machine"
+        "en": "Hyperextension Bench",
+        "nl": "Hyperextension Bank"
       },
       "description": {
-        "en": "Donkey calf raise apparatus with hip pad and calf block",
-        "nl": "Kuitmachine met heupkussen voor voorovergebogen kuitheffen"
+        "en": "45-degree or horizontal back extension bench with thigh pads and ankle rollers",
+        "nl": "Rugtrainerbank voor hyperextensies en versterking van de onderrug"
       }
     },
     "medicine_ball": {
@@ -247,12 +247,12 @@
     },
     "resistance_band": {
       "name": {
-        "en": "Resistance Band",
-        "nl": "Weerstandsband"
+        "en": "Strap / Band",
+        "nl": "Band / Riem"
       },
       "description": {
-        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+        "en": "Strap, belt, or band looped around foot for assisted stretching",
+        "nl": "Band of riem om de voet voor geassisteerde rekoefeningen"
       }
     },
     "sandbag": {

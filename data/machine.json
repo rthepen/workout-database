@@ -1089,5 +1089,90 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "machine_hyperextensions_back_extensions",
+    "exercise_name": {
+      "en": "Hyperextensions (Back Extensions)",
+      "nl": "Back Extensions (Hyperextensions)"
+    },
+    "aliases": [
+      "Hyperextensions (Back Extensions)",
+      "Hyperextensions",
+      "Hyperextensions_Back_Extensions"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Hyperextension Bench",
+        "nl": "Hyperextension Bank"
+      },
+      "description": {
+        "en": "45-degree or horizontal back extension bench with thigh pads and ankle rollers",
+        "nl": "Rugtrainerbank voor hyperextensies en versterking van de onderrug"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down on a hyperextension bench with ankles secured under pads and upper thighs across the wide pad.",
+        "Cross arms over your chest and hinge forward at the waist while keeping back straight.",
+        "Raise torso back up until aligned with your legs, squeezing glutes and lower back."
+      ],
+      "nl": [
+        "Ga voorover op de hyperextension bank liggen met je enkels onder de rollen en heupen tegen het kussen.",
+        "Kruis je armen voor je borst en buig vanuit je heupen naar voren met een rechte rug.",
+        "Kom omhoog tot je lichaam in één rechte lijn is met je benen en knijp je billen en onderrug aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a flat, neutral spine; do not round your back at the bottom.",
+        "Avoid hyperextending or flinging the torso backward past straight alignment."
+      ],
+      "nl": [
+        "Houd je rug recht en bol niet onderin de beweging.",
+        "Overstrek je onderrug niet bovenin; stop zodra je lichaam in één lijn is."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_Back_Extensions/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_Back_Extensions/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

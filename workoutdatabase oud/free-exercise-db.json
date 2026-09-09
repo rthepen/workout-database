@@ -1,65 +1,65 @@
 [
     {
-        "id": "monkey_bars_gorilla_chin_crunch",
+        "id": "bands_hip_lift_with_band",
         "exercise_name": {
-            "en": "Gorilla Chin/Crunch",
-            "nl": "Gorilla Chin/Crunch"
+            "en": "Hip Lift with Band",
+            "nl": "Hip Lift met Band"
         },
         "aliases": [
-            "Gorilla Chin/Crunch"
+            "Hip Lift with Band"
         ],
         "material": {
-            "id": "monkey_bars",
+            "id": "resistance_band",
             "name": {
-                "en": "Monkey Bars / Pull-Up Rig",
-                "nl": "Rekstok / Klimrek"
+                "en": "Resistance Band",
+                "nl": "Weerstandsband"
             },
             "description": {
-                "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-                "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+                "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+                "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
             }
         },
         "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
+            "en": "Lower Body",
+            "nl": "Onderlichaam"
         },
         "target_muscles": {
             "primary": [
-                "abdominals"
+                "glutes"
             ],
             "secondary": [
-                "biceps",
-                "lats"
+                "calves",
+                "hamstrings"
             ]
         },
         "attributes": {
-            "difficulty": "intermediate",
+            "difficulty": "beginner",
             "mechanics": "compound",
-            "force_type": "pull",
+            "force_type": "push",
             "tracking_type": "reps_only"
         },
         "instructions": {
             "en": [
-                "Hang from a chin-up bar using an underhand grip slightly wider than shoulder width[cite: 1].",
-                "Bend your knees to a 90-degree angle with calves parallel to the floor[cite: 1].",
-                "Pull yourself up while simultaneously crunching your knees upward until nose reaches bar height and knees reach chest level[cite: 1].",
-                "Slowly lower under control back to the starting hanging position[cite: 1]."
+                "Lie on the floor inside a rack with a band anchored on both sides directly across your hips[cite: 1].",
+                "Bend knees and plant feet flat on the floor at shoulder width[cite: 1].",
+                "Drive through your heels to extend hips upward against band resistance[cite: 1].",
+                "Pause and squeeze glutes hard at the top, then slowly return to the floor[cite: 1]."
             ],
             "nl": [
-                "Hang aan een optrekstang met een onderhandse greep iets breder dan schouderbreedte[cite: 1].",
-                "Buig je knieën in een hoek van 90 graden met je onderbenen parallel aan de vloer[cite: 1].",
-                "Trek jezelf omhoog terwijl je tegelijkertijd je knieën naar je borst cruncht tot je neus bij de stang is[cite: 1].",
-                "Laat je rustig en gecontroleerd weer zakken naar de startpositie[cite: 1]."
+                "Ga op de grond in een rack liggen met een elastiek strak over je heupen gespannen[cite: 1].",
+                "Buig je knieën en zet je voeten op schouderbreedte plat op de vloer[cite: 1].",
+                "Duw krachtig af vanuit je hielen en hef je heupen omhoog tegen de weerstand van de band[cite: 1].",
+                "Knijp je billen bovenin samen en laat je bekken rustig weer zakken[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Synchronize the chin-up pull with the abdominal knee crunch[cite: 1].",
-                "Avoid swinging or using kipping momentum[cite: 1]."
+                "Keep your chest lifted and push through the midfoot and heel[cite: 2].",
+                "Avoid hyperextending the lumbar spine at peak hip bridge lockout[cite: 1]."
             ],
             "nl": [
-                "Trek tegelijkertijd met je armen en knieën omhoog in één vloeiende beweging[cite: 1].",
-                "Voorkom zwaaien met je lichaam[cite: 1]."
+                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2].",
+                "Trek je onderrug bovenin niet hol maar knijp puur vanuit je bilspieren[cite: 1]."
             ]
         },
         "relations": {
@@ -68,36 +68,36 @@
         },
         "media": {
             "images": [
-                "Gorilla_Chin_Crunch/0.jpg",
-                "Gorilla_Chin_Crunch/1.jpg"
+                "Hip_Lift_with_Band/0.jpg",
+                "Hip_Lift_with_Band/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Gorilla_Chin_Crunch",
-            "original_category": "strength"
+            "original_id": "Hip_Lift_with_Band",
+            "original_category": "powerlifting"
         }
     },
     {
-        "id": "bodyweight_groin_and_back_stretch",
+        "id": "stability_ball_hug_a_ball",
         "exercise_name": {
-            "en": "Groin and Back Stretch",
-            "nl": "Lies- en Rugstretch"
+            "en": "Hug A Ball",
+            "nl": "Hug A Ball Rugstretch"
         },
         "aliases": [
-            "Groin and Back Stretch"
+            "Hug A Ball"
         ],
         "material": {
-            "id": "bodyweight",
+            "id": "exercise_ball",
             "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
+                "en": "Stability Ball",
+                "nl": "Fysiobal / Stabiliteitsbal"
             },
             "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+                "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+                "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
             }
         },
         "category": {
@@ -106,40 +106,39 @@
         },
         "target_muscles": {
             "primary": [
-                "adductors"
+                "lower_back"
             ],
             "secondary": [
-                "lower_back"
+                "calves",
+                "glutes"
             ]
         },
         "attributes": {
-            "difficulty": "intermediate",
-            "mechanics": "compound",
+            "difficulty": "beginner",
+            "mechanics": "isolation",
             "force_type": "static",
             "tracking_type": "time_only"
         },
         "instructions": {
             "en": [
-                "Sit on the floor with knees bent out to the sides and soles of feet pressed together[cite: 1].",
-                "Interlock your fingers behind your head with elbows flared[cite: 1].",
-                "Curl downward, gently guiding your elbows toward the inside of your thighs[cite: 1].",
-                "Pause to feel the stretch in your groin and back, then return upright[cite: 1]."
+                "Sit on the floor, straddle a stability ball between both legs, and sink hips toward the floor[cite: 1].",
+                "Wrap your arms firmly around the ball to support your torso[cite: 1].",
+                "Relax into the ball, breathing deeply to decompress the spine and lower back[cite: 1]."
             ],
             "nl": [
-                "Zit op de grond met je knieën naar buiten gebogen en je voetzolen tegen elkaar[cite: 1].",
-                "Plaats je vingers ineengestrengeld achter je hoofd met de ellebogen wijd[cite: 1].",
-                "Rol je bovenlichaam naar voren en breng je ellebogen naar de binnenkant van je bovenbenen[cite: 1].",
-                "Houd de rek in je lies en rug even vast en kom weer rustig rechtop zitten[cite: 1]."
+                "Zit op de grond met je benen wijd om een fitnessbal heen en laat je heupen ontspannen zakken[cite: 1].",
+                "Sla je armen stevig om de bal heen om je bovenlichaam te ondersteunen[cite: 1].",
+                "Leun voorover over de bal en adem rustig door om spanning in je onderrug los te laten[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Ease gently into spinal flexion without pulling forcefully on the neck[cite: 1].",
-                "Breathe deeply to relax the inner thighs[cite: 1]."
+                "Ensure feet are planted firmly to prevent the ball from slipping out[cite: 1].",
+                "Breathe into the lower back and let the paraspinal muscles relax[cite: 1]."
             ],
             "nl": [
-                "Buig rustig naar voren en trek niet met kracht aan je nek[cite: 1].",
-                "Adem diep in en uit om de spanning in de liezen los te laten[cite: 1]."
+                "Zet je voeten stevig neer zodat de bal niet onder je vandaan rolt[cite: 1].",
+                "Adem diep in naar je onderrug om de rugspieren volledig te ontspannen[cite: 1]."
             ]
         },
         "relations": {
@@ -148,26 +147,26 @@
         },
         "media": {
             "images": [
-                "Groin_and_Back_Stretch/0.jpg",
-                "Groin_and_Back_Stretch/1.jpg"
+                "Hug_A_Ball/0.jpg",
+                "Hug_A_Ball/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Groin_and_Back_Stretch",
+            "original_id": "Hug_A_Ball",
             "original_category": "stretching"
         }
     },
     {
-        "id": "bodyweight_groiners",
+        "id": "bodyweight_hug_knees_to_chest",
         "exercise_name": {
-            "en": "Groiners",
-            "nl": "Groiners"
+            "en": "Hug Knees To Chest",
+            "nl": "Knieën naar Borst Stretch"
         },
         "aliases": [
-            "Groiners"
+            "Hug Knees To Chest"
         ],
         "material": {
             "id": "bodyweight",
@@ -186,41 +185,38 @@
         },
         "target_muscles": {
             "primary": [
-                "adductors"
+                "lower_back"
             ],
             "secondary": [
-                "calves",
-                "glutes",
-                "hamstrings",
-                "quadriceps"
+                "glutes"
             ]
         },
         "attributes": {
-            "difficulty": "intermediate",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
+            "difficulty": "beginner",
+            "mechanics": "isolation",
+            "force_type": "static",
+            "tracking_type": "time_only"
         },
         "instructions": {
             "en": [
-                "Begin in a high push-up plank position on hands and toes[cite: 1].",
-                "Jump forward with both feet, landing them wide outside your hands while keeping head up[cite: 1].",
-                "Immediately jump feet back to the plank position and repeat dynamically[cite: 1]."
+                "Lie on your back on the floor and pull both knees up toward your chest[cite: 1].",
+                "Hold your arms behind the knees rather than over the joints[cite: 1].",
+                "Gently draw knees toward shoulders to stretch lower back and glutes, holding for 20-30 seconds[cite: 1]."
             ],
             "nl": [
-                "Begin in een hoge plankpositie op je handen en tenen[cite: 1].",
-                "Spring met beide voeten tegelijk naar voren zodat ze wijd naast je handen landen[cite: 1].",
-                "Spring direct weer terug naar de plankpositie en herhaal in een vlot tempo[cite: 1]."
+                "Ga op je rug liggen en trek beide knieën omhoog richting je borst[cite: 1].",
+                "Pak je benen vast in je knieholtes en niet bovenop de knieschijven[cite: 1].",
+                "Trek je knieën rustig naar je schouders om je onderrug en billen te rekken en houd 20-30 seconden vast[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Keep hands planted firmly and chest lifted when feet land wide[cite: 1].",
-                "Land lightly on the balls of your feet[cite: 1, 2]."
+                "Keep neck and shoulders relaxed down on the floor[cite: 1].",
+                "Grip under the knees to avoid excessive compressive pressure on the patellar tendons[cite: 1]."
             ],
             "nl": [
-                "Houd je handen plat op de grond en kijk naar voren bij de landing[cite: 1].",
-                "Land veerkrachtig op de bal van je voeten[cite: 1, 2]."
+                "Houd je hoofd, nek en schouders ontspannen op de vloer[cite: 1].",
+                "Pak vast in de knieholtes om overmatige druk op de kniegewrichten te voorkomen[cite: 1]."
             ]
         },
         "relations": {
@@ -229,26 +225,184 @@
         },
         "media": {
             "images": [
-                "Groiners/0.jpg",
-                "Groiners/1.jpg"
+                "Hug_Knees_To_Chest/0.jpg",
+                "Hug_Knees_To_Chest/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Groiners",
+            "original_id": "Hug_Knees_To_Chest",
             "original_category": "stretching"
         }
     },
     {
-        "id": "foam_roller_hamstring_smr",
+        "id": "machine_hyperextensions_back_extensions",
         "exercise_name": {
-            "en": "Hamstring Foam Roll",
-            "nl": "Hamstring Foam Roll"
+            "en": "Hyperextensions (Back Extensions)",
+            "nl": "Back Extensions (Hyperextensions)"
         },
         "aliases": [
-            "Hamstring-SMR"
+            "Hyperextensions (Back Extensions)",
+            "Hyperextensions"
+        ],
+        "material": {
+            "id": "machine",
+            "name": {
+                "en": "Hyperextension Bench",
+                "nl": "Hyperextension Bank"
+            },
+            "description": {
+                "en": "45-degree or horizontal back extension bench with thigh pads and ankle rollers",
+                "nl": "Rugtrainerbank voor hyperextensies en versterking van de onderrug"
+            }
+        },
+        "category": {
+            "en": "Lower Body",
+            "nl": "Onderlichaam"
+        },
+        "target_muscles": {
+            "primary": [
+                "lower_back"
+            ],
+            "secondary": [
+                "glutes",
+                "hamstrings"
+            ]
+        },
+        "attributes": {
+            "difficulty": "beginner",
+            "mechanics": "isolation",
+            "force_type": "pull",
+            "tracking_type": "reps_only"
+        },
+        "instructions": {
+            "en": [
+                "Lie face down on a hyperextension bench with ankles secured under pads and upper thighs across the wide pad[cite: 1].",
+                "Cross arms over your chest and hinge forward at the waist while keeping back straight[cite: 1].",
+                "Raise torso back up until aligned with your legs, squeezing glutes and lower back[cite: 1]."
+            ],
+            "nl": [
+                "Ga voorover op de hyperextension bank liggen met je enkels onder de rollen en heupen tegen het kussen[cite: 1].",
+                "Kruis je armen voor je borst en buig vanuit je heupen naar voren met een rechte rug[cite: 1].",
+                "Kom omhoog tot je lichaam in één rechte lijn is met je benen en knijp je billen en onderrug aan[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Maintain a flat, neutral spine; do not round your back at the bottom[cite: 1].",
+                "Avoid hyperextending or flinging the torso backward past straight alignment[cite: 1]."
+            ],
+            "nl": [
+                "Houd je rug recht en bol niet onderin de beweging[cite: 1].",
+                "Overstrek je onderrug niet bovenin; stop zodra je lichaam in één lijn is[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "Hyperextensions_Back_Extensions/0.jpg",
+                "Hyperextensions_Back_Extensions/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "Hyperextensions_Back_Extensions",
+            "original_category": "strength"
+        }
+    },
+    {
+        "id": "bodyweight_it_band_glute_stretch",
+        "exercise_name": {
+            "en": "IT Band and Glute Stretch",
+            "nl": "IT-Band en Bilspierstretch"
+        },
+        "aliases": [
+            "IT Band and Glute Stretch"
+        ],
+        "material": {
+            "id": "resistance_band",
+            "name": {
+                "en": "Strap / Band",
+                "nl": "Band / Riem"
+            },
+            "description": {
+                "en": "Strap, belt, or band looped around foot for assisted stretching",
+                "nl": "Band of riem om de voet voor geassisteerde rekoefeningen"
+            }
+        },
+        "category": {
+            "en": "Mobility & Stretching",
+            "nl": "Mobiliteit & Rekken"
+        },
+        "target_muscles": {
+            "primary": [
+                "abductors"
+            ],
+            "secondary": [
+                "glutes"
+            ]
+        },
+        "attributes": {
+            "difficulty": "intermediate",
+            "mechanics": "isolation",
+            "force_type": "static",
+            "tracking_type": "time_only"
+        },
+        "instructions": {
+            "en": [
+                "Lie flat on your back and loop a band or strap around one foot[cite: 1].",
+                "Keep leg straight and drop it across the midline of your body to the opposite side[cite: 1].",
+                "Pull gently on the strap to pull toes up, feeling the stretch across the outer hip and IT band for 15-20 seconds[cite: 1]."
+            ],
+            "nl": [
+                "Ga op je rug liggen en haak een band of riem om één voet[cite: 1].",
+                "Houd je been gestrekt en laat het over je lichaam heen naar de overliggende kant zakken[cite: 1].",
+                "Trek lichtjes aan de band om rek te voelen over de buitenkant van je heup en bovenbeen en houd 15-20 seconden vast[cite: 1]."
+            ]
+        },
+        "form_cues": {
+            "en": [
+                "Keep shoulders pinned flat against the floor as the leg crosses the body[cite: 1].",
+                "Maintain slight softness in the knee to protect the joint[cite: 1]."
+            ],
+            "nl": [
+                "Houd beide schouders plat op de grond terwijl je been oversteekt[cite: 1].",
+                "Houd een lichte knik in je knie om het gewricht te ontzien[cite: 1]."
+            ]
+        },
+        "relations": {
+            "progressions": [],
+            "regressions": []
+        },
+        "media": {
+            "images": [
+                "IT_Band_and_Glute_Stretch/0.jpg",
+                "IT_Band_and_Glute_Stretch/1.jpg"
+            ],
+            "videos": []
+        },
+        "meta": {
+            "schema_version": "1.1.0",
+            "updated_at": "2026-09-09",
+            "original_id": "IT_Band_and_Glute_Stretch",
+            "original_category": "stretching"
+        }
+    },
+    {
+        "id": "foam_roller_iliotibial_tract_smr",
+        "exercise_name": {
+            "en": "IT Band Foam Roll",
+            "nl": "IT-Band Foam Roll"
+        },
+        "aliases": [
+            "Iliotibial Tract-SMR"
         ],
         "material": {
             "id": "foam_roller",
@@ -267,36 +421,38 @@
         },
         "target_muscles": {
             "primary": [
-                "hamstrings"
+                "abductors"
             ],
-            "secondary": []
+            "secondary": [
+                "tensor_fasciae_latae"
+            ]
         },
         "attributes": {
-            "difficulty": "beginner",
+            "difficulty": "intermediate",
             "mechanics": "isolation",
             "force_type": "static",
             "tracking_type": "time_only"
         },
         "instructions": {
             "en": [
-                "Sit on the floor with a foam roller placed under the back of your thighs, hands supporting weight behind you[cite: 1].",
-                "Lift hips off the floor and shift weight onto one leg, relaxing the working hamstring[cite: 1].",
-                "Roll slowly between your glutes and the back of your knee, pausing on points of tension for 10-30 seconds[cite: 1]."
+                "Lie on your side with the outside of your bottom thigh resting on the foam roller between hip and knee[cite: 1].",
+                "Cross the top leg over in front, planting that foot flat on the floor to regulate pressure[cite: 1].",
+                "Roll slowly along the outer thigh, pausing on tender trigger points for 10-30 seconds before switching sides[cite: 1]."
             ],
             "nl": [
-                "Ga op de grond zitten met de foamroller onder de achterkant van je bovenbenen en steun op je handen achter je[cite: 1].",
-                "Til je heupen van de vloer, verplaats je gewicht naar één been en ontspan die hamstring[cite: 1].",
-                "Rol langzaam tussen je bil en je knieholte en houd gevoelige plekken 10-30 seconden vast[cite: 1]."
+                "Ga op je zij liggen met de buitenkant van je bovenbeen op de foamroller tussen heup en knie[cite: 1].",
+                "Zet je bovenste voet voor je op de grond om de druk te doseren en jezelf te ondersteunen[cite: 1].",
+                "Rol langzaam over de buitenkant van je dijbeen en houd gevoelige plekken 10-30 seconden vast[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Relax the targeted leg muscles completely to allow deep tissue compression[cite: 1].",
-                "Do not roll directly over the back of the knee joint[cite: 1]."
+                "Breathe steadily and do not tense the muscles of the leg being rolled[cite: 1].",
+                "Avoid rolling directly across the bony prominence of the hip or the lateral knee joint[cite: 1]."
             ],
             "nl": [
-                "Ontspan het been dat je rolt volledig om de druk goed door te laten dringen[cite: 1].",
-                "Rol niet rechtstreeks over je knieholte[cite: 1]."
+                "Blijf rustig ademen en ontspan het been dat op de roller rust[cite: 1].",
+                "Rol niet direct over het bot van je heup of over je kniegewricht[cite: 1]."
             ]
         },
         "relations": {
@@ -305,104 +461,26 @@
         },
         "media": {
             "images": [
-                "Hamstring-SMR/0.jpg",
-                "Hamstring-SMR/1.jpg"
+                "Iliotibial_Tract-SMR/0.jpg",
+                "Iliotibial_Tract-SMR/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Hamstring-SMR",
+            "original_id": "Iliotibial_Tract-SMR",
             "original_category": "stretching"
         }
     },
     {
-        "id": "bodyweight_hamstring_stretch_band",
+        "id": "barbell_incline_barbell_triceps_extension",
         "exercise_name": {
-            "en": "Hamstring Stretch with Band",
-            "nl": "Liggende Hamstringstretch met Band"
+            "en": "Incline Barbell Triceps Extension",
+            "nl": "Incline Barbell Triceps Extension"
         },
         "aliases": [
-            "Hamstring Stretch"
-        ],
-        "material": {
-            "id": "resistance_band",
-            "name": {
-                "en": "Strap / Band",
-                "nl": "Band / Riem"
-            },
-            "description": {
-                "en": "Strap, belt, or band looped around foot for assisted hamstring stretching",
-                "nl": "Band of riem om de voet voor geassisteerde hamstringstretch"
-            }
-        },
-        "category": {
-            "en": "Mobility & Stretching",
-            "nl": "Mobiliteit & Rekken"
-        },
-        "target_muscles": {
-            "primary": [
-                "hamstrings"
-            ],
-            "secondary": [
-                "calves"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "isolation",
-            "force_type": "static",
-            "tracking_type": "time_only"
-        },
-        "instructions": {
-            "en": [
-                "Lie on your back with one leg extended flat on the floor[cite: 1].",
-                "Loop a band or belt over the ball of your opposite foot and raise that leg vertically toward the ceiling[cite: 1].",
-                "Gently pull the band to create tension in your hamstrings and calves, holding for 15-30 seconds before switching legs[cite: 1]."
-            ],
-            "nl": [
-                "Ga op je rug liggen met één been plat op de grond[cite: 1].",
-                "Haak een band of riem om de bal van je andere voet en strek dat been omhoog naar het plafond[cite: 1].",
-                "Trek rustig aan de band om rek te voelen in je hamstring en kuit, houd 15-30 seconden vast en wissel van been[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep your pelvis and lower back flat against the floor[cite: 1].",
-                "Maintain a straight leg without locking or hyperextending the knee[cite: 1]."
-            ],
-            "nl": [
-                "Houd je bekken en onderrug plat op de vloer[cite: 1].",
-                "Houd je been nagenoeg gestrekt zonder de knie overdreven op slot te zetten[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Hamstring_Stretch/0.jpg",
-                "Hamstring_Stretch/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Hamstring_Stretch",
-            "original_category": "stretching"
-        }
-    },
-    {
-        "id": "barbell_hang_clean",
-        "exercise_name": {
-            "en": "Hang Clean",
-            "nl": "Hang Clean"
-        },
-        "aliases": [
-            "Hang Clean"
+            "Incline Barbell Triceps Extension"
         ],
         "material": {
             "id": "barbell",
@@ -413,588 +491,6 @@
             "description": {
                 "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
                 "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-            }
-        },
-        "category": {
-            "en": "Full Body",
-            "nl": "Hele Lichaam"
-        },
-        "target_muscles": {
-            "primary": [
-                "quadriceps"
-            ],
-            "secondary": [
-                "calves",
-                "forearms",
-                "glutes",
-                "hamstrings",
-                "lower_back",
-                "shoulders",
-                "traps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "intermediate",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_and_weight"
-        },
-        "instructions": {
-            "en": [
-                "Stand tall holding a barbell at mid-thigh with a shoulder-width hook grip and back straight[cite: 1].",
-                "Aggressively extend hips, knees, and ankles upward while shrugging shoulders[cite: 1].",
-                "Pull under the bar, rotating elbows quickly forward to rack the barbell on front shoulders in a squat, then stand tall[cite: 1]."
-            ],
-            "nl": [
-                "Sta rechtop met de stang halverwege je bovenbenen vast met een schouderbrede greep en rechte rug[cite: 1].",
-                "Strek je heupen, knieën en enkels explosief uit en trek je schouders krachtig op[cite: 1].",
-                "Duik onder de stang, draai je ellebogen snel naar voren en vang de stang op je schouders in een squat, kom daarna rechtop staan[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep the barbell close to your thighs during the extension[cite: 1].",
-                "Snap elbows forward fast into a solid front rack[cite: 1]."
-            ],
-            "nl": [
-                "Houd de stang dicht langs je bovenbenen tijdens de heupstrekking[cite: 1].",
-                "Draai je ellebogen razendsnel naar voren en omhoog bij het opvangen[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Hang_Clean/0.jpg",
-                "Hang_Clean/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Hang_Clean",
-            "original_category": "olympic weightlifting"
-        }
-    },
-    {
-        "id": "barbell_hang_clean_below_knees",
-        "exercise_name": {
-            "en": "Hang Clean - Below the Knees",
-            "nl": "Hang Clean onder Knieën"
-        },
-        "aliases": [
-            "Hang Clean - Below the Knees"
-        ],
-        "material": {
-            "id": "barbell",
-            "name": {
-                "en": "Barbell",
-                "nl": "Halterstang"
-            },
-            "description": {
-                "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-                "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-            }
-        },
-        "category": {
-            "en": "Full Body",
-            "nl": "Hele Lichaam"
-        },
-        "target_muscles": {
-            "primary": [
-                "quadriceps"
-            ],
-            "secondary": [
-                "calves",
-                "forearms",
-                "glutes",
-                "hamstrings",
-                "lower_back",
-                "shoulders",
-                "traps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "intermediate",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_and_weight"
-        },
-        "instructions": {
-            "en": [
-                "Hinge at the hips to lower the barbell just below your knees with back straight and chest up[cite: 1].",
-                "Explosively extend through legs and hips, driving the weight upward with an aggressive shrug[cite: 1].",
-                "Pull your body rapidly down under the bar, catching it on your shoulders in a front squat, then recover to standing[cite: 1]."
-            ],
-            "nl": [
-                "Buig voorover tot de stang net onder je knieën hangt met een rechte rug en borst op[cite: 1].",
-                "Strek explosief uit vanuit je benen en heupen en trek je schouders krachtig op[cite: 1].",
-                "Trek jezelf snel onder de stang, vang hem op je schouders op in een squat en kom rechtop staan[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Maintain back angle until the bar passes knees[cite: 1].",
-                "Keep your chest lifted and push through the midfoot and heel[cite: 2]."
-            ],
-            "nl": [
-                "Houd je rughoek vast tot de stang voorbij je knieën komt[cite: 1].",
-                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Hang_Clean_-_Below_the_Knees/0.jpg",
-                "Hang_Clean_-_Below_the_Knees/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Hang_Clean_-_Below_the_Knees",
-            "original_category": "olympic weightlifting"
-        }
-    },
-    {
-        "id": "barbell_hang_snatch",
-        "exercise_name": {
-            "en": "Hang Snatch",
-            "nl": "Hang Snatch"
-        },
-        "aliases": [
-            "Hang Snatch"
-        ],
-        "material": {
-            "id": "barbell",
-            "name": {
-                "en": "Barbell",
-                "nl": "Halterstang"
-            },
-            "description": {
-                "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-                "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-            }
-        },
-        "category": {
-            "en": "Full Body",
-            "nl": "Hele Lichaam"
-        },
-        "target_muscles": {
-            "primary": [
-                "hamstrings"
-            ],
-            "secondary": [
-                "abdominals",
-                "calves",
-                "forearms",
-                "glutes",
-                "lower_back",
-                "quadriceps",
-                "shoulders",
-                "traps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "expert",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_and_weight"
-        },
-        "instructions": {
-            "en": [
-                "Stand holding barbell at your hips with a wide snatch grip and feet hip-width apart[cite: 1].",
-                "Dip slightly and aggressively extend legs and hips, shrugging shoulders and guiding elbows high[cite: 1].",
-                "Pull under the bar, catching it overhead with locked arms in an overhead squat, then stand tall[cite: 1]."
-            ],
-            "nl": [
-                "Sta rechtop met de halterstang bij je heupen met een brede snatch-greep[cite: 1].",
-                "Maak een korte dip en strek explosief uit vanuit je heupen en benen met je ellebogen hoog[cite: 1].",
-                "Duik onder de stang en vang hem met gestrekte armen boven je hoofd op in een squat, kom daarna rechtop staan[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Keep the barbell trajectory close to your abdomen and chest[cite: 1].",
-                "Lock out overhead aggressively before recovering to standing[cite: 1]."
-            ],
-            "nl": [
-                "Houd de stang dicht langs je lichaam tijdens het omhoog trekken[cite: 1].",
-                "Zet je armen direct muurvast op slot boven je hoofd bij het opvangen[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Hang_Snatch/0.jpg",
-                "Hang_Snatch/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Hang_Snatch",
-            "original_category": "olympic weightlifting"
-        }
-    },
-    {
-        "id": "barbell_hang_snatch_below_knees",
-        "exercise_name": {
-            "en": "Hang Snatch - Below Knees",
-            "nl": "Hang Snatch onder Knieën"
-        },
-        "aliases": [
-            "Hang Snatch - Below Knees"
-        ],
-        "material": {
-            "id": "barbell",
-            "name": {
-                "en": "Barbell",
-                "nl": "Halterstang"
-            },
-            "description": {
-                "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-                "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-            }
-        },
-        "category": {
-            "en": "Full Body",
-            "nl": "Hele Lichaam"
-        },
-        "target_muscles": {
-            "primary": [
-                "hamstrings"
-            ],
-            "secondary": [
-                "abdominals",
-                "calves",
-                "forearms",
-                "glutes",
-                "lower_back",
-                "quadriceps",
-                "shoulders",
-                "traps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "expert",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_and_weight"
-        },
-        "instructions": {
-            "en": [
-                "Hinge at the hips holding barbell with a wide grip until the bar is just below your knees[cite: 1].",
-                "Extend violently through your legs and hips, accelerating the bar vertically[cite: 1].",
-                "Pull under the bar, locking it out overhead in a full deep overhead squat, then recover upward to standing[cite: 1]."
-            ],
-            "nl": [
-                "Buig voorover met een brede greep tot de stang net onder je knieën hangt met een rechte rug[cite: 1].",
-                "Strek explosief uit vanuit je benen en heupen en versnel de stang omhoog[cite: 1].",
-                "Trek jezelf onder de stang en vang hem met gestrekte armen op in een diepe overhead squat, kom daarna rechtop staan[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Maintain back extension until bar crosses knees into the hip pocket[cite: 1].",
-                "Keep your chest lifted and push through the midfoot and heel[cite: 2]."
-            ],
-            "nl": [
-                "Houd je rug strak en recht tot de stang voorbij je knieën naar je heupen reist[cite: 1].",
-                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Hang_Snatch_-_Below_Knees/0.jpg",
-                "Hang_Snatch_-_Below_Knees/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Hang_Snatch_-_Below_Knees",
-            "original_category": "olympic weightlifting"
-        }
-    },
-    {
-        "id": "monkey_bars_hanging_pike",
-        "exercise_name": {
-            "en": "Hanging Pike (Toes to Bar)",
-            "nl": "Hanging Pike (Toes to Bar)"
-        },
-        "aliases": [
-            "Hanging Pike"
-        ],
-        "material": {
-            "id": "monkey_bars",
-            "name": {
-                "en": "Monkey Bars / Pull-Up Rig",
-                "nl": "Rekstok / Klimrek"
-            },
-            "description": {
-                "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-                "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-            }
-        },
-        "category": {
-            "en": "Abs & Core",
-            "nl": "Buikspieren"
-        },
-        "target_muscles": {
-            "primary": [
-                "abdominals"
-            ],
-            "secondary": [
-                "forearms",
-                "hip_flexors"
-            ]
-        },
-        "attributes": {
-            "difficulty": "expert",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Hang from an overhead pull-up bar with feet together and arms fully extended[cite: 1].",
-                "Contract abdominals to pull straight legs upward in a pike until your toes or shins touch the bar overhead[cite: 1].",
-                "Slowly lower legs back down under control without swinging[cite: 1]."
-            ],
-            "nl": [
-                "Hang met gestrekte armen aan een optrekstang met je voeten bij elkaar[cite: 1].",
-                "Trek je benen gestrekt omhoog in een hoek (pike) tot je tenen of schenen de stang aantikken[cite: 1].",
-                "Laat je benen langzaam en gecontroleerd weer zakken zonder te zwaaien[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Brace your core tightly as if preparing for a punch and avoid arching the lower back[cite: 2].",
-                "Avoid using swing or kip momentum; lift with abdominal control[cite: 1]."
-            ],
-            "nl": [
-                "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt[cite: 2].",
-                "Beweeg puur vanuit je core en zwaai niet met je benen[cite: 1]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Hanging_Pike/0.jpg",
-                "Hanging_Pike/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Hanging_Pike",
-            "original_category": "strength"
-        }
-    },
-    {
-        "id": "barbell_heaving_snatch_balance",
-        "exercise_name": {
-            "en": "Heaving Snatch Balance",
-            "nl": "Heaving Snatch Balance"
-        },
-        "aliases": [
-            "Heaving Snatch Balance"
-        ],
-        "material": {
-            "id": "barbell",
-            "name": {
-                "en": "Barbell",
-                "nl": "Halterstang"
-            },
-            "description": {
-                "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-                "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-            }
-        },
-        "category": {
-            "en": "Full Body",
-            "nl": "Hele Lichaam"
-        },
-        "target_muscles": {
-            "primary": [
-                "quadriceps"
-            ],
-            "secondary": [
-                "abdominals",
-                "forearms",
-                "glutes",
-                "hamstrings",
-                "shoulders",
-                "triceps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "intermediate",
-            "mechanics": "compound",
-            "force_type": "push",
-            "tracking_type": "reps_and_weight"
-        },
-        "instructions": {
-            "en": [
-                "Hold barbell across your rear shoulders with a wide snatch grip in your squat stance[cite: 1].",
-                "Dip at the knees and pop upward slightly to unload the bar[cite: 1].",
-                "Drive yourself rapidly underneath the bar into a full overhead squat with arms locked overhead[cite: 1].",
-                "Stand up fully from the overhead squat to finish the lift[cite: 1]."
-            ],
-            "nl": [
-                "Houd de halterstang op je schouders achter in je nek met een brede snatch-greep in je squathouding[cite: 1].",
-                "Maak een korte dip door je knieën en veer op om de stang even gewichtloos te maken[cite: 1].",
-                "Duik snel onder de stang tot een diepe overhead squat met gestrekte armen boven je hoofd[cite: 1].",
-                "Kom volledig rechtop staan vanuit de overhead squat[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Lock elbows aggressively overhead at the same instant hips hit the bottom squat[cite: 1].",
-                "Keep your chest lifted and push through the midfoot and heel[cite: 2]."
-            ],
-            "nl": [
-                "Zet je armen direct op slot zodra je heupen de diepste squatpositie bereiken[cite: 1].",
-                "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen[cite: 2]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Heaving_Snatch_Balance/0.jpg",
-                "Heaving_Snatch_Balance/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Heaving_Snatch_Balance",
-            "original_category": "olympic weightlifting"
-        }
-    },
-    {
-        "id": "boxing_heavy_bag_thrust",
-        "exercise_name": {
-            "en": "Heavy Bag Thrust",
-            "nl": "Bokszak Thrust"
-        },
-        "aliases": [
-            "Heavy Bag Thrust"
-        ],
-        "material": {
-            "id": "other",
-            "name": {
-                "en": "Heavy Punching Bag",
-                "nl": "Bokszak"
-            },
-            "description": {
-                "en": "Hanging heavy bag used for explosive pushing and striking drills",
-                "nl": "Hangende bokszak voor stoot- en duwtraining"
-            }
-        },
-        "category": {
-            "en": "Explosive Power",
-            "nl": "Explosiviteit"
-        },
-        "target_muscles": {
-            "primary": [
-                "chest"
-            ],
-            "secondary": [
-                "abdominals",
-                "shoulders",
-                "triceps"
-            ]
-        },
-        "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "compound",
-            "force_type": "push",
-            "tracking_type": "reps_only"
-        },
-        "instructions": {
-            "en": [
-                "Stand in a wide staggered athletic stance next to a hanging heavy bag with one hand on bag at chest height[cite: 1].",
-                "Twist forcefully from the hips and waist, thrusting the bag forward as hard as possible[cite: 1].",
-                "Absorb and receive the bag as it swings back, loading into the next thrust[cite: 1]."
-            ],
-            "nl": [
-                "Sta in een brede boksstand naast een hangende bokszak met één hand op de zak op borsthoogte[cite: 1].",
-                "Draai explosief in vanuit je heupen en taille en duw de zak met maximale kracht van je af[cite: 1].",
-                "Vang de terugslingerende zak verend op en zet direct de volgende stoot in[cite: 1]."
-            ]
-        },
-        "form_cues": {
-            "en": [
-                "Pivot off the rear foot to transfer rotational power through the core into the thrust[cite: 1].",
-                "Retract your shoulder blades and maintain a stable, braced upper back[cite: 2]."
-            ],
-            "nl": [
-                "Draai in op je achterste voet om heupkracht via je core over te brengen op de zak[cite: 1].",
-                "Houd je bovenrug stabiel en schouderbladen aangespannen[cite: 2]."
-            ]
-        },
-        "relations": {
-            "progressions": [],
-            "regressions": []
-        },
-        "media": {
-            "images": [
-                "Heavy_Bag_Thrust/0.jpg",
-                "Heavy_Bag_Thrust/1.jpg"
-            ],
-            "videos": []
-        },
-        "meta": {
-            "schema_version": "1.1.0",
-            "updated_at": "2026-09-09",
-            "original_id": "Heavy_Bag_Thrust",
-            "original_category": "plyometrics"
-        }
-    },
-    {
-        "id": "cable_high_cable_curls",
-        "exercise_name": {
-            "en": "High Cable Curls",
-            "nl": "High Cable Curls (Biceps Crossover)"
-        },
-        "aliases": [
-            "High Cable Curls"
-        ],
-        "material": {
-            "id": "cable",
-            "name": {
-                "en": "Cable Machine",
-                "nl": "Kabelstation"
-            },
-            "description": {
-                "en": "Adjustable dual-pulley cable column system",
-                "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
             }
         },
         "category": {
@@ -1003,36 +499,38 @@
         },
         "target_muscles": {
             "primary": [
-                "biceps"
+                "triceps"
             ],
-            "secondary": []
+            "secondary": [
+                "forearms"
+            ]
         },
         "attributes": {
             "difficulty": "intermediate",
-            "mechanics": "compound",
-            "force_type": "pull",
+            "mechanics": "isolation",
+            "force_type": "push",
             "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Stand centered between high pulleys holding a handle in each hand with upper arms parallel to the floor[cite: 1].",
-                "Curl handles inward toward your ears while keeping upper arms strictly horizontal[cite: 1].",
-                "Squeeze biceps hard at peak contraction for one second, then slowly extend arms back out[cite: 1]."
+                "Lie back on an incline bench holding a barbell overhead with a narrow overhand grip, arms extended[cite: 1].",
+                "Lower the bar behind your head by bending only at the elbows while keeping upper arms still[cite: 1].",
+                "Extend elbows to press the barbell back overhead, contracting triceps hard at the top[cite: 1]."
             ],
             "nl": [
-                "Ga tussen twee hoge katrollen staan en houd in elke hand een handvat met je bovenarmen horizontaal[cite: 1].",
-                "Curl de handvatten naar je oren toe terwijl je bovenarmen op schouderhoogte stil blijven staan[cite: 1].",
-                "Knijp je biceps bovenin hard samen en laat je armen gecontroleerd weer zijwaarts strekken[cite: 1]."
+                "Ga op een schuine bank liggen en houd een halterstang met een smalle bovenhandse greep gestrekt boven je hoofd[cite: 1].",
+                "Laat de stang achter je hoofd zakken door puur je ellebogen te buigen terwijl je bovenarmen stil blijven[cite: 1].",
+                "Strek je armen krachtig uit om de stang weer omhoog te duwen en span je triceps bovenin hard aan[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Keep elbows pointing directly out to sides at shoulder height[cite: 1].",
-                "Avoid pulling elbows forward during the curl[cite: 1]."
+                "Keep elbows tucked close together; do not allow them to flare wide[cite: 1].",
+                "Maintain steady upper arm angle throughout the exercise[cite: 1]."
             ],
             "nl": [
-                "Houd je ellebogen op schouderhoogte en laat ze niet zakken[cite: 1].",
-                "Beweeg uitsluitend vanuit je onderarmen zonder je ellebogen naar voren te trekken[cite: 1]."
+                "Houd je ellebogen smal naar voren gericht en laat ze niet naar buiten wijken[cite: 1].",
+                "Houd je bovenarmen op dezelfde plek tijdens het buigen en strekken[cite: 1]."
             ]
         },
         "relations": {
@@ -1041,79 +539,77 @@
         },
         "media": {
             "images": [
-                "High_Cable_Curls/0.jpg",
-                "High_Cable_Curls/1.jpg"
+                "Incline_Barbell_Triceps_Extension/0.jpg",
+                "Incline_Barbell_Triceps_Extension/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "High_Cable_Curls",
+            "original_id": "Incline_Barbell_Triceps_Extension",
             "original_category": "strength"
         }
     },
     {
-        "id": "bodyweight_hip_circles_prone",
+        "id": "barbell_incline_bench_pull",
         "exercise_name": {
-            "en": "Hip Circles (Prone / Quadruped)",
-            "nl": "Heupcirkels op Handen en Knieën"
+            "en": "Incline Bench Pull (Seal Row Variation)",
+            "nl": "Incline Bench Row"
         },
         "aliases": [
-            "Hip Circles (prone)"
+            "Incline Bench Pull"
         ],
         "material": {
-            "id": "bodyweight",
+            "id": "barbell",
             "name": {
-                "en": "Bodyweight",
-                "nl": "Lichaamsgewicht"
+                "en": "Barbell / Dumbbells & Bench",
+                "nl": "Halterstang / Dumbbells & Bank"
             },
             "description": {
-                "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-                "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+                "en": "Incline bench row performed lying chest-down on the pad",
+                "nl": "Vooroverliggende roeioefening op een schuine bank"
             }
         },
         "category": {
-            "en": "Mobility & Stretching",
-            "nl": "Mobiliteit & Rekken"
+            "en": "Upper Body",
+            "nl": "Bovenlichaam"
         },
         "target_muscles": {
             "primary": [
-                "abductors"
+                "middle_back"
             ],
             "secondary": [
-                "adductors",
-                "glutes"
+                "lats",
+                "shoulders"
             ]
         },
         "attributes": {
             "difficulty": "beginner",
             "mechanics": "isolation",
             "force_type": "pull",
-            "tracking_type": "reps_only"
+            "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Position yourself on hands and knees with wrists under shoulders and knees under hips[cite: 1].",
-                "Lift one bent knee off the ground[cite: 1].",
-                "Trace large, smooth circular arcs with your knee, moving through hip flexion, abduction, and extension[cite: 1].",
-                "Complete target reps in both directions, then switch legs[cite: 1]."
+                "Lie chest-down on an incline bench set to 30-45 degrees, holding weights hanging down with an overhand grip[cite: 1].",
+                "Row weights upward by flaring elbows wide, pulling until upper arms are level with your back in a T-shape[cite: 1].",
+                "Pause and squeeze shoulder blades firmly for a second, then lower weights back to arm extension[cite: 1]."
             ],
             "nl": [
-                "Ga op handen en knieën zitten met je polsen onder je schouders en knieën onder je heupen[cite: 1].",
-                "Til één gebogen knie los van de grond[cite: 1].",
-                "Draai grote, soepele cirkels met je knie door je heup te buigen, zijwaarts te openen en naar achteren te strekken[cite: 1].",
-                "Draai beide kanten op en herhaal met het andere been[cite: 1]."
+                "Ga met je borst op een schuine bank van 30-45 graden liggen met gewichten recht naar beneden hangend[cite: 1].",
+                "Trek de gewichten omhoog met je ellebogen wijd naar buiten zodat je armen een T-vorm vormen met je romp[cite: 1].",
+                "Knijp je schouderbladen bovenin één seconde samen en laat de gewichten rustig zakken[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Keep your pelvis and spine level; do not tilt torso to cheat range of motion[cite: 1].",
-                "Maintain arms straight and shoulders pressed away from ears[cite: 1]."
+                "Lead the pull with your elbows and initiate with scapular retraction[cite: 2].",
+                "Avoid using excessive momentum or swinging your torso[cite: 2]."
             ],
             "nl": [
-                "Houd je bekken en rug horizontaal; kantel niet scheef om hoogte te forceren[cite: 1].",
-                "Houd je armen gestrekt en duw jezelf stevig weg van de vloer[cite: 1]."
+                "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen[cite: 2].",
+                "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd[cite: 2]."
             ]
         },
         "relations": {
@@ -1122,78 +618,77 @@
         },
         "media": {
             "images": [
-                "Hip_Circles_prone/0.jpg",
-                "Hip_Circles_prone/1.jpg"
+                "Incline_Bench_Pull/0.jpg",
+                "Incline_Bench_Pull/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Hip_Circles_prone",
-            "original_category": "stretching"
+            "original_id": "Incline_Bench_Pull",
+            "original_category": "strength"
         }
     },
     {
-        "id": "bands_hip_extension_with_bands",
+        "id": "cable_incline_cable_chest_press",
         "exercise_name": {
-            "en": "Hip Extension with Bands",
-            "nl": "Band Hip Extension"
+            "en": "Incline Cable Chest Press",
+            "nl": "Incline Cable Chest Press"
         },
         "aliases": [
-            "Hip Extension with Bands"
+            "Incline Cable Chest Press"
         ],
         "material": {
-            "id": "resistance_band",
+            "id": "cable",
             "name": {
-                "en": "Resistance Band",
-                "nl": "Weerstandsband"
+                "en": "Cable Machine & Bench",
+                "nl": "Kabelstation & Bank"
             },
             "description": {
-                "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-                "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+                "en": "Incline bench set between low cable pulleys for upward angled pressing",
+                "nl": "Schuine bank tussen lage kabelkatrollen voor schuin opwaartse borstdrukken"
             }
         },
         "category": {
-            "en": "Lower Body",
-            "nl": "Onderlichaam"
+            "en": "Upper Body",
+            "nl": "Bovenlichaam"
         },
         "target_muscles": {
             "primary": [
-                "glutes"
+                "chest"
             ],
             "secondary": [
-                "hamstrings"
+                "shoulders",
+                "triceps"
             ]
         },
         "attributes": {
             "difficulty": "beginner",
             "mechanics": "compound",
             "force_type": "push",
-            "tracking_type": "reps_only"
+            "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Anchor a band low to a post and attach the other end around your ankle, facing the attachment point[cite: 1].",
-                "Hold the post for balance with torso upright[cite: 1].",
-                "Keeping working leg straight, kick it directly backward against band resistance[cite: 1].",
-                "Squeeze the glute hard at peak extension, then return under control[cite: 1]."
+                "Lie on an incline bench placed between low pulleys holding handles at upper chest level, elbows bent at 90 degrees[cite: 1].",
+                "Press handles upward and inward along the incline path until arms extend overhead[cite: 1].",
+                "Pause at peak lockout, then slowly lower handles back down under continuous cable tension[cite: 1]."
             ],
             "nl": [
-                "Bevestig een weerstandsband laag aan een paal en doe het andere uiteinde om je enkel terwijl je naar de paal kijkt[cite: 1].",
-                "Houd de paal vast voor balans en sta rechtop[cite: 1].",
-                "Trap je been met gestrekte knie recht naar achteren tegen de weerstand van de band in[cite: 1].",
-                "Knijp je bilspier stevig samen bovenin en laat het been rustig terugkeren[cite: 1]."
+                "Ga op een schuine bank tussen twee lage katrollen liggen en houd de handvatten bij je bovenborst[cite: 1].",
+                "Druk de handvatten schuin omhoog en naar elkaar toe tot je armen gestrekt zijn[cite: 1].",
+                "Pauzeer bovenin en laat de handvatten gecontroleerd weer zakken naar borsthoogte[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Avoid arching the lumbar spine; isolate extension strictly in the glute[cite: 1].",
-                "Keep hips square to the post throughout[cite: 1]."
+                "Retract your shoulder blades and maintain a stable, braced upper back[cite: 2].",
+                "Control the eccentric lowering phase without flaring elbows excessively[cite: 2]."
             ],
             "nl": [
-                "Trek je onderrug niet hol; beweeg puur vanuit je heupgewricht en bilspier[cite: 1].",
-                "Houd je heupen recht naar voren gericht[cite: 1]."
+                "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug[cite: 2].",
+                "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen[cite: 2]."
             ]
         },
         "relations": {
@@ -1202,76 +697,76 @@
         },
         "media": {
             "images": [
-                "Hip_Extension_with_Bands/0.jpg",
-                "Hip_Extension_with_Bands/1.jpg"
+                "Incline_Cable_Chest_Press/0.jpg",
+                "Incline_Cable_Chest_Press/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Hip_Extension_with_Bands",
+            "original_id": "Incline_Cable_Chest_Press",
             "original_category": "strength"
         }
     },
     {
-        "id": "bands_hip_flexion_with_band",
+        "id": "cable_incline_cable_flye",
         "exercise_name": {
-            "en": "Hip Flexion with Band",
-            "nl": "Band Hip Flexion"
+            "en": "Incline Cable Flye",
+            "nl": "Incline Cable Flye"
         },
         "aliases": [
-            "Hip Flexion with Band"
+            "Incline Cable Flye"
         ],
         "material": {
-            "id": "resistance_band",
+            "id": "cable",
             "name": {
-                "en": "Resistance Band",
-                "nl": "Weerstandsband"
+                "en": "Cable Machine & Bench",
+                "nl": "Kabelstation & Bank"
             },
             "description": {
-                "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-                "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+                "en": "Incline bench set between low cable pulleys for upward arcing chest flyes",
+                "nl": "Schuine bank tussen lage katrollen voor schuine borstflyes"
             }
         },
         "category": {
-            "en": "Lower Body",
-            "nl": "Onderlichaam"
+            "en": "Upper Body",
+            "nl": "Bovenlichaam"
         },
         "target_muscles": {
             "primary": [
-                "quadriceps"
+                "chest"
             ],
             "secondary": [
-                "hip_flexors"
+                "shoulders"
             ]
         },
         "attributes": {
-            "difficulty": "beginner",
-            "mechanics": "compound",
-            "force_type": "pull",
-            "tracking_type": "reps_only"
+            "difficulty": "intermediate",
+            "mechanics": "isolation",
+            "force_type": "push",
+            "tracking_type": "reps_and_weight"
         },
         "instructions": {
             "en": [
-                "Anchor a band low to a post and attach to one ankle, facing away from the anchor point[cite: 1].",
-                "Stand tall and drive the resisted knee upward toward your chest to 90 degrees[cite: 1].",
-                "Pause at peak hip flexion, then lower foot back to the starting stance[cite: 1]."
+                "Position an incline bench between low cable pulleys, lying back holding handles out to sides with slight elbow bend[cite: 1].",
+                "Bring handles together in a wide arc upward over your upper chest as you exhale[cite: 1].",
+                "Squeeze the upper chest firmly at peak contraction, then slowly open arms back down into the stretch[cite: 1]."
             ],
             "nl": [
-                "Bevestig de band laag aan een paal en om je enkel terwijl je met je rug naar de paal staat[cite: 1].",
-                "Sta rechtop en hef je knie krachtig omhoog richting je borst tot een hoek van 90 graden[cite: 1].",
-                "Pauzeer kort bovenin en laat je voet rustig weer zakken naar de grond[cite: 1]."
+                "Plaats een schuine bank tussen twee lage katrollen en lig met de handvatten wijd opzij en licht gebogen ellebogen[cite: 1].",
+                "Breng de handvatten in een ruime boog omhoog tot ze boven je bovenborst samenkomen terwijl je uitademt[cite: 1].",
+                "Knijp je bovenborstspieren hard aan en laat je armen rustig weer naar buiten zakken[cite: 1]."
             ]
         },
         "form_cues": {
             "en": [
-                "Maintain upright torso posture without leaning backward as knee drives high[cite: 1].",
-                "Brace standing leg glute for stability[cite: 1]."
+                "Retract your shoulder blades and maintain a stable, braced upper back[cite: 2].",
+                "Keep the angle in your elbows fixed throughout the entire flye motion[cite: 1]."
             ],
             "nl": [
-                "Blijf rechtop staan en leun niet naar achteren wanneer je knie omhoog komt[cite: 1].",
-                "Span de bilspier van je standbeen aan voor optimale balans[cite: 1]."
+                "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug[cite: 2].",
+                "Houd de lichte buiging in je ellebogen continu gelijk en maak er geen druk-oefening van[cite: 1]."
             ]
         },
         "relations": {
@@ -1280,15 +775,15 @@
         },
         "media": {
             "images": [
-                "Hip_Flexion_with_Band/0.jpg",
-                "Hip_Flexion_with_Band/1.jpg"
+                "Incline_Cable_Flye/0.jpg",
+                "Incline_Cable_Flye/1.jpg"
             ],
             "videos": []
         },
         "meta": {
             "schema_version": "1.1.0",
             "updated_at": "2026-09-09",
-            "original_id": "Hip_Flexion_with_Band",
+            "original_id": "Incline_Cable_Flye",
             "original_category": "strength"
         }
     }
