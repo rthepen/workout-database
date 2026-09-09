@@ -402,7 +402,6 @@ export function App() {
               setActiveExerciseId(exerciseId);
               setViewMode('single');
             }}
-            onDeleteExercise={handleDeleteExercise}
             materialsList={materialsList}
           />
         ) : filteredAndSortedExercises.length === 0 ? (

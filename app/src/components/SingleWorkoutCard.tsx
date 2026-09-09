@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   CheckCircle2, 
   Edit3, 
@@ -15,7 +15,8 @@ import {
   Star, 
   Tv as YoutubeIcon,
   Image as ImageIcon,
-  Trash2
+  Trash2,
+  RotateCcw
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
@@ -54,6 +55,12 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
 }) => {
   const [isEditing, setIsEditing] = useState<boolean>(false);
   const [copiedTitle, setCopiedTitle] = useState<boolean>(false);
+  const [isMarkedForDeletion, setIsMarkedForDeletion] = useState<boolean>(false);
+
+  // Reset marked state when moving to another exercise
+  useEffect(() => {
+    setIsMarkedForDeletion(false);
+  }, [exercise.id]);
 
   const videoCount = exercise.media?.videos?.length || 0;
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
@@ -82,9 +89,15 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   };
 
   const handleApproveAndNext = () => {
-    // Verstuur wijzigingen direct naar de centrale Google Sheet
-    sendExerciseBackupToGoogleSheet(exercise);
-    onApprove(exercise);
+    if (isMarkedForDeletion) {
+      if (onDelete) {
+        onDelete(exercise.id);
+      }
+    } else {
+      // Verstuur wijzigingen direct naar de centrale Google Sheet
+      sendExerciseBackupToGoogleSheet(exercise);
+      onApprove(exercise);
+    }
   };
 
   return (
@@ -155,7 +168,30 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
         </div>
       ) : (
         /* Standalone 1-by-1 Workout Card */
-        <div className="bg-[#111827] border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col space-y-4">
+        <div className={`bg-[#111827] border rounded-2xl shadow-xl overflow-hidden flex flex-col space-y-4 ${
+          isMarkedForDeletion ? 'border-rose-600 bg-rose-950/20 ring-2 ring-rose-500/50' : 'border-slate-800'
+        }`}>
+          {/* Deletion Warning Banner */}
+          {isMarkedForDeletion && (
+            <div className="bg-rose-950/90 border-b border-rose-500/60 p-3.5 flex items-center justify-between gap-3 text-xs text-rose-200">
+              <div className="flex items-center gap-2">
+                <span className="p-1 rounded-lg bg-rose-500/20 text-rose-300">🗑️</span>
+                <div>
+                  <div className="font-bold">Oefening gemarkeerd voor verwijdering</div>
+                  <div className="text-[11px] text-rose-300/80">Klik op 'Verwijdering Indienen' om naar de Sheet te sturen, of 'Ongedaan maken' om te behouden.</div>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setIsMarkedForDeletion(false)}
+                className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-lg border border-slate-600 transition shadow-sm flex items-center gap-1 whitespace-nowrap"
+              >
+                <RotateCcw className="w-3.5 h-3.5 text-amber-400" />
+                <span>Ongedaan maken</span>
+              </button>
+            </div>
+          )}
+
           {/* Card Header */}
           <div className="p-4 sm:p-5 border-b border-slate-800/80 bg-gradient-to-r from-slate-900/90 to-[#111827]">
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
@@ -451,26 +487,50 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 <span>Edit</span>
               </button>
 
-              {onDelete && (
-                <button
-                  type="button"
-                  onClick={() => onDelete(exercise.id)}
-                  className="px-3.5 sm:px-4 py-2.5 sm:py-3 bg-rose-950/60 hover:bg-rose-900 text-rose-300 hover:text-white font-bold text-xs rounded-xl border border-rose-800/80 flex items-center justify-center gap-1.5 transition transform active:scale-95 whitespace-nowrap"
-                  title="Verwijder deze workout volledig uit de database"
-                >
-                  <Trash2 className="w-4 h-4 text-rose-400" />
-                  <span>Verwijder</span>
-                </button>
-              )}
+              <button
+                type="button"
+                onClick={() => setIsMarkedForDeletion(!isMarkedForDeletion)}
+                className={`px-3.5 sm:px-4 py-2.5 sm:py-3 font-bold text-xs rounded-xl border flex items-center justify-center gap-1.5 transition transform active:scale-95 whitespace-nowrap ${
+                  isMarkedForDeletion
+                    ? 'bg-amber-950/80 text-amber-300 border-amber-500 hover:bg-amber-900'
+                    : 'bg-rose-950/60 hover:bg-rose-900 text-rose-300 hover:text-white border-rose-800/80'
+                }`}
+                title={isMarkedForDeletion ? "Verwijdering ongedaan maken" : "Markeer deze workout voor verwijdering"}
+              >
+                {isMarkedForDeletion ? (
+                  <>
+                    <RotateCcw className="w-4 h-4 text-amber-400" />
+                    <span>Herstellen</span>
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className="w-4 h-4 text-rose-400" />
+                    <span>Verwijder</span>
+                  </>
+                )}
+              </button>
 
               {/* Primary Action Button: Approve & Submit to Google Sheet */}
               <button
                 onClick={handleApproveAndNext}
-                title="Goedkeuren en direct opslaan in Google Sheet"
-                className="flex-1 px-5 sm:px-8 py-2.5 sm:py-3.5 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30 ring-1 ring-emerald-400/40 whitespace-nowrap"
+                title={isMarkedForDeletion ? "Verwijdering doorvoeren naar Google Sheet" : "Goedkeuren en direct opslaan in Google Sheet"}
+                className={`flex-1 px-5 sm:px-8 py-2.5 sm:py-3.5 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 whitespace-nowrap ${
+                  isMarkedForDeletion
+                    ? 'bg-gradient-to-r from-rose-700 via-red-600 to-amber-600 hover:from-rose-600 hover:to-red-500 shadow-rose-600/30 ring-1 ring-rose-400/40'
+                    : 'bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-teal-500 shadow-emerald-600/30 ring-1 ring-emerald-400/40'
+                }`}
               >
-                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-200" />
-                <span>✔ Goedkeuren & Volgende →</span>
+                {isMarkedForDeletion ? (
+                  <>
+                    <Trash2 className="w-4 h-4 sm:w-5 sm:h-5 text-rose-200" />
+                    <span>🗑️ Verwijdering Indienen & Volgende →</span>
+                  </>
+                ) : (
+                  <>
+                    <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-200" />
+                    <span>✔ Goedkeuren & Volgende →</span>
+                  </>
+                )}
               </button>
             </div>
           </div>

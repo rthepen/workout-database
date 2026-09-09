@@ -38,7 +38,6 @@ interface RapidVideoAuditProps {
   exercises: Exercise[];
   onSaveBatch: (updatedExercises: Exercise[]) => Promise<void>;
   onSelectExerciseToView: (exerciseId: string) => void;
-  onDeleteExercise?: (exerciseId: string) => void;
   materialsList: { id: string; name: { en: string; nl: string } }[];
 }
 
@@ -102,7 +101,6 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   exercises,
   onSaveBatch,
   onSelectExerciseToView,
-  onDeleteExercise,
   materialsList,
 }) => {
   // Sorteren
@@ -135,10 +133,20 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   // Decisions map: exerciseId -> 'ok' | 'remove'
   const [decisions, setDecisions] = useState<Record<string, VideoStatusDecision>>({});
 
+  // Deletions map: exerciseId -> boolean (marked for database removal)
+  const [deletions, setDeletions] = useState<Record<string, boolean>>({});
+
   // Replacements map: exerciseId -> ReplacementData
   const [replacements, setReplacements] = useState<Record<string, ReplacementData>>({});
 
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+
+  const handleToggleDeletion = (exerciseId: string) => {
+    setDeletions(prev => ({
+      ...prev,
+      [exerciseId]: !prev[exerciseId]
+    }));
+  };
 
   // Valid replacements list & map
   const validReplacements = useMemo(() => {
@@ -463,8 +471,19 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         const isRemove = toRemoveIds.has(ex.id);
         const isOk = toOkIds.has(ex.id);
         const hasRatingChange = ratingChangeIds.has(ex.id);
+        const isMarkedDelete = !!deletions[ex.id];
 
-        if (hasRep || isRemove || isOk || hasRatingChange) {
+        if (isMarkedDelete) {
+          // Send exercise marked as deleted
+          updatedList.push({
+            ...ex,
+            _deleted: true,
+            meta: {
+              ...ex.meta,
+              updated_at: now,
+            },
+          } as any);
+        } else if (hasRep || isRemove || isOk || hasRatingChange) {
           const targetRating = ratings[ex.id] !== undefined ? ratings[ex.id] : ex.attributes?.rating;
           const updatedAttributes = targetRating !== undefined
             ? { ...ex.attributes, rating: targetRating }
@@ -533,6 +552,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       setDecisions({});
       setReplacements({});
       setRatings({});
+      setDeletions({});
       try {
         confetti({
           particleCount: 60,
@@ -603,7 +623,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               <span>Alles OK</span>
             </button>
 
-            {(Object.keys(decisions).length > 0 || validReplacements.length > 0) && (
+            {(Object.keys(decisions).length > 0 || validReplacements.length > 0 || Object.values(deletions).some(Boolean)) && (
               <button
                 onClick={handleResetDecisions}
                 title="Reset alle audit- en vervangkeuzes"
@@ -886,6 +906,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
             const isRemove = decision === 'remove' && !hasValidReplacement;
             const isOk = decision === 'ok' && !hasValidReplacement;
+            const isMarkedForDeletion = !!deletions[ex.id];
 
             const videos = ex.media?.videos || [];
             const hasExistingVideo = videos.length > 0;
@@ -907,7 +928,9 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               <div
                 key={ex.id}
                 className={`bg-[#101626] border rounded-2xl p-3.5 sm:p-4 transition shadow-md ${
-                  hasValidReplacement
+                  isMarkedForDeletion
+                    ? 'border-rose-600 bg-rose-950/20 ring-2 ring-rose-500/50'
+                    : hasValidReplacement
                     ? 'border-cyan-500/70 bg-cyan-950/20 ring-1 ring-cyan-500/40'
                     : isRemove
                     ? 'border-rose-500/70 bg-rose-950/20 ring-1 ring-rose-500/40'
@@ -916,6 +939,23 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     : 'border-slate-800/80 hover:border-slate-700'
                 }`}
               >
+                {/* Deletion Warning Banner */}
+                {isMarkedForDeletion && (
+                  <div className="mb-3 bg-rose-950/90 border border-rose-500/60 rounded-xl p-2.5 flex items-center justify-between gap-3 text-xs text-rose-200 shadow-md">
+                    <div className="flex items-center gap-2">
+                      <span className="p-1 rounded-lg bg-rose-500/20 text-rose-300">🗑️</span>
+                      <span className="font-bold">Oefening gemarkeerd voor verwijdering uit database</span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => handleToggleDeletion(ex.id)}
+                      className="px-3 py-1 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-lg border border-slate-600 transition shadow-sm flex items-center gap-1"
+                    >
+                      <RotateCcw className="w-3 h-3 text-amber-400" />
+                      <span>Ongedaan maken</span>
+                    </button>
+                  </div>
+                )}
                 {/* Card Top Header: Title, Equipment, Category & 5-Star Rating */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2.5 pb-2.5 border-b border-slate-800/80">
                   <div className="flex flex-wrap items-center gap-2">
@@ -1162,17 +1202,28 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           <span>Details</span>
                         </button>
 
-                        {onDeleteExercise && (
-                          <button
-                            type="button"
-                            onClick={() => onDeleteExercise(ex.id)}
-                            className="px-2.5 py-1.5 bg-rose-950/40 hover:bg-rose-900 text-rose-300 hover:text-white rounded-xl border border-rose-800/60 flex items-center justify-center gap-1.5 font-medium text-xs transition min-h-[30px]"
-                            title="Verwijder deze workout volledig uit de database"
-                          >
-                            <Trash2 className="w-3 h-3 text-rose-400" />
-                            <span>Verwijder</span>
-                          </button>
-                        )}
+                        <button
+                          type="button"
+                          onClick={() => handleToggleDeletion(ex.id)}
+                          className={`px-2.5 py-1.5 rounded-xl border flex items-center justify-center gap-1.5 font-medium text-xs transition min-h-[30px] ${
+                            isMarkedForDeletion
+                              ? 'bg-amber-950/80 text-amber-300 border-amber-500 hover:bg-amber-900 font-bold'
+                              : 'bg-rose-950/40 hover:bg-rose-900 text-rose-300 hover:text-white border-rose-800/60'
+                          }`}
+                          title={isMarkedForDeletion ? "Verwijdering ongedaan maken" : "Markeer om deze workout te verwijderen uit de database"}
+                        >
+                          {isMarkedForDeletion ? (
+                            <>
+                              <RotateCcw className="w-3 h-3 text-amber-400" />
+                              <span>Herstellen</span>
+                            </>
+                          ) : (
+                            <>
+                              <Trash2 className="w-3 h-3 text-rose-400" />
+                              <span>Verwijder</span>
+                            </>
+                          )}
+                        </button>
                       </div>
                     </div>
 
@@ -1407,14 +1458,24 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 </span>
               </div>
             )}
+            {Object.values(deletions).filter(Boolean).length > 0 && (
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-rose-600 ring-2 ring-rose-400/50" />
+                <span className="text-rose-300">
+                  <strong className="text-rose-100 font-bold">{Object.values(deletions).filter(Boolean).length}</strong> workout(s) te verwijderen
+                </span>
+              </div>
+            )}
           </div>
 
           <div className="flex items-center gap-2 self-stretch sm:self-auto">
             <button
               onClick={handleSubmitAll}
-              disabled={isSubmitting || (removeList.length === 0 && okCount === 0 && validReplacements.length === 0 && ratedCount === 0)}
+              disabled={isSubmitting || (removeList.length === 0 && okCount === 0 && validReplacements.length === 0 && ratedCount === 0 && Object.values(deletions).filter(Boolean).length === 0)}
               className={`flex-1 sm:flex-initial px-6 py-2.5 sm:py-3 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-40 whitespace-nowrap min-h-[44px] ${
-                validReplacements.length > 0
+                Object.values(deletions).filter(Boolean).length > 0
+                  ? 'bg-gradient-to-r from-rose-700 via-red-600 to-amber-600 hover:from-rose-600 hover:to-red-500 shadow-rose-600/40 ring-1 ring-rose-400/40'
+                  : validReplacements.length > 0
                   ? 'bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 hover:from-cyan-500 hover:to-blue-500 shadow-cyan-600/30'
                   : removeList.length > 0
                   ? 'bg-gradient-to-r from-rose-600 via-pink-600 to-amber-600 hover:from-rose-500 hover:to-pink-500 shadow-rose-600/30'
@@ -1430,7 +1491,9 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 <>
                   <Send className="w-4 h-4" />
                   <span>
-                    {validReplacements.length > 0 && removeList.length > 0
+                    {Object.values(deletions).filter(Boolean).length > 0
+                      ? `Verstuur naar Sheet (${Object.values(deletions).filter(Boolean).length} Verwijderen${validReplacements.length > 0 ? `, ${validReplacements.length} Vervangen` : ''})`
+                      : validReplacements.length > 0 && removeList.length > 0
                       ? `Vervang ${validReplacements.length} & Verwijder ${removeList.length} -> Naar Sheet`
                       : validReplacements.length > 0
                       ? `Vervang ${validReplacements.length} Video('s) & Stuur naar Sheet`
