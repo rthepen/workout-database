@@ -158,5 +158,87 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "foam_roller_calves_smr",
+    "exercise_name": {
+      "en": "Calves Foam Roll",
+      "nl": "Kuiten Foam Roll"
+    },
+    "aliases": [
+      "Calves-SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with a foam roller placed under your lower leg.",
+        "Cross opposite leg over for extra pressure or keep it grounded for support.",
+        "Press down with your hands to lift hips and roll between your ankle and knee.",
+        "Pause on tight trigger points for 10-30 seconds, then switch legs."
+      ],
+      "nl": [
+        "Ga op de grond zitten met de foamroller onder je kuit.",
+        "Kruis je andere been eroverheen voor extra druk of zet je voet op de grond voor steun.",
+        "Duw jezelf op met je handen en rol langzaam tussen je enkel en knieholte.",
+        "Houd gevoelige plekken 10-30 seconden vast en wissel daarna van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Breathe steadily and avoid rolling directly behind the knee joint.",
+        "Rotate foot inward and outward to target both medial and lateral calf heads."
+      ],
+      "nl": [
+        "Blijf rustig ademen en rol niet direct in de knieholte.",
+        "Draai je voet iets naar binnen en buiten om de hele kuitspier mee te pakken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calves-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calves-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

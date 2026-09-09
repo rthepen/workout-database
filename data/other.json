@@ -89,5 +89,346 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "strongman_car_deadlift",
+    "exercise_name": {
+      "en": "Car Deadlift",
+      "nl": "Car Deadlift"
+    },
+    "aliases": [
+      "Car Deadlift",
+      "Car_Deadlift"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Car Deadlift Apparatus",
+        "nl": "Car Deadlift Frame"
+      },
+      "description": {
+        "en": "Levered deadlift frame designed for car and implement loading",
+        "nl": "Hefboom deadlift-frame voor autotillen en zware strongman-onderdelen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "erector_spinae",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Step between the handles of the frame with feet hip-width apart and grip neutral handles firmly.",
+        "Drop hips, chest tall, back arched, and take a deep breath.",
+        "Drive forcefully through your heels to extend knees and hips upward.",
+        "Lock out hips at the top with shoulders back, then guide the implement to the floor."
+      ],
+      "nl": [
+        "Ga tussen de handgrepen van het frame staan op heupbreedte en pak de grepen stevig vast.",
+        "Zak door je heupen, houd je borst fier vooruit en rug recht.",
+        "Duw de vloer explosief weg vanuit je hielen en strek je benen en heupen uit.",
+        "Strek volledig uit bovenin en laat het frame beheerst weer zakken naar de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain back tightness and drive hips forward into the lockout."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Houd spanning op je bovenrug en duw je heupen naar voren bij de lockout."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Deadlift/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Deadlift/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chains_chain_handle_extension",
+    "exercise_name": {
+      "en": "Chain Handle Extension",
+      "nl": "Chain Handle Extension"
+    },
+    "aliases": [
+      "Chain Handle Extension",
+      "Chain_Handle_Extension"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Chains & Handles",
+        "nl": "Kettingen & Handvatten"
+      },
+      "description": {
+        "en": "Heavy progressive lifting chains clipped to cable stirrup handles",
+        "nl": "Zware trainingskettingen met handvatten voor progressieve weerstand"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Clip handles to heavy chains and lie back onto a flat bench.",
+        "Position elbows pointing straight up with wrists pronated.",
+        "Extend through elbows to lift chain links off the floor to full triceps lockout.",
+        "Lower under control, pooling chains back onto the floor before the next rep."
+      ],
+      "nl": [
+        "Koppel handvatten aan zware kettingen en ga op een vlakke bank liggen.",
+        "Wijs met je ellebogen recht omhoog naar het plafond.",
+        "Strek je armen krachtig uit om de kettingen van de grond te tillen tot je triceps op slot staan.",
+        "Laat de kettingen gecontroleerd weer op de vloer zakken en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep upper arms stationary pointing perpendicular to the floor.",
+        "Squeeze triceps hard as accommodating chain load peaks at lockout."
+      ],
+      "nl": [
+        "Houd je bovenarmen stil en verticaal gericht.",
+        "Knijp je triceps bovenin hard samen wanneer het gewicht maximaal is."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Handle_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Handle_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chains_chain_press",
+    "exercise_name": {
+      "en": "Chain Press (Dumbbell Style)",
+      "nl": "Chain Press"
+    },
+    "aliases": [
+      "Chain Press",
+      "Chain_Press"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Chains & Handles",
+        "nl": "Kettingen & Handvatten"
+      },
+      "description": {
+        "en": "Heavy progressive lifting chains clipped to cable stirrup handles",
+        "nl": "Zware trainingskettingen met handvatten voor progressieve weerstand"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Connect chains to cable stirrup handles and lie back on a flat bench.",
+        "Hold handles at chest height with elbows bent at 90 degrees.",
+        "Press upward forcefully to lockout, lifting more chain off the floor as you extend.",
+        "Lower under control until elbows reach bench level."
+      ],
+      "nl": [
+        "Koppel kettingen aan handvatten en ga op een vlakke bank liggen.",
+        "Houd de handvatten op borsthoogte met je ellebogen in een hoek van 90 graden.",
+        "Druk de kettingen explosief omhoog waarbij de weerstand toeneemt naarmate er meer schakels loskomen.",
+        "Laat de handvatten weer rustig zakken tot borsthoogte."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Maintain controlled pressing path against variable swinging resistance."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Houd de kettingen stabiel en voorkom dat ze gaan schommelen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodybar_chest_front_shoulder_stretch",
+    "exercise_name": {
+      "en": "Chest And Front Of Shoulder Stretch (Stick Dislocate)",
+      "nl": "Schouder en Borst Mobiliteit met Stok"
+    },
+    "aliases": [
+      "Chest And Front Of Shoulder Stretch",
+      "Chest_And_Front_Of_Shoulder_Stretch"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Stick / PVC Pipe",
+        "nl": "Stok / PVC Pijp"
+      },
+      "description": {
+        "en": "Light broomstick or PVC pipe for overhead shoulder mobility passes",
+        "nl": "Lichte stok of pvc-buis voor schoudermobiliteit"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding a broomstick or PVC pipe with a wide overhand grip in front of your hips.",
+        "With straight arms, slowly raise the stick up and arc it completely behind your back.",
+        "Hold the deepest stretch briefly, then slowly reverse the arc back to the front."
+      ],
+      "nl": [
+        "Sta rechtop en houd een stok of pvc-pijp met een brede bovenhandse greep voor je heupen.",
+        "Beweeg de stok met gestrekte armen in een ruime boog over je hoofd naar achteren.",
+        "Houd de stretch even vast op het punt van meeste rek en draai rustig weer terug naar voren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Widen your grip as needed to keep both elbows fully extended throughout.",
+        "Avoid flaring your ribs or arching your lower back as the stick passes overhead."
+      ],
+      "nl": [
+        "Pak de stok zo breed vast dat je beide ellebogen gestrekt kunt houden.",
+        "Trek je buikspieren aan en voorkom dat je onderrug hol trekt bij het passeren van je hoofd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_And_Front_Of_Shoulder_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_And_Front_Of_Shoulder_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

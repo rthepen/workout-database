@@ -1,9 +1,9 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:50:04.061255+00:00",
-  "total_exercises": 711,
-  "total_equipment_types": 30,
+  "last_updated_utc": "2026-09-09T14:51:39.253748+00:00",
+  "total_exercises": 727,
+  "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
       "name": {
@@ -27,12 +27,12 @@
     },
     "barbell": {
       "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
+        "en": "Weight Plate",
+        "nl": "Halterschijf"
       },
       "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+        "en": "Olympic weight plate held in hands for shoulder conditioning",
+        "nl": "Halterschijf voor schouder- en armisolatie"
       }
     },
     "battle_rope": {
@@ -47,12 +47,12 @@
     },
     "bodyweight": {
       "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
       },
       "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
       }
     },
     "bosu_ball": {
@@ -125,6 +125,16 @@
         "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
       }
     },
+    "exercise_ball": {
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
     "ez_bar": {
       "name": {
         "en": "EZ Bar / Rollers",
@@ -167,12 +177,12 @@
     },
     "machine": {
       "name": {
-        "en": "Machine",
-        "nl": "Fitnessapparaat"
+        "en": "Smith Machine",
+        "nl": "Smith Machine"
       },
       "description": {
-        "en": "Selectorized weight stack machines for guided and isolated movement paths",
-        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
+        "en": "Guided barbell track machine with safety lockouts",
+        "nl": "Geleide halterstang met vaste baan en veiligheidshaken"
       }
     },
     "medicine_ball": {
@@ -197,12 +207,12 @@
     },
     "other": {
       "name": {
-        "en": "Strongman Equipment / Stone",
-        "nl": "Strongman Materiaal / Steen"
+        "en": "Stick / PVC Pipe",
+        "nl": "Stok / PVC Pijp"
       },
       "description": {
-        "en": "Heavy round stones and strongman loading implements",
-        "nl": "Zware ronde stenen en strongman-apparatuur"
+        "en": "Light broomstick or PVC pipe for overhead shoulder mobility passes",
+        "nl": "Lichte stok of pvc-buis voor schoudermobiliteit"
       }
     },
     "parallettes": {

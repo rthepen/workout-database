@@ -35021,6 +35021,89 @@
     }
   },
   {
+    "id": "weight_plate_car_drivers",
+    "exercise_name": {
+      "en": "Car Drivers (Plate Steering)",
+      "nl": "Plate Drivers (Stuurwiel)"
+    },
+    "aliases": [
+      "Car Drivers",
+      "Car_Drivers"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Weight Plate",
+        "nl": "Halterschijf"
+      },
+      "description": {
+        "en": "Olympic weight plate held in hands for shoulder conditioning",
+        "nl": "Halterschijf voor schouder- en armisolatie"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand upright holding a weight plate at 9 and 3 o'clock positions with arms extended straight in front at shoulder height.",
+        "Rotate the plate smoothly to one side as if turning a steering wheel to full lock.",
+        "Reverse and rotate the plate all the way to the opposite side in continuous motion."
+      ],
+      "nl": [
+        "Sta rechtop en houd een gewichtsschijf op 9 en 3 uur vast met gestrekte armen op schouderhoogte.",
+        "Draai de schijf rustig en krachtig naar één kant alsof je aan een stuurwiel draait.",
+        "Draai direct door naar de andere kant in een continu, gecontroleerd tempo."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep arms straight and elevated at shoulder level throughout the set.",
+        "Avoid leaning or swaying the torso while turning the plate."
+      ],
+      "nl": [
+        "Houd je armen horizontaal op schouderhoogte en laat ze niet zakken.",
+        "Blijf kaarsrecht staan en zwaai niet mee met je bovenlichaam."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Drivers/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Drivers/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
     "id": "battle_rope_waves",
     "exercise_name": {
       "en": "Battling Ropes",
@@ -36097,6 +36180,512 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt-Ups/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_calf_stretch_elbows_wall",
+    "exercise_name": {
+      "en": "Calf Stretch Elbows Against Wall",
+      "nl": "Kuitstretch met Ellebogen tegen de Muur"
+    },
+    "aliases": [
+      "Calf Stretch Elbows Against Wall",
+      "Calf_Stretch_Elbows_Against_Wall"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand facing a wall a couple feet away and lean forward, resting your weight on your forearms against the wall.",
+        "Keep your legs straight and drive both heels firmly down into the floor.",
+        "Hold the calf stretch for 10-20 seconds while breathing smoothly."
+      ],
+      "nl": [
+        "Ga op een halve meter van een muur staan en leun naar voren met je onderarmen tegen de muur.",
+        "Houd je benen gestrekt en duw je hielen stevig in de vloer.",
+        "Houd de rek op je kuiten 10-20 seconden vast terwijl je rustig doorademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a straight alignment through spine, hips, and heels.",
+        "Avoid lifting heels off the floor during the stretch."
+      ],
+      "nl": [
+        "Houd je rug, heupen en benen in één rechte lijn.",
+        "Laat je hielen niet loskomen van de vloer tijdens het rekken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Elbows_Against_Wall/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Elbows_Against_Wall/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_carioca_quick_step",
+    "exercise_name": {
+      "en": "Carioca Quick Step",
+      "nl": "Carioca Quick Step"
+    },
+    "aliases": [
+      "Carioca Quick Step",
+      "Grapevine",
+      "Carioca_Quick_Step"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Footwork & Agility",
+      "nl": "Voetenwerk"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "calves",
+        "glutes",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Stand in an athletic stance moving laterally.",
+        "Step trailing leg behind the lead leg, then step lead foot out laterally.",
+        "Cross trailing leg over the front with a high knee drive, pumping arms across the torso.",
+        "Continue moving sideways quickly, then reverse direction."
+      ],
+      "nl": [
+        "Neem een sportieve basishouding aan en beweeg zijwaarts.",
+        "Kruis je achterste been achter je voorste been langs, stap opzij en kruis vervolgens voorlangs met een hoge kniehef.",
+        "Beweeg je armen en heupen soepel mee in het ritme en herhaal de andere kant op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders facing forward while hips rotate dynamically.",
+        "Stay light on the balls of the feet with quick ground contact times."
+      ],
+      "nl": [
+        "Houd je schouders recht vooruit terwijl je heupen soepel meedraaien.",
+        "Blijf verend op de bal van je voet lopen met korte grondcontacten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Carioca_Quick_Step/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Carioca_Quick_Step/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_cat_stretch",
+    "exercise_name": {
+      "en": "Cat Stretch (Cat-Cow)",
+      "nl": "Cat Stretch"
+    },
+    "aliases": [
+      "Cat Stretch",
+      "Cat_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "rhomboids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Position yourself on the floor on all fours with hands under shoulders and knees under hips.",
+        "Draw your belly button in, rounding your entire spine, lower back, and neck upward like a cat.",
+        "Drop head gently toward the floor and hold the stretch for 15-20 seconds."
+      ],
+      "nl": [
+        "Ga op handen en knieën zitten met je polsen onder je schouders en knieën onder je heupen.",
+        "Trek je navel in en maak je rug en nek zo bol mogelijk als een kat.",
+        "Laat je hoofd ontspannen hangen en houd deze bolle houding 15-20 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Push floor away firmly through hands to open the upper back.",
+        "Breathe deeply into the posterior ribcage during the stretch."
+      ],
+      "nl": [
+        "Duw jezelf weg van de vloer om de ruimte tussen je schouderbladen te openen.",
+        "Adem diep in en uit richting je rug tijdens de stretch."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cat_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cat_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chair_chair_leg_extended_stretch",
+    "exercise_name": {
+      "en": "Chair Leg Extended Stretch",
+      "nl": "Zittende Stoel Hamstringstretch"
+    },
+    "aliases": [
+      "Chair Leg Extended Stretch",
+      "Chair_Leg_Extended_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
+      },
+      "description": {
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "adductors"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit upright in a chair gripping the sides of the seat.",
+        "Extend one leg out straight in front with foot flexed.",
+        "Slowly abduct the extended leg outward as far as comfortable, hold, then return to center and down.",
+        "Repeat on the opposite leg."
+      ],
+      "nl": [
+        "Ga rechtop op een stoel zitten en houd de zitting vast.",
+        "Strek één been recht vooruit met je tenen naar je toe getrokken.",
+        "Beweeg het been rustig zijwaarts naar buiten zover als comfortabel voelt, houd even vast en breng terug.",
+        "Wissel daarna af met het andere been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upright spinal alignment without slouching into the chair.",
+        "Move in a slow, controlled arc."
+      ],
+      "nl": [
+        "Blijf fier rechtop zitten en zak niet onderuit in de stoel.",
+        "Beweeg het been in een rustige, gecontroleerde boog."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Leg_Extended_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Leg_Extended_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chair_chair_lower_back_stretch",
+    "exercise_name": {
+      "en": "Chair Lower Back Stretch",
+      "nl": "Zittende Stoel Rugstretch"
+    },
+    "aliases": [
+      "Chair Lower Back Stretch",
+      "Chair_Lower_Back_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
+      },
+      "description": {
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit tall in a sturdy chair holding the side of the seat with one hand.",
+        "Reach the opposite arm overhead and bend laterally to the side.",
+        "Hold the lateral back stretch for 10-15 seconds, then switch sides."
+      ],
+      "nl": [
+        "Zit rechtop op een stevige stoel en houd met één hand de zitting vast.",
+        "Reik met je andere arm over je hoofd heen en buig zijwaarts opzij.",
+        "Houd de rek in je flank en rug 10-15 seconden vast en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep both sit bones firmly rooted onto the chair.",
+        "Do not collapse forward; bend purely in the lateral plane."
+      ],
+      "nl": [
+        "Houd beide zitbotjes stevig op de stoelzitting.",
+        "Buig puur zijwaarts en laat je bovenlichaam niet naar voren vallen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Lower_Back_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Lower_Back_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chair_chair_upper_body_stretch",
+    "exercise_name": {
+      "en": "Chair Upper Body Stretch",
+      "nl": "Zittende Stoel Schouder- en Borststretch"
+    },
+    "aliases": [
+      "Chair Upper Body Stretch",
+      "Chair_Upper_Body_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
+      },
+      "description": {
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the front edge of a chair, gripping the backrest firmly behind you.",
+        "Straighten your arms and pull your chest and torso forward to open shoulders and chest.",
+        "Hold the stretch for 20-30 seconds while taking slow, deep breaths."
+      ],
+      "nl": [
+        "Ga op het voorste randje van een stoel zitten en pak de leuning achter je stevig vast.",
+        "Strek je armen en duw je borst naar voren om de voorkant van je schouders en borst te rekken.",
+        "Houd deze houding 20-30 seconden ontspannen vast terwijl je rustig doorademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders rolled back and down away from the ears.",
+        "Do not overarch the neck; keep cervical spine neutral."
+      ],
+      "nl": [
+        "Houd je schouders laag en naar achteren getrokken.",
+        "Gooi je hoofd niet overdreven naar achteren maar houd je nek neutraal."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Upper_Body_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Upper_Body_Stretch/1.jpg",
           "type": "photo"
         }
       ],
@@ -38282,6 +38871,87 @@
     }
   },
   {
+    "id": "stability_ball_chest_stretch_ball",
+    "exercise_name": {
+      "en": "Chest Stretch on Stability Ball",
+      "nl": "Borststretch op Stabiliteitsbal"
+    },
+    "aliases": [
+      "Chest Stretch on Stability Ball",
+      "Chest_Stretch_on_Stability_Ball"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Kneel next to a stability ball and place one bent forearm/elbow on top of the dome.",
+        "Lower your chest and torso toward the floor while maintaining contact with the ball.",
+        "Hold the stretch across the pectorals for 20-30 seconds, then repeat on the opposite side."
+      ],
+      "nl": [
+        "Kniel naast een fitnessbal en leg één gebogen onderarm/elleboog bovenop de bal.",
+        "Laat je borstkas rustig richting de vloer zakken terwijl je arm op de bal blijft rusten.",
+        "Houd de rek op je borstspier 20-30 seconden vast en wissel daarna van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Ease gently into the stretch without bouncing on the ball.",
+        "Keep shoulders relaxed away from your ears."
+      ],
+      "nl": [
+        "Zak geleidelijk in de rek zonder te veren op de bal.",
+        "Houd je schouder ontspannen en laag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_Stretch_on_Stability_Ball/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_Stretch_on_Stability_Ball/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
     "id": "ez_bar_bodyweight_flyes",
     "exercise_name": {
       "en": "Bodyweight Flyes",
@@ -38516,6 +39186,88 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Brachialis-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "foam_roller_calves_smr",
+    "exercise_name": {
+      "en": "Calves Foam Roll",
+      "nl": "Kuiten Foam Roll"
+    },
+    "aliases": [
+      "Calves-SMR"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with a foam roller placed under your lower leg.",
+        "Cross opposite leg over for extra pressure or keep it grounded for support.",
+        "Press down with your hands to lift hips and roll between your ankle and knee.",
+        "Pause on tight trigger points for 10-30 seconds, then switch legs."
+      ],
+      "nl": [
+        "Ga op de grond zitten met de foamroller onder je kuit.",
+        "Kruis je andere been eroverheen voor extra druk of zet je voet op de grond voor steun.",
+        "Duw jezelf op met je handen en rol langzaam tussen je enkel en knieholte.",
+        "Houd gevoelige plekken 10-30 seconden vast en wissel daarna van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Breathe steadily and avoid rolling directly behind the knee joint.",
+        "Rotate foot inward and outward to target both medial and lateral calf heads."
+      ],
+      "nl": [
+        "Blijf rustig ademen en rol niet direct in de knieholte.",
+        "Draai je voet iets naar binnen en buiten om de hele kuitspier mee te pakken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calves-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calves-SMR/1.jpg",
           "type": "photo"
         }
       ],
@@ -39632,6 +40384,261 @@
     }
   },
   {
+    "id": "machine_chair_squat_smith",
+    "exercise_name": {
+      "en": "Chair Squat (Smith Machine)",
+      "nl": "Chair Squat op Smith Machine"
+    },
+    "aliases": [
+      "Chair Squat",
+      "Chair_Squat"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Smith Machine",
+        "nl": "Smith Machine"
+      },
+      "description": {
+        "en": "Guided barbell track machine with safety lockouts",
+        "nl": "Geleide halterstang met vaste baan en veiligheidshaken"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rack the Smith bar across upper traps and step feet 18 inches forward of the bar line.",
+        "Squat down by leaning back against the bar as if sitting into a chair until thighs break parallel.",
+        "Drive through your heels to return to standing lockout."
+      ],
+      "nl": [
+        "Plaats de stang van de Smith machine op je bovenrug en zet je voeten zo'n 40 cm voor de stanglijn.",
+        "Zak naar beneden door tegen de stang te leunen alsof je op een stoel gaat zitten tot minimaal 90 graden.",
+        "Duw de vloer krachtig weg vanuit je hielen om weer rechtop te komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain upright torso relying on bar support without excessive spinal flexion."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Blijf met je rug tegen de stang leunen en houd je romp rechtop."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Squat/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Squat/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "medicine_ball_catch_overhead_throw",
+    "exercise_name": {
+      "en": "Catch and Overhead Throw",
+      "nl": "Catch and Overhead Throw"
+    },
+    "aliases": [
+      "Catch and Overhead Throw",
+      "Catch_and_Overhead_Throw"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "pectorals",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand facing a wall or partner holding a medicine ball in both hands.",
+        "Bring the ball behind your head to fully stretch the lats and torso.",
+        "Forcefully throw the ball forward overhead, catch the rebound, and immediately reset."
+      ],
+      "nl": [
+        "Sta voor een stevige muur of partner met de medicijnbal in beide handen.",
+        "Breng de bal achter je hoofd om je bovenlichaam en lats op spanning te brengen.",
+        "Gooi de bal met een krachtige bovenhandse inworp naar de muur, vang de stuit op en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Follow through with the throw and brace core to absorb the catch.",
+        "Use full body extension rather than isolating only the arms."
+      ],
+      "nl": [
+        "Zwaai door met je bovenlichaam en span je buikspieren aan bij het vangen.",
+        "Zet kracht vanuit je hele lichaam en niet puur uit je armen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Catch_and_Overhead_Throw/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Catch_and_Overhead_Throw/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "medicine_ball_chest_push_3_point_stance",
+    "exercise_name": {
+      "en": "Chest Push from 3 point stance",
+      "nl": "Chest Push uit 3-Punts Stance"
+    },
+    "aliases": [
+      "Chest Push from 3 point stance",
+      "Chest_Push_from_3_point_stance"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Start in a three-point stance with one hand on the floor and a medicine ball in front.",
+        "Step forward, gathering the ball to your chest with both hands.",
+        "As your second foot plants, explosively thrust the ball straight forward with maximum velocity."
+      ],
+      "nl": [
+        "Begin in een driepuntshouding met één hand op de grond en de bal voor je.",
+        "Zet een stap naar voren en breng de bal met twee handen naar je borst.",
+        "Stoot de medicijnbal bij de tweede stap explosief met beide handen recht naar voren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Drive through your lower body to transfer ground force into the throw.",
+        "Follow through completely with arms and torso."
+      ],
+      "nl": [
+        "Zet krachtig af vanuit je benen om de heupkracht mee te geven aan de worp.",
+        "Strek je armen en bovenlichaam volledig uit bij het loslaten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_Push_from_3_point_stance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_Push_from_3_point_stance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
     "id": "monkey_bars_chin_up",
     "exercise_name": {
       "en": "Chin-Up",
@@ -39964,6 +40971,347 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Atlas_Stones/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "strongman_car_deadlift",
+    "exercise_name": {
+      "en": "Car Deadlift",
+      "nl": "Car Deadlift"
+    },
+    "aliases": [
+      "Car Deadlift",
+      "Car_Deadlift"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Car Deadlift Apparatus",
+        "nl": "Car Deadlift Frame"
+      },
+      "description": {
+        "en": "Levered deadlift frame designed for car and implement loading",
+        "nl": "Hefboom deadlift-frame voor autotillen en zware strongman-onderdelen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "erector_spinae",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Step between the handles of the frame with feet hip-width apart and grip neutral handles firmly.",
+        "Drop hips, chest tall, back arched, and take a deep breath.",
+        "Drive forcefully through your heels to extend knees and hips upward.",
+        "Lock out hips at the top with shoulders back, then guide the implement to the floor."
+      ],
+      "nl": [
+        "Ga tussen de handgrepen van het frame staan op heupbreedte en pak de grepen stevig vast.",
+        "Zak door je heupen, houd je borst fier vooruit en rug recht.",
+        "Duw de vloer explosief weg vanuit je hielen en strek je benen en heupen uit.",
+        "Strek volledig uit bovenin en laat het frame beheerst weer zakken naar de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain back tightness and drive hips forward into the lockout."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Houd spanning op je bovenrug en duw je heupen naar voren bij de lockout."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Deadlift/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Deadlift/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chains_chain_handle_extension",
+    "exercise_name": {
+      "en": "Chain Handle Extension",
+      "nl": "Chain Handle Extension"
+    },
+    "aliases": [
+      "Chain Handle Extension",
+      "Chain_Handle_Extension"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Chains & Handles",
+        "nl": "Kettingen & Handvatten"
+      },
+      "description": {
+        "en": "Heavy progressive lifting chains clipped to cable stirrup handles",
+        "nl": "Zware trainingskettingen met handvatten voor progressieve weerstand"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Clip handles to heavy chains and lie back onto a flat bench.",
+        "Position elbows pointing straight up with wrists pronated.",
+        "Extend through elbows to lift chain links off the floor to full triceps lockout.",
+        "Lower under control, pooling chains back onto the floor before the next rep."
+      ],
+      "nl": [
+        "Koppel handvatten aan zware kettingen en ga op een vlakke bank liggen.",
+        "Wijs met je ellebogen recht omhoog naar het plafond.",
+        "Strek je armen krachtig uit om de kettingen van de grond te tillen tot je triceps op slot staan.",
+        "Laat de kettingen gecontroleerd weer op de vloer zakken en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep upper arms stationary pointing perpendicular to the floor.",
+        "Squeeze triceps hard as accommodating chain load peaks at lockout."
+      ],
+      "nl": [
+        "Houd je bovenarmen stil en verticaal gericht.",
+        "Knijp je triceps bovenin hard samen wanneer het gewicht maximaal is."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Handle_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Handle_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chains_chain_press",
+    "exercise_name": {
+      "en": "Chain Press (Dumbbell Style)",
+      "nl": "Chain Press"
+    },
+    "aliases": [
+      "Chain Press",
+      "Chain_Press"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Chains & Handles",
+        "nl": "Kettingen & Handvatten"
+      },
+      "description": {
+        "en": "Heavy progressive lifting chains clipped to cable stirrup handles",
+        "nl": "Zware trainingskettingen met handvatten voor progressieve weerstand"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Connect chains to cable stirrup handles and lie back on a flat bench.",
+        "Hold handles at chest height with elbows bent at 90 degrees.",
+        "Press upward forcefully to lockout, lifting more chain off the floor as you extend.",
+        "Lower under control until elbows reach bench level."
+      ],
+      "nl": [
+        "Koppel kettingen aan handvatten en ga op een vlakke bank liggen.",
+        "Houd de handvatten op borsthoogte met je ellebogen in een hoek van 90 graden.",
+        "Druk de kettingen explosief omhoog waarbij de weerstand toeneemt naarmate er meer schakels loskomen.",
+        "Laat de handvatten weer rustig zakken tot borsthoogte."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Maintain controlled pressing path against variable swinging resistance."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Houd de kettingen stabiel en voorkom dat ze gaan schommelen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chain_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodybar_chest_front_shoulder_stretch",
+    "exercise_name": {
+      "en": "Chest And Front Of Shoulder Stretch (Stick Dislocate)",
+      "nl": "Schouder en Borst Mobiliteit met Stok"
+    },
+    "aliases": [
+      "Chest And Front Of Shoulder Stretch",
+      "Chest_And_Front_Of_Shoulder_Stretch"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Stick / PVC Pipe",
+        "nl": "Stok / PVC Pijp"
+      },
+      "description": {
+        "en": "Light broomstick or PVC pipe for overhead shoulder mobility passes",
+        "nl": "Lichte stok of pvc-buis voor schoudermobiliteit"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding a broomstick or PVC pipe with a wide overhand grip in front of your hips.",
+        "With straight arms, slowly raise the stick up and arc it completely behind your back.",
+        "Hold the deepest stretch briefly, then slowly reverse the arc back to the front."
+      ],
+      "nl": [
+        "Sta rechtop en houd een stok of pvc-pijp met een brede bovenhandse greep voor je heupen.",
+        "Beweeg de stok met gestrekte armen in een ruime boog over je hoofd naar achteren.",
+        "Houd de stretch even vast op het punt van meeste rek en draai rustig weer terug naar voren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Widen your grip as needed to keep both elbows fully extended throughout.",
+        "Avoid flaring your ribs or arching your lower back as the stick passes overhead."
+      ],
+      "nl": [
+        "Pak de stok zo breed vast dat je beide ellebogen gestrekt kunt houden.",
+        "Trek je buikspieren aan en voorkom dat je onderrug hol trekt bij het passeren van je hoofd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_And_Front_Of_Shoulder_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_And_Front_Of_Shoulder_Stretch/1.jpg",
           "type": "photo"
         }
       ],

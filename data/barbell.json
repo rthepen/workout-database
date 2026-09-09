@@ -4508,5 +4508,88 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "weight_plate_car_drivers",
+    "exercise_name": {
+      "en": "Car Drivers (Plate Steering)",
+      "nl": "Plate Drivers (Stuurwiel)"
+    },
+    "aliases": [
+      "Car Drivers",
+      "Car_Drivers"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Weight Plate",
+        "nl": "Halterschijf"
+      },
+      "description": {
+        "en": "Olympic weight plate held in hands for shoulder conditioning",
+        "nl": "Halterschijf voor schouder- en armisolatie"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand upright holding a weight plate at 9 and 3 o'clock positions with arms extended straight in front at shoulder height.",
+        "Rotate the plate smoothly to one side as if turning a steering wheel to full lock.",
+        "Reverse and rotate the plate all the way to the opposite side in continuous motion."
+      ],
+      "nl": [
+        "Sta rechtop en houd een gewichtsschijf op 9 en 3 uur vast met gestrekte armen op schouderhoogte.",
+        "Draai de schijf rustig en krachtig naar één kant alsof je aan een stuurwiel draait.",
+        "Draai direct door naar de andere kant in een continu, gecontroleerd tempo."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep arms straight and elevated at shoulder level throughout the set.",
+        "Avoid leaning or swaying the torso while turning the plate."
+      ],
+      "nl": [
+        "Houd je armen horizontaal op schouderhoogte en laat ze niet zakken.",
+        "Blijf kaarsrecht staan en zwaai niet mee met je bovenlichaam."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Drivers/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Car_Drivers/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

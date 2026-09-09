@@ -837,5 +837,90 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "machine_chair_squat_smith",
+    "exercise_name": {
+      "en": "Chair Squat (Smith Machine)",
+      "nl": "Chair Squat op Smith Machine"
+    },
+    "aliases": [
+      "Chair Squat",
+      "Chair_Squat"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Smith Machine",
+        "nl": "Smith Machine"
+      },
+      "description": {
+        "en": "Guided barbell track machine with safety lockouts",
+        "nl": "Geleide halterstang met vaste baan en veiligheidshaken"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Rack the Smith bar across upper traps and step feet 18 inches forward of the bar line.",
+        "Squat down by leaning back against the bar as if sitting into a chair until thighs break parallel.",
+        "Drive through your heels to return to standing lockout."
+      ],
+      "nl": [
+        "Plaats de stang van de Smith machine op je bovenrug en zet je voeten zo'n 40 cm voor de stanglijn.",
+        "Zak naar beneden door tegen de stang te leunen alsof je op een stoel gaat zitten tot minimaal 90 graden.",
+        "Duw de vloer krachtig weg vanuit je hielen om weer rechtop te komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain upright torso relying on bar support without excessive spinal flexion."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Blijf met je rug tegen de stang leunen en houd je romp rechtop."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Squat/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Squat/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

@@ -8921,5 +8921,511 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_calf_stretch_elbows_wall",
+    "exercise_name": {
+      "en": "Calf Stretch Elbows Against Wall",
+      "nl": "Kuitstretch met Ellebogen tegen de Muur"
+    },
+    "aliases": [
+      "Calf Stretch Elbows Against Wall",
+      "Calf_Stretch_Elbows_Against_Wall"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand facing a wall a couple feet away and lean forward, resting your weight on your forearms against the wall.",
+        "Keep your legs straight and drive both heels firmly down into the floor.",
+        "Hold the calf stretch for 10-20 seconds while breathing smoothly."
+      ],
+      "nl": [
+        "Ga op een halve meter van een muur staan en leun naar voren met je onderarmen tegen de muur.",
+        "Houd je benen gestrekt en duw je hielen stevig in de vloer.",
+        "Houd de rek op je kuiten 10-20 seconden vast terwijl je rustig doorademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a straight alignment through spine, hips, and heels.",
+        "Avoid lifting heels off the floor during the stretch."
+      ],
+      "nl": [
+        "Houd je rug, heupen en benen in één rechte lijn.",
+        "Laat je hielen niet loskomen van de vloer tijdens het rekken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Elbows_Against_Wall/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Calf_Stretch_Elbows_Against_Wall/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_carioca_quick_step",
+    "exercise_name": {
+      "en": "Carioca Quick Step",
+      "nl": "Carioca Quick Step"
+    },
+    "aliases": [
+      "Carioca Quick Step",
+      "Grapevine",
+      "Carioca_Quick_Step"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Footwork & Agility",
+      "nl": "Voetenwerk"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "calves",
+        "glutes",
+        "quadriceps"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Stand in an athletic stance moving laterally.",
+        "Step trailing leg behind the lead leg, then step lead foot out laterally.",
+        "Cross trailing leg over the front with a high knee drive, pumping arms across the torso.",
+        "Continue moving sideways quickly, then reverse direction."
+      ],
+      "nl": [
+        "Neem een sportieve basishouding aan en beweeg zijwaarts.",
+        "Kruis je achterste been achter je voorste been langs, stap opzij en kruis vervolgens voorlangs met een hoge kniehef.",
+        "Beweeg je armen en heupen soepel mee in het ritme en herhaal de andere kant op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders facing forward while hips rotate dynamically.",
+        "Stay light on the balls of the feet with quick ground contact times."
+      ],
+      "nl": [
+        "Houd je schouders recht vooruit terwijl je heupen soepel meedraaien.",
+        "Blijf verend op de bal van je voet lopen met korte grondcontacten."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Carioca_Quick_Step/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Carioca_Quick_Step/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_cat_stretch",
+    "exercise_name": {
+      "en": "Cat Stretch (Cat-Cow)",
+      "nl": "Cat Stretch"
+    },
+    "aliases": [
+      "Cat Stretch",
+      "Cat_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "rhomboids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Position yourself on the floor on all fours with hands under shoulders and knees under hips.",
+        "Draw your belly button in, rounding your entire spine, lower back, and neck upward like a cat.",
+        "Drop head gently toward the floor and hold the stretch for 15-20 seconds."
+      ],
+      "nl": [
+        "Ga op handen en knieën zitten met je polsen onder je schouders en knieën onder je heupen.",
+        "Trek je navel in en maak je rug en nek zo bol mogelijk als een kat.",
+        "Laat je hoofd ontspannen hangen en houd deze bolle houding 15-20 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Push floor away firmly through hands to open the upper back.",
+        "Breathe deeply into the posterior ribcage during the stretch."
+      ],
+      "nl": [
+        "Duw jezelf weg van de vloer om de ruimte tussen je schouderbladen te openen.",
+        "Adem diep in en uit richting je rug tijdens de stretch."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cat_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cat_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chair_chair_leg_extended_stretch",
+    "exercise_name": {
+      "en": "Chair Leg Extended Stretch",
+      "nl": "Zittende Stoel Hamstringstretch"
+    },
+    "aliases": [
+      "Chair Leg Extended Stretch",
+      "Chair_Leg_Extended_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
+      },
+      "description": {
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "adductors"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit upright in a chair gripping the sides of the seat.",
+        "Extend one leg out straight in front with foot flexed.",
+        "Slowly abduct the extended leg outward as far as comfortable, hold, then return to center and down.",
+        "Repeat on the opposite leg."
+      ],
+      "nl": [
+        "Ga rechtop op een stoel zitten en houd de zitting vast.",
+        "Strek één been recht vooruit met je tenen naar je toe getrokken.",
+        "Beweeg het been rustig zijwaarts naar buiten zover als comfortabel voelt, houd even vast en breng terug.",
+        "Wissel daarna af met het andere been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upright spinal alignment without slouching into the chair.",
+        "Move in a slow, controlled arc."
+      ],
+      "nl": [
+        "Blijf fier rechtop zitten en zak niet onderuit in de stoel.",
+        "Beweeg het been in een rustige, gecontroleerde boog."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Leg_Extended_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Leg_Extended_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chair_chair_lower_back_stretch",
+    "exercise_name": {
+      "en": "Chair Lower Back Stretch",
+      "nl": "Zittende Stoel Rugstretch"
+    },
+    "aliases": [
+      "Chair Lower Back Stretch",
+      "Chair_Lower_Back_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
+      },
+      "description": {
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit tall in a sturdy chair holding the side of the seat with one hand.",
+        "Reach the opposite arm overhead and bend laterally to the side.",
+        "Hold the lateral back stretch for 10-15 seconds, then switch sides."
+      ],
+      "nl": [
+        "Zit rechtop op een stevige stoel en houd met één hand de zitting vast.",
+        "Reik met je andere arm over je hoofd heen en buig zijwaarts opzij.",
+        "Houd de rek in je flank en rug 10-15 seconden vast en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep both sit bones firmly rooted onto the chair.",
+        "Do not collapse forward; bend purely in the lateral plane."
+      ],
+      "nl": [
+        "Houd beide zitbotjes stevig op de stoelzitting.",
+        "Buig puur zijwaarts en laat je bovenlichaam niet naar voren vallen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Lower_Back_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Lower_Back_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "chair_chair_upper_body_stretch",
+    "exercise_name": {
+      "en": "Chair Upper Body Stretch",
+      "nl": "Zittende Stoel Schouder- en Borststretch"
+    },
+    "aliases": [
+      "Chair Upper Body Stretch",
+      "Chair_Upper_Body_Stretch"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Chair / Bench",
+        "nl": "Stoel / Bankje"
+      },
+      "description": {
+        "en": "Standard sturdy chair or bench for seated stretching",
+        "nl": "Stevige stoel of bank voor zittende rekoefeningen"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the front edge of a chair, gripping the backrest firmly behind you.",
+        "Straighten your arms and pull your chest and torso forward to open shoulders and chest.",
+        "Hold the stretch for 20-30 seconds while taking slow, deep breaths."
+      ],
+      "nl": [
+        "Ga op het voorste randje van een stoel zitten en pak de leuning achter je stevig vast.",
+        "Strek je armen en duw je borst naar voren om de voorkant van je schouders en borst te rekken.",
+        "Houd deze houding 20-30 seconden ontspannen vast terwijl je rustig doorademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep shoulders rolled back and down away from the ears.",
+        "Do not overarch the neck; keep cervical spine neutral."
+      ],
+      "nl": [
+        "Houd je schouders laag en naar achteren getrokken.",
+        "Gooi je hoofd niet overdreven naar achteren maar houd je nek neutraal."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Upper_Body_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chair_Upper_Body_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
