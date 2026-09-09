@@ -1,365 +1,5 @@
 [
   {
-    "id": "sprint_track_backpedal",
-    "exercise_name": {
-      "en": "Backpedal (Achteruit Rennen)",
-      "nl": "Backpedal (Achteruit Rennen)"
-    },
-    "aliases": [
-      "Achteruit Rennen",
-      "Backpedal",
-      "Backpedal Achteruit Rennen"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Agility & Coordination",
-      "nl": "Agility / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Run backwards across the track.",
-        "Stay on your forefeet and lean slightly forward (nose above toes) to keep your balance.",
-        "Pump your arms along.",
-        "Look over your shoulder to see where you are going."
-      ],
-      "nl": [
-        "Ren achteruit over de baan.",
-        "Blijf op je voorvoeten en leun iets naar voren (neus boven tenen) om je balans te houden.",
-        "Pomp je armen mee.",
-        "Kijk over je schouder waar je heen gaat."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "YIFjQ19h_f0",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 23,
-          "channel": "HyperStrike28",
-          "likes": 110
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sprint_track_plate_push",
-    "exercise_name": {
-      "en": "Plate Push",
-      "nl": "Plate Push"
-    },
-    "aliases": [
-      "Plate Push"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Legs & Cardio",
-      "nl": "Benen / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Place a heavy weight plate flat onto the turf track.",
-        "Place your hands on the disc, arms extended.",
-        "Drive the weight plate across the track as fast as possible by driving hard through your legs in a sprint stance."
-      ],
-      "nl": [
-        "Leg een zware halterschijf plat op het kunstgras.",
-        "Zet je handen op de schijf, armen gestrekt.",
-        "Duw de schijf zo snel mogelijk over de baan door hard af te zetten met je benen (sprinthouding)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "isFXOw6lqZs",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "4:3",
-          "duration_seconds": 18,
-          "channel": "Testosterone Nation",
-          "likes": 55
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sprint_track_crab_walk",
-    "exercise_name": {
-      "en": "Crab Walk",
-      "nl": "Crab Walk"
-    },
-    "aliases": [
-      "Crab Walk"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Full Body Mobility",
-      "nl": "Full Body / Mobiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sit down, place your hands behind you and feet flat.",
-        "Drive your hips upward into full extension.",
-        "Walk backwards (or forwards) on all fours with your stomach toward the ceiling."
-      ],
-      "nl": [
-        "Ga zitten, zet handen achter je neer en voeten plat.",
-        "Duw je heupen omhoog.",
-        "Loop achteruit (of vooruit) op handen en voeten met je buik richting het plafond."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "sprint_track_sled_push"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "I-3r4cl4ahA",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 33,
-          "channel": "LivestrongWoman",
-          "likes": 1275
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sprint_track_a_skips",
-    "exercise_name": {
-      "en": "A-Skips",
-      "nl": "A-Skips"
-    },
-    "aliases": [
-      "A-Skips"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Running Mechanics",
-      "nl": "Looptechniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Skip rhythmically while explosively driving one knee to hip height and pushing forcefully off your supporting leg.",
-        "Extend fully through your body and pump your arms.",
-        "'Tick-tock' rhythm."
-      ],
-      "nl": [
-        "Huppelritme waarbij je één knie explosief omhoog trekt (heuphoogte) en tegelijkertijd afzet met het standbeen.",
-        "Maak je lang en gebruik je armen.",
-        "'Tik-tak' ritme."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "GQg9L28bi1g",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 365,
-          "channel": "Matt Holton",
-          "likes": 623
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "sprint_track_bear_crawl",
     "exercise_name": {
       "en": "Bear Crawl",
@@ -542,96 +182,6 @@
     }
   },
   {
-    "id": "sprint_track_butt_kicks",
-    "exercise_name": {
-      "en": "Butt Kicks",
-      "nl": "Butt Kicks"
-    },
-    "aliases": [
-      "Butt Kicks"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Cardio Technique",
-      "nl": "Cardio / Techniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Run across the track and kick your butt with your heels.",
-        "Keep your knees pointed downward (not forward).",
-        "Keep a fast pace."
-      ],
-      "nl": [
-        "Ren over de baan en schop met je hakken naar je billen.",
-        "Houd je knieën naar beneden gericht (niet naar voren).",
-        "Houd een hoog tempo aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "XBjoNUjYg0I",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "duration_seconds": 6,
-          "channel": "Barbell Shrugged",
-          "likes": 8
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:20:31.089Z"
-    }
-  },
-  {
     "id": "sprint_track_carioca_drill",
     "exercise_name": {
       "en": "Carioca (Kruispas)",
@@ -723,94 +273,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-01T19:22:36.631Z"
-    }
-  },
-  {
-    "id": "sprint_track_high_knees_run",
-    "exercise_name": {
-      "en": "High Knees",
-      "nl": "High Knees"
-    },
-    "aliases": [
-      "High Knees"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Speed & Cardio",
-      "nl": "Cardio / Speed"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Run around the track while pulling your knees up to hip height.",
-        "Keep your torso upright and pump your arms rhythmically.",
-        "Focus on a high rhythm and land on the balls of your feet."
-      ],
-      "nl": [
-        "Ren over de baan terwijl je je knieën omhoog trekt tot heuphoogte.",
-        "Houd je romp rechtop en beweeg je armen actief mee.",
-        "Focus op een hoog ritme en land op de bal van je voet."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "whKCrz0hWWg",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "JOHN_200m"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T19:23:51.585Z"
     }
   },
   {
@@ -1809,6 +1271,544 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "sprint_track_backpedal",
+    "exercise_name": {
+      "en": "Backpedal (Achteruit Rennen)",
+      "nl": "Backpedal (Achteruit Rennen)"
+    },
+    "aliases": [
+      "Achteruit Rennen",
+      "Backpedal",
+      "Backpedal Achteruit Rennen"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Agility & Coordination",
+      "nl": "Agility / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Run backwards across the track.",
+        "Stay on your forefeet and lean slightly forward (nose above toes) to keep your balance.",
+        "Pump your arms along.",
+        "Look over your shoulder to see where you are going."
+      ],
+      "nl": [
+        "Ren achteruit over de baan.",
+        "Blijf op je voorvoeten en leun iets naar voren (neus boven tenen) om je balans te houden.",
+        "Pomp je armen mee.",
+        "Kijk over je schouder waar je heen gaat."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "NcVKw04Tfko",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Mercer Strength and Conditioning",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "sprint_track_plate_push",
+    "exercise_name": {
+      "en": "Plate Push",
+      "nl": "Plate Push"
+    },
+    "aliases": [
+      "Plate Push"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Legs & Cardio",
+      "nl": "Benen / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Place a heavy weight plate flat onto the turf track.",
+        "Place your hands on the disc, arms extended.",
+        "Drive the weight plate across the track as fast as possible by driving hard through your legs in a sprint stance."
+      ],
+      "nl": [
+        "Leg een zware halterschijf plat op het kunstgras.",
+        "Zet je handen op de schijf, armen gestrekt.",
+        "Duw de schijf zo snel mogelijk over de baan door hard af te zetten met je benen (sprinthouding)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "AMJWTV6145g",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "JJ Raffelson",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "sprint_track_crab_walk",
+    "exercise_name": {
+      "en": "Crab Walk",
+      "nl": "Crab Walk"
+    },
+    "aliases": [
+      "Crab Walk"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Full Body Mobility",
+      "nl": "Full Body / Mobiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Sit down, place your hands behind you and feet flat.",
+        "Drive your hips upward into full extension.",
+        "Walk backwards (or forwards) on all fours with your stomach toward the ceiling."
+      ],
+      "nl": [
+        "Ga zitten, zet handen achter je neer en voeten plat.",
+        "Duw je heupen omhoog.",
+        "Loop achteruit (of vooruit) op handen en voeten met je buik richting het plafond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "sprint_track_sled_push"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JVKhFW-26cs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "CFW Online Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "sprint_track_a_skips",
+    "exercise_name": {
+      "en": "A-Skips",
+      "nl": "A-Skips"
+    },
+    "aliases": [
+      "A-Skips"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Running Mechanics",
+      "nl": "Looptechniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Skip rhythmically while explosively driving one knee to hip height and pushing forcefully off your supporting leg.",
+        "Extend fully through your body and pump your arms.",
+        "'Tick-tock' rhythm."
+      ],
+      "nl": [
+        "Huppelritme waarbij je één knie explosief omhoog trekt (heuphoogte) en tegelijkertijd afzet met het standbeen.",
+        "Maak je lang en gebruik je armen.",
+        "'Tik-tak' ritme."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "6qSYlrN4XO4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Chari Hawkins",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "sprint_track_butt_kicks",
+    "exercise_name": {
+      "en": "Butt Kicks",
+      "nl": "Butt Kicks"
+    },
+    "aliases": [
+      "Butt Kicks"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Cardio Technique",
+      "nl": "Cardio / Techniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Run across the track and kick your butt with your heels.",
+        "Keep your knees pointed downward (not forward).",
+        "Keep a fast pace."
+      ],
+      "nl": [
+        "Ren over de baan en schop met je hakken naar je billen.",
+        "Houd je knieën naar beneden gericht (niet naar voren).",
+        "Houd een hoog tempo aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "s-iQOKtNW3A",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Chari Hawkins",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "sprint_track_high_knees_run",
+    "exercise_name": {
+      "en": "High Knees",
+      "nl": "High Knees"
+    },
+    "aliases": [
+      "High Knees"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Speed & Cardio",
+      "nl": "Cardio / Speed"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Run around the track while pulling your knees up to hip height.",
+        "Keep your torso upright and pump your arms rhythmically.",
+        "Focus on a high rhythm and land on the balls of your feet."
+      ],
+      "nl": [
+        "Ren over de baan terwijl je je knieën omhoog trekt tot heuphoogte.",
+        "Houd je romp rechtop en beweeg je armen actief mee.",
+        "Focus op een hoog ritme en land op de bal van je voet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "IdIlyOKozx4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Chari Hawkins",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]

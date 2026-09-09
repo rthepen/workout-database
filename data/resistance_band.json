@@ -177,179 +177,6 @@
     }
   },
   {
-    "id": "resistance_band_half_kneeling_1_arm_row",
-    "exercise_name": {
-      "en": "Half Kneeling 1 Arm Row",
-      "nl": "Half Kneeling 1 Arm Row"
-    },
-    "aliases": [
-      "Half Kneeling 1 Arm Row"
-    ],
-    "material": {
-      "id": "resistance_band",
-      "name": {
-        "en": "Resistance Band",
-        "nl": "Weerstandsband"
-      },
-      "description": {
-        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Assume a half-kneeling position on one knee.",
-        "Row the weight upward with one arm keeping your torso stable.",
-        "Focus point: Keep the gluteal muscle of the back leg active and ensure that the torso remains vertical (do not rotate)."
-      ],
-      "nl": [
-        "Zit op één knie.",
-        "Roei met één arm.",
-        "Focuspunt: Houd de bilspier van het achterste been actief en zorg dat de romp verticaal blijft (niet meedraaien)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "resistance_band_band_push_press"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "YWXmtr-GAgw",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 12,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "resistance_band_half_kneeling_high_chop",
-    "exercise_name": {
-      "en": "Half Kneeling High Chop",
-      "nl": "Half Kneeling High Chop"
-    },
-    "aliases": [
-      "Half Kneeling High Chop"
-    ],
-    "material": {
-      "id": "resistance_band",
-      "name": {
-        "en": "Resistance Band",
-        "nl": "Weerstandsband"
-      },
-      "description": {
-        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Use a low anchor point.",
-        "Rotate your torso upward while exhaling through the contraction.",
-        "Keep the lower ribs low (avoid arching the back)."
-      ],
-      "nl": [
-        "Gebruik een laag ankerpunt.",
-        "Roteer omhoog en adem uit tijdens de beweging.",
-        "Houd de onderste ribben laag (voorkom hollen van de rug)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "resistance_band_band_push_press"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "dnjjnEsBtdU",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 13,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "resistance_band_half_kneeling_lift",
     "exercise_name": {
       "en": "Half Kneeling Lift",
@@ -604,95 +431,6 @@
           "duration_seconds": 12,
           "channel": "Physio Lab PT",
           "likes": 27
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "resistance_band_overhead_squat",
-    "exercise_name": {
-      "en": "Overhead Squat",
-      "nl": "Overhead Squat"
-    },
-    "aliases": [
-      "Overhead Squat"
-    ],
-    "material": {
-      "id": "resistance_band",
-      "name": {
-        "en": "Resistance Band",
-        "nl": "Weerstandsband"
-      },
-      "description": {
-        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
-        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand on the band and keep your arms extended above your head.",
-        "Lower into a squat while continuing to push your arms straight up.",
-        "Make sure that the back remains straight."
-      ],
-      "nl": [
-        "Sta op de band en houd de armen gestrekt boven het hoofd.",
-        "Zak in een squat terwijl je de armen recht omhoog blijft duwen.",
-        "Let op dat de rug recht blijft."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "resistance_band_single_arm_band_row"
-      ],
-      "regressions": [
-        "resistance_band_half_kneeling_1_arm_press"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "JPw69oHUCOk",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 18,
-          "channel": "Bootcamp Ideas"
         }
       ]
     },
@@ -1747,6 +1485,271 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "resistance_band_half_kneeling_1_arm_row",
+    "exercise_name": {
+      "en": "Half Kneeling 1 Arm Row",
+      "nl": "Half Kneeling 1 Arm Row"
+    },
+    "aliases": [
+      "Half Kneeling 1 Arm Row"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a half-kneeling position on one knee.",
+        "Row the weight upward with one arm keeping your torso stable.",
+        "Focus point: Keep the gluteal muscle of the back leg active and ensure that the torso remains vertical (do not rotate)."
+      ],
+      "nl": [
+        "Zit op één knie.",
+        "Roei met één arm.",
+        "Focuspunt: Houd de bilspier van het achterste been actief en zorg dat de romp verticaal blijft (niet meedraaien)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "resistance_band_band_push_press"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "mGKMFN4WQWo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Training Harmony",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "resistance_band_half_kneeling_high_chop",
+    "exercise_name": {
+      "en": "Half Kneeling High Chop",
+      "nl": "Half Kneeling High Chop"
+    },
+    "aliases": [
+      "Half Kneeling High Chop"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Use a low anchor point.",
+        "Rotate your torso upward while exhaling through the contraction.",
+        "Keep the lower ribs low (avoid arching the back)."
+      ],
+      "nl": [
+        "Gebruik een laag ankerpunt.",
+        "Roteer omhoog en adem uit tijdens de beweging.",
+        "Houd de onderste ribben laag (voorkom hollen van de rug)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "resistance_band_band_push_press"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ftQ4xaQoVKY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Evolve Human Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "resistance_band_overhead_squat",
+    "exercise_name": {
+      "en": "Overhead Squat",
+      "nl": "Overhead Squat"
+    },
+    "aliases": [
+      "Overhead Squat"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand on the band and keep your arms extended above your head.",
+        "Lower into a squat while continuing to push your arms straight up.",
+        "Make sure that the back remains straight."
+      ],
+      "nl": [
+        "Sta op de band en houd de armen gestrekt boven het hoofd.",
+        "Zak in een squat terwijl je de armen recht omhoog blijft duwen.",
+        "Let op dat de rug recht blijft."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "resistance_band_single_arm_band_row"
+      ],
+      "regressions": [
+        "resistance_band_half_kneeling_1_arm_press"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dJN8S8l51R0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Taylored Physical Therapy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]

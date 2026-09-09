@@ -95,184 +95,6 @@
     }
   },
   {
-    "id": "agility_ladder_icky_backward",
-    "exercise_name": {
-      "en": "Icky Shuffle Backward",
-      "nl": "Icky Shuffle Backward"
-    },
-    "aliases": [
-      "Icky Shuffle Backward"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Advanced Coordination",
-      "nl": "Coördinatie / Advanced"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Same pattern as the Icky Shuffle (in-in-out), but perform it backwards.",
-        "Demands spatial awareness and rhythm."
-      ],
-      "nl": [
-        "Hetzelfde patroon als de Icky Shuffle (in-in-uit), maar voer het achteruit uit.",
-        "Vereist oriëntatie en ritme."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "agility_ladder_ick_shuffle"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "zZpG5jFuP9k",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "BPC Performance Coaching"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T15:52:27.921Z"
-    }
-  },
-  {
-    "id": "agility_ladder_in_out",
-    "exercise_name": {
-      "en": "Agility Ladder In Out (Straddle Hops)",
-      "nl": "Agility Ladder In Out (Straddle Hops)"
-    },
-    "aliases": [
-      "Agility Ladder In Out",
-      "Agility Ladder In Out Straddle Hops",
-      "Straddle Hops"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Plyometrics",
-      "nl": "Cardio / Plyometrics"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Jump into the box with two feet at a time, then jump wide (outside the ladder) with two feet at a time.",
-        "Go directly to the next box."
-      ],
-      "nl": [
-        "Spring met twee voeten tegelijk in het vakje, spring vervolgens met twee voeten tegelijk wijd (buiten de ladder).",
-        "Ga direct door naar het volgende vakje."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ZT94DFl38Aw",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "duration_seconds": 26,
-          "channel": "Outright Fitness and Performance",
-          "likes": 8
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T15:53:43.830Z"
-    }
-  },
-  {
     "id": "agility_ladder_lateral_high_knees",
     "exercise_name": {
       "en": "Lateral High Knees",
@@ -361,98 +183,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-29T15:55:29.937Z"
-    }
-  },
-  {
-    "id": "agility_ladder_lateral_shuffle",
-    "exercise_name": {
-      "en": "Lateral Shuffle",
-      "nl": "Lateral Shuffle"
-    },
-    "aliases": [
-      "Lateral Shuffle"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Lateral Speed",
-      "nl": "Snelheid / Zijwaarts"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand sideways.",
-        "Step both feet rapidly into each ladder rung (lead foot first, trail foot follows).",
-        "Keep your hips low and look forward."
-      ],
-      "nl": [
-        "Ga zijwaarts staan.",
-        "Stap met beide voeten snel in elk vakje (leider-voet eerst, volger-voet sluit bij).",
-        "Houd je heupen laag en kijk naar voren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-3kmbF30YYE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "duration_seconds": 35,
-          "channel": "Live Lean TV Daily Exercises",
-          "likes": 27
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T15:58:09.557Z"
     }
   },
   {
@@ -548,94 +278,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-08-29T16:01:14.292Z"
-    }
-  },
-  {
-    "id": "agility_ladder_centipede",
-    "exercise_name": {
-      "en": "Centipede",
-      "nl": "Centipede"
-    },
-    "aliases": [
-      "Centipede"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Lateral Speed & Agility",
-      "nl": "Zijwaarts / Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform rapid in-in-out-out ladder footwork focusing on micro-steps while keeping your center of mass over the ladder."
-      ],
-      "nl": [
-        "Soortgelijke beweging als de Lateral In-In-Out-Out, maar dan met een focus op snelle kleine stapjes waarbij je lichaam constant boven de ladder blijft."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "X4borDKF1Pw",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "duration_seconds": 15,
-          "channel": "SPARC Athens",
-          "likes": 7
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-30T09:29:49.300Z"
     }
   },
   {
@@ -1003,99 +645,6 @@
     }
   },
   {
-    "id": "agility_ladder_high_knees",
-    "exercise_name": {
-      "en": "High Knees (1-in)",
-      "nl": "High Knees (1-in)"
-    },
-    "aliases": [
-      "1-in",
-      "High Knees",
-      "High Knees 1-in"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Cardio Technique",
-      "nl": "Cardio / Techniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Run through the ladder with one foot per space.",
-        "Explosively pull your knees up to hip height.",
-        "Maintain an upright torso."
-      ],
-      "nl": [
-        "Ren door de ladder met één voet per vakje.",
-        "Trek je knieën explosief omhoog tot heuphoogte.",
-        "Blijf rechtop."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "K0gwRQQ_uMk",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 41,
-          "channel": "Live Lean TV Daily Exercises",
-          "likes": 26
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:16:23.470Z"
-    }
-  },
-  {
     "id": "agility_ladder_scissors",
     "exercise_name": {
       "en": "Scissors",
@@ -1186,188 +735,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-02T07:18:14.664Z"
-    }
-  },
-  {
-    "id": "agility_ladder_snake",
-    "exercise_name": {
-      "en": "Snake Drill",
-      "nl": "Snake Drill"
-    },
-    "aliases": [
-      "Snake Drill"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Agility & Rotation",
-      "nl": "Agility / Rotatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Jump sideways in and out of the ladder in a slalom motion.",
-        "Jump into the box, jump out on the side, jump diagonally to the next box."
-      ],
-      "nl": [
-        "Spring zijwaarts in en uit de ladder in een slalom-beweging.",
-        "Spring in het vak, spring er aan de zijkant uit, spring schuin naar het volgende vak."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "U7VzBUSK2iQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 9,
-          "channel": "Amplified Soccer",
-          "likes": 9
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:18:27.683Z"
-    }
-  },
-  {
-    "id": "agility_ladder_two_ins",
-    "exercise_name": {
-      "en": "Two-Foot Run (2-ins)",
-      "nl": "Two-Foot Run (2-ins)"
-    },
-    "aliases": [
-      "2-ins",
-      "Two-Foot Run",
-      "Two-Foot Run 2-ins"
-    ],
-    "material": {
-      "id": "agility_ladder",
-      "name": {
-        "en": "Agility Ladder",
-        "nl": "Loopladder"
-      },
-      "description": {
-        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
-        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
-      }
-    },
-    "category": {
-      "en": "Speed & Sprinting",
-      "nl": "Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Sprint straight forward through the agility ladder rungs.",
-        "Place two feet in each box (left-right, left-right).",
-        "Focus on maximum frequency and arm engagement."
-      ],
-      "nl": [
-        "Ren recht vooruit door de ladder.",
-        "Zet in elk vakje twee voeten (links-rechts, links-rechts).",
-        "Focus op maximale frequentie en arminzet."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "agility_ladder_icky_backward"
-      ],
-      "regressions": [
-        "agility_ladder_plank_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "GKDY4urn2kQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 6,
-          "channel": "National Academy of Sports Medicine (NASM)",
-          "likes": 45
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:18:40.332Z"
     }
   },
   {
@@ -1821,6 +1188,639 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T07:00:20.122Z"
+    }
+  },
+  {
+    "id": "agility_ladder_icky_backward",
+    "exercise_name": {
+      "en": "Icky Shuffle Backward",
+      "nl": "Icky Shuffle Backward"
+    },
+    "aliases": [
+      "Icky Shuffle Backward"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Advanced Coordination",
+      "nl": "Coördinatie / Advanced"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Same pattern as the Icky Shuffle (in-in-out), but perform it backwards.",
+        "Demands spatial awareness and rhythm."
+      ],
+      "nl": [
+        "Hetzelfde patroon als de Icky Shuffle (in-in-uit), maar voer het achteruit uit.",
+        "Vereist oriëntatie en ritme."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "agility_ladder_ick_shuffle"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Crv4bToonFA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "West Coast Strength",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "agility_ladder_in_out",
+    "exercise_name": {
+      "en": "Agility Ladder In Out (Straddle Hops)",
+      "nl": "Agility Ladder In Out (Straddle Hops)"
+    },
+    "aliases": [
+      "Agility Ladder In Out",
+      "Agility Ladder In Out Straddle Hops",
+      "Straddle Hops"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Jump into the box with two feet at a time, then jump wide (outside the ladder) with two feet at a time.",
+        "Go directly to the next box."
+      ],
+      "nl": [
+        "Spring met twee voeten tegelijk in het vakje, spring vervolgens met twee voeten tegelijk wijd (buiten de ladder).",
+        "Ga direct door naar het volgende vakje."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "HEP3TErPVwc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Christian Huth",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "agility_ladder_lateral_shuffle",
+    "exercise_name": {
+      "en": "Lateral Shuffle",
+      "nl": "Lateral Shuffle"
+    },
+    "aliases": [
+      "Lateral Shuffle"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Lateral Speed",
+      "nl": "Snelheid / Zijwaarts"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand sideways.",
+        "Step both feet rapidly into each ladder rung (lead foot first, trail foot follows).",
+        "Keep your hips low and look forward."
+      ],
+      "nl": [
+        "Ga zijwaarts staan.",
+        "Stap met beide voeten snel in elk vakje (leider-voet eerst, volger-voet sluit bij).",
+        "Houd je heupen laag en kijk naar voren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "B0u05Tes_Pw",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "RYS Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "agility_ladder_centipede",
+    "exercise_name": {
+      "en": "Centipede",
+      "nl": "Centipede"
+    },
+    "aliases": [
+      "Centipede"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Lateral Speed & Agility",
+      "nl": "Zijwaarts / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "Perform rapid in-in-out-out ladder footwork focusing on micro-steps while keeping your center of mass over the ladder."
+      ],
+      "nl": [
+        "Soortgelijke beweging als de Lateral In-In-Out-Out, maar dan met een focus op snelle kleine stapjes waarbij je lichaam constant boven de ladder blijft."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "X4borDKF1Pw",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "16:9",
+          "duration_seconds": 15,
+          "channel": "SPARC Athens",
+          "likes": 7
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "agility_ladder_high_knees",
+    "exercise_name": {
+      "en": "High Knees (1-in)",
+      "nl": "High Knees (1-in)"
+    },
+    "aliases": [
+      "1-in",
+      "High Knees",
+      "High Knees 1-in"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio Technique",
+      "nl": "Cardio / Techniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Run through the ladder with one foot per space.",
+        "Explosively pull your knees up to hip height.",
+        "Maintain an upright torso."
+      ],
+      "nl": [
+        "Ren door de ladder met één voet per vakje.",
+        "Trek je knieën explosief omhoog tot heuphoogte.",
+        "Blijf rechtop."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "hrJlz_lZDd4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Savage Strength",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "agility_ladder_snake",
+    "exercise_name": {
+      "en": "Snake Drill",
+      "nl": "Snake Drill"
+    },
+    "aliases": [
+      "Snake Drill"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Agility & Rotation",
+      "nl": "Agility / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Jump sideways in and out of the ladder in a slalom motion.",
+        "Jump into the box, jump out on the side, jump diagonally to the next box."
+      ],
+      "nl": [
+        "Spring zijwaarts in en uit de ladder in een slalom-beweging.",
+        "Spring in het vak, spring er aan de zijkant uit, spring schuin naar het volgende vak."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "qS7LwP2Xm0w",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Aditya ex Athlete 777",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "agility_ladder_two_ins",
+    "exercise_name": {
+      "en": "Two-Foot Run (2-ins)",
+      "nl": "Two-Foot Run (2-ins)"
+    },
+    "aliases": [
+      "2-ins",
+      "Two-Foot Run",
+      "Two-Foot Run 2-ins"
+    ],
+    "material": {
+      "id": "agility_ladder",
+      "name": {
+        "en": "Agility Ladder",
+        "nl": "Loopladder"
+      },
+      "description": {
+        "en": "Floor ladder used for footwork speed, coordination, and agility drills",
+        "nl": "Grondladder voor voetenwerksnelheid, coördinatie en behendigheidstraining"
+      }
+    },
+    "category": {
+      "en": "Speed & Sprinting",
+      "nl": "Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Sprint straight forward through the agility ladder rungs.",
+        "Place two feet in each box (left-right, left-right).",
+        "Focus on maximum frequency and arm engagement."
+      ],
+      "nl": [
+        "Ren recht vooruit door de ladder.",
+        "Zet in elk vakje twee voeten (links-rechts, links-rechts).",
+        "Focus op maximale frequentie en arminzet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "agility_ladder_icky_backward"
+      ],
+      "regressions": [
+        "agility_ladder_plank_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "oOGhcHmJvW4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Movement Fitness - Performance & Personal Training",
+          "rating": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]

@@ -1,91 +1,5 @@
 [
   {
-    "id": "monkey_bars_commando_pull_ups",
-    "exercise_name": {
-      "en": "Commando Pull Ups",
-      "nl": "Commando Pull Ups"
-    },
-    "aliases": [
-      "Commando Pull Ups"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand sideways under the bar.",
-        "Grip the bar with one hand in front of the other in a baseball grip.",
-        "Pull yourself up and move your head alternately left and right along the bar."
-      ],
-      "nl": [
-        "Ga zijwaarts onder de stang staan.",
-        "Pak de stang vast met één hand voor de andere (baseball greep).",
-        "Trek jezelf op en breng je hoofd afwisselend links en rechts langs de stang."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "PWXWIh5c8L4",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 50,
-          "channel": "Live Lean TV Daily Exercises",
-          "likes": 37
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "monkey_bars_archer_pull_ups",
     "exercise_name": {
       "en": "Archer Pull Ups",
@@ -1699,6 +1613,92 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "monkey_bars_commando_pull_ups",
+    "exercise_name": {
+      "en": "Commando Pull Ups",
+      "nl": "Commando Pull Ups"
+    },
+    "aliases": [
+      "Commando Pull Ups"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand sideways under the bar.",
+        "Grip the bar with one hand in front of the other in a baseball grip.",
+        "Pull yourself up and move your head alternately left and right along the bar."
+      ],
+      "nl": [
+        "Ga zijwaarts onder de stang staan.",
+        "Pak de stang vast met één hand voor de andere (baseball greep).",
+        "Trek jezelf op en breng je hoofd afwisselend links en rechts langs de stang."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Px63ik-4aLU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FSP Admin",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]

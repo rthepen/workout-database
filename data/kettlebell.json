@@ -1795,94 +1795,6 @@
     }
   },
   {
-    "id": "kettlebell_halo",
-    "exercise_name": {
-      "en": "Kettlebell Halo",
-      "nl": "Kettlebell Halo"
-    },
-    "aliases": [
-      "Kettlebell Halo"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Shoulder Mobility",
-      "nl": "Schouders / Mobiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the kettlebell upside down by the horns.",
-        "Wind the ball tightly around your head (like a halo).",
-        "Keep your ribcage low and core tense."
-      ],
-      "nl": [
-        "Houd de kettlebell ondersteboven vast bij de hoorns.",
-        "Draai de kogel strak rondom je hoofd (als een aureool).",
-        "Houd je ribbenkast laag en core gespannen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xSPpprMITLE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "GymClips"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:54:26.284Z"
-    }
-  },
-  {
     "id": "kettlebell_lateral_lunge",
     "exercise_name": {
       "en": "Lateral Lunge (Cossack)",
@@ -4478,6 +4390,95 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "kettlebell_halo",
+    "exercise_name": {
+      "en": "Kettlebell Halo",
+      "nl": "Kettlebell Halo"
+    },
+    "aliases": [
+      "Kettlebell Halo"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Shoulder Mobility",
+      "nl": "Schouders / Mobiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold the kettlebell upside down by the horns.",
+        "Wind the ball tightly around your head (like a halo).",
+        "Keep your ribcage low and core tense."
+      ],
+      "nl": [
+        "Houd de kettlebell ondersteboven vast bij de hoorns.",
+        "Draai de kogel strak rondom je hoofd (als een aureool).",
+        "Houd je ribbenkast laag en core gespannen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "k-YcemjRASg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Karlie Booker",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]

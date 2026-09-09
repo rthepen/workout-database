@@ -1,185 +1,5 @@
 [
   {
-    "id": "spinning_bike_hover",
-    "exercise_name": {
-      "en": "De Hover",
-      "nl": "De Hover"
-    },
-    "aliases": [
-      "De Hover"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Strength & Core",
-      "nl": "Kracht / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Get out of the saddle, but stay low.",
-        "Keep the buttocks only a few centimeters above the point of the saddle.",
-        "Hands in position 2 or 3.",
-        "This greatly isolates the quadriceps."
-      ],
-      "nl": [
-        "Kom uit het zadel, maar blijf laag.",
-        "Houd de billen slechts enkele centimeters boven de zadelpunt.",
-        "Handen in positie 2 of 3.",
-        "Dit isoleert de quadriceps enorm."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "spinning_bike_stand_sit_rapid"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "UE8yxty2_Jg",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 22,
-          "channel": "CycleMasters",
-          "likes": 32
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "spinning_bike_stand_sit_rapid",
-    "exercise_name": {
-      "en": "Rapid Fire Jumps (2 Tellen)",
-      "nl": "Rapid Fire Jumps (2 Tellen)"
-    },
-    "aliases": [
-      "2 Tellen",
-      "Rapid Fire Jumps",
-      "Rapid Fire Jumps 2 Tellen"
-    ],
-    "material": {
-      "id": "spinning_bike",
-      "name": {
-        "en": "Spinning Bike / Stationary Bike",
-        "nl": "Spinningfiets"
-      },
-      "description": {
-        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
-        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
-      }
-    },
-    "category": {
-      "en": "Rhythmic HIIT",
-      "nl": "HIIT / Rhythmic"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand for 2 seconds, sit for 2 seconds.",
-        "Recommended for advanced athletes only.",
-        "Requires a lot of core stability and good basic resistance."
-      ],
-      "nl": [
-        "2 tellen staan, 2 tellen zitten.",
-        "Alleen voor gevorderden.",
-        "Vereist veel core-stabiliteit en een goede basisweerstand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "spinning_bike_jumps_4_counts"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "UE8yxty2_Jg",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 22,
-          "channel": "CycleMasters",
-          "likes": 32
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "spinning_bike_aero_position",
     "exercise_name": {
       "en": "Aero Position (Triathlon)",
@@ -2175,6 +1995,186 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T07:58:46.971Z"
+    }
+  },
+  {
+    "id": "spinning_bike_hover",
+    "exercise_name": {
+      "en": "De Hover",
+      "nl": "De Hover"
+    },
+    "aliases": [
+      "De Hover"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Strength & Core",
+      "nl": "Kracht / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Get out of the saddle, but stay low.",
+        "Keep the buttocks only a few centimeters above the point of the saddle.",
+        "Hands in position 2 or 3.",
+        "This greatly isolates the quadriceps."
+      ],
+      "nl": [
+        "Kom uit het zadel, maar blijf laag.",
+        "Houd de billen slechts enkele centimeters boven de zadelpunt.",
+        "Handen in positie 2 of 3.",
+        "Dit isoleert de quadriceps enorm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "spinning_bike_stand_sit_rapid"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "gWeqJFgEkhw",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "StayFITT Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "spinning_bike_stand_sit_rapid",
+    "exercise_name": {
+      "en": "Rapid Fire Jumps (2 Tellen)",
+      "nl": "Rapid Fire Jumps (2 Tellen)"
+    },
+    "aliases": [
+      "2 Tellen",
+      "Rapid Fire Jumps",
+      "Rapid Fire Jumps 2 Tellen"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Rhythmic HIIT",
+      "nl": "HIIT / Rhythmic"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand for 2 seconds, sit for 2 seconds.",
+        "Recommended for advanced athletes only.",
+        "Requires a lot of core stability and good basic resistance."
+      ],
+      "nl": [
+        "2 tellen staan, 2 tellen zitten.",
+        "Alleen voor gevorderden.",
+        "Vereist veel core-stabiliteit en een goede basisweerstand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "spinning_bike_jumps_4_counts"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "fyZ4G41EdgE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Cycling Sophie International",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]

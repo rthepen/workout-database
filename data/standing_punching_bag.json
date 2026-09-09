@@ -1,256 +1,5 @@
 [
   {
-    "id": "standing_punching_bag_low_kicks",
-    "exercise_name": {
-      "en": "Low Kicks",
-      "nl": "Low Kicks"
-    },
-    "aliases": [
-      "Low Kicks"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Kickboxing",
-      "nl": "Kickboksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Step out diagonally with your lead leg and strike the lower-mid bag with your shin in a low kick.",
-        "Fully rotate your hip."
-      ],
-      "nl": [
-        "Stap schuin uit met je standbeen en trap met je scheenbeen tegen de onderkant/midden van de paal (alsof je een bovenbeen raakt).",
-        "Draai je heup volledig in."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "_yeYZZZEfx0",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 806,
-          "channel": "Ironboy Experience",
-          "likes": 363
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "standing_punching_bag_elbow_strikes",
-    "exercise_name": {
-      "en": "Elbow Strikes",
-      "nl": "Elbow Strikes"
-    },
-    "aliases": [
-      "Elbow Strikes"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Muay Thai Striking",
-      "nl": "Muay Thai"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Come close.",
-        "Turn your body and hit the bar horizontally or diagonally with the tip of your elbow.",
-        "Hold your other hand tightly against your head."
-      ],
-      "nl": [
-        "Kom dichtbij.",
-        "Draai je lichaam in en sla met de punt van je elleboog horizontaal of diagonaal tegen de paal.",
-        "Houd je andere hand strak tegen je hoofd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "UP_n0X_An2Q",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 686,
-          "channel": "UFC FIGHT STATS",
-          "likes": 1201
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "standing_punching_bag_situp_punches",
-    "exercise_name": {
-      "en": "Sit-up Punches",
-      "nl": "Sit-up Punches"
-    },
-    "aliases": [
-      "Sit-up Punches"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Abs & Combat Conditioning",
-      "nl": "Buikspieren / Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on the ground in front of the pole (feet towards the pole).",
-        "Perform a sit-up and give two punches (1-2) at the top of the side or base of the pole."
-      ],
-      "nl": [
-        "Ga voor de paal op de grond liggen (voeten richting paal).",
-        "Maak een sit-up en geef bovenin twee stoten (1-2) tegen de zijkant of voet van de paal."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "y6lW-GmjhvQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "DAREBEE"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "standing_punching_bag_burpee_over_bag",
     "exercise_name": {
       "en": "Burpee Over Bag",
@@ -1729,6 +1478,259 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_low_kicks",
+    "exercise_name": {
+      "en": "Low Kicks",
+      "nl": "Low Kicks"
+    },
+    "aliases": [
+      "Low Kicks"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Kickboxing",
+      "nl": "Kickboksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Step out diagonally with your lead leg and strike the lower-mid bag with your shin in a low kick.",
+        "Fully rotate your hip."
+      ],
+      "nl": [
+        "Stap schuin uit met je standbeen en trap met je scheenbeen tegen de onderkant/midden van de paal (alsof je een bovenbeen raakt).",
+        "Draai je heup volledig in."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "aWO5vLBwk3c",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Heavy Bag Slayer",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_elbow_strikes",
+    "exercise_name": {
+      "en": "Elbow Strikes",
+      "nl": "Elbow Strikes"
+    },
+    "aliases": [
+      "Elbow Strikes"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Muay Thai Striking",
+      "nl": "Muay Thai"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Come close.",
+        "Turn your body and hit the bar horizontally or diagonally with the tip of your elbow.",
+        "Hold your other hand tightly against your head."
+      ],
+      "nl": [
+        "Kom dichtbij.",
+        "Draai je lichaam in en sla met de punt van je elleboog horizontaal of diagonaal tegen de paal.",
+        "Houd je andere hand strak tegen je hoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "0en6yZnkt5Y",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Fighting Fit",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_situp_punches",
+    "exercise_name": {
+      "en": "Sit-up Punches",
+      "nl": "Sit-up Punches"
+    },
+    "aliases": [
+      "Sit-up Punches"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Abs & Combat Conditioning",
+      "nl": "Buikspieren / Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on the ground in front of the pole (feet towards the pole).",
+        "Perform a sit-up and give two punches (1-2) at the top of the side or base of the pole."
+      ],
+      "nl": [
+        "Ga voor de paal op de grond liggen (voeten richting paal).",
+        "Maak een sit-up en geef bovenin twee stoten (1-2) tegen de zijkant of voet van de paal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "T98uYz_fMWU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "StayFITT Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:38:53.336Z"
     }
   }
 ]
