@@ -969,363 +969,6 @@
     }
   },
   {
-    "id": "dumbbells_db_lateral_raise",
-    "exercise_name": {
-      "en": "Dumbbell Lateral Raise",
-      "nl": "Dumbbell Lateral Raise"
-    },
-    "aliases": [
-      "Dumbbell Lateral Raise"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "trapezius",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Stand tall with upright posture.",
-        "Lift the weights sideways to shoulder height.",
-        "Keep a slight bend in the elbows.",
-        "Lower smoothly back to the starting position."
-      ],
-      "nl": [
-        "Sta rechtop.",
-        "Til de gewichten zijwaarts omhoog tot schouderhoogte.",
-        "Houd een lichte buiging in de ellebogen.",
-        "Laat rustig zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "nnH63icHYXY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 23,
-          "channel": "FIT.nl",
-          "likes": 32
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "dumbbells_db_overhead_tricep_extension",
-    "exercise_name": {
-      "en": "Overhead Tricep Extension",
-      "nl": "Overhead Tricep Extension"
-    },
-    "aliases": [
-      "Overhead Tricep Extension"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Triceps",
-      "nl": "Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "anterior_deltoid",
-        "pectorals"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold one heavy weight (or two lighter weights) overhead with locked-out arms.",
-        "Bend your elbows and lower the weight behind your head.",
-        "Extend fully through your joints."
-      ],
-      "nl": [
-        "Houd één zwaar gewicht (of twee lichtere) boven je hoofd met gestrekte armen.",
-        "Buig je ellebogen en laat het gewicht achter je hoofd zakken.",
-        "Strek uit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "rqjLV14AeiU",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 24,
-          "channel": "IronmasterPro",
-          "likes": 6
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "dumbbells_db_goblet_squat",
-    "exercise_name": {
-      "en": "Dumbbell Goblet Squat",
-      "nl": "Dumbbell Goblet Squat"
-    },
-    "aliases": [
-      "Dumbbell Goblet Squat"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold one dumbbell vertically against your chest (hands under the top disk).",
-        "Place your feet slightly wider than your hips and lower into a deep squat."
-      ],
-      "nl": [
-        "Houd één dumbbell verticaal tegen je borst (handen onder de bovenste schijf).",
-        "Zet voeten iets breder dan heupen en zak in een diepe squat."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "2LnkzQ7paAc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 28,
-          "channel": "IronmasterPro",
-          "likes": 170
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "dumbbells_db_reverse_fly",
-    "exercise_name": {
-      "en": "Dumbbell Reverse Fly",
-      "nl": "Dumbbell Reverse Fly"
-    },
-    "aliases": [
-      "Dumbbell Reverse Fly"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Back & Rear Deltoids",
-      "nl": "Rug / Achterkant Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Bend forward at the hips (straight back).",
-        "Keep the weights positioned under your chest.",
-        "Raise your arms laterally like wings and squeeze your shoulder blades together."
-      ],
-      "nl": [
-        "Buig voorover vanuit de heupen (rechte rug).",
-        "Houd gewichten onder je borst.",
-        "Breng armen zijwaarts omhoog (als vleugels) en knijp schouderbladen samen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "KlQf6K-1Bfc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 22,
-          "channel": "Atomic Athlete",
-          "likes": 519
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "dumbbells_overhead_press",
     "exercise_name": {
       "en": "Overhead Press",
@@ -1769,6 +1412,363 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_lateral_raise",
+    "exercise_name": {
+      "en": "Dumbbell Lateral Raise",
+      "nl": "Dumbbell Lateral Raise"
+    },
+    "aliases": [
+      "Dumbbell Lateral Raise"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders",
+      "nl": "Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "trapezius",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with upright posture.",
+        "Lift the weights sideways to shoulder height.",
+        "Keep a slight bend in the elbows.",
+        "Lower smoothly back to the starting position."
+      ],
+      "nl": [
+        "Sta rechtop.",
+        "Til de gewichten zijwaarts omhoog tot schouderhoogte.",
+        "Houd een lichte buiging in de ellebogen.",
+        "Laat rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Kl3LEzQ5Zqs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_overhead_tricep_extension",
+    "exercise_name": {
+      "en": "Overhead Tricep Extension",
+      "nl": "Overhead Tricep Extension"
+    },
+    "aliases": [
+      "Overhead Tricep Extension"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Triceps",
+      "nl": "Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold one heavy weight (or two lighter weights) overhead with locked-out arms.",
+        "Bend your elbows and lower the weight behind your head.",
+        "Extend fully through your joints."
+      ],
+      "nl": [
+        "Houd één zwaar gewicht (of twee lichtere) boven je hoofd met gestrekte armen.",
+        "Buig je ellebogen en laat het gewicht achter je hoofd zakken.",
+        "Strek uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "QKfRhY8qvhg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Sweat by Steph",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_goblet_squat",
+    "exercise_name": {
+      "en": "Dumbbell Goblet Squat",
+      "nl": "Dumbbell Goblet Squat"
+    },
+    "aliases": [
+      "Dumbbell Goblet Squat"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold one dumbbell vertically against your chest (hands under the top disk).",
+        "Place your feet slightly wider than your hips and lower into a deep squat."
+      ],
+      "nl": [
+        "Houd één dumbbell verticaal tegen je borst (handen onder de bovenste schijf).",
+        "Zet voeten iets breder dan heupen en zak in een diepe squat."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "yTDROg8zZsU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "High Performance HQ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "dumbbells_db_reverse_fly",
+    "exercise_name": {
+      "en": "Dumbbell Reverse Fly",
+      "nl": "Dumbbell Reverse Fly"
+    },
+    "aliases": [
+      "Dumbbell Reverse Fly"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back & Rear Deltoids",
+      "nl": "Rug / Achterkant Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Bend forward at the hips (straight back).",
+        "Keep the weights positioned under your chest.",
+        "Raise your arms laterally like wings and squeeze your shoulder blades together."
+      ],
+      "nl": [
+        "Buig voorover vanuit de heupen (rechte rug).",
+        "Houd gewichten onder je borst.",
+        "Breng armen zijwaarts omhoog (als vleugels) en knijp schouderbladen samen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "dumbbells_db_single_arm_snatch"
+      ],
+      "regressions": [
+        "dumbbells_farmers_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "LsT-bR_zxLo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
     }
   }
 ]

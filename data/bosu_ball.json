@@ -1,353 +1,5 @@
 [
   {
-    "id": "bosu_ball_bosu_platform_pushup",
-    "exercise_name": {
-      "en": "Platform Tilt Push Up",
-      "nl": "Platform Tilt Push Up"
-    },
-    "aliases": [
-      "Platform Tilt Push Up"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place the BOSU ball dome-down with the flat platform facing upward.",
-        "Grip the outer edges securely.",
-        "Perform a push-up while keeping the BOSU platform balanced and stable."
-      ],
-      "nl": [
-        "Leg de Bosu op de bolle kant (plat vlak boven).",
-        "Pak de randen vast.",
-        "Maak een push-up en probeer de Bosu stabiel te houden (of kantel hem bewust links/rechts voor extra uitdaging)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "QpJlL-b1dUw",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 10,
-          "channel": "FITASTIC",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_mountain_climbers",
-    "exercise_name": {
-      "en": "Bosu Mountain Climbers",
-      "nl": "Bosu Mountain Climbers"
-    },
-    "aliases": [
-      "Bosu Mountain Climbers"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Cardio & Core",
-      "nl": "Cardio / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place the Bosu with the convex side down.",
-        "Support your hands on the flat surface (plank position).",
-        "Drive your knees alternately in a mountain climber while keeping the BOSU platform stable."
-      ],
-      "nl": [
-        "Leg de Bosu met de bolle kant omlaag.",
-        "Steun met je handen op het platte vlak (plank positie).",
-        "Trek om en om je knieën snel naar je borst terwijl je de Bosu stabiel houdt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Gb6S20SefNY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 17,
-          "channel": "MenoMojo",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_v_sit",
-    "exercise_name": {
-      "en": "Bosu V-Sit / V-Ups",
-      "nl": "Bosu V-Sit / V-Ups"
-    },
-    "aliases": [
-      "Bosu V-Sit / V-Ups"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Sit with your buttocks just in front of the center of the convex side.",
-        "Lift your legs and upper body simultaneously into a sharp V-up.",
-        "Maintain balance while bracing your abdominals with maximum tension."
-      ],
-      "nl": [
-        "Ga met je billen net voor het midden van de bolle kant zitten.",
-        "Til je benen en bovenlichaam tegelijk op (V-vorm).",
-        "Houd je balans en span je buikspieren maximaal aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "erDZUklASrs",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "4:3",
-          "duration_seconds": 80,
-          "channel": "ExpertVillage Leaf Group",
-          "likes": 7
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_side_plank",
-    "exercise_name": {
-      "en": "Bosu Side Plank",
-      "nl": "Bosu Side Plank"
-    },
-    "aliases": [
-      "Bosu Side Plank"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Core & Obliques",
-      "nl": "Core / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place your forearm on the convex side.",
-        "Extend your legs and elevate your hips into a reverse plank.",
-        "Your body forms a straight line.",
-        "Hold this position and switch sides."
-      ],
-      "nl": [
-        "Plaats je onderarm op de bolle kant.",
-        "Strek je benen uit en til je heupen op.",
-        "Je lichaam vormt een rechte lijn.",
-        "Houd deze positie vast en wissel van kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "wKlGka-d2yc",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "Elite Performance Institute"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "bosu_ball_bosu_lateral_hops",
     "exercise_name": {
       "en": "Lateral Hops (Over the Bosu)",
@@ -428,354 +80,6 @@
           "duration_seconds": 9,
           "channel": "Geeked Rehab",
           "likes": 104
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_toe_taps",
-    "exercise_name": {
-      "en": "Bosu Toe Taps",
-      "nl": "Bosu Toe Taps"
-    },
-    "aliases": [
-      "Bosu Toe Taps"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Tap the top of the BOSU dome rapidly with alternating toe touches.",
-        "Perform light, bouncy skips maintaining a fast cadence."
-      ],
-      "nl": [
-        "Tik om en om met je tenen snel de bovenkant van de bolle kant aan.",
-        "Maak een huppelende beweging en houd het tempo hoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "k2XOsx_Mdqk",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 18,
-          "channel": "Dr. Christy Lee",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_squat_jump",
-    "exercise_name": {
-      "en": "Bosu Squat Jump",
-      "nl": "Bosu Squat Jump"
-    },
-    "aliases": [
-      "Bosu Squat Jump"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Plyometrics",
-      "nl": "Benen / Plyometrics"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand balancing on the dome of the BOSU ball.",
-        "Lower into a squat and jump up explosively (apart from the Bosu).",
-        "Try to land stably and softly on the convex side again."
-      ],
-      "nl": [
-        "Sta op de bolle kant.",
-        "Zak in een squat en spring explosief omhoog (los van de Bosu).",
-        "Probeer weer stabiel en zacht op de bolle kant te landen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ey5OpiGiQX8",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 22,
-          "channel": "University of Delaware",
-          "likes": 35
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_single_leg_bridge",
-    "exercise_name": {
-      "en": "Single Leg Glute Bridge",
-      "nl": "Single Leg Glute Bridge"
-    },
-    "aliases": [
-      "Single Leg Glute Bridge"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Glutes",
-      "nl": "Benen / Billen"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back, one foot on the rounded side, the other leg extended in the air.",
-        "Push your hips up from the leg on the Bosu."
-      ],
-      "nl": [
-        "Lig op je rug, één voet op de bolle kant, het andere been gestrekt in de lucht.",
-        "Duw je heupen omhoog vanuit het been op de Bosu."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "d-uJw-NxwiQ",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 361,
-          "channel": "FitnessRx For Women Magazine",
-          "likes": 105
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "bosu_ball_bosu_single_leg_balance",
-    "exercise_name": {
-      "en": "Single Leg Balance Hold",
-      "nl": "Single Leg Balance Hold"
-    },
-    "aliases": [
-      "Single Leg Balance Hold"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Balance",
-      "nl": "Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand on one leg on the rounded side.",
-        "Keep your knee slightly bent.",
-        "Try to maintain the hold for as long as possible (e.g.",
-        "30 sec) to remain standing without touching the ground with your other foot."
-      ],
-      "nl": [
-        "Ga op één been op de bolle kant staan.",
-        "Houd je knie licht gebogen.",
-        "Probeer zo lang mogelijk (bijv.",
-        "30 sec) te blijven staan zonder met je andere voet de grond te raken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bosu_ball_bosu_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-5lF93MY8Ls",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 72,
-          "channel": "Elite Performance Institute",
-          "likes": 12
         }
       ]
     },
@@ -1756,6 +1060,704 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T12:33:01.746Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_platform_pushup",
+    "exercise_name": {
+      "en": "Platform Tilt Push Up",
+      "nl": "Platform Tilt Push Up"
+    },
+    "aliases": [
+      "Platform Tilt Push Up"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Place the BOSU ball dome-down with the flat platform facing upward.",
+        "Grip the outer edges securely.",
+        "Perform a push-up while keeping the BOSU platform balanced and stable."
+      ],
+      "nl": [
+        "Leg de Bosu op de bolle kant (plat vlak boven).",
+        "Pak de randen vast.",
+        "Maak een push-up en probeer de Bosu stabiel te houden (of kantel hem bewust links/rechts voor extra uitdaging)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dkUsbsytqqE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Every BODY's Fit #fitlife #everybodysfit #drfit ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_mountain_climbers",
+    "exercise_name": {
+      "en": "Bosu Mountain Climbers",
+      "nl": "Bosu Mountain Climbers"
+    },
+    "aliases": [
+      "Bosu Mountain Climbers"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Core",
+      "nl": "Cardio / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place the Bosu with the convex side down.",
+        "Support your hands on the flat surface (plank position).",
+        "Drive your knees alternately in a mountain climber while keeping the BOSU platform stable."
+      ],
+      "nl": [
+        "Leg de Bosu met de bolle kant omlaag.",
+        "Steun met je handen op het platte vlak (plank positie).",
+        "Trek om en om je knieën snel naar je borst terwijl je de Bosu stabiel houdt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "TMjDM4sZIBk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "PEAK Fit MT",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_v_sit",
+    "exercise_name": {
+      "en": "Bosu V-Sit / V-Ups",
+      "nl": "Bosu V-Sit / V-Ups"
+    },
+    "aliases": [
+      "Bosu V-Sit / V-Ups"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit with your buttocks just in front of the center of the convex side.",
+        "Lift your legs and upper body simultaneously into a sharp V-up.",
+        "Maintain balance while bracing your abdominals with maximum tension."
+      ],
+      "nl": [
+        "Ga met je billen net voor het midden van de bolle kant zitten.",
+        "Til je benen en bovenlichaam tegelijk op (V-vorm).",
+        "Houd je balans en span je buikspieren maximaal aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "eVu07gS_MOM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Workout with Wendy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_side_plank",
+    "exercise_name": {
+      "en": "Bosu Side Plank",
+      "nl": "Bosu Side Plank"
+    },
+    "aliases": [
+      "Bosu Side Plank"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Core & Obliques",
+      "nl": "Core / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place your forearm on the convex side.",
+        "Extend your legs and elevate your hips into a reverse plank.",
+        "Your body forms a straight line.",
+        "Hold this position and switch sides."
+      ],
+      "nl": [
+        "Plaats je onderarm op de bolle kant.",
+        "Strek je benen uit en til je heupen op.",
+        "Je lichaam vormt een rechte lijn.",
+        "Houd deze positie vast en wissel van kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "sIWlrxiMzHQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Karlie Booker",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_toe_taps",
+    "exercise_name": {
+      "en": "Bosu Toe Taps",
+      "nl": "Bosu Toe Taps"
+    },
+    "aliases": [
+      "Bosu Toe Taps"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Tap the top of the BOSU dome rapidly with alternating toe touches.",
+        "Perform light, bouncy skips maintaining a fast cadence."
+      ],
+      "nl": [
+        "Tik om en om met je tenen snel de bovenkant van de bolle kant aan.",
+        "Maak een huppelende beweging en houd het tempo hoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "AdRscOXcG_s",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Karlie Booker",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_squat_jump",
+    "exercise_name": {
+      "en": "Bosu Squat Jump",
+      "nl": "Bosu Squat Jump"
+    },
+    "aliases": [
+      "Bosu Squat Jump"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Plyometrics",
+      "nl": "Benen / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand balancing on the dome of the BOSU ball.",
+        "Lower into a squat and jump up explosively (apart from the Bosu).",
+        "Try to land stably and softly on the convex side again."
+      ],
+      "nl": [
+        "Sta op de bolle kant.",
+        "Zak in een squat en spring explosief omhoog (los van de Bosu).",
+        "Probeer weer stabiel en zacht op de bolle kant te landen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Iy1g7tSdpAs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "The Performance Trainer",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_single_leg_bridge",
+    "exercise_name": {
+      "en": "Single Leg Glute Bridge",
+      "nl": "Single Leg Glute Bridge"
+    },
+    "aliases": [
+      "Single Leg Glute Bridge"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Glutes",
+      "nl": "Benen / Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, one foot on the rounded side, the other leg extended in the air.",
+        "Push your hips up from the leg on the Bosu."
+      ],
+      "nl": [
+        "Lig op je rug, één voet op de bolle kant, het andere been gestrekt in de lucht.",
+        "Duw je heupen omhoog vanuit het been op de Bosu."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9gjC-7JbalQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Elements Training & Fitness ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_single_leg_balance",
+    "exercise_name": {
+      "en": "Single Leg Balance Hold",
+      "nl": "Single Leg Balance Hold"
+    },
+    "aliases": [
+      "Single Leg Balance Hold"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Balance",
+      "nl": "Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand on one leg on the rounded side.",
+        "Keep your knee slightly bent.",
+        "Try to maintain the hold for as long as possible (e.g.",
+        "30 sec) to remain standing without touching the ground with your other foot."
+      ],
+      "nl": [
+        "Ga op één been op de bolle kant staan.",
+        "Houd je knie licht gebogen.",
+        "Probeer zo lang mogelijk (bijv.",
+        "30 sec) te blijven staan zonder met je andere voet de grond te raken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "bosu_ball_bosu_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "iCq7GesLSmA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Taylored Physical Therapy",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T11:43:21.102Z"
     }
   }
 ]
