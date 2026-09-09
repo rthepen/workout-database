@@ -79,5 +79,89 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "stability_ball_downward_facing_balance",
+    "exercise_name": {
+      "en": "Downward Facing Balance",
+      "nl": "Downward Facing Balance op Bal"
+    },
+    "aliases": [
+      "Downward Facing Balance",
+      "Downward_Facing_Balance"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down over an exercise ball with your pelvis and stomach centered on the dome.",
+        "Walk hands forward on the floor and lift both legs straight into the air.",
+        "Hold the balanced horizontal alignment, squeezing glutes and core."
+      ],
+      "nl": [
+        "Ga op je buik over de bal liggen met je heupen op het midden van de bal.",
+        "Loop met je handen naar voren en til beide benen gestrekt de lucht in.",
+        "Houd je lichaam horizontaal in balans en span je bilspieren en core aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Maintain neck in neutral alignment with your spine."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Houd je nek recht in het verlengde van je wervelkolom."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Downward_Facing_Balance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Downward_Facing_Balance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

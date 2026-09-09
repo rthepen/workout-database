@@ -10024,5 +10024,92 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_double_leg_butt_kick",
+    "exercise_name": {
+      "en": "Double Leg Butt Kick",
+      "nl": "Double Leg Butt Kick"
+    },
+    "aliases": [
+      "Double Leg Butt Kick",
+      "Double_Leg_Butt_Kick"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with knees slightly bent.",
+        "Dip into a shallow squat and explode upward for maximum vertical height.",
+        "In mid-air, flex both knees rapidly to kick both heels up to touch the glutes.",
+        "Extend legs quickly to land softly on the balls of your feet."
+      ],
+      "nl": [
+        "Sta rechtop met licht gebogen knieën.",
+        "Maak een korte buiging en spring explosief zo hoog mogelijk recht omhoog.",
+        "Klap in de lucht beide hielen tegelijkertijd tegen je billen aan.",
+        "Strek je benen op tijd uit en vang de landing zachtjes op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Land with soft knees to absorb landing force smoothly."
+      ],
+      "nl": [
+        "Houd je borst op en zet krachtig af vanuit je voeten.",
+        "Land verend met gebogen knieën om de schok op te vangen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Leg_Butt_Kick/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Leg_Butt_Kick/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

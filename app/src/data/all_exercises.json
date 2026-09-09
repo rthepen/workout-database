@@ -35452,6 +35452,179 @@
     }
   },
   {
+    "id": "barbell_deficit_deadlift",
+    "exercise_name": {
+      "en": "Deficit Deadlift",
+      "nl": "Deficit Deadlift"
+    },
+    "aliases": [
+      "Deficit Deadlift",
+      "Deficit_Deadlift"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell & Platform",
+        "nl": "Halterstang & Verhoging"
+      },
+      "description": {
+        "en": "Barbell deadlift performed standing on a 1-3 inch raised platform or weight plate",
+        "nl": "Deadlift uitgevoerd vanaf een verhoging voor een grotere bewegingsuitslag"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "rhomboids",
+        "quadriceps",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand on a 1-3 inch platform or bumper plate with barbell centered over feet.",
+        "Hinge at the hips, bend knees until shins touch the bar, and establish a flat back posture.",
+        "Drive through your heels to pull the bar from the floor through an extended range of motion.",
+        "Lock out hips firmly at the top, then guide the bar back to the floor."
+      ],
+      "nl": [
+        "Ga op een verhoging of schijf van 2 tot 7 cm staan met de stang boven het midden van je voeten.",
+        "Buig door je heupen en knieën tot je schenen de stang raken en houd je rug kaarsrecht.",
+        "Trek de halterstang krachtig van de vloer door de diepere startpositie heen.",
+        "Strek je heupen volledig uit bovenin en laat de stang gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain spinal neutrality despite the deeper starting flexion."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Voorkom dat je onderrug bolt door de extra diepe startpositie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Deficit_Deadlift/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Deficit_Deadlift/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_drag_curl",
+    "exercise_name": {
+      "en": "Drag Curl",
+      "nl": "Drag Curl"
+    },
+    "aliases": [
+      "Drag Curl",
+      "Drag_Curl"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold a barbell with a shoulder-width supinated grip standing tall.",
+        "Drive elbows backward behind your torso as you drag the bar straight up along your shirt.",
+        "Squeeze biceps hard at upper chest height, then lower the bar along the same contact path."
+      ],
+      "nl": [
+        "Sta rechtop en houd de halterstang onderhands vast op schouderbreedte.",
+        "Trek je ellebogen naar achteren terwijl je de stang langs je lichaam omhoog sleept.",
+        "Knijp je biceps bovenin hard aan en laat de stang langs je romp weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the barbell in constant sliding contact with your torso.",
+        "Do not shrug the shoulders up toward your ears."
+      ],
+      "nl": [
+        "Houd de stang continu tegen je lichaam aan gedurende de hele beweging.",
+        "Trek je schouders niet omhoog en houd ze laag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drag_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drag_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
     "id": "battle_rope_waves",
     "exercise_name": {
       "en": "Battling Ropes",
@@ -37631,6 +37804,93 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Oblique_Crunch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bodyweight_double_leg_butt_kick",
+    "exercise_name": {
+      "en": "Double Leg Butt Kick",
+      "nl": "Double Leg Butt Kick"
+    },
+    "aliases": [
+      "Double Leg Butt Kick",
+      "Double_Leg_Butt_Kick"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with knees slightly bent.",
+        "Dip into a shallow squat and explode upward for maximum vertical height.",
+        "In mid-air, flex both knees rapidly to kick both heels up to touch the glutes.",
+        "Extend legs quickly to land softly on the balls of your feet."
+      ],
+      "nl": [
+        "Sta rechtop met licht gebogen knieën.",
+        "Maak een korte buiging en spring explosief zo hoog mogelijk recht omhoog.",
+        "Klap in de lucht beide hielen tegelijkertijd tegen je billen aan.",
+        "Strek je benen op tijd uit en vang de landing zachtjes op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Land with soft knees to absorb landing force smoothly."
+      ],
+      "nl": [
+        "Houd je borst op en zet krachtig af vanuit je voeten.",
+        "Land verend met gebogen knieën om de schok op te vangen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Leg_Butt_Kick/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Leg_Butt_Kick/1.jpg",
           "type": "photo"
         }
       ],
@@ -39987,6 +40247,675 @@
     }
   },
   {
+    "id": "dumbbells_clean",
+    "exercise_name": {
+      "en": "Dumbbell Clean",
+      "nl": "Dumbbell Clean"
+    },
+    "aliases": [
+      "Dumbbell Clean",
+      "Dumbbell_Clean"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "forearms",
+        "glutes",
+        "erector_spinae",
+        "quadriceps",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold dumbbells at your sides and hinge at hips until weights reach mid-shin.",
+        "Explosively extend through hips and knees to propel dumbbells upward.",
+        "Dip under the weights to catch them in a quarter-squat across your shoulders, then stand tall."
+      ],
+      "nl": [
+        "Houd dumbbells langs je lichaam en buig voorover tot halverwege je schenen.",
+        "Strek je heupen en knieën explosief om de gewichten omhoog te versnellen.",
+        "Duik onder de dumbbells en vang ze op je schouders in een kwart-squat, kom daarna rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Keep dumbbells close to your body during the pull phase."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Houd de dumbbells dicht bij je lichaam tijdens de opwaartse beweging."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Clean/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Clean/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_incline_shoulder_raise",
+    "exercise_name": {
+      "en": "Dumbbell Incline Shoulder Raise",
+      "nl": "Dumbbell Incline Shoulder Raise"
+    },
+    "aliases": [
+      "Dumbbell Incline Shoulder Raise",
+      "Dumbbell_Incline_Shoulder_Raise"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie back on an incline bench holding dumbbells straight overhead with locked arms.",
+        "Without bending elbows, protract shoulder blades upward off the bench.",
+        "Lower shoulder blades back into the pad with control and repeat."
+      ],
+      "nl": [
+        "Ga op een schuine bank liggen en houd de dumbbells met gestrekte armen recht omhoog.",
+        "Duw de schouderbladen los van de leuning omhoog zonder je ellebogen te buigen.",
+        "Trek je schouderbladen weer gecontroleerd terug tegen de bank en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows completely straight throughout the repetition.",
+        "Focus movement strictly through scapular protraction and retraction."
+      ],
+      "nl": [
+        "Houd je armen gestrekt; de beweging komt puur uit je schouderbladen.",
+        "Beweeg rustig en gecontroleerd op en neer."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Incline_Shoulder_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Incline_Shoulder_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_lying_rear_lateral_raise",
+    "exercise_name": {
+      "en": "Dumbbell Lying Rear Lateral Raise",
+      "nl": "Dumbbell Liggende Rear Lateral Raise"
+    },
+    "aliases": [
+      "Dumbbell Lying Rear Lateral Raise",
+      "Dumbbell_Lying_Rear_Lateral_Raise"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie chest-down on a low incline bench holding dumbbells with neutral palms.",
+        "Raise arms out laterally until elbows are at shoulder height and parallel to the floor.",
+        "Pause for a second at the top, then slowly lower dumbbells back down."
+      ],
+      "nl": [
+        "Ga met je borst op een lichte incline bank liggen en houd de dumbbells met neutrale greep vast.",
+        "Hef je armen zijwaarts omhoog tot je ellebogen op schouderhoogte zijn.",
+        "Knijp je achterste schouderkoppen bovenin samen en laat de gewichten rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the lift with your elbows while keeping a soft bend.",
+        "Avoid swinging the weights or lifting your chest off the bench."
+      ],
+      "nl": [
+        "Hef vanuit je ellebogen met licht gebogen armen.",
+        "Zwaai niet met de gewichten en houd je borst op het kussen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_lying_pronation",
+    "exercise_name": {
+      "en": "Dumbbell Lying Pronation",
+      "nl": "Liggende Dumbbell Pronatie"
+    },
+    "aliases": [
+      "Dumbbell Lying Pronation",
+      "Dumbbell_Lying_Pronation"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "forearms"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down on a flat bench holding a dumbbell with elbow bent at 90 degrees.",
+        "Start with upper arm parallel to the floor and forearm pointing down.",
+        "Rotate forearm outward/forward until it is parallel to the ground, holding contraction for one second.",
+        "Slowly rotate back down and repeat."
+      ],
+      "nl": [
+        "Ga op je buik op een bankje liggen met een dumbbell en buig je elleboog in 90 graden.",
+        "Houd je bovenarm horizontaal en je onderarm naar beneden gericht.",
+        "Draai je onderarm naar voren/boven tot hij parallel is aan de vloer en houd even vast.",
+        "Laat gecontroleerd weer terugdraaien en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the upper arm firmly pinned at a 90-degree angle to the torso.",
+        "Perform movement with strict, controlled forearm rotation."
+      ],
+      "nl": [
+        "Houd je bovenarm stil in een rechte hoek met je romp.",
+        "Draai gecontroleerd zonder te zwaaien met het gewicht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Pronation/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Pronation/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_one_arm_upright_row",
+    "exercise_name": {
+      "en": "Dumbbell One-Arm Upright Row",
+      "nl": "Dumbbell One-Arm Upright Row"
+    },
+    "aliases": [
+      "Dumbbell One-Arm Upright Row",
+      "Dumbbell_One-Arm_Upright_Row"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding a dumbbell in front of your thigh with an overhand grip.",
+        "Pull the dumbbell straight up along your torso, leading with the elbow until the weight reaches collarbone level.",
+        "Pause for a second at the top, then slowly lower the dumbbell back down."
+      ],
+      "nl": [
+        "Sta rechtop en houd een dumbbell voor je bovenbeen met de handpalm naar je toe.",
+        "Trek de dumbbell langs je lichaam omhoog waarbij je elleboog de beweging leidt tot sleutelbeenhoogte.",
+        "Pauzeer even bovenin en laat het gewicht gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the elbow higher than the wrist throughout the entire pull.",
+        "Do not swing the torso or use leg drive."
+      ],
+      "nl": [
+        "Zorg dat je elleboog continu hoger blijft dan je pols.",
+        "Zwaai niet met je lichaam en zet geen kracht vanuit je benen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_One-Arm_Upright_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_One-Arm_Upright_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_prone_incline_curl",
+    "exercise_name": {
+      "en": "Dumbbell Prone Incline Curl (Spider Curl)",
+      "nl": "Dumbbell Spider Curl"
+    },
+    "aliases": [
+      "Dumbbell Prone Incline Curl",
+      "Dumbbell_Prone_Incline_Curl"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie chest-down on an incline bench holding dumbbells hanging perpendicular to the floor.",
+        "With palms facing forward, curl weights up toward your shoulders.",
+        "Hold the peak biceps contraction for a second, then lower weights to full extension."
+      ],
+      "nl": [
+        "Ga met je borst op een schuine bank liggen met dumbbells recht naar beneden hangend.",
+        "Draai je handpalmen naar voren en curl de gewichten omhoog naar je schouders.",
+        "Knijp je biceps bovenin hard samen en laat de armen weer volledig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upper arms completely stationary hanging vertical.",
+        "Do not allow elbows to drift backward during the curl."
+      ],
+      "nl": [
+        "Houd je bovenarmen recht naar beneden gericht.",
+        "Laat je ellebogen niet naar achteren bewegen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Prone_Incline_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Prone_Incline_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_scaption",
+    "exercise_name": {
+      "en": "Dumbbell Scaption",
+      "nl": "Dumbbell Scaption"
+    },
+    "aliases": [
+      "Dumbbell Scaption",
+      "Dumbbell_Scaption"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding light dumbbells at sides with thumbs pointing up.",
+        "Raise arms forward and outward at a 30-degree angle to your torso (the scapular plane).",
+        "Lift until arms reach parallel with the floor, pause, and lower under control."
+      ],
+      "nl": [
+        "Sta rechtop met lichte dumbbells langs je lichaam en duimen omhoog gericht.",
+        "Hef je armen schuin naar voren in een hoek van 30 graden (scapulaire vlak).",
+        "Beweeg omhoog tot schouderhoogte, pauzeer kort en laat rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep thumbs pointing upward throughout the entire motion.",
+        "Do not shrug shoulders up toward the ears."
+      ],
+      "nl": [
+        "Houd je duimen omhoog gericht tijdens de hele beweging.",
+        "Trek je schouders niet op naar je oren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Scaption/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Scaption/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_seated_box_jump",
+    "exercise_name": {
+      "en": "Dumbbell Seated Box Jump",
+      "nl": "Zittende Dumbbell Box Jump"
+    },
+    "aliases": [
+      "Dumbbell Seated Box Jump",
+      "Dumbbell_Seated_Box_Jump"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbell & Box",
+        "nl": "Dumbbell & Box"
+      },
+      "description": {
+        "en": "Loaded box jumps initiated from a dead-stop seated bench position",
+        "nl": "Box jumps met dumbbell vanuit een zittende positie zonder tegendruk"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on a bench facing a plyo box holding a dumbbell securely at your chest.",
+        "Lean forward from hips, plant feet firmly, and explode upward onto the box.",
+        "Land with soft knees absorbing impact, then step down and reset."
+      ],
+      "nl": [
+        "Zit op een bankje voor een plyo box met een dumbbell stevig tegen je borst geklemd.",
+        "Leun naar voren, zet je voeten stevig neer en spring explosief op de box.",
+        "Vang de landing verend op door je knieën te buigen en stap rustig af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Explode from a complete dead-stop without rocking excessively."
+      ],
+      "nl": [
+        "Houd je borst op en zet krachtig af vanuit het midden van je voet en je hielen.",
+        "Spring explosief vanuit stilstand zonder te ver naar achteren te wiegen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Seated_Box_Jump/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Seated_Box_Jump/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
     "id": "stability_ball_chest_stretch_ball",
     "exercise_name": {
       "en": "Chest Stretch on Stability Ball",
@@ -40057,6 +40986,90 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chest_Stretch_on_Stability_Ball/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "stability_ball_downward_facing_balance",
+    "exercise_name": {
+      "en": "Downward Facing Balance",
+      "nl": "Downward Facing Balance op Bal"
+    },
+    "aliases": [
+      "Downward Facing Balance",
+      "Downward_Facing_Balance"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down over an exercise ball with your pelvis and stomach centered on the dome.",
+        "Walk hands forward on the floor and lift both legs straight into the air.",
+        "Hold the balanced horizontal alignment, squeezing glutes and core."
+      ],
+      "nl": [
+        "Ga op je buik over de bal liggen met je heupen op het midden van de bal.",
+        "Loop met je handen naar voren en til beide benen gestrekt de lucht in.",
+        "Houd je lichaam horizontaal in balans en span je bilspieren en core aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Maintain neck in neutral alignment with your spine."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Houd je nek recht in het verlengde van je wervelkolom."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Downward_Facing_Balance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Downward_Facing_Balance/1.jpg",
           "type": "photo"
         }
       ],
@@ -41585,6 +42598,173 @@
     }
   },
   {
+    "id": "machine_decline_smith_press",
+    "exercise_name": {
+      "en": "Decline Smith Press",
+      "nl": "Decline Smith Press"
+    },
+    "aliases": [
+      "Decline Smith Press",
+      "Decline_Smith_Press"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Smith Machine",
+        "nl": "Smith Machine"
+      },
+      "description": {
+        "en": "Guided barbell track machine with safety lockouts",
+        "nl": "Geleide halterstang met vaste baan en veiligheidshaken"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Position a decline bench under a Smith machine bar and unrack with an overhand grip wider than shoulder width.",
+        "Lower the bar under control until it lightly touches your lower chest.",
+        "Press the bar back up to full lockout as you exhale, then re-rack securely when the set is complete."
+      ],
+      "nl": [
+        "Plaats een decline bank onder de Smith machine en ontgrendel de stang met een brede bovenhandse greep.",
+        "Laat de stang gecontroleerd zakken tot hij licht je onderste borstspieren raakt.",
+        "Druk de stang krachtig uit tot de armen gestrekt zijn en vergrendel hem na de set."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Do not bounce the bar off your lower sternum."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Laat de stang niet stuiteren op je borstbeen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Smith_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Smith_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "machine_donkey_calf_raises",
+    "exercise_name": {
+      "en": "Donkey Calf Raises",
+      "nl": "Donkey Calf Raises"
+    },
+    "aliases": [
+      "Donkey Calf Raises",
+      "Donkey_Calf_Raises"
+    ],
+    "material": {
+      "id": "machine",
+      "name": {
+        "en": "Donkey Calf Machine",
+        "nl": "Donkey Calf Machine"
+      },
+      "description": {
+        "en": "Donkey calf raise apparatus with hip pad and calf block",
+        "nl": "Kuitmachine met heupkussen voor voorovergebogen kuitheffen"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Position hips and tailbone under the padded lever with balls of feet on calf block.",
+        "Lower heels down as far as possible to stretch the calves fully.",
+        "Extend ankles to raise heels as high as possible, contracting calves hard for one second.",
+        "Slowly return to the starting stretch position and repeat."
+      ],
+      "nl": [
+        "Plaats je heupen onder het kussen en zet de bal van je voeten op de verhoging.",
+        "Laat je hielen diep zakken voor een maximale rek op je kuitspieren.",
+        "Duw jezelf zo hoog mogelijk op je tenen en houd de contractie bovenin één seconde vast.",
+        "Laat je hielen weer rustig zakken en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep knees stationary with a micro-bend; do not bend or pump from knees.",
+        "Emphasize a slow stretch at the bottom without bouncing."
+      ],
+      "nl": [
+        "Houd je knieën stil en buig ze niet tijdens het heffen.",
+        "Veer niet onderin en beweeg beheerst."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Donkey_Calf_Raises/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Donkey_Calf_Raises/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
     "id": "medicine_ball_catch_overhead_throw",
     "exercise_name": {
       "en": "Catch and Overhead Throw",
@@ -43032,6 +44212,175 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Box_Skip/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "plyo_box_depth_jump_leap",
+    "exercise_name": {
+      "en": "Depth Jump Leap",
+      "nl": "Depth Jump Leap"
+    },
+    "aliases": [
+      "Depth Jump Leap",
+      "Depth_Jump_Leap"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Two boxes of differing heights for reactive depth jumps and rebound leaps",
+        "nl": "Twee boxen van verschillende hoogtes voor reactieve plyometrische sprongen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand on a low box facing a higher box spaced two to three feet away.",
+        "Step off the initial box, land softly on both feet, and rebound immediately with maximum explosive power.",
+        "Drive arms upward to jump onto the higher box, absorbing impact through knees upon landing."
+      ],
+      "nl": [
+        "Ga op een lage box staan met een hogere box op een meter afstand voor je.",
+        "Stap van de box af, land op beide voeten en veer direct explosief op.",
+        "Zwaai je armen mee om direct op de hogere box te springen en vang de landing zacht op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Minimize ground contact time between landing and the explosive takeoff.",
+        "Land softly with flexed knees and hips."
+      ],
+      "nl": [
+        "Houd het contact met de vloer zo kort mogelijk en veer direct weer op.",
+        "Land zacht door soepel door je knieën en heupen te buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Depth_Jump_Leap/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Depth_Jump_Leap/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "plyo_box_drop_push",
+    "exercise_name": {
+      "en": "Drop Push (Plyo Push-Up Drop)",
+      "nl": "Drop Push"
+    },
+    "aliases": [
+      "Drop Push",
+      "Drop_Push"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Blocks / Platforms",
+        "nl": "Plyo Blokken"
+      },
+      "description": {
+        "en": "Low platforms set on either side for plyometric upper-body drop push-ups",
+        "nl": "Lage verhogingen voor plyometrische opdrukoefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a push-up position with hands supported on two low platforms 2-3 feet apart.",
+        "Drop hands between the blocks to the floor, absorbing the impact into a deep push-up.",
+        "Immediately explode upward, pressing hands forcefully back onto the platforms."
+      ],
+      "nl": [
+        "Begin in een opdrukhouding met je handen op twee lage verhogingen.",
+        "Laat je handen tussen de blokken op de grond vallen en vang de klap op in een push-up.",
+        "Duw jezelf direct weer explosief omhoog zodat je handen terug op de blokken landen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drop_Push/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drop_Push/1.jpg",
           "type": "photo"
         }
       ],

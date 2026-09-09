@@ -2193,5 +2193,674 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "dumbbells_clean",
+    "exercise_name": {
+      "en": "Dumbbell Clean",
+      "nl": "Dumbbell Clean"
+    },
+    "aliases": [
+      "Dumbbell Clean",
+      "Dumbbell_Clean"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "forearms",
+        "glutes",
+        "erector_spinae",
+        "quadriceps",
+        "deltoids",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold dumbbells at your sides and hinge at hips until weights reach mid-shin.",
+        "Explosively extend through hips and knees to propel dumbbells upward.",
+        "Dip under the weights to catch them in a quarter-squat across your shoulders, then stand tall."
+      ],
+      "nl": [
+        "Houd dumbbells langs je lichaam en buig voorover tot halverwege je schenen.",
+        "Strek je heupen en knieën explosief om de gewichten omhoog te versnellen.",
+        "Duik onder de dumbbells en vang ze op je schouders in een kwart-squat, kom daarna rechtop staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Keep dumbbells close to your body during the pull phase."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Houd de dumbbells dicht bij je lichaam tijdens de opwaartse beweging."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Clean/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Clean/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_incline_shoulder_raise",
+    "exercise_name": {
+      "en": "Dumbbell Incline Shoulder Raise",
+      "nl": "Dumbbell Incline Shoulder Raise"
+    },
+    "aliases": [
+      "Dumbbell Incline Shoulder Raise",
+      "Dumbbell_Incline_Shoulder_Raise"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie back on an incline bench holding dumbbells straight overhead with locked arms.",
+        "Without bending elbows, protract shoulder blades upward off the bench.",
+        "Lower shoulder blades back into the pad with control and repeat."
+      ],
+      "nl": [
+        "Ga op een schuine bank liggen en houd de dumbbells met gestrekte armen recht omhoog.",
+        "Duw de schouderbladen los van de leuning omhoog zonder je ellebogen te buigen.",
+        "Trek je schouderbladen weer gecontroleerd terug tegen de bank en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows completely straight throughout the repetition.",
+        "Focus movement strictly through scapular protraction and retraction."
+      ],
+      "nl": [
+        "Houd je armen gestrekt; de beweging komt puur uit je schouderbladen.",
+        "Beweeg rustig en gecontroleerd op en neer."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Incline_Shoulder_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Incline_Shoulder_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_lying_rear_lateral_raise",
+    "exercise_name": {
+      "en": "Dumbbell Lying Rear Lateral Raise",
+      "nl": "Dumbbell Liggende Rear Lateral Raise"
+    },
+    "aliases": [
+      "Dumbbell Lying Rear Lateral Raise",
+      "Dumbbell_Lying_Rear_Lateral_Raise"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie chest-down on a low incline bench holding dumbbells with neutral palms.",
+        "Raise arms out laterally until elbows are at shoulder height and parallel to the floor.",
+        "Pause for a second at the top, then slowly lower dumbbells back down."
+      ],
+      "nl": [
+        "Ga met je borst op een lichte incline bank liggen en houd de dumbbells met neutrale greep vast.",
+        "Hef je armen zijwaarts omhoog tot je ellebogen op schouderhoogte zijn.",
+        "Knijp je achterste schouderkoppen bovenin samen en laat de gewichten rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the lift with your elbows while keeping a soft bend.",
+        "Avoid swinging the weights or lifting your chest off the bench."
+      ],
+      "nl": [
+        "Hef vanuit je ellebogen met licht gebogen armen.",
+        "Zwaai niet met de gewichten en houd je borst op het kussen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_lying_pronation",
+    "exercise_name": {
+      "en": "Dumbbell Lying Pronation",
+      "nl": "Liggende Dumbbell Pronatie"
+    },
+    "aliases": [
+      "Dumbbell Lying Pronation",
+      "Dumbbell_Lying_Pronation"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "forearms"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie face down on a flat bench holding a dumbbell with elbow bent at 90 degrees.",
+        "Start with upper arm parallel to the floor and forearm pointing down.",
+        "Rotate forearm outward/forward until it is parallel to the ground, holding contraction for one second.",
+        "Slowly rotate back down and repeat."
+      ],
+      "nl": [
+        "Ga op je buik op een bankje liggen met een dumbbell en buig je elleboog in 90 graden.",
+        "Houd je bovenarm horizontaal en je onderarm naar beneden gericht.",
+        "Draai je onderarm naar voren/boven tot hij parallel is aan de vloer en houd even vast.",
+        "Laat gecontroleerd weer terugdraaien en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the upper arm firmly pinned at a 90-degree angle to the torso.",
+        "Perform movement with strict, controlled forearm rotation."
+      ],
+      "nl": [
+        "Houd je bovenarm stil in een rechte hoek met je romp.",
+        "Draai gecontroleerd zonder te zwaaien met het gewicht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Pronation/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Pronation/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_one_arm_upright_row",
+    "exercise_name": {
+      "en": "Dumbbell One-Arm Upright Row",
+      "nl": "Dumbbell One-Arm Upright Row"
+    },
+    "aliases": [
+      "Dumbbell One-Arm Upright Row",
+      "Dumbbell_One-Arm_Upright_Row"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding a dumbbell in front of your thigh with an overhand grip.",
+        "Pull the dumbbell straight up along your torso, leading with the elbow until the weight reaches collarbone level.",
+        "Pause for a second at the top, then slowly lower the dumbbell back down."
+      ],
+      "nl": [
+        "Sta rechtop en houd een dumbbell voor je bovenbeen met de handpalm naar je toe.",
+        "Trek de dumbbell langs je lichaam omhoog waarbij je elleboog de beweging leidt tot sleutelbeenhoogte.",
+        "Pauzeer even bovenin en laat het gewicht gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the elbow higher than the wrist throughout the entire pull.",
+        "Do not swing the torso or use leg drive."
+      ],
+      "nl": [
+        "Zorg dat je elleboog continu hoger blijft dan je pols.",
+        "Zwaai niet met je lichaam en zet geen kracht vanuit je benen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_One-Arm_Upright_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_One-Arm_Upright_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_prone_incline_curl",
+    "exercise_name": {
+      "en": "Dumbbell Prone Incline Curl (Spider Curl)",
+      "nl": "Dumbbell Spider Curl"
+    },
+    "aliases": [
+      "Dumbbell Prone Incline Curl",
+      "Dumbbell_Prone_Incline_Curl"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie chest-down on an incline bench holding dumbbells hanging perpendicular to the floor.",
+        "With palms facing forward, curl weights up toward your shoulders.",
+        "Hold the peak biceps contraction for a second, then lower weights to full extension."
+      ],
+      "nl": [
+        "Ga met je borst op een schuine bank liggen met dumbbells recht naar beneden hangend.",
+        "Draai je handpalmen naar voren en curl de gewichten omhoog naar je schouders.",
+        "Knijp je biceps bovenin hard samen en laat de armen weer volledig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain upper arms completely stationary hanging vertical.",
+        "Do not allow elbows to drift backward during the curl."
+      ],
+      "nl": [
+        "Houd je bovenarmen recht naar beneden gericht.",
+        "Laat je ellebogen niet naar achteren bewegen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Prone_Incline_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Prone_Incline_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_scaption",
+    "exercise_name": {
+      "en": "Dumbbell Scaption",
+      "nl": "Dumbbell Scaption"
+    },
+    "aliases": [
+      "Dumbbell Scaption",
+      "Dumbbell_Scaption"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbells",
+        "nl": "Halters / Dumbbells"
+      },
+      "description": {
+        "en": "Free weights designed for unilateral and bilateral functional strength training",
+        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand tall holding light dumbbells at sides with thumbs pointing up.",
+        "Raise arms forward and outward at a 30-degree angle to your torso (the scapular plane).",
+        "Lift until arms reach parallel with the floor, pause, and lower under control."
+      ],
+      "nl": [
+        "Sta rechtop met lichte dumbbells langs je lichaam en duimen omhoog gericht.",
+        "Hef je armen schuin naar voren in een hoek van 30 graden (scapulaire vlak).",
+        "Beweeg omhoog tot schouderhoogte, pauzeer kort en laat rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep thumbs pointing upward throughout the entire motion.",
+        "Do not shrug shoulders up toward the ears."
+      ],
+      "nl": [
+        "Houd je duimen omhoog gericht tijdens de hele beweging.",
+        "Trek je schouders niet op naar je oren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Scaption/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Scaption/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "dumbbells_seated_box_jump",
+    "exercise_name": {
+      "en": "Dumbbell Seated Box Jump",
+      "nl": "Zittende Dumbbell Box Jump"
+    },
+    "aliases": [
+      "Dumbbell Seated Box Jump",
+      "Dumbbell_Seated_Box_Jump"
+    ],
+    "material": {
+      "id": "dumbbells",
+      "name": {
+        "en": "Dumbbell & Box",
+        "nl": "Dumbbell & Box"
+      },
+      "description": {
+        "en": "Loaded box jumps initiated from a dead-stop seated bench position",
+        "nl": "Box jumps met dumbbell vanuit een zittende positie zonder tegendruk"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit on a bench facing a plyo box holding a dumbbell securely at your chest.",
+        "Lean forward from hips, plant feet firmly, and explode upward onto the box.",
+        "Land with soft knees absorbing impact, then step down and reset."
+      ],
+      "nl": [
+        "Zit op een bankje voor een plyo box met een dumbbell stevig tegen je borst geklemd.",
+        "Leun naar voren, zet je voeten stevig neer en spring explosief op de box.",
+        "Vang de landing verend op door je knieën te buigen en stap rustig af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Explode from a complete dead-stop without rocking excessively."
+      ],
+      "nl": [
+        "Houd je borst op en zet krachtig af vanuit het midden van je voet en je hielen.",
+        "Spring explosief vanuit stilstand zonder te ver naar achteren te wiegen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Seated_Box_Jump/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Seated_Box_Jump/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

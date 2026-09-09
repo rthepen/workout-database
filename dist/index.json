@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-09T14:54:01.634562+00:00",
-  "total_exercises": 743,
+  "last_updated_utc": "2026-09-09T14:54:57.509574+00:00",
+  "total_exercises": 759,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -47,12 +47,12 @@
     },
     "bodyweight": {
       "name": {
-        "en": "Decline Bench",
-        "nl": "Schuin Buikspierbankje"
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
       },
       "description": {
-        "en": "Angled decline sit-up bench with leg rollers",
-        "nl": "Schuin buikspierbankje met beenklemmen"
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
       }
     },
     "bosu_ball": {
@@ -117,12 +117,12 @@
     },
     "dumbbells": {
       "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
+        "en": "Dumbbell & Box",
+        "nl": "Dumbbell & Box"
       },
       "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
+        "en": "Loaded box jumps initiated from a dead-stop seated bench position",
+        "nl": "Box jumps met dumbbell vanuit een zittende positie zonder tegendruk"
       }
     },
     "exercise_ball": {
@@ -177,12 +177,12 @@
     },
     "machine": {
       "name": {
-        "en": "Smith Machine",
-        "nl": "Smith Machine"
+        "en": "Donkey Calf Machine",
+        "nl": "Donkey Calf Machine"
       },
       "description": {
-        "en": "Guided barbell track machine with safety lockouts",
-        "nl": "Geleide halterstang met vaste baan en veiligheidshaken"
+        "en": "Donkey calf raise apparatus with hip pad and calf block",
+        "nl": "Kuitmachine met heupkussen voor voorovergebogen kuitheffen"
       }
     },
     "medicine_ball": {
@@ -237,12 +237,12 @@
     },
     "plyo_box": {
       "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
+        "en": "Plyo Blocks / Platforms",
+        "nl": "Plyo Blokken"
       },
       "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+        "en": "Low platforms set on either side for plyometric upper-body drop push-ups",
+        "nl": "Lage verhogingen voor plyometrische opdrukoefeningen"
       }
     },
     "resistance_band": {

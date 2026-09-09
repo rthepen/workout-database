@@ -4939,5 +4939,178 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "barbell_deficit_deadlift",
+    "exercise_name": {
+      "en": "Deficit Deadlift",
+      "nl": "Deficit Deadlift"
+    },
+    "aliases": [
+      "Deficit Deadlift",
+      "Deficit_Deadlift"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell & Platform",
+        "nl": "Halterstang & Verhoging"
+      },
+      "description": {
+        "en": "Barbell deadlift performed standing on a 1-3 inch raised platform or weight plate",
+        "nl": "Deadlift uitgevoerd vanaf een verhoging voor een grotere bewegingsuitslag"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "erector_spinae"
+      ],
+      "secondary": [
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "rhomboids",
+        "quadriceps",
+        "trapezius"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand on a 1-3 inch platform or bumper plate with barbell centered over feet.",
+        "Hinge at the hips, bend knees until shins touch the bar, and establish a flat back posture.",
+        "Drive through your heels to pull the bar from the floor through an extended range of motion.",
+        "Lock out hips firmly at the top, then guide the bar back to the floor."
+      ],
+      "nl": [
+        "Ga op een verhoging of schijf van 2 tot 7 cm staan met de stang boven het midden van je voeten.",
+        "Buig door je heupen en knieën tot je schenen de stang raken en houd je rug kaarsrecht.",
+        "Trek de halterstang krachtig van de vloer door de diepere startpositie heen.",
+        "Strek je heupen volledig uit bovenin en laat de stang gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Maintain spinal neutrality despite the deeper starting flexion."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Voorkom dat je onderrug bolt door de extra diepe startpositie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Deficit_Deadlift/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Deficit_Deadlift/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_drag_curl",
+    "exercise_name": {
+      "en": "Drag Curl",
+      "nl": "Drag Curl"
+    },
+    "aliases": [
+      "Drag Curl",
+      "Drag_Curl"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold a barbell with a shoulder-width supinated grip standing tall.",
+        "Drive elbows backward behind your torso as you drag the bar straight up along your shirt.",
+        "Squeeze biceps hard at upper chest height, then lower the bar along the same contact path."
+      ],
+      "nl": [
+        "Sta rechtop en houd de halterstang onderhands vast op schouderbreedte.",
+        "Trek je ellebogen naar achteren terwijl je de stang langs je lichaam omhoog sleept.",
+        "Knijp je biceps bovenin hard aan en laat de stang langs je romp weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep the barbell in constant sliding contact with your torso.",
+        "Do not shrug the shoulders up toward your ears."
+      ],
+      "nl": [
+        "Houd de stang continu tegen je lichaam aan gedurende de hele beweging.",
+        "Trek je schouders niet omhoog en houd ze laag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drag_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drag_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

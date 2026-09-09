@@ -1931,5 +1931,174 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "plyo_box_depth_jump_leap",
+    "exercise_name": {
+      "en": "Depth Jump Leap",
+      "nl": "Depth Jump Leap"
+    },
+    "aliases": [
+      "Depth Jump Leap",
+      "Depth_Jump_Leap"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Two boxes of differing heights for reactive depth jumps and rebound leaps",
+        "nl": "Twee boxen van verschillende hoogtes voor reactieve plyometrische sprongen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand on a low box facing a higher box spaced two to three feet away.",
+        "Step off the initial box, land softly on both feet, and rebound immediately with maximum explosive power.",
+        "Drive arms upward to jump onto the higher box, absorbing impact through knees upon landing."
+      ],
+      "nl": [
+        "Ga op een lage box staan met een hogere box op een meter afstand voor je.",
+        "Stap van de box af, land op beide voeten en veer direct explosief op.",
+        "Zwaai je armen mee om direct op de hogere box te springen en vang de landing zacht op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Minimize ground contact time between landing and the explosive takeoff.",
+        "Land softly with flexed knees and hips."
+      ],
+      "nl": [
+        "Houd het contact met de vloer zo kort mogelijk en veer direct weer op.",
+        "Land zacht door soepel door je knieën en heupen te buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Depth_Jump_Leap/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Depth_Jump_Leap/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "plyo_box_drop_push",
+    "exercise_name": {
+      "en": "Drop Push (Plyo Push-Up Drop)",
+      "nl": "Drop Push"
+    },
+    "aliases": [
+      "Drop Push",
+      "Drop_Push"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Blocks / Platforms",
+        "nl": "Plyo Blokken"
+      },
+      "description": {
+        "en": "Low platforms set on either side for plyometric upper-body drop push-ups",
+        "nl": "Lage verhogingen voor plyometrische opdrukoefeningen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Assume a push-up position with hands supported on two low platforms 2-3 feet apart.",
+        "Drop hands between the blocks to the floor, absorbing the impact into a deep push-up.",
+        "Immediately explode upward, pressing hands forcefully back onto the platforms."
+      ],
+      "nl": [
+        "Begin in een opdrukhouding met je handen op twee lage verhogingen.",
+        "Laat je handen tussen de blokken op de grond vallen en vang de klap op in een push-up.",
+        "Duw jezelf direct weer explosief omhoog zodat je handen terug op de blokken landen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drop_Push/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Drop_Push/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
