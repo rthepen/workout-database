@@ -1751,5 +1751,256 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:38:53.336Z"
     }
+  },
+  {
+    "id": "bands_band_good_morning",
+    "exercise_name": {
+      "en": "Band Good Morning (Pull Through)",
+      "nl": "Band Good Morning (Pull Through)"
+    },
+    "aliases": [
+      "Band Good Morning",
+      "Band Good Morning (Pull Through)",
+      "Band_Good_Morning_Pull_Through"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "glutes",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Loop the band around a solid post and place the opposite end behind your neck, using hands to secure it.",
+        "Hinge at the hips, driving your glutes backward while keeping back flat and knees slightly soft.",
+        "Extend forcefully through your hips to return to a tall standing lockout."
+      ],
+      "nl": [
+        "Bevestig de elastische band om een stevige paal en plaats het andere uiteinde achter in je nek.",
+        "Scharnier vanuit je heupen naar achteren met een rechte rug en een lichte buiging in de knieën.",
+        "Strek je heupen krachtig uit om weer volledig rechtop te komen staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a neutral spine and avoid rounding the lumbar back.",
+        "Drive the hips forward by actively squeezing your glutes at the top."
+      ],
+      "nl": [
+        "Houd je wervelkolom neutraal en bol je onderrug niet.",
+        "Duw je heupen naar voren door je bilspieren bovenin hard aan te spannen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Good_Morning_Pull_Through/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Good_Morning_Pull_Through/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bands_band_hip_adductions",
+    "exercise_name": {
+      "en": "Band Hip Adductions",
+      "nl": "Band Heup Adductie"
+    },
+    "aliases": [
+      "Band Hip Adductions",
+      "Band_Hip_Adductions"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Anchor a band to a sturdy post and wrap the loop around the ankle of your outside leg.",
+        "Stand tall, holding onto the post for balance if needed.",
+        "Pull the resisted leg inward across the midline of your body against band tension.",
+        "Slowly control the return to the starting position and repeat."
+      ],
+      "nl": [
+        "Bevestig een weerstandsband aan een paal en doe het uiteinde om de enkel van je buitenste been.",
+        "Sta rechtop en houd de paal eventueel vast voor balans.",
+        "Trek het resisted been naar binnen over de middellijn van je lichaam tegen de weerstand in.",
+        "Laat het been gecontroleerd terugkeren naar de startpositie en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your pelvis level and avoid tilting the torso sideways.",
+        "Initiate movement purely from the inner thigh adductors."
+      ],
+      "nl": [
+        "Houd je bekken recht en leun niet opzij met je bovenlichaam.",
+        "Zet de beweging puur in vanuit je binnenste dijspieren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Hip_Adductions/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Hip_Adductions/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "bands_band_skull_crusher",
+    "exercise_name": {
+      "en": "Band Skull Crusher",
+      "nl": "Band Skull Crusher"
+    },
+    "aliases": [
+      "Band Skull Crusher",
+      "Band_Skull_Crusher"
+    ],
+    "material": {
+      "id": "resistance_band",
+      "name": {
+        "en": "Resistance Band",
+        "nl": "Weerstandsband"
+      },
+      "description": {
+        "en": "Elastic loop or tube bands providing progressive accommodating resistance",
+        "nl": "Elastische weerstandsbanden voor progressieve weerstand, warming-up en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Secure a band to the base of a bench or rack and lie back with the band aligned behind your head.",
+        "Hold the band with upper arms vertical and perpendicular to the floor, elbows flexed.",
+        "Extend through your elbows to press your hands straight up toward the ceiling.",
+        "Pause at lockout and slowly lower hands back down past your forehead."
+      ],
+      "nl": [
+        "Bevestig een weerstandsband laag aan een bankje en ga op je rug liggen met je hoofd bij het ankerpunt.",
+        "Pak de band vast met je bovenarmen verticaal gericht en ellebogen gebogen.",
+        "Strek je armen door je ellebogen te strekken en de band omhoog te duwen.",
+        "Laat de handen rustig en beheerst zakken tot achter je voorhoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your upper arms stationary throughout the entire rep.",
+        "Avoid flaring elbows excessively outward."
+      ],
+      "nl": [
+        "Houd je bovenarmen volledig stil gedurende de herhaling.",
+        "Voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Skull_Crusher/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Band_Skull_Crusher/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

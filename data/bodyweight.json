@@ -8677,5 +8677,86 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "bodyweight_bent_knee_hip_raise",
+    "exercise_name": {
+      "en": "Bent-Knee Hip Raise",
+      "nl": "Bent-Knee Hip Raise"
+    },
+    "aliases": [
+      "Bent-Knee Hip Raise",
+      "Bent-Knee_Hip_Raise"
+    ],
+    "material": {
+      "id": "bodyweight",
+      "name": {
+        "en": "Bodyweight",
+        "nl": "Lichaamsgewicht"
+      },
+      "description": {
+        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
+        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back on the floor with knees bent at a 75-degree angle and feet hovered 2 inches off the ground.",
+        "Using your lower abdominals, bring your knees toward your chest while rolling your pelvis backward off the floor.",
+        "Pause and squeeze your abs at peak contraction, then slowly lower hips back down without feet touching the floor."
+      ],
+      "nl": [
+        "Ga op je rug liggen met je knieën in een hoek van 75 graden en voeten enkele centimeters van de vloer.",
+        "Trek vanuit je onderste buikspieren je knieën naar je borst en til je bekken los van de grond.",
+        "Knijp je buikspieren bovenin samen en laat je bekken gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Initiate movement from abdominal contraction rather than swinging legs.",
+        "Lower under steady control without slamming the pelvis back down."
+      ],
+      "nl": [
+        "Zet de beweging in door je bekken te kantelen, niet door met je benen te zwaaien.",
+        "Laat je heupen beheerst zakken en plof niet neer op de vloer."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent-Knee_Hip_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent-Knee_Hip_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

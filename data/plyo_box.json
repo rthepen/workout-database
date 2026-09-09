@@ -1758,5 +1758,93 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T13:00:49.921Z"
     }
+  },
+  {
+    "id": "bodyweight_bench_sprint",
+    "exercise_name": {
+      "en": "Bench Sprint",
+      "nl": "Bench Sprint"
+    },
+    "aliases": [
+      "Bench Sprint",
+      "Bench_Sprint"
+    ],
+    "material": {
+      "id": "plyo_box",
+      "name": {
+        "en": "Plyo Box",
+        "nl": "Sprongkast / Plyo Box"
+      },
+      "description": {
+        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
+        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Stand facing a bench or box with one foot resting securely on top of the edge.",
+        "Push off explosively with the top foot extending through hip and knee.",
+        "Switch feet mid-air to land with opposite foot on the bench.",
+        "Alternate rapidly in a continuous sprinting rhythm."
+      ],
+      "nl": [
+        "Ga voor een bankje of box staan met één voet op het platform.",
+        "Zet krachtig af vanuit je voorste been en strek heup en knie.",
+        "Wissel in de lucht van voet zodat je andere voet direct op het bankje landt.",
+        "Blijf in een snel, ritmisch tempo om en om aantikken alsof je sprint."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Pump your arms actively in coordination with foot contacts.",
+        "Land softly on the ball of the foot to absorb impact."
+      ],
+      "nl": [
+        "Beweeg je armen actief mee in het sprintritme.",
+        "Land verend en zacht op de bal van je voet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bench_Sprint/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bench_Sprint/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]

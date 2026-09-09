@@ -2255,7 +2255,8 @@
       "nl": "Barbell Hip Thrust"
     },
     "aliases": [
-      "Barbell Hip Thrust"
+      "Barbell Hip Thrust",
+      "Barbell_Hip_Thrust"
     ],
     "material": {
       "id": "barbell",
@@ -2269,74 +2270,66 @@
       }
     },
     "category": {
-      "en": "Glutes",
-      "nl": "Billen (Glutes)"
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
     },
     "target_muscles": {
       "primary": [
-        "gluteus_maximus",
-        "hamstrings"
+        "glutes"
       ],
       "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
+        "calves",
+        "hamstrings"
       ]
     },
     "attributes": {
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 4
+      "tracking_type": "reps_and_weight"
     },
     "instructions": {
       "en": [
-        "Sit with your upper back against the side of the bench.",
-        "Roll the loaded barbell over your legs into position across your hips.",
-        "Drive your hips upward until your body forms a straight glute bridge.",
-        "Squeeze your glutes hard at peak hip extension."
+        "Sit on the floor with your shoulder blades resting against a flat bench and a padded loaded barbell across your hips.",
+        "Drive through your heels to bridge your hips upward until thighs and torso are parallel to the ground.",
+        "Lock out hips fully at the top and squeeze your glutes before lowering with control."
       ],
       "nl": [
-        "Ga met je bovenrug tegen de zijkant van het bankje zitten.",
-        "Rol de stang over je heupen.",
-        "Duw je heupen omhoog tot je lichaam een brug vormt.",
-        "Span je billen hard aan."
+        "Ga op de grond zitten met je schouderbladen tegen een trainingsbank en een geladen stang (met beschermpad) op je heupen.",
+        "Duw krachtig af vanuit je voeten en hielen om je heupen omhoog te stoten tot je bovenbenen en romp parallel zijn aan de vloer.",
+        "Knijp je bilspieren bovenin hard samen en laat je heupen gecontroleerd zakken."
       ]
     },
     "form_cues": {
       "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
+        "Keep your chin tucked and eyes focused forward throughout the thrust.",
+        "Ensure knees track out over the toes at roughly a 90-degree angle at peak lockout."
       ],
       "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+        "Houd je kin op je borst en kijk naar voren tijdens de hele beweging.",
+        "Zorg dat je onderbenen bovenin nagenoeg verticaal staan in een hoek van 90 graden."
       ]
     },
     "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
+      "progressions": [],
       "regressions": []
     },
     "media": {
-      "videos": [
+      "images": [
         {
-          "youtube_id": "7SCoCTps6t0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "The Movement Collective",
-          "rating": 4
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Hip_Thrust/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Hip_Thrust/1.jpg",
+          "type": "photo"
         }
-      ]
+      ],
+      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T14:11:45.233Z"
+      "updated_at": "2026-09-09"
     }
   },
   {
@@ -3399,6 +3392,767 @@
         },
         {
           "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clean_Deadlift/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_glute_bridge",
+    "exercise_name": {
+      "en": "Barbell Glute Bridge",
+      "nl": "Barbell Glute Bridge"
+    },
+    "aliases": [
+      "Barbell Glute Bridge",
+      "Barbell_Glute_Bridge"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit on the ground with a loaded barbell over your legs and roll it directly above your hips.",
+        "Lay flat on the floor with knees bent and feet placed firmly at shoulder width.",
+        "Drive through your heels to extend your hips vertically through the bar until hips are fully locked out.",
+        "Pause and squeeze your glutes hard at the top before lowering under control."
+      ],
+      "nl": [
+        "Ga op de grond zitten met een geladen halterstang over je benen en rol deze over je heupen.",
+        "Ga plat op je rug liggen met gebogen knieën en voeten op heupbreedte stevig op de vloer.",
+        "Duw krachtig af vanuit je hielen en strek je heupen omhoog tegen de stang tot volledige heupextensie.",
+        "Knijp je bilspieren bovenin maximaal samen en laat het gewicht beheerst zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep ribs pulled down and avoid hyperextending through the lumbar spine.",
+        "Drive through the midfoot and heels without rising onto your toes."
+      ],
+      "nl": [
+        "Houd je ribben omlaag en trek je onderrug bovenin niet hol.",
+        "Duw door je hielen en kom niet op je tenen staan."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Glute_Bridge/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Glute_Bridge/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_guillotine_bench_press",
+    "exercise_name": {
+      "en": "Barbell Guillotine Bench Press",
+      "nl": "Guillotine Bench Press"
+    },
+    "aliases": [
+      "Barbell Guillotine Bench Press",
+      "Guillotine Press",
+      "Barbell_Guillotine_Bench_Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie flat on a bench, unrack the barbell with a medium grip, holding it locked out directly over your neck.",
+        "Inhale and lower the barbell slowly until it hovers roughly 1 inch from your neck or clavicles with elbows flared out wide.",
+        "Pause briefly, then press the bar back up to starting lockout using chest contraction."
+      ],
+      "nl": [
+        "Ga op een vlakke bank liggen, til de stang uit het rek en houd deze boven je hals/sleutelbeenderen.",
+        "Laat de stang met naar buiten wijzende ellebogen langzaam zakken tot ongeveer 2-3 cm boven je hals.",
+        "Pauzeer kort en druk de stang gecontroleerd weer omhoog vanuit de borstspieren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Use moderate, strictly controllable weights due to high shoulder abduction.",
+        "Lower the bar under extreme eccentric control."
+      ],
+      "nl": [
+        "Gebruik een bescheiden gewicht vanwege de grote belasting op de schouders.",
+        "Laat het gewicht uiterst gecontroleerd en beheerst zakken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Guillotine_Bench_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Guillotine_Bench_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_incline_shoulder_raise",
+    "exercise_name": {
+      "en": "Barbell Incline Shoulder Raise",
+      "nl": "Barbell Incline Shoulder Raise"
+    },
+    "aliases": [
+      "Barbell Incline Shoulder Raise",
+      "Barbell_Incline_Shoulder_Raise"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie back on an incline bench and hold a barbell overhead with arms straight and elbows locked.",
+        "Without bending your elbows, push the barbell upward purely by protracting your shoulder blades off the bench.",
+        "Lower your shoulder blades back into the bench with control and repeat."
+      ],
+      "nl": [
+        "Ga op een schuine bank liggen en houd een halterstang met volledig gestrekte armen recht omhoog.",
+        "Duw de stang omhoog puur door je schouderbladen naar voren te duwen (proctractie) zonder je ellebogen te buigen.",
+        "Trek je schouderbladen gecontroleerd terug tegen de leuning en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep arms completely straight; movement occurs exclusively at the scapulae.",
+        "Exhale on upward protraction and inhale on retraction."
+      ],
+      "nl": [
+        "Houd je armen kaarsrecht; de beweging komt uitsluitend uit je schouderbladen.",
+        "Blaas uit bij het omhoog duwen en adem in bij het terugtrekken."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Incline_Shoulder_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Incline_Shoulder_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_rear_delt_row",
+    "exercise_name": {
+      "en": "Barbell Rear Delt Row",
+      "nl": "Barbell Rear Delt Row"
+    },
+    "aliases": [
+      "Barbell Rear Delt Row",
+      "Barbell_Rear_Delt_Row"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "latissimus_dorsi",
+        "rhomboids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold a barbell with a wide overhand grip and hinge forward until your torso is nearly parallel to the floor.",
+        "Flare your elbows wide out to the sides perpendicular to your torso.",
+        "Row the barbell upward toward your upper chest, squeezing the rear deltoids firmly.",
+        "Slowly lower back down to full arm extension."
+      ],
+      "nl": [
+        "Pak de halterstang vast met een brede bovenhandse greep en buig voorover tot je romp bijna horizontaal is.",
+        "Wijs met je ellebogen wijd naar buiten zodat je armen een T-vorm vormen met je romp.",
+        "Trek de stang omhoog richting je bovenborst en knijp je achterste schouderkoppen samen.",
+        "Laat de stang rustig zakken tot je armen weer gestrekt zijn."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Drive with the elbows out wide rather than tucking them into your lats.",
+        "Do not allow your torso to bob or swing up and down."
+      ],
+      "nl": [
+        "Trek met je ellebogen wijd opzij in plaats van langs je lichaam.",
+        "Houd je bovenlichaam stil en zwaai niet omhoog met het gewicht."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Rear_Delt_Row/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Rear_Delt_Row/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_seated_calf_raise",
+    "exercise_name": {
+      "en": "Barbell Seated Calf Raise",
+      "nl": "Zittende Barbell Calf Raise"
+    },
+    "aliases": [
+      "Barbell Seated Calf Raise",
+      "Barbell_Seated_Calf_Raise"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit on a flat bench with the balls of your feet on an elevated calf block and a barbell resting across your lower thighs.",
+        "Lower your heels as far as comfortable to stretch the calves.",
+        "Drive upward onto your toes as high as possible, squeezing the soleus muscle hard.",
+        "Pause briefly and return smoothly to the bottom stretch."
+      ],
+      "nl": [
+        "Ga op een trainingsbank zitten met de bal van je voeten op een verhoging en plaats een halterstang op je bovenbenen net boven de knieën.",
+        "Laat je hielen zo diep mogelijk zakken voor een volledige rek op de kuiten.",
+        "Duw jezelf zo hoog mogelijk op je tenen en knijp je kuitspieren hard samen.",
+        "Pauzeer even bovenin en laat je hielen weer rustig zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Use a bar pad or towel over thighs to minimize pressure discomfort.",
+        "Perform full range of motion without rapid bouncing."
+      ],
+      "nl": [
+        "Gebruik een kussentje of handdoek onder de stang tegen drukpijn op de bovenbenen.",
+        "Beweeg gecontroleerd en veer niet onderin de beweging."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Seated_Calf_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Seated_Calf_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_shrug",
+    "exercise_name": {
+      "en": "Barbell Shrug",
+      "nl": "Barbell Shrug"
+    },
+    "aliases": [
+      "Barbell Shrug",
+      "Barbell_Shrug"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand erect holding a barbell in front of you with an overhand grip slightly wider than shoulder width.",
+        "Raise your shoulders straight up toward your ears as high as possible without bending elbows.",
+        "Hold the peak contraction for one second at the top.",
+        "Slowly lower shoulders back down to the start."
+      ],
+      "nl": [
+        "Sta rechtop en houd een halterstang voor je dijen met een bovenhandse greep op schouderbreedte.",
+        "Trek je schouders recht omhoog richting je oren zonder je ellebogen te buigen.",
+        "Houd de samentrekking bovenin één seconde vast.",
+        "Laat je schouders rustig en gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lift straight up and down; do not roll your shoulders in circles.",
+        "Keep your arms acting strictly as hanging hooks."
+      ],
+      "nl": [
+        "Beweeg puur recht omhoog en omlaag; draai je schouders niet rond.",
+        "Gebruik je armen alleen als haken en buig je ellebogen niet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shrug/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shrug/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_side_bend",
+    "exercise_name": {
+      "en": "Barbell Side Bend",
+      "nl": "Barbell Side Bend"
+    },
+    "aliases": [
+      "Barbell Side Bend",
+      "Barbell_Side_Bend"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "obliques"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand upright with feet shoulder width apart and a light barbell resting across your upper back.",
+        "Keeping head up and back straight, bend strictly at the waist to the right side as far as comfortable.",
+        "Contract your obliques to return to upright position, then repeat to the left side."
+      ],
+      "nl": [
+        "Sta rechtop met je voeten op schouderbreedte en een lichte halterstang op je bovenrug.",
+        "Houd je borst op en buig vanuit je taille gecontroleerd zijwaarts naar rechts.",
+        "Kom vanuit je schuine buikspieren weer rechtop en buig direct door naar links."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Move purely in the frontal plane without twisting or leaning forward.",
+        "Keep your lower body and hips completely stationary."
+      ],
+      "nl": [
+        "Beweeg strikt zijwaarts zonder je bovenlichaam naar voren te buigen of te draaien.",
+        "Houd je heupen en benen stabiel op hun plek."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Side_Bend/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Side_Bend/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_side_split_squat",
+    "exercise_name": {
+      "en": "Barbell Side Split Squat",
+      "nl": "Barbell Side Split Squat"
+    },
+    "aliases": [
+      "Barbell Side Split Squat",
+      "Barbell_Side_Split_Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold a barbell across upper traps and take a wide stance with lead foot angled out to the side.",
+        "Lower your body toward the angled foot by bending the knee and hip while trailing leg remains straight.",
+        "Extend through lead hip and knee to return to the starting position."
+      ],
+      "nl": [
+        "Plaats de halterstang op je bovenrug en neem een zeer brede stand aan met één voet naar buiten gedraaid.",
+        "Zak zijwaarts door de knie en heup van je buitenste been terwijl het andere been gestrekt blijft.",
+        "Druk krachtig af vanuit je voorste hiel om terug te keren naar de beginpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest upright and maintain heel contact with the floor.",
+        "Ensure the working knee tracks in line with the turned-out foot."
+      ],
+      "nl": [
+        "Houd je borst op en houd je hiel aan de grond.",
+        "Zorg dat je buigende knie netjes over je tenen spoort."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Side_Split_Squat/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Side_Split_Squat/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
+  },
+  {
+    "id": "barbell_bent_arm_pullover",
+    "exercise_name": {
+      "en": "Bent-Arm Barbell Pullover",
+      "nl": "Bent-Arm Barbell Pullover"
+    },
+    "aliases": [
+      "Bent-Arm Barbell Pullover",
+      "Bent-Arm_Barbell_Pullover"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi"
+      ],
+      "secondary": [
+        "pectorals",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Lie on a flat bench holding a barbell above your chest with shoulder-width grip and elbows bent.",
+        "Keeping the bend in your elbows locked in place, lower the bar back in an arc behind your head until you feel a deep stretch in lats and chest.",
+        "Pull the barbell back along the same arc to the starting position over your chest as you exhale."
+      ],
+      "nl": [
+        "Ga op een vlakke bank liggen en houd een halterstang boven je borst met gebogen ellebogen op schouderbreedte.",
+        "Houd de hoek in je ellebogen constant en laat de stang in een boog achter je hoofd zakken tot je rek voelt in je lats en borst.",
+        "Trek de stang via dezelfde boog krachtig terug naar de beginpositie boven je borst."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows fixed at the set angle; do not turn the move into a triceps extension.",
+        "Brace your core to keep ribs from flaring excessively."
+      ],
+      "nl": [
+        "Houd de hoek in je ellebogen vast en maak er geen triceps extension van.",
+        "Span je buikspieren aan zodat je ribbenkast niet overmatig omhoog komt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent-Arm_Barbell_Pullover/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent-Arm_Barbell_Pullover/1.jpg",
           "type": "photo"
         }
       ],

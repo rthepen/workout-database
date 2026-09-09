@@ -3597,5 +3597,90 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09"
     }
+  },
+  {
+    "id": "partner_behind_head_chest_stretch",
+    "exercise_name": {
+      "en": "Behind Head Chest Stretch",
+      "nl": "Partner Borststretch Achter Hoofd"
+    },
+    "aliases": [
+      "Behind Head Chest Stretch",
+      "Behind_Head_Chest_Stretch"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Sit upright on the floor with your hands clasped behind your head and elbows pushed back.",
+        "Your partner stands behind you and grasps your elbows.",
+        "Gently contract by attempting to pull elbows forward for 10 seconds against partner resistance.",
+        "Relax as your partner gently draws your elbows further back for a deep passive chest stretch."
+      ],
+      "nl": [
+        "Zit rechtop op de grond met je handen achter je hoofd en ellebogen wijd naar achteren.",
+        "Je partner staat achter je en pakt je ellebogen vast.",
+        "Druk je ellebogen 10 seconden naar voren tegen de weerstand van je partner in.",
+        "Ontspan je borstspieren terwijl je partner je ellebogen voorzichtig verder naar achteren trekt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain open communication with your partner to avoid over-stretching the shoulders.",
+        "Keep your head and cervical spine tall and upright."
+      ],
+      "nl": [
+        "Communiceer duidelijk met je partner om overstrekking te voorkomen.",
+        "Houd je nek recht en duw je hoofd niet naar voren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Behind_Head_Chest_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Behind_Head_Chest_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09"
+    }
   }
 ]
