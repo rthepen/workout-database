@@ -55,10 +55,34 @@ export async function fetchAllExercises(forceLive: boolean = false): Promise<{ e
   return { exercises: baseExercises, isLive };
 }
 
-export function saveExercisesToLocal(exercises: Exercise[]) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(exercises));
+export function getModifiedExercises(current: Exercise[], base: Exercise[] = bundledData as unknown as Exercise[]): Exercise[] {
+  const baseMap = new Map<string, Exercise>(base.map(e => [e.id, e]));
+  return current.filter(curr => {
+    const orig = baseMap.get(curr.id);
+    if (!orig) return true; // new exercise
+    return JSON.stringify(curr) !== JSON.stringify(orig);
+  });
+}
+
+export function saveExercisesToLocal(exercises: Exercise[], baseExercises?: Exercise[]) {
+  try {
+    const base = baseExercises || (bundledData as unknown as Exercise[]);
+    const modified = getModifiedExercises(exercises, base);
+    if (modified.length === 0) {
+      localStorage.removeItem(STORAGE_KEY);
+    } else {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(modified));
+    }
+  } catch (err) {
+    console.warn('localStorage save warning (quota or permission):', err);
+  }
 }
 
 export function resetLocalEdits() {
-  localStorage.removeItem(STORAGE_KEY);
+  try {
+    localStorage.removeItem(STORAGE_KEY);
+  } catch (err) {
+    console.warn('Failed to reset local edits:', err);
+  }
 }
+

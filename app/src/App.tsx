@@ -84,7 +84,7 @@ export function App() {
   const handleAddNewExercise = (newEx: Exercise) => {
     const updatedList = [newEx, ...exercises];
     setExercises(updatedList);
-    saveExercisesToLocal(updatedList);
+    saveExercisesToLocal(updatedList, originalExercises);
     setHasLocalEdits(true);
     setActiveExerciseId(newEx.id);
     setCurrentIndex(0);
@@ -198,7 +198,7 @@ export function App() {
   const handleSaveExercise = (updated: Exercise) => {
     const updatedList = exercises.map(e => e.id === updated.id ? updated : e);
     setExercises(updatedList);
-    saveExercisesToLocal(updatedList);
+    saveExercisesToLocal(updatedList, originalExercises);
     setHasLocalEdits(true);
 
     // Fire background backup to Google Sheet
@@ -223,7 +223,7 @@ export function App() {
     const updateMap = new Map(changedExercises.map(e => [e.id, e]));
     const updatedList = exercises.map(e => updateMap.get(e.id) || e);
     setExercises(updatedList);
-    saveExercisesToLocal(updatedList);
+    saveExercisesToLocal(updatedList, originalExercises);
     setHasLocalEdits(true);
 
     // Fire backup to Google Sheet webhook - ONLY for the modified exercises!
