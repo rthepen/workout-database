@@ -88,93 +88,6 @@
     }
   },
   {
-    "id": "kettlebell_figure_8",
-    "exercise_name": {
-      "en": "Kettlebell Figure 8",
-      "nl": "Kettlebell Figure 8"
-    },
-    "aliases": [
-      "Kettlebell Figure 8"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "hamstrings",
-        "calves"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Stand in a wide stance with knees soft and torso hinged.",
-        "Pass the kettlebell between the legs from one hand to the other in a figure-8 shape."
-      ],
-      "nl": [
-        "Sta breed en gebogen.",
-        "Geef de kettlebell tussen de benen door van de ene hand naar de andere in een 8-vorm."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "1BvJQu6_GOI",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 11,
-          "channel": "Bootcamp Ideas",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "kettlebell_high_pull",
     "exercise_name": {
       "en": "Kettlebell High Pull",
@@ -876,363 +789,6 @@
           "duration_seconds": 11,
           "channel": "Karlie Booker",
           "likes": 8
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_sumo_squat",
-    "exercise_name": {
-      "en": "Sumo Squat",
-      "nl": "Sumo Squat"
-    },
-    "aliases": [
-      "Sumo Squat"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Position feet wide with toes angled outward in a sumo stance.",
-        "Pockets with straight back."
-      ],
-      "nl": [
-        "Voeten breed, tenen naar buiten.",
-        "Zakken met rechte rug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "nVa_xiG9WBE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 11,
-          "channel": "Bootcamp Ideas"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_bottom_up_squat",
-    "exercise_name": {
-      "en": "Bottom-Up Kettlebell Squat",
-      "nl": "Bottom-Up Kettlebell Squat"
-    },
-    "aliases": [
-      "Bottom-Up Kettlebell Squat"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Grip, Stability & Legs",
-      "nl": "Grip / Stabiliteit / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the kettlebell upside down (bottom to ceiling) at your shoulder.",
-        "Balance the ball as you perform a full squat.",
-        "This requires extreme grip strength and stability."
-      ],
-      "nl": [
-        "Houd de kettlebell ondersteboven vast (bodem naar plafond) bij je schouder.",
-        "Balanceer de kogel terwijl je een volledige squat maakt.",
-        "Dit vereist extreme gripkracht en stabiliteit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ynAjpQcS-3o",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "channel": "Hardstyle Kettlebell Pro"
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_cossack_squat",
-    "exercise_name": {
-      "en": "Kettlebell Cossack Squat",
-      "nl": "Kettlebell Cossack Squat"
-    },
-    "aliases": [
-      "Kettlebell Cossack Squat"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Leg Mobility",
-      "nl": "Mobiliteit / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the KB in goblet position.",
-        "Take an exaggeratedly wide lateral step.",
-        "Lower deeply to one side while turning the toe of your extended leg toward the ceiling.",
-        "Keep your heel on the ground."
-      ],
-      "nl": [
-        "Houd de KB in goblet-positie.",
-        "Stap heel breed uit.",
-        "Zak diep naar één kant terwijl je de teen van je gestrekte been naar het plafond draait.",
-        "Houd je hiel op de grond."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "hDIiCBIM6tE",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 13,
-          "channel": "Kettlebell Kings",
-          "likes": 33
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_sumo_deadlift_high_pull",
-    "exercise_name": {
-      "en": "Sumo Deadlift High Pull",
-      "nl": "Sumo Deadlift High Pull"
-    },
-    "aliases": [
-      "Sumo Deadlift High Pull"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Power & Cardio",
-      "nl": "Explosiviteit / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Take a wide athletic stance.",
-        "Explosively clean the kettlebell off the floor by snapping your hips and legs.",
-        "Pull the kettlebell vertically to collarbone height with elbows flaring high in a high pull."
-      ],
-      "nl": [
-        "Sta breed.",
-        "Til de KB vanaf de grond explosief op door je benen en heupen hard te strekken.",
-        "Trek de KB door tot onder je kin, met de ellebogen hoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "on0NRhTar5I",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 26,
-          "channel": "Rec Gym Kirrawee",
-          "likes": 459
         }
       ]
     },
@@ -4475,6 +4031,453 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T08:56:06.452Z"
+    }
+  },
+  {
+    "id": "kettlebell_figure_8",
+    "exercise_name": {
+      "en": "Kettlebell Figure 8",
+      "nl": "Kettlebell Figure 8"
+    },
+    "aliases": [
+      "Kettlebell Figure 8"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "hamstrings",
+        "calves"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand in a wide stance with knees soft and torso hinged.",
+        "Pass the kettlebell between the legs from one hand to the other in a figure-8 shape."
+      ],
+      "nl": [
+        "Sta breed en gebogen.",
+        "Geef de kettlebell tussen de benen door van de ene hand naar de andere in een 8-vorm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "vkHZ5JvFFwM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Sarah Herse",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "kettlebell_sumo_squat",
+    "exercise_name": {
+      "en": "Sumo Squat",
+      "nl": "Sumo Squat"
+    },
+    "aliases": [
+      "Sumo Squat"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Position feet wide with toes angled outward in a sumo stance.",
+        "Pockets with straight back."
+      ],
+      "nl": [
+        "Voeten breed, tenen naar buiten.",
+        "Zakken met rechte rug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "UGz8N6paM5M",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "PERFORM Athlete",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "kettlebell_bottom_up_squat",
+    "exercise_name": {
+      "en": "Bottom-Up Kettlebell Squat",
+      "nl": "Bottom-Up Kettlebell Squat"
+    },
+    "aliases": [
+      "Bottom-Up Kettlebell Squat"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Grip, Stability & Legs",
+      "nl": "Grip / Stabiliteit / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold the kettlebell upside down (bottom to ceiling) at your shoulder.",
+        "Balance the ball as you perform a full squat.",
+        "This requires extreme grip strength and stability."
+      ],
+      "nl": [
+        "Houd de kettlebell ondersteboven vast (bodem naar plafond) bij je schouder.",
+        "Balanceer de kogel terwijl je een volledige squat maakt.",
+        "Dit vereist extreme gripkracht en stabiliteit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "4ZfIzFyN_pU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Jon Carroll",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "kettlebell_cossack_squat",
+    "exercise_name": {
+      "en": "Kettlebell Cossack Squat",
+      "nl": "Kettlebell Cossack Squat"
+    },
+    "aliases": [
+      "Kettlebell Cossack Squat"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Leg Mobility",
+      "nl": "Mobiliteit / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Hold the KB in goblet position.",
+        "Take an exaggeratedly wide lateral step.",
+        "Lower deeply to one side while turning the toe of your extended leg toward the ceiling.",
+        "Keep your heel on the ground."
+      ],
+      "nl": [
+        "Houd de KB in goblet-positie.",
+        "Stap heel breed uit.",
+        "Zak diep naar één kant terwijl je de teen van je gestrekte been naar het plafond draait.",
+        "Houd je hiel op de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "XvJ8gtW30ZA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "CrossFit Monarch X Functional strength training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "kettlebell_sumo_deadlift_high_pull",
+    "exercise_name": {
+      "en": "Sumo Deadlift High Pull",
+      "nl": "Sumo Deadlift High Pull"
+    },
+    "aliases": [
+      "Sumo Deadlift High Pull"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Power & Cardio",
+      "nl": "Explosiviteit / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Take a wide athletic stance.",
+        "Explosively clean the kettlebell off the floor by snapping your hips and legs.",
+        "Pull the kettlebell vertically to collarbone height with elbows flaring high in a high pull."
+      ],
+      "nl": [
+        "Sta breed.",
+        "Til de KB vanaf de grond explosief op door je benen en heupen hard te strekken.",
+        "Trek de KB door tot onder je kin, met de ellebogen hoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JYwkgnohFyQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Coach Cass",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
     }
   }
 ]

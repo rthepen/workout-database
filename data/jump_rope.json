@@ -260,270 +260,6 @@
     }
   },
   {
-    "id": "jump_rope_squat",
-    "exercise_name": {
-      "en": "Squat Jumps",
-      "nl": "Squat Jumps"
-    },
-    "aliases": [
-      "Squat Jumps"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Strength & Conditioning",
-      "nl": "Kracht / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform a few speed rope jumps, then drop into a low squat hold while continuing to turn the rope.",
-        "Come up explosively."
-      ],
-      "nl": [
-        "Maak een paar normale sprongen en land dan in een squat positie (touw stil of zwaaiend).",
-        "Kom explosief omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "3N3sCxxDnmM",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 36,
-          "channel": "Live Lean TV Daily Exercises",
-          "likes": 6
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "jump_rope_180_turn",
-    "exercise_name": {
-      "en": "180 Turn",
-      "nl": "180 Turn"
-    },
-    "aliases": [
-      "180 Turn"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Freestyle Skills & Coordination",
-      "nl": "Trucjes / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Jump and rotate your entire body 180 degrees in the air.",
-        "Land and jump further (backward or forward)."
-      ],
-      "nl": [
-        "Spring en draai je hele lichaam 180 graden in de lucht.",
-        "Land en spring verder (achteruit of vooruit)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "SVvEspER2_U",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 334,
-          "channel": "RopeNflash",
-          "likes": 75
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "jump_rope_jumping_jacks",
-    "exercise_name": {
-      "en": "Jumping Jacks",
-      "nl": "Jumping Jacks"
-    },
-    "aliases": [
-      "Jumping Jacks"
-    ],
-    "material": {
-      "id": "jump_rope",
-      "name": {
-        "en": "Jump Rope",
-        "nl": "Springtouw"
-      },
-      "description": {
-        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
-        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Jump with your feet wide and narrow as you continue to twist the rope.",
-        "Coordination Challenge!"
-      ],
-      "nl": [
-        "Spring met je voeten wijd en smal terwijl je het touw blijft draaien.",
-        "Coördinatie-uitdaging!"
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "jump_rope_double_unders"
-      ],
-      "regressions": [
-        "jump_rope_single_unders"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "MPeUJtSQx8o",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "16:9",
-          "duration_seconds": 35,
-          "channel": "Live Lean TV Daily Exercises",
-          "likes": 37
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "jump_rope_butt_kicks",
     "exercise_name": {
       "en": "Butt Kicks",
@@ -1747,6 +1483,270 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T11:43:21.102Z"
+    }
+  },
+  {
+    "id": "jump_rope_squat",
+    "exercise_name": {
+      "en": "Squat Jumps",
+      "nl": "Squat Jumps"
+    },
+    "aliases": [
+      "Squat Jumps"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Strength & Conditioning",
+      "nl": "Kracht / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Perform a few speed rope jumps, then drop into a low squat hold while continuing to turn the rope.",
+        "Come up explosively."
+      ],
+      "nl": [
+        "Maak een paar normale sprongen en land dan in een squat positie (touw stil of zwaaiend).",
+        "Kom explosief omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dqDg7XzfR_s",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Coach Awadi Boxing",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "jump_rope_180_turn",
+    "exercise_name": {
+      "en": "180 Turn",
+      "nl": "180 Turn"
+    },
+    "aliases": [
+      "180 Turn"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Freestyle Skills & Coordination",
+      "nl": "Trucjes / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Jump and rotate your entire body 180 degrees in the air.",
+        "Land and jump further (backward or forward)."
+      ],
+      "nl": [
+        "Spring en draai je hele lichaam 180 graden in de lucht.",
+        "Land en spring verder (achteruit of vooruit)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "dv-CCwEjbZQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Edena Gonzales",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
+    }
+  },
+  {
+    "id": "jump_rope_jumping_jacks",
+    "exercise_name": {
+      "en": "Jumping Jacks",
+      "nl": "Jumping Jacks"
+    },
+    "aliases": [
+      "Jumping Jacks"
+    ],
+    "material": {
+      "id": "jump_rope",
+      "name": {
+        "en": "Jump Rope",
+        "nl": "Springtouw"
+      },
+      "description": {
+        "en": "Speed or weighted rope for cardiovascular endurance, rhythm, and footwork agility",
+        "nl": "Springtouw voor cardiovasculair uithoudingsvermogen, ritme en voetenwerk"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Jump with your feet wide and narrow as you continue to twist the rope.",
+        "Coordination Challenge!"
+      ],
+      "nl": [
+        "Spring met je voeten wijd en smal terwijl je het touw blijft draaien.",
+        "Coördinatie-uitdaging!"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "jump_rope_double_unders"
+      ],
+      "regressions": [
+        "jump_rope_single_unders"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "vQFS08xUgHc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "TCU Strength",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T13:00:49.921Z"
     }
   }
 ]
