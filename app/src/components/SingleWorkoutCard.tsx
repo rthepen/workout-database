@@ -18,7 +18,7 @@ import {
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
 import { ExerciseEditor } from './ExerciseEditor';
-import { openYouTubeSearchApp } from '../services/youtubeService';
+import { openYouTubeSearchApp, buildYouTubeExerciseSearchQuery } from '../services/youtubeService';
 import { sendExerciseBackupToGoogleSheet } from '../services/googleSheetService';
 
 interface SingleWorkoutCardProps {
@@ -55,27 +55,15 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   const hasStartTimestamp = exercise.media?.videos?.some(v => v.start_seconds !== undefined && v.start_seconds > 0);
 
   const handleCopyTitle = () => {
-    const materialName = exercise.material?.name?.en || '';
-    const exerciseName = exercise.exercise_name?.en || exercise.id;
-    let fullTitle = exerciseName;
-    if (materialName && !exerciseName.toLowerCase().startsWith(materialName.toLowerCase())) {
-      fullTitle = `${materialName} ${exerciseName}`;
-    }
-
-    navigator.clipboard.writeText(`${fullTitle} short`);
+    const fullQuery = buildYouTubeExerciseSearchQuery(exercise);
+    navigator.clipboard.writeText(fullQuery);
     setCopiedTitle(true);
     setTimeout(() => setCopiedTitle(false), 2000);
   };
 
   const handleSearchYouTube = () => {
-    const materialName = exercise.material?.name?.en || '';
-    const exerciseName = exercise.exercise_name?.en || exercise.id;
-    let fullQuery = exerciseName;
-    if (materialName && !exerciseName.toLowerCase().startsWith(materialName.toLowerCase())) {
-      fullQuery = `${materialName} ${exerciseName}`;
-    }
-
-    openYouTubeSearchApp(`${fullQuery} short`);
+    const fullQuery = buildYouTubeExerciseSearchQuery(exercise);
+    openYouTubeSearchApp(fullQuery);
   };
 
   const handleSetRating = (rating: number) => {

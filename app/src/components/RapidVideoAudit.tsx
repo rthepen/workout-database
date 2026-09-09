@@ -30,7 +30,7 @@ import {
   ClipboardPaste
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
-import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed, openYouTubeSearchApp } from '../services/youtubeService';
+import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed, openYouTubeSearchApp, buildYouTubeExerciseSearchQuery } from '../services/youtubeService';
 import { SmartAuditVideoPlayer } from './SmartAuditVideoPlayer';
 import confetti from 'canvas-confetti';
 
@@ -899,7 +899,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             const instructions = instructionsNl.length > 0 ? instructionsNl : instructionsEn;
 
             const activeRating = ratings[ex.id] !== undefined ? ratings[ex.id] : (ex.attributes?.rating || 0);
-            const ytSearchQuery = `${ex.exercise_name?.nl || ex.exercise_name?.en || ''} ${ex.material?.name?.nl || ex.material?.name?.en || ''} workout exercise form short`.trim();
+            const ytSearchQuery = buildYouTubeExerciseSearchQuery(ex);
 
             return (
               <div
@@ -1119,7 +1119,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           type="button"
                           onClick={() => openYouTubeSearchApp(ytSearchQuery)}
                           className="px-2.5 py-1.5 bg-rose-600 hover:bg-rose-500 text-white rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 shadow-md shadow-rose-600/30 transition transform active:scale-95 whitespace-nowrap min-h-[36px]"
-                          title={`Zoek '${ex.exercise_name?.nl || ex.exercise_name?.en}' direct in de YouTube app`}
+                          title={`Zoek '${ex.exercise_name?.en || ex.exercise_name?.nl}' direct in de YouTube app`}
                         >
                           <Film className="w-3.5 h-3.5 text-white" />
                           <span>Zoek op YouTube</span>

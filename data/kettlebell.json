@@ -3679,163 +3679,6 @@
     }
   },
   {
-    "id": "kettlebell_plank_on_handles",
-    "exercise_name": {
-      "en": "Kettlebell Plank (on handles)",
-      "nl": "Kettlebell Plank (on handles)"
-    },
-    "aliases": [
-      "Kettlebell Plank",
-      "Kettlebell Plank on handles",
-      "on handles"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core & Grip Strength",
-      "nl": "Core / Grip"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place two kettlebells shoulder-width apart.",
-        "Assume a plank position grasping the handles firmly.",
-        "The focus is on stabilizing the bells and your core."
-      ],
-      "nl": [
-        "Zet twee kettlebells op schouderbreedte neer.",
-        "Neem een plankpositie aan met je handen op de handvatten.",
-        "De focus ligt op het stabiliseren van de bells en je core."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "kettlebell_staggered_stance_rdl",
-    "exercise_name": {
-      "en": "Staggered Stance RDL",
-      "nl": "Staggered Stance RDL"
-    },
-    "aliases": [
-      "Staggered Stance RDL"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Hamstrings & Glutes",
-      "nl": "Hamstrings / Bilspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Stand with one foot stepped slightly behind on your toe for balance in a kickstand stance.",
-        "Perform a Romanian deadlift with 90% of your weight balanced on your lead leg."
-      ],
-      "nl": [
-        "Sta met één voet een klein stapje achter de andere (op de teen voor balans).",
-        "Voer een RDL uit waarbij 90% van het gewicht op je voorste been rust."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "kettlebell_clean",
     "exercise_name": {
       "en": "Kettlebell Clean",
@@ -4453,6 +4296,185 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "kettlebell_plank_on_handles",
+    "exercise_name": {
+      "en": "Kettlebell Plank (on handles)",
+      "nl": "Kettlebell Plank (on handles)"
+    },
+    "aliases": [
+      "Kettlebell Plank",
+      "Kettlebell Plank on handles",
+      "on handles"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core & Grip Strength",
+      "nl": "Core / Grip"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place two kettlebells shoulder-width apart.",
+        "Assume a plank position grasping the handles firmly.",
+        "The focus is on stabilizing the bells and your core."
+      ],
+      "nl": [
+        "Zet twee kettlebells op schouderbreedte neer.",
+        "Neem een plankpositie aan met je handen op de handvatten.",
+        "De focus ligt op het stabiliseren van de bells en je core."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "lGypI7IWFNw",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Fitwithjim",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T08:56:06.452Z"
+    }
+  },
+  {
+    "id": "kettlebell_staggered_stance_rdl",
+    "exercise_name": {
+      "en": "Staggered Stance RDL",
+      "nl": "Staggered Stance RDL"
+    },
+    "aliases": [
+      "Staggered Stance RDL"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Hamstrings & Glutes",
+      "nl": "Hamstrings / Bilspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Stand with one foot stepped slightly behind on your toe for balance in a kickstand stance.",
+        "Perform a Romanian deadlift with 90% of your weight balanced on your lead leg."
+      ],
+      "nl": [
+        "Sta met één voet een klein stapje achter de andere (op de teen voor balans).",
+        "Voer een RDL uit waarbij 90% van het gewicht op je voorste been rust."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "IdYmlPp3lVE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Action Ready Training Club",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T08:56:06.452Z"
     }
   }
 ]

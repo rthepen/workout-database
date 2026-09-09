@@ -442,84 +442,6 @@
     }
   },
   {
-    "id": "cardio_equipment_skillmill_parachute_run",
-    "exercise_name": {
-      "en": "Parachute Run",
-      "nl": "Parachute Run"
-    },
-    "aliases": [
-      "Parachute Run"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Speed",
-      "nl": "Cardio / Snelheid"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Put on the waist belt/harness (if equipped) or select the parachute position.",
-        "Sprint at full speed driving against the progressive air resistance.",
-        "The faster you run, the harder it gets."
-      ],
-      "nl": [
-        "Doe de heupriem/harnas om (indien aanwezig) of selecteer de parachute-stand.",
-        "Ren zo hard mogelijk tegen de toenemende luchtweerstand in.",
-        "Hoe harder je rent, hoe zwaarder het wordt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "cardio_equipment_skierg_double_pole",
     "exercise_name": {
       "en": "SkiErg Double Pole",
@@ -1059,6 +981,95 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-08T09:14:04.210Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_skillmill_parachute_run",
+    "exercise_name": {
+      "en": "Parachute Run",
+      "nl": "Parachute Run"
+    },
+    "aliases": [
+      "Parachute Run"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Speed",
+      "nl": "Cardio / Snelheid"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Put on the waist belt/harness (if equipped) or select the parachute position.",
+        "Sprint at full speed driving against the progressive air resistance.",
+        "The faster you run, the harder it gets."
+      ],
+      "nl": [
+        "Doe de heupriem/harnas om (indien aanwezig) of selecteer de parachute-stand.",
+        "Ren zo hard mogelijk tegen de toenemende luchtweerstand in.",
+        "Hoe harder je rent, hoe zwaarder het wordt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "CGrd0yMcjOs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Nicholas H",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T08:56:06.452Z"
     }
   }
 ]

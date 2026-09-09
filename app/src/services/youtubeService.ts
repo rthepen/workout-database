@@ -287,6 +287,42 @@ export async function fetchYouTubeOEmbed(idOrUrl: string): Promise<YouTubeOEmbed
 }
 
 /**
+ * Builds an optimal YouTube search query in English for finding exercise video shorts.
+ * Strictly prioritizes English terms (e.g., 'Monkey Bars' instead of Dutch 'Klimrek')
+ * to ensure relevant, high-quality video demonstrations on YouTube.
+ */
+export function buildYouTubeExerciseSearchQuery(exercise: {
+  id?: string;
+  exercise_name?: { en?: string; nl?: string };
+  material?: { id?: string; name?: { en?: string; nl?: string } };
+}): string {
+  // Prioritize English exercise name; fallback to Dutch or id only if missing
+  const enName = (exercise.exercise_name?.en || '').trim();
+  const nlName = (exercise.exercise_name?.nl || '').trim();
+  const exerciseName = enName || nlName || exercise.id || '';
+
+  // Prioritize English equipment name (e.g. "Monkey Bars", "Dumbbells", "Kettlebell")
+  const matEn = (exercise.material?.name?.en || '').trim();
+
+  let query = exerciseName;
+
+  if (matEn) {
+    // Avoid repeating equipment name if it's already part of the exercise name
+    // e.g. "Monkey Bar Traverse" vs "Monkey Bars", or "Dumbbell Press" vs "Dumbbells"
+    const normalize = (str: string) => str.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const normName = normalize(exerciseName);
+    const normMat = normalize(matEn);
+    const stemMat = normMat.replace(/s$/, ''); // Stem trailing plural 's'
+
+    if (!normName.includes(normMat) && (!stemMat || !normName.includes(stemMat))) {
+      query = `${matEn} ${exerciseName}`;
+    }
+  }
+
+  return `${query} workout exercise form short`.trim();
+}
+
+/**
  * Opens the native YouTube app directly on mobile (iOS/Android) without opening a new browser tab
  * and WITHOUT replacing the current webapp tab when switching back.
  */
