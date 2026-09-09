@@ -174,9 +174,17 @@ def parse_sheet_exercises(rows):
         if "schema_version" not in c["meta"]:
             c["meta"]["schema_version"] = "1.1.0"
 
+        # Detect deletion flag
+        is_deleted = False
+        if isinstance(obj, dict) and obj.get("_deleted") is True:
+            is_deleted = True
+        if isinstance(item.get("raw_row"), dict) and item["raw_row"].get("status") in ["DELETED", "Deleted from Database"]:
+            is_deleted = True
+
         cleaned_by_id[ex_id] = {
             "exercise": c,
-            "timestamp": item["timestamp"]
+            "timestamp": item["timestamp"],
+            "is_deleted": is_deleted
         }
 
     return cleaned_by_id
@@ -203,10 +211,23 @@ def compare_sheet_with_codebase(sheet_data, local_data):
     meta_diffs = []
     identical = []
     new_in_sheet = []
+    deleted_in_sheet = []
 
     for ex_id, sheet_item in sheet_data.items():
         sheet_ex = sheet_item["exercise"]
         sheet_ts = sheet_item["timestamp"]
+        is_deleted = sheet_item.get("is_deleted", False)
+
+        if is_deleted:
+            if ex_id in local_data:
+                local_ex = local_data[ex_id]
+                deleted_in_sheet.append({
+                    "id": ex_id,
+                    "name": local_ex.get("exercise_name", {}).get("nl") or local_ex.get("exercise_name", {}).get("en") or ex_id,
+                    "material": local_ex.get("material", {}).get("id") or "onbekend",
+                    "timestamp": sheet_ts
+                })
+            continue
 
         if ex_id not in local_data:
             new_in_sheet.append((ex_id, sheet_ex, sheet_ts))
@@ -258,7 +279,8 @@ def compare_sheet_with_codebase(sheet_data, local_data):
         "content_diffs": content_diffs,
         "meta_diffs": meta_diffs,
         "identical": identical,
-        "new_in_sheet": new_in_sheet
+        "new_in_sheet": new_in_sheet,
+        "deleted_in_sheet": deleted_in_sheet
     }
 
 def print_summary_report(results, total_local_count):
@@ -266,7 +288,8 @@ def print_summary_report(results, total_local_count):
     meta_diffs = results["meta_diffs"]
     identical = results["identical"]
     new_in_sheet = results["new_in_sheet"]
-    total_in_sheet = len(content_diffs) + len(meta_diffs) + len(identical) + len(new_in_sheet)
+    deleted_in_sheet = results.get("deleted_in_sheet", [])
+    total_in_sheet = len(content_diffs) + len(meta_diffs) + len(identical) + len(new_in_sheet) + len(deleted_in_sheet)
 
     print("\n" + "=" * 68)
     print(f"{BOLD}📊 VERGELIJKINGSRAPPORT: GOOGLE SHEET vs LOKALE CODEBASE{RESET}")
@@ -276,13 +299,20 @@ def print_summary_report(results, total_local_count):
     print(f" • Exact identiek:                               {GREEN}{len(identical)}{RESET}")
     print(f" • Alleen beoordeeld (timestamp nieuwer):        {CYAN}{len(meta_diffs)}{RESET}")
     print(f" • Inhoudelijke wijzigingen (Video/Rating/etc.): {YELLOW}{len(content_diffs)}{RESET}")
+    if deleted_in_sheet:
+        print(f" • Te verwijderen oefeningen (Deleted status):   {RED}{len(deleted_in_sheet)}{RESET}")
     if new_in_sheet:
         print(f" • Nieuwe oefeningen (staan nog niet lokaal):   {RED}{len(new_in_sheet)}{RESET}")
     print("-" * 68)
 
-    if not content_diffs and not meta_diffs and not new_in_sheet:
+    if not content_diffs and not meta_diffs and not new_in_sheet and not deleted_in_sheet:
         print(f"\n{GREEN}{BOLD}🎉 De lokale codebase is 100% in sync met de Google Sheet! Geen verschillen.{RESET}\n")
         return
+
+    if deleted_in_sheet:
+        print(f"\n{BOLD}{RED}🗑️ Te verwijderen oefeningen ({len(deleted_in_sheet)} oefeningen):{RESET}")
+        for idx, d in enumerate(deleted_in_sheet, 1):
+            print(f"  {idx}. {d['name']} ({d['id']}) [{d['material']}]")
 
     if content_diffs:
         print(f"\n{BOLD}{YELLOW}📝 Inhoudelijke Verschillen ({len(content_diffs)} oefeningen):{RESET}")
@@ -322,11 +352,33 @@ def apply_sync(results, file_map):
     for m in results["meta_diffs"]:
         to_update[m["id"]] = m["sheet_exercise"]
 
-    if not to_update:
+    deleted_in_sheet = results.get("deleted_in_sheet", [])
+    deletions_by_file = {}
+    for d in deleted_in_sheet:
+        del_id = d["id"]
+        del_file = file_map.get(del_id)
+        if del_file:
+            if del_file not in deletions_by_file:
+                deletions_by_file[del_file] = set()
+            deletions_by_file[del_file].add(del_id)
+
+    if not to_update and not deletions_by_file:
         log_info("Geen wijzigingen om door te voeren.")
         return
 
-    log_info(f"Bezig met doorvoeren van {len(to_update)} bijgewerkte oefeningen...")
+    if deletions_by_file:
+        log_info(f"Bezig met verwijderen van {len(deleted_in_sheet)} oefeningen uit database...")
+        for file_path, del_ids in deletions_by_file.items():
+            with open(file_path, "r", encoding="utf-8") as fp:
+                records = json.load(fp)
+            new_records = [r for r in records if r.get("id") not in del_ids]
+            with open(file_path, "w", encoding="utf-8") as fp:
+                json.dump(new_records, fp, indent=2, ensure_ascii=False)
+                fp.write("\n")
+            log_success(f"Verwijderd uit {os.path.basename(file_path)}: {len(del_ids)} oefening(en)")
+
+    if to_update:
+        log_info(f"Bezig met doorvoeren van {len(to_update)} bijgewerkte oefeningen...")
 
     # Group updates by file
     updates_by_file = {}

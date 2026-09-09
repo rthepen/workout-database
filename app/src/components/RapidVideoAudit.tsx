@@ -38,6 +38,7 @@ interface RapidVideoAuditProps {
   exercises: Exercise[];
   onSaveBatch: (updatedExercises: Exercise[]) => Promise<void>;
   onSelectExerciseToView: (exerciseId: string) => void;
+  onDeleteExercise?: (exerciseId: string) => void;
   materialsList: { id: string; name: { en: string; nl: string } }[];
 }
 
@@ -101,6 +102,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   exercises,
   onSaveBatch,
   onSelectExerciseToView,
+  onDeleteExercise,
   materialsList,
 }) => {
   // Sorteren
@@ -1159,6 +1161,18 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                           <SlidersHorizontal className="w-3 h-3 text-sky-400" />
                           <span>Details</span>
                         </button>
+
+                        {onDeleteExercise && (
+                          <button
+                            type="button"
+                            onClick={() => onDeleteExercise(ex.id)}
+                            className="px-2.5 py-1.5 bg-rose-950/40 hover:bg-rose-900 text-rose-300 hover:text-white rounded-xl border border-rose-800/60 flex items-center justify-center gap-1.5 font-medium text-xs transition min-h-[30px]"
+                            title="Verwijder deze workout volledig uit de database"
+                          >
+                            <Trash2 className="w-3 h-3 text-rose-400" />
+                            <span>Verwijder</span>
+                          </button>
+                        )}
                       </div>
                     </div>
 

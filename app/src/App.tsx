@@ -9,8 +9,8 @@ import { ContributionModal } from './components/ContributionModal';
 import { DiffModal } from './components/DiffModal';
 import { SheetSettingsModal } from './components/SheetSettingsModal';
 import { AddNewExerciseModal } from './components/AddNewExerciseModal';
-import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits } from './services/exerciseService';
-import { sendExerciseBackupToGoogleSheet } from './services/googleSheetService';
+import { fetchAllExercises, saveExercisesToLocal, resetLocalEdits, markExerciseAsDeleted } from './services/exerciseService';
+import { sendExerciseBackupToGoogleSheet, sendExerciseDeletionToGoogleSheet } from './services/googleSheetService';
 import type { Exercise, VideoMedia } from './types/exercise';
 import confetti from 'canvas-confetti';
 import { Filter } from 'lucide-react';
@@ -262,6 +262,41 @@ export function App() {
     }
   };
 
+  // Action: Delete exercise completely from database
+  const handleDeleteExercise = async (exerciseId: string) => {
+    const exerciseToDelete = exercises.find(e => e.id === exerciseId);
+    if (!exerciseToDelete) return;
+
+    const name = exerciseToDelete.exercise_name?.nl || exerciseToDelete.exercise_name?.en || exerciseId;
+    const confirmDelete = window.confirm(`Weet je zeker dat je de workout '${name}' definitief uit de database wilt verwijderen?`);
+    if (!confirmDelete) return;
+
+    const updatedList = exercises.filter(e => e.id !== exerciseId);
+    setExercises(updatedList);
+    markExerciseAsDeleted(exerciseId);
+    saveExercisesToLocal(updatedList, originalExercises);
+    setHasLocalEdits(true);
+
+    // Notify Google Sheet webhook of deletion
+    sendExerciseDeletionToGoogleSheet(exerciseToDelete);
+
+    // Advance active exercise if the currently viewed one was deleted
+    if (activeExerciseId === exerciseId) {
+      const currentPos = filteredAndSortedExercises.findIndex(e => e.id === exerciseId);
+      const remaining = filteredAndSortedExercises.filter(e => e.id !== exerciseId);
+      if (currentPos >= 0 && currentPos < remaining.length) {
+        setActiveExerciseId(remaining[currentPos].id);
+        setCurrentIndex(currentPos);
+      } else if (remaining.length > 0) {
+        setActiveExerciseId(remaining[0].id);
+        setCurrentIndex(0);
+      } else {
+        setActiveExerciseId(null);
+        setCurrentIndex(0);
+      }
+    }
+  };
+
   // Navigation Handlers
   const handleNext = () => {
     const currentPos = filteredAndSortedExercises.findIndex(e => e.id === currentExercise?.id);
@@ -367,6 +402,7 @@ export function App() {
               setActiveExerciseId(exerciseId);
               setViewMode('single');
             }}
+            onDeleteExercise={handleDeleteExercise}
             materialsList={materialsList}
           />
         ) : filteredAndSortedExercises.length === 0 ? (
@@ -390,6 +426,7 @@ export function App() {
             onPrev={handlePrev}
             onApprove={handleApproveExercise}
             onSaveEdits={handleSaveExercise}
+            onDelete={handleDeleteExercise}
             onOpenDiff={() => setIsDiffModalOpen(true)}
             onOpenFilterDrawer={() => setIsFilterDrawerOpen(true)}
             onUpdateVideos={handleUpdateVideos}

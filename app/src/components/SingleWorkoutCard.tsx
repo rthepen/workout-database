@@ -14,7 +14,8 @@ import {
   Check, 
   Star, 
   Tv as YoutubeIcon,
-  Image as ImageIcon
+  Image as ImageIcon,
+  Trash2
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { VideoInspector } from './VideoInspector';
@@ -30,6 +31,7 @@ interface SingleWorkoutCardProps {
   onPrev: () => void;
   onApprove: (exercise: Exercise) => void;
   onSaveEdits: (updated: Exercise) => void;
+  onDelete?: (exerciseId: string) => void;
   onOpenDiff: () => void;
   onOpenFilterDrawer: () => void;
   onUpdateVideos: (videos: VideoMedia[]) => void;
@@ -44,6 +46,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
   onPrev,
   onApprove,
   onSaveEdits,
+  onDelete,
   onOpenDiff,
   onOpenFilterDrawer,
   onUpdateVideos,
@@ -437,7 +440,7 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
             </div>
           </div>
 
-          {/* Fixed Floating Action Bar (Approve / Direct 1-Click PR / Edit) ALWAYS Floating at Screen Bottom */}
+          {/* Fixed Floating Action Bar (Approve / Direct 1-Click PR / Edit / Delete) ALWAYS Floating at Screen Bottom */}
           <div className="fixed bottom-0 left-0 right-0 z-40 p-3 sm:p-4 bg-[#0B0F17]/95 backdrop-blur-xl border-t border-slate-800 flex items-center justify-center shadow-[0_-12px_30px_rgba(0,0,0,0.9)]">
             <div className="max-w-4xl w-full flex items-center justify-between gap-2 sm:gap-3">
               <button
@@ -447,6 +450,18 @@ export const SingleWorkoutCard: React.FC<SingleWorkoutCardProps> = ({
                 <Edit3 className="w-4 h-4 text-brand-400" />
                 <span>Edit</span>
               </button>
+
+              {onDelete && (
+                <button
+                  type="button"
+                  onClick={() => onDelete(exercise.id)}
+                  className="px-3.5 sm:px-4 py-2.5 sm:py-3 bg-rose-950/60 hover:bg-rose-900 text-rose-300 hover:text-white font-bold text-xs rounded-xl border border-rose-800/80 flex items-center justify-center gap-1.5 transition transform active:scale-95 whitespace-nowrap"
+                  title="Verwijder deze workout volledig uit de database"
+                >
+                  <Trash2 className="w-4 h-4 text-rose-400" />
+                  <span>Verwijder</span>
+                </button>
+              )}
 
               {/* Primary Action Button: Approve & Submit to Google Sheet */}
               <button

@@ -3,6 +3,28 @@ import type { Exercise } from '../types/exercise';
 
 const LIVE_DATA_URL = 'https://raw.githubusercontent.com/rthepen/workout-database/main/dist/all_exercises.json';
 const STORAGE_KEY = 'workout_db_custom_edits_v2';
+const DELETED_STORAGE_KEY = 'workout_db_deleted_ids_v1';
+
+export function getDeletedExerciseIds(): string[] {
+  try {
+    const raw = localStorage.getItem(DELETED_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+export function markExerciseAsDeleted(id: string) {
+  try {
+    const current = getDeletedExerciseIds();
+    if (!current.includes(id)) {
+      current.push(id);
+      localStorage.setItem(DELETED_STORAGE_KEY, JSON.stringify(current));
+    }
+  } catch (err) {
+    console.warn('Failed to save deleted ID to local storage:', err);
+  }
+}
 
 export async function fetchAllExercises(forceLive: boolean = false): Promise<{ exercises: Exercise[]; isLive: boolean }> {
   let baseExercises: Exercise[] = bundledData as unknown as Exercise[];
@@ -26,6 +48,14 @@ export async function fetchAllExercises(forceLive: boolean = false): Promise<{ e
     console.warn('Live fetch failed, using bundled database snapshot:', err);
   }
 
+  // Filter out locally deleted exercises unless forceLive is resetting
+  if (!forceLive) {
+    const deletedIds = new Set(getDeletedExerciseIds());
+    if (deletedIds.size > 0) {
+      baseExercises = baseExercises.filter(e => !deletedIds.has(e.id));
+    }
+  }
+
   // Check if we have local storage modified state (unless forceLive is true)
   if (!forceLive) {
     const cachedEdits = localStorage.getItem(STORAGE_KEY);
@@ -33,13 +63,14 @@ export async function fetchAllExercises(forceLive: boolean = false): Promise<{ e
       try {
         const parsed = JSON.parse(cachedEdits);
         if (Array.isArray(parsed) && parsed.length > 0) {
+          const deletedIds = new Set(getDeletedExerciseIds());
           // Merge local edits into baseExercises by ID, preserving all new exercises
-          const localMap = new Map<string, Exercise>(parsed.map((e: Exercise) => [e.id, e]));
+          const localMap = new Map<string, Exercise>(parsed.filter((e: Exercise) => !deletedIds.has(e.id)).map((e: Exercise) => [e.id, e]));
           const merged = baseExercises.map(e => localMap.get(e.id) || e);
 
           // Also include any newly created custom exercises added locally
           parsed.forEach((e: Exercise) => {
-            if (!merged.some(m => m.id === e.id)) {
+            if (!deletedIds.has(e.id) && !merged.some(m => m.id === e.id)) {
               merged.unshift(e);
             }
           });
@@ -81,6 +112,7 @@ export function saveExercisesToLocal(exercises: Exercise[], baseExercises?: Exer
 export function resetLocalEdits() {
   try {
     localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(DELETED_STORAGE_KEY);
   } catch (err) {
     console.warn('Failed to reset local edits:', err);
   }

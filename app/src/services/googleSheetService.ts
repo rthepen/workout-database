@@ -79,3 +79,50 @@ export async function sendExerciseBackupToGoogleSheet(
     return { success: false, error: err?.toString() || 'Kon niet verzenden naar Google Sheet.' };
   }
 }
+
+/**
+ * Send an exercise deletion event to Google Sheets backup webhook.
+ */
+export async function sendExerciseDeletionToGoogleSheet(
+  exercise: Exercise,
+  customWebhookUrl?: string
+): Promise<{ success: boolean; error?: string }> {
+  const webhookUrl = customWebhookUrl || getSavedGoogleSheetWebhook();
+  if (!webhookUrl) {
+    return { success: false, error: 'Geen Google Sheet webhook URL geconfigureerd.' };
+  }
+
+  const fingerprint = getUserFingerprint();
+  const payloadData = {
+    user_fingerprint: fingerprint,
+    status: 'DELETED',
+    action: 'delete',
+    timestamp: new Date().toISOString(),
+    id: exercise.id,
+    name: exercise.exercise_name?.en || exercise.exercise_name?.nl || exercise.id,
+    material: exercise.material?.id || '',
+    category: exercise.category?.en || '',
+    exercises: [{
+      ...exercise,
+      _deleted: true,
+      _user_fingerprint: fingerprint,
+    }],
+  };
+
+  try {
+    const payload = JSON.stringify(payloadData);
+    await fetch(webhookUrl, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: {
+        'Content-Type': 'text/plain',
+      },
+      body: payload,
+    });
+    return { success: true };
+  } catch (err: any) {
+    console.warn('Google Sheet deletion backup fetch warning:', err);
+    return { success: false, error: err?.toString() || 'Kon verwijdering niet verzenden naar Google Sheet.' };
+  }
+}
+
