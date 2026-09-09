@@ -875,158 +875,6 @@
     }
   },
   {
-    "id": "ab_wheel_v_rollout",
-    "exercise_name": {
-      "en": "V-Rollout",
-      "nl": "V-Rollout"
-    },
-    "aliases": [
-      "V-Rollout"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Obliques & Core",
-      "nl": "Buikspieren / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Start on your knees and roll the wheel out diagonally, alternating between left and right in a 'V' shape."
-      ],
-      "nl": [
-        "Start op je knieën en rol het wiel diagonaal naar buiten, wisselend tussen links en rechts in een 'V' vorm."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "ab_wheel_pikes",
-    "exercise_name": {
-      "en": "Ab Wheel Pikes",
-      "nl": "Ab Wheel Pikes"
-    },
-    "aliases": [
-      "Ab Wheel Pikes"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Buikspieren / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "With feet on the ab wheel, keep legs straight and drive hips high into a sharp pike V-shape.",
-        "Roll back to plank in a controlled manner."
-      ],
-      "nl": [
-        "Met je voeten op het wiel, houd je benen gestrekt en breng je heupen zo hoog mogelijk de lucht in (V-vorm).",
-        "Rol gecontroleerd terug naar plank."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:20:51.451Z"
-    }
-  },
-  {
     "id": "ab_wheel_ramp_rollout",
     "exercise_name": {
       "en": "Ramp Rollout",
@@ -1258,6 +1106,180 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T07:20:51.451Z"
+    }
+  },
+  {
+    "id": "ab_wheel_v_rollout",
+    "exercise_name": {
+      "en": "V-Rollout",
+      "nl": "V-Rollout"
+    },
+    "aliases": [
+      "V-Rollout"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Obliques & Core",
+      "nl": "Buikspieren / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Start on your knees and roll the wheel out diagonally, alternating between left and right in a 'V' shape."
+      ],
+      "nl": [
+        "Start op je knieën en rol het wiel diagonaal naar buiten, wisselend tussen links en rechts in een 'V' vorm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "nq1thZ3tQ9I",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "16:9",
+          "channel": "Futuring U",
+          "rating": 1
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "ab_wheel_pikes",
+    "exercise_name": {
+      "en": "Ab Wheel Pikes",
+      "nl": "Ab Wheel Pikes"
+    },
+    "aliases": [
+      "Ab Wheel Pikes"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Buikspieren / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "With feet on the ab wheel, keep legs straight and drive hips high into a sharp pike V-shape.",
+        "Roll back to plank in a controlled manner."
+      ],
+      "nl": [
+        "Met je voeten op het wiel, houd je benen gestrekt en breng je heupen zo hoog mogelijk de lucht in (V-vorm).",
+        "Rol gecontroleerd terug naar plank."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "j5NVKUqqp5Q",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "causeNeffect_RS",
+          "rating": 2
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
     }
   }
 ]

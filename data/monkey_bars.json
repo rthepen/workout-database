@@ -855,78 +855,6 @@
     }
   },
   {
-    "id": "monkey_bars_hanging_windshield_wipers",
-    "exercise_name": {
-      "en": "Hanging Windshield Wipers",
-      "nl": "Hanging Windshield Wipers"
-    },
-    "aliases": [
-      "Hanging Windshield Wipers"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hang from the bar and pull your legs up until your feet point toward the ceiling.",
-        "Rotate your legs and hips in a controlled manner from left to right like a windshield wiper."
-      ],
-      "nl": [
-        "Hang aan de stang en trek je benen omhoog tot je voeten richting het plafond wijzen.",
-        "Draai je benen en heupen gecontroleerd van links naar rechts als een ruitenwisser."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "monkey_bars_monkey_bar_pull_ups",
     "exercise_name": {
       "en": "Pull Ups",
@@ -1684,6 +1612,89 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "monkey_bars_hanging_windshield_wipers",
+    "exercise_name": {
+      "en": "Hanging Windshield Wipers",
+      "nl": "Hanging Windshield Wipers"
+    },
+    "aliases": [
+      "Hanging Windshield Wipers"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang from the bar and pull your legs up until your feet point toward the ceiling.",
+        "Rotate your legs and hips in a controlled manner from left to right like a windshield wiper."
+      ],
+      "nl": [
+        "Hang aan de stang en trek je benen omhoog tot je voeten richting het plafond wijzen.",
+        "Draai je benen en heupen gecontroleerd van links naar rechts als een ruitenwisser."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xvw_r7VZ2S8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SMØK",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
     }
   }
 ]

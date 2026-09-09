@@ -516,84 +516,6 @@
     }
   },
   {
-    "id": "standing_punching_bag_freestyle_blitz",
-    "exercise_name": {
-      "en": "Freestyle Blitz (All-Out)",
-      "nl": "Freestyle Blitz (All-Out)"
-    },
-    "aliases": [
-      "All-Out",
-      "Freestyle Blitz",
-      "Freestyle Blitz All-Out"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Cardio & Boxing",
-      "nl": "Cardio / Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Over time (e.g.",
-        "30 sec) deliver non-stop punches, kicks and knees as fast and hard as you can.",
-        "Focus on speed and endurance."
-      ],
-      "nl": [
-        "Gedurende de tijd (bijv.",
-        "30 sec) geef je non-stop stoten, trappen en knieën zo snel en hard als je kunt.",
-        "Focus op snelheid en uithoudingsvermogen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "standing_punching_bag_bag_tackle_reset",
     "exercise_name": {
       "en": "Bag Tackle & Reset (Omgooien & Rechtzetten)",
@@ -1718,6 +1640,95 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_freestyle_blitz",
+    "exercise_name": {
+      "en": "Freestyle Blitz (All-Out)",
+      "nl": "Freestyle Blitz (All-Out)"
+    },
+    "aliases": [
+      "All-Out",
+      "Freestyle Blitz",
+      "Freestyle Blitz All-Out"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Cardio & Boxing",
+      "nl": "Cardio / Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Over time (e.g.",
+        "30 sec) deliver non-stop punches, kicks and knees as fast and hard as you can.",
+        "Focus on speed and endurance."
+      ],
+      "nl": [
+        "Gedurende de tijd (bijv.",
+        "30 sec) geef je non-stop stoten, trappen en knieën zo snel en hard als je kunt.",
+        "Focus op snelheid en uithoudingsvermogen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "II_6kc7_tzs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FightCamp",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
     }
   }
 ]

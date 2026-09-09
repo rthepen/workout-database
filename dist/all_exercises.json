@@ -38889,612 +38889,6 @@
     }
   },
   {
-    "id": "monkey_bars_hanging_windshield_wipers",
-    "exercise_name": {
-      "en": "Hanging Windshield Wipers",
-      "nl": "Hanging Windshield Wipers"
-    },
-    "aliases": [
-      "Hanging Windshield Wipers"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hang from the bar and pull your legs up until your feet point toward the ceiling.",
-        "Rotate your legs and hips in a controlled manner from left to right like a windshield wiper."
-      ],
-      "nl": [
-        "Hang aan de stang en trek je benen omhoog tot je voeten richting het plafond wijzen.",
-        "Draai je benen en heupen gecontroleerd van links naar rechts als een ruitenwisser."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "sprint_track_duck_walk",
-    "exercise_name": {
-      "en": "Duck Walk",
-      "nl": "Duck Walk"
-    },
-    "aliases": [
-      "Duck Walk"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Legs & Mobility",
-      "nl": "Benen / Mobiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Lower into a deep squat.",
-        "Stay as low as possible and walk forward.",
-        "Keep your chest upright and try not to rise while walking.",
-        "Burns in the quadriceps!"
-      ],
-      "nl": [
-        "Zak in een diepe squat.",
-        "Blijf zo laag mogelijk en loop naar voren.",
-        "Houd je borst rechtop en probeer niet omhoog te komen tijdens het stappen.",
-        "Brandt in de quadriceps!"
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "sprint_track_sled_push"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "sprint_track_b_skips",
-    "exercise_name": {
-      "en": "B-Skips",
-      "nl": "B-Skips"
-    },
-    "aliases": [
-      "B-Skips"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
-      }
-    },
-    "category": {
-      "en": "Running Mechanics",
-      "nl": "Looptechniek"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Same start as A-Skip (knee up), but extend your lower leg at the highest point and actively claw your foot back to the ground (pawing motion)."
-      ],
-      "nl": [
-        "Zelfde start als A-Skip (knie omhoog), maar strek je onderbeen uit op het hoogste punt en klauw je voet actief terug naar de grond (pawing motion)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "sprint_track_walking_lunges"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "standing_punching_bag_freestyle_blitz",
-    "exercise_name": {
-      "en": "Freestyle Blitz (All-Out)",
-      "nl": "Freestyle Blitz (All-Out)"
-    },
-    "aliases": [
-      "All-Out",
-      "Freestyle Blitz",
-      "Freestyle Blitz All-Out"
-    ],
-    "material": {
-      "id": "standing_punching_bag",
-      "name": {
-        "en": "Standing Punching Bag",
-        "nl": "Staande Bokspaal"
-      },
-      "description": {
-        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
-        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
-      }
-    },
-    "category": {
-      "en": "Cardio & Boxing",
-      "nl": "Cardio / Boksen"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Over time (e.g.",
-        "30 sec) deliver non-stop punches, kicks and knees as fast and hard as you can.",
-        "Focus on speed and endurance."
-      ],
-      "nl": [
-        "Gedurende de tijd (bijv.",
-        "30 sec) geef je non-stop stoten, trappen en knieën zo snel en hard als je kunt.",
-        "Focus op snelheid en uithoudingsvermogen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "tractor_tire_sledgehammer",
-    "exercise_name": {
-      "en": "Tyre Sledgehammer",
-      "nl": "Tyre Sledgehammer"
-    },
-    "aliases": [
-      "Tyre Sledgehammer"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Hit the tire with a sledgehammer.",
-        "Be cautious of the elastic recoil and maintain firm control.",
-        "Switch lead stance (orthodox to southpaw)."
-      ],
-      "nl": [
-        "Sla met een voorhamer op de band.",
-        "Let op de terugslag.",
-        "Wissel van kant (links/rechts voor)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "tractor_tire_decline_pushup",
-    "exercise_name": {
-      "en": "Tyre Decline Push Up",
-      "nl": "Tyre Decline Push Up"
-    },
-    "aliases": [
-      "Tyre Decline Push Up"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Feet on the tire, hands on the ground.",
-        "Perform a full range-of-motion push-up.",
-        "Heavier for the top of the chest."
-      ],
-      "nl": [
-        "Voeten op de band, handen op de grond.",
-        "Maak een push-up.",
-        "Zwaarder voor de bovenkant borst."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "trx_suspension_push_up",
-    "exercise_name": {
-      "en": "TRX Push Up",
-      "nl": "TRX Push Up"
-    },
-    "aliases": [
-      "TRX Push Up"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place hands in the suspension straps and lean forward into a suspended plank.",
-        "Perform a full range-of-motion push-up.",
-        "Significantly more unstable than performing on the solid floor!"
-      ],
-      "nl": [
-        "Handen in de beugels, lichaam voorover (plank).",
-        "Maak een push-up.",
-        "Instabieler dan op de grond!"
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
-    "id": "trx_suspension_pistol_squat",
-    "exercise_name": {
-      "en": "TRX Pistol Squat",
-      "nl": "TRX Pistol Squat"
-    },
-    "aliases": [
-      "TRX Pistol Squat"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Descend into a single-leg pistol squat with control.",
-        "Use the TRX for balance and light support when rising."
-      ],
-      "nl": [
-        "Maak een squat op één been.",
-        "Gebruik de TRX voor balans en lichte ondersteuning bij het omhoog komen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "trx_suspension_row"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-06T09:18:05.230Z"
-    }
-  },
-  {
     "id": "ab_wheel_isometric_hold",
     "exercise_name": {
       "en": "Ab Wheel Isometric Hold",
@@ -39849,81 +39243,6 @@
     }
   },
   {
-    "id": "ab_wheel_v_rollout",
-    "exercise_name": {
-      "en": "V-Rollout",
-      "nl": "V-Rollout"
-    },
-    "aliases": [
-      "V-Rollout"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Obliques & Core",
-      "nl": "Buikspieren / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Start on your knees and roll the wheel out diagonally, alternating between left and right in a 'V' shape."
-      ],
-      "nl": [
-        "Start op je knieën en rol het wiel diagonaal naar buiten, wisselend tussen links en rechts in een 'V' vorm."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
     "id": "agility_ladder_ick_shuffle",
     "exercise_name": {
       "en": "Agility Ladder Icky Shuffle",
@@ -40196,83 +39515,6 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-07T07:00:20.122Z"
-    }
-  },
-  {
-    "id": "ab_wheel_pikes",
-    "exercise_name": {
-      "en": "Ab Wheel Pikes",
-      "nl": "Ab Wheel Pikes"
-    },
-    "aliases": [
-      "Ab Wheel Pikes"
-    ],
-    "material": {
-      "id": "ab_wheel",
-      "name": {
-        "en": "Ab Wheel",
-        "nl": "Buikspierwiel"
-      },
-      "description": {
-        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
-        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Buikspieren / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 2
-    },
-    "instructions": {
-      "en": [
-        "With feet on the ab wheel, keep legs straight and drive hips high into a sharp pike V-shape.",
-        "Roll back to plank in a controlled manner."
-      ],
-      "nl": [
-        "Met je voeten op het wiel, houd je benen gestrekt en breng je heupen zo hoog mogelijk de lucht in (V-vorm).",
-        "Rol gecontroleerd terug naar plank."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "ab_wheel_standing_rollout"
-      ],
-      "regressions": [
-        "ab_wheel_kneeling_rollout"
-      ]
-    },
-    "media": {
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-07T07:20:51.451Z"
     }
   },
   {
@@ -54859,6 +54101,874 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T10:39:10.965Z"
+    }
+  },
+  {
+    "id": "ab_wheel_v_rollout",
+    "exercise_name": {
+      "en": "V-Rollout",
+      "nl": "V-Rollout"
+    },
+    "aliases": [
+      "V-Rollout"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Obliques & Core",
+      "nl": "Buikspieren / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Start on your knees and roll the wheel out diagonally, alternating between left and right in a 'V' shape."
+      ],
+      "nl": [
+        "Start op je knieën en rol het wiel diagonaal naar buiten, wisselend tussen links en rechts in een 'V' vorm."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "nq1thZ3tQ9I",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "16:9",
+          "channel": "Futuring U",
+          "rating": 1
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "ab_wheel_pikes",
+    "exercise_name": {
+      "en": "Ab Wheel Pikes",
+      "nl": "Ab Wheel Pikes"
+    },
+    "aliases": [
+      "Ab Wheel Pikes"
+    ],
+    "material": {
+      "id": "ab_wheel",
+      "name": {
+        "en": "Ab Wheel",
+        "nl": "Buikspierwiel"
+      },
+      "description": {
+        "en": "Wheel with handles for core rollout and anti-extension abdominal training",
+        "nl": "Wiel met handvatten voor core- en buikspieruitrol-oefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Buikspieren / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "With feet on the ab wheel, keep legs straight and drive hips high into a sharp pike V-shape.",
+        "Roll back to plank in a controlled manner."
+      ],
+      "nl": [
+        "Met je voeten op het wiel, houd je benen gestrekt en breng je heupen zo hoog mogelijk de lucht in (V-vorm).",
+        "Rol gecontroleerd terug naar plank."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "ab_wheel_standing_rollout"
+      ],
+      "regressions": [
+        "ab_wheel_kneeling_rollout"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "j5NVKUqqp5Q",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "causeNeffect_RS",
+          "rating": 2
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "monkey_bars_hanging_windshield_wipers",
+    "exercise_name": {
+      "en": "Hanging Windshield Wipers",
+      "nl": "Hanging Windshield Wipers"
+    },
+    "aliases": [
+      "Hanging Windshield Wipers"
+    ],
+    "material": {
+      "id": "monkey_bars",
+      "name": {
+        "en": "Monkey Bars / Pull-Up Rig",
+        "nl": "Rekstok / Klimrek"
+      },
+      "description": {
+        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
+        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Hang from the bar and pull your legs up until your feet point toward the ceiling.",
+        "Rotate your legs and hips in a controlled manner from left to right like a windshield wiper."
+      ],
+      "nl": [
+        "Hang aan de stang en trek je benen omhoog tot je voeten richting het plafond wijzen.",
+        "Draai je benen en heupen gecontroleerd van links naar rechts als een ruitenwisser."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xvw_r7VZ2S8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "SMØK",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "sprint_track_duck_walk",
+    "exercise_name": {
+      "en": "Duck Walk",
+      "nl": "Duck Walk"
+    },
+    "aliases": [
+      "Duck Walk"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Legs & Mobility",
+      "nl": "Benen / Mobiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Lower into a deep squat.",
+        "Stay as low as possible and walk forward.",
+        "Keep your chest upright and try not to rise while walking.",
+        "Burns in the quadriceps!"
+      ],
+      "nl": [
+        "Zak in een diepe squat.",
+        "Blijf zo laag mogelijk en loop naar voren.",
+        "Houd je borst rechtop en probeer niet omhoog te komen tijdens het stappen.",
+        "Brandt in de quadriceps!"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "sprint_track_sled_push"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JneY3SmW46E",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "mpfitnesscoach",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "sprint_track_b_skips",
+    "exercise_name": {
+      "en": "B-Skips",
+      "nl": "B-Skips"
+    },
+    "aliases": [
+      "B-Skips"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+      }
+    },
+    "category": {
+      "en": "Running Mechanics",
+      "nl": "Looptechniek"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Same start as A-Skip (knee up), but extend your lower leg at the highest point and actively claw your foot back to the ground (pawing motion)."
+      ],
+      "nl": [
+        "Zelfde start als A-Skip (knie omhoog), maar strek je onderbeen uit op het hoogste punt en klauw je voet actief terug naar de grond (pawing motion)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_walking_lunges"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "aViZ2grILmk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Matthew Alty",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_freestyle_blitz",
+    "exercise_name": {
+      "en": "Freestyle Blitz (All-Out)",
+      "nl": "Freestyle Blitz (All-Out)"
+    },
+    "aliases": [
+      "All-Out",
+      "Freestyle Blitz",
+      "Freestyle Blitz All-Out"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Cardio & Boxing",
+      "nl": "Cardio / Boksen"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Over time (e.g.",
+        "30 sec) deliver non-stop punches, kicks and knees as fast and hard as you can.",
+        "Focus on speed and endurance."
+      ],
+      "nl": [
+        "Gedurende de tijd (bijv.",
+        "30 sec) geef je non-stop stoten, trappen en knieën zo snel en hard als je kunt.",
+        "Focus op snelheid en uithoudingsvermogen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "II_6kc7_tzs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FightCamp",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "tractor_tire_sledgehammer",
+    "exercise_name": {
+      "en": "Tyre Sledgehammer",
+      "nl": "Tyre Sledgehammer"
+    },
+    "aliases": [
+      "Tyre Sledgehammer"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Hit the tire with a sledgehammer.",
+        "Be cautious of the elastic recoil and maintain firm control.",
+        "Switch lead stance (orthodox to southpaw)."
+      ],
+      "nl": [
+        "Sla met een voorhamer op de band.",
+        "Let op de terugslag.",
+        "Wissel van kant (links/rechts voor)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "HzzzASidY-g",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FAME BUZZ MEDIA",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "tractor_tire_decline_pushup",
+    "exercise_name": {
+      "en": "Tyre Decline Push Up",
+      "nl": "Tyre Decline Push Up"
+    },
+    "aliases": [
+      "Tyre Decline Push Up"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Feet on the tire, hands on the ground.",
+        "Perform a full range-of-motion push-up.",
+        "Heavier for the top of the chest."
+      ],
+      "nl": [
+        "Voeten op de band, handen op de grond.",
+        "Maak een push-up.",
+        "Zwaarder voor de bovenkant borst."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "11jDPvATXVU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Hitfat",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "trx_suspension_push_up",
+    "exercise_name": {
+      "en": "TRX Push Up",
+      "nl": "TRX Push Up"
+    },
+    "aliases": [
+      "TRX Push Up"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only"
+    },
+    "instructions": {
+      "en": [
+        "Place hands in the suspension straps and lean forward into a suspended plank.",
+        "Perform a full range-of-motion push-up.",
+        "Significantly more unstable than performing on the solid floor!"
+      ],
+      "nl": [
+        "Handen in de beugels, lichaam voorover (plank).",
+        "Maak een push-up.",
+        "Instabieler dan op de grond!"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Ty8D4iFmFOI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Propel Fitness Center",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "trx_suspension_pistol_squat",
+    "exercise_name": {
+      "en": "TRX Pistol Squat",
+      "nl": "TRX Pistol Squat"
+    },
+    "aliases": [
+      "TRX Pistol Squat"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Descend into a single-leg pistol squat with control.",
+        "Use the TRX for balance and light support when rising."
+      ],
+      "nl": [
+        "Maak een squat op één been.",
+        "Gebruik de TRX voor balans en lichte ondersteuning bij het omhoog komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "trx_suspension_row"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "sTtgBOMgAuE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rob Carr PT - TRX Trainer",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-09T10:51:34.778Z"
     }
   }
 ]
