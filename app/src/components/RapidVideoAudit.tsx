@@ -27,7 +27,8 @@ import {
   Film,
   Star,
   ArrowUpDown,
-  ClipboardPaste
+  ClipboardPaste,
+  Gauge
 } from 'lucide-react';
 import type { Exercise, VideoMedia } from '../types/exercise';
 import { parseYouTubeId, isYouTubeShort, fetchYouTubeOEmbed, openYouTubeSearchApp, buildYouTubeExerciseSearchQuery } from '../services/youtubeService';
@@ -45,7 +46,7 @@ type VideoStatusDecision = 'ok' | 'remove';
 
 export type VideoFormatFilter = 'all' | 'normal' | 'short' | 'no_video';
 export type AuditStatusFilter = 'all' | 'pending' | 'ok' | 'remove' | 'replaced';
-export type AuditSortOption = 'default' | 'name' | 'muscle_group' | 'material';
+export type AuditSortOption = 'default' | 'name' | 'muscle_group' | 'material' | 'difficulty';
 
 export const MUSCLE_NAME_DUTCH: Record<string, string> = {
   abductors: 'Abductoren (Buitenkant heup/dij)',
@@ -119,6 +120,23 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         ...prev,
         [exerciseId]: nextVal,
       };
+    });
+  };
+
+  // Difficulties map: exerciseId -> 'beginner' | 'intermediate' | 'advanced'
+  const [difficulties, setDifficulties] = useState<Record<string, 'beginner' | 'intermediate' | 'advanced'>>({});
+
+  const handleSetDifficulty = (exerciseId: string, diff: 'beginner' | 'intermediate' | 'advanced') => {
+    setDifficulties(prev => {
+      const origEx = exercises.find(e => e.id === exerciseId);
+      const origDiff = origEx?.attributes?.difficulty || 'beginner';
+      const next = { ...prev };
+      if (diff === origDiff) {
+        delete next[exerciseId];
+      } else {
+        next[exerciseId] = diff;
+      }
+      return next;
     });
   };
 
@@ -295,10 +313,22 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
         return nameA.localeCompare(nameB, 'nl');
       });
+    } else if (sortBy === 'difficulty') {
+      const diffRank: Record<string, number> = { beginner: 1, intermediate: 2, advanced: 3 };
+      list.sort((a, b) => {
+        const diffA = difficulties[a.id] || a.attributes?.difficulty || 'beginner';
+        const diffB = difficulties[b.id] || b.attributes?.difficulty || 'beginner';
+        const rankA = diffRank[diffA] || 1;
+        const rankB = diffRank[diffB] || 1;
+        if (rankA !== rankB) return rankA - rankB;
+        const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
+        const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
+        return nameA.localeCompare(nameB, 'nl');
+      });
     }
 
     return list;
-  }, [filteredExercises, sortBy]);
+  }, [filteredExercises, sortBy, difficulties]);
 
   // Decision counts
   const removeList = useMemo(() => {
@@ -315,6 +345,15 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
   const ratedCount = useMemo(() => {
     return Object.keys(ratings).length;
   }, [ratings]);
+
+  const difficultyChanges = useMemo(() => {
+    return Object.entries(difficulties).filter(([id, diff]) => {
+      const origEx = exercises.find(e => e.id === id);
+      return origEx && (origEx.attributes?.difficulty || 'beginner') !== diff;
+    });
+  }, [difficulties, exercises]);
+
+  const difficultyCount = difficultyChanges.length;
 
   const handleSetDecision = (exerciseId: string, decision: VideoStatusDecision) => {
     setDecisions(prev => {
@@ -346,6 +385,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     setDecisions({});
     setReplacements({});
     setRatings({});
+    setDifficulties({});
   };
 
   const toggleInstructions = (id: string) => {
@@ -455,8 +495,19 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     });
     const ratingChangeIds = new Set(ratingChanges.map(([id]) => id));
 
-    if (replacementEntries.length === 0 && toRemoveIds.size === 0 && toOkIds.size === 0 && ratingChangeIds.size === 0) {
-      alert('Er zijn nog geen beoordelingen, video-vervangingen of sterren klaargezet.');
+    const difficultyChangeIds = new Set(difficultyChanges.map(([id]) => id));
+
+    const isAnyDeletion = Object.values(deletions).some(Boolean);
+
+    if (
+      replacementEntries.length === 0 &&
+      toRemoveIds.size === 0 &&
+      toOkIds.size === 0 &&
+      ratingChangeIds.size === 0 &&
+      difficultyChangeIds.size === 0 &&
+      !isAnyDeletion
+    ) {
+      alert('Er zijn nog geen beoordelingen, video-vervangingen, sterren of moeilijkheidsgraden klaargezet.');
       return;
     }
 
@@ -471,6 +522,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         const isRemove = toRemoveIds.has(ex.id);
         const isOk = toOkIds.has(ex.id);
         const hasRatingChange = ratingChangeIds.has(ex.id);
+        const hasDifficultyChange = difficultyChangeIds.has(ex.id);
         const isMarkedDelete = !!deletions[ex.id];
 
         if (isMarkedDelete) {
@@ -483,11 +535,14 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               updated_at: now,
             },
           } as any);
-        } else if (hasRep || isRemove || isOk || hasRatingChange) {
+        } else if (hasRep || isRemove || isOk || hasRatingChange || hasDifficultyChange) {
           const targetRating = ratings[ex.id] !== undefined ? ratings[ex.id] : ex.attributes?.rating;
-          const updatedAttributes = targetRating !== undefined
-            ? { ...ex.attributes, rating: targetRating }
-            : ex.attributes;
+          const targetDifficulty = difficulties[ex.id] !== undefined ? difficulties[ex.id] : ex.attributes?.difficulty;
+          const updatedAttributes = {
+            ...ex.attributes,
+            ...(targetRating !== undefined ? { rating: targetRating } : {}),
+            ...(targetDifficulty !== undefined ? { difficulty: targetDifficulty } : {}),
+          };
 
           // 1. If replacement provided: REPLACE OLD VIDEO
           if (hasRep) {
@@ -552,6 +607,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       setDecisions({});
       setReplacements({});
       setRatings({});
+      setDifficulties({});
       setDeletions({});
       try {
         confetti({
@@ -623,10 +679,10 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
               <span>Alles OK</span>
             </button>
 
-            {(Object.keys(decisions).length > 0 || validReplacements.length > 0 || Object.values(deletions).some(Boolean)) && (
+            {(Object.keys(decisions).length > 0 || validReplacements.length > 0 || Object.keys(ratings).length > 0 || Object.keys(difficulties).length > 0 || Object.values(deletions).some(Boolean)) && (
               <button
                 onClick={handleResetDecisions}
-                title="Reset alle audit- en vervangkeuzes"
+                title="Reset alle audit-, rating-, moeilijkheid- en vervangkeuzes"
                 className="px-2.5 py-1.5 text-xs text-slate-400 hover:text-white bg-slate-800/80 hover:bg-slate-700 border border-slate-700 rounded-xl transition flex items-center gap-1"
               >
                 <RotateCcw className="w-3 h-3" />
@@ -671,6 +727,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 title="Sorteer volgorde van de audit"
               >
                 <option value="default">📋 Sorteren: Standaard (Database)</option>
+                <option value="difficulty">⚡ Sorteren: Moeilijkheidsgraad (1 → 3)</option>
                 <option value="name">🔤 Sorteren: Naam (A - Z)</option>
                 <option value="muscle_group">💪 Sorteren: Spiergroepen (A - Z)</option>
                 <option value="material">🏋️ Sorteren: Materiaal (A - Z)</option>
@@ -922,6 +979,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             const instructions = instructionsNl.length > 0 ? instructionsNl : instructionsEn;
 
             const activeRating = ratings[ex.id] !== undefined ? ratings[ex.id] : (ex.attributes?.rating || 0);
+            const activeDifficulty = difficulties[ex.id] || ex.attributes?.difficulty || 'beginner';
+            const isDifficultyModified = difficulties[ex.id] !== undefined && difficulties[ex.id] !== (ex.attributes?.difficulty || 'beginner');
             const ytSearchQuery = buildYouTubeExerciseSearchQuery(ex);
 
             return (
@@ -1026,33 +1085,109 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                     )}
                   </div>
 
-                  {/* 5-Star Rating Component */}
-                  <div className="flex items-center gap-1 bg-slate-950/90 px-2.5 py-1 rounded-xl border border-slate-800 shadow-inner self-stretch sm:self-auto justify-between sm:justify-start">
-                    <span className="text-[10px] text-slate-400 font-semibold mr-1">Sterren:</span>
-                    <div className="flex items-center gap-0.5">
-                      {[1, 2, 3, 4, 5].map((star) => (
-                        <button
-                          key={star}
-                          type="button"
-                          onClick={() => handleSetRating(ex.id, star)}
-                          className="p-1 hover:scale-125 transition focus:outline-none touch-manipulation"
-                          title={`Geef ${star} ster${star > 1 ? 'ren' : ''}`}
-                        >
-                          <Star
-                            className={`w-4 h-4 sm:w-3.5 sm:h-3.5 transition ${
-                              star <= activeRating
-                                ? 'text-amber-400 fill-amber-400 filter drop-shadow-[0_0_3px_rgba(251,191,36,0.6)]'
-                                : 'text-slate-600 hover:text-amber-300'
-                            }`}
-                          />
-                        </button>
-                      ))}
+                  {/* Rating & Difficulty Ranking Container (Onder elkaar) */}
+                  <div className="flex flex-col sm:items-end gap-1.5 self-stretch sm:self-auto shrink-0">
+                    {/* 5-Star Rating Component */}
+                    <div className="flex items-center gap-1 bg-slate-950/90 px-2.5 py-1 rounded-xl border border-slate-800 shadow-inner self-stretch sm:self-auto justify-between sm:justify-start">
+                      <span className="text-[10px] text-slate-400 font-semibold mr-1">Sterren:</span>
+                      <div className="flex items-center gap-0.5">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <button
+                            key={star}
+                            type="button"
+                            onClick={() => handleSetRating(ex.id, star)}
+                            className="p-1 hover:scale-125 transition focus:outline-none touch-manipulation"
+                            title={`Geef ${star} ster${star > 1 ? 'ren' : ''}`}
+                          >
+                            <Star
+                              className={`w-4 h-4 sm:w-3.5 sm:h-3.5 transition ${
+                                star <= activeRating
+                                  ? 'text-amber-400 fill-amber-400 filter drop-shadow-[0_0_3px_rgba(251,191,36,0.6)]'
+                                  : 'text-slate-600 hover:text-amber-300'
+                              }`}
+                            />
+                          </button>
+                        ))}
+                      </div>
+                      {activeRating > 0 && (
+                        <span className="text-[10px] font-mono font-bold text-amber-400 ml-1">
+                          {activeRating}/5
+                        </span>
+                      )}
                     </div>
-                    {activeRating > 0 && (
-                      <span className="text-[10px] font-mono font-bold text-amber-400 ml-1">
-                        {activeRating}/5
+
+                    {/* Difficulty Ranking Component (Onder de sterren) */}
+                    <div className={`flex items-center gap-1.5 bg-slate-950/90 px-2.5 py-1 rounded-xl border transition shadow-inner self-stretch sm:self-auto justify-between sm:justify-start ${
+                      isDifficultyModified ? 'border-cyan-500/60 bg-cyan-950/20' : 'border-slate-800'
+                    }`}>
+                      <span className="text-[10px] text-slate-400 font-semibold mr-0.5 flex items-center gap-1">
+                        <Gauge className="w-3 h-3 text-slate-400" />
+                        <span>Niveau:</span>
                       </span>
-                    )}
+
+                      <div className="flex items-center gap-1 bg-slate-900/90 p-0.5 rounded-lg border border-slate-800/80">
+                        {/* Niveau 1: Beginner */}
+                        <button
+                          type="button"
+                          onClick={() => handleSetDifficulty(ex.id, 'beginner')}
+                          title="Niveau 1: Beginner (groen)"
+                          className={`px-1.5 py-0.5 rounded-md text-[10px] font-bold transition flex items-center gap-1 focus:outline-none touch-manipulation ${
+                            activeDifficulty === 'beginner'
+                              ? 'bg-emerald-950 text-emerald-300 border border-emerald-600/80 shadow-[0_0_8px_rgba(16,185,129,0.3)]'
+                              : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 border border-transparent'
+                          }`}
+                        >
+                          <span className="flex items-end gap-0.5 h-2.5">
+                            <span className={`w-1 h-1.5 rounded-full ${activeDifficulty === 'beginner' ? 'bg-emerald-400' : 'bg-slate-600'}`} />
+                            <span className="w-1 h-2 rounded-full bg-slate-800" />
+                            <span className="w-1 h-2.5 rounded-full bg-slate-800" />
+                          </span>
+                          <span>1 Beg</span>
+                        </button>
+
+                        {/* Niveau 2: Gemiddeld */}
+                        <button
+                          type="button"
+                          onClick={() => handleSetDifficulty(ex.id, 'intermediate')}
+                          title="Niveau 2: Gemiddeld (geel)"
+                          className={`px-1.5 py-0.5 rounded-md text-[10px] font-bold transition flex items-center gap-1 focus:outline-none touch-manipulation ${
+                            activeDifficulty === 'intermediate'
+                              ? 'bg-amber-950 text-amber-300 border border-amber-600/80 shadow-[0_0_8px_rgba(245,158,11,0.3)]'
+                              : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 border border-transparent'
+                          }`}
+                        >
+                          <span className="flex items-end gap-0.5 h-2.5">
+                            <span className={`w-1 h-1.5 rounded-full ${activeDifficulty === 'intermediate' ? 'bg-amber-400' : 'bg-slate-600'}`} />
+                            <span className={`w-1 h-2 rounded-full ${activeDifficulty === 'intermediate' ? 'bg-amber-400' : 'bg-slate-600'}`} />
+                            <span className="w-1 h-2.5 rounded-full bg-slate-800" />
+                          </span>
+                          <span>2 Gem</span>
+                        </button>
+
+                        {/* Niveau 3: Gevorderd */}
+                        <button
+                          type="button"
+                          onClick={() => handleSetDifficulty(ex.id, 'advanced')}
+                          title="Niveau 3: Gevorderd (rood)"
+                          className={`px-1.5 py-0.5 rounded-md text-[10px] font-bold transition flex items-center gap-1 focus:outline-none touch-manipulation ${
+                            activeDifficulty === 'advanced'
+                              ? 'bg-rose-950 text-rose-300 border border-rose-600/80 shadow-[0_0_8px_rgba(244,63,94,0.3)]'
+                              : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 border border-transparent'
+                          }`}
+                        >
+                          <span className="flex items-end gap-0.5 h-2.5">
+                            <span className={`w-1 h-1.5 rounded-full ${activeDifficulty === 'advanced' ? 'bg-rose-400' : 'bg-slate-600'}`} />
+                            <span className={`w-1 h-2 rounded-full ${activeDifficulty === 'advanced' ? 'bg-rose-400' : 'bg-slate-600'}`} />
+                            <span className={`w-1 h-2.5 rounded-full ${activeDifficulty === 'advanced' ? 'bg-rose-400' : 'bg-slate-600'}`} />
+                          </span>
+                          <span>3 Gev</span>
+                        </button>
+                      </div>
+
+                      {isDifficultyModified && (
+                        <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse ml-0.5" title="Moeilijkheid gewijzigd" />
+                      )}
+                    </div>
                   </div>
                 </div>
 
@@ -1458,6 +1593,14 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 </span>
               </div>
             )}
+            {difficultyCount > 0 && (
+              <div className="flex items-center gap-2">
+                <span className="w-2.5 h-2.5 rounded-full bg-cyan-400" />
+                <span className="text-cyan-300">
+                  <strong className="text-cyan-200 font-bold">{difficultyCount}</strong> niveau-wijziging(en)
+                </span>
+              </div>
+            )}
             {Object.values(deletions).filter(Boolean).length > 0 && (
               <div className="flex items-center gap-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-rose-600 ring-2 ring-rose-400/50" />
@@ -1471,7 +1614,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
           <div className="flex items-center gap-2 self-stretch sm:self-auto">
             <button
               onClick={handleSubmitAll}
-              disabled={isSubmitting || (removeList.length === 0 && okCount === 0 && validReplacements.length === 0 && ratedCount === 0 && Object.values(deletions).filter(Boolean).length === 0)}
+              disabled={isSubmitting || (removeList.length === 0 && okCount === 0 && validReplacements.length === 0 && ratedCount === 0 && difficultyCount === 0 && Object.values(deletions).filter(Boolean).length === 0)}
               className={`flex-1 sm:flex-initial px-6 py-2.5 sm:py-3 text-white font-black text-xs sm:text-sm rounded-xl shadow-xl flex items-center justify-center gap-2 transition transform active:scale-95 disabled:opacity-40 whitespace-nowrap min-h-[44px] ${
                 Object.values(deletions).filter(Boolean).length > 0
                   ? 'bg-gradient-to-r from-rose-700 via-red-600 to-amber-600 hover:from-rose-600 hover:to-red-500 shadow-rose-600/40 ring-1 ring-rose-400/40'
@@ -1501,7 +1644,9 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                       ? `Verwijder ${removeList.length} Foute Video('s) & Stuur naar Sheet`
                       : okCount > 0
                       ? `Verstuur ${okCount} Beoordelingen naar Google Sheet`
-                      : `Verstuur ${ratedCount} Beoordeling(en) naar Google Sheet`}
+                      : ratedCount > 0
+                      ? `Verstuur ${ratedCount} Beoordeling(en) naar Google Sheet`
+                      : `Verstuur ${difficultyCount} Niveau-wijziging(en) naar Google Sheet`}
                   </span>
                 </>
               )}
