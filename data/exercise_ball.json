@@ -34,7 +34,8 @@
       "difficulty": "beginner",
       "mechanics": "isolation",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 1
     },
     "instructions": {
       "en": [
@@ -77,7 +78,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-10T17:25:55.823Z"
     }
   },
   {
@@ -118,7 +119,8 @@
       "difficulty": "intermediate",
       "mechanics": "isolation",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 1
     },
     "instructions": {
       "en": [
@@ -161,7 +163,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-10T17:25:55.823Z"
     }
   },
   {
@@ -240,11 +242,22 @@
           "type": "photo"
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "yfSi9pYYY0w",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "AUE Performance (Augustine Exercises Demos)",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-10T17:25:55.823Z"
     }
   },
   {
@@ -323,11 +336,22 @@
           "type": "photo"
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "M4rGgLKu31g",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rehab Hero",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-10T17:25:55.823Z"
     }
   },
   {
@@ -368,7 +392,8 @@
       "difficulty": "beginner",
       "mechanics": "isolation",
       "force_type": "isometric",
-      "tracking_type": "time_only"
+      "tracking_type": "time_only",
+      "rating": 1
     },
     "instructions": {
       "en": [
@@ -411,7 +436,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-10T17:25:55.823Z"
     }
   },
   {
@@ -497,11 +522,22 @@
           "type": "photo"
         }
       ],
-      "videos": []
+      "videos": [
+        {
+          "youtube_id": "QM2seN_Nous",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rehab Hero",
+          "rating": 5
+        }
+      ]
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-10T17:25:55.823Z"
     }
   }
 ]
