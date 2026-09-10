@@ -1,254 +1,5 @@
 [
   {
-    "id": "sandbag_clean",
-    "exercise_name": {
-      "en": "Sandbag Clean",
-      "nl": "Sandbag Clean"
-    },
-    "aliases": [
-      "Sandbag Clean"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lift the sandbag from the floor to your chest into a bear hug or front rack hold."
-      ],
-      "nl": [
-        "Til de zandzak vanaf de grond naar de borst (bear hug positie of front rack)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "rGoYRGyzqug",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "Lizzie Wright",
-          "likes": 149
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sandbag_run",
-    "exercise_name": {
-      "en": "Sandbag Run",
-      "nl": "Sandbag Run"
-    },
-    "aliases": [
-      "Sandbag Run"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sprint forward carrying the sandbag on your shoulder or hugged to your chest."
-      ],
-      "nl": [
-        "Ren een stukje terwijl je de zandzak draagt (op de schouder of voor de borst)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "3fb_xkVAPyk",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "Olga Liashchuk Strongwoman",
-          "likes": 50
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "sandbag_squat",
-    "exercise_name": {
-      "en": "Sandbag Squat",
-      "nl": "Sandbag Squat"
-    },
-    "aliases": [
-      "Sandbag Squat"
-    ],
-    "material": {
-      "id": "sandbag",
-      "name": {
-        "en": "Sandbag",
-        "nl": "Zandzak / Sandbag"
-      },
-      "description": {
-        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
-        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Perform squats carrying the sandbag.",
-        "The unstable load makes it harder on the core."
-      ],
-      "nl": [
-        "Squat met de zandzak.",
-        "De instabiele lading maakt het zwaarder voor de core."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "UDaZVNS4v_c",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 33,
-          "channel": "Robbie Knecht",
-          "likes": 19
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "sandbag_shouldering",
     "exercise_name": {
       "en": "Sandbag Shouldering",
@@ -1910,6 +1661,258 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T20:21:35.342Z"
+    }
+  },
+  {
+    "id": "sandbag_clean",
+    "exercise_name": {
+      "en": "Sandbag Clean",
+      "nl": "Sandbag Clean"
+    },
+    "aliases": [
+      "Sandbag Clean"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lift the sandbag from the floor to your chest into a bear hug or front rack hold."
+      ],
+      "nl": [
+        "Til de zandzak vanaf de grond naar de borst (bear hug positie of front rack)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "CcL89huN6C0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Queen City CrossFit",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "sandbag_run",
+    "exercise_name": {
+      "en": "Sandbag Run",
+      "nl": "Sandbag Run"
+    },
+    "aliases": [
+      "Sandbag Run"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Sprint forward carrying the sandbag on your shoulder or hugged to your chest."
+      ],
+      "nl": [
+        "Ren een stukje terwijl je de zandzak draagt (op de schouder of voor de borst)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "3fb_xkVAPyk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 16,
+          "channel": "Olga Liashchuk Strongwoman",
+          "likes": 50
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "sandbag_squat",
+    "exercise_name": {
+      "en": "Sandbag Squat",
+      "nl": "Sandbag Squat"
+    },
+    "aliases": [
+      "Sandbag Squat"
+    ],
+    "material": {
+      "id": "sandbag",
+      "name": {
+        "en": "Sandbag",
+        "nl": "Zandzak / Sandbag"
+      },
+      "description": {
+        "en": "Heavy canvas bag filled with shifting sand for functional awkward-object training",
+        "nl": "Zware canvas tas met bewegend zand voor functionele training met instabiele massa"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Perform squats carrying the sandbag.",
+        "The unstable load makes it harder on the core."
+      ],
+      "nl": [
+        "Squat met de zandzak.",
+        "De instabiele lading maakt het zwaarder voor de core."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "e3qvutqqk_Y",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Kelly Stone",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

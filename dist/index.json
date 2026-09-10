@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-10T20:23:25.744291+00:00",
-  "total_exercises": 1031,
+  "last_updated_utc": "2026-09-10T21:34:01.603942+00:00",
+  "total_exercises": 1029,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -57,12 +57,12 @@
     },
     "bosu_ball": {
       "name": {
-        "en": "BOSU Ball & Cables",
-        "nl": "Bosu Bal & Kabel"
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
       },
       "description": {
-        "en": "Combination of hemispherical dome and dual low cables for core conditioning",
-        "nl": "Combinatie van bosubal en lage kabels voor instabiele buikspiertraining"
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
       }
     },
     "cable": {
@@ -227,12 +227,12 @@
     },
     "partner": {
       "name": {
-        "en": "Partner / Floor",
-        "nl": "Partner / Vloer"
+        "en": "Partner",
+        "nl": "Partner"
       },
       "description": {
-        "en": "Floor Nordic hamstring curl performed with partner anchoring ankles",
-        "nl": "Hamstring curl op de vloer waarbij een partner de enkels vasthoudt"
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
       }
     },
     "plyo_box": {

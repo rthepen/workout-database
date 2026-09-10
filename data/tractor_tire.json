@@ -1,609 +1,5 @@
 [
   {
-    "id": "tractor_tire_incline_pushup",
-    "exercise_name": {
-      "en": "Tyre Incline Push Up",
-      "nl": "Tyre Incline Push Up"
-    },
-    "aliases": [
-      "Tyre Incline Push Up"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hands on the belt, feet on the ground.",
-        "Perform a full range-of-motion push-up.",
-        "Slightly lighter than on the ground."
-      ],
-      "nl": [
-        "Handen op de band, voeten op de grond.",
-        "Maak een push-up.",
-        "Iets lichter dan op de grond."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "tractor_tire_flips"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "mWKuBSROsHo",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "In The O Zone @ Coach O Athletics",
-          "likes": 7
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "tractor_tire_tricep_dips",
-    "exercise_name": {
-      "en": "Tyre Tricep Dips",
-      "nl": "Tyre Tricep Dips"
-    },
-    "aliases": [
-      "Tyre Tricep Dips"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Upper Body & Triceps",
-      "nl": "Bovenlichaam / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Sit on the edge of the band, hands next to your hips.",
-        "Shift your hips forward off the support and lower down by bending your arms."
-      ],
-      "nl": [
-        "Zit op de rand van de band, handen naast je heupen.",
-        "Duw je billen van de band af en zak door je armen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "4ua3MzaU0QU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "likes": 59449
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "tractor_tire_step_ups",
-    "exercise_name": {
-      "en": "Tyre Step Ups",
-      "nl": "Tyre Step Ups"
-    },
-    "aliases": [
-      "Tyre Step Ups"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Step one foot onto the tire and drive upward.",
-        "Alternate legs or complete all reps on one side before switching."
-      ],
-      "nl": [
-        "Stap met één voet op de band en duw jezelf omhoog.",
-        "Wissel van been of doe één kant tegelijk."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "n1sh5aS6Az4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "LISAFIITT",
-          "likes": 3183
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "tractor_tire_bulgarian_split_squat",
-    "exercise_name": {
-      "en": "Tyre Bulgarian Split Squat",
-      "nl": "Tyre Bulgarian Split Squat"
-    },
-    "aliases": [
-      "Tyre Bulgarian Split Squat"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place one foot behind you onto the treadmill belt.",
-        "Lower your front leg.",
-        "Keep your back flat and neutral."
-      ],
-      "nl": [
-        "Leg één voet achter je op de band.",
-        "Zak door je voorste been.",
-        "Houd je rug recht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "or1frhkjBDc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 15,
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "likes": 65015
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "tractor_tire_decline_mountain_climbers",
-    "exercise_name": {
-      "en": "Decline Mountain Climbers",
-      "nl": "Decline Mountain Climbers"
-    },
-    "aliases": [
-      "Decline Mountain Climbers"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Core & Cardio",
-      "nl": "Core / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Elevate feet on the treadmill belt or tire with hands on the floor.",
-        "Pull your knees alternately toward your chest."
-      ],
-      "nl": [
-        "Voeten op de band, handen op de grond (plank).",
-        "Trek je knieën om en om naar je borst."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ji49pH_O0HI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 7,
-          "channel": "Weapon X Fitness",
-          "likes": 6
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "tractor_tire_incline_mountain_climbers",
-    "exercise_name": {
-      "en": "Incline Mountain Climbers",
-      "nl": "Incline Mountain Climbers"
-    },
-    "aliases": [
-      "Incline Mountain Climbers"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hands on the belt, feet on the ground.",
-        "Draw knees to chest.",
-        "Slightly lighter than decline."
-      ],
-      "nl": [
-        "Handen op de band, voeten op de grond.",
-        "Trek knieën naar de borst.",
-        "Iets lichter dan decline."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "7W4JEfEKuC4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "LisaFiitt Workouts",
-          "likes": 24615
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "tractor_tire_pop_squats",
-    "exercise_name": {
-      "en": "Tyre Pop Squats",
-      "nl": "Tyre Pop Squats"
-    },
-    "aliases": [
-      "Tyre Pop Squats"
-    ],
-    "material": {
-      "id": "tractor_tire",
-      "name": {
-        "en": "Tractor Tire",
-        "nl": "Tractorband"
-      },
-      "description": {
-        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
-        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
-      }
-    },
-    "category": {
-      "en": "Legs & Cardio",
-      "nl": "Benen / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Jump onto the band with both feet and land in a squat.",
-        "Jump back to the ground with feet wide."
-      ],
-      "nl": [
-        "Spring met twee voeten op de band en land in een squat.",
-        "Spring terug naar de grond met voeten wijd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "tractor_tire_incline_pushup"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "h5TmdMMtIT4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 23,
-          "channel": "Justina Ercole",
-          "likes": 6169
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "tractor_tire_box_squat",
     "exercise_name": {
       "en": "Tyre Box Squat",
@@ -1712,6 +1108,617 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "tractor_tire_incline_pushup",
+    "exercise_name": {
+      "en": "Tyre Incline Push Up",
+      "nl": "Tyre Incline Push Up"
+    },
+    "aliases": [
+      "Tyre Incline Push Up"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Hands on the belt, feet on the ground.",
+        "Perform a full range-of-motion push-up.",
+        "Slightly lighter than on the ground."
+      ],
+      "nl": [
+        "Handen op de band, voeten op de grond.",
+        "Maak een push-up.",
+        "Iets lichter dan op de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "tractor_tire_flips"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "PtAM9eyqLh0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "MichaelBrummerFIT",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "tractor_tire_tricep_dips",
+    "exercise_name": {
+      "en": "Tyre Tricep Dips",
+      "nl": "Tyre Tricep Dips"
+    },
+    "aliases": [
+      "Tyre Tricep Dips"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Upper Body & Triceps",
+      "nl": "Bovenlichaam / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Sit on the edge of the band, hands next to your hips.",
+        "Shift your hips forward off the support and lower down by bending your arms."
+      ],
+      "nl": [
+        "Zit op de rand van de band, handen naast je heupen.",
+        "Duw je billen van de band af en zak door je armen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "4ua3MzaU0QU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "likes": 59449
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "tractor_tire_step_ups",
+    "exercise_name": {
+      "en": "Tyre Step Ups",
+      "nl": "Tyre Step Ups"
+    },
+    "aliases": [
+      "Tyre Step Ups"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Step one foot onto the tire and drive upward.",
+        "Alternate legs or complete all reps on one side before switching."
+      ],
+      "nl": [
+        "Stap met één voet op de band en duw jezelf omhoog.",
+        "Wissel van been of doe één kant tegelijk."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "n1sh5aS6Az4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "LISAFIITT",
+          "likes": 3183
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "tractor_tire_bulgarian_split_squat",
+    "exercise_name": {
+      "en": "Tyre Bulgarian Split Squat",
+      "nl": "Tyre Bulgarian Split Squat"
+    },
+    "aliases": [
+      "Tyre Bulgarian Split Squat"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Place one foot behind you onto the treadmill belt.",
+        "Lower your front leg.",
+        "Keep your back flat and neutral."
+      ],
+      "nl": [
+        "Leg één voet achter je op de band.",
+        "Zak door je voorste been.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "or1frhkjBDc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 15,
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "likes": 65015
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "tractor_tire_decline_mountain_climbers",
+    "exercise_name": {
+      "en": "Decline Mountain Climbers",
+      "nl": "Decline Mountain Climbers"
+    },
+    "aliases": [
+      "Decline Mountain Climbers"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Core & Cardio",
+      "nl": "Core / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Elevate feet on the treadmill belt or tire with hands on the floor.",
+        "Pull your knees alternately toward your chest."
+      ],
+      "nl": [
+        "Voeten op de band, handen op de grond (plank).",
+        "Trek je knieën om en om naar je borst."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "A0LoVI9XhyY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "TMACK Elite Training",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "tractor_tire_incline_mountain_climbers",
+    "exercise_name": {
+      "en": "Incline Mountain Climbers",
+      "nl": "Incline Mountain Climbers"
+    },
+    "aliases": [
+      "Incline Mountain Climbers"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Hands on the belt, feet on the ground.",
+        "Draw knees to chest.",
+        "Slightly lighter than decline."
+      ],
+      "nl": [
+        "Handen op de band, voeten op de grond.",
+        "Trek knieën naar de borst.",
+        "Iets lichter dan decline."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "WbLz3OZG7Eg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Benson Wachira Fitness",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "tractor_tire_pop_squats",
+    "exercise_name": {
+      "en": "Tyre Pop Squats",
+      "nl": "Tyre Pop Squats"
+    },
+    "aliases": [
+      "Tyre Pop Squats"
+    ],
+    "material": {
+      "id": "tractor_tire",
+      "name": {
+        "en": "Tractor Tire",
+        "nl": "Tractorband"
+      },
+      "description": {
+        "en": "Heavy commercial tire for power flips, sledgehammer slams, and plyometric jumps",
+        "nl": "Zware industriële tractorband voor powerflips, hamerslagen en sprongen"
+      }
+    },
+    "category": {
+      "en": "Legs & Cardio",
+      "nl": "Benen / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Jump onto the band with both feet and land in a squat.",
+        "Jump back to the ground with feet wide."
+      ],
+      "nl": [
+        "Spring met twee voeten op de band en land in een squat.",
+        "Spring terug naar de grond met voeten wijd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "tractor_tire_incline_pushup"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "yiU4xD8ID5k",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "IndieFit",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

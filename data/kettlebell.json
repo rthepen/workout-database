@@ -1,3152 +1,5 @@
 [
   {
-    "id": "kettlebell_deadlift",
-    "exercise_name": {
-      "en": "Kettlebell Deadlift",
-      "nl": "Kettlebell Deadlift"
-    },
-    "aliases": [
-      "Kettlebell Deadlift"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Place the kettlebell between your feet.",
-        "Hinge at the hips with a neutral spine, grip the handle, and drive through your legs and hips to stand tall."
-      ],
-      "nl": [
-        "Zet de kettlebell tussen de voeten.",
-        "Buig vanuit de heupen (rechte rug!), pak het handvat en strek de benen en heupen om rechtop te staan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "I7q_EPywprs",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 15,
-          "channel": "Iron Monk",
-          "likes": 1561
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_high_pull",
-    "exercise_name": {
-      "en": "Kettlebell High Pull",
-      "nl": "Kettlebell High Pull"
-    },
-    "aliases": [
-      "Kettlebell High Pull"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Start like a swing, but at the highest point pull the elbow high back.",
-        "The kettlebell floats for a moment."
-      ],
-      "nl": [
-        "Begin als een swing, maar trek op het hoogste punt de elleboog hoog naar achteren.",
-        "De kettlebell blijft even zweven."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "BhTNe6o4cuA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 10,
-          "channel": "Heketoa Fitness",
-          "likes": 8
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_lunge_pass_through",
-    "exercise_name": {
-      "en": "Kettlebell Lunge Pass Through",
-      "nl": "Kettlebell Lunge Pass Through"
-    },
-    "aliases": [
-      "Kettlebell Lunge Pass Through"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Do a lunge.",
-        "Pass the kettlebell under the front leg to the other hand.",
-        "Step back and alternate sides."
-      ],
-      "nl": [
-        "Maak een lunge.",
-        "Geef onder het voorste been de kettlebell door naar de andere hand.",
-        "Stap terug en wissel."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "cH8N6qUBG50",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 24,
-          "channel": "Elite Conditioning_Ivica",
-          "likes": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_press",
-    "exercise_name": {
-      "en": "Kettlebell Press",
-      "nl": "Kettlebell Press"
-    },
-    "aliases": [
-      "Kettlebell Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Start in the front rack position with the weight resting against your shoulder/chest.",
-        "Press the kettlebell straight overhead.",
-        "If necessary, rotate the wrist."
-      ],
-      "nl": [
-        "Start in de rack position (hand bij schouder).",
-        "Duw de kettlebell recht omhoog.",
-        "Draai de pols eventueel mee."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "iO6JMIW1lYQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 19,
-          "channel": "Movement & Mindset",
-          "likes": 125
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_row",
-    "exercise_name": {
-      "en": "Kettlebell Row",
-      "nl": "Kettlebell Row"
-    },
-    "aliases": [
-      "Kettlebell Row"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hinge forward at the torso, optionally bracing against a bench or your knee.",
-        "Pull the kettlebell to the hip."
-      ],
-      "nl": [
-        "Buig voorover (steun eventueel op een bankje of eigen been).",
-        "Trek de kettlebell naar de heup."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "h4KafmF7Xwc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 10,
-          "channel": "The Gym Hong Kong",
-          "likes": 745
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_snatch",
-    "exercise_name": {
-      "en": "Kettlebell Snatch",
-      "nl": "Kettlebell Snatch"
-    },
-    "aliases": [
-      "Kettlebell Snatch"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "An advanced calisthenic movement requiring exceptional control.",
-        "Swing the kettlebell and snatch it overhead to full lockout in one fluid trajectory.",
-        "Catch the blow to the forearm gently."
-      ],
-      "nl": [
-        "Een gevorderde beweging.",
-        "Swing de kettlebell en trek hem in één keer door tot boven het hoofd (lockout).",
-        "Vang de klap op de onderarm zachtjes op."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "kettlebell_clean"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "KqFYfLST3xc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "Pavel Krotov",
-          "likes": 149
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_swing",
-    "exercise_name": {
-      "en": "Kettlebell Swing",
-      "nl": "Kettlebell Swing"
-    },
-    "aliases": [
-      "Kettlebell Swing"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "The basics.",
-        "Hinge from the hips (buttocks back, back straight).",
-        "Snap your hips explosively forward to propel the kettlebell to eye level in a Russian swing."
-      ],
-      "nl": [
-        "De basis.",
-        "Hinge vanuit de heupen (billen naar achter, rug recht).",
-        "Stoot de heupen explosief naar voren om de kettlebell te laten zwaaien (tot ooghoogte)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_clean"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "2gXtvqLa_T8",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 60,
-          "channel": "Squat University",
-          "likes": 123224
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_turkish_get_up",
-    "exercise_name": {
-      "en": "Turkish Get Up",
-      "nl": "Turkish Get Up"
-    },
-    "aliases": [
-      "Turkish Get Up"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back with the kettlebell raised.",
-        "Stand all the way up into full standing while keeping your arm locked vertically overhead.",
-        "Lie down again.",
-        "Technically complex!"
-      ],
-      "nl": [
-        "Lig op de rug met de kettlebell omhoog.",
-        "Sta volledig op (tot stand) terwijl je de arm constant verticaal gestrekt houdt.",
-        "Ga weer liggen.",
-        "Technisch complex!"
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "XVEMTDlNLyU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 13,
-          "channel": "Tribe Fitness",
-          "likes": 1917
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_figure_8_squats",
-    "exercise_name": {
-      "en": "Figure 8 Squats",
-      "nl": "Figure 8 Squats"
-    },
-    "aliases": [
-      "Figure 8 Squats"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold a low quarter-squat and weave the weight through your legs in a continuous figure-8.",
-        "Stay in the squat position consistently."
-      ],
-      "nl": [
-        "Squat laag en geef het gewicht in een 8-vorm door je benen.",
-        "Blijf constant in de squat positie."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "vOouypk1kFs",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 11,
-          "channel": "Karlie Booker",
-          "likes": 8
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_z_press",
-    "exercise_name": {
-      "en": "Kettlebell Z-Press",
-      "nl": "Kettlebell Z-Press"
-    },
-    "aliases": [
-      "Kettlebell Z-Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core & Shoulders",
-      "nl": "Core / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "hamstrings",
-        "calves"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Sit on the floor with your legs extended in front of you.",
-        "Press the kettlebell(s) from shoulder height straight overhead.",
-        "Because you have no support from your legs, your core has to work extremely hard."
-      ],
-      "nl": [
-        "Ga op de grond zitten met je benen gestrekt voor je uit.",
-        "Duw de kettlebell(s) vanaf je schouders boven je hoofd.",
-        "Omdat je geen steun van je benen hebt, moet je core extreem hard werken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "sibwBmByLds",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 15,
-          "channel": "Adriell mayes",
-          "likes": 1762
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "kettlebell_around_the_body",
-    "exercise_name": {
-      "en": "Slingshot (Around the Body)",
-      "nl": "Slingshot (Around the Body)"
-    },
-    "aliases": [
-      "Around the Body",
-      "Slingshot",
-      "Slingshot Around the Body"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Warm-Up & Core",
-      "nl": "Warming-up / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Stand tall with upright posture.",
-        "Pass the kettlebell around your body from one hand to the other.",
-        "Keep your hips locked in place while only your arms move."
-      ],
-      "nl": [
-        "Sta rechtop.",
-        "Geef de kettlebell rondom je lichaam door van de ene hand naar de andere.",
-        "Houd je heupen stil, alleen de armen bewegen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "jeAApj2UnQI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 4,
-          "channel": "James Howard PT",
-          "likes": 36
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:40:29.113Z"
-    }
-  },
-  {
-    "id": "kettlebell_bear_crawl_drag",
-    "exercise_name": {
-      "en": "Bear Crawl Drag",
-      "nl": "Bear Crawl Drag"
-    },
-    "aliases": [
-      "Bear Crawl Drag"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body Core",
-      "nl": "Core / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Get into a crawling position (knees off the ground).",
-        "The kettlebell is underneath you.",
-        "Bear crawl forward while dragging the kettlebell along the floor with one hand.",
-        "Switch hands."
-      ],
-      "nl": [
-        "Ga in kruiphouding (knieën van de grond).",
-        "De kettlebell ligt onder je.",
-        "Kruip naar voren en trek de kettlebell met één hand over de grond mee naar voren.",
-        "Wissel van hand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "3ov_PLcZ0G4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "Ray Shepler",
-          "likes": 17
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:41:29.372Z"
-    }
-  },
-  {
-    "id": "kettlebell_bicep_curl",
-    "exercise_name": {
-      "en": "Kettlebell Bicep Curl",
-      "nl": "Kettlebell Bicep Curl"
-    },
-    "aliases": [
-      "Kettlebell Bicep Curl"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Arms",
-      "nl": "Armen"
-    },
-    "target_muscles": {
-      "primary": [
-        "biceps_brachii"
-      ],
-      "secondary": [
-        "brachialis",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Grip the kettlebell by the horns on the sides of the handle.",
-        "Curl the weight smoothly upward toward your chest.",
-        "Keep your elbows at your sides."
-      ],
-      "nl": [
-        "Pak de kettlebell aan de zijkanten van het handvat (hoorns) vast.",
-        "Krul het gewicht naar je borst.",
-        "Houd je ellebogen in je zij."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "So4iApZfoDI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 11,
-          "channel": "Amanda Capritto",
-          "likes": 146
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:42:23.876Z"
-    }
-  },
-  {
-    "id": "kettlebell_bottom_up_press",
-    "exercise_name": {
-      "en": "Bottom-Up Press",
-      "nl": "Bottom-Up Press"
-    },
-    "aliases": [
-      "Bottom-Up Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Grip & Shoulders",
-      "nl": "Grip / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the kettlebell upside down (bottom pointing toward the ceiling).",
-        "Balance it and gently push it up.",
-        "Requires strong grip and forearm endurance."
-      ],
-      "nl": [
-        "Houd de kettlebell ondersteboven vast (bodem wijst naar plafond).",
-        "Balanceer hem en duw hem voorzichtig omhoog.",
-        "Vereist sterke grip."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "iDTl-F_sKYU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 14,
-          "channel": "Grown Strong",
-          "likes": 15
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:46:00.663Z"
-    }
-  },
-  {
-    "id": "kettlebell_clean_and_press",
-    "exercise_name": {
-      "en": "Clean and Press",
-      "nl": "Clean and Press"
-    },
-    "aliases": [
-      "Clean and Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Clean the kettlebell or barbell up into the front rack position first.",
-        "Pause briefly in the rack position, then execute a strict overhead press.",
-        "Lower and repeat."
-      ],
-      "nl": [
-        "Maak eerst een Clean naar de rack position.",
-        "Pauzeer kort en maak daarna een strikte Press boven je hoofd.",
-        "Laat zakken en herhaal."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "h4KafmF7Xwc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 10,
-          "channel": "The Gym Hong Kong",
-          "likes": 745
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:47:19.890Z"
-    }
-  },
-  {
-    "id": "kettlebell_deck_squat",
-    "exercise_name": {
-      "en": "Deck Squat",
-      "nl": "Deck Squat"
-    },
-    "aliases": [
-      "Deck Squat"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Movement & Mobility",
-      "nl": "Mobiliteit / Fun"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Drop into a deep squat, roll back onto your spine holding the kettlebell at your chest, then rock forward and stand up in one fluid motion."
-      ],
-      "nl": [
-        "Maak een diepe squat, rol gecontroleerd naar achteren op je rug (kettlebell voor de borst), rol terug naar voren en sta direct op uit de squat."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "alelIf-0MiI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 12,
-          "channel": "Grown Strong",
-          "likes": 68
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:48:13.549Z"
-    }
-  },
-  {
-    "id": "kettlebell_double_front_squat",
-    "exercise_name": {
-      "en": "Double Kettlebell Front Squat",
-      "nl": "Double Kettlebell Front Squat"
-    },
-    "aliases": [
-      "Double Kettlebell Front Squat"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Core",
-      "nl": "Benen / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Clean two kettlebells to the rack position.",
-        "Place your feet shoulder-width apart and squat deeply.",
-        "Keep your elbows high so the weight doesn't pull forward."
-      ],
-      "nl": [
-        "Clean twee kettlebells naar de rack position.",
-        "Zet je voeten op schouderbreedte en squat diep.",
-        "Houd je ellebogen hoog zodat het gewicht niet naar voren trekt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "e7y8jEUbQiQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "The Gym Hong Kong",
-          "likes": 197
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:49:09.968Z"
-    }
-  },
-  {
-    "id": "kettlebell_floor_press",
-    "exercise_name": {
-      "en": "Kettlebell Floor Press",
-      "nl": "Kettlebell Floor Press"
-    },
-    "aliases": [
-      "Kettlebell Floor Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Chest & Triceps",
-      "nl": "Borst / Triceps"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back on the floor.",
-        "Push the kettlebell(s) up as with a bench press.",
-        "Lower until your elbows touch the floor, pause briefly, and press back up."
-      ],
-      "nl": [
-        "Lig op je rug op de vloer.",
-        "Duw de kettlebell(s) omhoog zoals bij een bench press.",
-        "Laat zakken tot je ellebogen de vloer raken en duw weer op."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "5pvbYS5Sr0k",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 6,
-          "channel": "NeuStrength | Personal Trainer Wilmington NC",
-          "likes": 52
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:50:23.806Z"
-    }
-  },
-  {
-    "id": "kettlebell_glute_bridge_hold",
-    "exercise_name": {
-      "en": "Glute Bridge (Weighted)",
-      "nl": "Glute Bridge (Weighted)"
-    },
-    "aliases": [
-      "Glute Bridge",
-      "Glute Bridge Weighted",
-      "Weighted"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Glutes",
-      "nl": "Billen"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back, knees bent.",
-        "Place the kettlebell on your hips (hold with hands).",
-        "Drive your hips upward and squeeze your glutes hard at the top.",
-        "Hold on for a moment."
-      ],
-      "nl": [
-        "Lig op je rug, knieën gebogen.",
-        "Plaats de kettlebell op je heupen (houd vast met handen).",
-        "Duw je heupen omhoog en knijp je billen samen.",
-        "Houd even vast."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_clean"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ULl7xM2yWgo",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 15,
-          "channel": "Rehab Hero",
-          "likes": 115
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:51:19.198Z"
-    }
-  },
-  {
-    "id": "kettlebell_gorilla_row",
-    "exercise_name": {
-      "en": "Gorilla Row",
-      "nl": "Gorilla Row"
-    },
-    "aliases": [
-      "Gorilla Row"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Back & Legs",
-      "nl": "Rug / Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Place two KBs between your feet.",
-        "Stand wide and bend forward with your knees bent (like a gorilla).",
-        "Press down on one kettlebell while rowing the other kettlebell to your ribcage.",
-        "Alternate sides continuously."
-      ],
-      "nl": [
-        "Zet twee KB's tussen je voeten.",
-        "Sta breed en buig voorover met gebogen knieën (als een gorilla).",
-        "Duw op één KB terwijl je de andere naar je toe trekt.",
-        "Wissel af."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Prwa0uFbSYU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 14,
-          "channel": "All Day Fit",
-          "likes": 2279
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:52:01.389Z"
-    }
-  },
-  {
-    "id": "kettlebell_lateral_lunge",
-    "exercise_name": {
-      "en": "Lateral Lunge (Cossack)",
-      "nl": "Lateral Lunge (Cossack)"
-    },
-    "aliases": [
-      "Cossack",
-      "Lateral Lunge",
-      "Lateral Lunge Cossack"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the KB in front of the chest (goblet).",
-        "Step wide to the side, bending your knee into a lateral lunge while the other leg remains straight.",
-        "Keep your heel on the ground."
-      ],
-      "nl": [
-        "Houd de KB voor de borst (goblet).",
-        "Stap wijd opzij en zak door één knie terwijl het andere been gestrekt blijft.",
-        "Houd je hiel op de grond."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "TR4GN3rLuQ8",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 18,
-          "channel": "Live to Thrive",
-          "likes": 147
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:56:08.710Z"
-    }
-  },
-  {
-    "id": "kettlebell_overhead_carry",
-    "exercise_name": {
-      "en": "Overhead Carry",
-      "nl": "Overhead Carry"
-    },
-    "aliases": [
-      "Overhead Carry"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Shoulder Stability",
-      "nl": "Schouderstabiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Press the kettlebell overhead to full arm lockout.",
-        "Walk in a controlled manner and make sure your ribs do not stick out (core tight)."
-      ],
-      "nl": [
-        "Duw de kettlebell boven je hoofd (arm volledig gestrekt/locked out).",
-        "Loop gecontroleerd en zorg dat je ribben niet uitsteken (core vast)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "YbUQFkoHtYA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "Tiffany LeRoy - Envision Personalized Training",
-          "likes": 23
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:57:42.071Z"
-    }
-  },
-  {
-    "id": "kettlebell_pullover",
-    "exercise_name": {
-      "en": "Kettlebell Pullover",
-      "nl": "Kettlebell Pullover"
-    },
-    "aliases": [
-      "Kettlebell Pullover"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Back & Chest",
-      "nl": "Rug / Borst"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back (or on a bench).",
-        "Hold the kettlebell above your chest.",
-        "Lower the weight slowly behind your head with soft elbows in a pullover motion and pull back."
-      ],
-      "nl": [
-        "Lig op je rug (of op een bankje).",
-        "Houd de kettlebell boven je borst.",
-        "Laat hem met licht gebogen armen langzaam achter je hoofd zakken richting de vloer en trek terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "PH5eYTlqKw4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 7,
-          "channel": "Ryley Carter",
-          "likes": 3
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:59:00.203Z"
-    }
-  },
-  {
-    "id": "kettlebell_push_press",
-    "exercise_name": {
-      "en": "Kettlebell Push Press",
-      "nl": "Kettlebell Push Press"
-    },
-    "aliases": [
-      "Kettlebell Push Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Power",
-      "nl": "Schouders / Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Start with the weight cleaned into the front rack position.",
-        "Dip quickly at the knees and use the leg drive to explosively thrust the kettlebell overhead."
-      ],
-      "nl": [
-        "Start in rack position.",
-        "Maak een korte dip door de knieën en gebruik die energie om de kettlebell explosief boven je hoofd te stoten."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "iO6JMIW1lYQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 19,
-          "channel": "Movement & Mindset",
-          "likes": 125
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T22:00:01.611Z"
-    }
-  },
-  {
-    "id": "kettlebell_rack_carry",
-    "exercise_name": {
-      "en": "Front Rack Carry",
-      "nl": "Front Rack Carry"
-    },
-    "aliases": [
-      "Front Rack Carry"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core / Stabiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Clean one or two kettlebells into the rack position against your chest.",
-        "Walk slowly while contracting your abdominal muscles and not leaning back."
-      ],
-      "nl": [
-        "Breng één of twee kettlebells naar de 'rack position' (tegen de borst).",
-        "Loop rustig terwijl je je buikspieren aanspant en niet achterover leunt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "E5lUnuKrHro",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "FORTIS",
-          "likes": 46
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T22:01:27.453Z"
-    }
-  },
-  {
-    "id": "kettlebell_renegade_row",
-    "exercise_name": {
-      "en": "Renegade Row",
-      "nl": "Renegade Row"
-    },
-    "aliases": [
-      "Renegade Row"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core & Posterior Chain",
-      "nl": "Core / Rug"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Get into a high plank position with your hands on the handles of the kettlebells.",
-        "Alternately pull a kettlebell to your hip while trying to keep your hips still."
-      ],
-      "nl": [
-        "Ga in een hoge plankpositie staan met je handen op de handvatten van de kettlebells.",
-        "Trek om en om een kettlebell naar je heup terwijl je probeert je heupen stil te houden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "DlceZk6iDuc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 6,
-          "channel": "NeuStrength | Personal Trainer Wilmington NC",
-          "likes": 42
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T22:03:00.737Z"
-    }
-  },
-  {
-    "id": "kettlebell_russian_twist",
-    "exercise_name": {
-      "en": "Russian Twist",
-      "nl": "Russian Twist"
-    },
-    "aliases": [
-      "Russian Twist"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Sit down, lift your feet off the floor.",
-        "Hold the kettlebell with both hands and gently rotate your upper body from left to right.",
-        "Hover just above the floor without letting your knees touch down."
-      ],
-      "nl": [
-        "Ga zitten, til je voeten van de vloer.",
-        "Houd de kettlebell met twee handen vast en draai je bovenlichaam rustig van links naar rechts.",
-        "Raak de grond net niet aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-cPtvFdT8dc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "A2Z",
-          "likes": 18792
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:21:37.127Z"
-    }
-  },
-  {
-    "id": "kettlebell_single_arm_swing",
-    "exercise_name": {
-      "en": "Single Arm Swing",
-      "nl": "Single Arm Swing"
-    },
-    "aliases": [
-      "Single Arm Swing"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Same technique as the normal swing, but with one hand.",
-        "Use the free arm for balance and to prevent rotation of the torso (anti-rotation)."
-      ],
-      "nl": [
-        "Zelfde techniek als de normale swing, maar met één hand.",
-        "Gebruik de vrije arm voor balans en om rotatie van de romp tegen te gaan (anti-rotatie)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "kettlebell_clean"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ehkNRbkekz4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "Rachel Wilkinson",
-          "likes": 58
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:22:40.905Z"
-    }
-  },
-  {
-    "id": "kettlebell_single_leg_rdl",
-    "exercise_name": {
-      "en": "Single Leg Deadlift (RDL)",
-      "nl": "Single Leg Deadlift (RDL)"
-    },
-    "aliases": [
-      "RDL",
-      "Single Leg Deadlift",
-      "Single Leg Deadlift RDL"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Balance",
-      "nl": "Benen / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Balance on one single leg with your core engaged.",
-        "Hold the kettlebell in the opposite hand.",
-        "Tilt forward from your hip while stretching your free leg straight back.",
-        "Keep your back flat and neutral."
-      ],
-      "nl": [
-        "Sta op één been.",
-        "Houd de kettlebell in de tegenovergestelde hand.",
-        "Kantel voorover vanuit je heup terwijl je je vrije been recht naar achteren strekt.",
-        "Houd je rug recht."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Zvce_rEvM5U",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "Valerie Schellekens",
-          "likes": 868
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:23:36.611Z"
-    }
-  },
-  {
-    "id": "kettlebell_situp_press",
-    "exercise_name": {
-      "en": "Sit-up and Press",
-      "nl": "Sit-up and Press"
-    },
-    "aliases": [
-      "Sit-up and Press"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back with the kettlebell on your chest.",
-        "Perform a full sit-up.",
-        "Once sitting upright, press the kettlebell smoothly overhead.",
-        "Lower down and roll back into the starting position."
-      ],
-      "nl": [
-        "Ga op je rug liggen met de kettlebell op de borst.",
-        "Maak een sit-up.",
-        "Eenmaal rechtop zittend, duw je de kettlebell uit boven je hoofd.",
-        "Laat zakken en rol terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Q9T--tNg04M",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 7,
-          "channel": "Solid Rock Personal Training",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:24:37.310Z"
-    }
-  },
-  {
-    "id": "kettlebell_suitcase_deadlift",
-    "exercise_name": {
-      "en": "Suitcase Deadlift",
-      "nl": "Suitcase Deadlift"
-    },
-    "aliases": [
-      "Suitcase Deadlift"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Core",
-      "nl": "Benen / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Place the kettlebell next to one foot (outside).",
-        "Hinge down, grasp the handle, and drive up to standing.",
-        "Avoid pulling crookedly (stay straight)."
-      ],
-      "nl": [
-        "Zet de kettlebell naast één voet (buitenkant).",
-        "Squat/Hinge naar beneden, pak het handvat en sta op.",
-        "Voorkom dat je scheef trekt (blijf recht)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Ujjg-pRWhws",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 8,
-          "channel": "DarrylEubanks-Still Life Fitness",
-          "likes": 6
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:25:32.784Z"
-    }
-  },
-  {
-    "id": "kettlebell_tactical_lunge",
-    "exercise_name": {
-      "en": "Tactical Lunge",
-      "nl": "Tactical Lunge"
-    },
-    "aliases": [
-      "Tactical Lunge"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Legs & Coordination",
-      "nl": "Benen / Coördinatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Step backward into a deep reverse lunge.",
-        "At the deepest point, pass the kettlebell under your front leg to the other hand.",
-        "Step back and repeat on the opposite leg."
-      ],
-      "nl": [
-        "Maak een achterwaartse lunge.",
-        "Geef op het diepste punt de kettlebell onder je voorste been door naar de andere hand.",
-        "Stap terug en herhaal met het andere been."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-oBz6Er7JKY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 6,
-          "channel": "Andrew Bustos",
-          "likes": 26
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:26:30.352Z"
-    }
-  },
-  {
-    "id": "kettlebell_thruster",
-    "exercise_name": {
-      "en": "Kettlebell Thruster",
-      "nl": "Kettlebell Thruster"
-    },
-    "aliases": [
-      "Kettlebell Thruster"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Combine a deep squat with an explosive overhead press into a single fluid movement.",
-        "Lower yourself deeply into the squat and use the strength from your legs to push the kettlebell directly above your head."
-      ],
-      "nl": [
-        "Combineer een Goblet Squat (of Rack Squat) met een Overhead Press.",
-        "Zak diep in de squat en gebruik de kracht uit je benen om de kettlebell direct boven je hoofd te duwen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "07rZz0Jv8Xo",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "NeuStrength | Personal Trainer Wilmington NC",
-          "likes": 56
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:28:12.135Z"
-    }
-  },
-  {
-    "id": "kettlebell_tricep_extension",
-    "exercise_name": {
-      "en": "Standing Tricep Extension",
-      "nl": "Standing Tricep Extension"
-    },
-    "aliases": [
-      "Standing Tricep Extension"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Arms",
-      "nl": "Armen"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "anterior_deltoid",
-        "pectorals"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the kettlebell by the head or horns behind your head.",
-        "Extend your arms straight up toward the ceiling.",
-        "Keep your elbows close to your head."
-      ],
-      "nl": [
-        "Houd de kettlebell aan de bol of hoorns vast achter je hoofd.",
-        "Strek je armen uit naar boven.",
-        "Houd je ellebogen dicht bij je hoofd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "RvPRg5JieeA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 14,
-          "channel": "Stacked Coaching",
-          "likes": 36
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:28:58.727Z"
-    }
-  },
-  {
-    "id": "kettlebell_windmill",
-    "exercise_name": {
-      "en": "Kettlebell Windmill",
-      "nl": "Kettlebell Windmill"
-    },
-    "aliases": [
-      "Kettlebell Windmill"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Core & Mobility",
-      "nl": "Core / Mobiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Extend the arm holding the kettlebell straight overhead.",
-        "Place your feet 45 degrees away from the arm.",
-        "Shift your hip to the side and slide your free hand down your leg toward the floor.",
-        "Look at the kettlebell."
-      ],
-      "nl": [
-        "Strek de arm met de kettlebell boven je hoofd.",
-        "Zet je voeten 45 graden weg van de arm.",
-        "Duw je heup opzij en zak met je vrije hand langs je been naar de grond.",
-        "Kijk naar de kettlebell."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "kettlebell_snatch"
-      ],
-      "regressions": [
-        "kettlebell_swing"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "EHGTgeKwOyY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "Kelly Stone",
-          "likes": 36
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-01T17:30:13.578Z"
-    }
-  },
-  {
     "id": "kettlebell_clean",
     "exercise_name": {
       "en": "Kettlebell Clean",
@@ -5158,6 +2011,3184 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T17:25:55.823Z"
+    }
+  },
+  {
+    "id": "kettlebell_deadlift",
+    "exercise_name": {
+      "en": "Kettlebell Deadlift",
+      "nl": "Kettlebell Deadlift"
+    },
+    "aliases": [
+      "Kettlebell Deadlift"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place the kettlebell between your feet.",
+        "Hinge at the hips with a neutral spine, grip the handle, and drive through your legs and hips to stand tall."
+      ],
+      "nl": [
+        "Zet de kettlebell tussen de voeten.",
+        "Buig vanuit de heupen (rechte rug!), pak het handvat en strek de benen en heupen om rechtop te staan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "I7q_EPywprs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 15,
+          "channel": "Iron Monk",
+          "likes": 1561
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_high_pull",
+    "exercise_name": {
+      "en": "Kettlebell High Pull",
+      "nl": "Kettlebell High Pull"
+    },
+    "aliases": [
+      "Kettlebell High Pull"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Start like a swing, but at the highest point pull the elbow high back.",
+        "The kettlebell floats for a moment."
+      ],
+      "nl": [
+        "Begin als een swing, maar trek op het hoogste punt de elleboog hoog naar achteren.",
+        "De kettlebell blijft even zweven."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "BhTNe6o4cuA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 10,
+          "channel": "Heketoa Fitness",
+          "likes": 8
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_lunge_pass_through",
+    "exercise_name": {
+      "en": "Kettlebell Lunge Pass Through",
+      "nl": "Kettlebell Lunge Pass Through"
+    },
+    "aliases": [
+      "Kettlebell Lunge Pass Through"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Do a lunge.",
+        "Pass the kettlebell under the front leg to the other hand.",
+        "Step back and alternate sides."
+      ],
+      "nl": [
+        "Maak een lunge.",
+        "Geef onder het voorste been de kettlebell door naar de andere hand.",
+        "Stap terug en wissel."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "cH8N6qUBG50",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 24,
+          "channel": "Elite Conditioning_Ivica",
+          "likes": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_press",
+    "exercise_name": {
+      "en": "Kettlebell Press",
+      "nl": "Kettlebell Press"
+    },
+    "aliases": [
+      "Kettlebell Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Start in the front rack position with the weight resting against your shoulder/chest.",
+        "Press the kettlebell straight overhead.",
+        "If necessary, rotate the wrist."
+      ],
+      "nl": [
+        "Start in de rack position (hand bij schouder).",
+        "Duw de kettlebell recht omhoog.",
+        "Draai de pols eventueel mee."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "iO6JMIW1lYQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 19,
+          "channel": "Movement & Mindset",
+          "likes": 125
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_row",
+    "exercise_name": {
+      "en": "Kettlebell Row",
+      "nl": "Kettlebell Row"
+    },
+    "aliases": [
+      "Kettlebell Row"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hinge forward at the torso, optionally bracing against a bench or your knee.",
+        "Pull the kettlebell to the hip."
+      ],
+      "nl": [
+        "Buig voorover (steun eventueel op een bankje of eigen been).",
+        "Trek de kettlebell naar de heup."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "B0XNMCohjoo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "FitSW Fitness Software",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_snatch",
+    "exercise_name": {
+      "en": "Kettlebell Snatch",
+      "nl": "Kettlebell Snatch"
+    },
+    "aliases": [
+      "Kettlebell Snatch"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "An advanced calisthenic movement requiring exceptional control.",
+        "Swing the kettlebell and snatch it overhead to full lockout in one fluid trajectory.",
+        "Catch the blow to the forearm gently."
+      ],
+      "nl": [
+        "Een gevorderde beweging.",
+        "Swing de kettlebell en trek hem in één keer door tot boven het hoofd (lockout).",
+        "Vang de klap op de onderarm zachtjes op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "kettlebell_clean"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "KqFYfLST3xc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 16,
+          "channel": "Pavel Krotov",
+          "likes": 149
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_swing",
+    "exercise_name": {
+      "en": "Kettlebell Swing",
+      "nl": "Kettlebell Swing"
+    },
+    "aliases": [
+      "Kettlebell Swing"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "The basics.",
+        "Hinge from the hips (buttocks back, back straight).",
+        "Snap your hips explosively forward to propel the kettlebell to eye level in a Russian swing."
+      ],
+      "nl": [
+        "De basis.",
+        "Hinge vanuit de heupen (billen naar achter, rug recht).",
+        "Stoot de heupen explosief naar voren om de kettlebell te laten zwaaien (tot ooghoogte)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_clean"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "2gXtvqLa_T8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 60,
+          "channel": "Squat University",
+          "likes": 123224
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_turkish_get_up",
+    "exercise_name": {
+      "en": "Turkish Get Up",
+      "nl": "Turkish Get Up"
+    },
+    "aliases": [
+      "Turkish Get Up"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with the kettlebell raised.",
+        "Stand all the way up into full standing while keeping your arm locked vertically overhead.",
+        "Lie down again.",
+        "Technically complex!"
+      ],
+      "nl": [
+        "Lig op de rug met de kettlebell omhoog.",
+        "Sta volledig op (tot stand) terwijl je de arm constant verticaal gestrekt houdt.",
+        "Ga weer liggen.",
+        "Technisch complex!"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "XVEMTDlNLyU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 13,
+          "channel": "Tribe Fitness",
+          "likes": 1917
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_figure_8_squats",
+    "exercise_name": {
+      "en": "Figure 8 Squats",
+      "nl": "Figure 8 Squats"
+    },
+    "aliases": [
+      "Figure 8 Squats"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold a low quarter-squat and weave the weight through your legs in a continuous figure-8.",
+        "Stay in the squat position consistently."
+      ],
+      "nl": [
+        "Squat laag en geef het gewicht in een 8-vorm door je benen.",
+        "Blijf constant in de squat positie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "vOouypk1kFs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 11,
+          "channel": "Karlie Booker",
+          "likes": 8
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_z_press",
+    "exercise_name": {
+      "en": "Kettlebell Z-Press",
+      "nl": "Kettlebell Z-Press"
+    },
+    "aliases": [
+      "Kettlebell Z-Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core & Shoulders",
+      "nl": "Core / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "hamstrings",
+        "calves"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor with your legs extended in front of you.",
+        "Press the kettlebell(s) from shoulder height straight overhead.",
+        "Because you have no support from your legs, your core has to work extremely hard."
+      ],
+      "nl": [
+        "Ga op de grond zitten met je benen gestrekt voor je uit.",
+        "Duw de kettlebell(s) vanaf je schouders boven je hoofd.",
+        "Omdat je geen steun van je benen hebt, moet je core extreem hard werken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "sibwBmByLds",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 15,
+          "channel": "Adriell mayes",
+          "likes": 1762
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_around_the_body",
+    "exercise_name": {
+      "en": "Slingshot (Around the Body)",
+      "nl": "Slingshot (Around the Body)"
+    },
+    "aliases": [
+      "Around the Body",
+      "Slingshot",
+      "Slingshot Around the Body"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Warm-Up & Core",
+      "nl": "Warming-up / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with upright posture.",
+        "Pass the kettlebell around your body from one hand to the other.",
+        "Keep your hips locked in place while only your arms move."
+      ],
+      "nl": [
+        "Sta rechtop.",
+        "Geef de kettlebell rondom je lichaam door van de ene hand naar de andere.",
+        "Houd je heupen stil, alleen de armen bewegen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Fgrj5PzxGeQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Sami Leigh Fitness",
+          "rating": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_bear_crawl_drag",
+    "exercise_name": {
+      "en": "Bear Crawl Drag",
+      "nl": "Bear Crawl Drag"
+    },
+    "aliases": [
+      "Bear Crawl Drag"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body Core",
+      "nl": "Core / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Get into a crawling position (knees off the ground).",
+        "The kettlebell is underneath you.",
+        "Bear crawl forward while dragging the kettlebell along the floor with one hand.",
+        "Switch hands."
+      ],
+      "nl": [
+        "Ga in kruiphouding (knieën van de grond).",
+        "De kettlebell ligt onder je.",
+        "Kruip naar voren en trek de kettlebell met één hand over de grond mee naar voren.",
+        "Wissel van hand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "3ov_PLcZ0G4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "Ray Shepler",
+          "likes": 17
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_bicep_curl",
+    "exercise_name": {
+      "en": "Kettlebell Bicep Curl",
+      "nl": "Kettlebell Bicep Curl"
+    },
+    "aliases": [
+      "Kettlebell Bicep Curl"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Arms",
+      "nl": "Armen"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "brachialis",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Grip the kettlebell by the horns on the sides of the handle.",
+        "Curl the weight smoothly upward toward your chest.",
+        "Keep your elbows at your sides."
+      ],
+      "nl": [
+        "Pak de kettlebell aan de zijkanten van het handvat (hoorns) vast.",
+        "Krul het gewicht naar je borst.",
+        "Houd je ellebogen in je zij."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "So4iApZfoDI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 11,
+          "channel": "Amanda Capritto",
+          "likes": 146
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_bottom_up_press",
+    "exercise_name": {
+      "en": "Bottom-Up Press",
+      "nl": "Bottom-Up Press"
+    },
+    "aliases": [
+      "Bottom-Up Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Grip & Shoulders",
+      "nl": "Grip / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the kettlebell upside down (bottom pointing toward the ceiling).",
+        "Balance it and gently push it up.",
+        "Requires strong grip and forearm endurance."
+      ],
+      "nl": [
+        "Houd de kettlebell ondersteboven vast (bodem wijst naar plafond).",
+        "Balanceer hem en duw hem voorzichtig omhoog.",
+        "Vereist sterke grip."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "iDTl-F_sKYU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 14,
+          "channel": "Grown Strong",
+          "likes": 15
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_clean_and_press",
+    "exercise_name": {
+      "en": "Clean and Press",
+      "nl": "Clean and Press"
+    },
+    "aliases": [
+      "Clean and Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Clean the kettlebell or barbell up into the front rack position first.",
+        "Pause briefly in the rack position, then execute a strict overhead press.",
+        "Lower and repeat."
+      ],
+      "nl": [
+        "Maak eerst een Clean naar de rack position.",
+        "Pauzeer kort en maak daarna een strikte Press boven je hoofd.",
+        "Laat zakken en herhaal."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "h4KafmF7Xwc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 10,
+          "channel": "The Gym Hong Kong",
+          "likes": 745
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_deck_squat",
+    "exercise_name": {
+      "en": "Deck Squat",
+      "nl": "Deck Squat"
+    },
+    "aliases": [
+      "Deck Squat"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Movement & Mobility",
+      "nl": "Mobiliteit / Fun"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Drop into a deep squat, roll back onto your spine holding the kettlebell at your chest, then rock forward and stand up in one fluid motion."
+      ],
+      "nl": [
+        "Maak een diepe squat, rol gecontroleerd naar achteren op je rug (kettlebell voor de borst), rol terug naar voren en sta direct op uit de squat."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "alelIf-0MiI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 12,
+          "channel": "Grown Strong",
+          "likes": 68
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_double_front_squat",
+    "exercise_name": {
+      "en": "Double Kettlebell Front Squat",
+      "nl": "Double Kettlebell Front Squat"
+    },
+    "aliases": [
+      "Double Kettlebell Front Squat"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Core",
+      "nl": "Benen / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Clean two kettlebells to the rack position.",
+        "Place your feet shoulder-width apart and squat deeply.",
+        "Keep your elbows high so the weight doesn't pull forward."
+      ],
+      "nl": [
+        "Clean twee kettlebells naar de rack position.",
+        "Zet je voeten op schouderbreedte en squat diep.",
+        "Houd je ellebogen hoog zodat het gewicht niet naar voren trekt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "e7y8jEUbQiQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "The Gym Hong Kong",
+          "likes": 197
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_floor_press",
+    "exercise_name": {
+      "en": "Kettlebell Floor Press",
+      "nl": "Kettlebell Floor Press"
+    },
+    "aliases": [
+      "Kettlebell Floor Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Chest & Triceps",
+      "nl": "Borst / Triceps"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back on the floor.",
+        "Push the kettlebell(s) up as with a bench press.",
+        "Lower until your elbows touch the floor, pause briefly, and press back up."
+      ],
+      "nl": [
+        "Lig op je rug op de vloer.",
+        "Duw de kettlebell(s) omhoog zoals bij een bench press.",
+        "Laat zakken tot je ellebogen de vloer raken en duw weer op."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "5pvbYS5Sr0k",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 6,
+          "channel": "NeuStrength | Personal Trainer Wilmington NC",
+          "likes": 52
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_glute_bridge_hold",
+    "exercise_name": {
+      "en": "Glute Bridge (Weighted)",
+      "nl": "Glute Bridge (Weighted)"
+    },
+    "aliases": [
+      "Glute Bridge",
+      "Glute Bridge Weighted",
+      "Weighted"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Glutes",
+      "nl": "Billen"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, knees bent.",
+        "Place the kettlebell on your hips (hold with hands).",
+        "Drive your hips upward and squeeze your glutes hard at the top.",
+        "Hold on for a moment."
+      ],
+      "nl": [
+        "Lig op je rug, knieën gebogen.",
+        "Plaats de kettlebell op je heupen (houd vast met handen).",
+        "Duw je heupen omhoog en knijp je billen samen.",
+        "Houd even vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_clean"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ULl7xM2yWgo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 15,
+          "channel": "Rehab Hero",
+          "likes": 115
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_gorilla_row",
+    "exercise_name": {
+      "en": "Gorilla Row",
+      "nl": "Gorilla Row"
+    },
+    "aliases": [
+      "Gorilla Row"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Back & Legs",
+      "nl": "Rug / Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place two KBs between your feet.",
+        "Stand wide and bend forward with your knees bent (like a gorilla).",
+        "Press down on one kettlebell while rowing the other kettlebell to your ribcage.",
+        "Alternate sides continuously."
+      ],
+      "nl": [
+        "Zet twee KB's tussen je voeten.",
+        "Sta breed en buig voorover met gebogen knieën (als een gorilla).",
+        "Duw op één KB terwijl je de andere naar je toe trekt.",
+        "Wissel af."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Prwa0uFbSYU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 14,
+          "channel": "All Day Fit",
+          "likes": 2279
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_lateral_lunge",
+    "exercise_name": {
+      "en": "Lateral Lunge (Cossack)",
+      "nl": "Lateral Lunge (Cossack)"
+    },
+    "aliases": [
+      "Cossack",
+      "Lateral Lunge",
+      "Lateral Lunge Cossack"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the KB in front of the chest (goblet).",
+        "Step wide to the side, bending your knee into a lateral lunge while the other leg remains straight.",
+        "Keep your heel on the ground."
+      ],
+      "nl": [
+        "Houd de KB voor de borst (goblet).",
+        "Stap wijd opzij en zak door één knie terwijl het andere been gestrekt blijft.",
+        "Houd je hiel op de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "TR4GN3rLuQ8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 18,
+          "channel": "Live to Thrive",
+          "likes": 147
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_overhead_carry",
+    "exercise_name": {
+      "en": "Overhead Carry",
+      "nl": "Overhead Carry"
+    },
+    "aliases": [
+      "Overhead Carry"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Shoulder Stability",
+      "nl": "Schouderstabiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Press the kettlebell overhead to full arm lockout.",
+        "Walk in a controlled manner and make sure your ribs do not stick out (core tight)."
+      ],
+      "nl": [
+        "Duw de kettlebell boven je hoofd (arm volledig gestrekt/locked out).",
+        "Loop gecontroleerd en zorg dat je ribben niet uitsteken (core vast)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "YbUQFkoHtYA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "Tiffany LeRoy - Envision Personalized Training",
+          "likes": 23
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_pullover",
+    "exercise_name": {
+      "en": "Kettlebell Pullover",
+      "nl": "Kettlebell Pullover"
+    },
+    "aliases": [
+      "Kettlebell Pullover"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Back & Chest",
+      "nl": "Rug / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back (or on a bench).",
+        "Hold the kettlebell above your chest.",
+        "Lower the weight slowly behind your head with soft elbows in a pullover motion and pull back."
+      ],
+      "nl": [
+        "Lig op je rug (of op een bankje).",
+        "Houd de kettlebell boven je borst.",
+        "Laat hem met licht gebogen armen langzaam achter je hoofd zakken richting de vloer en trek terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "PH5eYTlqKw4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 7,
+          "channel": "Ryley Carter",
+          "likes": 3
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_push_press",
+    "exercise_name": {
+      "en": "Kettlebell Push Press",
+      "nl": "Kettlebell Push Press"
+    },
+    "aliases": [
+      "Kettlebell Push Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Power",
+      "nl": "Schouders / Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Start with the weight cleaned into the front rack position.",
+        "Dip quickly at the knees and use the leg drive to explosively thrust the kettlebell overhead."
+      ],
+      "nl": [
+        "Start in rack position.",
+        "Maak een korte dip door de knieën en gebruik die energie om de kettlebell explosief boven je hoofd te stoten."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "iO6JMIW1lYQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 19,
+          "channel": "Movement & Mindset",
+          "likes": 125
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_rack_carry",
+    "exercise_name": {
+      "en": "Front Rack Carry",
+      "nl": "Front Rack Carry"
+    },
+    "aliases": [
+      "Front Rack Carry"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core / Stabiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Clean one or two kettlebells into the rack position against your chest.",
+        "Walk slowly while contracting your abdominal muscles and not leaning back."
+      ],
+      "nl": [
+        "Breng één of twee kettlebells naar de 'rack position' (tegen de borst).",
+        "Loop rustig terwijl je je buikspieren aanspant en niet achterover leunt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "E5lUnuKrHro",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "FORTIS",
+          "likes": 46
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_renegade_row",
+    "exercise_name": {
+      "en": "Renegade Row",
+      "nl": "Renegade Row"
+    },
+    "aliases": [
+      "Renegade Row"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core & Posterior Chain",
+      "nl": "Core / Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Get into a high plank position with your hands on the handles of the kettlebells.",
+        "Alternately pull a kettlebell to your hip while trying to keep your hips still."
+      ],
+      "nl": [
+        "Ga in een hoge plankpositie staan met je handen op de handvatten van de kettlebells.",
+        "Trek om en om een kettlebell naar je heup terwijl je probeert je heupen stil te houden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "cGMvwfG0Yd4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Joe Burke Fitness ",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_russian_twist",
+    "exercise_name": {
+      "en": "Russian Twist",
+      "nl": "Russian Twist"
+    },
+    "aliases": [
+      "Russian Twist"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight"
+    },
+    "instructions": {
+      "en": [
+        "Sit down, lift your feet off the floor.",
+        "Hold the kettlebell with both hands and gently rotate your upper body from left to right.",
+        "Hover just above the floor without letting your knees touch down."
+      ],
+      "nl": [
+        "Ga zitten, til je voeten van de vloer.",
+        "Houd de kettlebell met twee handen vast en draai je bovenlichaam rustig van links naar rechts.",
+        "Raak de grond net niet aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "3GxeoPmtNww",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "PERFORM Athlete",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_single_arm_swing",
+    "exercise_name": {
+      "en": "Single Arm Swing",
+      "nl": "Single Arm Swing"
+    },
+    "aliases": [
+      "Single Arm Swing"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Same technique as the normal swing, but with one hand.",
+        "Use the free arm for balance and to prevent rotation of the torso (anti-rotation)."
+      ],
+      "nl": [
+        "Zelfde techniek als de normale swing, maar met één hand.",
+        "Gebruik de vrije arm voor balans en om rotatie van de romp tegen te gaan (anti-rotatie)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "kettlebell_clean"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ehkNRbkekz4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "Rachel Wilkinson",
+          "likes": 58
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_single_leg_rdl",
+    "exercise_name": {
+      "en": "Single Leg Deadlift (RDL)",
+      "nl": "Single Leg Deadlift (RDL)"
+    },
+    "aliases": [
+      "RDL",
+      "Single Leg Deadlift",
+      "Single Leg Deadlift RDL"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Balance",
+      "nl": "Benen / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Balance on one single leg with your core engaged.",
+        "Hold the kettlebell in the opposite hand.",
+        "Tilt forward from your hip while stretching your free leg straight back.",
+        "Keep your back flat and neutral."
+      ],
+      "nl": [
+        "Sta op één been.",
+        "Houd de kettlebell in de tegenovergestelde hand.",
+        "Kantel voorover vanuit je heup terwijl je je vrije been recht naar achteren strekt.",
+        "Houd je rug recht."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Zvce_rEvM5U",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "Valerie Schellekens",
+          "likes": 868
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_situp_press",
+    "exercise_name": {
+      "en": "Sit-up and Press",
+      "nl": "Sit-up and Press"
+    },
+    "aliases": [
+      "Sit-up and Press"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with the kettlebell on your chest.",
+        "Perform a full sit-up.",
+        "Once sitting upright, press the kettlebell smoothly overhead.",
+        "Lower down and roll back into the starting position."
+      ],
+      "nl": [
+        "Ga op je rug liggen met de kettlebell op de borst.",
+        "Maak een sit-up.",
+        "Eenmaal rechtop zittend, duw je de kettlebell uit boven je hoofd.",
+        "Laat zakken en rol terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Q9T--tNg04M",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 7,
+          "channel": "Solid Rock Personal Training",
+          "likes": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_suitcase_deadlift",
+    "exercise_name": {
+      "en": "Suitcase Deadlift",
+      "nl": "Suitcase Deadlift"
+    },
+    "aliases": [
+      "Suitcase Deadlift"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Core",
+      "nl": "Benen / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place the kettlebell next to one foot (outside).",
+        "Hinge down, grasp the handle, and drive up to standing.",
+        "Avoid pulling crookedly (stay straight)."
+      ],
+      "nl": [
+        "Zet de kettlebell naast één voet (buitenkant).",
+        "Squat/Hinge naar beneden, pak het handvat en sta op.",
+        "Voorkom dat je scheef trekt (blijf recht)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Ujjg-pRWhws",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 8,
+          "channel": "DarrylEubanks-Still Life Fitness",
+          "likes": 6
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_tactical_lunge",
+    "exercise_name": {
+      "en": "Tactical Lunge",
+      "nl": "Tactical Lunge"
+    },
+    "aliases": [
+      "Tactical Lunge"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Legs & Coordination",
+      "nl": "Benen / Coördinatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Step backward into a deep reverse lunge.",
+        "At the deepest point, pass the kettlebell under your front leg to the other hand.",
+        "Step back and repeat on the opposite leg."
+      ],
+      "nl": [
+        "Maak een achterwaartse lunge.",
+        "Geef op het diepste punt de kettlebell onder je voorste been door naar de andere hand.",
+        "Stap terug en herhaal met het andere been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-oBz6Er7JKY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 6,
+          "channel": "Andrew Bustos",
+          "likes": 26
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_thruster",
+    "exercise_name": {
+      "en": "Kettlebell Thruster",
+      "nl": "Kettlebell Thruster"
+    },
+    "aliases": [
+      "Kettlebell Thruster"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Combine a deep squat with an explosive overhead press into a single fluid movement.",
+        "Lower yourself deeply into the squat and use the strength from your legs to push the kettlebell directly above your head."
+      ],
+      "nl": [
+        "Combineer een Goblet Squat (of Rack Squat) met een Overhead Press.",
+        "Zak diep in de squat en gebruik de kracht uit je benen om de kettlebell direct boven je hoofd te duwen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "07rZz0Jv8Xo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "NeuStrength | Personal Trainer Wilmington NC",
+          "likes": 56
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_tricep_extension",
+    "exercise_name": {
+      "en": "Standing Tricep Extension",
+      "nl": "Standing Tricep Extension"
+    },
+    "aliases": [
+      "Standing Tricep Extension"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Arms",
+      "nl": "Armen"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the kettlebell by the head or horns behind your head.",
+        "Extend your arms straight up toward the ceiling.",
+        "Keep your elbows close to your head."
+      ],
+      "nl": [
+        "Houd de kettlebell aan de bol of hoorns vast achter je hoofd.",
+        "Strek je armen uit naar boven.",
+        "Houd je ellebogen dicht bij je hoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "RvPRg5JieeA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 14,
+          "channel": "Stacked Coaching",
+          "likes": 36
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "kettlebell_windmill",
+    "exercise_name": {
+      "en": "Kettlebell Windmill",
+      "nl": "Kettlebell Windmill"
+    },
+    "aliases": [
+      "Kettlebell Windmill"
+    ],
+    "material": {
+      "id": "kettlebell",
+      "name": {
+        "en": "Kettlebell",
+        "nl": "Kettlebell"
+      },
+      "description": {
+        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
+        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
+      }
+    },
+    "category": {
+      "en": "Core & Mobility",
+      "nl": "Core / Mobiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Extend the arm holding the kettlebell straight overhead.",
+        "Place your feet 45 degrees away from the arm.",
+        "Shift your hip to the side and slide your free hand down your leg toward the floor.",
+        "Look at the kettlebell."
+      ],
+      "nl": [
+        "Strek de arm met de kettlebell boven je hoofd.",
+        "Zet je voeten 45 graden weg van de arm.",
+        "Duw je heup opzij en zak met je vrije hand langs je been naar de grond.",
+        "Kijk naar de kettlebell."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "kettlebell_snatch"
+      ],
+      "regressions": [
+        "kettlebell_swing"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "EHGTgeKwOyY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "Kelly Stone",
+          "likes": 36
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

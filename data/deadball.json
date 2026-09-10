@@ -1,523 +1,5 @@
 [
   {
-    "id": "deadball_dead_ball_pick_up_throw_downs",
-    "exercise_name": {
-      "en": "Dead Ball Pick Up Throw Downs",
-      "nl": "Dead Ball Pick Up Throw Downs"
-    },
-    "aliases": [
-      "Dead Ball Pick Up Throw Downs"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Squat deeply to pick up the ball, extend and throw it back hard to the ground.",
-        "Keep your back flat and core braced when lifting from the floor to avoid rounding."
-      ],
-      "nl": [
-        "Squat diep om de bal op te pakken, strek uit en gooi hem hard terug op de grond.",
-        "Let op je rug bij het oppakken (bollen voorkomen)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "h3VyjPHEeVE",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "1:1",
-          "duration_seconds": 15,
-          "channel": "Repetitions Fitness RPT",
-          "likes": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_push_press",
-    "exercise_name": {
-      "en": "Dead Ball Push Press",
-      "nl": "Dead Ball Push Press"
-    },
-    "aliases": [
-      "Dead Ball Push Press"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the ball at chest height.",
-        "Bend your knees slightly and explosively throw the ball above your head."
-      ],
-      "nl": [
-        "Houd de bal op borsthoogte.",
-        "Zak iets door de knieën en stoot de bal explosief uit tot boven het hoofd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Luw-t-cEUKU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "Heidi Nichols",
-          "likes": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_shoulder_throws",
-    "exercise_name": {
-      "en": "Dead Ball Shoulder Throws",
-      "nl": "Dead Ball Shoulder Throws"
-    },
-    "aliases": [
-      "Dead Ball Shoulder Throws"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lift the ball from the ground and heave it backwards over your shoulder in one fluid motion.",
-        "Turn over and repeat (or switch shoulders)."
-      ],
-      "nl": [
-        "Til de bal van de grond en gooi hem in één vloeiende beweging over je ene schouder naar achteren.",
-        "Draai om en herhaal (of wissel van schouder)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "99HWIKw6DS0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 14,
-          "channel": "Power Serge Method",
-          "likes": 9
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_squats",
-    "exercise_name": {
-      "en": "Dead Ball Squats",
-      "nl": "Dead Ball Squats"
-    },
-    "aliases": [
-      "Dead Ball Squats"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Hold the ball (firmly) against the chest ('goblet' style) or on one shoulder.",
-        "Do deep squats."
-      ],
-      "nl": [
-        "Houd de bal (stevig vast) tegen de borst ('goblet' stijl) of op één schouder.",
-        "Maak diepe squats."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "r9Dv_rviZtQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 10,
-          "channel": "PERFORM Athlete",
-          "likes": 2
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_russian_twist",
-    "exercise_name": {
-      "en": "Dead Ball Russian Twist",
-      "nl": "Dead Ball Russian Twist"
-    },
-    "aliases": [
-      "Dead Ball Russian Twist"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Rotational Core",
-      "nl": "Core / Rotatie"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Sit on the floor balancing on your sit bones with feet elevated.",
-        "Tap the ball on the ground to the left and right of your hips.",
-        "The ball is heavy, so do this in a controlled manner."
-      ],
-      "nl": [
-        "Zit op de grond, voeten los.",
-        "Tik met de bal de grond aan links en rechts van je heupen.",
-        "De bal is zwaar, dus doe dit gecontroleerd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "QoMna6v0QS4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 12,
-          "channel": "Coach Cass",
-          "likes": 78
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "deadball_dead_ball_burpee_slam",
-    "exercise_name": {
-      "en": "Burpee Slam",
-      "nl": "Burpee Slam"
-    },
-    "aliases": [
-      "Burpee Slam"
-    ],
-    "material": {
-      "id": "deadball",
-      "name": {
-        "en": "Deadball / Slam Ball",
-        "nl": "Deadball / Slam Ball"
-      },
-      "description": {
-        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
-        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
-      }
-    },
-    "category": {
-      "en": "Full Body HIIT",
-      "nl": "HIIT / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Perform a powerful overhead ball slam.",
-        "Leave the ball on the floor, jump back into a plank burpee with hands on the ball, then jump feet back in.",
-        "Jump back, lift the ball and slam again."
-      ],
-      "nl": [
-        "Maak een slam.",
-        "Laat de bal liggen, spring naar plank (burpee) met handen op de bal (of ernaast).",
-        "Spring terug, til de bal op en slam opnieuw."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "deadball_dead_ball_lunge"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "SAC3iM6TQsk",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "Aviana Garcia Personal Trainer and Mindset coach",
-          "likes": 63
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-31T21:39:11.643Z"
-    }
-  },
-  {
     "id": "deadball_dead_ball_chest_pass",
     "exercise_name": {
       "en": "Dead Ball Chest Pass (Wall/Floor)",
@@ -1830,6 +1312,530 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T16:00:02.504Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_pick_up_throw_downs",
+    "exercise_name": {
+      "en": "Dead Ball Pick Up Throw Downs",
+      "nl": "Dead Ball Pick Up Throw Downs"
+    },
+    "aliases": [
+      "Dead Ball Pick Up Throw Downs"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Squat deeply to pick up the ball, extend and throw it back hard to the ground.",
+        "Keep your back flat and core braced when lifting from the floor to avoid rounding."
+      ],
+      "nl": [
+        "Squat diep om de bal op te pakken, strek uit en gooi hem hard terug op de grond.",
+        "Let op je rug bij het oppakken (bollen voorkomen)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "h3VyjPHEeVE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "1:1",
+          "duration_seconds": 15,
+          "channel": "Repetitions Fitness RPT",
+          "likes": 1
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_push_press",
+    "exercise_name": {
+      "en": "Dead Ball Push Press",
+      "nl": "Dead Ball Push Press"
+    },
+    "aliases": [
+      "Dead Ball Push Press"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the ball at chest height.",
+        "Bend your knees slightly and explosively throw the ball above your head."
+      ],
+      "nl": [
+        "Houd de bal op borsthoogte.",
+        "Zak iets door de knieën en stoot de bal explosief uit tot boven het hoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Luw-t-cEUKU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 16,
+          "channel": "Heidi Nichols",
+          "likes": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_shoulder_throws",
+    "exercise_name": {
+      "en": "Dead Ball Shoulder Throws",
+      "nl": "Dead Ball Shoulder Throws"
+    },
+    "aliases": [
+      "Dead Ball Shoulder Throws"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lift the ball from the ground and heave it backwards over your shoulder in one fluid motion.",
+        "Turn over and repeat (or switch shoulders)."
+      ],
+      "nl": [
+        "Til de bal van de grond en gooi hem in één vloeiende beweging over je ene schouder naar achteren.",
+        "Draai om en herhaal (of wissel van schouder)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "99HWIKw6DS0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 14,
+          "channel": "Power Serge Method",
+          "likes": 9
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_squats",
+    "exercise_name": {
+      "en": "Dead Ball Squats",
+      "nl": "Dead Ball Squats"
+    },
+    "aliases": [
+      "Dead Ball Squats"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the ball (firmly) against the chest ('goblet' style) or on one shoulder.",
+        "Do deep squats."
+      ],
+      "nl": [
+        "Houd de bal (stevig vast) tegen de borst ('goblet' stijl) of op één schouder.",
+        "Maak diepe squats."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "r9Dv_rviZtQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 10,
+          "channel": "PERFORM Athlete",
+          "likes": 2
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_russian_twist",
+    "exercise_name": {
+      "en": "Dead Ball Russian Twist",
+      "nl": "Dead Ball Russian Twist"
+    },
+    "aliases": [
+      "Dead Ball Russian Twist"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Rotational Core",
+      "nl": "Core / Rotatie"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Sit on the floor balancing on your sit bones with feet elevated.",
+        "Tap the ball on the ground to the left and right of your hips.",
+        "The ball is heavy, so do this in a controlled manner."
+      ],
+      "nl": [
+        "Zit op de grond, voeten los.",
+        "Tik met de bal de grond aan links en rechts van je heupen.",
+        "De bal is zwaar, dus doe dit gecontroleerd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "QoMna6v0QS4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 12,
+          "channel": "Coach Cass",
+          "likes": 78
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "deadball_dead_ball_burpee_slam",
+    "exercise_name": {
+      "en": "Burpee Slam",
+      "nl": "Burpee Slam"
+    },
+    "aliases": [
+      "Burpee Slam"
+    ],
+    "material": {
+      "id": "deadball",
+      "name": {
+        "en": "Deadball / Slam Ball",
+        "nl": "Deadball / Slam Ball"
+      },
+      "description": {
+        "en": "Heavy non-bouncing sand-filled ball for explosive power slams and carries",
+        "nl": "Zware niet-stuitende bal gevuld met zand voor explosieve slams en carries"
+      }
+    },
+    "category": {
+      "en": "Full Body HIIT",
+      "nl": "HIIT / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Perform a powerful overhead ball slam.",
+        "Leave the ball on the floor, jump back into a plank burpee with hands on the ball, then jump feet back in.",
+        "Jump back, lift the ball and slam again."
+      ],
+      "nl": [
+        "Maak een slam.",
+        "Laat de bal liggen, spring naar plank (burpee) met handen op de bal (of ernaast).",
+        "Spring terug, til de bal op en slam opnieuw."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "deadball_dead_ball_lunge"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "SAC3iM6TQsk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "Aviana Garcia Personal Trainer and Mindset coach",
+          "likes": 63
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

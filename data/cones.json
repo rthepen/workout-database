@@ -1,94 +1,5 @@
 [
   {
-    "id": "cones_shuttle_runs",
-    "exercise_name": {
-      "en": "Shuttle Runs",
-      "nl": "Shuttle Runs"
-    },
-    "aliases": [
-      "Shuttle Runs"
-    ],
-    "material": {
-      "id": "cones",
-      "name": {
-        "en": "Cones",
-        "nl": "Pionnen"
-      },
-      "description": {
-        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
-        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Sprint back and forth between two boundary lines (e.g.",
-        "10m apart).",
-        "Tap the ground with your hand at each line.",
-        "Quickly turn around and run back."
-      ],
-      "nl": [
-        "Ren heen en weer tussen twee lijnen/pionnen (bijv.",
-        "10m uit elkaar).",
-        "Tik bij elke lijn de grond aan met je hand.",
-        "Draai snel om en ren terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "7js7-iQTGS0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "Mohamed Shazly Fitness Trainer",
-          "likes": 2279
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "cones_slalom_run",
     "exercise_name": {
       "en": "Slalom Run",
@@ -1922,6 +1833,96 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T16:00:02.504Z"
+    }
+  },
+  {
+    "id": "cones_shuttle_runs",
+    "exercise_name": {
+      "en": "Shuttle Runs",
+      "nl": "Shuttle Runs"
+    },
+    "aliases": [
+      "Shuttle Runs"
+    ],
+    "material": {
+      "id": "cones",
+      "name": {
+        "en": "Cones",
+        "nl": "Pionnen"
+      },
+      "description": {
+        "en": "Field markers and cones for sprint boundaries, shuttle runs, and agility change of direction",
+        "nl": "Pionnen en markeerkegels voor shuttleruns, behendigheid en wendbaarheidstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Sprint back and forth between two boundary lines (e.g.",
+        "10m apart).",
+        "Tap the ground with your hand at each line.",
+        "Quickly turn around and run back."
+      ],
+      "nl": [
+        "Ren heen en weer tussen twee lijnen/pionnen (bijv.",
+        "10m uit elkaar).",
+        "Tik bij elke lijn de grond aan met je hand.",
+        "Draai snel om en ren terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "7js7-iQTGS0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 16,
+          "channel": "Mohamed Shazly Fitness Trainer",
+          "likes": 2279
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

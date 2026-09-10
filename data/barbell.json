@@ -178,185 +178,6 @@
     }
   },
   {
-    "id": "barbell_bulgarian_split_squat",
-    "exercise_name": {
-      "en": "Barbell Bulgarian Split Squat",
-      "nl": "Barbell Bulgarian Split Squat"
-    },
-    "aliases": [
-      "Barbell Bulgarian Split Squat"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Legs (Unilateral)",
-      "nl": "Benen (Unilateraal)"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 4
-    },
-    "instructions": {
-      "en": [
-        "Place one foot behind you on the bench.",
-        "Rest the barbell across your upper traps.",
-        "Lower your front leg until your thigh is parallel to the ground."
-      ],
-      "nl": [
-        "Leg één voet achter je op het bankje.",
-        "Leg de stang in je nek.",
-        "Zak door je voorste been tot je dijbeen parallel is aan de grond."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "nfNwFCmsZDQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 21,
-          "channel": "Adriell mayes",
-          "likes": 3415
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T16:08:49.880Z"
-    }
-  },
-  {
-    "id": "barbell_close_grip_bench_press",
-    "exercise_name": {
-      "en": "Close Grip Bench Press",
-      "nl": "Close Grip Bench Press"
-    },
-    "aliases": [
-      "Close Grip Bench Press"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Triceps & Chest",
-      "nl": "Triceps / Borst"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Do a Bench Press, but grip the bar narrowly (hands shoulder width apart).",
-        "Keep your elbows tight to your body.",
-        "This mainly trains your triceps."
-      ],
-      "nl": [
-        "Doe een Bench Press, maar pak de stang smal vast (handen op schouderbreedte).",
-        "Houd je ellebogen strak langs je lichaam.",
-        "Dit traint vooral je triceps."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "4yKLxOsrGfg",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 13,
-          "channel": "Hazzytrainer",
-          "likes": 5284
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29T16:12:21.466Z"
-    }
-  },
-  {
     "id": "barbell_landmine_thruster",
     "exercise_name": {
       "en": "Landmine Thruster",
@@ -12867,6 +12688,185 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T21:49:28.836Z"
+    }
+  },
+  {
+    "id": "barbell_bulgarian_split_squat",
+    "exercise_name": {
+      "en": "Barbell Bulgarian Split Squat",
+      "nl": "Barbell Bulgarian Split Squat"
+    },
+    "aliases": [
+      "Barbell Bulgarian Split Squat"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Legs (Unilateral)",
+      "nl": "Benen (Unilateraal)"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place one foot behind you on the bench.",
+        "Rest the barbell across your upper traps.",
+        "Lower your front leg until your thigh is parallel to the ground."
+      ],
+      "nl": [
+        "Leg één voet achter je op het bankje.",
+        "Leg de stang in je nek.",
+        "Zak door je voorste been tot je dijbeen parallel is aan de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "nfNwFCmsZDQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 21,
+          "channel": "Adriell mayes",
+          "likes": 3415
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "barbell_close_grip_bench_press",
+    "exercise_name": {
+      "en": "Close Grip Bench Press",
+      "nl": "Close Grip Bench Press"
+    },
+    "aliases": [
+      "Close Grip Bench Press"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Triceps & Chest",
+      "nl": "Triceps / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Do a Bench Press, but grip the bar narrowly (hands shoulder width apart).",
+        "Keep your elbows tight to your body.",
+        "This mainly trains your triceps."
+      ],
+      "nl": [
+        "Doe een Bench Press, maar pak de stang smal vast (handen op schouderbreedte).",
+        "Houd je ellebogen strak langs je lichaam.",
+        "Dit traint vooral je triceps."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "4yKLxOsrGfg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 13,
+          "channel": "Hazzytrainer",
+          "likes": 5284
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

@@ -1,94 +1,5 @@
 [
   {
-    "id": "bosu_ball_bosu_lateral_hops",
-    "exercise_name": {
-      "en": "Lateral Hops (Over the Bosu)",
-      "nl": "Lateral Hops (Over the Bosu)"
-    },
-    "aliases": [
-      "Lateral Hops",
-      "Lateral Hops Over the Bosu",
-      "Over the Bosu"
-    ],
-    "material": {
-      "id": "bosu_ball",
-      "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
-      },
-      "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
-      }
-    },
-    "category": {
-      "en": "Cardio & Plyometrics",
-      "nl": "Cardio / Plyometrics"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place one foot on the convex side.",
-        "Bound laterally over the BOSU ball, switching feet mid-air to land softly on the dome.",
-        "Build speed using powerful lateral skating strides."
-      ],
-      "nl": [
-        "Zet één voet op de bolle kant.",
-        "Spring zijwaarts over de Bosu en land met je andere voet erop (wissel in de lucht).",
-        "Maak snelheid (schaatsbeweging)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "bosu_ball_bosu_single_leg_balance"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "31q1GUf29XY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "Geeked Rehab",
-          "likes": 104
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "bosu_ball_bosu_squat",
     "exercise_name": {
       "en": "Bosu Squat",
@@ -1852,6 +1763,96 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T22:02:13.171Z"
+    }
+  },
+  {
+    "id": "bosu_ball_bosu_lateral_hops",
+    "exercise_name": {
+      "en": "Lateral Hops (Over the Bosu)",
+      "nl": "Lateral Hops (Over the Bosu)"
+    },
+    "aliases": [
+      "Lateral Hops",
+      "Lateral Hops Over the Bosu",
+      "Over the Bosu"
+    ],
+    "material": {
+      "id": "bosu_ball",
+      "name": {
+        "en": "BOSU Ball",
+        "nl": "Bosu Bal"
+      },
+      "description": {
+        "en": "Hemispherical balance trainer with flat platform and elastic dome",
+        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+      }
+    },
+    "category": {
+      "en": "Cardio & Plyometrics",
+      "nl": "Cardio / Plyometrics"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place one foot on the convex side.",
+        "Bound laterally over the BOSU ball, switching feet mid-air to land softly on the dome.",
+        "Build speed using powerful lateral skating strides."
+      ],
+      "nl": [
+        "Zet één voet op de bolle kant.",
+        "Spring zijwaarts over de Bosu en land met je andere voet erop (wissel in de lucht).",
+        "Maak snelheid (schaatsbeweging)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "bosu_ball_bosu_single_leg_balance"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "31q1GUf29XY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "Geeked Rehab",
+          "likes": 104
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]

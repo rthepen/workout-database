@@ -1,263 +1,5 @@
 [
   {
-    "id": "trx_suspension_row",
-    "exercise_name": {
-      "en": "TRX Row",
-      "nl": "TRX Row"
-    },
-    "aliases": [
-      "TRX Row"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hang back on the handles.",
-        "Pull yourself up until your hands are at your chest.",
-        "Maintain a rigid plank line through your entire torso and legs."
-      ],
-      "nl": [
-        "Hang achterover aan de handvatten.",
-        "Trek jezelf op tot de handen bij de borst zijn.",
-        "Houd het lichaam als een plank."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "K8nwjY-3Ie0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 22,
-          "channel": "HybridFitness",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "trx_suspension_y_fly",
-    "exercise_name": {
-      "en": "TRX Y-Fly",
-      "nl": "TRX Y-Fly"
-    },
-    "aliases": [
-      "TRX Y-Fly"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Start leaning back in a row position with arms fully extended.",
-        "Pull yourself upward into a suspended Y-fly with arms raised diagonally overhead."
-      ],
-      "nl": [
-        "Start in row-positie maar met gestrekte armen.",
-        "Trek jezelf omhoog en breng de armen in een 'Y' vorm boven het hoofd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "9Ak1UM7rn_4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 13,
-          "channel": "Tara Lyn Emerson",
-          "likes": 17
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
-    "id": "trx_suspension_knee_tuck",
-    "exercise_name": {
-      "en": "TRX Knee Tuck",
-      "nl": "TRX Knee Tuck"
-    },
-    "aliases": [
-      "TRX Knee Tuck"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place your feet in the suspension cradles and hands on the floor in a plank.",
-        "Drive both knees in toward your chest."
-      ],
-      "nl": [
-        "Voeten in de beugels, handen op de grond (plank).",
-        "Trek de knieën naar de borst."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-GZePsVd1KM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "aspect_ratio": "9:16",
-          "duration_seconds": 9,
-          "channel": "Heather Oliva Fit",
-          "likes": 120
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-08-29"
-    }
-  },
-  {
     "id": "trx_suspension_atomic_push_up",
     "exercise_name": {
       "en": "TRX Atomic Push Up",
@@ -1743,6 +1485,267 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T10:51:34.778Z"
+    }
+  },
+  {
+    "id": "trx_suspension_row",
+    "exercise_name": {
+      "en": "TRX Row",
+      "nl": "TRX Row"
+    },
+    "aliases": [
+      "TRX Row"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hang back on the handles.",
+        "Pull yourself up until your hands are at your chest.",
+        "Maintain a rigid plank line through your entire torso and legs."
+      ],
+      "nl": [
+        "Hang achterover aan de handvatten.",
+        "Trek jezelf op tot de handen bij de borst zijn.",
+        "Houd het lichaam als een plank."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "K8nwjY-3Ie0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 22,
+          "channel": "HybridFitness",
+          "likes": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "trx_suspension_y_fly",
+    "exercise_name": {
+      "en": "TRX Y-Fly",
+      "nl": "TRX Y-Fly"
+    },
+    "aliases": [
+      "TRX Y-Fly"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Start leaning back in a row position with arms fully extended.",
+        "Pull yourself upward into a suspended Y-fly with arms raised diagonally overhead."
+      ],
+      "nl": [
+        "Start in row-positie maar met gestrekte armen.",
+        "Trek jezelf omhoog en breng de armen in een 'Y' vorm boven het hoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9Ak1UM7rn_4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 13,
+          "channel": "Tara Lyn Emerson",
+          "likes": 17
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "trx_suspension_knee_tuck",
+    "exercise_name": {
+      "en": "TRX Knee Tuck",
+      "nl": "TRX Knee Tuck"
+    },
+    "aliases": [
+      "TRX Knee Tuck"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Place your feet in the suspension cradles and hands on the floor in a plank.",
+        "Drive both knees in toward your chest."
+      ],
+      "nl": [
+        "Voeten in de beugels, handen op de grond (plank).",
+        "Trek de knieën naar de borst."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-GZePsVd1KM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "aspect_ratio": "9:16",
+          "duration_seconds": 9,
+          "channel": "Heather Oliva Fit",
+          "likes": 120
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T21:32:26.028Z"
     }
   }
 ]
