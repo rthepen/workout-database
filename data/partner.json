@@ -3205,257 +3205,6 @@
     }
   },
   {
-    "id": "partner_adductor_groin_stretch",
-    "exercise_name": {
-      "en": "Partner Adductor/Groin Stretch",
-      "nl": "Partner Lies- en Adductorenstretch"
-    },
-    "aliases": [
-      "Adductor/Groin"
-    ],
-    "material": {
-      "id": "partner",
-      "name": {
-        "en": "Partner",
-        "nl": "Partner"
-      },
-      "description": {
-        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
-        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
-      }
-    },
-    "category": {
-      "en": "Mobility & Stretching",
-      "nl": "Mobiliteit & Rekken"
-    },
-    "target_muscles": {
-      "primary": [
-        "adductors"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back with your feet raised towards the ceiling.",
-        "Have your partner hold your feet or ankles. Abduct your legs as far as you can. This will be your starting position.",
-        "Attempt to squeeze your legs together for 10 or more seconds, while your partner prevents you from doing so.",
-        "Now, relax the muscles in your legs as your partner pushes your feet apart, stretching as far as is comfortable for you. Be sure to let your partner know when the stretch is adequate to prevent overstretching or injury."
-      ],
-      "nl": [
-        "Ga op je rug liggen met je voeten richting het plafond.",
-        "Laat je partner je enkels vasthouden en spreid je benen zover mogelijk.",
-        "Probeer je benen tegen de weerstand van je partner in 10 seconden naar elkaar toe te knijpen.",
-        "Ontspan daarna je beenspieren terwijl je partner de benen voorzichtig verder spreidt voor een diepe stretch."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Communicate clearly with your partner to avoid overextension.",
-        "Keep your pelvis stable against the floor."
-      ],
-      "nl": [
-        "Communiceer duidelijk met je partner om overstrekking te voorkomen.",
-        "Houd je bekken stabiel op de vloer."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor_Groin/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor_Groin/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
-    }
-  },
-  {
-    "id": "partner_behind_head_chest_stretch",
-    "exercise_name": {
-      "en": "Behind Head Chest Stretch",
-      "nl": "Partner Borststretch Achter Hoofd"
-    },
-    "aliases": [
-      "Behind Head Chest Stretch",
-      "Behind_Head_Chest_Stretch"
-    ],
-    "material": {
-      "id": "partner",
-      "name": {
-        "en": "Partner",
-        "nl": "Partner"
-      },
-      "description": {
-        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
-        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
-      }
-    },
-    "category": {
-      "en": "Mobility & Stretching",
-      "nl": "Mobiliteit & Rekken"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals"
-      ],
-      "secondary": [
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "isolation",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Sit upright on the floor with your hands clasped behind your head and elbows pushed back.",
-        "Your partner stands behind you and grasps your elbows.",
-        "Gently contract by attempting to pull elbows forward for 10 seconds against partner resistance.",
-        "Relax as your partner gently draws your elbows further back for a deep passive chest stretch."
-      ],
-      "nl": [
-        "Zit rechtop op de grond met je handen achter je hoofd en ellebogen wijd naar achteren.",
-        "Je partner staat achter je en pakt je ellebogen vast.",
-        "Druk je ellebogen 10 seconden naar voren tegen de weerstand van je partner in.",
-        "Ontspan je borstspieren terwijl je partner je ellebogen voorzichtig verder naar achteren trekt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain open communication with your partner to avoid over-stretching the shoulders.",
-        "Keep your head and cervical spine tall and upright."
-      ],
-      "nl": [
-        "Communiceer duidelijk met je partner om overstrekking te voorkomen.",
-        "Houd je nek recht en duw je hoofd niet naar voren."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Behind_Head_Chest_Stretch/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Behind_Head_Chest_Stretch/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
-    }
-  },
-  {
-    "id": "partner_floor_glute_ham_raise",
-    "exercise_name": {
-      "en": "Floor Glute-Ham Raise (Natural GHR)",
-      "nl": "Floor Glute-Ham Raise"
-    },
-    "aliases": [
-      "Floor Glute-Ham Raise",
-      "Floor_Glute-Ham_Raise"
-    ],
-    "material": {
-      "id": "partner",
-      "name": {
-        "en": "Partner / Floor",
-        "nl": "Partner / Vloer"
-      },
-      "description": {
-        "en": "Floor Nordic hamstring curl performed with partner anchoring ankles",
-        "nl": "Hamstring curl op de vloer waarbij een partner de enkels vasthoudt"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "hamstrings"
-      ],
-      "secondary": [
-        "calves",
-        "glutes"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Kneel tall on the floor with your partner firmly anchoring your feet and ankles.",
-        "Without bending at the hips, lower your torso forward under strict hamstring control.",
-        "Catch yourself lightly with hands on the floor, push off gently, and pull yourself back up using hamstrings."
-      ],
-      "nl": [
-        "Kniel rechtop op de grond terwijl je trainingspartner je enkels stevig tegen de vloer drukt.",
-        "Laat je lichaam langzaam naar voren vallen door je knieën te strekken zonder in je heupen te knikken.",
-        "Vang jezelf op met je handen, geef een licht zetje en trek jezelf met je hamstrings weer omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your torso rigid and in line with your thighs throughout descent.",
-        "Resist gravity aggressively using eccentric hamstring tension."
-      ],
-      "nl": [
-        "Houd je heupen gestrekt in één lijn met je bovenbenen en romp.",
-        "Rem de val zo lang mogelijk af met je hamstrings."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Floor_Glute-Ham_Raise/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Floor_Glute-Ham_Raise/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09"
-    }
-  },
-  {
     "id": "partner_band_reverse_fly",
     "exercise_name": {
       "en": "Partner Band Reverse Fly",
@@ -3765,6 +3514,270 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-09T16:40:25.571Z"
+    }
+  },
+  {
+    "id": "partner_adductor_groin_stretch",
+    "exercise_name": {
+      "en": "Partner Adductor/Groin Stretch",
+      "nl": "Partner Lies- en Adductorenstretch"
+    },
+    "aliases": [
+      "Adductor/Groin"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "adductors"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with your feet raised towards the ceiling.",
+        "Have your partner hold your feet or ankles. Abduct your legs as far as you can. This will be your starting position.",
+        "Attempt to squeeze your legs together for 10 or more seconds, while your partner prevents you from doing so.",
+        "Now, relax the muscles in your legs as your partner pushes your feet apart, stretching as far as is comfortable for you. Be sure to let your partner know when the stretch is adequate to prevent overstretching or injury."
+      ],
+      "nl": [
+        "Ga op je rug liggen met je voeten richting het plafond.",
+        "Laat je partner je enkels vasthouden en spreid je benen zover mogelijk.",
+        "Probeer je benen tegen de weerstand van je partner in 10 seconden naar elkaar toe te knijpen.",
+        "Ontspan daarna je beenspieren terwijl je partner de benen voorzichtig verder spreidt voor een diepe stretch."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Communicate clearly with your partner to avoid overextension.",
+        "Keep your pelvis stable against the floor."
+      ],
+      "nl": [
+        "Communiceer duidelijk met je partner om overstrekking te voorkomen.",
+        "Houd je bekken stabiel op de vloer."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor_Groin/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Adductor_Groin/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T20:21:35.342Z"
+    }
+  },
+  {
+    "id": "partner_behind_head_chest_stretch",
+    "exercise_name": {
+      "en": "Behind Head Chest Stretch",
+      "nl": "Partner Borststretch Achter Hoofd"
+    },
+    "aliases": [
+      "Behind Head Chest Stretch",
+      "Behind_Head_Chest_Stretch"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner",
+        "nl": "Partner"
+      },
+      "description": {
+        "en": "Cooperative workouts and drills utilizing a training partner for resistance or pacing",
+        "nl": "Duo-oefeningen waarbij een trainingspartner als weerstand of steun fungeert"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Sit upright on the floor with your hands clasped behind your head and elbows pushed back.",
+        "Your partner stands behind you and grasps your elbows.",
+        "Gently contract by attempting to pull elbows forward for 10 seconds against partner resistance.",
+        "Relax as your partner gently draws your elbows further back for a deep passive chest stretch."
+      ],
+      "nl": [
+        "Zit rechtop op de grond met je handen achter je hoofd en ellebogen wijd naar achteren.",
+        "Je partner staat achter je en pakt je ellebogen vast.",
+        "Druk je ellebogen 10 seconden naar voren tegen de weerstand van je partner in.",
+        "Ontspan je borstspieren terwijl je partner je ellebogen voorzichtig verder naar achteren trekt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain open communication with your partner to avoid over-stretching the shoulders.",
+        "Keep your head and cervical spine tall and upright."
+      ],
+      "nl": [
+        "Communiceer duidelijk met je partner om overstrekking te voorkomen.",
+        "Houd je nek recht en duw je hoofd niet naar voren."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Behind_Head_Chest_Stretch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Behind_Head_Chest_Stretch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T20:21:35.342Z"
+    }
+  },
+  {
+    "id": "partner_floor_glute_ham_raise",
+    "exercise_name": {
+      "en": "Floor Glute-Ham Raise (Natural GHR)",
+      "nl": "Floor Glute-Ham Raise"
+    },
+    "aliases": [
+      "Floor Glute-Ham Raise",
+      "Floor_Glute-Ham_Raise"
+    ],
+    "material": {
+      "id": "partner",
+      "name": {
+        "en": "Partner / Floor",
+        "nl": "Partner / Vloer"
+      },
+      "description": {
+        "en": "Floor Nordic hamstring curl performed with partner anchoring ankles",
+        "nl": "Hamstring curl op de vloer waarbij een partner de enkels vasthoudt"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "glutes"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only"
+    },
+    "instructions": {
+      "en": [
+        "Kneel tall on the floor with your partner firmly anchoring your feet and ankles.",
+        "Without bending at the hips, lower your torso forward under strict hamstring control.",
+        "Catch yourself lightly with hands on the floor, push off gently, and pull yourself back up using hamstrings."
+      ],
+      "nl": [
+        "Kniel rechtop op de grond terwijl je trainingspartner je enkels stevig tegen de vloer drukt.",
+        "Laat je lichaam langzaam naar voren vallen door je knieën te strekken zonder in je heupen te knikken.",
+        "Vang jezelf op met je handen, geef een licht zetje en trek jezelf met je hamstrings weer omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your torso rigid and in line with your thighs throughout descent.",
+        "Resist gravity aggressively using eccentric hamstring tension."
+      ],
+      "nl": [
+        "Houd je heupen gestrekt in één lijn met je bovenbenen en romp.",
+        "Rem de val zo lang mogelijk af met je hamstrings."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Floor_Glute-Ham_Raise/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Floor_Glute-Ham_Raise/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "cHbTKXcytrM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Solid Rock Personal Training",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-10T20:21:35.342Z"
     }
   }
 ]
