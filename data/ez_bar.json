@@ -290,5 +290,294 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T08:10:06.659Z"
     }
+  },
+  {
+    "id": "ez_bar_close_grip_press",
+    "exercise_name": {
+      "en": "Close-Grip EZ-Bar Press",
+      "nl": "Close-Grip EZ-Bar Press"
+    },
+    "aliases": [
+      "Close-Grip EZ-Bar Press"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "pectorals",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Lie on a flat bench with an EZ bar loaded to an appropriate weight.",
+        "Using a narrow grip lift the bar and hold it straight over your torso with your elbows in. The arms should be perpendicular to the floor. This will be your starting position.",
+        "Now lower the bar down to your lower chest as you breathe in. Keep the elbows in as you perform this movement.",
+        "Using the triceps to push the bar back up, press it back to the starting position by extending the elbows as you exhale.",
+        "Repeat."
+      ],
+      "nl": [
+        "Ga op een vlakke bank liggen en pak een EZ-stang vast met een smalle greep recht boven je borst.",
+        "Laat de stang gecontroleerd zakken naar de onderkant van je borstkas terwijl je inademt en de ellebogen strak langs je lichaam houdt.",
+        "Druk de stang krachtig omhoog vanuit je triceps tot je armen gestrekt zijn en adem uit.",
+        "Herhaal voor het gewenste aantal herhalingen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows tucked tightly to your sides throughout the movement.",
+        "Maintain wrists in a neutral, supported alignment on the EZ curls."
+      ],
+      "nl": [
+        "Houd je ellebogen dicht bij je romp om de triceps maximaal te belasten.",
+        "Houd je polsen recht en stabiel op de gekromde stang."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_EZ-Bar_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_EZ-Bar_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "ljBtCPdGTHM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Mike McCauley",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_decline_triceps_extension",
+    "exercise_name": {
+      "en": "Decline EZ Bar Triceps Extension",
+      "nl": "Decline EZ Bar Triceps Extension"
+    },
+    "aliases": [
+      "Decline EZ Bar Triceps Extension",
+      "Decline Skull Crusher"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Secure your legs at the end of the decline bench and slowly lay down on the bench.",
+        "Using a close grip (a grip that is slightly less than shoulder width), lift the EZ bar from the rack and hold it straight over you with your arms locked and elbows in. The arms should be perpendicular to the floor. This will be your starting position. Tip: In order to protect your rotator cuff, it is best if you have a spotter help you lift the barbell off the rack.",
+        "As you breathe in and you keep the upper arms stationary, bring the bar down slowly by moving your forearms in a semicircular motion towards you until you feel the bar slightly touch your forehead. Breathe in as you perform this portion of the movement.",
+        "Lift the bar back to the starting position by contracting the triceps and exhaling.",
+        "Repeat until the recommended amount of repetitions is performed."
+      ],
+      "nl": [
+        "Ga op een decline bank liggen en pak de EZ-stang vast met een smalle greep (iets smaller dan schouderbreedte) boven je borst.",
+        "Houd je bovenarmen stil en laat de stang gecontroleerd naar je voorhoofd of net achter je kruin zakken terwijl je inademt.",
+        "Druk de stang weer omhoog tot volledige armstrekking door je triceps aan te spannen en adem uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your upper arms stationary perpendicular to the torso.",
+        "Control the lowering phase and avoid flaring elbows wide."
+      ],
+      "nl": [
+        "Houd je bovenarmen stil en verticaal ten opzichte van de vloer.",
+        "Laat de stang gecontroleerd zakken zonder dat je ellebogen naar buiten klappen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_EZ_Bar_Triceps_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_EZ_Bar_Triceps_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "mdJ199YqobM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "TonicX Performance Physique",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_curl",
+    "exercise_name": {
+      "en": "EZ-Bar Curl",
+      "nl": "EZ-Bar Curl"
+    },
+    "aliases": [
+      "EZ-Bar Curl",
+      "EZ Bar Bicep Curl"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position.",
+        "Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms.",
+        "Continue to raise the weight until your biceps are fully contracted and the bar is at shoulder level. Hold the top contracted position for a moment and squeeze the biceps.",
+        "Then inhale and slowly lower the bar back to the starting position.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga rechtop staan en pak de EZ-stang vast bij de gekromde buitengreep met de handpalmen naar voren en ellebogen tegen je zij.",
+        "Houd je bovenarmen stil en curl de stang omhoog naar schouderhoogte terwijl je uitademt en je biceps aanspant.",
+        "Knijp bovenin je biceps krachtig samen en houd dit een tel vast.",
+        "Laat de stang rustig en gecontroleerd zakken naar de beginstand terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "6WJsJud9NI4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "KC FITNESS",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
   }
 ]

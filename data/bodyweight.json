@@ -3617,7 +3617,8 @@
       "nl": "Bicycle Crunches"
     },
     "aliases": [
-      "Bicycle Crunches"
+      "Bicycle Crunches",
+      "Air Bike"
     ],
     "material": {
       "id": "bodyweight",
@@ -3692,6 +3693,16 @@
           "duration_seconds": 9,
           "channel": "Sunnyjanghufitness",
           "likes": 10918
+        },
+        {
+          "youtube_id": "cFDS2S6Vqis",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Go with JO FITNESS",
+          "rating": 5
         }
       ]
     },
@@ -6161,7 +6172,8 @@
       "nl": "Squat Jumps"
     },
     "aliases": [
-      "Squat Jumps"
+      "Squat Jumps",
+      "Jump Squats"
     ],
     "material": {
       "id": "bodyweight",
@@ -7739,95 +7751,6 @@
     }
   },
   {
-    "id": "bodyweight_jump_squats",
-    "exercise_name": {
-      "en": "Jump Squats",
-      "nl": "Jump Squats"
-    },
-    "aliases": [
-      "Jump Squats"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Lower into a squat and jump as high as possible.",
-        "Land softly and transition immediately into your next squat rep."
-      ],
-      "nl": [
-        "Zak in een squat en spring zo hoog mogelijk.",
-        "Land zachtjes en ga direct weer door in de volgende squat."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "36vnWAkL7ZQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Forty Steps",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "bodyweight_jumping_jacks",
     "exercise_name": {
       "en": "Jumping Jacks",
@@ -8279,104 +8202,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Taylored Physical Therapy",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "bodyweight_air_bike",
-    "exercise_name": {
-      "en": "Air Bike (Bicycle Crunches)",
-      "nl": "Bicycle Crunches"
-    },
-    "aliases": [
-      "Air Bike",
-      "Bicycle Crunches",
-      "Air_Bike"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "obliques"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Lie flat on the floor with your lower back pressed to the ground. Place your hands beside your head and lift your shoulders into crunch position.",
-        "Bring knees up perpendicular to the floor, with lower legs parallel to the ground.",
-        "Simultaneously pedal your right leg forward while bringing your left knee in, touching your right elbow close to your left knee.",
-        "Reverse and repeat on the opposite side in a fluid, continuous cycling motion."
-      ],
-      "nl": [
-        "Ga op je rug liggen met je onderrug stevig tegen de vloer en handen losjes achter je hoofd.",
-        "Breng je knieën omhoog in een hoek van 90 graden.",
-        "Maak een fietsbeweging: strek één been uit en breng de tegenovergestelde elleboog naar de gebogen knie.",
-        "Wissel continu en gecontroleerd van kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Rotate through the ribcage rather than yanking on the back of your neck."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en trek niet aan je nek.",
-        "Draai vanuit je bovenlichaam en schouderbladen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "cFDS2S6Vqis",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Go with JO FITNESS",
           "rating": 5
         }
       ]

@@ -2076,11 +2076,11 @@
     "target_muscles": {
       "primary": [
         "rectus_abdominis",
-        "cardiovascular_system"
+        "deltoids"
       ],
       "secondary": [
         "gluteus_maximus",
-        "deltoids"
+        "triceps_brachii"
       ]
     },
     "attributes": {
@@ -7920,98 +7920,6 @@
     }
   },
   {
-    "id": "dumbbells_lying_rear_lateral_raise",
-    "exercise_name": {
-      "en": "Dumbbell Lying Rear Lateral Raise",
-      "nl": "Dumbbell Liggende Rear Lateral Raise"
-    },
-    "aliases": [
-      "Dumbbell Lying Rear Lateral Raise",
-      "Dumbbell_Lying_Rear_Lateral_Raise"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie chest-down on a low incline bench holding dumbbells with neutral palms.",
-        "Raise arms out laterally until elbows are at shoulder height and parallel to the floor.",
-        "Pause for a second at the top, then slowly lower dumbbells back down."
-      ],
-      "nl": [
-        "Ga met je borst op een lichte incline bank liggen en houd de dumbbells met neutrale greep vast.",
-        "Hef je armen zijwaarts omhoog tot je ellebogen op schouderhoogte zijn.",
-        "Knijp je achterste schouderkoppen bovenin samen en laat de gewichten rustig zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the lift with your elbows while keeping a soft bend.",
-        "Avoid swinging the weights or lifting your chest off the bench."
-      ],
-      "nl": [
-        "Hef vanuit je ellebogen met licht gebogen armen.",
-        "Zwaai niet met de gewichten en houd je borst op het kussen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "32VOgQ1miUE",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "TORO",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T16:00:02.504Z"
-    }
-  },
-  {
     "id": "dumbbells_lying_pronation",
     "exercise_name": {
       "en": "Dumbbell Lying Pronation",
@@ -10491,7 +10399,8 @@
     },
     "aliases": [
       "Lying Rear Delt Raise",
-      "Prone Dumbbell Reverse Fly"
+      "Prone Dumbbell Reverse Fly",
+      "Dumbbell Lying Rear Lateral Raise"
     ],
     "material": {
       "id": "dumbbells",
@@ -15414,101 +15323,6 @@
     }
   },
   {
-    "id": "kettlebell_front_squats_two_kettlebells",
-    "exercise_name": {
-      "en": "Front Squats With Two Kettlebells",
-      "nl": "Double Kettlebell Front Squat"
-    },
-    "aliases": [
-      "Front Squats With Two Kettlebells",
-      "Front_Squats_With_Two_Kettlebells"
-    ],
-    "material": {
-      "id": "kettlebell",
-      "name": {
-        "en": "Kettlebell",
-        "nl": "Kettlebell"
-      },
-      "description": {
-        "en": "Cast-iron or steel ball with a top handle for ballistic swings and compound strength",
-        "nl": "Gietijzeren kogel met handvat voor ballistische swings en samengestelde kracht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "glutes"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Clean two kettlebells into a tight front rack position against your chest.",
-        "With chest up and eyes forward, squat deeply between your legs, pushing knees out.",
-        "Drive through your heels to stand tall back to the top lockout."
-      ],
-      "nl": [
-        "Clean twee kettlebells naar de rack-positie stevig tegen je borst.",
-        "Houd je borst fier vooruit en squat diep tussen je benen terwijl je je knieën naar buiten duwt.",
-        "Duw de vloer krachtig weg vanuit je hielen om weer rechtop te komen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Maintain high elbows so kettlebells do not pull your torso forward."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Houd je ellebogen hoog zodat de gewichten je niet voorover trekken."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Squats_With_Two_Kettlebells/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Squats_With_Two_Kettlebells/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "l3TxmNX6C8s",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "John Parker",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T17:25:55.823Z"
-    }
-  },
-  {
     "id": "kettlebell_pirate_ships",
     "exercise_name": {
       "en": "Kettlebell Pirate Ships",
@@ -17127,103 +16941,6 @@
     }
   },
   {
-    "id": "machine_leverage_chest_press",
-    "exercise_name": {
-      "en": "Leverage Chest Press",
-      "nl": "Leverage Chest Press"
-    },
-    "aliases": [
-      "Leverage Chest Press",
-      "Machine Chest Press"
-    ],
-    "material": {
-      "id": "machine",
-      "name": {
-        "en": "Machine",
-        "nl": "Fitnessapparaat"
-      },
-      "description": {
-        "en": "Selectorized weight stack machines for guided and isolated movement paths",
-        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals"
-      ],
-      "secondary": [
-        "deltoids",
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Load an appropriate weight onto the pins and adjust the seat for your height. The handles should be near the bottom or middle of the pectorals at the beginning of the motion.",
-        "Your chest and head should be up and your shoulder blades retracted. This will be your starting position.",
-        "Press the handles forward by extending through the elbow.",
-        "After a brief pause at the top, return the weight just above the start position, keeping tension on the muscles by not returning the weight to the stops until the set is complete."
-      ],
-      "nl": [
-        "Stel de zithoogte zo af dat de handgrepen ter hoogte van het midden van je borstkas staan.",
-        "Trek je schouderbladen naar elkaar toe tegen de rugleuning en pak de handgrepen stevig vast.",
-        "Duw de handgrepen krachtig naar voren tot je armen gestrekt zijn terwijl je uitademt.",
-        "Laat de handgrepen gecontroleerd weer terugzakken tot borsthoogte zonder dat het gewicht rust op de stops."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Chest_Press/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Chest_Press/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "Qu7-ceCvq7w",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T17:25:55.823Z"
-    }
-  },
-  {
     "id": "machine_leverage_deadlift",
     "exercise_name": {
       "en": "Leverage Deadlift",
@@ -17702,101 +17419,6 @@
     }
   },
   {
-    "id": "machine_leverage_shoulder_press",
-    "exercise_name": {
-      "en": "Leverage Shoulder Press",
-      "nl": "Leverage Shoulder Press"
-    },
-    "aliases": [
-      "Leverage Shoulder Press",
-      "Machine Shoulder Press"
-    ],
-    "material": {
-      "id": "machine",
-      "name": {
-        "en": "Machine",
-        "nl": "Fitnessapparaat"
-      },
-      "description": {
-        "en": "Selectorized weight stack machines for guided and isolated movement paths",
-        "nl": "Krachtapparaten met gewichtsblokken voor gecontroleerde en geïsoleerde bewegingen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids"
-      ],
-      "secondary": [
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Load an appropriate weight onto the pins and adjust the seat for your height. The handles should be near the top of the shoulders at the beginning of the motion. Your chest and head should be up and handles held with a pronated grip. This will be your starting position.",
-        "Press the handles upward by extending through the elbow.",
-        "After a brief pause at the top, return the weight to just above the start position, keeping tension on the muscles by not returning the weight to the stops until the set is complete."
-      ],
-      "nl": [
-        "Stel de zithoogte af zodat de handvatten net boven schouderhoogte beginnen.",
-        "Houd je borst op, hoofd recht en pak de handvatten met een bovenhandse greep vast.",
-        "Druk de hendels krachtig recht omhoog door je ellebogen te strekken terwijl je uitademt.",
-        "Laat het gewicht beheerst zakken tot net boven schouderniveau en herhaal."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your core tight and avoid arching your lower back away from the pad.",
-        "Press smoothly overhead without aggressively locking out the elbow joints."
-      ],
-      "nl": [
-        "Span je buikspieren aan en voorkom dat je onderrug loskomt van de rugleuning.",
-        "Druk gelijkmatig uit zonder je ellebogen bovenin hard op slot te gooien."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Shoulder_Press/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leverage_Shoulder_Press/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "6v4nrRVySj0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T17:25:55.823Z"
-    }
-  },
-  {
     "id": "machine_leverage_shrug",
     "exercise_name": {
       "en": "Leverage Shrug",
@@ -18194,7 +17816,8 @@
     },
     "aliases": [
       "Machine Bench Press",
-      "Seated Machine Chest Press"
+      "Seated Machine Chest Press",
+      "Leverage Chest Press"
     ],
     "material": {
       "id": "machine",
@@ -18481,7 +18104,8 @@
     },
     "aliases": [
       "Machine Shoulder (Military) Press",
-      "Seated Machine Overhead Press"
+      "Seated Machine Overhead Press",
+      "Leverage Shoulder Press"
     ],
     "material": {
       "id": "machine",
@@ -21181,7 +20805,8 @@
       "nl": "Chin-Up"
     },
     "aliases": [
-      "Chin-Up"
+      "Chin-Up",
+      "Chin Ups"
     ],
     "material": {
       "id": "monkey_bars",
@@ -21277,7 +20902,8 @@
     },
     "aliases": [
       "Hanging Leg Raise",
-      "Hanging_Leg_Raise"
+      "Hanging_Leg_Raise",
+      "Hanging Leg Raises (Leg Reaches)"
     ],
     "material": {
       "id": "monkey_bars",
@@ -21355,6 +20981,16 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "PowerMonkeyFitness",
+          "rating": 5
+        },
+        {
+          "youtube_id": "KA7YV6cL98U",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Tim Thies",
           "rating": 5
         }
       ]
@@ -31663,12 +31299,13 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "forearms",
+        "trapezius"
       ],
       "secondary": [
+        "rectus_abdominis",
         "gluteus_maximus",
-        "deltoids"
+        "quadriceps"
       ]
     },
     "attributes": {
@@ -33885,7 +33522,8 @@
       "nl": "Double Kettlebell Front Squat"
     },
     "aliases": [
-      "Double Kettlebell Front Squat"
+      "Double Kettlebell Front Squat",
+      "Front Squats With Two Kettlebells"
     ],
     "material": {
       "id": "kettlebell",
@@ -33962,6 +33600,16 @@
           "duration_seconds": 8,
           "channel": "The Gym Hong Kong",
           "likes": 197
+        },
+        {
+          "youtube_id": "l3TxmNX6C8s",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "John Parker",
+          "rating": 5
         }
       ]
     },
@@ -41197,11 +40845,11 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "hamstrings",
+        "rectus_abdominis"
       ],
       "secondary": [
-        "gluteus_maximus",
+        "calves",
         "deltoids"
       ]
     },
@@ -42748,12 +42396,12 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "deltoids",
+        "pectorals"
       ],
       "secondary": [
-        "gluteus_maximus",
-        "deltoids"
+        "triceps_brachii",
+        "rectus_abdominis"
       ]
     },
     "attributes": {
@@ -43293,11 +42941,11 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "latissimus_dorsi",
+        "pectorals"
       ],
       "secondary": [
-        "gluteus_maximus",
+        "triceps_brachii",
         "deltoids"
       ]
     },
@@ -43340,94 +42988,6 @@
       "videos": [
         {
           "youtube_id": "LE8PvCCecUI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "KC FITNESS",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "barbell_shrugs",
-    "exercise_name": {
-      "en": "Barbell Shrugs",
-      "nl": "Barbell Shrugs"
-    },
-    "aliases": [
-      "Barbell Shrugs"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Trapezius & Upper Back",
-      "nl": "Trapezius (Nek)"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_and_weight",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Stand tall holding the barbell with arms fully extended down.",
-        "Shrug your shoulders straight up toward your ears.",
-        "Hold for a moment and lower."
-      ],
-      "nl": [
-        "Sta rechtop met de stang in je handen (gestrekte armen).",
-        "Trek puur je schouders zo hoog mogelijk op richting je oren.",
-        "Houd even vast en laat zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "s9cIH855q5A",
           "type": "short",
           "priority": 1,
           "language": "en",
@@ -45132,6 +44692,16 @@
           "aspect_ratio": "9:16",
           "channel": "Coach Mstafa",
           "rating": 5
+        },
+        {
+          "youtube_id": "s9cIH855q5A",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "KC FITNESS",
+          "rating": 5
         }
       ]
     },
@@ -45626,14 +45196,17 @@
     }
   },
   {
-    "id": "weight_plate_car_drivers",
+    "id": "barbell_plate_car_drivers",
     "exercise_name": {
       "en": "Car Drivers (Plate Steering)",
       "nl": "Plate Drivers (Stuurwiel)"
     },
     "aliases": [
       "Car Drivers",
-      "Car_Drivers"
+      "Car_Drivers",
+      "Weight Plate Car Drivers",
+      "Car Drivers (Plate Steering)",
+      "Plate Steering"
     ],
     "material": {
       "id": "barbell",
@@ -48099,104 +47672,6 @@
     }
   },
   {
-    "id": "barbell_close_grip_ez_bar_press",
-    "exercise_name": {
-      "en": "Close-Grip EZ-Bar Press",
-      "nl": "Close-Grip EZ-Bar Press"
-    },
-    "aliases": [
-      "Close-Grip EZ-Bar Press"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "pectorals",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Lie on a flat bench with an EZ bar loaded to an appropriate weight.",
-        "Using a narrow grip lift the bar and hold it straight over your torso with your elbows in. The arms should be perpendicular to the floor. This will be your starting position.",
-        "Now lower the bar down to your lower chest as you breathe in. Keep the elbows in as you perform this movement.",
-        "Using the triceps to push the bar back up, press it back to the starting position by extending the elbows as you exhale.",
-        "Repeat."
-      ],
-      "nl": [
-        "Ga op een vlakke bank liggen en pak een EZ-stang vast met een smalle greep recht boven je borst.",
-        "Laat de stang gecontroleerd zakken naar de onderkant van je borstkas terwijl je inademt en de ellebogen strak langs je lichaam houdt.",
-        "Druk de stang krachtig omhoog vanuit je triceps tot je armen gestrekt zijn en adem uit.",
-        "Herhaal voor het gewenste aantal herhalingen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep elbows tucked tightly to your sides throughout the movement.",
-        "Maintain wrists in a neutral, supported alignment on the EZ curls."
-      ],
-      "nl": [
-        "Houd je ellebogen dicht bij je romp om de triceps maximaal te belasten.",
-        "Houd je polsen recht en stabiel op de gekromde stang."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_EZ-Bar_Press/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_EZ-Bar_Press/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "ljBtCPdGTHM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Mike McCauley",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "barbell_decline_barbell_bench_press",
     "exercise_name": {
       "en": "Decline Barbell Bench Press",
@@ -48296,101 +47771,6 @@
     }
   },
   {
-    "id": "barbell_decline_ez_bar_triceps_extension",
-    "exercise_name": {
-      "en": "Decline EZ Bar Triceps Extension",
-      "nl": "Decline EZ Bar Triceps Extension"
-    },
-    "aliases": [
-      "Decline EZ Bar Triceps Extension",
-      "Decline Skull Crusher"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Secure your legs at the end of the decline bench and slowly lay down on the bench.",
-        "Using a close grip (a grip that is slightly less than shoulder width), lift the EZ bar from the rack and hold it straight over you with your arms locked and elbows in. The arms should be perpendicular to the floor. This will be your starting position. Tip: In order to protect your rotator cuff, it is best if you have a spotter help you lift the barbell off the rack.",
-        "As you breathe in and you keep the upper arms stationary, bring the bar down slowly by moving your forearms in a semicircular motion towards you until you feel the bar slightly touch your forehead. Breathe in as you perform this portion of the movement.",
-        "Lift the bar back to the starting position by contracting the triceps and exhaling.",
-        "Repeat until the recommended amount of repetitions is performed."
-      ],
-      "nl": [
-        "Ga op een decline bank liggen en pak de EZ-stang vast met een smalle greep (iets smaller dan schouderbreedte) boven je borst.",
-        "Houd je bovenarmen stil en laat de stang gecontroleerd naar je voorhoofd of net achter je kruin zakken terwijl je inademt.",
-        "Druk de stang weer omhoog tot volledige armstrekking door je triceps aan te spannen en adem uit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your upper arms stationary perpendicular to the torso.",
-        "Control the lowering phase and avoid flaring elbows wide."
-      ],
-      "nl": [
-        "Houd je bovenarmen stil en verticaal ten opzichte van de vloer.",
-        "Laat de stang gecontroleerd zakken zonder dat je ellebogen naar buiten klappen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_EZ_Bar_Triceps_Extension/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_EZ_Bar_Triceps_Extension/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "mdJ199YqobM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "TonicX Performance Physique",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "barbell_elevated_back_lunge",
     "exercise_name": {
       "en": "Elevated Back Lunge",
@@ -48479,102 +47859,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "barbell_ez_bar_curl",
-    "exercise_name": {
-      "en": "EZ-Bar Curl",
-      "nl": "EZ-Bar Curl"
-    },
-    "aliases": [
-      "EZ-Bar Curl",
-      "EZ Bar Bicep Curl"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "biceps_brachii"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position.",
-        "Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms.",
-        "Continue to raise the weight until your biceps are fully contracted and the bar is at shoulder level. Hold the top contracted position for a moment and squeeze the biceps.",
-        "Then inhale and slowly lower the bar back to the starting position.",
-        "Repeat for the recommended amount of repetitions."
-      ],
-      "nl": [
-        "Ga rechtop staan en pak de EZ-stang vast bij de gekromde buitengreep met de handpalmen naar voren en ellebogen tegen je zij.",
-        "Houd je bovenarmen stil en curl de stang omhoog naar schouderhoogte terwijl je uitademt en je biceps aanspant.",
-        "Knijp bovenin je biceps krachtig samen en houd dit een tel vast.",
-        "Laat de stang rustig en gecontroleerd zakken naar de beginstand terwijl je inademt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Curl/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Curl/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "6WJsJud9NI4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "KC FITNESS",
           "rating": 5
         }
       ]
@@ -50095,7 +49379,9 @@
     },
     "aliases": [
       "Plate Pinch",
-      "Pinch Grip Hold"
+      "Pinch Grip Hold",
+      "Standing Olympic Plate Hand Squeeze",
+      "Staande Schijf Knijpkracht"
     ],
     "material": {
       "id": "barbell",
@@ -52789,103 +52075,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Adam Rogers",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "barbell_standing_olympic_plate_hand_squeeze",
-    "exercise_name": {
-      "en": "Standing Olympic Plate Hand Squeeze",
-      "nl": "Staande Schijf Knijpkracht (Plate Squeeze)"
-    },
-    "aliases": [
-      "Standing Olympic Plate Hand Squeeze",
-      "Plate Squeeze"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "forearms"
-      ],
-      "secondary": [
-        "biceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "To begin, stand straight while holding a weight plate by the ridge at arm's length in each hand using a neutral grip (palms facing in). You feet should be shoulder width apart from each other. This will be your starting position.",
-        "Lower the plates until the fingers are nearly extended but can still hold weights. Inhale as you lower the plates.",
-        "Now raise the plates back to the starting position as you exhale by closing your hands.",
-        "Repeat for the recommended amount of repetitions prescribed in your program."
-      ],
-      "nl": [
-        "Ga rechtop staan met je voeten op schouderbreedte en houd in elke hand een gewichtsschijf bij de rand vast met gestrekte armen langs je lichaam.",
-        "Laat de schijven langzaam zakken tot in je vingertoppen terwijl je inademt.",
-        "Knijp je handen weer krachtig dicht om de schijven stevig vast te grijpen terwijl je uitademt.",
-        "Herhaal voor het gewenste aantal herhalingen of houd vast voor tijd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your shoulders retracted and stand tall without leaning forward.",
-        "Focus on maximum crushing grip strength between fingers and thumb."
-      ],
-      "nl": [
-        "Houd je schouders naar achteren en sta rechtop zonder voorover te hellen.",
-        "Focus op maximale knijpkracht tussen je vingers en duim."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Olympic_Plate_Hand_Squeeze/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Olympic_Plate_Hand_Squeeze/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "_cdWkwQGffU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Jesse McJannett",
           "rating": 5
         }
       ]
@@ -56024,7 +55213,8 @@
       "nl": "Bicycle Crunches"
     },
     "aliases": [
-      "Bicycle Crunches"
+      "Bicycle Crunches",
+      "Air Bike"
     ],
     "material": {
       "id": "bodyweight",
@@ -56099,6 +55289,16 @@
           "duration_seconds": 9,
           "channel": "Sunnyjanghufitness",
           "likes": 10918
+        },
+        {
+          "youtube_id": "cFDS2S6Vqis",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Go with JO FITNESS",
+          "rating": 5
         }
       ]
     },
@@ -58568,7 +57768,8 @@
       "nl": "Squat Jumps"
     },
     "aliases": [
-      "Squat Jumps"
+      "Squat Jumps",
+      "Jump Squats"
     ],
     "material": {
       "id": "bodyweight",
@@ -60146,95 +59347,6 @@
     }
   },
   {
-    "id": "bodyweight_jump_squats",
-    "exercise_name": {
-      "en": "Jump Squats",
-      "nl": "Jump Squats"
-    },
-    "aliases": [
-      "Jump Squats"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Lower into a squat and jump as high as possible.",
-        "Land softly and transition immediately into your next squat rep."
-      ],
-      "nl": [
-        "Zak in een squat en spring zo hoog mogelijk.",
-        "Land zachtjes en ga direct weer door in de volgende squat."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "bodyweight_pistol_squats"
-      ],
-      "regressions": [
-        "bodyweight_air_squats"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "36vnWAkL7ZQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Forty Steps",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "bodyweight_jumping_jacks",
     "exercise_name": {
       "en": "Jumping Jacks",
@@ -60686,104 +59798,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Taylored Physical Therapy",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "bodyweight_air_bike",
-    "exercise_name": {
-      "en": "Air Bike (Bicycle Crunches)",
-      "nl": "Bicycle Crunches"
-    },
-    "aliases": [
-      "Air Bike",
-      "Bicycle Crunches",
-      "Air_Bike"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "obliques"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Lie flat on the floor with your lower back pressed to the ground. Place your hands beside your head and lift your shoulders into crunch position.",
-        "Bring knees up perpendicular to the floor, with lower legs parallel to the ground.",
-        "Simultaneously pedal your right leg forward while bringing your left knee in, touching your right elbow close to your left knee.",
-        "Reverse and repeat on the opposite side in a fluid, continuous cycling motion."
-      ],
-      "nl": [
-        "Ga op je rug liggen met je onderrug stevig tegen de vloer en handen losjes achter je hoofd.",
-        "Breng je knieën omhoog in een hoek van 90 graden.",
-        "Maak een fietsbeweging: strek één been uit en breng de tegenovergestelde elleboog naar de gebogen knie.",
-        "Wissel continu en gecontroleerd van kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Rotate through the ribcage rather than yanking on the back of your neck."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en trek niet aan je nek.",
-        "Draai vanuit je bovenlichaam en schouderbladen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "cFDS2S6Vqis",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Go with JO FITNESS",
           "rating": 5
         }
       ]
@@ -72119,6 +71133,295 @@
     }
   },
   {
+    "id": "ez_bar_close_grip_press",
+    "exercise_name": {
+      "en": "Close-Grip EZ-Bar Press",
+      "nl": "Close-Grip EZ-Bar Press"
+    },
+    "aliases": [
+      "Close-Grip EZ-Bar Press"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "pectorals",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Lie on a flat bench with an EZ bar loaded to an appropriate weight.",
+        "Using a narrow grip lift the bar and hold it straight over your torso with your elbows in. The arms should be perpendicular to the floor. This will be your starting position.",
+        "Now lower the bar down to your lower chest as you breathe in. Keep the elbows in as you perform this movement.",
+        "Using the triceps to push the bar back up, press it back to the starting position by extending the elbows as you exhale.",
+        "Repeat."
+      ],
+      "nl": [
+        "Ga op een vlakke bank liggen en pak een EZ-stang vast met een smalle greep recht boven je borst.",
+        "Laat de stang gecontroleerd zakken naar de onderkant van je borstkas terwijl je inademt en de ellebogen strak langs je lichaam houdt.",
+        "Druk de stang krachtig omhoog vanuit je triceps tot je armen gestrekt zijn en adem uit.",
+        "Herhaal voor het gewenste aantal herhalingen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep elbows tucked tightly to your sides throughout the movement.",
+        "Maintain wrists in a neutral, supported alignment on the EZ curls."
+      ],
+      "nl": [
+        "Houd je ellebogen dicht bij je romp om de triceps maximaal te belasten.",
+        "Houd je polsen recht en stabiel op de gekromde stang."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_EZ-Bar_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_EZ-Bar_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "ljBtCPdGTHM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Mike McCauley",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_decline_triceps_extension",
+    "exercise_name": {
+      "en": "Decline EZ Bar Triceps Extension",
+      "nl": "Decline EZ Bar Triceps Extension"
+    },
+    "aliases": [
+      "Decline EZ Bar Triceps Extension",
+      "Decline Skull Crusher"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Secure your legs at the end of the decline bench and slowly lay down on the bench.",
+        "Using a close grip (a grip that is slightly less than shoulder width), lift the EZ bar from the rack and hold it straight over you with your arms locked and elbows in. The arms should be perpendicular to the floor. This will be your starting position. Tip: In order to protect your rotator cuff, it is best if you have a spotter help you lift the barbell off the rack.",
+        "As you breathe in and you keep the upper arms stationary, bring the bar down slowly by moving your forearms in a semicircular motion towards you until you feel the bar slightly touch your forehead. Breathe in as you perform this portion of the movement.",
+        "Lift the bar back to the starting position by contracting the triceps and exhaling.",
+        "Repeat until the recommended amount of repetitions is performed."
+      ],
+      "nl": [
+        "Ga op een decline bank liggen en pak de EZ-stang vast met een smalle greep (iets smaller dan schouderbreedte) boven je borst.",
+        "Houd je bovenarmen stil en laat de stang gecontroleerd naar je voorhoofd of net achter je kruin zakken terwijl je inademt.",
+        "Druk de stang weer omhoog tot volledige armstrekking door je triceps aan te spannen en adem uit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your upper arms stationary perpendicular to the torso.",
+        "Control the lowering phase and avoid flaring elbows wide."
+      ],
+      "nl": [
+        "Houd je bovenarmen stil en verticaal ten opzichte van de vloer.",
+        "Laat de stang gecontroleerd zakken zonder dat je ellebogen naar buiten klappen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_EZ_Bar_Triceps_Extension/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_EZ_Bar_Triceps_Extension/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "mdJ199YqobM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "TonicX Performance Physique",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_curl",
+    "exercise_name": {
+      "en": "EZ-Bar Curl",
+      "nl": "EZ-Bar Curl"
+    },
+    "aliases": [
+      "EZ-Bar Curl",
+      "EZ Bar Bicep Curl"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position.",
+        "Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms.",
+        "Continue to raise the weight until your biceps are fully contracted and the bar is at shoulder level. Hold the top contracted position for a moment and squeeze the biceps.",
+        "Then inhale and slowly lower the bar back to the starting position.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga rechtop staan en pak de EZ-stang vast bij de gekromde buitengreep met de handpalmen naar voren en ellebogen tegen je zij.",
+        "Houd je bovenarmen stil en curl de stang omhoog naar schouderhoogte terwijl je uitademt en je biceps aanspant.",
+        "Knijp bovenin je biceps krachtig samen en houd dit een tel vast.",
+        "Laat de stang rustig en gecontroleerd zakken naar de beginstand terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/EZ-Bar_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "6WJsJud9NI4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "KC FITNESS",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
     "id": "foam_roller_foot_smr",
     "exercise_name": {
       "en": "Foot Foam Roll / SMR",
@@ -76610,93 +75913,6 @@
     }
   },
   {
-    "id": "monkey_bars_monkey_bar_chin_ups",
-    "exercise_name": {
-      "en": "Chin Ups",
-      "nl": "Chin Ups"
-    },
-    "aliases": [
-      "Chin Ups"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Grasp the bar with your palms facing you (narrow grip).",
-        "Pull yourself up and flex your biceps.",
-        "Slowly return to a full hang."
-      ],
-      "nl": [
-        "Pak de stang vast met je handpalmen naar je toe (smalle greep).",
-        "Trek jezelf op en span je biceps aan.",
-        "Zak rustig terug naar een volledige hang."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "jIvbJzs1V4I",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "FIT Sisters - Lucy & Rosie",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "monkey_bars_hanging_knee_raises",
     "exercise_name": {
       "en": "Hanging Knee Raises (Knee Ups)",
@@ -76775,94 +75991,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Chana Mai",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "monkey_bars_hanging_leg_raises",
-    "exercise_name": {
-      "en": "Hanging Leg Raises (Leg Reaches)",
-      "nl": "Hanging Leg Raises (Leg Reaches)"
-    },
-    "aliases": [
-      "Hanging Leg Raises",
-      "Hanging Leg Raises Leg Reaches",
-      "Leg Reaches"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "hamstrings",
-        "calves"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Hang still on the bar.",
-        "Keep your legs fully extended and lift them until they are horizontal (or touch the bar with your toes).",
-        "Lower down slowly under full muscular control."
-      ],
-      "nl": [
-        "Hang stil aan de stang.",
-        "Houd je benen helemaal gestrekt en til ze op tot ze horizontaal zijn (of raak de stang aan met je tenen).",
-        "Laat langzaam zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "KA7YV6cL98U",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Tim Thies",
           "rating": 5
         }
       ]
@@ -78647,12 +77775,12 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "deltoids",
+        "rectus_abdominis"
       ],
       "secondary": [
-        "gluteus_maximus",
-        "deltoids"
+        "pectorals",
+        "triceps_brachii"
       ]
     },
     "attributes": {
@@ -78737,12 +77865,12 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "deltoids",
+        "rectus_abdominis"
       ],
       "secondary": [
-        "gluteus_maximus",
-        "deltoids"
+        "pectorals",
+        "rhomboids"
       ]
     },
     "attributes": {
@@ -79525,11 +78653,11 @@
     "target_muscles": {
       "primary": [
         "rectus_abdominis",
-        "cardiovascular_system"
+        "quadriceps"
       ],
       "secondary": [
-        "gluteus_maximus",
-        "deltoids"
+        "deltoids",
+        "triceps_brachii"
       ]
     },
     "attributes": {

@@ -6,7 +6,8 @@
       "nl": "Chin-Up"
     },
     "aliases": [
-      "Chin-Up"
+      "Chin-Up",
+      "Chin Ups"
     ],
     "material": {
       "id": "monkey_bars",
@@ -102,7 +103,8 @@
     },
     "aliases": [
       "Hanging Leg Raise",
-      "Hanging_Leg_Raise"
+      "Hanging_Leg_Raise",
+      "Hanging Leg Raises (Leg Reaches)"
     ],
     "material": {
       "id": "monkey_bars",
@@ -180,6 +182,16 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "PowerMonkeyFitness",
+          "rating": 5
+        },
+        {
+          "youtube_id": "KA7YV6cL98U",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Tim Thies",
           "rating": 5
         }
       ]
@@ -2151,93 +2163,6 @@
     }
   },
   {
-    "id": "monkey_bars_monkey_bar_chin_ups",
-    "exercise_name": {
-      "en": "Chin Ups",
-      "nl": "Chin Ups"
-    },
-    "aliases": [
-      "Chin Ups"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Grasp the bar with your palms facing you (narrow grip).",
-        "Pull yourself up and flex your biceps.",
-        "Slowly return to a full hang."
-      ],
-      "nl": [
-        "Pak de stang vast met je handpalmen naar je toe (smalle greep).",
-        "Trek jezelf op en span je biceps aan.",
-        "Zak rustig terug naar een volledige hang."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "jIvbJzs1V4I",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "FIT Sisters - Lucy & Rosie",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "monkey_bars_hanging_knee_raises",
     "exercise_name": {
       "en": "Hanging Knee Raises (Knee Ups)",
@@ -2316,94 +2241,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Chana Mai",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "monkey_bars_hanging_leg_raises",
-    "exercise_name": {
-      "en": "Hanging Leg Raises (Leg Reaches)",
-      "nl": "Hanging Leg Raises (Leg Reaches)"
-    },
-    "aliases": [
-      "Hanging Leg Raises",
-      "Hanging Leg Raises Leg Reaches",
-      "Leg Reaches"
-    ],
-    "material": {
-      "id": "monkey_bars",
-      "name": {
-        "en": "Monkey Bars / Pull-Up Rig",
-        "nl": "Rekstok / Klimrek"
-      },
-      "description": {
-        "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
-        "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "hamstrings",
-        "calves"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Hang still on the bar.",
-        "Keep your legs fully extended and lift them until they are horizontal (or touch the bar with your toes).",
-        "Lower down slowly under full muscular control."
-      ],
-      "nl": [
-        "Hang stil aan de stang.",
-        "Houd je benen helemaal gestrekt en til ze op tot ze horizontaal zijn (of raak de stang aan met je tenen).",
-        "Laat langzaam zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "KA7YV6cL98U",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Tim Thies",
           "rating": 5
         }
       ]

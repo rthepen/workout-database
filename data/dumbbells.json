@@ -662,98 +662,6 @@
     }
   },
   {
-    "id": "dumbbells_lying_rear_lateral_raise",
-    "exercise_name": {
-      "en": "Dumbbell Lying Rear Lateral Raise",
-      "nl": "Dumbbell Liggende Rear Lateral Raise"
-    },
-    "aliases": [
-      "Dumbbell Lying Rear Lateral Raise",
-      "Dumbbell_Lying_Rear_Lateral_Raise"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight"
-    },
-    "instructions": {
-      "en": [
-        "Lie chest-down on a low incline bench holding dumbbells with neutral palms.",
-        "Raise arms out laterally until elbows are at shoulder height and parallel to the floor.",
-        "Pause for a second at the top, then slowly lower dumbbells back down."
-      ],
-      "nl": [
-        "Ga met je borst op een lichte incline bank liggen en houd de dumbbells met neutrale greep vast.",
-        "Hef je armen zijwaarts omhoog tot je ellebogen op schouderhoogte zijn.",
-        "Knijp je achterste schouderkoppen bovenin samen en laat de gewichten rustig zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the lift with your elbows while keeping a soft bend.",
-        "Avoid swinging the weights or lifting your chest off the bench."
-      ],
-      "nl": [
-        "Hef vanuit je ellebogen met licht gebogen armen.",
-        "Zwaai niet met de gewichten en houd je borst op het kussen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dumbbell_Lying_Rear_Lateral_Raise/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "32VOgQ1miUE",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "TORO",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T16:00:02.504Z"
-    }
-  },
-  {
     "id": "dumbbells_lying_pronation",
     "exercise_name": {
       "en": "Dumbbell Lying Pronation",
@@ -3233,7 +3141,8 @@
     },
     "aliases": [
       "Lying Rear Delt Raise",
-      "Prone Dumbbell Reverse Fly"
+      "Prone Dumbbell Reverse Fly",
+      "Dumbbell Lying Rear Lateral Raise"
     ],
     "material": {
       "id": "dumbbells",
@@ -6618,12 +6527,13 @@
     },
     "target_muscles": {
       "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
+        "forearms",
+        "trapezius"
       ],
       "secondary": [
+        "rectus_abdominis",
         "gluteus_maximus",
-        "deltoids"
+        "quadriceps"
       ]
     },
     "attributes": {
