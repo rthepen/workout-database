@@ -1350,93 +1350,6 @@
     }
   },
   {
-    "id": "core_sliders_slider_pikes",
-    "exercise_name": {
-      "en": "Slider Pikes",
-      "nl": "Slider Pikes"
-    },
-    "aliases": [
-      "Slider Pikes"
-    ],
-    "material": {
-      "id": "core_sliders",
-      "name": {
-        "en": "Core Sliders",
-        "nl": "Core Sliders"
-      },
-      "description": {
-        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
-        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Buikspieren / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "High plank, feet on the sliders.",
-        "Keep your legs straight and pull your feet toward your hands as you push your hips as high into the air as possible (V-shape)."
-      ],
-      "nl": [
-        "Hoge plank, voeten op de sliders.",
-        "Houd je benen gestrekt en trek je voeten richting je handen terwijl je je heupen zo hoog mogelijk de lucht in duwt (V-vorm)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "core_sliders_slider_single_leg_hamstring_curl"
-      ],
-      "regressions": [
-        "core_sliders_slider_alligator_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "wF1mXkLT78E",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Bourne Fit",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "core_sliders_slider_archer_pushups",
     "exercise_name": {
       "en": "Slider Archer Push Ups",
@@ -1785,6 +1698,94 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "core_sliders_slider_pikes",
+    "exercise_name": {
+      "en": "Slider Pikes",
+      "nl": "Slider Pikes"
+    },
+    "aliases": [
+      "Slider Pikes"
+    ],
+    "material": {
+      "id": "core_sliders",
+      "name": {
+        "en": "Core Sliders",
+        "nl": "Core Sliders"
+      },
+      "description": {
+        "en": "Low-friction gliding discs for dynamic core stability and bodyweight sliding",
+        "nl": "Gladde glijschijven voor dynamische corestabiliteit en buikspieroefeningen"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Buikspieren / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "High plank, feet on the sliders.",
+        "Keep your legs straight and pull your feet toward your hands as you push your hips as high into the air as possible (V-shape)."
+      ],
+      "nl": [
+        "Hoge plank, voeten op de sliders.",
+        "Houd je benen gestrekt en trek je voeten richting je handen terwijl je je heupen zo hoog mogelijk de lucht in duwt (V-vorm)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "core_sliders_slider_single_leg_hamstring_curl"
+      ],
+      "regressions": [
+        "core_sliders_slider_alligator_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "wF1mXkLT78E",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Bourne Fit",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T13:06:57.301Z"
     }
   }
 ]

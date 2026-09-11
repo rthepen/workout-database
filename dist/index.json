@@ -1,7 +1,7 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-11T11:24:35.790599+00:00",
+  "last_updated_utc": "2026-09-11T13:08:55.335700+00:00",
   "total_exercises": 1015,
   "total_equipment_types": 31,
   "available_materials": {
@@ -71,18 +71,18 @@
         "nl": "Kabelstation"
       },
       "description": {
-        "en": "Adjustable dual-pulley cable column system",
-        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
+        "en": "Cable pulley system with selectorized weight stacks for constant tension",
+        "nl": "Kabelsysteem met gewichtsstapel voor constante weerstand"
       }
     },
     "cardio_equipment": {
       "name": {
         "en": "Cardio Equipment",
-        "nl": "Cardio-apparatuur"
+        "nl": "Cardio Apparaten"
       },
       "description": {
-        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
-        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
       }
     },
     "cones": {
@@ -155,6 +155,16 @@
         "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
       }
     },
+    "other": {
+      "name": {
+        "en": "Strongman Implements / Dumbbells",
+        "nl": "Strongman Materiaal / Dumbbells"
+      },
+      "description": {
+        "en": "Heavy axes, hammers, or dumbbells held laterally for static hold competition",
+        "nl": "Bijlen, hamers of dumbbells voor statische zijwaartse vasthoudoefeningen"
+      }
+    },
     "jump_rope": {
       "name": {
         "en": "Jump Rope",
@@ -203,16 +213,6 @@
       "description": {
         "en": "Overhead horizontal bars and pull-up rigs for grip strength and hanging calisthenics",
         "nl": "Horizontaal klimrek en optrekstangen voor gripkracht en hangende oefeningen"
-      }
-    },
-    "other": {
-      "name": {
-        "en": "Weight Plate / Bench",
-        "nl": "Halterschijf / Vlakke Bank"
-      },
-      "description": {
-        "en": "Loose weight plate and bench for direct neck flexion and extension resistance",
-        "nl": "Halterschijf en trainingsbank voor gerichte nekspiertraining"
       }
     },
     "parallettes": {

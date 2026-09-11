@@ -1,100 +1,5 @@
 [
   {
-    "id": "sprint_track_sled_drag_harness",
-    "exercise_name": {
-      "en": "Sled Drag - Harness",
-      "nl": "Sled Drag met Harnas"
-    },
-    "aliases": [
-      "Sled Drag - Harness",
-      "Weight Sled Drag"
-    ],
-    "material": {
-      "id": "sprint_track",
-      "name": {
-        "en": "Sprint Track / Turf",
-        "nl": "Sprinttrack / Kunstgras"
-      },
-      "description": {
-        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "gluteus_maximus",
-        "hamstrings"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "To begin, load the sled with the desired weight and attach the pulling strap. You can pull with handles, use a harness, or attach the pulling strap to a weight belt.",
-        "Whether pulling forwards or backwards, lean in the direction of travel and progress by extending through the hips and knees."
-      ],
-      "nl": [
-        "Verzwaar de slee met het gewenste gewicht en maak de trekriemen vast aan een harnas of riem om je middel.",
-        "Leun voorover in de looprichting en zet krachtig af door je heupen en knieën krachtig uit te strekken.",
-        "Wandel of sprint voorwaarts met krachtige, stabiele passen over de aangegeven afstand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain a steady torso lean and drive hard through the balls of your feet.",
-        "Keep your core engaged and steps rhythmic without breaking posture."
-      ],
-      "nl": [
-        "Blijf krachtig voorover leunen en duw stevig af vanuit de bal van je voeten.",
-        "Houd je core aangespannen en neem ritmische, krachtige stappen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sled_Drag_-_Harness/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sled_Drag_-_Harness/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "uWdmama9V5g",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Athletico",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T20:21:35.342Z"
-    }
-  },
-  {
     "id": "sprint_track_bear_crawl",
     "exercise_name": {
       "en": "Bear Crawl",
@@ -1927,6 +1832,102 @@
     }
   },
   {
+    "id": "sprint_track_sled_drag_harness",
+    "exercise_name": {
+      "en": "Sled Drag - Harness",
+      "nl": "Sled Drag met Harnas"
+    },
+    "aliases": [
+      "Sled Drag - Harness",
+      "Weight Sled Drag"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Turf",
+        "nl": "Sprinttrack / Kunstgras"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance",
+      "rating": 2
+    },
+    "instructions": {
+      "en": [
+        "To begin, load the sled with the desired weight and attach the pulling strap. You can pull with handles, use a harness, or attach the pulling strap to a weight belt.",
+        "Whether pulling forwards or backwards, lean in the direction of travel and progress by extending through the hips and knees."
+      ],
+      "nl": [
+        "Verzwaar de slee met het gewenste gewicht en maak de trekriemen vast aan een harnas of riem om je middel.",
+        "Leun voorover in de looprichting en zet krachtig af door je heupen en knieën krachtig uit te strekken.",
+        "Wandel of sprint voorwaarts met krachtige, stabiele passen over de aangegeven afstand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain a steady torso lean and drive hard through the balls of your feet.",
+        "Keep your core engaged and steps rhythmic without breaking posture."
+      ],
+      "nl": [
+        "Blijf krachtig voorover leunen en duw stevig af vanuit de bal van je voeten.",
+        "Houd je core aangespannen en neem ritmische, krachtige stappen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sled_Drag_-_Harness/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sled_Drag_-_Harness/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "uWdmama9V5g",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Athletico",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T13:06:57.301Z"
+    }
+  },
+  {
     "id": "sprint_track_sled_forward_drag_with_press",
     "exercise_name": {
       "en": "Sled Forward Drag with Press",
@@ -1969,7 +1970,8 @@
       "difficulty": "intermediate",
       "mechanics": "compound",
       "force_type": "push",
-      "tracking_type": "distance"
+      "tracking_type": "distance",
+      "rating": 2
     },
     "instructions": {
       "en": [
@@ -2027,7 +2029,7 @@
     },
     "meta": {
       "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
+      "updated_at": "2026-09-11T13:06:57.301Z"
     }
   }
 ]

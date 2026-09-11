@@ -1256,97 +1256,6 @@
     }
   },
   {
-    "id": "cardio_equipment_airbike_arms_only",
-    "exercise_name": {
-      "en": "Airbike Upper Body Only",
-      "nl": "Airbike Upper Body Only"
-    },
-    "aliases": [
-      "Airbike Upper Body Only"
-    ],
-    "material": {
-      "id": "cardio_equipment",
-      "name": {
-        "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
-      },
-      "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
-      }
-    },
-    "category": {
-      "en": "Cardio & Upper Body",
-      "nl": "Cardio / Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "latissimus_dorsi",
-        "pectorals"
-      ],
-      "secondary": [
-        "deltoids",
-        "triceps_brachii",
-        "biceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Place your feet on the stationary foot pegs rather than the pedals.",
-        "Use only your arms to keep the fan moving.",
-        "Focus on pushing and pulling from your chest and back."
-      ],
-      "nl": [
-        "Zet je voeten op de steuntjes (niet op de pedalen).",
-        "Gebruik alleen je armen om de ventilator in beweging te houden.",
-        "Focus op duwen en trekken vanuit je borst en rug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your feet securely planted on the foot pegs and brace your core.",
-        "Drive powerfully with equal emphasis on the forward push and backward pull."
-      ],
-      "nl": [
-        "Houd je voeten stil en stevig op de voetsteunen en span je core aan.",
-        "Lever krachtige stoten met gelijke nadruk op zowel duwen als trekken."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "cardio_equipment_skillmill_backward_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ugxEq7FrwIU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Cameron O'Reilly",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "cardio_equipment_elliptical_trainer",
     "exercise_name": {
       "en": "Elliptical Trainer",
@@ -1443,6 +1352,96 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T10:45:00.000Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_airbike_arms_only",
+    "exercise_name": {
+      "en": "Airbike Upper Body Only",
+      "nl": "Airbike Upper Body Only"
+    },
+    "aliases": [
+      "Airbike Upper Body Only"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio Apparaten"
+      },
+      "description": {
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+      }
+    },
+    "category": {
+      "en": "Cardio & Upper Body",
+      "nl": "Cardio / Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place your feet on the stationary foot pegs rather than the pedals.",
+        "Use only your arms to keep the fan moving.",
+        "Focus on pushing and pulling from your chest and back."
+      ],
+      "nl": [
+        "Zet je voeten op de steuntjes (niet op de pedalen).",
+        "Gebruik alleen je armen om de ventilator in beweging te houden.",
+        "Focus op duwen en trekken vanuit je borst en rug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "cardio_equipment_skillmill_backward_walk"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ugxEq7FrwIU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Cameron O'Reilly",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
     }
   }
 ]

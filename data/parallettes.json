@@ -696,184 +696,6 @@
     }
   },
   {
-    "id": "parallettes_tuck_planche",
-    "exercise_name": {
-      "en": "Tuck Planche",
-      "nl": "Tuck Planche"
-    },
-    "aliases": [
-      "Tuck Planche"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Core & Shoulders",
-      "nl": "Core / Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "pectorals",
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Support your weight on fully extended arms.",
-        "Lean forward and lift your hips and knees.",
-        "Keep your knees tucked into your chest.",
-        "Your feet don't touch the ground."
-      ],
-      "nl": [
-        "Steun op gestrekte armen.",
-        "Leun naar voren en til je heupen en knieën op.",
-        "Houd je knieën ingetrokken tegen je borst.",
-        "Je voeten raken de grond niet."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "parallettes_parallette_push_up"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "xIU1uelZArY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Summerfunfitness",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "parallettes_planche_lean",
-    "exercise_name": {
-      "en": "Planche Lean",
-      "nl": "Planche Lean"
-    },
-    "aliases": [
-      "Planche Lean"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Core",
-      "nl": "Schouders / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "pectorals",
-        "rhomboids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Start in a push-up position with toes anchored on the floor.",
-        "Lean forward over your wrists with locked arms in a planche lean.",
-        "Keep your back rounded (protraction) and core tight."
-      ],
-      "nl": [
-        "Push-up positie met voeten op de grond.",
-        "Leun met gestrekte armen zo ver mogelijk naar voren over je polsen.",
-        "Houd je rug bol (protractie) en core strak."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "parallettes_parallette_push_up"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "9JtULiqolkI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "ahmad_workout",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "parallettes_handstand_push_up",
     "exercise_name": {
       "en": "Handstand Push Up (HSPU)",
@@ -1573,94 +1395,6 @@
     }
   },
   {
-    "id": "parallettes_single_leg_l_sit",
-    "exercise_name": {
-      "en": "Single Leg L-Sit",
-      "nl": "Single Leg L-Sit"
-    },
-    "aliases": [
-      "Single Leg L-Sit"
-    ],
-    "material": {
-      "id": "parallettes",
-      "name": {
-        "en": "Parallettes / Dip Bars",
-        "nl": "Parallettes / Dips Barren"
-      },
-      "description": {
-        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
-        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "quadriceps"
-      ],
-      "secondary": [
-        "deltoids",
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Support your bodyweight through your arms.",
-        "Extend one leg in an L-sit position, keep the other leg bent or on the ground (lighter version).",
-        "Switch legs."
-      ],
-      "nl": [
-        "Steun op de armen.",
-        "Strek één been uit in L-sit positie, houd het andere been gebogen of op de grond (lichtere variant).",
-        "Wissel van been."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "parallettes_tuck_planche"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Kd68g2t87OA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "RXGYMNASTICS ",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "parallettes_archer_push_up",
     "exercise_name": {
       "en": "Archer Push Up",
@@ -1739,6 +1473,272 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Cole Winarick",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "parallettes_tuck_planche",
+    "exercise_name": {
+      "en": "Tuck Planche",
+      "nl": "Tuck Planche"
+    },
+    "aliases": [
+      "Tuck Planche"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Core & Shoulders",
+      "nl": "Core / Schouders"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Support your weight on fully extended arms.",
+        "Lean forward and lift your hips and knees.",
+        "Keep your knees tucked into your chest.",
+        "Your feet don't touch the ground."
+      ],
+      "nl": [
+        "Steun op gestrekte armen.",
+        "Leun naar voren en til je heupen en knieën op.",
+        "Houd je knieën ingetrokken tegen je borst.",
+        "Je voeten raken de grond niet."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "parallettes_parallette_push_up"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "xIU1uelZArY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Summerfunfitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "parallettes_planche_lean",
+    "exercise_name": {
+      "en": "Planche Lean",
+      "nl": "Planche Lean"
+    },
+    "aliases": [
+      "Planche Lean"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Core",
+      "nl": "Schouders / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Start in a push-up position with toes anchored on the floor.",
+        "Lean forward over your wrists with locked arms in a planche lean.",
+        "Keep your back rounded (protraction) and core tight."
+      ],
+      "nl": [
+        "Push-up positie met voeten op de grond.",
+        "Leun met gestrekte armen zo ver mogelijk naar voren over je polsen.",
+        "Houd je rug bol (protractie) en core strak."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "parallettes_parallette_push_up"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "9JtULiqolkI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "ahmad_workout",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "parallettes_single_leg_l_sit",
+    "exercise_name": {
+      "en": "Single Leg L-Sit",
+      "nl": "Single Leg L-Sit"
+    },
+    "aliases": [
+      "Single Leg L-Sit"
+    ],
+    "material": {
+      "id": "parallettes",
+      "name": {
+        "en": "Parallettes / Dip Bars",
+        "nl": "Parallettes / Dips Barren"
+      },
+      "description": {
+        "en": "Low parallel bars for calisthenics, dips, L-sits, and handstand progressions",
+        "nl": "Lage parallelle stangen voor calisthenics, dips, L-sits en handstandtraining"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Support your bodyweight through your arms.",
+        "Extend one leg in an L-sit position, keep the other leg bent or on the ground (lighter version).",
+        "Switch legs."
+      ],
+      "nl": [
+        "Steun op de armen.",
+        "Strek één been uit in L-sit positie, houd het andere been gebogen of op de grond (lichtere variant).",
+        "Wissel van been."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "parallettes_tuck_planche"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Kd68g2t87OA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "RXGYMNASTICS ",
           "rating": 5
         }
       ]

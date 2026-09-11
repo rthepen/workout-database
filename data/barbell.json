@@ -1625,98 +1625,6 @@
     }
   },
   {
-    "id": "barbell_landmine_press_standing",
-    "exercise_name": {
-      "en": "Landmine Press (Standing)",
-      "nl": "Landmine Press (Standing)"
-    },
-    "aliases": [
-      "Landmine Press",
-      "Landmine Press Standing",
-      "Standing"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Chest",
-      "nl": "Schouders / Borst"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Stand tall with feet shoulder-width apart.",
-        "Hold the end of the barbell sleeve with one hand at shoulder level in a landmine setup.",
-        "Press the bar diagonally upward and forward until your arm is fully locked out.",
-        "Lean slightly into the direction of the movement."
-      ],
-      "nl": [
-        "Sta rechtop, voeten op schouderbreedte.",
-        "Houd het uiteinde van de stang met één hand bij je schouder.",
-        "Duw de stang schuin omhoog en naar voren tot je arm gestrekt is.",
-        "Leun lichtjes in de beweging."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "RhFsaJt9DD4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Simone Sports Performance",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "barbell_landmine_row_single_arm",
     "exercise_name": {
       "en": "Landmine Single Arm Row",
@@ -2163,94 +2071,6 @@
           "aspect_ratio": "9:16",
           "channel": "Andrew Kwong (DeltaBolic)",
           "rating": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "barbell_pullover",
-    "exercise_name": {
-      "en": "Barbell Pullover",
-      "nl": "Barbell Pullover"
-    },
-    "aliases": [
-      "Barbell Pullover"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Back & Chest",
-      "nl": "Rug / Borst"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Lie crosswise or straight on the bench.",
-        "Hold the bar above your chest with slightly bent arms.",
-        "Lower the bar slowly behind your head toward the floor in a skull crusher motion."
-      ],
-      "nl": [
-        "Lig dwars of recht op het bankje.",
-        "Houd de stang boven je borst met licht gebogen armen.",
-        "Laat de stang langzaam achter je hoofd zakken richting de grond."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "barbell_landmine_row_single_arm"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "LE8PvCCecUI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "KC FITNESS",
-          "rating": 5
         }
       ]
     },
@@ -3852,111 +3672,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Cole Marmor",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "barbell_shrug",
-    "exercise_name": {
-      "en": "Barbell Shrug",
-      "nl": "Barbell Shrug"
-    },
-    "aliases": [
-      "Barbell Shrug",
-      "Barbell_Shrug"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "trapezius"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Stand erect holding a barbell in front of you with an overhand grip slightly wider than shoulder width.",
-        "Raise your shoulders straight up toward your ears as high as possible without bending elbows.",
-        "Hold the peak contraction for one second at the top.",
-        "Slowly lower shoulders back down to the start."
-      ],
-      "nl": [
-        "Sta rechtop en houd een halterstang voor je dijen met een bovenhandse greep op schouderbreedte.",
-        "Trek je schouders recht omhoog richting je oren zonder je ellebogen te buigen.",
-        "Houd de samentrekking bovenin één seconde vast.",
-        "Laat je schouders rustig en gecontroleerd weer zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lift straight up and down; do not roll your shoulders in circles.",
-        "Keep your arms acting strictly as hanging hooks."
-      ],
-      "nl": [
-        "Beweeg puur recht omhoog en omlaag; draai je schouders niet rond.",
-        "Gebruik je armen alleen als haken en buig je ellebogen niet."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shrug/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shrug/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "n4ldvAoSZiY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Coach Mstafa",
-          "rating": 5
-        },
-        {
-          "youtube_id": "s9cIH855q5A",
-          "type": "short",
-          "priority": 2,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "KC FITNESS",
           "rating": 5
         }
       ]
@@ -8628,104 +8343,6 @@
     }
   },
   {
-    "id": "barbell_plate_pinch",
-    "exercise_name": {
-      "en": "Plate Pinch",
-      "nl": "Plate Pinch"
-    },
-    "aliases": [
-      "Plate Pinch",
-      "Pinch Grip Hold",
-      "Standing Olympic Plate Hand Squeeze",
-      "Staande Schijf Knijpkracht"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "forearms"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Grab two wide-rimmed plates and put them together with the smooth sides facing outward",
-        "Use your fingers to grip the outside part of the plate and your thumb for the other side thus holding both plates together. This is the starting position.",
-        "Squeeze the plate with your fingers and thumb. Hold this position for as long as you can.",
-        "Repeat for the recommended amount of sets prescribed in your program.",
-        "Switch arms and repeat the movements."
-      ],
-      "nl": [
-        "Plaats twee gewichtsschijven tegen elkaar met de gladde zijden naar buiten gericht.",
-        "Knijp de schijven stevig tussen je duim en vingers vast aan de bovenrand.",
-        "Til de schijven van de grond en houd deze knijpgreep zo lang mogelijk vast.",
-        "Zet de schijven beheerst neer en herhaal aan de andere zijde."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep fingers and thumb actively pinching without wrapping palm over the plate edge.",
-        "Stand tall with an engaged core and neutral shoulders."
-      ],
-      "nl": [
-        "Knijp zuiver met je vingertoppen en duim zonder je handpalm eroverheen te leggen.",
-        "Sta rechtop met aangespannen buikspieren en ontspannen schouders."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plate_Pinch/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plate_Pinch/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "_cdWkwQGffU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Jesse McJannett",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "barbell_power_clean",
     "exercise_name": {
       "en": "Power Clean",
@@ -12322,6 +11939,377 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Movement Physio",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "barbell_landmine_press_standing",
+    "exercise_name": {
+      "en": "Landmine Press (Standing)",
+      "nl": "Landmine Press (Standing)"
+    },
+    "aliases": [
+      "Landmine Press",
+      "Landmine Press Standing",
+      "Standing"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Chest",
+      "nl": "Schouders / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with feet shoulder-width apart.",
+        "Hold the end of the barbell sleeve with one hand at shoulder level in a landmine setup.",
+        "Press the bar diagonally upward and forward until your arm is fully locked out.",
+        "Lean slightly into the direction of the movement."
+      ],
+      "nl": [
+        "Sta rechtop, voeten op schouderbreedte.",
+        "Houd het uiteinde van de stang met één hand bij je schouder.",
+        "Duw de stang schuin omhoog en naar voren tot je arm gestrekt is.",
+        "Leun lichtjes in de beweging."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "RhFsaJt9DD4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Simone Sports Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "barbell_pullover",
+    "exercise_name": {
+      "en": "Barbell Pullover",
+      "nl": "Barbell Pullover"
+    },
+    "aliases": [
+      "Barbell Pullover"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Back & Chest",
+      "nl": "Rug / Borst"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie crosswise or straight on the bench.",
+        "Hold the bar above your chest with slightly bent arms.",
+        "Lower the bar slowly behind your head toward the floor in a skull crusher motion."
+      ],
+      "nl": [
+        "Lig dwars of recht op het bankje.",
+        "Houd de stang boven je borst met licht gebogen armen.",
+        "Laat de stang langzaam achter je hoofd zakken richting de grond."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "barbell_landmine_row_single_arm"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "LE8PvCCecUI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "KC FITNESS",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "barbell_shrug",
+    "exercise_name": {
+      "en": "Barbell Shrug",
+      "nl": "Barbell Shrug"
+    },
+    "aliases": [
+      "Barbell Shrug",
+      "Barbell_Shrug"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Stand erect holding a barbell in front of you with an overhand grip slightly wider than shoulder width.",
+        "Raise your shoulders straight up toward your ears as high as possible without bending elbows.",
+        "Hold the peak contraction for one second at the top.",
+        "Slowly lower shoulders back down to the start."
+      ],
+      "nl": [
+        "Sta rechtop en houd een halterstang voor je dijen met een bovenhandse greep op schouderbreedte.",
+        "Trek je schouders recht omhoog richting je oren zonder je ellebogen te buigen.",
+        "Houd de samentrekking bovenin één seconde vast.",
+        "Laat je schouders rustig en gecontroleerd weer zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lift straight up and down; do not roll your shoulders in circles.",
+        "Keep your arms acting strictly as hanging hooks."
+      ],
+      "nl": [
+        "Beweeg puur recht omhoog en omlaag; draai je schouders niet rond.",
+        "Gebruik je armen alleen als haken en buig je ellebogen niet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shrug/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Barbell_Shrug/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "n4ldvAoSZiY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Coach Mstafa",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "barbell_plate_pinch",
+    "exercise_name": {
+      "en": "Plate Pinch",
+      "nl": "Plate Pinch"
+    },
+    "aliases": [
+      "Plate Pinch",
+      "Pinch Grip Hold"
+    ],
+    "material": {
+      "id": "barbell",
+      "name": {
+        "en": "Barbell",
+        "nl": "Halterstang"
+      },
+      "description": {
+        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
+        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "forearms"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Grab two wide-rimmed plates and put them together with the smooth sides facing outward",
+        "Use your fingers to grip the outside part of the plate and your thumb for the other side thus holding both plates together. This is the starting position.",
+        "Squeeze the plate with your fingers and thumb. Hold this position for as long as you can.",
+        "Repeat for the recommended amount of sets prescribed in your program.",
+        "Switch arms and repeat the movements."
+      ],
+      "nl": [
+        "Plaats twee gewichtsschijven tegen elkaar met de gladde zijden naar buiten gericht.",
+        "Knijp de schijven stevig tussen je duim en vingers vast aan de bovenrand.",
+        "Til de schijven van de grond en houd deze knijpgreep zo lang mogelijk vast.",
+        "Zet de schijven beheerst neer en herhaal aan de andere zijde."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep fingers and thumb actively pinching without wrapping palm over the plate edge.",
+        "Stand tall with an engaged core and neutral shoulders."
+      ],
+      "nl": [
+        "Knijp zuiver met je vingertoppen en duim zonder je handpalm eroverheen te leggen.",
+        "Sta rechtop met aangespannen buikspieren en ontspannen schouders."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plate_Pinch/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plate_Pinch/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "_cdWkwQGffU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Jesse McJannett",
           "rating": 5
         }
       ]

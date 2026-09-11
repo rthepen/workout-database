@@ -1,101 +1,5 @@
 [
   {
-    "id": "ez_bar_bodyweight_flyes",
-    "exercise_name": {
-      "en": "Bodyweight Flyes",
-      "nl": "Bodyweight Flyes"
-    },
-    "aliases": [
-      "Bodyweight Flyes",
-      "Bodyweight_Flyes"
-    ],
-    "material": {
-      "id": "ez_bar",
-      "name": {
-        "en": "EZ Bar",
-        "nl": "EZ-Curlstang / EZ-Stang"
-      },
-      "description": {
-        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
-        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals"
-      ],
-      "secondary": [
-        "rectus_abdominis",
-        "deltoids",
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Assume a push-up position with hands gripping two loaded, rolling EZ bars on the floor.",
-        "Slowly roll the bars outward away from your midline, lowering your chest toward the floor.",
-        "Pull the bars back together forcefully using your chest muscles to return to the starting plank."
-      ],
-      "nl": [
-        "Neem een opdrukhouding aan met je handen op twee rollende stangen op de vloer.",
-        "Rol de stangen langzaam zijwaarts naar buiten en laat je borst naar de grond zakken.",
-        "Trek de stangen vanuit je borstspieren weer naar elkaar toe omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Maintain slight elbow bend to protect biceps tendons."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Houd je ellebogen licht gebogen om overstrekking te voorkomen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Flyes/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Flyes/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "2jr1z5OZsLY",
-          "type": "standard",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "16:9",
-          "channel": "GymPaws",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T17:25:55.823Z"
-    }
-  },
-  {
     "id": "ez_bar_preacher_curl",
     "exercise_name": {
       "en": "Preacher Curl",
@@ -578,6 +482,103 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_bodyweight_flyes",
+    "exercise_name": {
+      "en": "Bodyweight Flyes",
+      "nl": "Bodyweight Flyes"
+    },
+    "aliases": [
+      "Bodyweight Flyes",
+      "Bodyweight_Flyes"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Assume a push-up position with hands gripping two loaded, rolling EZ bars on the floor.",
+        "Slowly roll the bars outward away from your midline, lowering your chest toward the floor.",
+        "Pull the bars back together forcefully using your chest muscles to return to the starting plank."
+      ],
+      "nl": [
+        "Neem een opdrukhouding aan met je handen op twee rollende stangen op de vloer.",
+        "Rol de stangen langzaam zijwaarts naar buiten en laat je borst naar de grond zakken.",
+        "Trek de stangen vanuit je borstspieren weer naar elkaar toe omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Maintain slight elbow bend to protect biceps tendons."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Houd je ellebogen licht gebogen om overstrekking te voorkomen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Flyes/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Flyes/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "2jr1z5OZsLY",
+          "type": "standard",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "16:9",
+          "channel": "GymPaws",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T13:06:57.301Z"
     }
   }
 ]
