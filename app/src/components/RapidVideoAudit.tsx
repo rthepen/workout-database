@@ -316,8 +316,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     } else if (sortBy === 'difficulty') {
       const diffRank: Record<string, number> = { beginner: 1, intermediate: 2, advanced: 3 };
       list.sort((a, b) => {
-        const diffA = difficulties[a.id] || a.attributes?.difficulty || 'beginner';
-        const diffB = difficulties[b.id] || b.attributes?.difficulty || 'beginner';
+        const diffA = a.attributes?.difficulty || 'beginner';
+        const diffB = b.attributes?.difficulty || 'beginner';
         const rankA = diffRank[diffA] || 1;
         const rankB = diffRank[diffB] || 1;
         if (rankA !== rankB) return rankA - rankB;
@@ -327,8 +327,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       });
     } else if (sortBy === 'rating_asc') {
       list.sort((a, b) => {
-        const ratingA = ratings[a.id] !== undefined ? ratings[a.id] : (a.attributes?.rating || 0);
-        const ratingB = ratings[b.id] !== undefined ? ratings[b.id] : (b.attributes?.rating || 0);
+        const ratingA = a.attributes?.rating || 0;
+        const ratingB = b.attributes?.rating || 0;
         if (ratingA !== ratingB) return ratingA - ratingB;
         const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
@@ -336,8 +336,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
       });
     } else if (sortBy === 'rating_desc') {
       list.sort((a, b) => {
-        const ratingA = ratings[a.id] !== undefined ? ratings[a.id] : (a.attributes?.rating || 0);
-        const ratingB = ratings[b.id] !== undefined ? ratings[b.id] : (b.attributes?.rating || 0);
+        const ratingA = a.attributes?.rating || 0;
+        const ratingB = b.attributes?.rating || 0;
         if (ratingA !== ratingB) return ratingB - ratingA;
         const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
@@ -346,7 +346,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     }
 
     return list;
-  }, [filteredExercises, sortBy, difficulties, ratings]);
+  }, [filteredExercises, sortBy]);
 
   // Decision counts
   const removeList = useMemo(() => {
