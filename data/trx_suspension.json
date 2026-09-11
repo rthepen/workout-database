@@ -1,1493 +1,5 @@
 [
   {
-    "id": "trx_suspension_atomic_push_up",
-    "exercise_name": {
-      "en": "TRX Atomic Push Up",
-      "nl": "TRX Atomic Push Up"
-    },
-    "aliases": [
-      "TRX Atomic Push Up"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place your feet into the suspension foot straps.",
-        "Perform a push-up and then immediately pull your knees under your chest (Knee Tuck)."
-      ],
-      "nl": [
-        "Voeten in de beugels.",
-        "Maak een push-up en trek daarna direct je knieën onder je borst (Knee Tuck)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "G6ffhLIT2fM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 13,
-          "channel": "CU Anschutz Health and Wellness Center",
-          "likes": 52
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:31:57.382Z"
-    }
-  },
-  {
-    "id": "trx_suspension_bicep_curl",
-    "exercise_name": {
-      "en": "TRX Bicep Curl",
-      "nl": "TRX Bicep Curl"
-    },
-    "aliases": [
-      "TRX Bicep Curl"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Arms",
-      "nl": "Armen"
-    },
-    "target_muscles": {
-      "primary": [
-        "biceps_brachii"
-      ],
-      "secondary": [
-        "brachialis",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lean back, palms up.",
-        "Pull yourself up by bending only your elbows.",
-        "Bring your hands toward your forehead by bending your elbows."
-      ],
-      "nl": [
-        "Leun naar achteren, handpalmen omhoog.",
-        "Trek jezelf op door alleen je ellebogen te buigen.",
-        "Breng je handen naar je voorhoofd."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "BV3l5Q5t9fo",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 18,
-          "channel": "CU Anschutz Health and Wellness Center",
-          "likes": 398
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:52:55.362Z"
-    }
-  },
-  {
-    "id": "trx_suspension_hamstring_curl",
-    "exercise_name": {
-      "en": "TRX Hamstring Curl",
-      "nl": "TRX Hamstring Curl"
-    },
-    "aliases": [
-      "TRX Hamstring Curl"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Legs & Hamstrings",
-      "nl": "Benen / Hamstrings"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back, heels in the stirrups.",
-        "Lift your hips (bridge).",
-        "Curl your heels toward your glutes while keeping your hips elevated in a bridge."
-      ],
-      "nl": [
-        "Lig op je rug, hielen in de beugels.",
-        "Til je heupen op (brug).",
-        "Trek je hielen naar je billen terwijl je heupen hoog blijven."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "vI4kpwXIcZ8",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 20,
-          "channel": "Austin Longevity Clinic",
-          "likes": 430
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:54:01.197Z"
-    }
-  },
-  {
-    "id": "trx_suspension_hip_press",
-    "exercise_name": {
-      "en": "TRX Hip Press",
-      "nl": "TRX Hip Press"
-    },
-    "aliases": [
-      "TRX Hip Press"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Glutes & Hamstrings",
-      "nl": "Billen / Hamstrings"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back, heels in the stirrups, legs bent (90 degrees).",
-        "Drive your hips straight upward.",
-        "Focus on your buttocks."
-      ],
-      "nl": [
-        "Lig op je rug, hielen in de beugels, benen gebogen (90 graden).",
-        "Duw je heupen recht omhoog.",
-        "Focus op je billen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "tBQFbKmkm_0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 41,
-          "channel": "Emily Ackart",
-          "likes": 6
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:54:42.166Z"
-    }
-  },
-  {
-    "id": "trx_suspension_low_row",
-    "exercise_name": {
-      "en": "TRX Low Row",
-      "nl": "TRX Low Row"
-    },
-    "aliases": [
-      "TRX Low Row"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Back",
-      "nl": "Rug"
-    },
-    "target_muscles": {
-      "primary": [
-        "latissimus_dorsi",
-        "rhomboids"
-      ],
-      "secondary": [
-        "biceps_brachii",
-        "posterior_deltoid",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Walk your feet farther under the anchor point to increase resistance.",
-        "Drive your elbow straight back along your ribcage."
-      ],
-      "nl": [
-        "Loop verder onder het ankerpunt voor meer weerstand.",
-        "Trek je elleboog strak langs je lichaam naar achteren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Lead the pull with your elbows and initiate with scapular retraction.",
-        "Avoid using excessive momentum or swinging your torso."
-      ],
-      "nl": [
-        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
-        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "QmP_0YAkLwQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 29,
-          "channel": "Wasatch Fit Body",
-          "likes": 21
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:55:13.292Z"
-    }
-  },
-  {
-    "id": "trx_suspension_lunge",
-    "exercise_name": {
-      "en": "TRX Suspended Lunge",
-      "nl": "TRX Suspended Lunge"
-    },
-    "aliases": [
-      "TRX Suspended Lunge"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Legs & Balance",
-      "nl": "Benen / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "One foot in the stirrup (behind you), other foot on the ground.",
-        "Lower your front leg into a deep lunge and come back."
-      ],
-      "nl": [
-        "Eén voet in de beugel (achter je), andere voet op de grond.",
-        "Zak door je voorste been in een diepe lunge en kom terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "etHva65zwlI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 10,
-          "channel": "Rob Carr PT - TRX Trainer",
-          "likes": 30
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:55:51.586Z"
-    }
-  },
-  {
-    "id": "trx_suspension_mountain_climber",
-    "exercise_name": {
-      "en": "TRX Mountain Climber",
-      "nl": "TRX Mountain Climber"
-    },
-    "aliases": [
-      "TRX Mountain Climber"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Cardio & Core",
-      "nl": "Cardio / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Set your feet in the suspension straps in a full plank.",
-        "Quickly pull your knees towards your chest."
-      ],
-      "nl": [
-        "Voeten in de beugels, plank positie.",
-        "Trek om en om je knieën snel naar je borst."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ycyDni_h5W0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 27,
-          "channel": "Vitruvian Fitness®",
-          "likes": 769
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:57:23.026Z"
-    }
-  },
-  {
-    "id": "trx_suspension_pike",
-    "exercise_name": {
-      "en": "TRX Pike",
-      "nl": "TRX Pike"
-    },
-    "aliases": [
-      "TRX Pike"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place feet in the suspension straps and hands flat on the floor.",
-        "Keep your legs straight and push your hips as high into the air as possible (V-shape)."
-      ],
-      "nl": [
-        "Voeten in de beugels, handen op de grond.",
-        "Houd benen gestrekt en duw je heupen zo hoog mogelijk de lucht in (V-vorm)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "DI6Il9X94o0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 5,
-          "channel": "Capable Strength",
-          "likes": 16
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:59:11.778Z"
-    }
-  },
-  {
-    "id": "trx_suspension_power_pull",
-    "exercise_name": {
-      "en": "TRX Power Pull",
-      "nl": "TRX Power Pull"
-    },
-    "aliases": [
-      "TRX Power Pull"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Rotation & Back",
-      "nl": "Rotatie / Rug"
-    },
-    "target_muscles": {
-      "primary": [
-        "obliques",
-        "rectus_abdominis"
-      ],
-      "secondary": [
-        "transverse_abdominis",
-        "erector_spinae"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "pull",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Grasp one handle firmly with a single hand.",
-        "Lean back and rotate your free arm down toward the floor.",
-        "Pull yourself up with rotation and tap the suspension strap at the top."
-      ],
-      "nl": [
-        "Houd één handvat vast.",
-        "Leun achterover en roteer je vrije arm naar de grond.",
-        "Trek jezelf roterend omhoog en tik de TRX-band aan."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "HR7f8CGZ40M",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 17,
-          "channel": "TOTAL TRAINING FITNESS",
-          "likes": 27
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T06:59:56.427Z"
-    }
-  },
-  {
-    "id": "trx_suspension_side_plank",
-    "exercise_name": {
-      "en": "TRX Side Plank",
-      "nl": "TRX Side Plank"
-    },
-    "aliases": [
-      "TRX Side Plank"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Core & Obliques",
-      "nl": "Core / Obliques"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place both feet in the stirrups.",
-        "Turn on your side and rest on your forearm.",
-        "Elevate your hips into a bridge and hold the position."
-      ],
-      "nl": [
-        "Doe beide voeten in de beugels.",
-        "Draai op je zij en steun op je onderarm.",
-        "Til je heupen op en houd vast."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ZZSCWGCKWqA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 14,
-          "channel": "TRXtraining",
-          "likes": 217
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:03:16.935Z"
-    }
-  },
-  {
-    "id": "trx_suspension_sprinter_start",
-    "exercise_name": {
-      "en": "TRX Sprinter Start",
-      "nl": "TRX Sprinter Start"
-    },
-    "aliases": [
-      "TRX Sprinter Start"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Legs & Cardio",
-      "nl": "Benen / Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "cardiovascular_system",
-        "quadriceps"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Clamp the straps under your armpits, lean forward (as in a starting block).",
-        "Step back into a sprinter stance and drive your rear knee explosively forward."
-      ],
-      "nl": [
-        "Klem de banden onder je oksels, leun naar voren (als in een startblok).",
-        "Stap met één been naar achteren en drijf je knie explosief naar voren."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "CzdXmfMj0qc",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 5,
-          "channel": "Ray Shepler",
-          "likes": 4
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:04:07.503Z"
-    }
-  },
-  {
-    "id": "trx_suspension_squat",
-    "exercise_name": {
-      "en": "TRX Squat",
-      "nl": "TRX Squat"
-    },
-    "aliases": [
-      "TRX Squat"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Legs",
-      "nl": "Benen"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hold the handles, arms slightly bent.",
-        "Lower back into a squat.",
-        "Only use the TRX for balance, push up from your legs."
-      ],
-      "nl": [
-        "Houd de handvatten vast, armen licht gebogen.",
-        "Zak naar achteren in een squat.",
-        "Gebruik de TRX alleen voor balans, duw vanuit je benen omhoog."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "LOOFBkmBlGU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 5,
-          "channel": "Your4® - Matt & Meag",
-          "likes": 154
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:05:04.246Z"
-    }
-  },
-  {
-    "id": "trx_suspension_standing_roll_out",
-    "exercise_name": {
-      "en": "TRX Standing Roll Out",
-      "nl": "TRX Standing Roll Out"
-    },
-    "aliases": [
-      "TRX Standing Roll Out"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Core & Abs",
-      "nl": "Core / Abs"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand upright with hands extended in front of you.",
-        "Lean forward and extend your arms straight up/forward.",
-        "Feel the stretch on your abdominal muscles and pull back."
-      ],
-      "nl": [
-        "Sta rechtop, handen voor je.",
-        "Leun naar voren en breng je armen gestrekt omhoog/naar voren.",
-        "Voel de rek op je buikspieren en trek terug."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "_KcM1NBI5r4",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 24,
-          "channel": "Tone with Tati",
-          "likes": 57
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:08:37.450Z"
-    }
-  },
-  {
-    "id": "trx_suspension_t_fly",
-    "exercise_name": {
-      "en": "TRX T-Fly (Rear Delt)",
-      "nl": "TRX T-Fly (Rear Delt)"
-    },
-    "aliases": [
-      "Rear Delt",
-      "TRX T-Fly",
-      "TRX T-Fly Rear Delt"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Shoulders & Back",
-      "nl": "Schouders / Rug"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Start with your arms extended straight in front of your chest.",
-        "Pull yourself up by spreading your arms wide outwards (T-shape).",
-        "Maintain constant tension on your rear deltoids."
-      ],
-      "nl": [
-        "Start met gestrekte armen voor je.",
-        "Trek jezelf omhoog door je armen wijd naar buiten te spreiden (T-vorm).",
-        "Houd spanning op de achterkant schouders."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "L25Cx58WSdg",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 26,
-          "channel": "MuscleWiki",
-          "likes": 31
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:10:17.188Z"
-    }
-  },
-  {
-    "id": "trx_suspension_tricep_extension",
-    "exercise_name": {
-      "en": "TRX Tricep Press",
-      "nl": "TRX Tricep Press"
-    },
-    "aliases": [
-      "TRX Tricep Press"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Arms",
-      "nl": "Armen"
-    },
-    "target_muscles": {
-      "primary": [
-        "triceps_brachii"
-      ],
-      "secondary": [
-        "anterior_deltoid",
-        "pectorals"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lean forward, arms extended in front of you.",
-        "Bend your elbows to lower your forehead toward your hands.",
-        "Push out from your triceps."
-      ],
-      "nl": [
-        "Leun naar voren, armen gestrekt voor je uit.",
-        "Buig je ellebogen en laat je voorhoofd richting je handen zakken.",
-        "Duw uit vanuit je triceps."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain an active, braced core and steady breathing cadence.",
-        "Focus on quality of movement and full range of motion."
-      ],
-      "nl": [
-        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
-        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "ZwuG20LhsNA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "duration_seconds": 16,
-          "channel": "CU Anschutz Health and Wellness Center",
-          "likes": 291
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-02T07:15:45.482Z"
-    }
-  },
-  {
-    "id": "trx_suspension_push_up",
-    "exercise_name": {
-      "en": "TRX Push Up",
-      "nl": "TRX Push Up"
-    },
-    "aliases": [
-      "TRX Push Up"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place hands in the suspension straps and lean forward into a suspended plank.",
-        "Perform a full range-of-motion push-up.",
-        "Significantly more unstable than performing on the solid floor!"
-      ],
-      "nl": [
-        "Handen in de beugels, lichaam voorover (plank).",
-        "Maak een push-up.",
-        "Instabieler dan op de grond!"
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "trx_suspension_pistol_squat"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "Ty8D4iFmFOI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Propel Fitness Center",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T10:51:34.778Z"
-    }
-  },
-  {
-    "id": "trx_suspension_pistol_squat",
-    "exercise_name": {
-      "en": "TRX Pistol Squat",
-      "nl": "TRX Pistol Squat"
-    },
-    "aliases": [
-      "TRX Pistol Squat"
-    ],
-    "material": {
-      "id": "trx_suspension",
-      "name": {
-        "en": "TRX / Suspension Trainer",
-        "nl": "TRX / Suspension Trainer"
-      },
-      "description": {
-        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
-        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "advanced",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Descend into a single-leg pistol squat with control.",
-        "Use the TRX for balance and light support when rising."
-      ],
-      "nl": [
-        "Maak een squat op één been.",
-        "Gebruik de TRX voor balans en lichte ondersteuning bij het omhoog komen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "trx_suspension_row"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "sTtgBOMgAuE",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Rob Carr PT - TRX Trainer",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T10:51:34.778Z"
-    }
-  },
-  {
     "id": "trx_suspension_row",
     "exercise_name": {
       "en": "TRX Row",
@@ -1746,6 +258,1511 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "trx_suspension_atomic_push_up",
+    "exercise_name": {
+      "en": "TRX Atomic Push Up",
+      "nl": "TRX Atomic Push Up"
+    },
+    "aliases": [
+      "TRX Atomic Push Up"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Place your feet into the suspension foot straps.",
+        "Perform a push-up and then immediately pull your knees under your chest (Knee Tuck)."
+      ],
+      "nl": [
+        "Voeten in de beugels.",
+        "Maak een push-up en trek daarna direct je knieën onder je borst (Knee Tuck)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "G6ffhLIT2fM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 13,
+          "channel": "CU Anschutz Health and Wellness Center",
+          "likes": 52
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_bicep_curl",
+    "exercise_name": {
+      "en": "TRX Bicep Curl",
+      "nl": "TRX Bicep Curl"
+    },
+    "aliases": [
+      "TRX Bicep Curl"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Arms",
+      "nl": "Armen"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "brachialis",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lean back, palms up.",
+        "Pull yourself up by bending only your elbows.",
+        "Bring your hands toward your forehead by bending your elbows."
+      ],
+      "nl": [
+        "Leun naar achteren, handpalmen omhoog.",
+        "Trek jezelf op door alleen je ellebogen te buigen.",
+        "Breng je handen naar je voorhoofd."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "BV3l5Q5t9fo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 18,
+          "channel": "CU Anschutz Health and Wellness Center",
+          "likes": 398
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_hamstring_curl",
+    "exercise_name": {
+      "en": "TRX Hamstring Curl",
+      "nl": "TRX Hamstring Curl"
+    },
+    "aliases": [
+      "TRX Hamstring Curl"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Legs & Hamstrings",
+      "nl": "Benen / Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, heels in the stirrups.",
+        "Lift your hips (bridge).",
+        "Curl your heels toward your glutes while keeping your hips elevated in a bridge."
+      ],
+      "nl": [
+        "Lig op je rug, hielen in de beugels.",
+        "Til je heupen op (brug).",
+        "Trek je hielen naar je billen terwijl je heupen hoog blijven."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "vI4kpwXIcZ8",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 20,
+          "channel": "Austin Longevity Clinic",
+          "likes": 430
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_hip_press",
+    "exercise_name": {
+      "en": "TRX Hip Press",
+      "nl": "TRX Hip Press"
+    },
+    "aliases": [
+      "TRX Hip Press"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Glutes & Hamstrings",
+      "nl": "Billen / Hamstrings"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back, heels in the stirrups, legs bent (90 degrees).",
+        "Drive your hips straight upward.",
+        "Focus on your buttocks."
+      ],
+      "nl": [
+        "Lig op je rug, hielen in de beugels, benen gebogen (90 graden).",
+        "Duw je heupen recht omhoog.",
+        "Focus op je billen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "tBQFbKmkm_0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 41,
+          "channel": "Emily Ackart",
+          "likes": 6
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_low_row",
+    "exercise_name": {
+      "en": "TRX Low Row",
+      "nl": "TRX Low Row"
+    },
+    "aliases": [
+      "TRX Low Row"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Back",
+      "nl": "Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "latissimus_dorsi",
+        "rhomboids"
+      ],
+      "secondary": [
+        "biceps_brachii",
+        "posterior_deltoid",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Walk your feet farther under the anchor point to increase resistance.",
+        "Drive your elbow straight back along your ribcage."
+      ],
+      "nl": [
+        "Loop verder onder het ankerpunt voor meer weerstand.",
+        "Trek je elleboog strak langs je lichaam naar achteren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Lead the pull with your elbows and initiate with scapular retraction.",
+        "Avoid using excessive momentum or swinging your torso."
+      ],
+      "nl": [
+        "Trek vanuit je ellebogen en begin de beweging door je schouderbladen aan te spannen.",
+        "Voorkom zwaaien met je bovenlichaam en houd de beweging gecontroleerd."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "QmP_0YAkLwQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 29,
+          "channel": "Wasatch Fit Body",
+          "likes": 21
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_lunge",
+    "exercise_name": {
+      "en": "TRX Suspended Lunge",
+      "nl": "TRX Suspended Lunge"
+    },
+    "aliases": [
+      "TRX Suspended Lunge"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Legs & Balance",
+      "nl": "Benen / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "One foot in the stirrup (behind you), other foot on the ground.",
+        "Lower your front leg into a deep lunge and come back."
+      ],
+      "nl": [
+        "Eén voet in de beugel (achter je), andere voet op de grond.",
+        "Zak door je voorste been in een diepe lunge en kom terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "etHva65zwlI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 10,
+          "channel": "Rob Carr PT - TRX Trainer",
+          "likes": 30
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_mountain_climber",
+    "exercise_name": {
+      "en": "TRX Mountain Climber",
+      "nl": "TRX Mountain Climber"
+    },
+    "aliases": [
+      "TRX Mountain Climber"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Cardio & Core",
+      "nl": "Cardio / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Set your feet in the suspension straps in a full plank.",
+        "Quickly pull your knees towards your chest."
+      ],
+      "nl": [
+        "Voeten in de beugels, plank positie.",
+        "Trek om en om je knieën snel naar je borst."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ycyDni_h5W0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 27,
+          "channel": "Vitruvian Fitness®",
+          "likes": 769
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_pike",
+    "exercise_name": {
+      "en": "TRX Pike",
+      "nl": "TRX Pike"
+    },
+    "aliases": [
+      "TRX Pike"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Place feet in the suspension straps and hands flat on the floor.",
+        "Keep your legs straight and push your hips as high into the air as possible (V-shape)."
+      ],
+      "nl": [
+        "Voeten in de beugels, handen op de grond.",
+        "Houd benen gestrekt en duw je heupen zo hoog mogelijk de lucht in (V-vorm)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "DI6Il9X94o0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 5,
+          "channel": "Capable Strength",
+          "likes": 16
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_power_pull",
+    "exercise_name": {
+      "en": "TRX Power Pull",
+      "nl": "TRX Power Pull"
+    },
+    "aliases": [
+      "TRX Power Pull"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Rotation & Back",
+      "nl": "Rotatie / Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "obliques",
+        "rectus_abdominis"
+      ],
+      "secondary": [
+        "transverse_abdominis",
+        "erector_spinae"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Grasp one handle firmly with a single hand.",
+        "Lean back and rotate your free arm down toward the floor.",
+        "Pull yourself up with rotation and tap the suspension strap at the top."
+      ],
+      "nl": [
+        "Houd één handvat vast.",
+        "Leun achterover en roteer je vrije arm naar de grond.",
+        "Trek jezelf roterend omhoog en tik de TRX-band aan."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "HR7f8CGZ40M",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 17,
+          "channel": "TOTAL TRAINING FITNESS",
+          "likes": 27
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_side_plank",
+    "exercise_name": {
+      "en": "TRX Side Plank",
+      "nl": "TRX Side Plank"
+    },
+    "aliases": [
+      "TRX Side Plank"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Core & Obliques",
+      "nl": "Core / Obliques"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Place both feet in the stirrups.",
+        "Turn on your side and rest on your forearm.",
+        "Elevate your hips into a bridge and hold the position."
+      ],
+      "nl": [
+        "Doe beide voeten in de beugels.",
+        "Draai op je zij en steun op je onderarm.",
+        "Til je heupen op en houd vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ZZSCWGCKWqA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 14,
+          "channel": "TRXtraining",
+          "likes": 217
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_sprinter_start",
+    "exercise_name": {
+      "en": "TRX Sprinter Start",
+      "nl": "TRX Sprinter Start"
+    },
+    "aliases": [
+      "TRX Sprinter Start"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Legs & Cardio",
+      "nl": "Benen / Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "cardiovascular_system",
+        "quadriceps"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "gluteus_maximus",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Clamp the straps under your armpits, lean forward (as in a starting block).",
+        "Step back into a sprinter stance and drive your rear knee explosively forward."
+      ],
+      "nl": [
+        "Klem de banden onder je oksels, leun naar voren (als in een startblok).",
+        "Stap met één been naar achteren en drijf je knie explosief naar voren."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "CzdXmfMj0qc",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 5,
+          "channel": "Ray Shepler",
+          "likes": 4
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_squat",
+    "exercise_name": {
+      "en": "TRX Squat",
+      "nl": "TRX Squat"
+    },
+    "aliases": [
+      "TRX Squat"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Legs",
+      "nl": "Benen"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the handles, arms slightly bent.",
+        "Lower back into a squat.",
+        "Only use the TRX for balance, push up from your legs."
+      ],
+      "nl": [
+        "Houd de handvatten vast, armen licht gebogen.",
+        "Zak naar achteren in een squat.",
+        "Gebruik de TRX alleen voor balans, duw vanuit je benen omhoog."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "LOOFBkmBlGU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 5,
+          "channel": "Your4® - Matt & Meag",
+          "likes": 154
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_standing_roll_out",
+    "exercise_name": {
+      "en": "TRX Standing Roll Out",
+      "nl": "TRX Standing Roll Out"
+    },
+    "aliases": [
+      "TRX Standing Roll Out"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Core & Abs",
+      "nl": "Core / Abs"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Stand upright with hands extended in front of you.",
+        "Lean forward and extend your arms straight up/forward.",
+        "Feel the stretch on your abdominal muscles and pull back."
+      ],
+      "nl": [
+        "Sta rechtop, handen voor je.",
+        "Leun naar voren en breng je armen gestrekt omhoog/naar voren.",
+        "Voel de rek op je buikspieren en trek terug."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "_KcM1NBI5r4",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 24,
+          "channel": "Tone with Tati",
+          "likes": 57
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_t_fly",
+    "exercise_name": {
+      "en": "TRX T-Fly (Rear Delt)",
+      "nl": "TRX T-Fly (Rear Delt)"
+    },
+    "aliases": [
+      "Rear Delt",
+      "TRX T-Fly",
+      "TRX T-Fly Rear Delt"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Shoulders & Back",
+      "nl": "Schouders / Rug"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Start with your arms extended straight in front of your chest.",
+        "Pull yourself up by spreading your arms wide outwards (T-shape).",
+        "Maintain constant tension on your rear deltoids."
+      ],
+      "nl": [
+        "Start met gestrekte armen voor je.",
+        "Trek jezelf omhoog door je armen wijd naar buiten te spreiden (T-vorm).",
+        "Houd spanning op de achterkant schouders."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "L25Cx58WSdg",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 26,
+          "channel": "MuscleWiki",
+          "likes": 31
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_tricep_extension",
+    "exercise_name": {
+      "en": "TRX Tricep Press",
+      "nl": "TRX Tricep Press"
+    },
+    "aliases": [
+      "TRX Tricep Press"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Arms",
+      "nl": "Armen"
+    },
+    "target_muscles": {
+      "primary": [
+        "triceps_brachii"
+      ],
+      "secondary": [
+        "anterior_deltoid",
+        "pectorals"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lean forward, arms extended in front of you.",
+        "Bend your elbows to lower your forehead toward your hands.",
+        "Push out from your triceps."
+      ],
+      "nl": [
+        "Leun naar voren, armen gestrekt voor je uit.",
+        "Buig je ellebogen en laat je voorhoofd richting je handen zakken.",
+        "Duw uit vanuit je triceps."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain an active, braced core and steady breathing cadence.",
+        "Focus on quality of movement and full range of motion."
+      ],
+      "nl": [
+        "Blijf je buikspieren aanspannen en adem rustig en ritmisch door.",
+        "Focus op bewegingskwaliteit en het behouden van een volledige bewegingsuitslag."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "ZwuG20LhsNA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "duration_seconds": 16,
+          "channel": "CU Anschutz Health and Wellness Center",
+          "likes": 291
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_push_up",
+    "exercise_name": {
+      "en": "TRX Push Up",
+      "nl": "TRX Push Up"
+    },
+    "aliases": [
+      "TRX Push Up"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals",
+        "anterior_deltoid"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place hands in the suspension straps and lean forward into a suspended plank.",
+        "Perform a full range-of-motion push-up.",
+        "Significantly more unstable than performing on the solid floor!"
+      ],
+      "nl": [
+        "Handen in de beugels, lichaam voorover (plank).",
+        "Maak een push-up.",
+        "Instabieler dan op de grond!"
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [
+        "trx_suspension_pistol_squat"
+      ],
+      "regressions": []
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "Ty8D4iFmFOI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Propel Fitness Center",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "trx_suspension_pistol_squat",
+    "exercise_name": {
+      "en": "TRX Pistol Squat",
+      "nl": "TRX Pistol Squat"
+    },
+    "aliases": [
+      "TRX Pistol Squat"
+    ],
+    "material": {
+      "id": "trx_suspension",
+      "name": {
+        "en": "TRX / Suspension Trainer",
+        "nl": "TRX / Suspension Trainer"
+      },
+      "description": {
+        "en": "Adjustable strap suspension system using body angle and gravity for functional stability",
+        "nl": "Verstelbare suspension trainer die lichaamsgewicht en hoek benut voor stabiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "advanced",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Descend into a single-leg pistol squat with control.",
+        "Use the TRX for balance and light support when rising."
+      ],
+      "nl": [
+        "Maak een squat op één been.",
+        "Gebruik de TRX voor balans en lichte ondersteuning bij het omhoog komen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "trx_suspension_row"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "sTtgBOMgAuE",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Rob Carr PT - TRX Trainer",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
     }
   }
 ]

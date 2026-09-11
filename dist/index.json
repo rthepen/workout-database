@@ -1,7 +1,7 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-10T21:34:27.117035+00:00",
+  "last_updated_utc": "2026-09-11T08:14:09.904704+00:00",
   "total_exercises": 1029,
   "total_equipment_types": 31,
   "available_materials": {
@@ -57,12 +57,12 @@
     },
     "bosu_ball": {
       "name": {
-        "en": "BOSU Ball",
-        "nl": "Bosu Bal"
+        "en": "BOSU Ball & Cables",
+        "nl": "Bosu Bal & Kabel"
       },
       "description": {
-        "en": "Hemispherical balance trainer with flat platform and elastic dome",
-        "nl": "Halve balanskogel met platform voor stabiliteit, balans en corekracht"
+        "en": "Combination of hemispherical dome and dual low cables for core conditioning",
+        "nl": "Combinatie van bosubal en lage kabels voor instabiele buikspiertraining"
       }
     },
     "cable": {
@@ -71,18 +71,18 @@
         "nl": "Kabelstation"
       },
       "description": {
-        "en": "Cable pulley system with selectorized weight stacks for constant tension",
-        "nl": "Kabelsysteem met gewichtsstapel voor constante weerstand"
+        "en": "Adjustable dual-pulley cable column system",
+        "nl": "Verstelbaar dubbel kabelstation voor constante mechanische spanning"
       }
     },
     "cardio_equipment": {
       "name": {
         "en": "Cardio Equipment",
-        "nl": "Cardio-apparatuur"
+        "nl": "Cardio Apparaten"
       },
       "description": {
-        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
-        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
+        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
       }
     },
     "cones": {
@@ -277,12 +277,12 @@
     },
     "sprint_track": {
       "name": {
-        "en": "Sprint Track / Turf",
-        "nl": "Sprinttrack / Kunstgras"
+        "en": "Sprint Track / Sled Track",
+        "nl": "Sprintbaan / Sleebaan"
       },
       "description": {
         "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
+        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
       }
     },
     "standing_punching_bag": {

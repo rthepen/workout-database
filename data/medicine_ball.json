@@ -1,1036 +1,5 @@
 [
   {
-    "id": "medicine_ball_ball_lunges",
-    "exercise_name": {
-      "en": "Ball Lunges",
-      "nl": "Ball Lunges"
-    },
-    "aliases": [
-      "Ball Lunges"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hold the ball against your chest or above your head.",
-        "Perform walking lunges with upright posture.",
-        "Maintain an upright torso."
-      ],
-      "nl": [
-        "Houd de bal tegen de borst of boven het hoofd.",
-        "Maak lunges (uitvalspassen).",
-        "Blijf rechtop."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "_KqHc-RKO5Y",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "CrossFit Reignited",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T08:56:06.452Z"
-    }
-  },
-  {
-    "id": "medicine_ball_ball_back_extension",
-    "exercise_name": {
-      "en": "Ball Back Extension",
-      "nl": "Ball Back Extension"
-    },
-    "aliases": [
-      "Ball Back Extension"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Lie on your stomach over the ball (hips on the ball).",
-        "Clamp the feet or keep them on the ground.",
-        "Raise your upper body (straighten your back)."
-      ],
-      "nl": [
-        "Lig op de buik over de bal (heupen op de bal).",
-        "Klem de voeten vast of houd ze aan de grond.",
-        "Kom met het bovenlichaam omhoog (strek de rug)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "-VGatJfoRmA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Capable Strength",
-          "rating": 1
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T10:39:10.965Z"
-    }
-  },
-  {
-    "id": "medicine_ball_ball_sit_ups",
-    "exercise_name": {
-      "en": "Ball Sit Ups",
-      "nl": "Ball Sit Ups"
-    },
-    "aliases": [
-      "Ball Sit Ups"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Hold the ball against your chest or above your head.",
-        "Sit all the way up into an upright seated position."
-      ],
-      "nl": [
-        "Houd de bal tegen de borst of boven het hoofd.",
-        "Kom omhoog tot zit."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "XNXgqOVl2BI",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Sports Performance - Santa Clara University",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_ball_squat_press",
-    "exercise_name": {
-      "en": "Ball Squat Press",
-      "nl": "Ball Squat Press"
-    },
-    "aliases": [
-      "Ball Squat Press"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lower into a squat with the ball at chest height.",
-        "Come up and immediately push the ball upwards (thruster movement)."
-      ],
-      "nl": [
-        "Zak in een squat met de bal op borsthoogte.",
-        "Kom omhoog en duw de bal direct door naar boven (thruster beweging)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "6c2KOm1_n5g",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "GB",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_overhead_lunge_throws",
-    "exercise_name": {
-      "en": "Overhead Lunge Throws",
-      "nl": "Overhead Lunge Throws"
-    },
-    "aliases": [
-      "Overhead Lunge Throws"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "quadriceps",
-        "gluteus_maximus"
-      ],
-      "secondary": [
-        "calves",
-        "hamstrings",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Make a lunge and simultaneously throw the ball (that you held above your head) to a partner or wall."
-      ],
-      "nl": [
-        "Maak een lunge en gooi tegelijk de bal (die je boven je hoofd hield) naar een partner of muur."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "JD2wrDPKvDM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Ascension Performance",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_stir_the_pot",
-    "exercise_name": {
-      "en": "Stir The Pot",
-      "nl": "Stir The Pot"
-    },
-    "aliases": [
-      "Stir The Pot"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Abs & Core",
-      "nl": "Buikspieren"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Hold a plank resting your forearms on the medicine ball.",
-        "Rotate your elbows in circles without letting your torso move."
-      ],
-      "nl": [
-        "Plank met ellebogen op de bal.",
-        "Draai rondjes met de ellebogen zonder de romp mee te laten bewegen."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "5emkrYO7Kis",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Michael Butts",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_lateral_slam",
-    "exercise_name": {
-      "en": "Lateral Slam",
-      "nl": "Lateral Slam"
-    },
-    "aliases": [
-      "Lateral Slam"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Full Body Core",
-      "nl": "Core / Full Body"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Stand tall with the medicine ball pressed overhead.",
-        "Turn your body and forcefully throw the ball onto the ground on the outside of your foot.",
-        "Repeat on the other side."
-      ],
-      "nl": [
-        "Sta rechtop met de bal boven je hoofd.",
-        "Draai je lichaam en gooi de bal met kracht op de grond aan de buitenkant van je voet.",
-        "Herhaal aan de andere kant."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "M9ryqecCLf0",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Dr. Frank Tardi, PT, DPT, CSCS",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_toe_taps",
-    "exercise_name": {
-      "en": "Medicine Ball Toe Taps",
-      "nl": "Medicine Ball Toe Taps"
-    },
-    "aliases": [
-      "Medicine Ball Toe Taps"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Endurance",
-      "nl": "Cardio"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Place the medicine ball on the floor in front of you.",
-        "Tap the top of the ball alternately with the ball of your foot in a hopping motion."
-      ],
-      "nl": [
-        "Plaats de medicijnbal op de grond voor je.",
-        "Tik om en om met de bal van je voet de bovenkant van de bal aan met een huppelende beweging."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "y7ukZq8KMkU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "6 Pack Bootcamp",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_mountain_climbers",
-    "exercise_name": {
-      "en": "Medicine Ball Mountain Climbers",
-      "nl": "Medicine Ball Mountain Climbers"
-    },
-    "aliases": [
-      "Medicine Ball Mountain Climbers"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Cardio & Core",
-      "nl": "Cardio / Core"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place both hands on the ball in a plank position.",
-        "Quickly pull your knees alternately toward your chest while keeping the ball steady."
-      ],
-      "nl": [
-        "Plaats beide handen op de bal in een plankpositie.",
-        "Trek je knieën om en om snel naar je borst terwijl je de bal stabiel houdt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "VqbOhBqmzAk",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Ionic Fitness",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T13:00:49.921Z"
-    }
-  },
-  {
-    "id": "medicine_ball_single_leg_rdl",
-    "exercise_name": {
-      "en": "Single Leg RDL",
-      "nl": "Single Leg RDL"
-    },
-    "aliases": [
-      "Single Leg RDL"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Lower Body & Balance",
-      "nl": "Onderlichaam / Balans"
-    },
-    "target_muscles": {
-      "primary": [
-        "gluteus_maximus",
-        "hamstrings"
-      ],
-      "secondary": [
-        "erector_spinae",
-        "latissimus_dorsi",
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "dynamic",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Balance on one leg holding the medicine ball out in front of your chest.",
-        "Bend forward at your hips while stretching your free leg back.",
-        "Hold the ball directly under your shoulders."
-      ],
-      "nl": [
-        "Sta op één been en houd de bal voor je.",
-        "Buig voorover vanuit je heupen terwijl je vrije been naar achteren strekt.",
-        "Houd de bal recht onder je schouders."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
-      ],
-      "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "jh_tHqjiQoo",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "NeuStrength | Personal Trainer Wilmington NC",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T14:11:45.233Z"
-    }
-  },
-  {
-    "id": "medicine_ball_floor_press",
-    "exercise_name": {
-      "en": "Medicine Ball Floor Press",
-      "nl": "Medicine Ball Floor Press"
-    },
-    "aliases": [
-      "Medicine Ball Floor Press"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "deltoids",
-        "pectorals"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only"
-    },
-    "instructions": {
-      "en": [
-        "Lie on your back with the ball on your chest.",
-        "Push the ball straight up until your arms are fully extended and lower in a controlled manner."
-      ],
-      "nl": [
-        "Lig op je rug met de bal op je borst.",
-        "Duw de bal recht omhoog tot je armen volledig gestrekt zijn en laat gecontroleerd zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "wyx1qJ9AiEs",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Maiven McKnight",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T14:11:45.233Z"
-    }
-  },
-  {
-    "id": "medicine_ball_plank",
-    "exercise_name": {
-      "en": "Medicine Ball Plank",
-      "nl": "Medicine Ball Plank"
-    },
-    "aliases": [
-      "Medicine Ball Plank"
-    ],
-    "material": {
-      "id": "medicine_ball",
-      "name": {
-        "en": "Medicine Ball",
-        "nl": "Medicijnbal"
-      },
-      "description": {
-        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
-        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
-      }
-    },
-    "category": {
-      "en": "Core Stability",
-      "nl": "Core / Stabiliteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "transverse_abdominis"
-      ],
-      "secondary": [
-        "obliques",
-        "iliopsoas"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isometric",
-      "force_type": "isometric",
-      "tracking_type": "time_only"
-    },
-    "instructions": {
-      "en": [
-        "Place both hands onto the medicine ball and assume a plank position.",
-        "Tighten your abdominal muscles and buttocks to keep your body in a straight line."
-      ],
-      "nl": [
-        "Plaats beide handen op de bal en neem een plankpositie aan.",
-        "Span je buikspieren en billen aan om je lichaam in een rechte lijn te houden."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": [
-        "medicine_ball_wall_balls"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "MRQbHLicfrQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "123 Workouts",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-09T14:11:45.233Z"
-    }
-  },
-  {
     "id": "medicine_ball_catch_overhead_throw",
     "exercise_name": {
       "en": "Catch and Overhead Throw",
@@ -2299,6 +1268,1048 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T21:32:26.028Z"
+    }
+  },
+  {
+    "id": "medicine_ball_ball_lunges",
+    "exercise_name": {
+      "en": "Ball Lunges",
+      "nl": "Ball Lunges"
+    },
+    "aliases": [
+      "Ball Lunges"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the ball against your chest or above your head.",
+        "Perform walking lunges with upright posture.",
+        "Maintain an upright torso."
+      ],
+      "nl": [
+        "Houd de bal tegen de borst of boven het hoofd.",
+        "Maak lunges (uitvalspassen).",
+        "Blijf rechtop."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "_KqHc-RKO5Y",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "CrossFit Reignited",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_ball_back_extension",
+    "exercise_name": {
+      "en": "Ball Back Extension",
+      "nl": "Ball Back Extension"
+    },
+    "aliases": [
+      "Ball Back Extension"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your stomach over the ball (hips on the ball).",
+        "Clamp the feet or keep them on the ground.",
+        "Raise your upper body (straighten your back)."
+      ],
+      "nl": [
+        "Lig op de buik over de bal (heupen op de bal).",
+        "Klem de voeten vast of houd ze aan de grond.",
+        "Kom met het bovenlichaam omhoog (strek de rug)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "-VGatJfoRmA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Capable Strength",
+          "rating": 1
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_ball_sit_ups",
+    "exercise_name": {
+      "en": "Ball Sit Ups",
+      "nl": "Ball Sit Ups"
+    },
+    "aliases": [
+      "Ball Sit Ups"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold the ball against your chest or above your head.",
+        "Sit all the way up into an upright seated position."
+      ],
+      "nl": [
+        "Houd de bal tegen de borst of boven het hoofd.",
+        "Kom omhoog tot zit."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "XNXgqOVl2BI",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Sports Performance - Santa Clara University",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_ball_squat_press",
+    "exercise_name": {
+      "en": "Ball Squat Press",
+      "nl": "Ball Squat Press"
+    },
+    "aliases": [
+      "Ball Squat Press"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lower into a squat with the ball at chest height.",
+        "Come up and immediately push the ball upwards (thruster movement)."
+      ],
+      "nl": [
+        "Zak in een squat met de bal op borsthoogte.",
+        "Kom omhoog en duw de bal direct door naar boven (thruster beweging)."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "6c2KOm1_n5g",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "GB",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_overhead_lunge_throws",
+    "exercise_name": {
+      "en": "Overhead Lunge Throws",
+      "nl": "Overhead Lunge Throws"
+    },
+    "aliases": [
+      "Overhead Lunge Throws"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "gluteus_maximus"
+      ],
+      "secondary": [
+        "calves",
+        "hamstrings",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Make a lunge and simultaneously throw the ball (that you held above your head) to a partner or wall."
+      ],
+      "nl": [
+        "Maak een lunge en gooi tegelijk de bal (die je boven je hoofd hield) naar een partner of muur."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "JD2wrDPKvDM",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Ascension Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_stir_the_pot",
+    "exercise_name": {
+      "en": "Stir The Pot",
+      "nl": "Stir The Pot"
+    },
+    "aliases": [
+      "Stir The Pot"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Abs & Core",
+      "nl": "Buikspieren"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Hold a plank resting your forearms on the medicine ball.",
+        "Rotate your elbows in circles without letting your torso move."
+      ],
+      "nl": [
+        "Plank met ellebogen op de bal.",
+        "Draai rondjes met de ellebogen zonder de romp mee te laten bewegen."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "5emkrYO7Kis",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Michael Butts",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_lateral_slam",
+    "exercise_name": {
+      "en": "Lateral Slam",
+      "nl": "Lateral Slam"
+    },
+    "aliases": [
+      "Lateral Slam"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Full Body Core",
+      "nl": "Core / Full Body"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Stand tall with the medicine ball pressed overhead.",
+        "Turn your body and forcefully throw the ball onto the ground on the outside of your foot.",
+        "Repeat on the other side."
+      ],
+      "nl": [
+        "Sta rechtop met de bal boven je hoofd.",
+        "Draai je lichaam en gooi de bal met kracht op de grond aan de buitenkant van je voet.",
+        "Herhaal aan de andere kant."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "M9ryqecCLf0",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Dr. Frank Tardi, PT, DPT, CSCS",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_toe_taps",
+    "exercise_name": {
+      "en": "Medicine Ball Toe Taps",
+      "nl": "Medicine Ball Toe Taps"
+    },
+    "aliases": [
+      "Medicine Ball Toe Taps"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "gluteus_maximus",
+        "deltoids"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place the medicine ball on the floor in front of you.",
+        "Tap the top of the ball alternately with the ball of your foot in a hopping motion."
+      ],
+      "nl": [
+        "Plaats de medicijnbal op de grond voor je.",
+        "Tik om en om met de bal van je voet de bovenkant van de bal aan met een huppelende beweging."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "y7ukZq8KMkU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "6 Pack Bootcamp",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_mountain_climbers",
+    "exercise_name": {
+      "en": "Medicine Ball Mountain Climbers",
+      "nl": "Medicine Ball Mountain Climbers"
+    },
+    "aliases": [
+      "Medicine Ball Mountain Climbers"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Core",
+      "nl": "Cardio / Core"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place both hands on the ball in a plank position.",
+        "Quickly pull your knees alternately toward your chest while keeping the ball steady."
+      ],
+      "nl": [
+        "Plaats beide handen op de bal in een plankpositie.",
+        "Trek je knieën om en om snel naar je borst terwijl je de bal stabiel houdt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "VqbOhBqmzAk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Ionic Fitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_single_leg_rdl",
+    "exercise_name": {
+      "en": "Single Leg RDL",
+      "nl": "Single Leg RDL"
+    },
+    "aliases": [
+      "Single Leg RDL"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Lower Body & Balance",
+      "nl": "Onderlichaam / Balans"
+    },
+    "target_muscles": {
+      "primary": [
+        "gluteus_maximus",
+        "hamstrings"
+      ],
+      "secondary": [
+        "erector_spinae",
+        "latissimus_dorsi",
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Balance on one leg holding the medicine ball out in front of your chest.",
+        "Bend forward at your hips while stretching your free leg back.",
+        "Hold the ball directly under your shoulders."
+      ],
+      "nl": [
+        "Sta op één been en houd de bal voor je.",
+        "Buig voorover vanuit je heupen terwijl je vrije been naar achteren strekt.",
+        "Houd de bal recht onder je schouders."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your chest lifted and push through the midfoot and heel.",
+        "Ensure your knees track in line with your toes throughout the movement."
+      ],
+      "nl": [
+        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
+        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "jh_tHqjiQoo",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "NeuStrength | Personal Trainer Wilmington NC",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_floor_press",
+    "exercise_name": {
+      "en": "Medicine Ball Floor Press",
+      "nl": "Medicine Ball Floor Press"
+    },
+    "aliases": [
+      "Medicine Ball Floor Press"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "deltoids",
+        "pectorals"
+      ],
+      "secondary": [
+        "triceps_brachii",
+        "rectus_abdominis"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Lie on your back with the ball on your chest.",
+        "Push the ball straight up until your arms are fully extended and lower in a controlled manner."
+      ],
+      "nl": [
+        "Lig op je rug met de bal op je borst.",
+        "Duw de bal recht omhoog tot je armen volledig gestrekt zijn en laat gecontroleerd zakken."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Retract your shoulder blades and maintain a stable, braced upper back.",
+        "Control the eccentric lowering phase without flaring elbows excessively."
+      ],
+      "nl": [
+        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
+        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "wyx1qJ9AiEs",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Maiven McKnight",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "medicine_ball_plank",
+    "exercise_name": {
+      "en": "Medicine Ball Plank",
+      "nl": "Medicine Ball Plank"
+    },
+    "aliases": [
+      "Medicine Ball Plank"
+    ],
+    "material": {
+      "id": "medicine_ball",
+      "name": {
+        "en": "Medicine Ball",
+        "nl": "Medicijnbal"
+      },
+      "description": {
+        "en": "Weighted ball for dynamic throws, partner passes, and rotational core conditioning",
+        "nl": "Verzwaarde bal voor dynamische worpen, partnerpasses en rotatietraining"
+      }
+    },
+    "category": {
+      "en": "Core Stability",
+      "nl": "Core / Stabiliteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "rectus_abdominis",
+        "transverse_abdominis"
+      ],
+      "secondary": [
+        "obliques",
+        "iliopsoas"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isometric",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Place both hands onto the medicine ball and assume a plank position.",
+        "Tighten your abdominal muscles and buttocks to keep your body in a straight line."
+      ],
+      "nl": [
+        "Plaats beide handen op de bal en neem een plankpositie aan.",
+        "Span je buikspieren en billen aan om je lichaam in een rechte lijn te houden."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
+        "Exhale forcefully through pursed lips during the concentric contraction."
+      ],
+      "nl": [
+        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
+        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "medicine_ball_wall_balls"
+      ]
+    },
+    "media": {
+      "videos": [
+        {
+          "youtube_id": "MRQbHLicfrQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "123 Workouts",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
     }
   }
 ]
