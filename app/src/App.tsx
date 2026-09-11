@@ -28,6 +28,7 @@ export function App() {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [auditFilter, setAuditFilter] = useState<AuditFilterType>('all');
   const [selectedMaterial, setSelectedMaterial] = useState<string>('all');
+  const [selectedRating, setSelectedRating] = useState<string>('all');
   const [selectedMuscle, setSelectedMuscle] = useState<string>('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
   const [sortOrder, setSortOrder] = useState<SortOrderType>('oldest_first');
@@ -121,6 +122,16 @@ export function App() {
         if (ex.material?.id !== selectedMaterial) return false;
       }
 
+      // 3b. Star Rating Filter
+      if (selectedRating && selectedRating !== 'all') {
+        const r = ex.attributes?.rating || 0;
+        if (selectedRating === 'unrated') {
+          if (r !== 0) return false;
+        } else if (r !== Number(selectedRating)) {
+          return false;
+        }
+      }
+
       // 4. Target Muscle Filter
       if (selectedMuscle && selectedMuscle !== 'all') {
         const matchPrimary = ex.target_muscles?.primary?.includes(selectedMuscle);
@@ -181,7 +192,7 @@ export function App() {
           return 0;
       }
     });
-  }, [exercises, searchQuery, auditFilter, selectedMaterial, selectedMuscle, selectedDifficulty, sortOrder]);
+  }, [exercises, searchQuery, auditFilter, selectedMaterial, selectedRating, selectedMuscle, selectedDifficulty, sortOrder]);
 
   // Pinned active exercise (keeps user on current exercise during live editing)
   const currentExercise = useMemo(() => {
@@ -357,6 +368,7 @@ export function App() {
   const handleResetFilters = () => {
     setAuditFilter('all');
     setSelectedMaterial('all');
+    setSelectedRating('all');
     setSelectedMuscle('all');
     setSelectedDifficulty('all');
     setSortOrder('oldest_first');
@@ -454,6 +466,8 @@ export function App() {
         onAuditFilterChange={(f) => { setAuditFilter(f); setActiveExerciseId(null); setCurrentIndex(0); }}
         selectedMaterial={selectedMaterial}
         onMaterialChange={(m) => { setSelectedMaterial(m); setActiveExerciseId(null); setCurrentIndex(0); }}
+        selectedRating={selectedRating}
+        onRatingChange={(r) => { setSelectedRating(r); setActiveExerciseId(null); setCurrentIndex(0); }}
         selectedMuscle={selectedMuscle}
         onMuscleChange={(m) => { setSelectedMuscle(m); setActiveExerciseId(null); setCurrentIndex(0); }}
         selectedDifficulty={selectedDifficulty}

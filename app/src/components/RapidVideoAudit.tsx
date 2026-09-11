@@ -142,6 +142,9 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
   // Filters & Global Settings
   const [selectedMaterial, setSelectedMaterial] = useState<string>('all');
+  const [selectedRating, setSelectedRating] = useState<string>('all');
+  const [selectedMuscle, setSelectedMuscle] = useState<string>('all');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [videoFormatFilter, setVideoFormatFilter] = useState<VideoFormatFilter>('all');
   const [statusFilter, setStatusFilter] = useState<AuditStatusFilter>('all');
@@ -224,6 +227,47 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
     };
   }, [exercises, selectedMaterial, getExerciseBaseVideoFormat]);
 
+  // Unique muscles across all exercises with counts
+  const availableMuscles = useMemo(() => {
+    const counts = new Map<string, number>();
+    exercises.forEach(ex => {
+      const allM = new Set([...(ex.target_muscles?.primary || []), ...(ex.target_muscles?.secondary || [])]);
+      allM.forEach(m => {
+        counts.set(m, (counts.get(m) || 0) + 1);
+      });
+    });
+    return Array.from(counts.entries())
+      .map(([id, count]) => ({
+        id,
+        name: MUSCLE_NAME_DUTCH[id] || id.replace(/_/g, ' '),
+        count,
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name, 'nl'));
+  }, [exercises]);
+
+  // Difficulty counts
+  const difficultyCounts = useMemo(() => {
+    const counts = { all: exercises.length, beginner: 0, intermediate: 0, advanced: 0 };
+    exercises.forEach(ex => {
+      const d = ex.attributes?.difficulty || 'beginner';
+      if (d === 'beginner') counts.beginner++;
+      else if (d === 'intermediate') counts.intermediate++;
+      else if (d === 'advanced') counts.advanced++;
+    });
+    return counts;
+  }, [exercises]);
+
+  // Star rating counts
+  const ratingCounts = useMemo(() => {
+    const counts: Record<string, number> = { all: exercises.length, unrated: 0, '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 };
+    exercises.forEach(ex => {
+      const r = ex.attributes?.rating || 0;
+      if (r === 0) counts.unrated++;
+      else if (counts[String(r)] !== undefined) counts[String(r)]++;
+    });
+    return counts;
+  }, [exercises]);
+
   // Filtered Exercises
   const filteredExercises = useMemo(() => {
     return exercises.filter((ex) => {
@@ -255,7 +299,33 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         if (matId !== selectedMaterial) return false;
       }
 
-      // 4. Search query (matches exercise name, category, ID, and equipment name)
+      // 4. Rating / Stars filter (stably based on database rating, retaining edited items in view)
+      if (selectedRating !== 'all') {
+        const baseRating = ex.attributes?.rating || 0;
+        const matches = selectedRating === 'unrated' ? baseRating === 0 : baseRating === Number(selectedRating);
+        if (!matches && ratings[ex.id] === undefined) {
+          return false;
+        }
+      }
+
+      // 5. Muscle group filter (primary or secondary)
+      if (selectedMuscle !== 'all') {
+        const primaryMuscles = ex.target_muscles?.primary || [];
+        const secondaryMuscles = ex.target_muscles?.secondary || [];
+        if (!primaryMuscles.includes(selectedMuscle) && !secondaryMuscles.includes(selectedMuscle)) {
+          return false;
+        }
+      }
+
+      // 6. Difficulty filter (stably based on database difficulty, retaining edited items in view)
+      if (selectedDifficulty !== 'all') {
+        const baseDiff = ex.attributes?.difficulty || 'beginner';
+        if (baseDiff !== selectedDifficulty && difficulties[ex.id] === undefined) {
+          return false;
+        }
+      }
+
+      // 7. Search query (matches exercise name, category, ID, and equipment name)
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
         const nameEn = ex.exercise_name?.en?.toLowerCase() || '';
@@ -281,7 +351,7 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
 
       return true;
     });
-  }, [exercises, selectedMaterial, searchQuery, videoFormatFilter, statusFilter, getExerciseBaseVideoFormat, decisions, replacementMap]);
+  }, [exercises, selectedMaterial, selectedRating, selectedMuscle, selectedDifficulty, searchQuery, videoFormatFilter, statusFilter, getExerciseBaseVideoFormat, decisions, replacementMap, ratings, difficulties]);
 
   // Sorted and Filtered Exercises (geen verspringing tijdens rating/auditing)
   const displayedExercises = useMemo(() => {
@@ -804,7 +874,96 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
             </div>
           </div>
 
-          {/* Row 2: Video Format Segmented Control (Normal 16:9 vs Shorts 9:16 vs Zonder vs Alles) */}
+          {/* Row 2: Sterren, Spiergroep en Moeilijkheidsgraad Filters */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 bg-slate-950/80 p-2 rounded-2xl border border-slate-800/80 shadow-inner">
+            {/* 1. Sterren Filter */}
+            <div className="relative flex items-center">
+              <Star className="w-3.5 h-3.5 text-amber-400 absolute left-3 pointer-events-none" />
+              <select
+                value={selectedRating}
+                onChange={(e) => setSelectedRating(e.target.value)}
+                className={`w-full pl-8 pr-7 py-2 bg-slate-900 border text-xs rounded-xl focus:outline-none focus:border-amber-500 transition font-medium ${
+                  selectedRating !== 'all' ? 'border-amber-500/70 text-amber-300 font-bold bg-amber-950/20' : 'border-slate-800 text-slate-200'
+                }`}
+              >
+                <option value="all">⭐ Alle Sterren ({exercises.length})</option>
+                <option value="unrated">⚪ Zonder sterren ({ratingCounts.unrated})</option>
+                <option value="1">⭐ 1 Ster ({ratingCounts['1']})</option>
+                <option value="2">⭐⭐ 2 Sterren ({ratingCounts['2']})</option>
+                <option value="3">⭐⭐⭐ 3 Sterren ({ratingCounts['3']})</option>
+                <option value="4">⭐⭐⭐⭐ 4 Sterren ({ratingCounts['4']})</option>
+                <option value="5">⭐⭐⭐⭐⭐ 5 Sterren ({ratingCounts['5']})</option>
+              </select>
+              {selectedRating !== 'all' && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedRating('all')}
+                  className="absolute right-2.5 text-slate-400 hover:text-white text-xs"
+                  title="Wis sterren filter"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* 2. Spiergroep Filter */}
+            <div className="relative flex items-center">
+              <span className="text-xs absolute left-3 pointer-events-none">💪</span>
+              <select
+                value={selectedMuscle}
+                onChange={(e) => setSelectedMuscle(e.target.value)}
+                className={`w-full pl-8 pr-7 py-2 bg-slate-900 border text-xs rounded-xl focus:outline-none focus:border-emerald-500 transition font-medium ${
+                  selectedMuscle !== 'all' ? 'border-emerald-500/70 text-emerald-300 font-bold bg-emerald-950/20' : 'border-slate-800 text-slate-200'
+                }`}
+              >
+                <option value="all">💪 Alle Spiergroepen ({availableMuscles.length})</option>
+                {availableMuscles.map((m) => (
+                  <option key={m.id} value={m.id}>
+                    {m.name} ({m.count})
+                  </option>
+                ))}
+              </select>
+              {selectedMuscle !== 'all' && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedMuscle('all')}
+                  className="absolute right-2.5 text-slate-400 hover:text-white text-xs"
+                  title="Wis spiergroep filter"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* 3. Moeilijkheidsgraad Filter */}
+            <div className="relative flex items-center">
+              <Gauge className="w-3.5 h-3.5 text-cyan-400 absolute left-3 pointer-events-none" />
+              <select
+                value={selectedDifficulty}
+                onChange={(e) => setSelectedDifficulty(e.target.value)}
+                className={`w-full pl-8 pr-7 py-2 bg-slate-900 border text-xs rounded-xl focus:outline-none focus:border-cyan-500 transition font-medium ${
+                  selectedDifficulty !== 'all' ? 'border-cyan-500/70 text-cyan-300 font-bold bg-cyan-950/20' : 'border-slate-800 text-slate-200'
+                }`}
+              >
+                <option value="all">⚡ Alle Niveaus ({exercises.length})</option>
+                <option value="beginner">🟢 Beginner ({difficultyCounts.beginner})</option>
+                <option value="intermediate">🟡 Intermediate ({difficultyCounts.intermediate})</option>
+                <option value="advanced">🔴 Advanced ({difficultyCounts.advanced})</option>
+              </select>
+              {selectedDifficulty !== 'all' && (
+                <button
+                  type="button"
+                  onClick={() => setSelectedDifficulty('all')}
+                  className="absolute right-2.5 text-slate-400 hover:text-white text-xs"
+                  title="Wis niveau filter"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Row 3: Video Format Segmented Control (Normal 16:9 vs Shorts 9:16 vs Zonder vs Alles) */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 bg-slate-950/90 border border-slate-800/90 rounded-2xl p-1.5 shadow-inner">
             <span className="text-[10px] font-extrabold tracking-wider uppercase text-slate-400 px-2 sm:border-r sm:border-slate-800 flex items-center gap-1">
               <Film className="w-3 h-3 text-cyan-400 inline" />

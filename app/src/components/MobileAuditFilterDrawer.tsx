@@ -9,7 +9,8 @@ import {
   Clock, 
   ListOrdered,
   Layers,
-  Dumbbell
+  Dumbbell,
+  Star
 } from 'lucide-react';
 import { ANATOMICAL_MUSCLES } from '../types/exercise';
 import type { AuditFilterType } from './AuditQueue';
@@ -23,6 +24,8 @@ interface MobileAuditFilterDrawerProps {
   onAuditFilterChange: (f: AuditFilterType) => void;
   selectedMaterial: string;
   onMaterialChange: (m: string) => void;
+  selectedRating: string;
+  onRatingChange: (r: string) => void;
   selectedMuscle: string;
   onMuscleChange: (m: string) => void;
   selectedDifficulty: string;
@@ -41,6 +44,8 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
   onAuditFilterChange,
   selectedMaterial,
   onMaterialChange,
+  selectedRating,
+  onRatingChange,
   selectedMuscle,
   onMuscleChange,
   selectedDifficulty,
@@ -179,8 +184,28 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
             </select>
           </div>
 
-          {/* 4. Target Muscle & Difficulty Level */}
-          <div className="grid grid-cols-2 gap-2">
+          {/* 4. Sterren Rating, Target Muscle & Difficulty Level */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+            <div className="space-y-1.5">
+              <label className="text-slate-300 font-semibold flex items-center gap-1.5">
+                <Star className="w-3.5 h-3.5 text-amber-400" />
+                <span>Sterren Rating</span>
+              </label>
+              <select
+                value={selectedRating}
+                onChange={(e) => onRatingChange(e.target.value)}
+                className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-xl px-2.5 py-2 text-xs focus:outline-none focus:border-brand-500"
+              >
+                <option value="all">Alle sterren</option>
+                <option value="unrated">Zonder sterren (0)</option>
+                <option value="1">⭐ 1 Ster</option>
+                <option value="2">⭐⭐ 2 Sterren</option>
+                <option value="3">⭐⭐⭐ 3 Sterren</option>
+                <option value="4">⭐⭐⭐⭐ 4 Sterren</option>
+                <option value="5">⭐⭐⭐⭐⭐ 5 Sterren</option>
+              </select>
+            </div>
+
             <div className="space-y-1.5">
               <label className="text-slate-300 font-semibold flex items-center gap-1.5">
                 <Layers className="w-3.5 h-3.5 text-brand-400" />
