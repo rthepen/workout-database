@@ -159,6 +159,18 @@ export function App() {
           const vB = b.media?.videos?.length || 0;
           return vA - vB || a.id.localeCompare(b.id);
         }
+        case 'rating_asc': {
+          const rA = a.attributes?.rating || 0;
+          const rB = b.attributes?.rating || 0;
+          if (rA !== rB) return rA - rB;
+          return (a.exercise_name?.nl || a.exercise_name?.en || a.id).localeCompare(b.exercise_name?.nl || b.exercise_name?.en || b.id);
+        }
+        case 'rating_desc': {
+          const rA = a.attributes?.rating || 0;
+          const rB = b.attributes?.rating || 0;
+          if (rA !== rB) return rB - rA;
+          return (a.exercise_name?.nl || a.exercise_name?.en || a.id).localeCompare(b.exercise_name?.nl || b.exercise_name?.en || b.id);
+        }
         case 'difficulty': {
           const diffRank = { beginner: 1, intermediate: 2, advanced: 3 };
           const rA = diffRank[a.attributes?.difficulty || 'beginner'] || 1;

@@ -14,7 +14,7 @@ import {
 import { ANATOMICAL_MUSCLES } from '../types/exercise';
 import type { AuditFilterType } from './AuditQueue';
 
-export type SortOrderType = 'oldest_first' | 'newest_first' | 'name_asc' | 'fewest_videos' | 'difficulty';
+export type SortOrderType = 'oldest_first' | 'newest_first' | 'rating_asc' | 'rating_desc' | 'name_asc' | 'fewest_videos' | 'difficulty';
 
 interface MobileAuditFilterDrawerProps {
   isOpen: boolean;
@@ -153,6 +153,8 @@ export const MobileAuditFilterDrawer: React.FC<MobileAuditFilterDrawerProps> = (
             >
               <option value="oldest_first">⏳ Oldest updated first (Recommended for audit)</option>
               <option value="newest_first">✨ Most recently updated first</option>
+              <option value="rating_asc">⭐ Sterren (Laag → Hoog)</option>
+              <option value="rating_desc">🌟 Sterren (Hoog → Laag)</option>
               <option value="name_asc">🔤 Alphabetical by name (A - Z)</option>
               <option value="fewest_videos">🎬 Fewest videos first</option>
               <option value="difficulty">⚡ By difficulty level (Beginner → Advanced)</option>

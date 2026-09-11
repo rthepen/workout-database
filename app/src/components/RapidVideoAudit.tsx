@@ -46,7 +46,7 @@ type VideoStatusDecision = 'ok' | 'remove';
 
 export type VideoFormatFilter = 'all' | 'normal' | 'short' | 'no_video';
 export type AuditStatusFilter = 'all' | 'pending' | 'ok' | 'remove' | 'replaced';
-export type AuditSortOption = 'default' | 'name' | 'muscle_group' | 'material' | 'difficulty';
+export type AuditSortOption = 'default' | 'rating_asc' | 'rating_desc' | 'difficulty' | 'name' | 'muscle_group' | 'material';
 
 export const MUSCLE_NAME_DUTCH: Record<string, string> = {
   abductors: 'Abductoren (Buitenkant heup/dij)',
@@ -325,10 +325,28 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
         const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
         return nameA.localeCompare(nameB, 'nl');
       });
+    } else if (sortBy === 'rating_asc') {
+      list.sort((a, b) => {
+        const ratingA = ratings[a.id] !== undefined ? ratings[a.id] : (a.attributes?.rating || 0);
+        const ratingB = ratings[b.id] !== undefined ? ratings[b.id] : (b.attributes?.rating || 0);
+        if (ratingA !== ratingB) return ratingA - ratingB;
+        const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
+        const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
+        return nameA.localeCompare(nameB, 'nl');
+      });
+    } else if (sortBy === 'rating_desc') {
+      list.sort((a, b) => {
+        const ratingA = ratings[a.id] !== undefined ? ratings[a.id] : (a.attributes?.rating || 0);
+        const ratingB = ratings[b.id] !== undefined ? ratings[b.id] : (b.attributes?.rating || 0);
+        if (ratingA !== ratingB) return ratingB - ratingA;
+        const nameA = (a.exercise_name?.nl || a.exercise_name?.en || a.id).toLowerCase();
+        const nameB = (b.exercise_name?.nl || b.exercise_name?.en || b.id).toLowerCase();
+        return nameA.localeCompare(nameB, 'nl');
+      });
     }
 
     return list;
-  }, [filteredExercises, sortBy, difficulties]);
+  }, [filteredExercises, sortBy, difficulties, ratings]);
 
   // Decision counts
   const removeList = useMemo(() => {
@@ -727,6 +745,8 @@ export const RapidVideoAudit: React.FC<RapidVideoAuditProps> = ({
                 title="Sorteer volgorde van de audit"
               >
                 <option value="default">📋 Sorteren: Standaard (Database)</option>
+                <option value="rating_asc">⭐ Sorteren: Sterren (Laag → Hoog)</option>
+                <option value="rating_desc">🌟 Sorteren: Sterren (Hoog → Laag)</option>
                 <option value="difficulty">⚡ Sorteren: Moeilijkheidsgraad (1 → 3)</option>
                 <option value="name">🔤 Sorteren: Naam (A - Z)</option>
                 <option value="muscle_group">💪 Sorteren: Spiergroepen (A - Z)</option>
