@@ -836,7 +836,8 @@
       "nl": "Decline Push Ups"
     },
     "aliases": [
-      "Decline Push Ups"
+      "Decline Push Ups",
+      "Feet Elevated Push Ups"
     ],
     "material": {
       "id": "plyo_box",
@@ -909,6 +910,16 @@
           "duration_seconds": 25,
           "channel": "Shred2Fit",
           "likes": 4
+        },
+        {
+          "youtube_id": "MjnJWRwbSYE",
+          "type": "short",
+          "priority": 2,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Ryan van Asten Performance LTD",
+          "rating": 5
         }
       ]
     },
@@ -1014,7 +1025,8 @@
       "nl": "Incline Push Ups"
     },
     "aliases": [
-      "Incline Push Ups"
+      "Incline Push Ups",
+      "Box Push Ups"
     ],
     "material": {
       "id": "plyo_box",
@@ -1174,90 +1186,6 @@
           "duration_seconds": 36,
           "channel": "Power Serge Method",
           "likes": 12
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T21:32:26.028Z"
-    }
-  },
-  {
-    "id": "plyo_box_box_push_ups",
-    "exercise_name": {
-      "en": "Box Push Ups",
-      "nl": "Box Push Ups"
-    },
-    "aliases": [
-      "Box Push Ups"
-    ],
-    "material": {
-      "id": "plyo_box",
-      "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
-      },
-      "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Incline push-up on the box."
-      ],
-      "nl": [
-        "Incline push-up op de box."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "plyo_box_box_jumps"
-      ],
-      "regressions": []
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "LNs8aZFL9Yo",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "NeuStrength | Personal Trainer Wilmington NC",
-          "rating": 5
         }
       ]
     },
@@ -2156,92 +2084,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Jason Sinclair",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "plyo_box_feet_elevated_push_ups",
-    "exercise_name": {
-      "en": "Feet Elevated Push Ups",
-      "nl": "Feet Elevated Push Ups"
-    },
-    "aliases": [
-      "Feet Elevated Push Ups"
-    ],
-    "material": {
-      "id": "plyo_box",
-      "name": {
-        "en": "Plyo Box",
-        "nl": "Sprongkast / Plyo Box"
-      },
-      "description": {
-        "en": "Sturdy wooden or foam platform for plyometric box jumps, step-ups, and depth drops",
-        "nl": "Stevige houten of foam sprongbox voor plyometrische sprongen en opstappen"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals",
-        "anterior_deltoid"
-      ],
-      "secondary": [
-        "triceps_brachii",
-        "rectus_abdominis"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Decline push-up (feet high)."
-      ],
-      "nl": [
-        "Decline push-up (voeten hoog)."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Retract your shoulder blades and maintain a stable, braced upper back.",
-        "Control the eccentric lowering phase without flaring elbows excessively."
-      ],
-      "nl": [
-        "Trek je schouderbladen naar elkaar toe en houd een stabiele bovenrug.",
-        "Controleer het laten zakken en voorkom dat je ellebogen te ver naar buiten wijzen."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "plyo_box_elevated_pistol_squat"
-      ],
-      "regressions": [
-        "plyo_box_incline_push_ups"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "MjnJWRwbSYE",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Ryan van Asten Performance LTD",
           "rating": 5
         }
       ]

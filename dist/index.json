@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-11T10:29:56.884974+00:00",
-  "total_exercises": 1028,
+  "last_updated_utc": "2026-09-11T10:44:04.394404+00:00",
+  "total_exercises": 1025,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -78,11 +78,11 @@
     "cardio_equipment": {
       "name": {
         "en": "Cardio Equipment",
-        "nl": "Cardio Apparaten"
+        "nl": "Cardio-apparatuur"
       },
       "description": {
-        "en": "Ergometers and cardiovascular machines (SkiErg, Skillmill, Rower, Assault Bike)",
-        "nl": "Cardiotoestellen en ergometers zoals SkiErg, Skillmill, roeiers en airbikes"
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
       }
     },
     "cones": {

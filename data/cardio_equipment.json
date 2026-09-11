@@ -1282,12 +1282,13 @@
     "target_muscles": {
       "primary": [
         "cardiovascular_system",
-        "quadriceps"
+        "latissimus_dorsi",
+        "pectorals"
       ],
       "secondary": [
-        "calves",
-        "hamstrings",
-        "gluteus_maximus",
+        "deltoids",
+        "triceps_brachii",
+        "biceps_brachii",
         "rectus_abdominis"
       ]
     },
@@ -1312,12 +1313,12 @@
     },
     "form_cues": {
       "en": [
-        "Keep your chest lifted and push through the midfoot and heel.",
-        "Ensure your knees track in line with your toes throughout the movement."
+        "Keep your feet securely planted on the foot pegs and brace your core.",
+        "Drive powerfully with equal emphasis on the forward push and backward pull."
       ],
       "nl": [
-        "Houd je borst op en duw krachtig af vanuit het midden van je voet en je hielen.",
-        "Zorg dat je knieën in één lijn blijven met je tenen tijdens het buigen."
+        "Houd je voeten stil en stevig op de voetsteunen en span je core aan.",
+        "Lever krachtige stoten met gelijke nadruk op zowel duwen als trekken."
       ]
     },
     "relations": {
@@ -1343,6 +1344,105 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "cardio_equipment_elliptical_trainer",
+    "exercise_name": {
+      "en": "Elliptical Trainer",
+      "nl": "Crosstrainer"
+    },
+    "aliases": [
+      "Elliptical Trainer",
+      "Crosstrainer",
+      "Elliptical_Trainer"
+    ],
+    "material": {
+      "id": "cardio_equipment",
+      "name": {
+        "en": "Cardio Equipment",
+        "nl": "Cardio-apparatuur"
+      },
+      "description": {
+        "en": "Specialized cardio conditioning machines including Skillmill, SkiErg, Rower, and Airbike",
+        "nl": "Gespecialiseerde cardiotoestellen zoals Skillmill, SkiErg, Roeitrainer en Airbike"
+      }
+    },
+    "category": {
+      "en": "Cardio",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Step onto the foot pedals and take hold of the movable arm levers.",
+        "Begin striding smoothly in an elliptical motion pushing through the feet and pumping arms.",
+        "Maintain a steady pace and upright posture throughout the workout session."
+      ],
+      "nl": [
+        "Stap op de pedalen en pak de bewegende handgrepen vast.",
+        "Maak een vloeiende langlaufbeweging door gelijktijdig met armen en benen kracht te zetten.",
+        "Houd je bovenlichaam rechtop en behoud een constant ritme."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep your feet flat on the pedals and avoid pushing exclusively through your toes.",
+        "Brace your core lightly to avoid torso twisting."
+      ],
+      "nl": [
+        "Houd je voetzolen vlak op de pedalen en ga niet op je tenen staan.",
+        "Houd je buikspieren licht aangespannen en draai niet te ver mee met je heupen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elliptical_Trainer/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elliptical_Trainer/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "JEpF60vj9Xk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Sunny Health & Fitness",
+          "rating": 1
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T10:45:00.000Z"
     }
   }
 ]

@@ -2179,5 +2179,93 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T08:10:06.659Z"
     }
+  },
+  {
+    "id": "spinning_bike_stationary_bicycling",
+    "exercise_name": {
+      "en": "Stationary Bicycling",
+      "nl": "Hometrainer Fietsen"
+    },
+    "aliases": [
+      "Bicycling, Stationary",
+      "Stationary Bike",
+      "Bicycling_Stationary"
+    ],
+    "material": {
+      "id": "spinning_bike",
+      "name": {
+        "en": "Spinning Bike / Stationary Bike",
+        "nl": "Spinningfiets"
+      },
+      "description": {
+        "en": "High-inertia flywheel indoor cycling bike for cadence, rhythm, and cardiovascular intervals",
+        "nl": "Stationaire fiets met vliegwiel voor intensieve interval-, ritme- en cadanstraining"
+      }
+    },
+    "category": {
+      "en": "Cardio & Endurance",
+      "nl": "Cardio"
+    },
+    "target_muscles": {
+      "primary": [
+        "quadriceps",
+        "cardiovascular_system"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus",
+        "hamstrings"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "dynamic",
+      "tracking_type": "distance",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Seat yourself on the bike and adjust the saddle height to your hip level.",
+        "Select your resistance program and begin pedaling at a steady cadence.",
+        "Keep your chest upright and maintain rhythmic breathing."
+      ],
+      "nl": [
+        "Ga op de fiets zitten en stel het zadel af op heuphoogte.",
+        "Selecteer het gewenste programma of weerstandsniveau en begin met trappen.",
+        "Houd je bovenlichaam stabiel en adem rustig door."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Avoid slouching over the handlebars.",
+        "Push through the ball of the foot with smooth circular pedal strokes."
+      ],
+      "nl": [
+        "Hang niet over het stuur en houd je rug recht.",
+        "Maak soepele, ronde trapbewegingen vanuit de bal van je voet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bicycling_Stationary/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bicycling_Stationary/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T10:45:00.000Z"
+    }
   }
 ]
