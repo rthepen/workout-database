@@ -7398,96 +7398,6 @@
     }
   },
   {
-    "id": "dumbbells_db_arnold_press",
-    "exercise_name": {
-      "en": "Arnold Press",
-      "nl": "Arnold Press"
-    },
-    "aliases": [
-      "Arnold Press"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Start with dumbbells held in front of your shoulders, palms facing toward your body in an Arnold press setup.",
-        "Push up and simultaneously rotate your hands open (forward).",
-        "Turn back when lowering."
-      ],
-      "nl": [
-        "Start met dumbbells voor je schouders, handpalmen naar je toe.",
-        "Duw omhoog en draai tegelijkertijd je handen open (naar voren).",
-        "Draai terug bij het zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "AjB-UXErljM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "dumbbells_db_single_arm_snatch",
     "exercise_name": {
       "en": "Single Arm Dumbbell Snatch",
@@ -7579,11 +7489,14 @@
   {
     "id": "dumbbells_db_hammer_curl",
     "exercise_name": {
-      "en": "Hammer Curls",
-      "nl": "Hammer Curls"
+      "en": "Bilateral Hammer Curl",
+      "nl": "Dubbele Hammer Curl"
     },
     "aliases": [
-      "Hammer Curls"
+      "Bilateral Hammer Curl",
+      "Hammer Curls",
+      "Simultaneous Hammer Curl",
+      "Standing Hammer Curls"
     ],
     "material": {
       "id": "dumbbells",
@@ -7619,13 +7532,13 @@
     "instructions": {
       "en": [
         "Hold dumbbells with palms facing each other (neutral grip).",
-        "Curl up without moving the elbows.",
-        "Good for biceps and forearms."
+        "Curl both dumbbells up simultaneously without swinging your elbows.",
+        "Squeeze your biceps and forearms at the top, then lower under control."
       ],
       "nl": [
-        "Houd dumbbells vast met handpalmen naar elkaar toe (neutrale grip).",
-        "Curl omhoog zonder de ellebogen te bewegen.",
-        "Goed voor biceps en onderarmen."
+        "Houd in beide handen een dumbbell vast met de handpalmen naar elkaar toe (neutrale grip).",
+        "Curl beide dumbbells gelijktijdig omhoog zonder de ellebogen naar voren te zwaaien.",
+        "Knijp je biceps en onderarmen bovenin goed aan en laat beide gewichten gecontroleerd zakken."
       ]
     },
     "form_cues": {
@@ -7761,11 +7674,13 @@
   {
     "id": "dumbbells_db_overhead_tricep_extension",
     "exercise_name": {
-      "en": "Overhead Tricep Extension",
-      "nl": "Overhead Tricep Extension"
+      "en": "Standing Overhead Tricep Extension",
+      "nl": "Staande Overhead Triceps Extension"
     },
     "aliases": [
-      "Overhead Tricep Extension"
+      "Standing Overhead Tricep Extension",
+      "Overhead Tricep Extension",
+      "Standing Two-Arm Overhead Dumbbell Extension"
     ],
     "material": {
       "id": "dumbbells",
@@ -7800,14 +7715,14 @@
     },
     "instructions": {
       "en": [
-        "Hold one heavy weight (or two lighter weights) overhead with locked-out arms.",
-        "Bend your elbows and lower the weight behind your head.",
-        "Extend fully through your joints."
+        "Stand tall with feet shoulder-width apart, holding a dumbbell overhead with both hands.",
+        "Bend your elbows and lower the weight in a controlled arch behind your head.",
+        "Extend your elbows fully through the triceps to return to the top position."
       ],
       "nl": [
-        "Houd één zwaar gewicht (of twee lichtere) boven je hoofd met gestrekte armen.",
-        "Buig je ellebogen en laat het gewicht achter je hoofd zakken.",
-        "Strek uit."
+        "Sta rechtop met je voeten op heupbreedte en houd één dumbbell met beide handen recht boven je hoofd.",
+        "Buig je ellebogen en laat het gewicht gecontroleerd achter je hoofd zakken.",
+        "Druk het gewicht vanuit je triceps krachtig weer uit tot volledige armstrekking."
       ]
     },
     "form_cues": {

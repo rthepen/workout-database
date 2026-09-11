@@ -539,5 +539,104 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T17:25:55.823Z"
     }
+  },
+  {
+    "id": "stability_ball_ball_leg_curl",
+    "exercise_name": {
+      "en": "Ball Leg Curl",
+      "nl": "Ball Leg Curl"
+    },
+    "aliases": [
+      "Stability Ball Leg Curl",
+      "Swiss Ball Hamstring Curl"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Begin on the floor laying on your back with your feet on top of the ball.",
+        "Position the ball so that when your legs are extended your ankles are on top of the ball. This will be your starting position.",
+        "Raise your hips off of the ground, keeping your weight on the shoulder blades and your feet.",
+        "Flex the knees, pulling the ball as close to you as you can, contracting the hamstrings.",
+        "After a brief pause, return to the starting position."
+      ],
+      "nl": [
+        "Ga op je rug op de vloer liggen met je hielen en enkels bovenop de fitnessbal.",
+        "Til je heupen van de vloer zodat je lichaam een rechte lijn vormt van schouders tot voeten.",
+        "Buig je knieën en rol de bal zo dicht mogelijk naar je billen toe terwijl je de hamstrings aanspant.",
+        "Pauzeer kort en rol de bal weer rustig uit naar de startpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep hips elevated high throughout the curling motion.",
+        "Do not allow lower back to hyperextend; keep glutes and core engaged."
+      ],
+      "nl": [
+        "Houd je heupen hoog tijdens het inrollen van de bal.",
+        "Knijp je billen en core aan om te voorkomen dat je onderrug doorzakt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "xB1lGVzRwWk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Powered By Movement Physical Therapy & Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
   }
 ]

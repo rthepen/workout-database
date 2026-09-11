@@ -1752,5 +1752,92 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-11T08:10:06.659Z"
     }
+  },
+  {
+    "id": "standing_punching_bag_heavy_bag_thrust",
+    "exercise_name": {
+      "en": "Heavy Bag Thrust",
+      "nl": "Bokszak Thrust"
+    },
+    "aliases": [
+      "Heavy Bag Thrust",
+      "Heavy_Bag_Thrust",
+      "Punching Bag Thrust"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Stand in a wide staggered athletic stance next to the punching bag with one hand on bag at chest height.",
+        "Twist forcefully from the hips and waist, thrusting the bag forward as hard as possible.",
+        "Absorb and receive the bag as it swings back, loading into the next thrust."
+      ],
+      "nl": [
+        "Sta in een brede boksstand naast de bokszak/bokspaal met één hand op de zak op borsthoogte.",
+        "Draai explosief in vanuit je heupen en taille en duw de zak met maximale kracht van je af.",
+        "Vang de terugslingerende zak verend op en zet direct de volgende stoot in."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Pivot off the rear foot to transfer rotational power through the core into the thrust.",
+        "Retract your shoulder blades and maintain a stable, braced upper back."
+      ],
+      "nl": [
+        "Draai in op je achterste voet om heupkracht via je core over te brengen op de zak.",
+        "Houd je bovenrug stabiel en schouderbladen aangespannen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heavy_Bag_Thrust/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heavy_Bag_Thrust/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
   }
 ]

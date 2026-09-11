@@ -12,12 +12,12 @@
     "material": {
       "id": "ez_bar",
       "name": {
-        "en": "EZ Bar / Rollers",
-        "nl": "EZ-Stang / Rollers"
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
       },
       "description": {
-        "en": "Rolling barbells or discs used for dynamic bodyweight flyes",
-        "nl": "Rollende stangen of schijven voor lichaamsgewicht chest flyes"
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
       }
     },
     "category": {
@@ -93,6 +93,202 @@
     "meta": {
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T17:25:55.823Z"
+    }
+  },
+  {
+    "id": "ez_bar_preacher_curl",
+    "exercise_name": {
+      "en": "Preacher Curl",
+      "nl": "Preacher Curl"
+    },
+    "aliases": [
+      "Preacher Curl",
+      "EZ Bar Preacher Curl",
+      "Scott Curl"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "To perform this movement you will need a preacher bench and an E-Z bar. Grab the E-Z curl bar at the close inner handle. The palm of your hands should be facing forward and slightly tilted inwards.",
+        "With the upper arms positioned against the preacher bench pad and the chest against it, hold the E-Z Curl Bar at shoulder length. This will be your starting position.",
+        "As you breathe in, slowly lower the bar until your upper arm is extended and the biceps is fully stretched.",
+        "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the bar is at shoulder height. Squeeze the biceps hard and hold this position for a second.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga aan de preacher bank zitten met je bovenarmen en borst stevig tegen het schuine kussen.",
+        "Pak de EZ-stang met een onderhandse greep vast op schouderbreedte met gestrekte armen.",
+        "Curl de stang omhoog richting je schouders door je biceps krachtig aan te spannen terwijl je uitademt.",
+        "Knijp bovenin een seconde samen en laat de stang rustig en gecontroleerd zakken tot bijna volledige armstrekking terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain full upper arm contact with the pad throughout the rep.",
+        "Avoid bouncing or violently locking out elbows at the bottom of the stretch."
+      ],
+      "nl": [
+        "Houd je bovenarmen continu op het kussen gedrukt.",
+        "Laat de stang onderin niet stuiteren en overstrek je ellebogen niet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "7ixqAPO6JvU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_reverse_preacher_curls",
+    "exercise_name": {
+      "en": "Reverse EZ-Bar Preacher Curls",
+      "nl": "Reverse EZ-Bar Preacher Curls"
+    },
+    "aliases": [
+      "Reverse Barbell Preacher Curls",
+      "Overhand Preacher Curl",
+      "Reverse EZ-Bar Preacher Curl"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Grab an EZ-bar using a shoulder-width and palms-down (pronated) overhand grip.",
+        "Now place the upper part of both arms on top of the preacher bench and have your arms extended. This will be your starting position.",
+        "As you exhale, use the forearms and biceps to curl the weight up until the bar is at shoulder height. Squeeze hard for a second at the top.",
+        "As you breathe in, slowly lower the barbell until your upper arms are extended and the muscles are fully stretched.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Plaats je bovenarmen op het kussen van de preacher bank en pak een EZ-stang bovenhands vast (handpalmen omlaag).",
+        "Laat je armen gestrekt op het kussen rusten.",
+        "Curl de stang omhoog naar schouderhoogte terwijl je uitademt en de onderarmen en biceps aanspant.",
+        "Laat het gewicht rustig en beheerst zakken tot de startpositie terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep upper arms flat against the preacher pad throughout the movement.",
+        "Maintain a strict pronated grip without twisting the wrists."
+      ],
+      "nl": [
+        "Houd je bovenarmen strak tegen het kussen gedrukt tijdens de oefening.",
+        "Handhaaf een zuivere bovenhandse grip zonder polsdraaiing."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Barbell_Preacher_Curls/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Barbell_Preacher_Curls/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "7ixqAPO6JvU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
     }
   }
 ]

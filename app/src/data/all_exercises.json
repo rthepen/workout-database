@@ -14135,12 +14135,12 @@
     "material": {
       "id": "ez_bar",
       "name": {
-        "en": "EZ Bar / Rollers",
-        "nl": "EZ-Stang / Rollers"
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
       },
       "description": {
-        "en": "Rolling barbells or discs used for dynamic bodyweight flyes",
-        "nl": "Rollende stangen of schijven voor lichaamsgewicht chest flyes"
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
       }
     },
     "category": {
@@ -23680,274 +23680,6 @@
           "rating": 5
         }
       ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T20:21:35.342Z"
-    }
-  },
-  {
-    "id": "foam_roller_foot_smr",
-    "exercise_name": {
-      "en": "Foot Foam Roll / SMR",
-      "nl": "Voetzool Massage / SMR"
-    },
-    "aliases": [
-      "Foot-SMR"
-    ],
-    "material": {
-      "id": "other",
-      "name": {
-        "en": "Foot Roller / Ball",
-        "nl": "Voetroller / Massagebal"
-      },
-      "description": {
-        "en": "Small roller, lacrosse ball, or pipe for plantar fascia release",
-        "nl": "Kleine massageroller of bal voor de peesplaat onder de voet"
-      }
-    },
-    "category": {
-      "en": "Mobility & Stretching",
-      "nl": "Mobiliteit & Rekken"
-    },
-    "target_muscles": {
-      "primary": [
-        "calves"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "isometric",
-      "tracking_type": "time_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Sit upright with shoes removed and place the arch of your foot over a small roller or ball.",
-        "Apply downward bodyweight pressure onto the roller.",
-        "Roll slowly from the ball of your foot to the heel, pausing on tender spots for 10-30 seconds."
-      ],
-      "nl": [
-        "Ga op een stoel zitten zonder schoenen en plaats de voetboog op een massagebal of kleine roller.",
-        "Geef gecontroleerde neerwaartse druk met je voet.",
-        "Rol langzaam van de bal van de voet naar de hiel en houd gevoelige plekken 10-30 seconden vast."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain gradual, tolerable pressure without tensing toes.",
-        "Breathe deeply and relax the foot muscles as you roll."
-      ],
-      "nl": [
-        "Doseer de druk rustig en verkramp je tenen niet.",
-        "Adem ontspannen door en laat de spanning onder de voet los."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": []
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T20:21:35.342Z"
-    }
-  },
-  {
-    "id": "sled_forward_drag_with_press",
-    "exercise_name": {
-      "en": "Forward Drag with Press",
-      "nl": "Forward Drag with Press"
-    },
-    "aliases": [
-      "Forward Drag with Press",
-      "Forward_Drag_with_Press"
-    ],
-    "material": {
-      "id": "other",
-      "name": {
-        "en": "Weight Sled / Prowler",
-        "nl": "Gewichtsslee / Prowler"
-      },
-      "description": {
-        "en": "Heavy turf sled with attached straps and handles",
-        "nl": "Zware slee met banden en handvatten voor trek- en duwwerk"
-      }
-    },
-    "category": {
-      "en": "Full Body",
-      "nl": "Hele Lichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals"
-      ],
-      "secondary": [
-        "calves",
-        "glutes",
-        "hamstrings",
-        "quadriceps",
-        "deltoids",
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "distance"
-    },
-    "instructions": {
-      "en": [
-        "Attach strap handles to a loaded sled and stand facing away from the sled.",
-        "Take a step forward leaning your body into the straps.",
-        "With each forward stride, press both handles forward vigorously in a chest press motion.",
-        "Continue marching forward pressing with each step across the designated distance."
-      ],
-      "nl": [
-        "Bevestig handvatten aan een gewichtsslee en ga met je rug naar de slee toe staan.",
-        "Stap voorwaarts terwijl je schuin naar voren leunt in de banden.",
-        "Druk bij elke stap beide handvatten krachtig naar voren in een borstdrukbeweging.",
-        "Blijf voorwaarts lopen en stoten over de gewenste afstand."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Drive forcefully off the balls of your feet on every step.",
-        "Time arm press synchronously with lead foot plant."
-      ],
-      "nl": [
-        "Zet krachtig af vanuit de bal van je voet bij elke pas.",
-        "Stoot met je armen gelijktijdig met het neerzetten van je voorste voet."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Forward_Drag_with_Press/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Forward_Drag_with_Press/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "3U3tlOfx9UQ",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "trinkfitness",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-10T20:21:35.342Z"
-    }
-  },
-  {
-    "id": "boxing_heavy_bag_thrust",
-    "exercise_name": {
-      "en": "Heavy Bag Thrust",
-      "nl": "Bokszak Thrust"
-    },
-    "aliases": [
-      "Heavy Bag Thrust",
-      "Heavy_Bag_Thrust"
-    ],
-    "material": {
-      "id": "other",
-      "name": {
-        "en": "Heavy Punching Bag",
-        "nl": "Bokszak"
-      },
-      "description": {
-        "en": "Hanging heavy bag used for explosive pushing and striking drills",
-        "nl": "Hangende bokszak voor stoot- en duwtraining"
-      }
-    },
-    "category": {
-      "en": "Explosive Power",
-      "nl": "Explosiviteit"
-    },
-    "target_muscles": {
-      "primary": [
-        "pectorals"
-      ],
-      "secondary": [
-        "rectus_abdominis",
-        "deltoids",
-        "triceps_brachii"
-      ]
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_only",
-      "rating": 1
-    },
-    "instructions": {
-      "en": [
-        "Stand in a wide staggered athletic stance next to a hanging heavy bag with one hand on bag at chest height.",
-        "Twist forcefully from the hips and waist, thrusting the bag forward as hard as possible.",
-        "Absorb and receive the bag as it swings back, loading into the next thrust."
-      ],
-      "nl": [
-        "Sta in een brede boksstand naast een hangende bokszak met één hand op de zak op borsthoogte.",
-        "Draai explosief in vanuit je heupen en taille en duw de zak met maximale kracht van je af.",
-        "Vang de terugslingerende zak verend op en zet direct de volgende stoot in."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Pivot off the rear foot to transfer rotational power through the core into the thrust.",
-        "Retract your shoulder blades and maintain a stable, braced upper back."
-      ],
-      "nl": [
-        "Draai in op je achterste voet om heupkracht via je core over te brengen op de zak.",
-        "Houd je bovenrug stabiel en schouderbladen aangespannen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heavy_Bag_Thrust/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heavy_Bag_Thrust/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -51136,102 +50868,6 @@
     }
   },
   {
-    "id": "barbell_preacher_curl",
-    "exercise_name": {
-      "en": "Preacher Curl",
-      "nl": "Preacher Curl"
-    },
-    "aliases": [
-      "Preacher Curl",
-      "EZ Bar Preacher Curl"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "biceps_brachii"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "beginner",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "To perform this movement you will need a preacher bench and an E-Z bar. Grab the E-Z curl bar at the close inner handle (either have someone hand you the bar which is preferable or grab the bar from the front bar rest provided by most preacher benches). The palm of your hands should be facing forward and they should be slightly tilted inwards due to the shape of the bar.",
-        "With the upper arms positioned against the preacher bench pad and the chest against it, hold the E-Z Curl Bar at shoulder length. This will be your starting position.",
-        "As you breathe in, slowly lower the bar until your upper arm is extended and the biceps is fully stretched.",
-        "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the bar is at shoulder height. Squeeze the biceps hard and hold this position for a second.",
-        "Repeat for the recommended amount of repetitions."
-      ],
-      "nl": [
-        "Ga aan de preacher bank zitten met je bovenarmen en borst stevig tegen het schuine kussen.",
-        "Pak de EZ-stang met een onderhandse greep vast op schouderbreedte met gestrekte armen.",
-        "Curl de stang omhoog richting je schouders door je biceps krachtig aan te spannen terwijl je uitademt.",
-        "Knijp bovenin een seconde samen en laat de stang rustig en gecontroleerd zakken tot bijna volledige armstrekking terwijl je inademt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Maintain full upper arm contact with the pad throughout the rep.",
-        "Avoid bouncing or violently locking out elbows at the bottom of the stretch."
-      ],
-      "nl": [
-        "Houd je bovenarmen continu op het kussen gedrukt.",
-        "Laat de stang onderin niet stuiteren en overstrek je ellebogen niet."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "7ixqAPO6JvU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "barbell_press_sit_up",
     "exercise_name": {
       "en": "Press Sit-Up",
@@ -51613,104 +51249,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "Hazzytrainer",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "barbell_reverse_barbell_preacher_curls",
-    "exercise_name": {
-      "en": "Reverse Barbell Preacher Curls",
-      "nl": "Reverse Barbell Preacher Curls"
-    },
-    "aliases": [
-      "Reverse Barbell Preacher Curls",
-      "Overhand Preacher Curl"
-    ],
-    "material": {
-      "id": "barbell",
-      "name": {
-        "en": "Barbell",
-        "nl": "Halterstang"
-      },
-      "description": {
-        "en": "Standard or Olympic weight bar with loadable weight plates for compound strength",
-        "nl": "Lange halterstang met gewichtsschijven voor samengestelde krachttraining"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "biceps_brachii"
-      ],
-      "secondary": [
-        "forearms"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Grab an EZ-bar using a shoulder width and palms down (pronated) grip.",
-        "Now place the upper part of both arms on top of the preacher bench and have your arms extended. This will be your starting position.",
-        "As you exhale, use the biceps to curl the weight up until your biceps are fully contracted and the barbell is at shoulder height. Squeeze the biceps hard for a second at the contracted position.",
-        "As you breathe in, slowly lower the barbell until your upper arms are extended and the biceps is fully stretched.",
-        "Repeat for the recommended amount of repetitions."
-      ],
-      "nl": [
-        "Plaats je bovenarmen op het kussen van de preacher bank en pak een EZ-stang of rechte stang bovenhands vast (handpalmen omlaag).",
-        "Laat je armen volledig gestrekt op het kussen rusten.",
-        "Curl de stang omhoog naar schouderhoogte terwijl je uitademt en de onderarmen aanspant.",
-        "Laat het gewicht rustig en beheerst zakken tot de startpositie terwijl je inademt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep upper arms flat against the preacher pad throughout the movement.",
-        "Maintain a strict pronated grip without twisting the wrists."
-      ],
-      "nl": [
-        "Houd je bovenarmen strak tegen het kussen gedrukt tijdens de oefening.",
-        "Handhaaf een zuivere bovenhandse grip zonder polsdraaiing."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Barbell_Preacher_Curls/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Barbell_Preacher_Curls/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "7ixqAPO6JvU",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
           "rating": 5
         }
       ]
@@ -63334,105 +62872,6 @@
     }
   },
   {
-    "id": "bodyweight_ball_leg_curl",
-    "exercise_name": {
-      "en": "Ball Leg Curl",
-      "nl": "Ball Leg Curl"
-    },
-    "aliases": [
-      "Stability Ball Leg Curl",
-      "Swiss Ball Hamstring Curl"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Lower Body",
-      "nl": "Onderlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "hamstrings"
-      ],
-      "secondary": [
-        "calves",
-        "gluteus_maximus"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_only",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Begin on the floor laying on your back with your feet on top of the ball.",
-        "Position the ball so that when your legs are extended your ankles are on top of the ball. This will be your starting position.",
-        "Raise your hips off of the ground, keeping your weight on the shoulder blades and your feet.",
-        "Flex the knees, pulling the ball as close to you as you can, contracting the hamstrings.",
-        "After a brief pause, return to the starting position."
-      ],
-      "nl": [
-        "Ga op je rug op de vloer liggen met je hielen en enkels bovenop de fitnessbal.",
-        "Til je heupen van de vloer zodat je lichaam een rechte lijn vormt van schouders tot voeten.",
-        "Buig je knieën en rol de bal zo dicht mogelijk naar je billen toe terwijl je de hamstrings aanspant.",
-        "Pauzeer kort en rol de bal weer rustig uit naar de startpositie."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep hips elevated high throughout the curling motion.",
-        "Do not allow lower back to hyperextend; keep glutes and core engaged."
-      ],
-      "nl": [
-        "Houd je heupen hoog tijdens het inrollen van de bal.",
-        "Knijp je billen en core aan om te voorkomen dat je onderrug doorzakt."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "xB1lGVzRwWk",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Powered By Movement Physical Therapy & Performance",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "bodyweight_crunches",
     "exercise_name": {
       "en": "Crunches",
@@ -63903,196 +63342,6 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "KomonAthlete ",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "bodyweight_lying_face_down_plate_neck_resistance",
-    "exercise_name": {
-      "en": "Lying Face Down Plate Neck Resistance",
-      "nl": "Lying Face Down Plate Neck Resistance"
-    },
-    "aliases": [
-      "Lying Face Down Plate Neck Resistance",
-      "Prone Neck Extension"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "trapezius"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 3
-    },
-    "instructions": {
-      "en": [
-        "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: You will need to position yourself so that your shoulders are slightly above the end of a flat bench in order for the upper chest, neck and face to be off the bench. This will be your starting position.",
-        "While keeping the plate secure on the back of your head slowly lower your head (as in saying \"yes\") as you breathe in.",
-        "Raise your head back up to the starting position in a semi-circular motion as you breathe out. Hold the contraction for a second.",
-        "Repeat for the recommended amount of repetitions."
-      ],
-      "nl": [
-        "Ga op je buik op een vlakke bank liggen met je hoofd en hals net voorbij de rand van de bank.",
-        "Houd met beide handen een lichte gewichtsschijf (eventueel met een handdoek) tegen het achterhoofd.",
-        "Laat je hoofd langzaam en gecontroleerd zakken richting je borstkas terwijl je inademt.",
-        "Til je hoofd weer rustig omhoog tot je nek in lijn is met je ruggengraat terwijl je uitademt."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Use a light weight plate and perform strict, smooth repetitions.",
-        "Avoid aggressive hyperextension of the cervical spine at the top of the lift."
-      ],
-      "nl": [
-        "Gebruik een bescheiden gewicht en voer de beweging uiterst beheerst uit.",
-        "Overstrek je nek niet geforceerd omhoog aan het einde van de beweging."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Down_Plate_Neck_Resistance/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Down_Plate_Neck_Resistance/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "wfBLioFilKA",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "ASHOK GYM (SINCE-1994) క్రీడా సంస్కృతి.",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
-    "id": "bodyweight_lying_face_up_plate_neck_resistance",
-    "exercise_name": {
-      "en": "Lying Face Up Plate Neck Resistance",
-      "nl": "Lying Face Up Plate Neck Resistance"
-    },
-    "aliases": [
-      "Lying Face Up Plate Neck Resistance",
-      "Supine Neck Flexion"
-    ],
-    "material": {
-      "id": "bodyweight",
-      "name": {
-        "en": "Bodyweight",
-        "nl": "Lichaamsgewicht"
-      },
-      "description": {
-        "en": "Calisthenic exercises using body mass and gravity as primary resistance",
-        "nl": "Calisthenics en gymnastiekoefeningen met het eigen lichaamsgewicht"
-      }
-    },
-    "category": {
-      "en": "Upper Body",
-      "nl": "Bovenlichaam"
-    },
-    "target_muscles": {
-      "primary": [
-        "trapezius"
-      ],
-      "secondary": []
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "isolation",
-      "force_type": "pull",
-      "tracking_type": "reps_and_weight",
-      "rating": 4
-    },
-    "instructions": {
-      "en": [
-        "Lie face up with your whole body straight on a flat bench while holding a weight plate on top of your forehead. Tip: You will need to position yourself so that your shoulders are slightly above the end of a flat bench in order for the traps, neck and head to be off the bench. This will be your starting position.",
-        "While keeping the plate secure on your forehead slowly lower your head back in a semi-circular motion as you breathe in.",
-        "Raise your head back up to the starting position in a semi-circular motion as you breathe out. Hold the contraction for a second.",
-        "Repeat for the recommended amount of repetitions."
-      ],
-      "nl": [
-        "Ga op je rug op een vlakke bank liggen met je hoofd en nek net voorbij de rand van de bank.",
-        "Plaats een lichte gewichtsschijf (voorzien van een handdoek) voorzichtig op je voorhoofd en houd deze vast met beide handen.",
-        "Laat je hoofd gecontroleerd naar achteren zakken terwijl je inademt.",
-        "Buig je nek naar voren om je kin richting je borst te brengen terwijl je uitademt en houd kort vast."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Keep hands firmly on the plate to ensure it stays securely centered on the forehead.",
-        "Move through a controlled, pain-free range of motion without jerking."
-      ],
-      "nl": [
-        "Houd de schijf met beide handen stevig vast op je voorhoofd.",
-        "Beweeg rustig en pijnvrij zonder schokkerige bewegingen."
-      ]
-    },
-    "relations": {
-      "progressions": [],
-      "regressions": []
-    },
-    "media": {
-      "images": [
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Up_Plate_Neck_Resistance/0.jpg",
-          "type": "photo"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Up_Plate_Neck_Resistance/1.jpg",
-          "type": "photo"
-        }
-      ],
-      "videos": [
-        {
-          "youtube_id": "kQsWENE0vdY",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "fitness student",
           "rating": 5
         }
       ]
@@ -72382,96 +71631,6 @@
     }
   },
   {
-    "id": "dumbbells_db_arnold_press",
-    "exercise_name": {
-      "en": "Arnold Press",
-      "nl": "Arnold Press"
-    },
-    "aliases": [
-      "Arnold Press"
-    ],
-    "material": {
-      "id": "dumbbells",
-      "name": {
-        "en": "Dumbbells",
-        "nl": "Halters / Dumbbells"
-      },
-      "description": {
-        "en": "Free weights designed for unilateral and bilateral functional strength training",
-        "nl": "Korte halters voor unilaterale en bilaterale krachttraining"
-      }
-    },
-    "category": {
-      "en": "Shoulders",
-      "nl": "Schouders"
-    },
-    "target_muscles": {
-      "primary": [
-        "rectus_abdominis",
-        "cardiovascular_system"
-      ],
-      "secondary": [
-        "gluteus_maximus",
-        "deltoids"
-      ]
-    },
-    "attributes": {
-      "difficulty": "intermediate",
-      "mechanics": "compound",
-      "force_type": "push",
-      "tracking_type": "reps_and_weight",
-      "rating": 5
-    },
-    "instructions": {
-      "en": [
-        "Start with dumbbells held in front of your shoulders, palms facing toward your body in an Arnold press setup.",
-        "Push up and simultaneously rotate your hands open (forward).",
-        "Turn back when lowering."
-      ],
-      "nl": [
-        "Start met dumbbells voor je schouders, handpalmen naar je toe.",
-        "Duw omhoog en draai tegelijkertijd je handen open (naar voren).",
-        "Draai terug bij het zakken."
-      ]
-    },
-    "form_cues": {
-      "en": [
-        "Brace your core tightly as if preparing for a punch and avoid arching the lower back.",
-        "Exhale forcefully through pursed lips during the concentric contraction."
-      ],
-      "nl": [
-        "Span je buikspieren hard aan en voorkom dat je onderrug hol trekt.",
-        "Blaas krachtig uit tijdens het zwaarste punt van de buikspiercontractie."
-      ]
-    },
-    "relations": {
-      "progressions": [
-        "dumbbells_db_single_arm_snatch"
-      ],
-      "regressions": [
-        "dumbbells_farmers_walk"
-      ]
-    },
-    "media": {
-      "videos": [
-        {
-          "youtube_id": "AjB-UXErljM",
-          "type": "short",
-          "priority": 1,
-          "language": "en",
-          "start_seconds": 0,
-          "aspect_ratio": "9:16",
-          "channel": "Andrew Kwong (DeltaBolic)",
-          "rating": 5
-        }
-      ]
-    },
-    "meta": {
-      "schema_version": "1.1.0",
-      "updated_at": "2026-09-11T08:10:06.659Z"
-    }
-  },
-  {
     "id": "dumbbells_db_single_arm_snatch",
     "exercise_name": {
       "en": "Single Arm Dumbbell Snatch",
@@ -72563,11 +71722,14 @@
   {
     "id": "dumbbells_db_hammer_curl",
     "exercise_name": {
-      "en": "Hammer Curls",
-      "nl": "Hammer Curls"
+      "en": "Bilateral Hammer Curl",
+      "nl": "Dubbele Hammer Curl"
     },
     "aliases": [
-      "Hammer Curls"
+      "Bilateral Hammer Curl",
+      "Hammer Curls",
+      "Simultaneous Hammer Curl",
+      "Standing Hammer Curls"
     ],
     "material": {
       "id": "dumbbells",
@@ -72603,13 +71765,13 @@
     "instructions": {
       "en": [
         "Hold dumbbells with palms facing each other (neutral grip).",
-        "Curl up without moving the elbows.",
-        "Good for biceps and forearms."
+        "Curl both dumbbells up simultaneously without swinging your elbows.",
+        "Squeeze your biceps and forearms at the top, then lower under control."
       ],
       "nl": [
-        "Houd dumbbells vast met handpalmen naar elkaar toe (neutrale grip).",
-        "Curl omhoog zonder de ellebogen te bewegen.",
-        "Goed voor biceps en onderarmen."
+        "Houd in beide handen een dumbbell vast met de handpalmen naar elkaar toe (neutrale grip).",
+        "Curl beide dumbbells gelijktijdig omhoog zonder de ellebogen naar voren te zwaaien.",
+        "Knijp je biceps en onderarmen bovenin goed aan en laat beide gewichten gecontroleerd zakken."
       ]
     },
     "form_cues": {
@@ -72745,11 +71907,13 @@
   {
     "id": "dumbbells_db_overhead_tricep_extension",
     "exercise_name": {
-      "en": "Overhead Tricep Extension",
-      "nl": "Overhead Tricep Extension"
+      "en": "Standing Overhead Tricep Extension",
+      "nl": "Staande Overhead Triceps Extension"
     },
     "aliases": [
-      "Overhead Tricep Extension"
+      "Standing Overhead Tricep Extension",
+      "Overhead Tricep Extension",
+      "Standing Two-Arm Overhead Dumbbell Extension"
     ],
     "material": {
       "id": "dumbbells",
@@ -72784,14 +71948,14 @@
     },
     "instructions": {
       "en": [
-        "Hold one heavy weight (or two lighter weights) overhead with locked-out arms.",
-        "Bend your elbows and lower the weight behind your head.",
-        "Extend fully through your joints."
+        "Stand tall with feet shoulder-width apart, holding a dumbbell overhead with both hands.",
+        "Bend your elbows and lower the weight in a controlled arch behind your head.",
+        "Extend your elbows fully through the triceps to return to the top position."
       ],
       "nl": [
-        "Houd één zwaar gewicht (of twee lichtere) boven je hoofd met gestrekte armen.",
-        "Buig je ellebogen en laat het gewicht achter je hoofd zakken.",
-        "Strek uit."
+        "Sta rechtop met je voeten op heupbreedte en houd één dumbbell met beide handen recht boven je hoofd.",
+        "Buig je ellebogen en laat het gewicht gecontroleerd achter je hoofd zakken.",
+        "Druk het gewicht vanuit je triceps krachtig weer uit tot volledige armstrekking."
       ]
     },
     "form_cues": {
@@ -73004,6 +72168,383 @@
           "rating": 5
         }
       ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "stability_ball_ball_leg_curl",
+    "exercise_name": {
+      "en": "Ball Leg Curl",
+      "nl": "Ball Leg Curl"
+    },
+    "aliases": [
+      "Stability Ball Leg Curl",
+      "Swiss Ball Hamstring Curl"
+    ],
+    "material": {
+      "id": "exercise_ball",
+      "name": {
+        "en": "Stability Ball",
+        "nl": "Fysiobal / Stabiliteitsbal"
+      },
+      "description": {
+        "en": "Inflatable exercise ball for balance, rehabilitation, and core stabilization",
+        "nl": "Grote opblaasbare fitnessbal voor balans, core en mobiliteit"
+      }
+    },
+    "category": {
+      "en": "Lower Body",
+      "nl": "Onderlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "hamstrings"
+      ],
+      "secondary": [
+        "calves",
+        "gluteus_maximus"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_only",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Begin on the floor laying on your back with your feet on top of the ball.",
+        "Position the ball so that when your legs are extended your ankles are on top of the ball. This will be your starting position.",
+        "Raise your hips off of the ground, keeping your weight on the shoulder blades and your feet.",
+        "Flex the knees, pulling the ball as close to you as you can, contracting the hamstrings.",
+        "After a brief pause, return to the starting position."
+      ],
+      "nl": [
+        "Ga op je rug op de vloer liggen met je hielen en enkels bovenop de fitnessbal.",
+        "Til je heupen van de vloer zodat je lichaam een rechte lijn vormt van schouders tot voeten.",
+        "Buig je knieën en rol de bal zo dicht mogelijk naar je billen toe terwijl je de hamstrings aanspant.",
+        "Pauzeer kort en rol de bal weer rustig uit naar de startpositie."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep hips elevated high throughout the curling motion.",
+        "Do not allow lower back to hyperextend; keep glutes and core engaged."
+      ],
+      "nl": [
+        "Houd je heupen hoog tijdens het inrollen van de bal.",
+        "Knijp je billen en core aan om te voorkomen dat je onderrug doorzakt."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Ball_Leg_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "xB1lGVzRwWk",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Powered By Movement Physical Therapy & Performance",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_preacher_curl",
+    "exercise_name": {
+      "en": "Preacher Curl",
+      "nl": "Preacher Curl"
+    },
+    "aliases": [
+      "Preacher Curl",
+      "EZ Bar Preacher Curl",
+      "Scott Curl"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "To perform this movement you will need a preacher bench and an E-Z bar. Grab the E-Z curl bar at the close inner handle. The palm of your hands should be facing forward and slightly tilted inwards.",
+        "With the upper arms positioned against the preacher bench pad and the chest against it, hold the E-Z Curl Bar at shoulder length. This will be your starting position.",
+        "As you breathe in, slowly lower the bar until your upper arm is extended and the biceps is fully stretched.",
+        "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the bar is at shoulder height. Squeeze the biceps hard and hold this position for a second.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga aan de preacher bank zitten met je bovenarmen en borst stevig tegen het schuine kussen.",
+        "Pak de EZ-stang met een onderhandse greep vast op schouderbreedte met gestrekte armen.",
+        "Curl de stang omhoog richting je schouders door je biceps krachtig aan te spannen terwijl je uitademt.",
+        "Knijp bovenin een seconde samen en laat de stang rustig en gecontroleerd zakken tot bijna volledige armstrekking terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain full upper arm contact with the pad throughout the rep.",
+        "Avoid bouncing or violently locking out elbows at the bottom of the stretch."
+      ],
+      "nl": [
+        "Houd je bovenarmen continu op het kussen gedrukt.",
+        "Laat de stang onderin niet stuiteren en overstrek je ellebogen niet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Preacher_Curl/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "7ixqAPO6JvU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "ez_bar_reverse_preacher_curls",
+    "exercise_name": {
+      "en": "Reverse EZ-Bar Preacher Curls",
+      "nl": "Reverse EZ-Bar Preacher Curls"
+    },
+    "aliases": [
+      "Reverse Barbell Preacher Curls",
+      "Overhand Preacher Curl",
+      "Reverse EZ-Bar Preacher Curl"
+    ],
+    "material": {
+      "id": "ez_bar",
+      "name": {
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
+      },
+      "description": {
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "biceps_brachii"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 5
+    },
+    "instructions": {
+      "en": [
+        "Grab an EZ-bar using a shoulder-width and palms-down (pronated) overhand grip.",
+        "Now place the upper part of both arms on top of the preacher bench and have your arms extended. This will be your starting position.",
+        "As you exhale, use the forearms and biceps to curl the weight up until the bar is at shoulder height. Squeeze hard for a second at the top.",
+        "As you breathe in, slowly lower the barbell until your upper arms are extended and the muscles are fully stretched.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Plaats je bovenarmen op het kussen van de preacher bank en pak een EZ-stang bovenhands vast (handpalmen omlaag).",
+        "Laat je armen gestrekt op het kussen rusten.",
+        "Curl de stang omhoog naar schouderhoogte terwijl je uitademt en de onderarmen en biceps aanspant.",
+        "Laat het gewicht rustig en beheerst zakken tot de startpositie terwijl je inademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep upper arms flat against the preacher pad throughout the movement.",
+        "Maintain a strict pronated grip without twisting the wrists."
+      ],
+      "nl": [
+        "Houd je bovenarmen strak tegen het kussen gedrukt tijdens de oefening.",
+        "Handhaaf een zuivere bovenhandse grip zonder polsdraaiing."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Barbell_Preacher_Curls/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Barbell_Preacher_Curls/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "7ixqAPO6JvU",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "Andrew Kwong (DeltaBolic)",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "foam_roller_foot_smr",
+    "exercise_name": {
+      "en": "Foot Foam Roll / SMR",
+      "nl": "Voetzool Massage / SMR"
+    },
+    "aliases": [
+      "Foot-SMR",
+      "Foot Foam Roll"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Sit upright with shoes removed and place the arch of your foot over a small roller or ball.",
+        "Apply downward bodyweight pressure onto the roller.",
+        "Roll slowly from the ball of your foot to the heel, pausing on tender spots for 10-30 seconds."
+      ],
+      "nl": [
+        "Ga op een stoel zitten zonder schoenen en plaats de voetboog op een massagebal of kleine roller.",
+        "Geef gecontroleerde neerwaartse druk met je voet.",
+        "Rol langzaam van de bal van de voet naar de hiel en houd gevoelige plekken 10-30 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain gradual, tolerable pressure without tensing toes.",
+        "Breathe deeply and relax the foot muscles as you roll."
+      ],
+      "nl": [
+        "Doseer de druk rustig en verkramp je tenen niet.",
+        "Adem ontspannen door en laat de spanning onder de voet los."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",
@@ -78534,6 +78075,198 @@
           "start_seconds": 0,
           "aspect_ratio": "9:16",
           "channel": "livfitkarl",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "other_lying_face_down_plate_neck_resistance",
+    "exercise_name": {
+      "en": "Lying Face Down Plate Neck Resistance",
+      "nl": "Lying Face Down Plate Neck Resistance"
+    },
+    "aliases": [
+      "Lying Face Down Plate Neck Resistance",
+      "Prone Neck Extension",
+      "Weight Plate Prone Neck Extension"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Weight Plate / Bench",
+        "nl": "Halterschijf / Vlakke Bank"
+      },
+      "description": {
+        "en": "Loose weight plate and bench for direct neck flexion and extension resistance",
+        "nl": "Halterschijf en trainingsbank voor gerichte nekspiertraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 3
+    },
+    "instructions": {
+      "en": [
+        "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: Position yourself so your upper chest, neck, and face are off the bench.",
+        "While keeping the plate secure on the back of your head, slowly lower your head as you breathe in.",
+        "Raise your head back up to the starting position in a semi-circular motion as you breathe out. Hold the contraction for a second.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op je buik op een vlakke bank liggen met je hoofd en hals net voorbij de rand van de bank.",
+        "Houd met beide handen een lichte gewichtsschijf (eventueel met een handdoek) tegen het achterhoofd.",
+        "Laat je hoofd langzaam en gecontroleerd zakken richting je borstkas terwijl je inademt.",
+        "Til je hoofd weer rustig omhoog tot je nek in lijn is met je ruggengraat terwijl je uitademt."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Use a light weight plate and perform strict, smooth repetitions.",
+        "Avoid aggressive hyperextension of the cervical spine at the top of the lift."
+      ],
+      "nl": [
+        "Gebruik een bescheiden gewicht en voer de beweging uiterst beheerst uit.",
+        "Overstrek je nek niet geforceerd omhoog aan het einde van de beweging."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Down_Plate_Neck_Resistance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Down_Plate_Neck_Resistance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "wfBLioFilKA",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "ASHOK GYM (SINCE-1994) క్రీడా సంస్కృతి.",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "other_lying_face_up_plate_neck_resistance",
+    "exercise_name": {
+      "en": "Lying Face Up Plate Neck Resistance",
+      "nl": "Lying Face Up Plate Neck Resistance"
+    },
+    "aliases": [
+      "Lying Face Up Plate Neck Resistance",
+      "Supine Neck Flexion",
+      "Weight Plate Supine Neck Flexion"
+    ],
+    "material": {
+      "id": "other",
+      "name": {
+        "en": "Weight Plate / Bench",
+        "nl": "Halterschijf / Vlakke Bank"
+      },
+      "description": {
+        "en": "Loose weight plate and bench for direct neck flexion and extension resistance",
+        "nl": "Halterschijf en trainingsbank voor gerichte nekspiertraining"
+      }
+    },
+    "category": {
+      "en": "Upper Body",
+      "nl": "Bovenlichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "trapezius"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "pull",
+      "tracking_type": "reps_and_weight",
+      "rating": 4
+    },
+    "instructions": {
+      "en": [
+        "Lie face up with your whole body straight on a flat bench while holding a weight plate on top of your forehead. Tip: Position yourself so traps, neck, and head are off the bench.",
+        "While keeping the plate secure on your forehead slowly lower your head back in a semi-circular motion as you breathe in.",
+        "Raise your head back up to the starting position in a semi-circular motion as you breathe out. Hold the contraction for a second.",
+        "Repeat for the recommended amount of repetitions."
+      ],
+      "nl": [
+        "Ga op je rug op een vlakke bank liggen met je hoofd en nek net voorbij de rand van de bank.",
+        "Plaats een lichte gewichtsschijf (voorzien van een handdoek) voorzichtig op je voorhoofd en houd deze vast met beide handen.",
+        "Laat je hoofd gecontroleerd naar achteren zakken terwijl je inademt.",
+        "Buig je nek naar voren om je kin richting je borst te brengen terwijl je uitademt en houd kort vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Keep hands firmly on the plate to ensure it stays securely centered on the forehead.",
+        "Move through a controlled, pain-free range of motion without jerking."
+      ],
+      "nl": [
+        "Houd de schijf met beide handen stevig vast op je voorhoofd.",
+        "Beweeg rustig en pijnvrij zonder schokkerige bewegingen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Up_Plate_Neck_Resistance/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Face_Up_Plate_Neck_Resistance/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "kQsWENE0vdY",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "fitness student",
           "rating": 5
         }
       ]
@@ -89591,6 +89324,110 @@
     }
   },
   {
+    "id": "sprint_track_sled_forward_drag_with_press",
+    "exercise_name": {
+      "en": "Sled Forward Drag with Press",
+      "nl": "Sled Forward Drag met Press"
+    },
+    "aliases": [
+      "Forward Drag with Press",
+      "Sled Forward Drag with Press",
+      "Weight Sled Drag with Chest Press"
+    ],
+    "material": {
+      "id": "sprint_track",
+      "name": {
+        "en": "Sprint Track / Turf",
+        "nl": "Sprinttrack / Kunstgras"
+      },
+      "description": {
+        "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
+        "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
+      }
+    },
+    "category": {
+      "en": "Full Body",
+      "nl": "Hele Lichaam"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "calves",
+        "glutes",
+        "hamstrings",
+        "quadriceps",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "distance"
+    },
+    "instructions": {
+      "en": [
+        "Attach strap handles to a loaded sled and stand facing away from the sled.",
+        "Take a step forward leaning your body into the straps.",
+        "With each forward stride, press both handles forward vigorously in a chest press motion.",
+        "Continue marching forward pressing with each step across the designated distance."
+      ],
+      "nl": [
+        "Bevestig handvatten aan een gewichtsslee en ga met je rug naar de slee toe staan.",
+        "Stap voorwaarts terwijl je schuin naar voren leunt in de banden.",
+        "Druk bij elke stap beide handvatten krachtig naar voren in een borstdrukbeweging.",
+        "Blijf voorwaarts lopen en stoten over de gewenste afstand."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Drive forcefully off the balls of your feet on every step.",
+        "Time arm press synchronously with lead foot plant."
+      ],
+      "nl": [
+        "Zet krachtig af vanuit de bal van je voet bij elke pas.",
+        "Stoot met je armen gelijktijdig met het neerzetten van je voorste voet."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": [
+        "sprint_track_sled_drag_harness"
+      ]
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Forward_Drag_with_Press/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Forward_Drag_with_Press/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "3U3tlOfx9UQ",
+          "type": "short",
+          "priority": 1,
+          "language": "en",
+          "start_seconds": 0,
+          "aspect_ratio": "9:16",
+          "channel": "trinkfitness",
+          "rating": 5
+        }
+      ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
     "id": "standing_punching_bag_burpee_over_bag",
     "exercise_name": {
       "en": "Burpee Over Bag",
@@ -91338,6 +91175,93 @@
           "rating": 5
         }
       ]
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
+  },
+  {
+    "id": "standing_punching_bag_heavy_bag_thrust",
+    "exercise_name": {
+      "en": "Heavy Bag Thrust",
+      "nl": "Bokszak Thrust"
+    },
+    "aliases": [
+      "Heavy Bag Thrust",
+      "Heavy_Bag_Thrust",
+      "Punching Bag Thrust"
+    ],
+    "material": {
+      "id": "standing_punching_bag",
+      "name": {
+        "en": "Standing Punching Bag",
+        "nl": "Staande Bokspaal"
+      },
+      "description": {
+        "en": "Freestanding heavy punch bag for boxing strikes, kicks, tackles, and combat conditioning",
+        "nl": "Vrijstaande bokspaal voor stoten, trappen, tackles en vechtsportconditie"
+      }
+    },
+    "category": {
+      "en": "Explosive Power",
+      "nl": "Explosiviteit"
+    },
+    "target_muscles": {
+      "primary": [
+        "pectorals"
+      ],
+      "secondary": [
+        "rectus_abdominis",
+        "deltoids",
+        "triceps_brachii"
+      ]
+    },
+    "attributes": {
+      "difficulty": "beginner",
+      "mechanics": "compound",
+      "force_type": "push",
+      "tracking_type": "reps_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Stand in a wide staggered athletic stance next to the punching bag with one hand on bag at chest height.",
+        "Twist forcefully from the hips and waist, thrusting the bag forward as hard as possible.",
+        "Absorb and receive the bag as it swings back, loading into the next thrust."
+      ],
+      "nl": [
+        "Sta in een brede boksstand naast de bokszak/bokspaal met één hand op de zak op borsthoogte.",
+        "Draai explosief in vanuit je heupen en taille en duw de zak met maximale kracht van je af.",
+        "Vang de terugslingerende zak verend op en zet direct de volgende stoot in."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Pivot off the rear foot to transfer rotational power through the core into the thrust.",
+        "Retract your shoulder blades and maintain a stable, braced upper back."
+      ],
+      "nl": [
+        "Draai in op je achterste voet om heupkracht via je core over te brengen op de zak.",
+        "Houd je bovenrug stabiel en schouderbladen aangespannen."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heavy_Bag_Thrust/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Heavy_Bag_Thrust/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
     },
     "meta": {
       "schema_version": "1.1.0",

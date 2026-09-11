@@ -1,8 +1,8 @@
 {
   "repository": "rthepen/workout-database",
   "schema_version": "1.1.0",
-  "last_updated_utc": "2026-09-11T08:14:36.523424+00:00",
-  "total_exercises": 1029,
+  "last_updated_utc": "2026-09-11T10:29:23.221981+00:00",
+  "total_exercises": 1028,
   "total_equipment_types": 31,
   "available_materials": {
     "ab_wheel": {
@@ -137,12 +137,12 @@
     },
     "ez_bar": {
       "name": {
-        "en": "EZ Bar / Rollers",
-        "nl": "EZ-Stang / Rollers"
+        "en": "EZ Bar",
+        "nl": "EZ-Curlstang / EZ-Stang"
       },
       "description": {
-        "en": "Rolling barbells or discs used for dynamic bodyweight flyes",
-        "nl": "Rollende stangen of schijven voor lichaamsgewicht chest flyes"
+        "en": "Cambered barbell designed to reduce wrist and forearm strain during curls and extensions",
+        "nl": "Gegolfde halterstang ter ontlasting van polsen en onderarmen bij curls en extensions"
       }
     },
     "foam_roller": {
@@ -207,12 +207,12 @@
     },
     "other": {
       "name": {
-        "en": "Heavy Punching Bag",
-        "nl": "Bokszak"
+        "en": "Weight Plate / Bench",
+        "nl": "Halterschijf / Vlakke Bank"
       },
       "description": {
-        "en": "Hanging heavy bag used for explosive pushing and striking drills",
-        "nl": "Hangende bokszak voor stoot- en duwtraining"
+        "en": "Loose weight plate and bench for direct neck flexion and extension resistance",
+        "nl": "Halterschijf en trainingsbank voor gerichte nekspiertraining"
       }
     },
     "parallettes": {
@@ -277,12 +277,12 @@
     },
     "sprint_track": {
       "name": {
-        "en": "Sprint Track / Sled Track",
-        "nl": "Sprintbaan / Sleebaan"
+        "en": "Sprint Track / Turf",
+        "nl": "Sprinttrack / Kunstgras"
       },
       "description": {
         "en": "Turf sprint lane for sled pushes, drags, lunges, and resisted acceleration drills",
-        "nl": "Kunstgras sprintbaan voor prowler pushes, slee trekken en sprintversnellingen"
+        "nl": "Kunstgras sprintstrook voor sled pushes, pulls, lunges en sprinttrainingen"
       }
     },
     "standing_punching_bag": {

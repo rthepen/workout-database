@@ -898,5 +898,87 @@
       "schema_version": "1.1.0",
       "updated_at": "2026-09-10T17:25:55.823Z"
     }
+  },
+  {
+    "id": "foam_roller_foot_smr",
+    "exercise_name": {
+      "en": "Foot Foam Roll / SMR",
+      "nl": "Voetzool Massage / SMR"
+    },
+    "aliases": [
+      "Foot-SMR",
+      "Foot Foam Roll"
+    ],
+    "material": {
+      "id": "foam_roller",
+      "name": {
+        "en": "Foam Roller",
+        "nl": "Foamroller"
+      },
+      "description": {
+        "en": "Dense foam cylinder used for self-myofascial release and muscle recovery",
+        "nl": "Schuimcilinder voor zelfmassage, myofasciale release en spierherstel"
+      }
+    },
+    "category": {
+      "en": "Mobility & Stretching",
+      "nl": "Mobiliteit & Rekken"
+    },
+    "target_muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": []
+    },
+    "attributes": {
+      "difficulty": "intermediate",
+      "mechanics": "isolation",
+      "force_type": "isometric",
+      "tracking_type": "time_only",
+      "rating": 1
+    },
+    "instructions": {
+      "en": [
+        "Sit upright with shoes removed and place the arch of your foot over a small roller or ball.",
+        "Apply downward bodyweight pressure onto the roller.",
+        "Roll slowly from the ball of your foot to the heel, pausing on tender spots for 10-30 seconds."
+      ],
+      "nl": [
+        "Ga op een stoel zitten zonder schoenen en plaats de voetboog op een massagebal of kleine roller.",
+        "Geef gecontroleerde neerwaartse druk met je voet.",
+        "Rol langzaam van de bal van de voet naar de hiel en houd gevoelige plekken 10-30 seconden vast."
+      ]
+    },
+    "form_cues": {
+      "en": [
+        "Maintain gradual, tolerable pressure without tensing toes.",
+        "Breathe deeply and relax the foot muscles as you roll."
+      ],
+      "nl": [
+        "Doseer de druk rustig en verkramp je tenen niet.",
+        "Adem ontspannen door en laat de spanning onder de voet los."
+      ]
+    },
+    "relations": {
+      "progressions": [],
+      "regressions": []
+    },
+    "media": {
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/0.jpg",
+          "type": "photo"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Foot-SMR/1.jpg",
+          "type": "photo"
+        }
+      ],
+      "videos": []
+    },
+    "meta": {
+      "schema_version": "1.1.0",
+      "updated_at": "2026-09-11T08:10:06.659Z"
+    }
   }
 ]
